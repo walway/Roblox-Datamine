@@ -35,6 +35,9 @@
 !InExperience/
 !InExperience/**
 
+# Local-only metadata — never publish.
+Client/version.json
+
 # Never publish tooling / secrets even if nested somehow.
 **/.datamine/
 **/node_modules/

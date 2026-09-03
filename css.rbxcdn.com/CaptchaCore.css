@@ -8,6 +8,8 @@
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 .captcha-core-error {
   display: none;
 }
+

@@ -2,10 +2,12 @@
   min-height: 160px;
   overflow: hidden;
 }
+
 .AudienceReachGrowthOpportunitiesBanner-module__U8tNBq__heroCoverImage {
   object-fit: cover;
   object-position: left center;
 }
+
 .AudienceReachGrowthOpportunitiesBanner-module__U8tNBq__heroTextContent {
   z-index: 1;
   box-sizing: border-box;
@@ -14,10 +16,13 @@
   min-width: 0;
   max-width: 600px;
 }
+
 .AudienceReachGrowthOpportunitiesBanner-module__U8tNBq__buttonRow {
   flex-wrap: wrap;
 }
+
 .VideoOnboarding-module__XGQula__videoPlaceholder {
   background: #000;
 }
+
 /*# sourceMappingURL=37evl23-fslil.css.map*/
