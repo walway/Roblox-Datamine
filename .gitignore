@@ -20,6 +20,19 @@
 !assets.create.roblox.com/
 !assets.create.roblox.com/**
 
+# Do not track per-deploy Create trees (each deploy is a new 40-char hash /
+# store/<hash> folder and re-commits ~400k lines of chunks). Keep only the
+# flattened shared _next dump below.
+assets.create.roblox.com/[0-9a-f]*/
+assets.create.roblox.com/store/
+
+!assets.create.roblox.com/_next/
+!assets.create.roblox.com/_next/**
+
+# Only .js under static/chunks — skip CSS/media noise in that folder.
+assets.create.roblox.com/_next/static/chunks/*
+!assets.create.roblox.com/_next/static/chunks/*.js
+
 !clientsettings.roblox.com/
 !clientsettings.roblox.com/**
 
