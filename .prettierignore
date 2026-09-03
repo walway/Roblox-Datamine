@@ -1,7 +1,0 @@
-node_modules
-.datamine
-.git
-package-lock.json
-*.log
-.env
-.env.*
