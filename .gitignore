@@ -1,0 +1,5 @@
+node_modules/
+.datamine/run.log
+*.log
+.env
+.env.*

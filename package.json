@@ -1,0 +1,21 @@
+{
+  "name": "roblox-css-datamine",
+  "version": "1.0.0",
+  "description": "Scans Roblox CSS, JS, and API endpoints for changes and publishes to GitHub",
+  "type": "module",
+  "scripts": {
+    "mine": "node src/dataminer.js",
+    "mine:push": "node src/dataminer.js --push",
+    "watch": "node scripts/watch-mine.js",
+    "watch:fast": "node scripts/watch-mine.js --interval=1m",
+    "sync-catalog": "node scripts/generate-bundle-catalog.js",
+    "pretty": "node -e \"import('./src/lib/pretty.js').then(m => m.prettyPrintRepo(process.cwd()).then(s => console.log(s)))\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "prettier": "^3.5.3"
+  }
+}
