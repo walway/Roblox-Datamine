@@ -12753,17 +12753,15 @@
                           (0, ep.jsx)("p", {
                             className: "text-body-large",
                             dangerouslySetInnerHTML: {
-                              __html: ""
-                                .concat(u("Label.FollowInstallSteps"), " ")
-                                .concat(
-                                  u("Label.RetryDownload", {
-                                    startLink: '<a href="'.concat(
-                                      p,
-                                      '" class="download-link-underline">'
-                                    ),
-                                    endLink: "</a>"
-                                  })
-                                )
+                              __html: "".concat(u("Label.FollowInstallSteps"), " ").concat(
+                                u("Label.RetryDownload", {
+                                  startLink: '<a href="'.concat(
+                                    p,
+                                    '" class="download-link-underline">'
+                                  ),
+                                  endLink: "</a>"
+                                })
+                              )
                             }
                           })
                         ]

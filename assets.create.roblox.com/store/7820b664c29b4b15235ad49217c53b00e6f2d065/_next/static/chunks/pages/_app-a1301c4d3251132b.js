@@ -91502,32 +91502,28 @@ Error:`,
                     (0, p.jsxs)("div", {
                       className: "flex flex-col items-start",
                       children: [
-                        n
-                          .slice(0, 4)
-                          .map((t) =>
-                            (0, p.jsx)(
-                              "p",
-                              {
-                                className: "text-body-medium",
-                                style: { wordBreak: "break-word" },
-                                children: t.utteranceText
-                              },
-                              t.utteranceText
-                            )
-                          ),
-                        n
-                          .slice(4)
-                          .map((t) =>
-                            (0, p.jsx)(
-                              "p",
-                              {
-                                className: "text-body-medium ".concat(r ? "" : "hidden"),
-                                style: { wordBreak: "break-word" },
-                                children: t.utteranceText
-                              },
-                              t.utteranceText
-                            )
+                        n.slice(0, 4).map((t) =>
+                          (0, p.jsx)(
+                            "p",
+                            {
+                              className: "text-body-medium",
+                              style: { wordBreak: "break-word" },
+                              children: t.utteranceText
+                            },
+                            t.utteranceText
                           )
+                        ),
+                        n.slice(4).map((t) =>
+                          (0, p.jsx)(
+                            "p",
+                            {
+                              className: "text-body-medium ".concat(r ? "" : "hidden"),
+                              style: { wordBreak: "break-word" },
+                              children: t.utteranceText
+                            },
+                            t.utteranceText
+                          )
+                        )
                       ]
                     })
                   ]
@@ -151521,13 +151517,11 @@ For more information, see https://radix-ui.com/primitives/docs/components/${n.do
               /sentryWrapped/.test(u(p).function || "") && p.pop(),
               p.reverse(),
               a.test(u(p).function || "") && (p.pop(), a.test(u(p).function || "") && p.pop()),
-              p
-                .slice(0, 50)
-                .map((t) => ({
-                  ...t,
-                  filename: t.filename || u(p).filename,
-                  function: t.function || o
-                }))
+              p.slice(0, 50).map((t) => ({
+                ...t,
+                filename: t.filename || u(p).filename,
+                function: t.function || o
+              }))
             );
           };
         }

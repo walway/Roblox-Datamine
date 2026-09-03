@@ -40633,17 +40633,12 @@
                     (0, p.jsx)("p", {
                       className: "text-body-large",
                       dangerouslySetInnerHTML: {
-                        __html: ""
-                          .concat(e("Label.FollowInstallSteps"), " ")
-                          .concat(
-                            e("Label.RetryDownload", {
-                              startLink: '<a href="'.concat(
-                                l,
-                                '" class="download-link-underline">'
-                              ),
-                              endLink: "</a>"
-                            })
-                          )
+                        __html: "".concat(e("Label.FollowInstallSteps"), " ").concat(
+                          e("Label.RetryDownload", {
+                            startLink: '<a href="'.concat(l, '" class="download-link-underline">'),
+                            endLink: "</a>"
+                          })
+                        )
                       }
                     })
                   ]

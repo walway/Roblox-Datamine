@@ -15855,13 +15855,11 @@ object-assign
                   if (
                     ((this.options = this.client.defaultQueryOptions(e)),
                     tV(n, this.options) ||
-                      this.client
-                        .getQueryCache()
-                        .notify({
-                          type: "observerOptionsUpdated",
-                          query: this.currentQuery,
-                          observer: this
-                        }),
+                      this.client.getQueryCache().notify({
+                        type: "observerOptionsUpdated",
+                        query: this.currentQuery,
+                        observer: this
+                      }),
                     void 0 !== this.options.enabled && "boolean" != typeof this.options.enabled)
                   )
                     throw Error("Expected enabled to be a boolean");
@@ -16911,13 +16909,11 @@ object-assign
                     n = this.options;
                   ((this.options = this.client.defaultMutationOptions(e)),
                     tV(n, this.options) ||
-                      this.client
-                        .getMutationCache()
-                        .notify({
-                          type: "observerOptionsUpdated",
-                          mutation: this.currentMutation,
-                          observer: this
-                        }),
+                      this.client.getMutationCache().notify({
+                        type: "observerOptionsUpdated",
+                        mutation: this.currentMutation,
+                        observer: this
+                      }),
                     null == (t = this.currentMutation) || t.setOptions(this.options));
                 }
               },
@@ -16961,14 +16957,12 @@ object-assign
                   return (
                     (this.mutateOptions = t),
                     this.currentMutation && this.currentMutation.removeObserver(this),
-                    (this.currentMutation = this.client
-                      .getMutationCache()
-                      .build(
-                        this.client,
-                        ri(ro({}, this.options), {
-                          variables: void 0 !== e ? e : this.options.variables
-                        })
-                      )),
+                    (this.currentMutation = this.client.getMutationCache().build(
+                      this.client,
+                      ri(ro({}, this.options), {
+                        variables: void 0 !== e ? e : this.options.variables
+                      })
+                    )),
                     this.currentMutation.addObserver(this),
                     this.currentMutation.execute()
                   );

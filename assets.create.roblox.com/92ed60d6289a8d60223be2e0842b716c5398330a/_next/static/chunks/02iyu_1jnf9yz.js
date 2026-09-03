@@ -6509,15 +6509,13 @@
               l = this.label;
             l ||
               ((this.label = l =
-                n
-                  .text(this.getLabelText(t), 0, 0, t.useHTML)
-                  .attr({
-                    align: t.textAlign || t.align,
-                    rotation: t.rotation,
-                    class:
-                      "highcharts-plot-" + (i ? "band" : "line") + "-label " + (t.className || ""),
-                    zIndex: s
-                  })),
+                n.text(this.getLabelText(t), 0, 0, t.useHTML).attr({
+                  align: t.textAlign || t.align,
+                  rotation: t.rotation,
+                  class:
+                    "highcharts-plot-" + (i ? "band" : "line") + "-label " + (t.className || ""),
+                  zIndex: s
+                })),
               r.chart.styledMode ||
                 l.css(ok({ fontSize: "0.8em", textOverflow: i && !a ? "" : "ellipsis" }, t.style)),
               l.add());
@@ -11243,14 +11241,12 @@
                 let v = Math.round(e.css({ width: y }).getBBox(i.useHTML).height);
                 if (
                   ((x.height = v),
-                  e
-                    .align(x, !1, s)
-                    .attr({
-                      align: x.align,
-                      scaleX: m,
-                      scaleY: m,
-                      "transform-origin": "".concat(s.x + o * m * n4(x.align), " ").concat(d)
-                    }),
+                  e.align(x, !1, s).attr({
+                    align: x.align,
+                    scaleX: m,
+                    scaleY: m,
+                    "transform-origin": "".concat(s.x + o * m * n4(x.align), " ").concat(d)
+                  }),
                   !i.floating)
                 ) {
                   let t = v * (v < 1.2 * d ? 1 : m);

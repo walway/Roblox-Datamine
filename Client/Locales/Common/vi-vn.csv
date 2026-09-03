@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,Đang dịch chuyển...
+Corescripts.AvatarContextMenu.FriendRequestPending,Yêu Cầu Kết Bạn Đang Chờ Chấp Nhận
+Corescripts.AvatarContextMenu.AddFriend,Thêm Bạn Bè
+Corescripts.AvatarContextMenu.Friends,Bạn Bè
+Corescripts.AvatarContextMenu.AcceptFriendRequest,Chấp Nhận Yêu Cầu Kết Bạn
+Corescripts.AvatarContextMenu.Chat,Cuộc Trò Chuyện
+Corescripts.AvatarContextMenu.ChatDisabled,Cuộc Trò Chuyện Bị Vô Hiệu Hóa
+Corescripts.AvatarContextMenu.Wave,Sóng
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,Lấy vật phẩm?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} muốn lấy các vật phẩm avatar của bạn
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,Lưu Nhân Vật Avatar
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Bạn có muốn lưu nhân vật này vào Roblox không? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,Không
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,Có
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,Hủy bỏ
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,Trang Bị Vật Phẩm cho Avatar
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} muốn thực hiện các thay đổi sau cho avatar của bạn:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,Hủy bỏ
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,Vật Phẩm Yêu Thích
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,Bạn có muốn thêm {RBX_NAME} vào mục yêu thích?
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,Vật Phẩm Không Được Yêu Thích
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,Bạn có muốn bỏ {RBX_NAME} ra khỏi mục yêu thích?
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,Không
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,Có
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,Nhập Tên Nhân Vật
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,Tên Nhân Vật
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,Xác Nhận
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,Tải Thất Bại
+CoreScripts.AvatarEditorPrompts.Adding,Thêm:
+CoreScripts.AvatarEditorPrompts.Removing,Loại Bỏ:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,Không có thay đổi đối với vật phẩm
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,Hủy bỏ
+CoreScripts.PremiumModal.Title.PremiumRequired,Chỉ Dành Cho Thành Viên Gói Premium
+CoreScripts.PremiumModal.Body.Description,Gói Roblox Premium sẽ đem lại cho bạn:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux mỗi tháng
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,Nhận những lợi ích dành riêng cho thành viên Premium
+CoreScripts.PremiumModal.Body.RobuxDiscount,Tiền thưởng 10% khi mua Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/tháng
+CoreScripts.PremiumModal.Error.PlatformUnavailable,Nền tảng của bạn không hỗ trợ mua Gói Roblox Premium. Vui lòng sử dụng máy tính để mua gói Premium.
+CoreScripts.PremiumModal.Error.AlreadyPremium,"Có vẻ như nhà phát triển đang cố gắng nhắc bạn mua Roblox Premium, nhưng bạn đã là thành viên Premium!"
+CoreScripts.PremiumModal.Error.Unavailable,Gói Premium không có sẵn tại thời điểm này. Vui lòng thử lại sau!
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux mỗi tháng
+CoreScripts.PremiumModal.Error.FailedNativePurchase,"Giao dịch mua chưa hoàn tất, vui lòng thử lại."
+CoreScripts.PremiumModal.Title.Error,Lỗi
+CoreScripts.ScreenshotHud.Action.TakePhoto,Chụp Ảnh
+CoreScripts.ScreenshotHud.Action.Cancel,Hủy bỏ
+CoreScripts.TextChat.ChatWindow.Welcome,"""/?"" hoặc ""/help"" trong cuộc trò chuyện để xem danh sách các lệnh trò chuyện."
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,Bạn không sử dụng được Biểu Cảm trong hành động này.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,Bạn không sử dụng được Biểu Cảm đó.
+CoreScripts.TextChat.Emote.Error.R15Only,Chỉ avatar R15 mới sử dụng được Biểu Cảm.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,Bạn hiện không sử dụng được Biểu Cảm.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,Biểu cảm không tồn tại.
+CoreScripts.TextChat.Emote.Error.NotEquipped,Bạn không có Biểu Cảm đó.
+CoreScripts.TextChat.Emote.Error.NotEnabled,Bạn không sử dụng được Biểu Cảm đó ở đây.
+CoreScripts.TextChat.Help.FirstLine,Đây là các lệnh cơ bản trong cuộc trò chuyện:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,Nhấp vào đây hoặc nhấn phím {KEY} để trò chuyện
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,Cài đặt cuộc trò chuyện của bạn đang ngăn bạn gửi và nhận tin nhắn.
+CoreScripts.TextChat.InputBar.Hint.Touch,Nhấn vào đây để trò chuyện
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,Bạn phải đợi trước khi gửi tin nhắn khác.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,Bạn không nói chuyện được trong kênh này.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,Cài đặt cuộc trò chuyện của bạn đang ngăn bạn gửi và nhận tin nhắn.
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,Tin nhắn của bạn vượt quá độ dài tối đa.
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,Bộ lọc cuộc trò chuyện hiện đang gặp vấn đề và các tin nhắn có thể xuất hiện chậm.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,Bạn không gửi được tin nhắn.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,Bạn không thể tắt tiếng chính mình.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,Những người dùng sau sẽ có tên hiển thị này: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,"Người dùng ""{RBX_NAME}"" không tồn tại."
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : tắt tiếng người dùng
+CoreScripts.TextChat.Mute.Success,"Người dùng ""{RBX_NAME}"" đã bị tắt tiếng."
+CoreScripts.TextChat.Notification.Friend.Joined,"{RBX_NAME}, Người quen của bạn, đã tham gia trải nghiệm."
+CoreScripts.TextChat.Notification.Team.Joined,"Bạn hiện đang ở trong nhóm ""{RBX_NAME}""."
+CoreScripts.TextChat.Notification.WhisperChat.Created,Bạn hiện đang trò chuyện riêng với {RBX_NAME}.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,Bạn không thể trò chuyện nhóm nếu không ở trong một nhóm.
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> hoặc /t <message> : gửi cuộc trò chuyện nhóm đến thành viên nhóm của bạn
+CoreScripts.TextChat.TeamChat.PrefixText,[Team]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : mở tiếng người dùng
+CoreScripts.TextChat.Unmute.Success,"Người dùng ""{RBX_NAME}"" đã được mở tiếng."
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,Bạn không trò chuyện được với người này.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> hoặc /w <user> : mở kênh nhắn tin riêng với người dùng
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[Từ {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[Đến {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,Bảng Xếp Hạng
+CoreScripts.TopBar.Emotes,Biểu Cảm
+CoreScripts.TopBar.Inventory,Kho Đồ
+CoreScripts.TopBar.Leave,Rời Khỏi
+CoreScripts.TopBar.Chat,Cuộc Trò Chuyện
+CoreScripts.TopBar.QuickMenu,Trình Đơn Nhanh
+CoreScripts.TopBar.Menu,Trình Đơn
+CoreScripts.TopBar.Respawn,Hồi Sinh Nhân Vật
+CoreScripts.TopBar.Back,Quay Lại
+CoreScripts.TopBar.Screenshot,Ảnh Chụp Màn Hình
+Feature.SettingsHub.Label.LoadingFriendsListFailed,"Đã xảy ra lỗi, vui lòng thử lại sau."
+Feature.SettingsHub.Action.CancelSearch,Hủy bỏ
+Feature.SettingsHub.Label.DontLeaveButton,Đừng Rời Khỏi
+Feature.SettingsHub.Action.InviteFriend,Mời
+Feature.SettingsHub.Heading.InviteFriends,Mời Bạn Bè
+Feature.SettingsHub.Label.Invited,Đã Mời
+Feature.SettingsHub.Label.LeaveButton,Rời Khỏi
+Feature.SettingsHub.Label.Moderated,Đã Kiểm Duyệt
+Feature.SettingsHub.Label.InviteSearchNoResults,Không tìm thấy kết quả nào
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,Tìm Người quen
+Feature.SettingsHub.Label.Sending,Đang Gửi
+Feature.SettingsHub.Action.InviteFriendsBack,Quay Lại
+Feature.SettingsHub.Message.InviteToGameTitle,Hãy tham gia cùng tôi trong {PLACENAME}
+Feature.SettingsHub.TouchMovementMode.DPad,DPad
+Feature.SettingsHub.Video.Off,Tắt
+Feature.SettingsHub.Video.SystemDefault,Mặc Định Hệ Thống
+Feature.SettingsHub.Video.VideoCamera,Camera Video
+Feature.SettingsHub.Default.DynamicThumbstick,Mặc định (Cần Điều Khiển Động)
+Feature.SettingsHub.DefaultKeyboard,Mặc định (Bàn Phím)
+Feature.SettingsHub.Heading.Capture,Ghi Hình
+Feature.SettingsHub.Label.CaptureDescription2,Ảnh chụp được lưu vào thiết bị của bạn.
+Feature.SettingsHub.Label.ChooseOne,Chọn Một
+InGame.CommonUI.Title.Warning,Cảnh Báo
+InGame.CommonUI.Title.Error,Lỗi
+InGame.CommonUI.Button.Retry,Thử Lại
+InGame.CommonUI.Button.Ok,Ok
+InGame.CommonUI.Title.Alert,Cảnh Báo
+InGame.CommonUI.Label.Default,Mặc Định
+InGame.CommonUI.Label.Custom,Tùy Chỉnh
+InGame.CommonUI.Label.PossiblyCustom,Có Thể Tùy Chỉnh
+InGame.CommonUI.Label.CustomOld,Tùy Chỉnh Trước Đây
+InGame.ConnectionError.DisconnectCloudEditKick,Mất kết nối với chế độ Sáng tạo nhóm. Vui lòng kết nối lại. 
+InGame.ConnectionError.DisconnectWrongVersion,Phiên bản Roblox của bạn có thể đã lỗi thời. Vui lòng cập nhật Roblox và thử lại.
+InGame.ConnectionError.TeleportFailure,Không dịch chuyển được do có lỗi không lường trước. Vui lòng thử dịch chuyển lại.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,Mất kết nối do lỗi.
+InGame.ConnectionError.TeleportGameFull,Máy chủ đã đầy. Vui lòng thử lại sau hoặc sử dụng một máy chủ khác.
+InGame.ConnectionError.DisconnectPlayerless,Máy chủ đã tắt khi bạn cố gắng kết nối. Vui lòng thử lại.
+InGame.ConnectionError.TeleportGameNotFound,Không thể tìm được địa điểm mục tiêu. Vui lòng kiểm tra và thử lại.
+InGame.ConnectionError.DisconnectErrors,Mất kết nối do lỗi không xác định. Vui lòng kết nối lại.
+InGame.ConnectionError.DisconnectDuplicateTicket,Mất kết nối do lỗi. Phát hiện một tài khoản kết nối nhiều lần.
+InGame.ConnectionError.DisconnectBadhash,Mất kết nối do lỗi.
+InGame.ConnectionError.DisconnectSendPacketError,"Đã xảy ra vấn đề khi gửi dữ liệu, vui lòng kết nối lại."
+InGame.ConnectionError.DisconnectOnRemoteSysStats,Bạn đã bị văng ra do hành vi không mong muốn của máy khách.
+InGame.ConnectionError.DisconnectTimeout,Đã hết thời gian chờ kết nối. Kiểm tra kết nối Internet và thử lại.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,Mất kết nối do lỗi.
+InGame.ConnectionError.TeleportErrors,Không dịch chuyển được do có lỗi không lường trước. Vui lòng thử dịch chuyển lại.
+InGame.ConnectionError.TeleportGameEnded,Máy chủ không còn hoạt động nữa. Vui lòng thử một máy chủ khác hoặc thử sau.
+InGame.ConnectionError.PlacelaunchFlooded,Máy chủ hiện đang bận. Vui lòng thử lại.
+InGame.ConnectionError.DisconnectProtocolMismatch,Phiên bản Roblox của bạn có thể đã lỗi thời. Vui lòng cập nhật Roblox và thử lại.
+InGame.ConnectionError.DisconnectRobloxMaintenance,Roblox đã tắt máy chủ để bảo trì. Vui lòng thử lại.
+InGame.ConnectionError.DisconnectHashTimeout,Đã hết thời gian chờ kết nối. Kiểm tra kết nối Internet và thử lại.
+InGame.ConnectionError.DisconnectReceivePacketError,"Đã xảy ra vấn đề khi nhận dữ liệu, vui lòng kết nối lại."
+InGame.ConnectionError.PlacelaunchOtherError,Chúng tôi đang gặp sự cố kỹ thuật. Vui lòng thử lại sau.
+InGame.ConnectionError.TeleportFlooded,Có quá nhiều yêu cầu dịch chuyển. Vui lòng thử lại sau.
+InGame.ConnectionError.DisconnectIllegalTeleport,Mất kết nối do tính năng dịch chuyển không hợp lệ. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,"Đã xảy ra vấn đề khi phát trực tuyến dữ liệu, vui lòng kết nối lại."
+InGame.ConnectionError.PlacelaunchError,Không thể tìm thấy máy chủ bạn đang cố gắng kết nối. Vui lòng thử lại sau.
+InGame.ConnectionError.TeleportUnauthorized,Cố gắng dịch chuyển đến một địa điểm bị hạn chế.
+InGame.ConnectionError.Title.JoinError,Lỗi Khi Gia Nhập
+InGame.ConnectionError.Title.Disconnected,Mất kết nối
+InGame.ConnectionError.Title.TeleportFailed,Dịch Chuyển Thất Bại
+InGame.ConnectionError.Message.ErrorCode,Mã Lỗi: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,Kết Nối Lại
+InGame.ConnectionError.DisconnectConnectionLost,Vui lòng kiểm tra kết nối Internet và thử lại.
+InGame.ConnectionError.DisconnectIdle,Bạn bị mất kết nối vì không hoạt động trong {RBX_NUM} phút
+InGame.ConnectionError.UnknownError,Lỗi không xác định.
+InGame.ConnectionError.ReconnectFailed,Kết nối lại không thành công. Vui lòng thử lại.
+InGame.EmotesMenu.SelectAnEmote,Chọn một Biểu Cảm
+InGame.EmotesMenu.NoEmotesEquipped,Không có Biểu Cảm nào
+InGame.EmotesMenu.ErrorMessageNotSupported,Bạn không thể sử dụng Biểu Cảm ở đây.
+InGame.EmotesMenu.ErrorMessageR15Only,Chỉ avatar R15 mới sử dụng được Biểu Cảm.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,Bạn không sử dụng được Biểu Cảm đó.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,Bạn hiện không sử dụng được Biểu Cảm.
+InGame.EmotesMenu.VisitShopToGetEmotes,Bạn không có biểu cảm. Ghé thăm Cửa Hàng để nhận biểu cảm!
+InGame.EmotesMenu.ErrorMessageSwitchToR15,Chuyển sang avatar R15 để sử dụng Biểu Cảm.
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,Bạn không sử dụng được Biểu Cảm trong hành động này.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,Đã xảy ra lỗi khi gửi yêu cầu làm Người quen cho {RBX_NAME}. Vui lòng thử lại sau.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,Bạn có muốn xóa {RBX_NAME} khỏi danh sách Người quen của mình không?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,Bạn có muốn gửi yêu cầu làm Người quen đến {RBX_NAME} không?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,Bạn không thể gửi yêu cầu làm Người quen đến {RBX_NAME} vì họ đã đạt đến giới hạn số lượng Người quen tối đa.
+FriendPlayerPrompt.Title.SendFriendRequest,Gửi yêu cầu kết bạn?
+FriendPlayerPrompt.Label.Unfriend,Xóa Người quen
+InGame.GameplayPaused.Title,Trải Nghiệm Trò Chơi Bị Tạm Dừng
+InGame.GameplayPaused.Body,Trải Nghiệm Trò Chơi đã bị tạm dừng: vui lòng đợi trong khi tải nội dung trò chơi.
+InGame.HelpMenu.UpArrow,Mũi Tên Lên
+InGame.HelpMenu.DownArrow,Mũi Tên Xuống
+InGame.HelpMenu.LeftArrow,Mũi Tên Sang Trái
+InGame.HelpMenu.RightArrow,Mũi Tên Sang Phải
+InGame.HelpMenu.Label.ServerVersion,Phiên Bản Máy Chủ:
+InGame.HelpMenu.Label.ClientVersion,Phiên Bản Máy Khách:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,Phiên Bản Địa Điểm:
+InGame.HelpMenu.Leave,Rời Khỏi
+InGame.HelpMenu.Resume,Tiếp Tục
+InGame.HelpMenu.Label.ClientCoreScriptVersion,Phiên Bản CoreScript Máy Khách:
+InGame.InspectMenu.Description.NoInventoryNotice,Người dùng này không mặc bất kỳ vật phẩm nào bạn có thể kiểm tra.
+InGame.InspectMenu.Description.MultipleBundlesNotice,Vật phẩm này nằm trong nhiều gói.
+InGame.InspectMenu.Description.SingleBundleNotice,Vật phẩm này nằm trong một gói.
+InGame.InspectMenu.Action.TakeOff,Tháo
+InGame.InspectMenu.Action.TryOn,Mặc Thử
+InGame.InspectMenu.Action.Buy,Mua
+InGame.InspectMenu.Action.Inspect,Kiểm Tra
+InGame.InspectMenu.Action.View,Xem
+InGame.InspectMenu.Label.Owned,Đã Sở Hữu
+InGame.InspectMenu.Label.Offsale,Giảm Giá
+InGame.InspectMenu.Label.Limited,Giới Hạn
+InGame.InspectMenu.Label.CurrentlyWearing,Hiện Đang Mặc
+InGame.InspectMenu.Label.By,Tạo bởi {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,Chỉ mua được vật phẩm này từ các đại lý trong Mục Lục.
+InGame.InspectMenu.Label.Avatar,Avatar của {PLAYER_NAME}
+InGame.InspectMenu.Label.NoResellers,Không có Đại Lý
+InGame.InspectMenu.Label.PremiumOnly,Chỉ Dành Cho Thành Viên Gói Premium
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,Giảm xuống {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,Tăng đến {RBX_NUMBER}
+NotificationScript2.NewFollower,Người Theo Dõi Mới {RBX_NAME} hiện đang theo dõi bạn!
+NotificationScript2.FriendRequestEvent.Accept,Bạn hiện là bạn bè với {RBX_NAME}!
+NotificationScript2.onPointsRewarded.negative,Bạn đã mất {RBX_NUMBER} điểm!
+NotificationScript2.onPointsAwarded.single,Bạn đã nhận được {RBX_NUMBER} điểm!
+NotificationScript2.onPointsAwarded.multiple,Bạn đã nhận được {RBX_NUMBER} điểm!
+NotificationScript2.onBadgeAwardedTitle,Huy Hiệu Đã Trao
+NotificationScript2.onBadgeAwardedDetail,"{RBX_NAME} đã thắng giải thưởng ""{BADGE_NAME}"" của {CREATOR_NAME}!"
+NotificationScript2.Screenshot.Title,Ảnh Chụp Màn Hình Đã Chụp
+NotificationScript2.Screenshot.Description,Hãy kiểm tra thư mục ảnh chụp màn hình của bạn để xem.
+NotificationScript2.Screenshot.ButtonText,Mở Thư Mục
+NotificationScript2.Video.Title,Video Đã Ghi
+NotificationScript2.Video.Description,Kiểm tra thư mục video của bạn để xem.
+NotificationScript2.Video.ButtonText,Mở Thư Mục
+NotificationScript2.Capture.Permission.AlertTitle,Bật Quyền Lưu
+NotificationScript2.Capture.Permission.AlertText,Bạn cần cấp quyền truy cập ảnh để sử dụng tính năng này. Bạn có thể thay đổi tính năng này trong phần cài đặt của thiết bị.
+NotificationScript2.Capture.Permission.AlertTextIOS,Đi đến Cài Đặt > Quyền Riêng Tư > Ảnh và cho phép Roblox lưu ảnh chụp vào thư viện ảnh của bạn.
+NotificationScript2.Capture.Permission.AlertTextAndroid,Đi đến Cài Đặt > Roblox > Quyền và bật Bộ Nhớ để lưu ảnh chụp vào thư viện ảnh của bạn.
+NotificationScript2.Capture.Permission.AlertButtonText,OK
+NotificationScript2.Capture.Success.ToastText,Ảnh Chụp Đã Lưu
+NotificationScript2.Capture.Fail.ToastText,Capture Thất Bại
+NotificationScript2.UINavigation.Title,Bật Điều Hướng Giao Diện
+NotificationScript2.UINavigation.Text,Dấu chéo ngược để chuyển đổi
+NotificationScript2.CameraToggle.Title,Bật Điều Khiển Camera
+NotificationScript2.CameraToggle.Text,Nút phải chuột để chuyển đổi
+NotificationScript2.GraphicsQuality.Title,Chất Lượng Đồ Họa
+PlayerDropDown.onUnfollowButtonPress.success,Không theo dõi {RBX_NAME} nữa.
+PlayerDropDown.onFollowButtonPress.success,hiện đang theo dõi {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,Không gửi được yêu cầu kết bạn
+PlayerDropDown.FriendLimit,Bạn đã đạt giới hạn bạn bè tối đa.
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} đã đạt giới hạn bạn bè tối đa.
+PlayerDropDown.UnFollow,Hủy Theo Dõi
+PlayerDropDown.Follow,Theo Dõi
+PlayerDropDown.Report,Báo Cáo Vi Phạm
+PlayerDropDown.Examine,Kiểm Tra Avatar
+PlayerDropDown.Unfriend,Hủy Kết Bạn
+PlayerDropDown.FriendRequest,Yêu Cầu Kết Bạn
+PlayerDropDown.CancelRequest,Hủy Bỏ Yêu Cầu
+PlayerDropDown.Accept,Chấp Nhận
+InGame.PlayerList.Leaderboard,Bảng Xếp Hạng
+InGame.Presence.Label.InStudio,Trong Studio
+InGame.Presence.Label.Offline,Ngoại tuyến
+InGame.Presence.Label.Online,Trực Tuyến
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,Không thể truy xuất số dư của bạn tại thời điểm này. Tài khoản của bạn chưa bị thu phí. Vui lòng thử lại sau.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX đang thực hiện bảo trì
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,{RBX_NUMBER} ROBUX còn lại sẽ được thêm vào số dư của bạn.
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,Mua bán vật phẩm bên thứ ba đã bị vô hiệu hóa đối với địa điểm này. Tài khoản của bạn chưa bị thu phí.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,Bạn hiện không có đủ vé để mua vật phẩm này. Hãy thử giao dịch tiền tệ trên www.roblox.com để nhận thêm vé.
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,Vật phẩm này hiện không được bán. Tài khoản của bạn chưa bị thu phí.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,"Vật phẩm này yêu cầu {RBX_NAME1}. Nhấp vào ""Nâng Cấp"" để nâng cấp Builders Club của bạn!"
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,Vật phẩm giới hạn này không còn bản sao. Hãy thử mua từ một người dùng khác trên www.roblox.com. Tài khoản của bạn chưa bị thu phí.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,Muốn mua {RBX_NAME1} {RBX_NAME2} cho
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,Chúng tôi hiện không truy xuất được giá vật phẩm. Tài khoản của bạn chưa bị thu phí. Vui lòng thử lại sau.
+PurchasePromptScript.PURCHASE_MSG.FREE,Bạn có muốn nhận {RBX_NAME2} MIỄN PHÍ không?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,"Bạn cần tạo tài khoản ROBLOX để mua vật phẩm, hãy truy cập www.roblox.com để biết thêm thông tin."
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,Bạn cần thêm {RBX_NUMBER} ROBUX để mua {RBX_NAME1} {RBX_NAME2}. Bạn có muốn mua thêm ROBUX không?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,Người dùng tài khoản dưới 13 tuổi. Bạn không được mua vật phẩm này. Tài khoản của bạn chưa bị thu phí.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,Số dư của bạn sau giao dịch này sẽ là {RBX_NUMBER}.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,Số dư của bạn hiện là {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,Giao dịch mua của bạn không thành công do {ERROR_REASON}. Tài khoản của bạn chưa bị thu phí. Vui lòng thử lại sau.
+PurchasePromptScript.PURCHASE_MSG.FAILED,Giao dịch mua {RBX_NAME1} của bạn không thành công do {RBX_NAME2}. Tài khoản của bạn chưa bị thu phí. Vui lòng thử lại sau.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,Bạn đã mua {RBX_NAME1} thành công!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,đã xảy ra lỗi
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,tài khoản của bạn không đủ ROBUX
+StatsUtil.KBps,{RBX_NUMBER} KB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(Mạng)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <channel> : chuyển đổi các tab trình đơn của kênh.
+GameChat_ChatCommandsTeller_MeCommand,/me <text> : lệnh nhập vai để thực hiện hành động.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <speaker> : tắt tiếng người nói.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker> : mở tiếng người nói.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> hoặc /w <speaker> : mở kênh nhắn tin riêng với người nói.
+Average,Trung bình
+GameChat_ChatServiceRunner_ChannelDoesNotExist,Kênh {RBX_NAME} không tồn tại.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,"""/?"" hoặc ""/help"" trong cuộc trò chuyện để xem danh sách các lệnh trò chuyện."
+GameChat_SwallowGuestChat_Message,Tạo một tài khoản miễn phí để có thể sử dụng các quyền của cuộc trò chuyện!
+Current,Hiện tại
+DisableVoiceKey,Tắt Cuộc Nói Chuyện
+EnableVoiceKey,Bật Cuộc Nói Chuyện
+key_142,Bạn Mới {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,Không Bắt Buộc
+key_145,Bạn nhận được {RBX_NUMBER} điểm thưởng!
+Received,Đã Nhận
+BACKPACK_SEARCH,Tìm Kiếm
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,Mô Tả Ngắn (Không Bắt Buộc)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,"Người nói ""{RBX_NAME}"" không tồn tại."
+GameChat_ChatMain_SpeakerHasBeenBlocked,"Người nói ""{RBX_NAME}"" đã bị chặn."
+GameChat_ChatMain_SpeakerHasBeenMuted,"Người nói ""{RBX_NAME}"" đã bị tắt tiếng."
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,"Người nói ""{RBX_NAME}"" đã được bỏ chặn."
+GameChat_ChatMain_SpeakerHasBeenUnMuted,"Người nói ""{RBX_NAME}"" đã bị mở tiếng."
+GameChat_ChatMain_ChatBarTextTouch,Nhấn vào đây để trò chuyện
+Target,Mục Tiêu
+GameChat_ChatService_ChatFilterIssues,Bộ lọc cuộc trò chuyện hiện đang gặp vấn đề và các tin nhắn có thể xuất hiện chậm.
+GameChat_ChatCommandsTeller_Desc,Đây là các lệnh cơ bản trong cuộc trò chuyện.
+GameChat_TeamChat_WelcomeMessage,Đây là kênh riêng giữa bạn và các thành viên trong nhóm của bạn.
+GameChat_ChatMain_ChatBarText,"Nhấp vào đây hoặc nhấn phím ""/"" để trò chuyện"
+GameChat_ChatChannel_MutedInChannel,Bạn đã bị tắt tiếng và không thể nói chuyện trong kênh này
+GameChat_ChatServiceRunner_YouAreNotInChannel,Bạn không ở trong kênh {RBX_NAME}
+GameChat_SwitchChannel_NotInChannel,"Bạn không ở trong kênh: ""{RBX_NAME}"""
+GameChat_TeamChat_NowInTeam,"Bạn hiện đang ở trong nhóm ""{RBX_NAME}""."
+GameChat_PrivateMessaging_NowChattingWith,Bạn hiện đang trò chuyện riêng với {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotJoinChannel,Bạn không thể gia nhập kênh {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,Bạn không thể rời khỏi kênh {RBX_NAME}
+GameChat_ChatService_CannotLeaveChannel,Bạn không thể rời khỏi kênh này.
+GameChat_DoMuteCommand_CannotMuteSelf,Bạn không thể tắt tiếng chính mình.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,Bạn không thể trò chuyện nhóm nếu không ở trong một nhóm!
+GameChat_PrivateMessaging_CannotWhisperToSelf,Bạn không thể nói thầm với chính mình.
+GameChat_ChatService_YouHaveLeftChannel,"Bạn đã rời khỏi kênh ""{RBX_NAME}"""
+GameChat_ChatFloodDetector_Message,Bạn phải đợi trước khi gửi tin nhắn khác!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,Bạn phải đợi {RBX_NUMBER} giây trước khi có thể gửi một tin nhắn khác!
+KEY_PLAYER_IDLE_DISCONNECT,Bạn đã bị ngắt kết nối vì không hoạt động trong {RBX_NUMBER} phút
+GameChat_ChatMessageValidator_SettingsError,Bạn có cài đặt cuộc trò chuyện khiến tin nhắn không gửi đi được.
+GameChat_ChatMessageValidator_WhitespaceError,Tin nhắn của bạn chứa khoảng trắng không được phép.
+GameChat_ChatMessageValidator_MaxLengthError,Tin nhắn của bạn vượt quá độ dài tối đa.
+GameChat_SwitchChannel_NowInChannel,"Bạn hiện đang trò chuyện trong kênh: ""{RBX_NAME}"""
+Sent,Đã Gửi
+Corescripts.AvatarContextMenu.PlayerBlocked,Đã Chặn Một Người
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,Tên Trải Nghiệm Không Xác Định
+CoreScripts.TopBar.GameNamePlaceHolder,Trải Nghiệm
+Feature.SettingsHub.Label.LeaveGame,Bạn có chắc muốn rời khỏi trải nghiệm không?
+Feature.SettingsHub.Label.GameInviteError,Không gửi được lời mời tham gia trải nghiệm. Vui lòng thử lại sau.
+Feature.SettingsHub.Label.ModeratedInviteError,Lời mời tham gia trải nghiệm đã được kiểm duyệt và không được gửi.
+Feature.SettingsHub.Action.InviteFriendsToPlay,Mời bạn bè
+Feature.SettingsHub.Label.CaptureDescription,Ghi lại trải nghiệm của bạn. Ảnh chụp được lưu vào thiết bị của bạn.
+Feature.SettingsHub.Label.CaptureDescription1,Ghi lại trải nghiệm của bạn.
+Feature.SettingsHub.Label.WhichPlayer,Người chơi nào?
+InGame.ConnectionError.DisconnectDuplicatePlayer,Trải nghiệm được khởi chạy trên thiết bị khác bởi cùng một tài khoản. Rời khỏi trải nghiệm trên thiết bị khác và thử lại.
+InGame.ConnectionError.PlacelaunchUserLeft,Người dùng bạn cố gắng tham gia cùng đã rời khỏi trải nghiệm.
+InGame.ConnectionError.PlacelaunchHashExpired,Trải nghiệm này hiện không hoạt động. Vui lòng thử lại sau.
+InGame.ConnectionError.PlacelaunchUnauthorized,Bạn không có quyền tham gia trải nghiệm này.
+InGame.ConnectionError.PlacelaunchDisabled,Địa điểm mục tiêu bị hạn chế. Vui lòng thử một địa điểm khác hoặc thử lại sau.
+InGame.ConnectionError.DisconnectRejoin,Trải nghiệm được khởi chạy trên thiết bị khác bởi cùng một tài khoản. Kết nối lại nếu bạn muốn sử dụng thiết bị này.
+InGame.ConnectionError.DisconnectDevMaintenance,Nhà phát triển trải nghiệm đã tạm thời tắt máy chủ của trải nghiệm này. Vui lòng thử lại.
+InGame.ConnectionError.DisconnectEvicted,Trải nghiệm được khởi chạy trên thiết bị khác bởi cùng một tài khoản. Hãy kết nối lại nếu bạn muốn sử dụng thiết bị này.
+InGame.ConnectionError.PlacelaunchPartyCannotFit,Tổ đội của bạn quá lớn để tham gia trải nghiệm này. Hãy thử tham gia một trải nghiệm khác.
+InGame.ConnectionError.PlacelaunchRestricted,Trạng thái của trải nghiệm đã thay đổi và bạn không truy cập được nữa. Vui lòng thử lại sau.
+InGame.ConnectionError.PlacelaunchErrors,Đã xảy ra lỗi khi tham gia trải nghiệm. Vui lòng thử lại sau.
+InGame.ConnectionError.DisconnectLuaKick,Trải nghiệm này hoặc người kiểm duyệt của trải nghiệm đã đuổi bạn ra.
+InGame.ConnectionError.PlacelaunchHashException,Trải nghiệm này hiện không hoạt động. Vui lòng thử lại sau.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,Trải nghiệm này hoặc người kiểm duyệt của trải nghiệm đã đuổi bạn ra. Thông báo kiểm duyệt:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Biểu Cảm đã bị vô hiệu hóa trong trải nghiệm này.
+FriendPlayerPrompt.Title.UnfriendPlayer,Xóa Người quen?
+InGame.PlayerList.Players,Mọi Người
+InGame.Presence.Label.InGame,Trong Trải Nghiệm
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,Mua hàng trong trải nghiệm tạm thời bị vô hiệu hóa
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> hoặc /t <message> : gửi cuộc trò chuyện nhóm đến thành viên nhóm của bạn.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,Kênh này cung cấp các thông báo của hệ thống và trải nghiệm.
+GameChat_GetVersion_Message,Trải nghiệm này đang chạy phiên bản [{RBX_NUMBER}.{RBX_NUMBER}] của cuộc trò chuyện.
+GameChat_PrivateMessaging_CannotChat,Bạn không trò chuyện được với người này.
+GameChat_FriendChatNotifier_JoinMessage,Người quen của bạn là {RBX_NAME} đã tham gia trải nghiệm.
+Authentication.Login.WeChat.AntiAddictionText,"Tẩy chay trò chơi xấu, không chơi trò chơi bị bẻ khóa. Chú ý để tự bảo vệ mình và không bị lừa. Chơi trò chơi có tác động tốt tới não bộ của bạn nhưng chơi quá nhiều trò chơi có thể ảnh hướng xấu tới sức khỏe của bạn. Hãy quản lý thời gian của bạn hiệu quả và tận hưởng lối sống lành mạnh."
+Authentication.Login.Label.WeChatAntiAddictionText,"Tẩy chay trò chơi xấu, không chơi trò chơi bị bẻ khóa. Chú ý để tự bảo vệ mình và không bị lừa. Chơi trò chơi có tác động tốt tới não bộ của bạn nhưng chơi quá nhiều trò chơi có thể ảnh hướng xấu tới sức khỏe của bạn. Hãy quản lý thời gian của bạn hiệu quả và tận hưởng lối sống lành mạnh."
+Feature.SettingsHub.Label.NoFriendsScreen,Kết bạn để bạn có thể mời họ tham gia cùng bạn!
+Feature.SettingsHub.Label.RecentPlayed,Ghé Thăm Gần Đây
+InGame.HelpMenu.ConfirmLeaveGame,Bạn có chắc muốn rời khỏi trải nghiệm không?
+PlayerDropDown.UnBlock,Bỏ Chặn
+PlayerDropDown.Block,Chặn
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,Lỗi Cục Bộ. Vui lòng thử đăng nhập lại.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Cần Điều Khiển Cổ Điển
+Feature.SettingsHub.Action.Unblock,Bỏ Chặn
+Feature.SettingsHub.Action.Block,Chặn
+Feature.SettingsHub.Heading.BlockUser,Chặn {DisplayName}
+Feature.SettingsHub.Action.Cancel,Hủy bỏ
+Feature.SettingsHub.Message.BlockConfirmation,Bạn và {DISPLAY_NAME} (@{RBX_NAME}) sẽ không liên lạc được với nhau nữa.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,Xóa Nhân Vật Avatar
+Feature.SettingsHub.Heading.Report.ThanksForReport,Cảm ơn bạn đã báo cáo!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,Chúng tôi đã nhận được báo cáo của bạn và sẽ sớm tiến hành các biện pháp nếu cần. Phản hồi của bạn sẽ giúp cho cộng đồng của chúng ta an toàn hơn.
+Feature.SettingsHub.Label.Report.OtherActionsHeader,Các bước khác bạn có thể thực hiện
+Feature.SettingsHub.Action.Report.Done,Hoàn Thành
+Feature.SettingsHub.Label.Report.BlockDisplayName,Chặn {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,Bỏ Chặn {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,Bạn có muốn xóa nhân vật {RBX_NAME} khỏi Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Bạn có muốn xóa nhân vật này khỏi Roblox không?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,Xóa
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,Hủy bỏ
+InGame.InspectMenu.Description.LayeredClothingR6,Loại cơ thể R6 không hỗ trợ vật phẩm này.
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,Đổi Tên Nhân Vật
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,Nhập tên mới cho nhân vật {RBX_NAME}:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,Đổi Tên Nhân Vật?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,Vô Hiệu Hóa Đổi Tên Nhân Vật
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,Đổi tên nhân vật bị vô hiệu hóa
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,Đồng Ý
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,Bạn có chắc muốn bỏ qua tất cả các yêu cầu kết bạn không?
+Feature.Friends.Label.Cancel,Hủy Bỏ
+Feature.SettingsHub.GameSettings.Input,Đầu Vào
+Feature.SettingsHub.GameSettings.Output,Đầu Ra
+Feature.SettingsHub.GameSettings.Device,Thiết Bị
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,Cuộc Nói Chuyện Không Thể Nghe Được
+Feature.SettingsHub.Prompt.Permission,Cuộc Nói Chuyện Không Khả Dụng
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,"Âm lượng trò chơi được đặt thành ""0"" trong cài đặt. Vui lòng tăng âm lượng để nghe giọng nói."
+Feature.SettingsHub.Prompt.Subtitle.Permission,Đi đến phần cài đặt để cấp quyền cho Roblox sử dụng micrô.
+Feature.SettingsHub.Prompt.Subtitle.Retry,Vui lòng thử thoát ra và vào lại.
+Feature.FaceChat.Message.PlaceUnavailable,Địa điểm này tạm thời không khả dụng. Vui lòng thử lại sau.
+Feature.FaceChat.Subtitle.NotAvailable,Vui lòng thử thoát ra và vào lại.
+Feature.SettingsHub.GameSettings.InputDevice,Thiết Bị Đầu Vào
+Feature.SettingsHub.GameSettings.OutputDevice,Thiết Bị Đầu Ra
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,"Lưu ý: Hành động này sẽ xóa tối đa 300 yêu cầu kết bạn gần nhất của bạn mỗi khi bạn nhấp vào nút ""Bỏ Qua Tất Cả""."
+Feature.SettingsHub.Prompt.VoiceChatSuspended,Cuộc nói chuyện đã tạm ngưng
+Feature.SettingsHub.Prompt.Subtitle.Respect,Hãy tôn trọng người dùng khác để duy trì trải nghiệm chơi game vui vẻ trên Roblox.
+Feature.SettingsHub.Prompt.Understand,Tôi Hiểu
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,Giọng 3D chỉ dành cho các địa điểm có Số Lượng Người Chơi Tối Đa từ 30 người trở xuống.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,Tài khoản này không đủ điều kiện để sử dụng Giọng 3D.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,Vượt Quá Số Lượng Người Chơi Tối Đa
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,Không Đủ điều Kiện Để Sử Dụng Giọng Nói
+InGame.ConnectionError.Action.Restart,Khởi động lại
+InGame.ConnectionError.Heading.VRDisconnected,Tai nghe mất kết nối
+InGame.ConnectionError.Message.RestartApp,"Để tiếp tục chơi, vui lòng khởi động lại ứng dụng."
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,Hủy bỏ
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,Cập Nhật Nhân Vật?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,Bạn có muốn cập nhật nhân vật đã lưu không?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,Bạn có muốn cập nhật nhân vật {RBX_NAME} không?
+Feature.SettingsHub.Prompt.Subtitle.Place,Giọng 3D chỉ dành cho các địa điểm có Số Lượng Người Chơi Tối Đa từ 30 người trở xuống.
+Feature.SettingsHub.Prompt.Subtitle.User,Tài khoản này không đủ điều kiện để sử dụng Giọng 3D.
+Feature.SettingsHub.Prompt.Place,Vượt Quá Số Lượng Người Chơi Tối Đa
+Feature.SettingsHub.Prompt.User,Không Đủ điều Kiện Để Sử Dụng Giọng Nói
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,Bạn có muốn cập nhật nhân vật {RBX_NAME} không?
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,Bạn có muốn cập nhật nhân vật đã lưu không?
+InGame.InspectMenu.Action.Cancel,Hủy bỏ
+InGame.InspectMenu.Action.Confirm,Xác Nhận
+InGame.InspectMenu.Action.Favorite,Yêu Thích
+InGame.CommonUI.Message.LuobuGameJoinWarning,Vui lòng không bắt chước các hành vi nguy hiểm trong trò chơi và chủ động báo cáo vi phạm nếu gặp phải bất kỳ hành vi tiêu cực nào.
+Feature.DevModule.ProfileCard.StatusPlaceholder,Bạn đang nghĩ gì?
+Feature.DevModule.ProfileCard.StatusErrorMessage,Trạng thái chứa các từ không phù hợp.
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Roblox Premium sẽ đem lại cho bạn:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux mỗi tháng
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Nhận những ưu đãi dành riêng cho gói Premium
+Feature.PremiumUpsell.Label.AvatarShopBenefits,Quyền truy cập vào những vật phẩm độc quyền và giảm giá trong cửa hàng avatar
+Feature.PremiumUpsell.Title.GetPremium,Đăng Ký Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/tháng
+Feature.PremiumUpsell.Label.Disclosure,Đăng ký với giá <b>{currencySymbol}{price}/tháng. Hủy Bỏ bất cứ lúc nào.</b> Có áp dụng Điều Khoản Sử Dụng và Chính Sách Quyền Riêng Tư của Roblox.
+Feature.PremiumUpsell.Action.Subscribe,Đăng Ký
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,"Do vi phạm Tiêu Chuẩn Cộng Đồng của chúng tôi, bạn tạm thời bị thu hồi quyền truy cập cuộc nói chuyện cho đến khi"
+Feature.SettingsHub.Prompt.Subtitle.Revoked,"Do vi phạm nhiều lần Tiêu Chuẩn Cộng Đồng của chúng tôi, bạn tạm thời bị thu hồi quyền truy cập cuộc nói chuyện cho đến khi giai đoạn bản Beta kết thúc."
+InGame.InspectMenu.Action.Unfavorite,Không Được Yêu Thích
+Feature.AddFriends.Action.FriendAdded,Đã Thêm Người Bạn
+Feature.AddFriends.Action.RequestIgnored,Đã Bỏ Qua Yêu Cầu
+Feature.Avatar.Label.LeftInitial,T
+Feature.Avatar.Label.Right,P
+Feature.Avatar.Label.RightInitial,P
+Feature.Friends.Label.Following,Đang Theo Dõi
+Feature.Friends.Label.Followers,Người Theo Dõi
+Feature.Friends.Label.MutualFriends,Bạn Bè Chung
+Feature.Friends.Label.FollowsYou,Theo Dõi Bạn
+Feature.Friends.Label.YouAreFollowing,Bạn đang theo dõi
+Feature.Friends.Action.Block,Chặn
+Feature.Friends.Label.Friend,Bạn Bè
+Feature.Friends.Action.Unblock,Bỏ Chặn
+Verification.Identity.Label.VoiceChatUpsell,"Trải nghiệm này hỗ trợ trò chuyện thoại âm thanh vòm. Để sử dụng tính năng này, bạn cần xác thực rằng bạn đủ 13 tuổi."
+Verification.Identity.Action.SkipVoiceChat,Tham Gia Mà Không Trò Chuyện Bằng Giọng Nói
+Verification.Identity.Label.DontShowAgain,Không Hiển Thị Lại
+Verification.Identity.Label.EnableVoiceChat,Bật Nói Chuyện
+Verification.Identity.Label.UsesVoiceChat,Trải nghiệm này sử dụng trò chuyện thoại. Tính năng trò chuyện thoại sẽ sử dụng tín hiệu từ micrô cho các trải nghiệm hỗ trợ đàm thoại.
+Verification.Identity.Label.ToggleInstruction,Bạn cũng có thể bật hoặc tắt tính năng này bằng cách truy cập vào Cài Đặt.
+Verification.Identity.Label.JoinWithout,Tham Gia Mà Không Trò Chuyện Bằng Giọng Nói
+InGame.CommonUI.BetaBadge.BadgeText,Bản Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,"Vui lòng báo cáo vi phạm nếu bạn gặp phải những người vi phạm Nguyên Tắc Cộng Đồng của chúng tôi. Nếu bạn đã chọn tham gia cuộc nói chuyện, Roblox sẽ ghi lại âm thanh giọng nói của bạn ở bất kỳ đâu trên nền tảng vì mục đích kiểm duyệt và an toàn. Bằng việc tiếp tục dùng tính năng nói chuyện, bạn cho phép Roblox thu thập, sử dụng và lưu trữ bản ghi âm giọng nói của bạn cho các mục đích này. Bạn có thể chọn không sử dụng tính năng giọng 3D mọi lúc."
+InGame.CommonUI.Badge.Popup.HeaderList,Bạn đã chọn sử dụng một hoặc nhiều tính năng thử nghiệm của chúng tôi:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,Cuộc nói chuyện
+InGame.CommonUI.Badge.BadgeText,BẢN BETA
+InGame.CommonUI.Badge.Popup.LearnMoreLink,Tìm Hiểu Thêm
+InGame.CommonUI.Badge.Popup.LearnMoreText,"Vui lòng xem bài viết trợ giúp ""Câu Hỏi Thường Gặp về Ghi Âm Giọng Nói"" để biết thêm thông tin."
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,Bạn hiện có thể trò chuyện thoải mái hơn với các bộ lọc đã giảm bớt! Chỉ người dùng đủ điều kiện từ 13 tuổi trở lên mới có thể sử dụng tính năng này.
+InGame.CommonUI.Badge.Popup.VoiceInfo,"Bạn đã chọn sử dụng tính năng thử nghiệm, trò chuyện bằng giọng nói của chúng tôi. Roblox sẽ ghi lại âm thanh giọng nói của bạn ở bất kỳ đâu trên nền tảng vì mục đích kiểm duyệt và an toàn. Bằng việc tiếp tục dùng tính năng trò chuyện bằng giọng nói, bạn cho phép Roblox thu thập, sử dụng và lưu trữ bản ghi âm giọng nói của bạn cho các mục đích này. Bạn có thể chọn không sử dụng tính năng trò chuyện bằng giọng nói mọi lúc."
+InGame.CommonUI.Badge.Popup.CommunityStandards,Hãy Báo Cáo Vi Phạm nếu bạn gặp phải những người vi phạm Tiêu Chuẩn Cộng Đồng của chúng tôi.
+Feature.NativeAds.Label.Sponsored,Được Tài Trợ
+Feature.NativeAds.Label.Ad,Quảng Cáo
+InGame.ConnectionError.DisconnectOutOfMemory,Thiết bị của bạn không đủ bộ nhớ để chạy trải nghiệm này. Thoát về lại ứng dụng.
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,"Do các khả năng của thiết bị, trải nghiệm này đã trở nên không ổn định và có thể bị lỗi."
+InGame.ConnectionError.Title.ExperienceUnstable,Trải Nghiệm Không Ổn Định
+Feature.SettingsHub.Label.MethodOfAbuse,Loại Vi Phạm?
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,Cuộc Nói Chuyện
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,Người này đã la hét rất to
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,Người này đã nhập một từ ác ý vào tin nhắn văn bản
+Feature.SettingsHub.MethodOfAbuse.Text.Title,Tin Nhắn Văn Bản
+Feature.SettingsHub.MethodOfAbuse.Other.Title,Khác
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,"Người đang theo tôi mặc một chiếc áo sơ mi tồi tàn, v. v."
+Feature.SettingsHub.ReportSubmitted.MutePlayer,Tắt Tiếng {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,Chặn {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,Chúng tôi đã nhận được báo cáo của bạn và sẽ sớm thực hiện hành động khác nếu cần. Phản hồi của bạn sẽ giúp cho cộng đồng của chúng ta an toàn hơn.
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,Bạn sẽ không thể nghe thấy {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,Bạn và {Player} sẽ không liên lạc được với nhau nữa.
+Feature.SettingsHub.Label.ReportComment,Hãy giải thích chi tiết trục trặc mà bạn gặp phải.
+Feature.SocialShare.Action.Share,Chia Sẻ
+Feature.SocialShare.Label.ShareServerLink,Chia Sẻ Liên Kết Mời
+Feature.SocialShare.Label.Copied,Đã Sao Chép
+Feature.AccountSettings.Label.FreeCommConsentOnly,"Tôi đồng ý cho Roblox thu thập, sử dụng và lưu trữ các bản ghi giọng nói của tôi chỉ cho mục đích kiểm duyệt và đảm bảo an toàn."
+InGame.CommonUI.Button.KeepPlaying,Tiếp Tục Chơi
+InGame.ConnectionError.Title.OutOfMemory,Hết Bộ Nhớ
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,Trải nghiệm này đang dùng quá nhiều bộ nhớ và có thể bị lỗi.
+Feature.SettingsHub.Label.DefaultInviteMessage,Bạn có muốn mời {DisplayName} tham gia cùng bạn?
+Feature.SettingsHub.Heading.InviteUser,Mời {DisplayName}?
+Feature.SettingsHub.Action.MuteAll,Tắt Tiếng Tất Cả
+Feature.SettingsHub.Action.UnmuteAll,Bật Tiếng Tất Cả
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,Bạn không thể nói thầm với chính mình.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,Cảnh báo: Việc thay đổi tên tài khoản sẽ loại bỏ trạng thái huy hiệu đã xác thực của bạn. Bạn có chắc muốn làm điều này?
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,Chế Độ Hiển Thị Bảng Tên
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,Hiển Thị
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,Ẩn
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (Bản Gốc)
+Feature.SettingsHub.LanguageSelection.Unavailable,Không Khả Dụng
+Feature.SettingsHub.LanguageSelection.SettingLabel,Ngôn Ngữ Trải Nghiệm
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,Tìm Hiểu Thêm về Ghi Âm Giọng Nói
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,Tắt Tiếng và Chặn {DisplayName}?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,Bạn và {Player} sẽ không liên lạc được với nhau nữa.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,Tắt Tiếng {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,Chặn {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,Bạn và {DisplayName} (@{Username}) sẽ không liên lạc được với nhau nữa.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,Bạn đã chặn và tắt tiếng {Displayname} (@{Username})
+Feature.SettingsHub.ReportSubmitted.Muted,Bạn đã tắt tiếng {Displayname} (@{Username})
+Feature.SettingsHub.ReportSubmitted.Blocked,Bạn đã chặn {Displayname} (@{Username})
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,Tắt Tiếng và Chặn {DisplayName}(@{Username})?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,Dịch Chuyển Bị Tạm Dừng
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,Dịch chuyển sẽ tiếp tục khi trình đơn đóng.
+Feature.NativeAds.Action.EnterExperience,Vào Trải Nghiệm
+Feature.NativeAds.Action.ReturnToExperience,Quay Lại Trải Nghiệm
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,Bạn có cài đặt quyền riêng tư khiến bạn không thể kết nối máy chủ này.
+CoreScripts.TopBar.RobloxMenu,Trình Đơn Roblox
+InGame.CommonUI.Label.MicOff,Tắt Mic
+InGame.CommonUI.Label.MicOnRecording,Bật Mic (ghi âm thanh)
+InGame.InspectMenu.Label.VerifiedAvatar,Avatar {VERIFIED_BADGE} của {PLAYER_NAME}
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,Bạn không có đủ Robux để mua vật phẩm này.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,Số Dư Hiện Tại
+IAPExperience.InsufficientRobux.Action.Cancel,Hủy Bỏ
+IAPExperience.InsufficientRobux.Action.BuyRobux,Mua Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,Adornee trong AdGui không ở dạng Khối
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,Tính luân phiên của Adornee trong AdGui không hợp lệ
+Feature.NativeAds.Description.InvalidAdPortalParentType,Loại Phần Tử Cấp Trên không hợp lệ
+Feature.NativeAds.Description.AdPortalParentMissing,Phần Tử Cấp Trên không tồn tại
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,Kích cỡ Adornee trong AdGui không hợp lệ
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,Vị trí của Adornee trong AdGui không hợp lệ
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,Phân cấp của AdPortal không chính xác
+Feature.NativeAds.Description.InvalidAdGuiValidation,Xác minh AdGui thất bại
+Feature.NativeAds.Description.InvalidAdPortalProperties,Bộ thuộc tính của AdPortal không chính xác
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,Bộ thuộc tính của thành phần phần tử cấp trên trong AdPortal không chính xác
+Feature.NativeAds.Description.InvalidAdGuiAdornee,Adornee trong AdGui không phải là một Thành Phần
+Feature.NativeAds.Description.AdPortalMissing,AdPortal không tồn tại
+IAPExperience.InsufficientRobux.Text.YouNeed,Bạn cần thêm {robux}. Vui lòng mua thêm Gói Robux sau đó quay lại trải nghiệm.
+IAPExperience.InsufficientRobux.Action.RobuxStore,Vào Cửa Hàng Robux
+CoreScripts.TextChat.Emote.Error.NotOwned,"Bạn không sở hữu biểu cảm ""{RBX_EMOTE}""."
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,"Do vi phạm Tiêu Chuẩn Cộng Đồng của chúng tôi, bạn tạm thời bị thu hồi quyền truy cập cuộc trò chuyện bằng giọng nói cho đến khi"
+Feature.SettingsHub.Prompt.MicUseSuspended,Việc sử dụng micrô đã bị tạm ngưng
+InGame.ConnectionError.Title.LowMemoryWarning,Cảnh Báo Bộ Nhớ Thấp
+InGame.ConnectionError.Queue,Vị trí xếp hàng của bạn: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,Gửi Trang Phục
+CoreScripts.PublishAssetPrompt.TitleTextEmote,Gửi Biểu Cảm
+CoreScripts.PublishAssetPrompt.TitleTextPackage,Gửi Gói
+CoreScripts.PublishAssetPrompt.Name,Tên
+CoreScripts.PublishAssetPrompt.Description,Mô Tả
+CoreScripts.PublishAssetPrompt.InvalidName,Tên Không Hợp Lệ
+CoreScripts.PublishAssetPrompt.InvalidDescription,Mô tả Không Hợp Lệ
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,"Tôi đồng ý rằng trải nghiệm này sẽ gửi bộ phận của avatar để kiểm duyệt, rồi tải lên mục Sản Phẩm sáng tạo của tôi."
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,Tôi đồng ý rằng trải nghiệm này sẽ gửi biểu cảm của tôi đi kiểm duyệt và tải lên Sản phẩm sáng tạo của tôi.
+CoreScripts.PublishAssetPrompt.Cancel,Hủy bỏ
+CoreScripts.PublishAssetPrompt.Submit,Gửi
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,Mô Tả
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,Tên
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,Bạn không sở hữu biểu cảm đó.
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,Camera
+InGame.CommonUI.Label.Return,Quay lại
+InGame.CommonUI.Label.ReturnFallback,Quay lại trải nghiệm trước
+InGame.CommonUI.Label.ReturnTo,"Quay lại ""{placeName}"""
+Feature.FaceChat.Heading.FacialAnimation,Hiệu Ứng Động Khuôn Mặt
+Feature.FaceChat.Subtitle.FeatureDisabled,Hiệu ứng động khuôn mặt tạm thời không khả dụng. Vui lòng thử lại sau.
+Feature.FaceChat.Subtitle.ServerDisabled,Hiệu ứng động khuôn mặt tạm thời không khả dụng. Vui lòng thử lại sau.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,Tắt camera có thể cải thiện hiệu suất trải nghiệm.
+Feature.FaceChat.Heading.VideoNoPermission,Camera không khả dụng
+Feature.FaceChat.Subtitle.VideoNoPermission,Vào phần cài đặt để cấp quyền cho Roblox sử dụng camera.
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,Hiệu Suất Thiết Bị Thấp
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,Hiệu Ứng Động Khuôn Mặt Không Khả Dụng
+Feature.FaceChat.Heading.VideoUnsupported,Không Hỗ Trợ Camera Thiết bị
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox không sử dụng được camera của bạn để tạo hiệu ứng động cho avatar.
+Feature.SettingsHub.Prompt.Connecting,Tính Năng Giọng Nói Vẫn Đang Kết Nối
+Feature.SettingsHub.Prompt.Subtitle.Connecting,Kết nối bằng giọng nói vẫn đang được tiến hành. Quy trình này có thể mất một lúc.
+CoreScripts.ContactList.Label.Outgoing,Cuộc Gọi Đi
+CoreScripts.ContactList.Label.Incoming,Cuộc Gọi Đến
+CoreScripts.ContactList.Label.Missed,Cuộc Gọi Nhỡ
+Feature.FaceChat.Heading.LODCameraForceDisable,Camera Đã Bị Tắt
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox đã tắt camera thiết bị của bạn do vấn đề về hiệu suất.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,Thiết Lập
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,"Bạn phải thiết lập Xác Thực 2 Bước để hoàn thành hành động này. Điều này sẽ giúp bảo vệ việc đăng nhập, giao dịch mua của bạn và còn nhiều nữa."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,Yêu Cầu Xác Thực 2 Bước
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,"Do vi phạm Tiêu Chuẩn Cộng Đồng của chúng tôi, bạn tạm thời bị thu hồi quyền truy cập cuộc trò chuyện bằng giọng nói và cuộc trò chuyện bằng avatar cho đến khi"
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,Vi phạm trong tương lai có thể dẫn đến các hành động tài khoản bổ sung.
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,Có hiệu lực cho đến
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,"Hệ thống của chúng tôi phát hiện hành vi có thể vi phạm Tiêu Chuẩn Cộng Đồng. Để phòng ngừa, chúng tôi đã tạm thời vô hiệu hóa quyền truy cập của bạn tới cuộc trò chuyện bằng giọng nói và avatar."
+Feature.SettingsHub.Prompt.Subtitle.Microphone,"Hệ thống của chúng tôi phát hiện hành vi có thể vi phạm Tiêu Chuẩn Cộng Đồng. Để phòng ngừa, chúng tôi đã tạm thời vô hiệu hóa quyền truy cập của bạn tới cuộc trò chuyện bằng giọng nói."
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Việc Sử Dụng Micrô và Camera Bị Tạm Ngưng
+IAPExperience.BuyRobux.Banner.Text,Robux cho phép bạn mua các nâng cấp cho avatar hoặc mua các kỹ năng đặc biệt trong trải nghiệm
+IAPExperience.BuyRobux.Banner.Title,Mở khóa Robux
+IAPExperience.BuyRobux.Text.MoreRobux,Thêm {robux} Robux
+InGame.ConnectionError.PlacelaunchHttpError,Đã xảy ra lỗi Http. Vui lòng đóng máy khách và thử lại.
+InGame.ConnectionError.PlacelaunchGameFull,Trải nghiệm được yêu cầu đã đầy
+InGame.ConnectionError.PlacelaunchGameEnded,Trải nghiệm này đã kết thúc hoặc máy chủ bất ngờ không hoạt động do lỗi hệ thống
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,Bộ nhớ của thiết bị thấp. Rời khỏi bây giờ sẽ lưu trạng thái của bạn và ngăn Roblox không bị lỗi.
+InGame.ConnectionError.Waiting,Chờ một máy chủ khả dụng
+InGame.ConnectionError.Loading,"Đã tìm thấy máy chủ, đang tải..."
+InGame.ConnectionError.Joining,Đang kết nối máy chủ
+NotificationScript2.UINavigation.FormattedText,Nhấn {KEY_NAME} để chuyển đổi.
+Feature.FaceChat.Subtitle.UnsupportedDevice,Phần cứng của bạn không đáp ứng các yêu cầu để tạo hiệu ứng động cho avatar bằng camera.
+Feature.AccountSettings.Heading.Communication,Giao Tiếp
+Feature.FaceChat.Heading.NotAvailable,Hiệu Ứng Động Khuôn Mặt Không Khả Dụng
+InGame.ConnectionError.DisconnectPrivateServerKickout,Bạn đã bị mất kết nối vì bạn không thể truy cập vào máy chủ riêng này nữa.
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,Gói của {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,Đầu avatar của bạn không được hỗ trợ hiệu ứng động khuôn mặt. Đầu tương thích có sẵn trong kho đồ của bạn và trên Cửa Hàng Avatar.
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,Hủy bỏ
+CoreScripts.EmoteThumbnailEditor.Action.Update,Cập nhật
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,Chỉnh sửa hình nhỏ
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,Xoay
+CoreScripts.EmoteThumbnailEditor.Label.Time,Thời gian
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,Bạn có chắc muốn thoát và tham gia trải nghiệm khác không?
+Feature.SettingsHub.Prompt.SimpleNudge,Hãy văn minh và lịch sự
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,Hệ thống của chúng tôi đã phát hiện hành vi có thể vi phạm Tiêu Chuẩn Cộng Đồng. Đây là lời nhắc nhở nhẹ nhàng về việc duy trì hành vi chơi game văn minh và lịch sự trên Roblox.
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,Vi phạm trong tương lai có thể dẫn đến các hành động tài khoản bổ sung.
+Feature.SettingsHub.Prompt.ThankYouForFeedback,Cảm ơn bạn đã nói cho chúng tôi biết
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,Chúng tôi sẽ tiếp tục cải thiện các hệ thống dựa trên phản hồi của bạn.
+Feature.SettingsHub.Chat.TranslationEnabled,Tự Động Dịch Cuộc Trò Chuyện
+Notifications.ToastNotifications.Title.LeavingExperience,Đang Rời Trải Nghiệm
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,Bạn có thể tìm thấy vật phẩm này trong kho đồ của bạn.
+CoreScripts.PublishAssetPrompt.PublishFailed,Đã xảy ra lỗi. Vui lòng thử lại.
+CoreScripts.PublishAssetPrompt.PermissionDenied,Đã xảy ra lỗi. Vui lòng thử lại.
+CoreScripts.PublishAssetPrompt.Timeout,Đã xảy ra lỗi. Vui lòng thử lại.
+CoreScripts.PublishAssetPrompt.NoUserInput,Đã xảy ra lỗi. Vui lòng thử lại.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,Thành Công!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,Gửi Thất Bại
+Feature.SettingsHub.Chat.TranslationInformation,Tin nhắn văn bản sẽ được dịch sang ngôn ngữ của bạn. Nhấn vào ký hiệu phía trước tin nhắn để xem bản gốc.
+CoreScripts.TextChat.Clear.Help.Description,/clear hoặc /cls: xóa tin nhắn trong cửa sổ trò chuyện 
+GameChat_ChatMain_ChatTranslationOnboarding,Tin nhắn văn bản sẽ được dịch sang ngôn ngữ của bạn. Nhấn vào biểu tượng phía trước tin nhắn để xem bản gốc. Bạn có thể tắt tính năng dịch trong trình đơn Cài Đặt.
+CoreScripts.PublishAssetPrompt.TitleTextModel,Gửi Gói
+IAPExperience.BuyRobux.Text.MoreRobux2,Thêm {robux} Robux
+CoreScripts.PublishAssetPrompt.UndefinedError,Đã xảy ra lỗi. Vui lòng thử lại. Mã Lỗi: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,Tắt
+InGame.CommonUI.Label.On,Bật
+CoreScripts.PublishAssetPrompt.DisclaimerModel,Các vật phẩm đã tạo sẽ được xem xét và bạn có thể không được hoàn tiền cho các vật phẩm bị từ chối do không tuân thủ Tiêu Chuẩn Cộng Đồng.
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,Bạn đã mua Robux thành công!
+CoreScripts.AssetPreviewView.Action.ResetView,Đặt lại chế độ xem
+CoreScripts.AssetPreviewView.Label.LoadingFailed,Tải thất bại
+CoreScripts.PublishAssetPrompt.ResultModalOk,OK
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,Chúng tôi đã phát hiện ngôn ngữ có thể vi phạm Tiêu Chuẩn Cộng Đồng của Roblox.<br /><br />Bạn có thể mất quyền truy cập vào Cuộc Trò Chuyện bằng Giọng Nói sau nhiều lần vi phạm.
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,Chúng tôi đã phát hiện ngôn ngữ có thể vi phạm Tiêu Chuẩn Cộng Đồng của Roblox. Bạn có thể mất quyền truy cập vào Cuộc Trò Chuyện bằng Giọng Nói sau nhiều lần vi phạm.
+Feature.SettingsHub.Prompt.GotIt,Tôi Đã Hiểu
+CreatorDashboard.AssetTypes.Label.Body,Cơ Thể
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Không Đủ Robux
+IAPExperience.Loading.Text.PurchasingRobux,Đang mua Robux...
+IAPExperience.Loading.Text.PurchasingItem,Đang mua vật phẩm...
+IAPExperience.Loading.WaitingForPurchase,Đang chờ mua...
+IAPExperience.Loading.WaitingForRobux,Đang chờ nhận Robux...
+IAPExperience.Loading.Text.WaitingForPurchase,Đang chờ mua...
+IAPExperience.Loading.Text.WaitingForRobux,Đang chờ nhận Robux...
+Notifications.NotificationStream.Title.ReportNotification,Báo Cáo Thông Báo
+Notifications.NotificationStream.AbuseReason.Bullying,Bắt Nạt
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,Gian Lận/Lợi Dụng
+Notifications.NotificationStream.AbuseReason.Dating,Hẹn Hò
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,Liên Kết Đến Trang Web Khác
+Notifications.NotificationStream.AbuseReason.Other,Khác
+Notifications.NotificationStream.AbuseReason.AskingPII,Câu Hỏi Cá Nhân
+Notifications.NotificationStream.AbuseReason.Scamming,Lừa Đảo
+Notifications.NotificationStream.AbuseReason.Profanity,Nói Tục
+Feature.ReportAbuse.Message.ErrorSubmit,Đã xảy ra sự cố khi gửi báo cáo của bạn.
+Feature.ReportAbuse.Action.ReportAbuse,Báo Cáo Vi Phạm
+Feature.ReportAbuse.Label.TellUsHowAsset,Hãy cho chúng tôi biết tại sao bạn nghĩ tài sản này vi phạm các quy tắc của Roblox.
+Feature.ReportAbuse.Label.ReasonForFlag,Lý Do Gắn Cờ:
+Feature.ReportAbuse.Message.ThanksForFlagging,"Chúng tôi không thể hồi đáp từng báo cáo một, tuy nhiên phản hồi của bạn sẽ giúp chúng tôi cải thiện trải nghiệm cho tất cả các nhà sáng tạo."
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,Bình luận của bạn không được vượt quá {characterLimit} ký tự.
+Feature.SettingsHub.Prompt.IncorrectNudge,Chúng tôi đã mắc sai sót?<br /><u>Hãy cho chúng tôi biết</u>
+Feature.SettingsHub.Prompt.RememberRules,Ghi nhớ chính sách của chúng tôi
+Feature.SettingsHub.Label.Captures,Chụp màn hình
+InGame.InspectMenu.Label.LimitedItems,Vật Phẩm Giới Hạn
+InGame.InspectMenu.Label.FromResale,{PRICE} Từ Việc Bán Lại
+InGame.InspectMenu.Action.FromResale,{PRICE} Từ Việc Bán Lại
+InGame.InspectMenu.Label.OwnedItem,Vật Phẩm Đã Sở Hữu ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,Vật Phẩm Đã Sở Hữu ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,Vật Phẩm Đã Đạt Giới Hạn
+Feature.FaceChat.Heading.UnableToAccessCamera,Không thể truy cập Camera
+Feature.FaceChat.Subtitle.UnableToAccessCamera,"Để tạo hiệu ứng động cho avatar bằng camera, hãy đi đến Cài Đặt OS của bạn để cho phép Roblox sử dụng camera"
+Feature.SettingsHub.Prompt.MicrophonePermission,Không thể truy cập Micrô
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,"Để trò chuyện bằng giọng nói, đi đến Cài Đặt Hệ Điều Hành để cho phép Roblox sử dụng micrô"
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,Hãy nhớ về trải nghiệm này.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,"Không, tắt tiếng người dùng khác"
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,"Có, nghe thấy người dùng khác"
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,"Bạn sẽ nghe thấy giọng nói của người dùng khác, nhưng bạn sẽ bị tắt mic cho đến khi sẵn sàng trò chuyện."
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,Tham Gia với Giọng Nói Đã Bật?
+CoreScripts.PublishCommon.Creator,Nhà sáng tạo
+CoreScripts.PublishCommon.Leave,Có
+CoreScripts.PublishCommon.MadeIn,Tạo Ra Tại
+CoreScripts.PublishCommon.Stay,Không
+CoreScripts.PublishCommon.Type,Loại
+CoreScripts.PublishCommon.UnsavedWarning,Bạn có thể mất thay đổi chưa lưu
+Feature.Accessibility.Description.PreferredTransparency,Cải thiện độ tương phản bằng cách điều chỉnh độ trong suốt trên một số nền
+Feature.Accessibility.Description.ReducedMotion,Dừng hoặc giảm hiệu ứng chuyển động
+Feature.Accessibility.Description.UiNavigationKeyBind,Sử dụng phím {uiNavigationKey} để kích hoạt và thoát chế độ điều hướng Giao Diện
+Feature.Accessibility.Heading.PreferredTransparency,Độ trong suất của nền
+Feature.Accessibility.Heading.ReducedMotion,Giảm chuyển động
+Feature.Accessibility.Heading.UiNavigationKeyBind,Bật/tắt nút điều hướng của giao diện người dùng
+Feature.Accessibility.PreferredTransparency.Opaque,Mờ
+Feature.Accessibility.PreferredTransparency.Transparent,Trong Suốt
+Feature.Avatar.Heading.Clothing,Trang Phục
+Feature.Avatar.Label.Accessory,Phụ Kiện
+Feature.Avatar.Label.Back,Phía Sau
+Feature.Avatar.Label.ClassicPants,Quần Cổ Điển
+Feature.Avatar.Label.ClassicShirts,Áo Sơ Mi Cổ Điển
+Feature.Avatar.Label.ClassicTShirts,Áo Thun Cổ Điển
+Feature.Avatar.Label.Climb,Leo
+Feature.Avatar.Label.DressesAndSkirts,Đầm & Váy
+Feature.Avatar.Label.DynamicHead,Đầu Hiệu Ứng Động
+Feature.Avatar.Label.Emote,Biểu Cảm
+Feature.Avatar.Label.Face,Mặt
+Feature.Avatar.Label.Fall,Té
+Feature.Avatar.Label.Gear,Trang Bị
+Feature.Avatar.Label.Hair,Tóc
+Feature.Avatar.Label.Hat,Mũ
+Feature.Avatar.Label.Head,Đầu
+Feature.Avatar.Label.Idle,Nhàn Rỗi
+Feature.Avatar.Label.Jacket,Áo Khoác
+Feature.Avatar.Label.Jump,Nhảy
+Feature.Avatar.Label.LeftArm,Tay Trái
+Feature.Avatar.Label.LeftArms,Tay Trái
+Feature.Avatar.Label.LeftLeg,Chân Trái
+Feature.Avatar.Label.LeftLegs,Chân Trái
+Feature.Avatar.Label.LeftShoe,Giày Trái
+Feature.Avatar.Label.Mood,Tâm Trạng
+Feature.Avatar.Label.Neck,Cổ
+Feature.Avatar.Label.Pants,Quần
+Feature.Avatar.Label.RightArm,Tay Phải
+Feature.Avatar.Label.RightArms,Tay Phải
+Feature.Avatar.Label.RightLeg,Chân Phải
+Feature.Avatar.Label.RightLegs,Chân Phải
+Feature.Avatar.Label.RightShoe,Giày Phải
+Feature.Avatar.Label.Run,Chạy
+Feature.Avatar.Label.Shirt,Áo Sơ Mi
+Feature.Avatar.Label.Shorts,Quần Ngắn
+Feature.Avatar.Label.Shoulder,Vai
+Feature.Avatar.Label.Sweater,Áo Len
+Feature.Avatar.Label.Swim,Bơi
+Feature.Avatar.Label.Torso,Thân
+Feature.Avatar.Label.TShirt,Áo Thun
+Feature.Avatar.Label.Waist,Eo
+Feature.Avatar.Label.Walk,Đi Bộ
+Feature.Catalog.Label.Animation,Hiệu Ứng Động
+Feature.Catalog.Label.Attribution,Được Tạo Trong
+Feature.Catalog.Label.Body,Thân
+Feature.Catalog.Label.CategoryType,Loại
+Feature.Catalog.Label.Emotes,Biểu Cảm
+Feature.Catalog.Label.Eyebrow,Lông Mày
+Feature.Catalog.Label.Eyelash,Lông Mi
+Feature.Catalog.Label.Filter.Creator,Nhà Sáng Tạo
+Feature.GamepadDisconnect.Label.Message,"Bộ điều khiển cho người dùng ""%s"" đã bị ngắt kết nối, vui lòng nhấn ""%s"" trên bộ điều khiển mà bạn muốn tiếp tục."
+Feature.GamepadDisconnect.Label.Title,Thiếu bộ điều khiển
+InGame.InspectMenu.Action.SoldOut,Đã Bán Hết
+CoreScripts.PublishCommon.Disclaimer,Các vật phẩm đã tạo sẽ được xem xét và bạn có thể không được hoàn tiền cho các vật phẩm bị từ chối do không tuân thủ Tiêu Chuẩn Cộng Đồng.
+Feature.ReportAbuse.Action.AttachScreenshot,Đính Kèm Ảnh Chụp Màn Hình
+Feature.ReportAbuse.Action.BackToExperience,Quay Lại Trải Nghiệm
+Feature.ReportAbuse.Action.HighlightScene,Đánh Dấu Cảnh
+Feature.ReportAbuse.Action.Next,Tiếp Theo
+Feature.ReportAbuse.Action.Retake,Chụp Lại
+Feature.ReportAbuse.Action.RetakeScene,Chụp Lại Cảnh
+Feature.ReportAbuse.Label.SelectPerson,Chọn Người Dùng Trong Cảnh
+Feature.ReportAbuse.Label.SelectProblem,Chọn Vấn Đề Trong Cảnh
+Feature.ReportAbuse.Message.ProblemNotInScene,"Nếu vấn đề không nằm trong cảnh này, bạn có thể ""Chụp Lại"" ảnh chụp màn hình."
+Feature.ReportAbuse.Message.RetakeScene,"Hãy giúp chúng tôi hiểu rõ hơn những gì đang xảy ra xung quanh bạn. Chúng tôi sẽ chụp lại cảnh ngay khi bạn chọn ""Báo Cáo""."
+Feature.SettingsHub.Action.CaptureScene,Chụp Cảnh
+Feature.SettingsHub.Label.AttachScreenshot,Đính Kèm Ảnh Chụp Màn Hình? (không bắt buộc)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,Đính Kèm Ảnh Chụp Màn Hình?{lineBreak}(không bắt buộc)
+Feature.SettingsHub.Label.SceneCaptured,Cảnh đã chụp
+CommonUI.Controls.Action.Cancel,Hủy
+CommonUI.Controls.Action.Confirm,Xác nhận
+CoreScripts.TopBar.ControlMessageMotion,Motion Tracking
+CoreScripts.TopBar.ControlMessageOff,Tắt
+CoreScripts.TopBar.ControlMessageOn,Bật
+CoreScripts.TopBar.ControlMessageSound,Sound Tracking
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,Avatar › Tùy Chỉnh › Đầu và Cơ Thể
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,Trang bị đầu hiệu ứng động để nháy mắt!
+CoreScripts.TopBar.RobloxPermissionErrorBody,Cài Đặt Roblox › Quyền Riêng Tư › Đầu Vào Micrô và Camera
+CoreScripts.TopBar.RobloxPermissionErrorHeader,Cho Phép Truy Cập Camera
+CoreScripts.TopBar.SelfViewLabel,Tự Xem
+CoreScripts.TopBar.SelfViewSecondaryAction,Mở
+InGame.CommonUI.Badge.Popup.DisclaimerText2,"Vui lòng báo cáo vi phạm nếu bạn gặp phải những người vi phạm Nguyên Tắc Cộng Đồng của chúng tôi. Nếu bạn đã chọn sử dụng dịch vụ thoại, Roblox sẽ ghi lại âm thanh giọng nói của bạn ở bất kỳ đâu trên nền tảng vì mục đích kiểm duyệt và an toàn, cũng như nhằm cải thiện dịch vụ và công cụ của chúng tôi. Bằng việc tiếp tục dùng dịch vụ thoại, bạn cho phép Roblox thu thập, sử dụng và lưu trữ bản ghi âm giọng nói của bạn cho các mục đích này. Bạn có thể chọn không sử dụng tính năng thoại mọi lúc."
+CoreScripts.TopBar.MenuToggle,Mở rộng/Thu gọn
+CoreScripts.TopBar.MoreMenu,Trình Đơn Khác
+CoreScripts.TopBar.OverflowMenu,Trình Đơn Overflow
+CoreScripts.TopBar.Title.ExperienceControls,Kiểm Soát Trải Nghiệm
+CoreScripts.TopBar.ToggleMic,Tắt Tiếng/Mở Tiếng Chính Mình
+Feature.Catalog.Label.Bundle,Gói
+Feature.SocialContextToast.Action.InviteBack,Mời Quay Lại
+Feature.SocialContextToast.Action.JoinFriend,Tham gia
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} đã rời khỏi và tham gia {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} đã rời khỏi trải nghiệm này
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} đã tham gia cùng bạn
+Feature.SocialContextToast.Message.InvitationConfirmation,Lời mời đã gửi
+Feature.SocialContextToast.Message.YouJoinedManyFriends,Bạn đã tham gia cùng {FRIEND_NAME} và {FRIEND_COUNT} bạn bè khác
+Feature.SocialContextToast.Message.YouJoinedOneFriend,Bạn đã tham gia cùng {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,Bạn đã tham gia cùng {FRIEND_NAME_ONE} và {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,Avatar của người dùng này đang mặc trang phục phản cảm
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,Avatar
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,"Bạn sẽ nghe thấy giọng nói của người dùng khác, nhưng bạn sẽ bị tắt mic cho đến khi sẵn sàng trò chuyện."
+Feature.Subscription.Text.DisclaimerMonthly,Gia hạn hàng tháng. Hủy bỏ bất cứ lúc nào.
+Feature.Subscription.Text.PerMonth,/tháng
+Feature.SettingsHub.Action.EveryoneToggle,Mọi Người
+Feature.SettingsHub.Action.NobodyToggle,Không Có Ai
+Feature.SettingsHub.Action.NonfriendsToggle,Không phải bạn bè
+Feature.SettingsHub.Label.Mute,Tắt Tiếng
+Feature.SocialContextToast.Message.InvitationFailure,Gặp sự cố khi gửi lời mời
+Feature.SocialShare.Action.CopyLink,Sao Chép Liên Kết
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,Gia hạn hàng tháng. Hủy bỏ bất cứ lúc nào.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,"Bạn đã tham gia cùng {FRIEND_NAME}, nhưng họ hiện đang ở một địa điểm bị hạn chế"
+Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} của bạn đã di chuyển đến một địa điểm bị hạn chế trong trải nghiệm này
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox tự động dịch ngôn ngữ được hỗ trợ trong cuộc trò chuyện
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,Tin nhắn bạn gửi và nhận sẽ được dịch tự động
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,Tính năng dịch cuộc trò chuyện đang bật cho ngôn ngữ được hỗ trợ
+Feature.SettingsHub.Chat.TranslationSetting,Tự Động Dịch Cuộc Trò Chuyện
+Feature.SettingsHub.Chat.TranslationToggleSetting,Tùy Chọn Xem Tin Nhắn Chưa Dịch
+Feature.Call.Description.NoFriendsFound,Không tìm thấy bạn bè
+Feature.Call.Error.Description.AlreadyInCall,Bạn đang trong cuộc gọi
+Feature.Call.Error.Description.CallEnabledVerificationFailed,Không xác minh được điều kiện để thực hiện cuộc gọi.
+Feature.Call.Error.Description.Generic,Đã xảy ra sự cố. Vui lòng thử lại sau.
+Feature.Call.Error.Description.SettingsNotCallEnabled,Cài đặt hiện tại không cho phép bạn thực hiện cuộc gọi.
+Feature.Call.Error.Label.OhNo,Ôi không!
+Feature.Call.Label.CallEnded,Cuộc Gọi Kết Thúc
+Feature.Call.Label.Calling,Đang gọi...
+Feature.Call.Label.Incoming,Cuộc Gọi Đến
+Feature.Call.Label.Missed,Cuộc Gọi Nhỡ
+Feature.Call.Label.Outgoing,Cuộc Gọi Đi
+Feature.Call.Label.RecentCalls,Cuộc Gọi Gần Đây
+Feature.Call.Label.RobloxCall,Cuộc gọi Roblox
+Feature.Call.Label.StartNewCall,Bắt Đầu Cuộc Gọi Mới
+Feature.Call.Label.Teleporting,Đang dịch chuyển...
+Feature.Call.Label.Yesterday,Hôm Qua
+Feature.Call.Prompt.AddFriends,Thêm bạn bè trên Roblox để thực hiện cuộc gọi
+Feature.Call.Prompt.FirstCall,Hãy thử thực hiện cuộc gọi đầu tiên
+Feature.Call.Prompt.SearchFriends,Tìm kiếm bạn bè
+Feature.Call.Prompt.StartCall,Bắt đầu cuộc gọi
+Feature.FaceChat.Heading.LowPerformanceDetected,Phát Hiện Hiệu Suất Thấp
+Feature.FaceChat.Subtitle.LowPerformanceDetected,Tắt camera có thể cải thiện hiệu suất thiết bị của bạn
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,Không thể tải bạn bè. Thử lại sau.
+Feature.SettingsHub.Label.NoFriendsPageMessage,Thêm bạn bè để cùng nhau khám phá.
+CoreScripts.Feedback.EntryPoint.ButtonText,Đưa Ra Phản Hồi
+CoreScripts.Feedback.EntryPoint.MenuLabel,Phản Hồi
+CoreScripts.Feedback.EntryPoint.OptionText,Đưa Ra Phản Hồi Về Bản Dịch
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,Thoát
+CoreScripts.Feedback.FeedbackBar.HelpButton,Trợ Giúp
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,Cung cấp bất kỳ bình luận bổ sung nào dưới đây (không bắt buộc)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,Nhập bất kỳ bình luận bổ sung nào bạn có ở đây
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,Hủy bỏ
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,Bản dịch chính xác là gì? (không bắt buộc)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,Nhập bản dịch chính xác ở đây
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,Đưa Ra Phản Hồi
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,Hình Ảnh
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,Đối Tượng Trò Chơi
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Lưới bề mặt
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,Mô Hình
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,Video
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,Bản dịch này gặp vấn đề gì? (không bắt buộc)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,Vấn Đề về Độ Chính Xác
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,Không Phù Hợp hoặc Xúc Phạm
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,Không Có Lựa Chọn
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,Vấn Đề về Chính Tả hoặc Ngữ pháp
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,Chưa dịch
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,Đối Tượng Đã Chọn
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,Gửi
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,Văn Bản Đã Chọn
+CoreScripts.Feedback.Help.CloseInstructions,Đóng Hướng Dẫn
+CoreScripts.Feedback.Help.Instructions1,"Trong chế độ phản hồi, màn hình sẽ bị treo và bạn sẽ không di chuyển được avatar hay camera. Hãy nhấn hoặc nhấp vào bất kỳ đối tượng nào để đưa ra phản hồi về bản dịch không chính xác hoặc bị thiếu."
+CoreScripts.Feedback.Help.Instructions2,"Khi bạn chọn một đối tượng, một biểu mẫu sẽ xuất hiện để bạn cung cấp thêm thông tin nếu muốn. Cảm ơn bạn đã hỗ trợ chúng tôi cải thiện bản dịch trên Roblox!"
+CoreScripts.Feedback.Help.MainHeader,Trợ Giúp
+CoreScripts.Feedback.SubmissionToastBody,Roblox sẽ sử dụng thông tin này để cải thiện chất lượng bản dịch của trải nghiệm này
+CoreScripts.Feedback.SubmissionToastHeader,Cảm ơn phản hồi của bạn!
+Feature.Call.Description.Friends,Bạn bè có thể có/không có các thiết bị và cài đặt dành cho trải nghiệm cuộc gọi tối ưu.
+Feature.Call.Description.SuggestedFriends,Bạn bè có các thiết bị và cài đặt được đặt cho trải nghiệm cuộc gọi tối ưu.
+Feature.Call.Error.Description.DeviceNotSupported,Tính năng gọi hiện không được hỗ trợ trên thiết bị của bạn. Vui lòng thử lại sau.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} hiện đang bận và không thể nhận cuộc gọi của bạn ngay bây giờ. Vui lòng thử lại sau.
+Feature.Call.Error.Title.CouldntMakeCall,Không thể thực hiện cuộc gọi
+Feature.Call.Error.Title.FriendBusy,Bạn bè đang bận
+Feature.Call.Label.Friends,Bạn bè
+Feature.Call.Label.Suggested,Được gợi ý
+Feature.Call.Modal.EnableChatVoiceBody,Bật tính năng trò chuyện bằng giọng nói trong Cài Đặt > Quyền Riêng Tư để trao đổi với người khác trong trải nghiệm này.
+Feature.Call.Modal.EnableChatVoiceTitle,Bật tính năng trò chuyện bằng giọng nói
+InGame.InspectMenu.Action.Go,Đi
+InGame.InspectMenu.Attribution.GoToDescription,Bạn sẽ rời khu vực này và được đưa đến {EXPERIENCE_NAME}.
+InGame.InspectMenu.Attribution.GoToExperience,Bạn muốn truy cập Trải Nghiệm?
+Common.Presence.Label.Online,Trực Tuyến
+Feature.Call.Label.Block,Chặn {combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,Dịch Chuyển Ngay
+CoreScripts.Ads.Action.PortalPromptCancel,Hủy bỏ
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,Đi ra xa để bỏ qua cuộc hội thoại.
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,Dịch chuyển đến {RBX_NAME}?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,Dịch chuyển?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,Bạn có thể tìm thấy camera và điều khiển chế độ xem bản thân ở đây
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,Sử dụng camera để làm cho avatar của bạn cười và di chuyển giống như bạn
+Feature.Call.Description.ExperienceError,Tính năng Trò chuyện bằng giọng nói không được hỗ trợ trong trải nghiệm này.
+Feature.Call.Error.Title.ExperienceError,Lỗi Khi Tham Gia Trải Nghiệm
+Feature.SettingsHub.Label.ReasonForAbuse,Lý Do Vi Phạm?
+Notifications.NotificationStream.Bundle.ShowLess,Ẩn bớt
+Notifications.NotificationStream.Bundle.ShowMoreV2,{notificationCount} thông báo khác
+CommonUI.Controls.Input.Optional,{inputLabel} (không bắt buộc)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,Quyền truy cập của bạn vào trò chuyện bằng giọng nói đã bị vô hiệu hóa đến {dateTime} do hành vi nghi ngờ là vi phạm Tiêu chuẩn Cộng đồng.
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,Mở rộng gói thông báo
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,"Đơn vị tiền tệ của thẻ quà tặng phải khớp với vị trí của tài khoản. Bạn có thể xem lại vị trí của tài khoản trong phần Cài đặt. Nếu gặp bất kỳ vấn đề nào khác, vui lòng liên hệ {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}."
+Feature.Call.Label.Unfriend,Hủy kết bạn với {combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,"Bộ điều khiển điều khiển cho người dùng ""%s"" đã bị ngắt kết nối. Vui lòng kết nối lại bộ điều khiển điều khiển của bạn."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,Chúng tôi đã tạm thời tắt tính năng nói chuyện vì có thể bạn đã sử dụng ngôn ngữ vi phạm Tiêu chuẩn cộng đồng của Roblox.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,"Nếu tái phạm, bạn có thể mất quyền truy cập vào tài khoản của mình."
+Feature.SettingsHub.Prompt.XMinuteSuspension,Tạm ngưng {banDurationInMinutes} phút
+Feature.ReportAbuse.DSAIllegal.ReportLink,Báo cáo nội dung bất hợp pháp theo Đạo luật Dịch vụ Kỹ thuật số của Liên minh châu Âu.
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,Báo Cáo Nội Dung Bất Hợp Pháp
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,Bằng ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,"Roblox đã không sử dụng thông tin hành vi để phân phối quảng cáo này. Quảng cáo mà bạn đang xem được dựa trên các thông tin bao gồm loại thiết bị, vị trí và độ tuổi, từ đó hiện cho bạn những quảng cáo phù hợp và liên quan."
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,"Để báo cáo nội dung bất hợp pháp theo Đạo luật Dịch vụ Kỹ thuật số của Liên minh châu Âu, hãy truy cập: https://www.roblox.com/illegal-content-reporting"
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,Mặc định ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,Tốc Độ Khung Hình Tối Đa
+CoreScripts.Ads.Action.Close,Đóng
+CoreScripts.Ads.Label.WhyThisAd,Tại sao lại hiện quảng cáo này?
+CoreScripts.FTUX.Mic.Body,Bật micro của bạn
+CoreScripts.FTUX.Mic.Header,Trò chuyện bằng giọng nói
+CoreScripts.FTUX.Onboard.Body,"Bảng xếp hạng, trò chuyện, an toàn, v.v."
+CoreScripts.FTUX.Onboard.Header,Nhanh chóng tải cài đặt điều khiển yêu thích của bạn
+CoreScripts.FTUX.SelfView.Body,"Khi bật camera, avatar sẽ bám theo chuyển động của bạn khi bạn cười, chớp mắt, v.v"
+CoreScripts.FTUX.SelfView.Header,Hoạt hình hóa avatar của bạn
+CoreScripts.FTUX.Tools.Body,"Theo dõi điểm số, báo cáo vấn đề, sử dụng biểu cảm"
+CoreScripts.FTUX.Tools.Header,Công cụ và hành động hàng đầu
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,"Chụm Mở để Thu Phóng, Vuốt để Xoay, Vuốt Bằng 2 Ngón Tay để Quay"
+CoreScripts.PublishAvatarPrompt.Body,Cơ Thể
+CoreScripts.PublishAvatarPrompt.BodyName,Tên Cơ Thể
+CoreScripts.PublishAvatarPrompt.Close,Đóng
+CoreScripts.PublishAvatarPrompt.CreatedBody,Cơ Thể của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedHead,Đầu của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,Tay Trái của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,Chân Trái của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,Tay Phải của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,Chân Phải của {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedTorso,Thân của {DisplayName}
+CoreScripts.PublishAvatarPrompt.Head,Đầu
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,Để lại vật phẩm sáng tạo?
+CoreScripts.PublishAvatarPrompt.LeftArm,Tay Trái
+CoreScripts.PublishAvatarPrompt.LeftLeg,Chân Trái
+CoreScripts.PublishAvatarPrompt.Pan,Di chuyển khung hình
+CoreScripts.PublishAvatarPrompt.ResetView,Đặt lại Chế độ xem
+CoreScripts.PublishAvatarPrompt.RightArm,Tay Phải
+CoreScripts.PublishAvatarPrompt.RightLeg,Chân Phải
+CoreScripts.PublishAvatarPrompt.Rotate,Xoay
+CoreScripts.PublishAvatarPrompt.SubmitCreation,Gửi sản phẩm sáng tạo
+CoreScripts.PublishAvatarPrompt.Torso,Thân
+CoreScripts.PublishAvatarPrompt.Zoom,Thu phóng
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,Ngôn ngữ dịch trong trò chuyện
+CoreScripts.Feedback.FeedbackBar.MainLabel,Đưa Ra Phản Hồi
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,Đối tượng trải nghiệm: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,Chọn các văn bản để phản hồi về các bản dịch sai hoặc bị thiếu.
+CoreScripts.Feedback.MobileSelectionModal.Close,Đóng
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,Đưa Ra Phản Hồi
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,Đối tượng trải nghiệm: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,Văn Bản Đã Chọn
+CoreScripts.Feedback.Onboarding.Cancel,Hủy bỏ
+CoreScripts.Feedback.Onboarding.Instructions,Chọn các văn bản để phản hồi về các bản dịch sai hoặc bị thiếu.
+CoreScripts.Feedback.Onboarding.MainHeader,Hãy Thông Báo Sự Cố
+CoreScripts.Feedback.Onboarding.Start,Bắt đầu
+CoreScripts.FTUX.Onboard.Complete,Đã Hiểu
+CoreScripts.FTUX.Onboard.ShowMe,Cho Tôi Xem
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,Phản hồi của bạn giúp chúng tôi cải thiện hệ thống của mình.
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,Cảm ơn bạn đã chia sẻ với chúng tôi
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Quay Tự Do
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,Hiện GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,Có
+Feature.Notifications.Heading.EnableNotifications,Bật thông báo cho trải nghiệm này
+Feature.Notifications.Heading.EnableNotificationsForExperience,Bật thông báo cho trải nghiệm {experienceName}
+Feature.Notifications.Label.ReceiveActivityUpdates,Nhận thông tin cập nhật về hoạt động trong thời gian bạn không mở ứng dụng
+Feature.Notifications.Response.NotificationsEnabled,Đã mở thông báo cho trải nghiệm này
+Feature.Notifications.Response.NotificationsEnabledForExperience,Đã mở thông báo cho {experienceName}
+Feature.SettingsHub.Action.LearnMore,Tìm hiểu thêm
+Feature.SettingsHub.Action.NotNow,Không phải lúc này
+Feature.SettingsHub.Action.TurnOn,Bật
+Feature.SettingsHub.Prompt.ChangeYourMind,Nếu bạn đổi ý
+Feature.SettingsHub.Prompt.JoinedVoiceChat,Bạn đã tham gia Cuộc nói chuyện
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,"Bạn luôn có thể ngắt kết nối khỏi Cuộc gọi thoại hoặc tắt tiếng của bất cứ ai, bất kỳ lúc nào."
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,Bạn luôn có thể tham gia Cuộc nói chuyện từ Menu Roblox sau này.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"Chọn bật đồng nghĩa với việc tôi đồng ý cho phép Roblox thu thập, sử dụng và lưu trữ bản ghi âm giọng nói của tôi để kích hoạt các dịch vụ thoại và để kiểm duyệt, đảm bảo an toàn và cải thiện các dịch vụ và công cụ của Roblox."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,"Roblox đã không sử dụng thông tin hành vi để phân phối quảng cáo này. Quảng cáo mà bạn đang xem được dựa trên các thông tin bao gồm loại thiết bị, vị trí và độ tuổi, từ đó hiện cho bạn những quảng cáo phù hợp và liên quan. Đơn vị quảng cáo là {AdvertiserName}."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,"Roblox đã không sử dụng thông tin hành vi để phân phối quảng cáo này. Quảng cáo mà bạn đang xem được dựa trên các thông tin bao gồm loại thiết bị, vị trí và độ tuổi, từ đó hiện cho bạn những quảng cáo phù hợp và liên quan. Đơn vị quảng cáo là {AdvertiserName}. Đơn vị trả tiền cho quảng cáo là {PayerName}."
+Feature.Notifications.Heading.TurnOnNotifications,Bật Thông Báo
+Feature.Notifications.Label.GetUpdatesFromExperience,Nhận thông báo về {experienceName} trong thời gian bạn không mở ứng dụng?
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,Bạn có thể tắt tiếng của bất cứ ai bất kỳ lúc nào.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,"Bật Cuộc nói chuyện để trò chuyện với người khác. Bạn sẽ cần cấp quyền truy cập micrô cho Roblox. Bạn sẽ giữ quyền kiểm soát — tắt tiếng của chính bạn hoặc bất cứ ai, vào bất kỳ lúc nào."
+Verification.Identity.Heading.V2LetsChat,Hãy Trò Chuyện
+Feature.Call.Label.Retry,Thử lại
+Feature.Friends.Action.Unfriend,Hủy Kết Bạn
+AuthorizeWebsite.PermissionRequest.Label.Subscription,Gói Đăng Ký
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,Tải thông tin về các gói đăng ký của bạn.
+CreatorDashboard.ScopeSystem.Label.Subscription,Gói Đăng Ký
+Feature.ReportAbuse.Action.BuildAReport,Chế độ văn bản
+Feature.ReportAbuse.Action.EnterSceneReporting,Vào chế độ tô sáng
+Feature.ReportAbuse.Action.SelectInScene,Chế độ tô sáng
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,Báo cáo bằng chế độ tô sáng
+Feature.ReportAbuse.Label.SelectInSceneDescription1,Dùng tối đa 5 lần khoanh tròn để tô sáng sự cố
+Feature.ReportAbuse.Label.SelectInSceneDescription2,Hãy cho chúng tôi biết lý do tại sao đây là sự cố
+Feature.ReportAbuse.Label.SelectInSceneDescription3,Gửi báo cáo của bạn
+Feature.SettingsHub.Prompt.GetVoiceChat,Bật Cuộc Nói Chuyện
+Feature.SettingsHub.Prompt.MicPermissionPrime,Cho Roblox quyền truy cập vào micrô của bạn để trò chuyện.
+Feature.SettingsHub.Prompt.TalkWithOthers,Trò chuyện với người khác và tận hưởng cuộc vui.
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,Cuộc nói chuyện với người khác
+Feature.SettingsHub.Prompt.VoiceUserAgency,"Bạn đang nắm quyền kiểm soát, vì bạn có thể tắt thông báo của chính mình hoặc của bất kỳ ai vào bất cứ lúc nào."
+InGame.HelpMenu.Controls.ToggleGameMenu,Bật/tắt menu trò chơi
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,OK
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,Giao dịch mua không thành công
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,Không thể hoàn tất giao dịch mua của bạn vì bạn đã sở hữu các vật phẩm này rồi.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,Không thể hoàn tất giao dịch mua của bạn vào thời điểm này.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,Không thể hoàn tất giao dịch mua của bạn vì bạn cần có Roblox Premium để mua các vật phẩm này.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,Không thể hoàn tất giao dịch mua của bạn vì bạn không có đủ Robux.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,Không thể hoàn tất giao dịch mua của bạn vì bạn không được phép mua những loại vật phẩm này.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,Không thể hoàn tất giao dịch mua của bạn vì các vật phẩm này không dành để bán.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,Không thể hoàn tất giao dịch mua của bạn vì giá đã thay đổi.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,Không thể hoàn tất giao dịch mua của bạn vì bạn không được phép mua các vật phẩm đã sở hữu.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,Không thể hoàn tất giao dịch mua của bạn vì bạn đã đạt giới hạn sở hữu tối đa cho các vật phẩm này.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,Không thể hoàn tất giao dịch mua của bạn vì bạn đã đạt giới hạn 9 giao dịch/phút.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,Không thể hoàn tất giao dịch mua của bạn vì các vật phẩm này đã được bán hết.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,Bạn chưa bị trừ lượng Robux nào. Vui lòng thử lại sau.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,Bạn chưa bị trừ lượng Robux nào. Vui lòng mua thêm và thử lại.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,Bạn chưa bị trừ lượng Robux nào. Vui lòng thử lại.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,Bạn chưa bị trừ lượng Robux nào. Vui lòng thử lại với các vật phẩm khác.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,Bạn chưa bị trừ lượng Robux nào. Vui lòng chờ và thử lại.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,Hoàn Thành Giao Dịch Mua
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,Đã hoàn thành mua một phần
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} Vật phẩm
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,Thành công
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} Vật phẩm
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,Không thành công
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,Đã sở hữu
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,Không khả dụng
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Yêu cầu Premium
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Không đủ Robux
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,Không khả dụng
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,Không bán
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,Thay đổi giá
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,Người bán là người mua
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,Đã đạt giới hạn
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,Đã đạt giới hạn tỷ lệ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,Đã bán hết
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,Đã mua
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,"Không thể mua một số vật phẩm tại thời điểm này, vui lòng thử lại sau."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,Số dư hiện tại
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,Hoàn thành
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Lượng Robux đã dùng
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,Tóm tắt
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} Vật phẩm
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,Tổng số vật phẩm đang mua
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,Đã sở hữu {ownedCount}
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,Thanh toán
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,Số dư hiện tại
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,Số dư sau khi mua
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,Tổng giá trị đơn hàng
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,Bạn đã mua thành công {itemCount} vật phẩm. Tìm những vật phẩm này trong kho của bạn.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,Hoàn thành
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,Hoàn thành giao dịch mua
+Feature.Accessibility.Description.MainVolume,"Kiểm soát âm lượng tổng thể của Roblox, bao gồm các hiệu ứng menu, âm thanh trải nghiệm và cuộc nói chuyện"
+Feature.Notifications.Webview.Title.PolicyUpdate,Cập Nhật Chính Sách
+Feature.SettingsHub.Prompt.CameraUnavailable,Camera Không Khả Dụng
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,Chúng tôi đã tắt camera để tăng hiệu năng trải nghiệm trên thiết bị này. Bạn có thể sẽ muốn dùng thử trên một thiết bị khác. Nhấn để tìm hiểu thêm.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,Nói chuyện với những người khác để vui hơn. Cấp cho Roblox quyền truy cập vào micrô để trò chuyện. Bạn nắm quyền kiểm soát — tắt tiếng của chính bạn hoặc bất kỳ ai mọi lúc.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,Nói chuyện với những người khác để vui hơn. Bạn nắm quyền kiểm soát — tắt tiếng của chính bạn hoặc bất kỳ ai mọi lúc.
+Feature.SettingsHub.Label.MyCaptures,Ảnh chụp/video quay màn hình của tôi
+Feature.ReportAbuse.Action.ErrorModalGoBack,Quay Lại
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,Lỗi: Tối đa 5 vòng tròn
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,Bạn có thể đặt tối đa 5 vòng tròn để tô sáng sự cố. Sử dụng nút hoàn tác để xóa vòng tròn.
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,Điều chỉnh tốc độ khung hình để trải nghiệm trò chơi mượt hơn. Tốc độ khung hình cao hơn sẽ tiêu thụ nhiều điện hơn và các khung hình vượt quá tốc độ làm tươi của màn hình sẽ không được hiển thị.
+Feature.Subscription.Text.Subscribed,Đã đăng ký
+Feature.ReportAbuse.Label.ChooseOne,Chọn một
+Feature.ReportAbuse.Label.PleaseSelectOne,Vui lòng chọn một.
+Feature.ReportAbuse.Label.SelectInSceneComplete,Chúng tôi sẽ sử dụng báo cáo của bạn để biến Roblox thành nơi chơi vui và an toàn cho tất cả mọi người.
+Feature.ReportAbuse.Label.TellUsWhatHappened,Hãy cho chúng tôi biết chuyện đã xảy ra. (Không bắt buộc)
+Feature.ReportAbuse.Label.WhatWasWrong,Đã có vấn đề gì?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,Hoàn thành báo cáo của bạn
+Feature.ReportAbuse.Title.SelectInSceneThankYou,Cảm ơn bạn đã báo cáo
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,Rời Khỏi
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Mua Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Robux còn thiếu
+Feature.ReportAbuse.Action.Close,Đóng
+Feature.ReportAbuse.Action.Submit,Nộp
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,Bạn đã đạt giới hạn mua hàng tháng được thiết lập trong Giám sát của cha mẹ. Bạn sẽ không thể thực hiện giao dịch mua mới cho đến tháng tiếp theo.
+Feature.ReportAbuse.Label.Avatar,Avatar
+Feature.ReportAbuse.Label.Bullying,Bắt Nạt
+Feature.ReportAbuse.Label.Cheating,Gian Lận/Lợi Dụng
+Feature.ReportAbuse.Label.Content,Nội Dung Không Phù Hợp
+Feature.ReportAbuse.Label.Dating,Hẹn Hò
+Feature.ReportAbuse.Label.Links,Liên Kết Ngoại Trang
+Feature.ReportAbuse.Label.Personal,Thắc Mắc Cá Nhân
+Feature.ReportAbuse.Label.Scamming,Lừa Đảo
+Feature.ReportAbuse.Label.Swearing,Chửi Thề
+Feature.ReportAbuse.Label.TextChat,Tin Nhắn Văn Bản
+Feature.ReportAbuse.Label.Username,Tên Tài Khoản Không Phù Hợp
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,Phải có Xác Thực 2 Bước để thực hiện giao dịch này. Hãy vào Cài Đặt > Bảo Mật để hoàn thành Xác Thực 2 Bước.
+CommonUI.Controls.Action.Refresh,Làm mới
+CommonUI.Controls.NoResultsFound,Không tìm thấy kết quả
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,Không thể hoàn tất giao dịch mua của bạn vì các vật phẩm này không khả dụng trong trải nghiệm này.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,Không khả dụng trong trải nghiệm này
+CoreScripts.PublishAvatarPrompt.Description,Mô tả (Không bắt buộc)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,Mô tả vật phẩm này
+Feature.Accessibility.Description.Haptics,Kiểm soát độ rung tổng thể của ứng dụng Roblox
+Feature.Accessibility.Header.Haptics,Phản hồi xúc giác
+Feature.AccountSettings.Label.CameraNotAvailable,Camera không khả dụng trên một số thiết bị.
+Feature.AccountSettings.Label.CameraNotSupported,Camera không khả dụng trên một số thiết bị. {linkStart}Tìm hiểu thêm{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,Cho phép
+Feature.Notifications.Action.PushUpsellNotNow,Không phải lúc này
+Feature.Notifications.Heading.PushUpsellGeneric,Đừng bỏ lỡ
+Feature.Notifications.Label.PushUpsellGeneric,"Nhận thông báo cho các hoạt động như tin nhắn trò chuyện, lời mời, yêu cầu kết bạn và nhiều tính năng khác nữa."
+Feature.Squads.Action.Join,Tham gia
+Feature.VerificationUpsell.Action.EditPhoneNumber,Chỉnh Sửa Số Điện Thoại
+IAPExperience.LeaveRoblox.Action.Cancel,Hủy Bỏ
+IAPExperience.LeaveRoblox.Action.Continue,Tiếp Tục
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"Khi nhấp vào ""Tiếp tục"", bạn sẽ được chuyển hướng đến một trang web khác không do Roblox vận hành hay sở hữu. Trang web đó có thể có những điều khoản và chính sách quyền riêng tư khác."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Đang Rời Khỏi Roblox
+Feature.ReportAbuse.Label.HighlightProblem,Tô sáng sự cố bằng vòng tròn
+Feature.Toast.NetworkingError.SomethingIsWrong,Đã xảy ra sự cố. Vui lòng thử lại.
+Feature.Accessibility.Description.PreferredTextSize,Điều chỉnh cỡ chữ trên Roblox theo sở thích của bạn
+Feature.Accessibility.Heading.PreferredTextSize,Cỡ văn bản
+Feature.Accessibility.PreferredTextSize.Default,Mặc định
+Feature.Accessibility.PreferredTextSize.Largest,Lớn nhất
+Feature.Accessibility.Action.ScrollDown,Cuộn xuống
+Feature.Accessibility.Action.ScrollUp,Cuộn lên
+CoreScripts.PublishAvatarPrompt.BuyCreation,Mua sản phẩm sáng tạo
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,OK
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,Đã xảy ra lỗi và thao tác tái tục gói đăng ký chưa bị hủy. Vui lòng thử lại.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,Lỗi
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,Gói đăng ký của bạn đã được hủy thành công. Bạn không cần làm gì thêm.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,Đã Hủy Rồi
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,"Nếu bạn hủy gói đăng ký của mình lúc này, bạn vẫn có thể truy cập vào máy chủ đến {date}."
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,Không Hủy
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,Hủy Gói Đăng Ký
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,"Có, Hãy Hủy"
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,Gói đăng ký của bạn đã được hủy thành công
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,Bạn đang không đăng ký gói.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,Không Thể Hủy
+Feature.Subscription.Error.GenericSubscribeError,Đã xảy ra sự cố trong quá trình thử đăng ký. Vui lòng thử lại sau.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,Bạn có thể tìm thấy vật phẩm của mình trong kho sau khi vật phẩm hoàn tất.
+CoreScripts.TopBar.JoinVoice,Bật Cuộc Nói Chuyện
+Feature.ReportAbuse.Heading.ReportAbuse,Báo Cáo Vi Phạm
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,"Nội Dung Người Lớn Không Chính Xác (ví dụ: máu me, bạo lực)"
+Feature.ReportAbuse.Label.CategoryBullyingV2,"Bắt Nạt, Quấy Rối, Phân Biệt Đối Xử"
+Feature.ReportAbuse.Label.CategoryContent,"Nội Dung Không Phù Hợp - Địa Điểm, Hình Ảnh, Mô Hình"
+Feature.ReportAbuse.Label.CategoryDating,Hẹn Hò
+Feature.ReportAbuse.Label.CategoryInappropriate,Ngôn Ngữ Không Phù Hợp - Ngôn Từ Bậy & Nội Dung Người Lớn
+Feature.ReportAbuse.Label.CategoryOther,Các vi phạm khác
+Feature.ReportAbuse.Label.CategoryPrivateInfo,Yêu Cầu Hoặc Cung Cấp Thông Tin Cá Nhân
+Feature.ReportAbuse.Label.CategoryScamming,"Lợi Dụng, Gian Lận, Lừa Đảo"
+Feature.ReportAbuse.Label.CategoryTheft,"Trộm Cắp Tài Khoản - Giả Mạo, Hack, Buôn Bán"
+Feature.ReportAbuse.Label.CategoryThreats,Đe Dọa Ngoài Đời Thực & Đe Dọa Tự Tử
+Feature.ReportAbuse.Message.Success,Báo cáo của bạn đã được gửi đi.
+CoreScripts.Ads.Label.ReportAd,Báo Cáo Quảng Cáo
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} nói...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,Bạn Đã Tham Gia Cuộc Nói Chuyện
+Feature.SettingsHub.Prompt.LeaveVoiceChat,Đã ngắt kết nối khỏi cuộc nói chuyện
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,"Bạn luôn có thể ngắt kết nối khỏi cuộc gọi thoại hoặc tắt tiếng của bất cứ ai, bất kỳ lúc nào."
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,"Bạn luôn có thể ngắt kết nối khỏi cuộc gọi thoại hoặc tắt tiếng của bất cứ ai, bất kỳ lúc nào tại đây"
+Feature.SettingsHub.Action.Ok,OK
+Feature.SettingsHub.Action.OpenSettings,Mở Cài Đặt
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,Cần Quyền Truy Cập Micrô
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,"Để trò chuyện bằng giọng nói với người khác, hãy cho phép Roblox truy cập micrô của bạn."
+CoreScripts.Ads.Label.InappropriateAd,Quảng Cáo Không Phù Hợp
+CoreScripts.TopBar.Party,Tổ Đội
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. Chọn Quyền<br />2. Chọn Micrô<br />3. Cho phép Roblox truy cập Micrô của bạn</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. Vào mục Cài đặt > Quyền riêng tư > Quyền<br />2. Chọn Micrô<br />3. Cho phép Roblox truy cập Micrô của bạn</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. Bật nút Cho phép ứng dụng truy cập micrô của bạn<br />2. Cho phép Roblox truy cập Micrô của bạn</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. Vào mục Cài đặt > Quyền riêng tư > Micrô<br />2. Bật nút Cho phép ứng dụng truy cập micrô của bạn<br />3. Cho phép Roblox truy cập Micrô của bạn</b>
+Feature.ReportAbuse.Action.ContinueReport,Tiếp tục báo cáo
+Feature.ReportAbuse.Action.EnterChatLineReporting,Báo cáo vi phạm
+Feature.ReportAbuse.Label.FinishChatReport,Hoàn thành báo cáo trò chuyện của bạn
+Feature.ReportAbuse.Label.SelectChatLine,Chọn một cuộc trò chuyện để báo cáo
+CoreScripts.Ads.Label.IllegalContentReportingLink,Báo cáo nội dung bất hợp pháp hoặc nội dung có hại cho trẻ em
+Feature.ReportAbuse.Problem.Bullying,Bắt nạt
+Feature.ReportAbuse.Problem.Cheating,Gian lận
+Feature.ReportAbuse.Problem.Dating,Hẹn hò/Tình dục
+Feature.ReportAbuse.Problem.Hate,Thù ghét
+Feature.ReportAbuse.Problem.Links,Liên kết ngoài nền tảng
+Feature.ReportAbuse.Problem.Personal,Thông tin cá nhân
+Feature.ReportAbuse.Problem.Scamming,Lừa đảo
+Feature.ReportAbuse.Problem.Spamming,Thư rác
+Feature.ReportAbuse.Problem.Swearing,Chửi thề
+Feature.ReportAbuse.Problem.Violence,Bạo lực
+Feature.VerifiedParentalControls.Action.Cancel,Hủy Bỏ
+Feature.ReportAbuse.Action.ReturnToExperience,Quay lại trải nghiệm
+Feature.ReportAbuse.Label.ReportSubmitted,Đã gửi báo cáo
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,Các hành động bổ sung mà bạn có thể thực hiện
+Feature.ReportAbuse.Label.SentInAnotherChat,Đã gửi trong một cuộc trò chuyện khác
+Feature.ReportAbuse.Label.SentPrivately,Đã gửi riêng
+Feature.ReportAbuse.Message.ThankYouReport,Cảm ơn bạn. Chúng tôi sẽ sử dụng báo cáo của bạn để biến Roblox thành nơi chơi vui và an toàn cho tất cả mọi người.
+Feature.VerifiedParentalControls.Action.Close,Đóng
+Feature.VerifiedParentalControls.Action.GoToSettings,Đi Đến Cài Đặt
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,"Do hạn chế về khu vực, bạn cần có sự cho phép của phụ huynh để thực hiện giao dịch mua. Vui lòng truy cập trang web hoặc vào một thiết bị đồng hành để xin phép phụ huynh của bạn trong Cài Đặt > Chi Tiêu."
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,"Do hạn chế về khu vực, bạn cần có sự cho phép của phụ huynh để thực hiện giao dịch mua. Hãy xin phép phụ huynh của bạn trong Cài Đặt > Chi Tiêu."
+Feature.VerifiedParentalControls.Label.AskParent,Hỏi Phụ Huynh Của Bạn
+Common.VerifiedParentalConsent.Action.Cancel,Hủy bỏ
+Common.VerifiedParentalConsent.Action.Close,Đóng
+Common.VerifiedParentalConsent.Action.GoToSettings,Đi Đến Cài Đặt
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,"Do hạn chế về khu vực, bạn cần có sự cho phép của phụ huynh để thực hiện giao dịch mua. Vui lòng truy cập trang web hoặc vào một thiết bị liên kết để xin phép phụ huynh trong Cài Đặt > Chi Tiêu."
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,"Do hạn chế về khu vực, bạn cần có sự cho phép của phụ huynh để thực hiện giao dịch mua. Hãy xin phép phụ huynh trong Cài Đặt > Chi Tiêu."
+Common.VerifiedParentalConsent.Label.AskParent,Hỏi Phụ Huynh Của Bạn
+Feature.ReportAbuse.Action.TextMute,Chặn các cuộc trò chuyện từ {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,Bạn cần khởi động lại ứng dụng để những thay đổi về quyền truy cập micrô có hiệu lực.
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,Bạn hiện không thể gửi tin nhắn trò chuyện. Sẽ không có ai thấy tin nhắn của bạn.
+Features.OnDemandAds.Reward_Notification,Chúc mừng! Bạn đã nhận được {REWARD_NAME}!
+Feature.Avatar.Label.Front,Phía Trước
+Feature.PlayWithReward.Message.ErrorBanner.Body,Phần thưởng này hiện không sử dụng được. Vui lòng thử lại.
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,Bạn của bạn là {RBX_NAME} đã tham gia trải nghiệm.
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,Tìm bạn bè
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,Bạn có muốn gửi yêu cầu kết bạn tới {RBX_NAME} không?
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,Bạn có muốn xóa {RBX_NAME} khỏi danh sách bạn bè không?
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,Xóa bạn bè
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,Bạn không gửi được yêu cầu kết bạn tới {RBX_NAME} vì họ đã đạt giới hạn bạn bè tối đa.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,Đã xảy ra lỗi khi gửi yêu cầu kết bạn cho {RBX_NAME}. Vui lòng thử lại sau.
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,Gửi yêu cầu kết bạn?
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,Xóa bạn bè?

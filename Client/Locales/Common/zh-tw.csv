@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,正在傳送……
+Corescripts.AvatarContextMenu.FriendRequestPending,好友邀請待處理
+Corescripts.AvatarContextMenu.AddFriend,新增好友
+Corescripts.AvatarContextMenu.Friends,好友
+Corescripts.AvatarContextMenu.AcceptFriendRequest,接受好友邀請
+Corescripts.AvatarContextMenu.Chat,聊天
+Corescripts.AvatarContextMenu.ChatDisabled,聊天停用中
+Corescripts.AvatarContextMenu.Wave,揮手
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,存取道具？
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} 想存取您的虛擬人偶的道具
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,儲存虛擬人偶角色
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,將此角色儲存到 Roblox？
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,否
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,是
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,取消
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,確定
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,為虛擬人偶裝備道具
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} 想要為您的虛擬人偶進行以下變更：
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,確定
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,取消
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,最愛道具
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,確定將 {RBX_NAME} 加到最愛？
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,解除最愛道具
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,確定將 {RBX_NAME} 解除最愛？
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,否
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,是
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,輸入角色名稱
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,角色名稱
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,確認
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,載入失敗
+CoreScripts.AvatarEditorPrompts.Adding,新增：
+CoreScripts.AvatarEditorPrompts.Removing,移除：
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,道具沒有變更
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,取消
+CoreScripts.PremiumModal.Title.PremiumRequired,Premium 限定
+CoreScripts.PremiumModal.Body.Description,Roblox Premium 將會給您：
+CoreScripts.PremiumModal.Body.RobuxMonthly,每個月 450 Robux
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,獲得 Premium 限定福利
+CoreScripts.PremiumModal.Body.RobuxDiscount,購買 Robux 時獲得 10% 額外 Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price} / 月
+CoreScripts.PremiumModal.Error.PlatformUnavailable,您的平台不支援購買 Roblox Premium，請使用電腦購買 Premium。
+CoreScripts.PremiumModal.Error.AlreadyPremium,開發人員似乎想給您購買 Roblox Premium 的提示，但您已經是 Premium 會員了！
+CoreScripts.PremiumModal.Error.Unavailable,目前無法購買 Premium，請稍後再試！
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,每月 {robux} Robux
+CoreScripts.PremiumModal.Error.FailedNativePurchase,購買未完成，請重新嘗試。
+CoreScripts.PremiumModal.Title.Error,錯誤
+CoreScripts.ScreenshotHud.Action.TakePhoto,拍照
+CoreScripts.ScreenshotHud.Action.Cancel,取消
+CoreScripts.TextChat.ChatWindow.Welcome,輸入「/?」或「/help」取得聊天指令清單。
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,無法在此動作執行時使用其他動作。
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,無法使用該動作。
+CoreScripts.TextChat.Emote.Error.R15Only,只有 R15 虛擬人偶可以使用動作。
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,現在無法使用動作。
+CoreScripts.TextChat.Emote.Error.DoesNotExist,動作不存在。
+CoreScripts.TextChat.Emote.Error.NotEquipped,您沒有裝備該動作。
+CoreScripts.TextChat.Emote.Error.NotEnabled,無法在此使用該動作。
+CoreScripts.TextChat.Help.FirstLine,以下是基本聊天室指令：
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,若要聊天，請按下此處或「{KEY}」鍵
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,您的聊天設定導致您無法傳送和接收訊息。
+CoreScripts.TextChat.InputBar.Hint.Touch,輕觸聊天
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,請稍後再傳送訊息。
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,您無法在此頻道發言。
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,您的聊天設定導致您無法傳送和接收訊息。
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,您的訊息超過長度限制。
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,文字過濾系統發生問題，訊息可能會延遲顯示。
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,無法送出訊息。
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,您無法將自己靜音。
+CoreScripts.TextChat.Mute.Error.MultipleMatches,下列使用者擁有此顯示名稱：{RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,使用者「{RBX_NAME}」不存在。
+CoreScripts.TextChat.Mute.Help.Description,/mute <使用者> : 將此使用者靜音。
+CoreScripts.TextChat.Mute.Success,已將使用者「{RBX_NAME}」靜音。
+CoreScripts.TextChat.Notification.Friend.Joined,你的聯絡對象 {RBX_NAME} 已加入體驗。
+CoreScripts.TextChat.Notification.Team.Joined,您在「{RBX_NAME}」隊伍。
+CoreScripts.TextChat.Notification.WhisperChat.Created,您正在與 {RBX_NAME} 私聊。
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,若您不在隊伍中，您無法使用隊伍頻道。
+CoreScripts.TextChat.TeamChat.Help.Description,/team <訊息> 或 /t <訊息> : 傳送訊息給隊伍中的使用者。
+CoreScripts.TextChat.TeamChat.PrefixText,【隊伍】
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <使用者名稱> : 將此使用者解除靜音。
+CoreScripts.TextChat.Unmute.Success,已將使用者「{RBX_NAME}」解除靜音。
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,您無法與此使用者聊天。
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <使用者名稱> 或 /w <使用者名稱> : 與此使用者開啟私人訊息頻道。
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[自 {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[對 {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,排行榜
+CoreScripts.TopBar.Emotes,動作
+CoreScripts.TopBar.Inventory,道具欄
+CoreScripts.TopBar.Leave,離開
+CoreScripts.TopBar.Chat,聊天
+CoreScripts.TopBar.QuickMenu,快捷選單
+CoreScripts.TopBar.Menu,選單
+CoreScripts.TopBar.Respawn,重生角色
+CoreScripts.TopBar.Back,返回
+CoreScripts.TopBar.Screenshot,截圖
+Feature.SettingsHub.Label.LoadingFriendsListFailed,發生錯誤，請稍後再試。
+Feature.SettingsHub.Action.CancelSearch,取消
+Feature.SettingsHub.Label.DontLeaveButton,不要離開
+Feature.SettingsHub.Action.InviteFriend,邀請
+Feature.SettingsHub.Heading.InviteFriends,邀請好友
+Feature.SettingsHub.Label.Invited,已邀請
+Feature.SettingsHub.Label.LeaveButton,離開
+Feature.SettingsHub.Label.Moderated,已遭過濾
+Feature.SettingsHub.Label.InviteSearchNoResults,找不到結果
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,搜尋聯絡對象
+Feature.SettingsHub.Label.Sending,正在傳送
+Feature.SettingsHub.Action.InviteFriendsBack,返回
+Feature.SettingsHub.Message.InviteToGameTitle,來 {PLACENAME} 和我一起同樂吧！
+Feature.SettingsHub.TouchMovementMode.DPad,方向鍵
+Feature.SettingsHub.Video.Off,關閉
+Feature.SettingsHub.Video.SystemDefault,系統預設
+Feature.SettingsHub.Video.VideoCamera,攝影機
+Feature.SettingsHub.Default.DynamicThumbstick,預設（動態類比搖桿）
+Feature.SettingsHub.DefaultKeyboard,預設（鍵盤）
+Feature.SettingsHub.Heading.Capture,截圖
+Feature.SettingsHub.Label.CaptureDescription2,截圖將會儲存在您的裝置上。
+Feature.SettingsHub.Label.ChooseOne,選擇一項
+InGame.CommonUI.Title.Warning,警告
+InGame.CommonUI.Title.Error,錯誤
+InGame.CommonUI.Button.Retry,重試
+InGame.CommonUI.Button.Ok,確定
+InGame.CommonUI.Title.Alert,注意
+InGame.CommonUI.Label.Default,預設
+InGame.CommonUI.Label.Custom,自訂
+InGame.CommonUI.Label.PossiblyCustom,可能自訂
+InGame.CommonUI.Label.CustomOld,舊版自訂
+InGame.ConnectionError.DisconnectCloudEditKick,中斷與團隊創作的連線，請重新連線。
+InGame.ConnectionError.DisconnectWrongVersion,您的 Roblox 版本可能過時，請更新 Roblox 後重新嘗試。
+InGame.ConnectionError.TeleportFailure,發生意外錯誤而傳送失敗。請再傳送一次。
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,發生錯誤，連線中斷。
+InGame.ConnectionError.TeleportGameFull,伺服器已滿。請稍後再試，或使用其他伺服器。
+InGame.ConnectionError.DisconnectPlayerless,伺服器在連線過程關閉，請重新嘗試。
+InGame.ConnectionError.TeleportGameNotFound,找不到目的地空間。請仔細確認後再試一次。
+InGame.ConnectionError.DisconnectErrors,發生錯誤，連線中斷。請重新連線。
+InGame.ConnectionError.DisconnectDuplicateTicket,發生錯誤，連線中斷。偵測到多條來自同一帳號的連線。
+InGame.ConnectionError.DisconnectBadhash,發生錯誤，連線中斷。
+InGame.ConnectionError.DisconnectSendPacketError,傳送資料時發生錯誤，請重新連線。
+InGame.ConnectionError.DisconnectOnRemoteSysStats,用戶端異常，您已被踢出。
+InGame.ConnectionError.DisconnectTimeout,連線逾時，請檢查您的網路連線後重新嘗試。
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,發生錯誤，連線中斷。
+InGame.ConnectionError.TeleportErrors,發生意外錯誤而傳送失敗。請再傳送一次。
+InGame.ConnectionError.TeleportGameEnded,伺服器已無法使用。請嘗試另一個伺服器或稍後再試。
+InGame.ConnectionError.PlacelaunchFlooded,伺服器忙碌中，請稍後再試。
+InGame.ConnectionError.DisconnectProtocolMismatch,您的 Roblox 版本可能過時，請更新 Roblox 後重新嘗試。
+InGame.ConnectionError.DisconnectRobloxMaintenance,即將進行維修，伺服器已關閉。請重新嘗試。
+InGame.ConnectionError.DisconnectHashTimeout,連線逾時，請檢查您的網路連線後重新嘗試。
+InGame.ConnectionError.DisconnectReceivePacketError,接收資料時發生錯誤，請重新連線。
+InGame.ConnectionError.PlacelaunchOtherError,我們遇到技術困難，請稍後再試。
+InGame.ConnectionError.TeleportFlooded,太多傳送要求，請稍後再試。
+InGame.ConnectionError.DisconnectIllegalTeleport,傳送無效，連線中斷。
+InGame.ConnectionError.DisconnectReceivePacketStreamError,資料串流發生錯誤，請重新連線。
+InGame.ConnectionError.PlacelaunchError,找不到您嘗試加入的伺服器，請稍後再試。
+InGame.ConnectionError.TeleportUnauthorized,您嘗試傳送的空間受到限制。
+InGame.ConnectionError.Title.JoinError,加入時發生錯誤
+InGame.ConnectionError.Title.Disconnected,連線中斷
+InGame.ConnectionError.Title.TeleportFailed,傳送失敗
+InGame.ConnectionError.Message.ErrorCode,錯誤代碼：{ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,重新連線
+InGame.ConnectionError.DisconnectConnectionLost,請檢查網路連線再重新嘗試。
+InGame.ConnectionError.DisconnectIdle,您已閒置 {RBX_NUM} 分鐘，連線中斷
+InGame.ConnectionError.UnknownError,未知錯誤。
+InGame.ConnectionError.ReconnectFailed,重新連線失敗，請再試一次。
+InGame.EmotesMenu.SelectAnEmote,選擇動作
+InGame.EmotesMenu.NoEmotesEquipped,未裝備動作
+InGame.EmotesMenu.ErrorMessageNotSupported,無法在此體驗使用動作。
+InGame.EmotesMenu.ErrorMessageR15Only,只有 R15 虛擬人偶可以使用動作。
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,無法使用該動作。
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,現在無法使用動作。
+InGame.EmotesMenu.VisitShopToGetEmotes,您沒有動作，前往商店購買動作吧！
+InGame.EmotesMenu.ErrorMessageSwitchToR15,切換成 R15 虛擬人偶即可使用此動作。
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,無法在此動作執行時使用其他動作。
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,向 {RBX_NAME} 傳送聯絡對象邀請時發生錯誤，請稍後再試。
+FriendPlayerPrompt.DoPromptUnfriendPlayer,要將 {RBX_NAME} 從聯絡對象名單移除嗎？
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,要向 {RBX_NAME} 傳送聯絡對象邀請嗎？
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,無法傳送聯絡對象邀請給 {RBX_NAME}，因為對方已達聯絡對象上限。
+FriendPlayerPrompt.Title.SendFriendRequest,傳送好友邀請？
+FriendPlayerPrompt.Label.Unfriend,移除聯絡對象
+InGame.GameplayPaused.Title,體驗已暫停
+InGame.GameplayPaused.Body,體驗已暫停，請等候體驗內容完成載入。
+InGame.HelpMenu.UpArrow,↑
+InGame.HelpMenu.DownArrow,↓
+InGame.HelpMenu.LeftArrow,←
+InGame.HelpMenu.RightArrow,→
+InGame.HelpMenu.Label.ServerVersion,伺服器版本：
+InGame.HelpMenu.Label.ClientVersion,用戶端版本：
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,空間版本：
+InGame.HelpMenu.Leave,離開
+InGame.HelpMenu.Resume,繼續
+InGame.HelpMenu.Label.ClientCoreScriptVersion,用戶端 CoreScript 版本：
+InGame.InspectMenu.Description.NoInventoryNotice,此使用者未穿戴可檢視的道具。
+InGame.InspectMenu.Description.MultipleBundlesNotice,此道具為多個組合的一部分。
+InGame.InspectMenu.Description.SingleBundleNotice,此道具為組合的一部分。
+InGame.InspectMenu.Action.TakeOff,脫下
+InGame.InspectMenu.Action.TryOn,試穿
+InGame.InspectMenu.Action.Buy,購買
+InGame.InspectMenu.Action.Inspect,檢視
+InGame.InspectMenu.Action.View,查看
+InGame.InspectMenu.Label.Owned,已擁有
+InGame.InspectMenu.Label.Offsale,下架
+InGame.InspectMenu.Label.Limited,限定
+InGame.InspectMenu.Label.CurrentlyWearing,目前穿戴
+InGame.InspectMenu.Label.By,創作者：{CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,此道具只能在型錄裡透過轉賣者購買。
+InGame.InspectMenu.Label.Avatar,{PLAYER_NAME} 的虛擬人偶
+InGame.InspectMenu.Label.NoResellers,沒有轉賣者
+InGame.InspectMenu.Label.PremiumOnly,Premium 限定
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,減少到 {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,增加到 {RBX_NUMBER}
+NotificationScript2.NewFollower,{RBX_NAME} 正在追蹤您！
+NotificationScript2.FriendRequestEvent.Accept,您已與 {RBX_NAME} 成為好友！
+NotificationScript2.onPointsRewarded.negative,您失去 {RBX_NUMBER} 點！
+NotificationScript2.onPointsAwarded.single,您得到 {RBX_NUMBER} 點！
+NotificationScript2.onPointsAwarded.multiple,您得到 {RBX_NUMBER} 點！
+NotificationScript2.onBadgeAwardedTitle,已獲得徽章
+NotificationScript2.onBadgeAwardedDetail,{RBX_NAME} 贏得了 {CREATOR_NAME} 的「{BADGE_NAME}」徽章！
+NotificationScript2.Screenshot.Title,已截圖
+NotificationScript2.Screenshot.Description,前往您的截圖資料夾查看。
+NotificationScript2.Screenshot.ButtonText,開啟資料夾
+NotificationScript2.Video.Title,已錄製影片
+NotificationScript2.Video.Description,前往您的影片資料夾查看。
+NotificationScript2.Video.ButtonText,開啟資料夾
+NotificationScript2.Capture.Permission.AlertTitle,啟用儲存權限
+NotificationScript2.Capture.Permission.AlertText,若要使用此功能，請啟用相片權限。您可以透過裝置設定變更權限。
+NotificationScript2.Capture.Permission.AlertTextIOS,若要將截圖儲存到相簿，請前往設定 > 隱私 > 照片，並啟用 Roblox。
+NotificationScript2.Capture.Permission.AlertTextAndroid,若要將截圖儲存到圖片庫，請前往設定 > Roblox > 隱私，並啟用儲存。
+NotificationScript2.Capture.Permission.AlertButtonText,確定
+NotificationScript2.Capture.Success.ToastText,已儲存截圖
+NotificationScript2.Capture.Fail.ToastText,截圖失敗
+NotificationScript2.UINavigation.Title,已啟用 UI 導覽
+NotificationScript2.UINavigation.Text,按下「\」切換
+NotificationScript2.CameraToggle.Title,已啟用相機控制
+NotificationScript2.CameraToggle.Text,使用滑鼠右鍵切換
+NotificationScript2.GraphicsQuality.Title,圖像畫質
+PlayerDropDown.onUnfollowButtonPress.success,已取消追蹤 {RBX_NAME}。
+PlayerDropDown.onFollowButtonPress.success,你正在追蹤 {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,無法傳送好友邀請
+PlayerDropDown.FriendLimit,您已達好友人數上限。
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} 已達好友人數上限。
+PlayerDropDown.UnFollow,取消追蹤
+PlayerDropDown.Follow,追蹤
+PlayerDropDown.Report,檢舉濫用
+PlayerDropDown.Examine,檢視人偶
+PlayerDropDown.Unfriend,刪除好友
+PlayerDropDown.FriendRequest,好友邀請
+PlayerDropDown.CancelRequest,取消邀請
+PlayerDropDown.Accept,接受
+InGame.PlayerList.Leaderboard,排行榜
+InGame.Presence.Label.InStudio,在 Studio 中
+InGame.Presence.Label.Offline,離線
+InGame.Presence.Label.Online,在線
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,目前無法取得您的餘額。您的帳號餘額維持不變，請稍後再試。
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX 正在進行維修
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,剩餘的 {RBX_NUMBER} ROBUX 將會加入您的餘額。
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,此空間的第三方買賣目前停用，您的帳號餘額維持不變。
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,您的票券不足，無法購買此道具。請在 www.roblox.com 交易貨幣，取得更多票券。
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,此道具目前為非賣品。您的帳號餘額維持不變。
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,此道具需要 {RBX_NAME1}。按下「升級」來升級您的 Builders Club！
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,此限量道具已售完，請前往 www.roblox.com 向其他使用者購買。您的帳號餘額維持不變。
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,購買{RBX_NAME1} {RBX_NAME2}？價格為
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,目前無法取得道具價格。您的帳號餘額維持不變，請稍後再試。
+PurchasePromptScript.PURCHASE_MSG.FREE,您要免費領取 {RBX_NAME2} 嗎？
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,若要購買道具，請前往 www.roblox.com 建立 Roblox 帳號。
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,您還需要 {RBX_NUMBER} Robux 才能購買{RBX_NAME1} {RBX_NAME2}。您要加購 Robux 嗎？
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,您的帳號為 13 歲以下，不允許購買此道具。您的帳號餘額維持不變。
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,您在此交易後的餘額將為 {RBX_NUMBER}。
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,您目前的餘額為 {RBX_NUMBER}。
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,{ERROR_REASON}，無法購買。您的帳號餘額維持不變，請稍後再試。
+PurchasePromptScript.PURCHASE_MSG.FAILED,{RBX_NAME2}，無法購買 {RBX_NAME1}。您的帳號餘額維持不變，請稍後再試。
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,成功購買 {RBX_NAME1}！
+PurchasePromptScript.ERROR_MSG.UNKNOWN,發生錯誤
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,您的 Robux 不足
+StatsUtil.KBps,{RBX_NUMBER} KB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,（網路）
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <頻道名稱>：切換頻道選單標籤。
+GameChat_ChatCommandsTeller_MeCommand,/me <文字>：角色扮演動作的指令。
+GameChat_ChatCommandsTeller_MuteCommand,/mute <使用者名稱> : 將此使用者靜音。
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <使用者名稱> : 將此使用者解除靜音。
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <使用者名稱> 或 /w <使用者名稱> : 與此使用者開啟私人訊息頻道。
+Average,平均
+GameChat_ChatServiceRunner_ChannelDoesNotExist,頻道「{RBX_NAME}」不存在。
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,輸入「/?」或「/help」取得聊天指令清單。
+GameChat_SwallowGuestChat_Message,若要使用聊天功能，請建立免費帳號。
+Current,目前
+DisableVoiceKey,停用語音聊天
+EnableVoiceKey,啟用語音聊天
+key_142,新好友 {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,可選填
+key_145,獲得點數：您得到 {RBX_NUMBER} 點！
+Received,收到
+BACKPACK_SEARCH,搜尋
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,簡介（可選填）
+GameChat_MuteSpeaker_SpeakerDoesNotExist,使用者「{RBX_NAME}」不存在。
+GameChat_ChatMain_SpeakerHasBeenBlocked,已封鎖使用者「{RBX_NAME}」。
+GameChat_ChatMain_SpeakerHasBeenMuted,已將使用者「{RBX_NAME}」靜音。
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,已解除封鎖使用者「{RBX_NAME}」。
+GameChat_ChatMain_SpeakerHasBeenUnMuted,已將使用者「{RBX_NAME}」解除靜音。
+GameChat_ChatMain_ChatBarTextTouch,按下此處聊天
+Target,目標
+GameChat_ChatService_ChatFilterIssues,文字過濾系統發生問題，訊息可能會延遲顯示。
+GameChat_ChatCommandsTeller_Desc,以下是基本聊天室指令。
+GameChat_TeamChat_WelcomeMessage,這是您與隊伍成員的私人頻道。
+GameChat_ChatMain_ChatBarText,若要聊天，請按下此處或「/」鍵
+GameChat_ChatChannel_MutedInChannel,您遭到靜音，無法在此頻道聊天
+GameChat_ChatServiceRunner_YouAreNotInChannel,您不在 {RBX_NAME} 頻道
+GameChat_SwitchChannel_NotInChannel,您不在「{RBX_NAME}」頻道
+GameChat_TeamChat_NowInTeam,您在「{RBX_NAME}」隊伍。
+GameChat_PrivateMessaging_NowChattingWith,您正在與{RBX_NAME}私聊
+GameChat_ChatServiceRunner_YouCannotJoinChannel,您無法加入{RBX_NAME} 頻道
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,您無法離開 {RBX_NAME} 頻道
+GameChat_ChatService_CannotLeaveChannel,您無法離開此頻道。
+GameChat_DoMuteCommand_CannotMuteSelf,您無法將自己靜音。
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,若您不在隊伍中，您無法使用隊伍頻道。
+GameChat_PrivateMessaging_CannotWhisperToSelf,您無法與自己開啟私人頻道。
+GameChat_ChatService_YouHaveLeftChannel,您已離開「{RBX_NAME}」頻道
+GameChat_ChatFloodDetector_Message,請稍後再傳送訊息。
+GameChat_ChatFloodDetector_MessageDisplaySeconds,請 {RBX_NUMBER} 秒後再傳送訊息。
+KEY_PLAYER_IDLE_DISCONNECT,您已閒置 {RBX_NUMBER} 分鐘，連線中斷
+GameChat_ChatMessageValidator_SettingsError,您的聊天設定禁止您傳送訊息。
+GameChat_ChatMessageValidator_WhitespaceError,訊息禁止使用空白字元。
+GameChat_ChatMessageValidator_MaxLengthError,您的訊息超過長度限制。
+GameChat_SwitchChannel_NowInChannel,您目前在「{RBX_NAME}」頻道聊天
+Sent,已傳送
+Corescripts.AvatarContextMenu.PlayerBlocked,已封鎖使用者
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,未知體驗名稱
+CoreScripts.TopBar.GameNamePlaceHolder,體驗
+Feature.SettingsHub.Label.LeaveGame,確定離開體驗？
+Feature.SettingsHub.Label.GameInviteError,無法傳送體驗邀請，請稍後再試。
+Feature.SettingsHub.Label.ModeratedInviteError,體驗邀請遭到過濾，無法傳送。
+Feature.SettingsHub.Action.InviteFriendsToPlay,邀請好友
+Feature.SettingsHub.Label.CaptureDescription,捕捉您的體驗畫面。截圖將會儲存在您的裝置上。
+Feature.SettingsHub.Label.CaptureDescription1,捕捉您的體驗畫面。
+Feature.SettingsHub.Label.WhichPlayer,哪一位使用者？
+InGame.ConnectionError.DisconnectDuplicatePlayer,此帳號已從其他裝置開啟此體驗。請退出另一部裝置上的體驗後再重新嘗試。
+InGame.ConnectionError.PlacelaunchUserLeft,您嘗試跟隨的使用者已離開體驗。
+InGame.ConnectionError.PlacelaunchHashExpired,此體驗目前不開放，請稍後再試。
+InGame.ConnectionError.PlacelaunchUnauthorized,您沒有加入此體驗的權限。
+InGame.ConnectionError.PlacelaunchDisabled,目標地點受到限制。請嘗試其他地點或稍後再試。
+InGame.ConnectionError.DisconnectRejoin,此帳號已從其他裝置開啟此體驗。若您想使用此裝置，請重新連線。
+InGame.ConnectionError.DisconnectDevMaintenance,體驗開發人員已暫時關閉體驗伺服器，請重新嘗試。
+InGame.ConnectionError.DisconnectEvicted,此帳號已從其他裝置開啟此體驗。若您想使用此裝置，請重新連線。
+InGame.ConnectionError.PlacelaunchPartyCannotFit,您的隊伍人數過多，無法加入此體驗。請嘗試加入其他體驗。
+InGame.ConnectionError.PlacelaunchRestricted,體驗狀態已變更，您已失去此體驗的通行權。請稍後再試。
+InGame.ConnectionError.PlacelaunchErrors,加入體驗時發生錯誤，請重新嘗試。
+InGame.ConnectionError.DisconnectLuaKick,你已遭此體驗或體驗審核人員踢出。
+InGame.ConnectionError.PlacelaunchHashException,此體驗目前不開放，請稍後再試。
+InGame.ConnectionError.DisconnectLuaKickWithMessage,你已遭此體驗或體驗審核人員踢出。審核訊息：  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,此體驗已停用動作。
+FriendPlayerPrompt.Title.UnfriendPlayer,是否移除聯絡對象？
+InGame.PlayerList.Players,帳號
+InGame.Presence.Label.InGame,體驗中
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,體驗中購買暫時停用
+GameChat_ChatCommandsTeller_TeamCommand,/team <訊息> 或 /t <訊息> : 傳送訊息給隊伍中的使用者。
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,此頻道為系統及體驗通知專用。
+GameChat_GetVersion_Message,此體驗正在使用聊天室版本 [{RBX_NUMBER}.{RBX_NUMBER}]。
+GameChat_PrivateMessaging_CannotChat,您無法與此使用者聊天。
+GameChat_FriendChatNotifier_JoinMessage,你的聯絡對象 {RBX_NAME} 已加入體驗。
+Authentication.Login.WeChat.AntiAddictionText,抵制劣質與抄襲體驗！玩遊戲有益身心，但過度沉迷會對身體造成影響。控制遊戲時間，享受健康人生！
+Authentication.Login.Label.WeChatAntiAddictionText,抵制劣質與抄襲體驗！玩遊戲有益身心，但過度沉迷會對身體造成影響。控制遊戲時間，享受健康人生！
+Feature.SettingsHub.Label.NoFriendsScreen,結交好友，開始同樂！
+Feature.SettingsHub.Label.RecentPlayed,最近參訪
+InGame.HelpMenu.ConfirmLeaveGame,確定離開體驗？
+PlayerDropDown.UnBlock,解除封鎖
+PlayerDropDown.Block,封鎖
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,內部錯誤，請嘗試重新登入。
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,經典搖桿
+Feature.SettingsHub.Action.Unblock,解除封鎖
+Feature.SettingsHub.Action.Block,封鎖
+Feature.SettingsHub.Heading.BlockUser,封鎖 {DisplayName}
+Feature.SettingsHub.Action.Cancel,取消
+Feature.SettingsHub.Message.BlockConfirmation,您和 {DISPLAY_NAME}（@{RBX_NAME}）將無法互相交流。
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,刪除虛擬人偶角色
+Feature.SettingsHub.Heading.Report.ThanksForReport,感謝您的檢舉！
+Feature.SettingsHub.Label.Report.ReceivedReportBody,我們收到了您的檢舉報告，並會盡快採取行動。我們有了您的幫助才能維護社群的安全。
+Feature.SettingsHub.Label.Report.OtherActionsHeader,其他可以採取的步驟
+Feature.SettingsHub.Action.Report.Done,完成
+Feature.SettingsHub.Label.Report.BlockDisplayName,封鎖 {DISPLAY_NAME}（@{RBX_NAME}）
+Feature.SettingsHub.Label.Report.UnblockDisplayName,解除封鎖 {DISPLAY_NAME}（@{RBX_NAME}）
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,確定從 Roblox 刪除角色 {RBX_NAME}？
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,確定從 Roblox 刪除此角色 ？
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,刪除
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,取消
+InGame.InspectMenu.Description.LayeredClothingR6,R6 體型不支援此道具。
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,重新命名角色
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,為角色 {RBX_NAME} 輸入新的名稱：
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,重新命名角色？
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,重新命名角色已停用
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,重新命名角色功能已停用
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,確定
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,確定忽略所有好友邀請？
+Feature.Friends.Label.Cancel,取消
+Feature.SettingsHub.GameSettings.Input,輸入
+Feature.SettingsHub.GameSettings.Output,輸出
+Feature.SettingsHub.GameSettings.Device,裝置
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,無法聽到語音聊天
+Feature.SettingsHub.Prompt.Permission,無法使用語音聊天
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,設定裡的遊戲音量為「0」。若要聽到語音，請增加音量。
+Feature.SettingsHub.Prompt.Subtitle.Permission,前往您的設定並允許 Roblox 使用您的麥克風。
+Feature.SettingsHub.Prompt.Subtitle.Retry,請嘗試離開並重新加入。
+Feature.FaceChat.Message.PlaceUnavailable,此地點暫時無法使用，請稍後再試。
+Feature.FaceChat.Subtitle.NotAvailable,請嘗試離開並重新加入。
+Feature.SettingsHub.GameSettings.InputDevice,輸入裝置
+Feature.SettingsHub.GameSettings.OutputDevice,輸出裝置
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,注意：每按下「全部忽略」按鈕最多只會移除最新的 300 則好友邀請。
+Feature.SettingsHub.Prompt.VoiceChatSuspended,停用語音聊天
+Feature.SettingsHub.Prompt.Subtitle.Respect,請尊重其他人，讓 Roblox 繼續成為一個帶來歡樂的地方。
+Feature.SettingsHub.Prompt.Understand,我明白
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,空間語音只能在玩家上限為 30 以下的地點中使用。
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,此帳號沒有使用空間語音的資格。
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,超過玩家上限
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,沒有使用空間語音的資格
+InGame.ConnectionError.Action.Restart,重新啟動
+InGame.ConnectionError.Heading.VRDisconnected,VR 裝置已解除連接
+InGame.ConnectionError.Message.RestartApp,若要繼續遊玩，請重新啟動 App。
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,確定
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,取消
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,更新角色？
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,更新儲存的角色？
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,更新角色 {RBX_NAME}？
+Feature.SettingsHub.Prompt.Subtitle.Place,空間語音只能在玩家上限為 30 以下的地點中使用。
+Feature.SettingsHub.Prompt.Subtitle.User,此帳號沒有使用空間語音的資格。
+Feature.SettingsHub.Prompt.Place,超過玩家上限
+Feature.SettingsHub.Prompt.User,沒有使用空間語音的資格
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,更新角色 {RBX_NAME}？
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,更新儲存的角色？
+InGame.InspectMenu.Action.Cancel,取消
+InGame.InspectMenu.Action.Confirm,確認
+InGame.InspectMenu.Action.Favorite,設為最愛
+InGame.CommonUI.Message.LuobuGameJoinWarning,請勿在現實中模仿遊戲內危險行為，若發現不良行為或違規內容，請立刻檢舉。
+Feature.DevModule.ProfileCard.StatusPlaceholder,在想些什麼呢？
+Feature.DevModule.ProfileCard.StatusErrorMessage,狀態含有不當字詞。
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Roblox Premium 會給您：
+Feature.PremiumUpsell.Label.RobuxPerMonth,每個月 {robux} Robux
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Premium 限定福利
+Feature.PremiumUpsell.Label.AvatarShopBenefits,在虛擬人偶商店裡看到獨家和折扣道具
+Feature.PremiumUpsell.Title.GetPremium,訂閱 Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux} / 月
+Feature.PremiumUpsell.Label.Disclosure,以<b>每月 {currencySymbol}{price} 訂閱，訂閱可以隨時取消。</b>詳情請參考 Roblox 使用條款和隱私權政策。
+Feature.PremiumUpsell.Action.Subscribe,訂閱
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,我們根據使用者舉報判定了您使用語音聊天時的行為違反了我們的社群規則。我們暫時終止了您使用語音聊天的權利，結束時間為
+Feature.SettingsHub.Prompt.Subtitle.Revoked,因您多次違反社群規則，我們已在 Beta 測試階段結束前暫時終止了您使用語音聊天的權利。
+InGame.InspectMenu.Action.Unfavorite,從最愛移除
+Feature.AddFriends.Action.FriendAdded,已新增好友
+Feature.AddFriends.Action.RequestIgnored,已忽略邀請
+Feature.Avatar.Label.LeftInitial,左
+Feature.Avatar.Label.Right,右
+Feature.Avatar.Label.RightInitial,右
+Feature.Friends.Label.Following,追蹤中
+Feature.Friends.Label.Followers,追蹤者
+Feature.Friends.Label.MutualFriends,共同好友
+Feature.Friends.Label.FollowsYou,正在追蹤您
+Feature.Friends.Label.YouAreFollowing,您在追蹤
+Feature.Friends.Action.Block,封鎖
+Feature.Friends.Label.Friend,好友
+Feature.Friends.Action.Unblock,解除封鎖
+Verification.Identity.Label.VoiceChatUpsell,此體驗支援特定空間語音聊天。若要使用此功能，請先確認您已滿 13 歲。
+Verification.Identity.Action.SkipVoiceChat,不使用語音聊天加入
+Verification.Identity.Label.DontShowAgain,不要再顯示
+Verification.Identity.Label.EnableVoiceChat,啟用語音聊天
+Verification.Identity.Label.UsesVoiceChat,此體驗使用語音聊天。啟用語音聊天時，支援語音聊天的體驗將會使用您的麥克風輸入。
+Verification.Identity.Label.ToggleInstruction,您也可以在設定中啟用或停用此功能。
+Verification.Identity.Label.JoinWithout,不使用語音聊天加入
+InGame.CommonUI.BetaBadge.BadgeText,Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,若您發現有人違反社群準則，請使用檢舉濫用功能。如果您選擇使用語音聊天功能，Roblox 為了管理和安全用途將會在平台上任意錄音語音內容。您使用語音聊天功能及表示您同意 Roblox 為了管理和安全用途收集、使用及儲存您的錄音。您可以隨時終止空間語音服務。
+InGame.CommonUI.Badge.Popup.HeaderList,您已選擇使用下列 Beta 功能：
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,語音聊天
+InGame.CommonUI.Badge.BadgeText,Beta
+InGame.CommonUI.Badge.Popup.LearnMoreLink,了解更多
+InGame.CommonUI.Badge.Popup.LearnMoreText,若要了解更多資訊，請查看「錄音 FAQ」協助文章。
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,您可以享有更寬鬆的文字過濾系統，更自由地聊天！此特權只供符合資格的 13+ 使用者可以享有。
+InGame.CommonUI.Badge.Popup.VoiceInfo,您已選擇使用語音聊天 Beta 功能，Roblox 為了管理和安全用途將會在平台上任意錄音語音內容。您使用語音聊天功能及表示您同意 Roblox 為了管理和安全用途收集、使用及儲存您的錄音。您可以隨時終止語音聊天服務。
+InGame.CommonUI.Badge.Popup.CommunityStandards,若您發現有人違反社群標準，請使用檢舉濫用功能。
+Feature.NativeAds.Label.Sponsored,贊助
+Feature.NativeAds.Label.Ad,廣告
+InGame.ConnectionError.DisconnectOutOfMemory,您的裝置記憶體不足，無法運行此體驗。請返回 App。
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,因裝置的性能限制，此體驗無法穩定運行，並有崩潰的可能。
+InGame.ConnectionError.Title.ExperienceUnstable,體驗不穩定
+Feature.SettingsHub.Label.MethodOfAbuse,濫用類型？
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,語音聊天
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,此人在語音聊天叫得異常大聲
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,此人在文字聊天使用了惡意字眼
+Feature.SettingsHub.MethodOfAbuse.Text.Title,文字聊天
+Feature.SettingsHub.MethodOfAbuse.Other.Title,其他
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,此人在跟蹤我、穿著不當的衣物等
+Feature.SettingsHub.ReportSubmitted.MutePlayer,靜音 {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,封鎖 {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,我們收到了您的檢舉報告，並會盡快採取額外行動。我們有了您的幫助才能維護社群的安全。
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,您將聽不到 {Player} 的語音
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,您和 {Player} 將無法互相交流。
+Feature.SettingsHub.Label.ReportComment,請自行描述不當的事項。
+Feature.SocialShare.Action.Share,分享
+Feature.SocialShare.Label.ShareServerLink,分享邀請連結
+Feature.SocialShare.Label.Copied,已複製
+Feature.AccountSettings.Label.FreeCommConsentOnly,我同意 Roblox 為審查和安全用途收集、使用及儲存我的錄音。
+InGame.CommonUI.Button.KeepPlaying,繼續
+InGame.ConnectionError.Title.OutOfMemory,記憶體不足
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,此體驗記憶體使用量過大，可能會當機。
+Feature.SettingsHub.Label.DefaultInviteMessage,邀請 {DisplayName} 加入您？
+Feature.SettingsHub.Heading.InviteUser,邀請 {DisplayName}？
+Feature.SettingsHub.Action.MuteAll,全面靜音
+Feature.SettingsHub.Action.UnmuteAll,解除全面靜音
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,您無法與自己開啟私人頻道。
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,警告：若變更使用者名稱，您將會失去驗證徽章狀態。確定繼續？
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,名牌可見度
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,可見
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,隱藏
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName}（原始語言）
+Feature.SettingsHub.LanguageSelection.Unavailable,無法使用
+Feature.SettingsHub.LanguageSelection.SettingLabel,體驗語言
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,進一步了解錄音
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,靜音並封鎖 {DisplayName}？
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,您和 {Player} 將無法互相交流。
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,靜音 {DisplayName}（@{Username}）？
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,封鎖 {DisplayName}（@{Username}）？
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,您和 {DisplayName}（@{Username}）將無法互相交流。
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,您已封鎖並靜音 {Displayname}（@{Username}）
+Feature.SettingsHub.ReportSubmitted.Muted,您已靜音 {Displayname}（@{Username}）
+Feature.SettingsHub.ReportSubmitted.Blocked,您已封鎖 {Displayname}（@{Username}）
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,靜音並封鎖 {DisplayName}（@{Username}）？
+Feature.SettingsHub.Prompt.TeleportBlock.Title,已暫停傳送
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,關閉選單後將會繼續傳送。
+Feature.NativeAds.Action.EnterExperience,進入體驗
+Feature.NativeAds.Action.ReturnToExperience,返回體驗
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,您的隱私設定不允許您加入此伺服器。
+CoreScripts.TopBar.RobloxMenu,Roblox 選單
+InGame.CommonUI.Label.MicOff,麥克風關閉
+InGame.CommonUI.Label.MicOnRecording,麥克風開啟（正在錄音）
+InGame.InspectMenu.Label.VerifiedAvatar,{PLAYER_NAME} {VERIFIED_BADGE} 的虛擬人偶
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,Robux 不足，無法購買此道具。
+IAPExperience.InsufficientRobux.Text.CurrentBalance,目前餘額
+IAPExperience.InsufficientRobux.Action.Cancel,取消
+IAPExperience.InsufficientRobux.Action.BuyRobux,購買 Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,廣告 GUI 的附著表面形狀不是方塊
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,廣告 GUI 的附著表面旋轉無效
+Feature.NativeAds.Description.InvalidAdPortalParentType,父類型無效
+Feature.NativeAds.Description.AdPortalParentMissing,父項目不存在
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,廣告 GUI 的附著表面大小無效
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,廣告 GUI 的附著表面位置無效
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,廣告傳送門位階不正確
+Feature.NativeAds.Description.InvalidAdGuiValidation,廣告 GUI 驗證失敗
+Feature.NativeAds.Description.InvalidAdPortalProperties,廣告傳送門未設定正確屬性
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,廣告傳送門的父零件未設定正確屬性
+Feature.NativeAds.Description.InvalidAdGuiAdornee,廣告 GUI 的附著表面不是零件
+Feature.NativeAds.Description.AdPortalMissing,廣告傳送門不存在
+IAPExperience.InsufficientRobux.Text.YouNeed,您還需要 {robux}。請購買更多 Robux 組合包再返回體驗。
+IAPExperience.InsufficientRobux.Action.RobuxStore,前往 Roblox 商店
+CoreScripts.TextChat.Emote.Error.NotOwned,您未擁有動作「{RBX_EMOTE}」。
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId：{RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,我們根據使用者舉報判定了您使用語音聊天時的行為違反了我們的社群規則。我們暫時終止了您使用語音聊天的權利，結束時間為
+Feature.SettingsHub.Prompt.MicUseSuspended,已禁止麥克風功能
+InGame.ConnectionError.Title.LowMemoryWarning,記憶體不足警告
+InGame.ConnectionError.Queue,您在隊列的位置：{POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,送出服飾
+CoreScripts.PublishAssetPrompt.TitleTextEmote,送出動作
+CoreScripts.PublishAssetPrompt.TitleTextPackage,送出套件
+CoreScripts.PublishAssetPrompt.Name,名稱
+CoreScripts.PublishAssetPrompt.Description,說明
+CoreScripts.PublishAssetPrompt.InvalidName,無效名稱
+CoreScripts.PublishAssetPrompt.InvalidDescription,無效說明
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,我同意此體驗會將我的虛擬人偶道具送進審查過程並上傳到我的作品。
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,我同意此體驗會將我的動作送進審查過程並上傳到我的作品。
+CoreScripts.PublishAssetPrompt.Cancel,取消
+CoreScripts.PublishAssetPrompt.Submit,提交
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,說明
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,名稱
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,您未擁有該動作。
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,攝影機
+InGame.CommonUI.Label.Return,返回
+InGame.CommonUI.Label.ReturnFallback,返回上一個體驗
+InGame.CommonUI.Label.ReturnTo,返回「{placeName}」
+Feature.FaceChat.Heading.FacialAnimation,臉部動畫
+Feature.FaceChat.Subtitle.FeatureDisabled,臉部動畫暫時無法使用，請稍後再試。
+Feature.FaceChat.Subtitle.ServerDisabled,臉部動畫暫時無法使用，請稍後再試。
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,關閉相機可能會提升體驗效能。
+Feature.FaceChat.Heading.VideoNoPermission,無法使用相機
+Feature.FaceChat.Subtitle.VideoNoPermission,前往您的設定並允許 Roblox 使用您的相機。
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,裝置效能過低
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,無法使用臉部動畫
+Feature.FaceChat.Heading.VideoUnsupported,裝置相機不支援
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox 無法使用您的相機製作帶有動作的虛擬人偶動畫。
+Feature.SettingsHub.Prompt.Connecting,語音功能連線中
+Feature.SettingsHub.Prompt.Subtitle.Connecting,現正進行語音功能連線，可能需要一段時間才能完成連線。
+CoreScripts.ContactList.Label.Outgoing,外撥
+CoreScripts.ContactList.Label.Incoming,來電
+CoreScripts.ContactList.Label.Missed,未接聽
+Feature.FaceChat.Heading.LODCameraForceDisable,相機已關閉
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox 因為效能問題關閉了您的相機。
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,設定
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,您必須設定雙步驟驗證才能完成此操作。這有助於保障您的登入、購買程序等。
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,需要通過雙步驟驗證
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,由於違反《社群規範》，我們已暫時撤銷您使用語音以及虛擬人偶聊天的存取權直到
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,往後若發生違規行為可能會導致帳戶遭受額外處置。
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,禁用有效期限：
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,我們的系統偵測到您的行為可能違反了我們的社群標準。為了預防起見，我們已暫時停用您使用語音和虛擬人偶聊天的權限。
+Feature.SettingsHub.Prompt.Subtitle.Microphone,我們的系統偵測到您的行為可能違反了我們的社群標準。為了預防起見，我們已暫時停用您使用聊天和語音的權限。
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,麥克風和相機暫時停用
+IAPExperience.BuyRobux.Banner.Text,您可以使用 Roblox 升級虛擬人偶或在體驗中獲得特殊能力
+IAPExperience.BuyRobux.Banner.Title,解鎖 Robux
+IAPExperience.BuyRobux.Text.MoreRobux,再加 {robux} Robux
+InGame.ConnectionError.PlacelaunchHttpError,發生 HTTP 錯誤，請關閉用戶端並重新嘗試。
+InGame.ConnectionError.PlacelaunchGameFull,請求的體驗已額滿
+InGame.ConnectionError.PlacelaunchGameEnded,此體驗已結束，或伺服器因意外系統錯誤無法使用
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,您的裝置的記憶體不足。現在離開將能保持目前狀態並防止 Roblox 當機。
+InGame.ConnectionError.Waiting,正在等待可用伺服器
+InGame.ConnectionError.Loading,找到伺服器，正在載入……
+InGame.ConnectionError.Joining,正在加入伺服器
+NotificationScript2.UINavigation.FormattedText,按 {KEY_NAME} 切換。
+Feature.FaceChat.Subtitle.UnsupportedDevice,您的硬體未達要求，無法使用相機製作帶有動作的虛擬人偶動畫。
+Feature.AccountSettings.Heading.Communication,通訊
+Feature.FaceChat.Heading.NotAvailable,無法使用臉部動畫
+InGame.ConnectionError.DisconnectPrivateServerKickout,由於失去存取本私人伺服器的權限，您已中斷連線。
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,來自{RBX_NAME}的包套
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,您的虛擬人偶頭部造型不支援臉部動畫。您可以在道具欄與虛擬人偶商店取得相容的頭部造型。
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,取消
+CoreScripts.EmoteThumbnailEditor.Action.Update,更新
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,編輯縮圖
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,旋轉
+CoreScripts.EmoteThumbnailEditor.Label.Time,時間
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,確定要離開並加入另一個體驗嗎？
+Feature.SettingsHub.Prompt.SimpleNudge,請保持禮貌和友善
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,我們的系統偵測到您的行為可能違反了我們的社群標準。溫情提醒您維護 Roblox 文明有禮的友善環境。
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,如果日後發生違規行為，我們可能針對帳戶採取進一步行動。
+Feature.SettingsHub.Prompt.ThankYouForFeedback,感謝告知
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,我們會根據您的意見，持續改善系統。
+Feature.SettingsHub.Chat.TranslationEnabled,自動翻譯聊天
+Notifications.ToastNotifications.Title.LeavingExperience,離開體驗
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,您可以在道具欄找到此道具。
+CoreScripts.PublishAssetPrompt.PublishFailed,有地方出錯，請再試一次。
+CoreScripts.PublishAssetPrompt.PermissionDenied,有地方出錯，請再試一次。
+CoreScripts.PublishAssetPrompt.Timeout,有地方出錯，請再試一次。
+CoreScripts.PublishAssetPrompt.NoUserInput,有地方出錯，請再試一次。
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,成功！
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,無法送出
+Feature.SettingsHub.Chat.TranslationInformation,文字交談會翻譯為您慣用的語言。請輕觸訊息前的符號來查看原文。
+CoreScripts.TextChat.Clear.Help.Description,/clear 或 /cls：清除聊天視窗中的訊息 
+GameChat_ChatMain_ChatTranslationOnboarding,文字交談會翻譯為您慣用的語言。請輕觸訊息前的符號來查看原文。您可以在「設定」選單關閉翻譯。
+CoreScripts.PublishAssetPrompt.TitleTextModel,送出套件
+IAPExperience.BuyRobux.Text.MoreRobux2,再 {robux} Robux
+CoreScripts.PublishAssetPrompt.UndefinedError,有地方出錯，請再試一次。錯誤代碼：{RESULT_TYPE}
+InGame.CommonUI.Label.Off,關閉
+InGame.CommonUI.Label.On,開啟
+CoreScripts.PublishAssetPrompt.DisclaimerModel,建立的道具會經過審核，如果您的道具因不符合社群標準而被拒絕，您不會收到退款。
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,您已成功購買 Robux！
+CoreScripts.AssetPreviewView.Action.ResetView,重設檢視
+CoreScripts.AssetPreviewView.Label.LoadingFailed,載入失敗
+CoreScripts.PublishAssetPrompt.ResultModalOk,確定
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,我們偵測到可能違反 Roblox 社群標準的言論。<br /><br />如果多次違規，您可能會無法使用語音聊天功能。
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,我們偵測到可能違反 Roblox 社群標準的言論。如果多次違規，您可能會無法使用語音聊天功能。
+Feature.SettingsHub.Prompt.GotIt,知道了
+CreatorDashboard.AssetTypes.Label.Body,身體
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Robux 不足
+IAPExperience.Loading.Text.PurchasingRobux,正在購買 Robux ……
+IAPExperience.Loading.Text.PurchasingItem,正在購買道具……
+IAPExperience.Loading.WaitingForPurchase,正在等待購買……
+IAPExperience.Loading.WaitingForRobux,正在等待發放 Robux……
+IAPExperience.Loading.Text.WaitingForPurchase,正在等待購買……
+IAPExperience.Loading.Text.WaitingForRobux,正在等待發放 Robux……
+Notifications.NotificationStream.Title.ReportNotification,檢舉通知
+Notifications.NotificationStream.AbuseReason.Bullying,霸凌
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,作弊 / 濫用
+Notifications.NotificationStream.AbuseReason.Dating,約會
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,站外連結
+Notifications.NotificationStream.AbuseReason.Other,其他
+Notifications.NotificationStream.AbuseReason.AskingPII,個人問題
+Notifications.NotificationStream.AbuseReason.Scamming,詐騙
+Notifications.NotificationStream.AbuseReason.Profanity,粗口
+Feature.ReportAbuse.Message.ErrorSubmit,提交檢舉時發生問題。
+Feature.ReportAbuse.Action.ReportAbuse,檢舉濫用
+Feature.ReportAbuse.Label.TellUsHowAsset,請告訴我們您認為此素材違反 Roblox 規則的原因。
+Feature.ReportAbuse.Label.ReasonForFlag,舉報原因：
+Feature.ReportAbuse.Message.ThanksForFlagging,我們無法一一回覆每一個報告，但是您的回饋有助於我們改良所有創作者的體驗。
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,您的留言必須少於 {characterLimit} 個字元。
+Feature.SettingsHub.Prompt.IncorrectNudge,我們誤會了嗎？<br /><u>若是如此，請告訴我們</u>
+Feature.SettingsHub.Prompt.RememberRules,請別忘了我們的政策
+Feature.SettingsHub.Label.Captures,截圖
+InGame.InspectMenu.Label.LimitedItems,限定道具
+InGame.InspectMenu.Label.FromResale,轉售價格：{PRICE}
+InGame.InspectMenu.Action.FromResale,轉售價格：{PRICE}
+InGame.InspectMenu.Label.OwnedItem,擁有的道具（{QUANTITY}）
+InGame.InspectMenu.Label.OwnedItems,擁有的道具（{QUANTITY}）
+InGame.InspectMenu.Action.LimitReached,已達道具上限
+Feature.FaceChat.Heading.UnableToAccessCamera,無法存取相機
+Feature.FaceChat.Subtitle.UnableToAccessCamera,如要使用相機製作動態虛擬人偶，請前往作業系統設定來允許 Roblox 使用相機
+Feature.SettingsHub.Prompt.MicrophonePermission,無法存取麥克風
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,如要使用語音聊天，請前往作業系統設定來允許 Roblox 使用麥克風
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,記住本次體驗。
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,不，將他人靜音
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,是，要聽見其他人的音訊
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,您會聽見其他人的聲音，但您會保持靜音，直到您準備參與聊天為止。
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,要開啟語音加入嗎？
+CoreScripts.PublishCommon.Creator,創作者
+CoreScripts.PublishCommon.Leave,是
+CoreScripts.PublishCommon.MadeIn,產地
+CoreScripts.PublishCommon.Stay,否
+CoreScripts.PublishCommon.Type,類型
+CoreScripts.PublishCommon.UnsavedWarning,未儲存的變更可能會遺失
+Feature.Accessibility.Description.PreferredTransparency,通過調整某些背景的透明度來改善對比度
+Feature.Accessibility.Description.ReducedMotion,停止或減少動態效果
+Feature.Accessibility.Description.UiNavigationKeyBind,使用 {uiNavigationKey} 鍵以進入和退出 UI 導航模式
+Feature.Accessibility.Heading.PreferredTransparency,背景透明度
+Feature.Accessibility.Heading.ReducedMotion,減少動態效果
+Feature.Accessibility.Heading.UiNavigationKeyBind,UI 導覽切換
+Feature.Accessibility.PreferredTransparency.Opaque,不透明
+Feature.Accessibility.PreferredTransparency.Transparent,透明
+Feature.Avatar.Heading.Clothing,服裝
+Feature.Avatar.Label.Accessory,飾品
+Feature.Avatar.Label.Back,背面
+Feature.Avatar.Label.ClassicPants,經典褲子
+Feature.Avatar.Label.ClassicShirts,經典上衣
+Feature.Avatar.Label.ClassicTShirts,經典 T 恤
+Feature.Avatar.Label.Climb,攀爬
+Feature.Avatar.Label.DressesAndSkirts,裙子
+Feature.Avatar.Label.DynamicHead,動態頭部
+Feature.Avatar.Label.Emote,動作
+Feature.Avatar.Label.Face,臉部
+Feature.Avatar.Label.Fall,跌落
+Feature.Avatar.Label.Gear,裝備
+Feature.Avatar.Label.Hair,髮型
+Feature.Avatar.Label.Hat,帽子
+Feature.Avatar.Label.Head,頭部
+Feature.Avatar.Label.Idle,閒置
+Feature.Avatar.Label.Jacket,夾克
+Feature.Avatar.Label.Jump,跳躍
+Feature.Avatar.Label.LeftArm,左臂
+Feature.Avatar.Label.LeftArms,左臂
+Feature.Avatar.Label.LeftLeg,左腿
+Feature.Avatar.Label.LeftLegs,左腿
+Feature.Avatar.Label.LeftShoe,左鞋
+Feature.Avatar.Label.Mood,心情
+Feature.Avatar.Label.Neck,頸部
+Feature.Avatar.Label.Pants,褲子
+Feature.Avatar.Label.RightArm,右臂
+Feature.Avatar.Label.RightArms,右臂
+Feature.Avatar.Label.RightLeg,右腿
+Feature.Avatar.Label.RightLegs,右腿
+Feature.Avatar.Label.RightShoe,右鞋
+Feature.Avatar.Label.Run,奔跑
+Feature.Avatar.Label.Shirt,襯衫
+Feature.Avatar.Label.Shorts,短褲
+Feature.Avatar.Label.Shoulder,肩膀
+Feature.Avatar.Label.Sweater,外套
+Feature.Avatar.Label.Swim,游泳
+Feature.Avatar.Label.Torso,軀幹
+Feature.Avatar.Label.TShirt,T 恤
+Feature.Avatar.Label.Waist,腰部
+Feature.Avatar.Label.Walk,步行
+Feature.Catalog.Label.Animation,動畫
+Feature.Catalog.Label.Attribution,生產於
+Feature.Catalog.Label.Body,身體
+Feature.Catalog.Label.CategoryType,類型
+Feature.Catalog.Label.Emotes,動作
+Feature.Catalog.Label.Eyebrow,眉毛
+Feature.Catalog.Label.Eyelash,睫毛
+Feature.Catalog.Label.Filter.Creator,創作者
+Feature.GamepadDisconnect.Label.Message,"用戶控制器 ""%s"" 已斷線,請按 '%s在你想繼續使用的控制器上。"
+Feature.GamepadDisconnect.Label.Title,缺少控制器
+InGame.InspectMenu.Action.SoldOut,售完
+CoreScripts.PublishCommon.Disclaimer,建立的道具會經過審核，如果您的道具因不符合社群標準而被拒絕，您不會收到退款。
+Feature.ReportAbuse.Action.AttachScreenshot,附加螢幕擷取畫面
+Feature.ReportAbuse.Action.BackToExperience,返回「體驗」
+Feature.ReportAbuse.Action.HighlightScene,標記場景
+Feature.ReportAbuse.Action.Next,下一個
+Feature.ReportAbuse.Action.Retake,重新擷取
+Feature.ReportAbuse.Action.RetakeScene,重新擷取場景
+Feature.ReportAbuse.Label.SelectPerson,選擇場景裡的人
+Feature.ReportAbuse.Label.SelectProblem,選擇場景裡的問題
+Feature.ReportAbuse.Message.ProblemNotInScene,如果問題不在這個場景裡，您可以「重新擷取」螢幕畫面。
+Feature.ReportAbuse.Message.RetakeScene,請協助我們了解您遇到的狀況。只要選擇「檢舉」，我們就會立刻擷取場景。
+Feature.SettingsHub.Action.CaptureScene,擷取影像
+Feature.SettingsHub.Label.AttachScreenshot,要附上螢幕截圖嗎？（可選）
+Feature.SettingsHub.Label.AttachScreenshotFormatted,要附上螢幕截圖嗎？{lineBreak}（可選）
+Feature.SettingsHub.Label.SceneCaptured,影像已擷取
+CommonUI.Controls.Action.Cancel,取消
+CommonUI.Controls.Action.Confirm,確認
+CoreScripts.TopBar.ControlMessageMotion,動作追蹤
+CoreScripts.TopBar.ControlMessageOff,關閉
+CoreScripts.TopBar.ControlMessageOn,開啟
+CoreScripts.TopBar.ControlMessageSound,聲音追蹤
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,虛擬人偶 › 自訂 › 頭部與身體
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,裝備動態頭部以眨眼！
+CoreScripts.TopBar.RobloxPermissionErrorBody,Roblox 設定 › 隱私 › 麥克風和相機輸入
+CoreScripts.TopBar.RobloxPermissionErrorHeader,允許相機存取
+CoreScripts.TopBar.SelfViewLabel,個人視角
+CoreScripts.TopBar.SelfViewSecondaryAction,開啟
+InGame.CommonUI.Badge.Popup.DisclaimerText2,若您發現有人違反社群準則，請使用檢舉濫用功能。如果您選擇使用語音服務，Roblox 為了管理、安全與改進服務和工具用途，將會在平台上任意錄音語音內容。您使用語音服務即表示您同意 Roblox 為了上述用途收集、使用及儲存您的錄音。您可以隨時終止語音功能。
+CoreScripts.TopBar.MenuToggle,展開 / 收合
+CoreScripts.TopBar.MoreMenu,更多選單
+CoreScripts.TopBar.OverflowMenu,溢位選單
+CoreScripts.TopBar.Title.ExperienceControls,體驗控制
+CoreScripts.TopBar.ToggleMic,將自己靜音 / 解除靜音
+Feature.Catalog.Label.Bundle,組合
+Feature.SocialContextToast.Action.InviteBack,邀請對方回來
+Feature.SocialContextToast.Action.JoinFriend,加入
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} 離開並加入 {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} 已離開本次體驗
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} 已加入您
+Feature.SocialContextToast.Message.InvitationConfirmation,邀請已送出
+Feature.SocialContextToast.Message.YouJoinedManyFriends,您已加入 {FRIEND_NAME} 和其他 {FRIEND_COUNT} 位好友
+Feature.SocialContextToast.Message.YouJoinedOneFriend,您已加入 {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,您已加入 {FRIEND_NAME_ONE} 和 {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,此人的虛擬人偶穿戴具有冒犯意味的服裝
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,虛擬人偶
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,您會聽見其他人交談，但您會保持靜音，直到您準備參與聊天為止。
+Feature.Subscription.Text.DisclaimerMonthly,每月續訂，可隨時取消。
+Feature.Subscription.Text.PerMonth,/ 月
+Feature.SettingsHub.Action.EveryoneToggle,所有人
+Feature.SettingsHub.Action.NobodyToggle,沒有人
+Feature.SettingsHub.Action.NonfriendsToggle,非好友
+Feature.SettingsHub.Label.Mute,靜音
+Feature.SocialContextToast.Message.InvitationFailure,無法傳送邀請
+Feature.SocialShare.Action.CopyLink,複製連結
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,每月續訂，可隨時取消。
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,您加入了「{FRIEND_NAME}」，但他們正位於受限制的空間
+Feature.SocialContextToast.Message.FriendInNonRootPlace,「{FRIEND_NAME}」在此體驗中已移動到受限制的位置
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox 會在聊天中自動翻譯支援的語言
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,系統將自動翻譯您傳送和收到的訊息
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,已開啟支援語言的聊天翻譯
+Feature.SettingsHub.Chat.TranslationSetting,自動翻譯聊天
+Feature.SettingsHub.Chat.TranslationToggleSetting,檢視未翻譯訊息的選項
+Feature.Call.Description.NoFriendsFound,未找到好友
+Feature.Call.Error.Description.AlreadyInCall,您已在通話中
+Feature.Call.Error.Description.CallEnabledVerificationFailed,無法驗證通話資格。
+Feature.Call.Error.Description.Generic,發生錯誤，請稍後再試。
+Feature.Call.Error.Description.SettingsNotCallEnabled,您目前的設定不允許通話。
+Feature.Call.Error.Label.OhNo,糟糕！
+Feature.Call.Label.CallEnded,通話已結束
+Feature.Call.Label.Calling,正在呼叫……
+Feature.Call.Label.Incoming,來電
+Feature.Call.Label.Missed,未接聽
+Feature.Call.Label.Outgoing,外撥
+Feature.Call.Label.RecentCalls,最近通話
+Feature.Call.Label.RobloxCall,Roblox 呼叫
+Feature.Call.Label.StartNewCall,開始新通話
+Feature.Call.Label.Teleporting,正在傳送……
+Feature.Call.Label.Yesterday,昨天
+Feature.Call.Prompt.AddFriends,新增 Roblox 好友以撥打電話
+Feature.Call.Prompt.FirstCall,試著撥第一通電話
+Feature.Call.Prompt.SearchFriends,搜尋好友
+Feature.Call.Prompt.StartCall,開始通話
+Feature.FaceChat.Heading.LowPerformanceDetected,偵測到效能過低
+Feature.FaceChat.Subtitle.LowPerformanceDetected,關閉相機可能會提升裝置效能
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,無法載入好友。請稍後再試。
+Feature.SettingsHub.Label.NoFriendsPageMessage,新增好友一起探索。
+CoreScripts.Feedback.EntryPoint.ButtonText,給予回饋
+CoreScripts.Feedback.EntryPoint.MenuLabel,回饋
+CoreScripts.Feedback.EntryPoint.OptionText,給予翻譯回饋
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,離開
+CoreScripts.Feedback.FeedbackBar.HelpButton,協助
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,請在下方提供其他留言（選填）
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,請在這裡輸入您的其他留言
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,取消
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,正確的翻譯應該是什麼呢？（選填）
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,請在這裡輸入正確的翻譯
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,給予回饋
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,圖像
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,遊戲物件
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,模組
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,模型
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,影片
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,這個翻譯有什麼問題呢？（選填）
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,正確性問題
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,不當或具有貶義
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,沒有選擇
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,拼字或文法錯誤
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,未翻譯
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,已選擇物件
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,提交
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,已選擇文字
+CoreScripts.Feedback.Help.CloseInstructions,關閉說明
+CoreScripts.Feedback.Help.Instructions1,在回饋模式中，您的螢幕將凍結，將無法移動虛擬人偶或相機。請輕觸或按下任何物件，即可針對不正確或缺漏的翻譯給予回饋。
+CoreScripts.Feedback.Help.Instructions2,選擇物件時將出現表單，您願意的話，可在其中提供更多資訊。感謝您協助改善 Roblox 的翻譯！
+CoreScripts.Feedback.Help.MainHeader,協助
+CoreScripts.Feedback.SubmissionToastBody,Roblox 會利用這些資訊協助改善此體驗的翻譯品質
+CoreScripts.Feedback.SubmissionToastHeader,感謝您的回饋！
+Feature.Call.Description.Friends,裝置和設定可能尚未針對通話體驗最佳化的好友。
+Feature.Call.Description.SuggestedFriends,裝置和設定已針對通話體驗最佳化的好友。
+Feature.Call.Error.Description.DeviceNotSupported,您的裝置目前不支援通話。請稍後再試。
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName}目前忙線中，無法接聽您的電話，請稍後再試。
+Feature.Call.Error.Title.CouldntMakeCall,無法通話
+Feature.Call.Error.Title.FriendBusy,好友忙線中
+Feature.Call.Label.Friends,好友
+Feature.Call.Label.Suggested,建議的好友
+Feature.Call.Modal.EnableChatVoiceBody,在「設定」>「隱私」中開啟語音聊天，以在此體驗中與他人聊天。
+Feature.Call.Modal.EnableChatVoiceTitle,啟用語音聊天
+InGame.InspectMenu.Action.Go,前往
+InGame.InspectMenu.Attribution.GoToDescription,您將離開此區域並前往：{EXPERIENCE_NAME}。
+InGame.InspectMenu.Attribution.GoToExperience,前往體驗？
+Common.Presence.Label.Online,在線
+Feature.Call.Label.Block,封鎖{combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,立即傳送
+CoreScripts.Ads.Action.PortalPromptCancel,取消
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,走開以關閉對話。
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,要傳送至 {RBX_NAME} 嗎？
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,要傳送嗎？
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,您可以在此找到相機和自我檢視控制項
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,使用相機讓您的虛擬人偶跟著您微笑及移動
+Feature.Call.Description.ExperienceError,此體驗不支援語音聊天。
+Feature.Call.Error.Title.ExperienceError,體驗錯誤
+Feature.SettingsHub.Label.ReasonForAbuse,檢舉濫用的原因？
+Notifications.NotificationStream.Bundle.ShowLess,顯示更少
+Notifications.NotificationStream.Bundle.ShowMoreV2,其他 {notificationCount} 個
+CommonUI.Controls.Input.Optional,{inputLabel}（選填）
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,由於您的行為可能違反社群標準，您的語音聊天使用權已被停用，直到 {dateTime}為止。
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,擴展通知組合
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,禮品卡貨幣必須符合您的帳號位置。您可以在設定中檢視您的帳號位置。如有其他問題，請聯繫 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}。
+Feature.Call.Label.Unfriend,刪除好友{combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,使用者「%s」的控制器已斷線。請重新連線控制器。
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,由於您的用語可能違反了 Roblox 社群標準，我們已暫時關閉您的語音聊天功能。
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,如果再次發生，您的帳號可能會減少權限。
+Feature.SettingsHub.Prompt.XMinuteSuspension,暫時停權 {banDurationInMinutes} 分鐘
+Feature.ReportAbuse.DSAIllegal.ReportLink,檢舉內容違反歐盟《數位服務法》。
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,檢舉違法內容
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,使用（{LanguageName}）
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,Roblox 不會使用行為資訊來投放此廣告。您會看到此廣告，是根據裝置類型、位置及年齡，所提供的適當相關廣告。
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,若要依據歐盟《數位服務法》 檢舉違法內容，請前往：https://www.roblox.com/illegal-content-reporting
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,預設 ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,最高畫面播放速率
+CoreScripts.Ads.Action.Close,關閉
+CoreScripts.Ads.Label.WhyThisAd,為什麼是這個廣告？
+CoreScripts.FTUX.Mic.Body,開啟麥克風
+CoreScripts.FTUX.Mic.Header,語音聊天
+CoreScripts.FTUX.Onboard.Body,排行榜、聊天，安全等等
+CoreScripts.FTUX.Onboard.Header,快速存取您喜愛的控制項
+CoreScripts.FTUX.SelfView.Body,當相機開啟時，您的虛擬人偶會跟隨您做出微笑、眨眼等動作
+CoreScripts.FTUX.SelfView.Header,讓虛擬人偶動起來
+CoreScripts.FTUX.Tools.Body,追蹤分數、報告問題、使用動作
+CoreScripts.FTUX.Tools.Header,最常使用的工具與動作
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,捏合以縮放、滑動以旋轉、雙指滑動以平移
+CoreScripts.PublishAvatarPrompt.Body,身體
+CoreScripts.PublishAvatarPrompt.BodyName,身體名稱
+CoreScripts.PublishAvatarPrompt.Close,關閉
+CoreScripts.PublishAvatarPrompt.CreatedBody,{DisplayName} 的身體
+CoreScripts.PublishAvatarPrompt.CreatedHead,{DisplayName} 的頭部
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,{DisplayName} 的左臂
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,{DisplayName} 的左腿
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,{DisplayName} 的右臂
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,{DisplayName} 的右腿
+CoreScripts.PublishAvatarPrompt.CreatedTorso,{DisplayName} 的軀幹
+CoreScripts.PublishAvatarPrompt.Head,頭部
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,是否退出創作？
+CoreScripts.PublishAvatarPrompt.LeftArm,左臂
+CoreScripts.PublishAvatarPrompt.LeftLeg,左腿
+CoreScripts.PublishAvatarPrompt.Pan,平移
+CoreScripts.PublishAvatarPrompt.ResetView,重置檢視
+CoreScripts.PublishAvatarPrompt.RightArm,右臂
+CoreScripts.PublishAvatarPrompt.RightLeg,右腿
+CoreScripts.PublishAvatarPrompt.Rotate,旋轉
+CoreScripts.PublishAvatarPrompt.SubmitCreation,提交作品
+CoreScripts.PublishAvatarPrompt.Torso,軀幹
+CoreScripts.PublishAvatarPrompt.Zoom,縮放
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,聊天翻譯語言
+CoreScripts.Feedback.FeedbackBar.MainLabel,給予回饋
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,體驗物件：{ObjectType}
+CoreScripts.Feedback.Help.Instructions,選取任何文字，對不正確或缺少的翻譯提供回饋。
+CoreScripts.Feedback.MobileSelectionModal.Close,關閉
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,給予回饋
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,體驗物件：{ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,選擇的文字
+CoreScripts.Feedback.Onboarding.Cancel,取消
+CoreScripts.Feedback.Onboarding.Instructions,選取任何文字，對不正確或缺少的翻譯提供回饋。
+CoreScripts.Feedback.Onboarding.MainHeader,告訴我們有什麼問題
+CoreScripts.Feedback.Onboarding.Start,開始
+CoreScripts.FTUX.Onboard.Complete,知道了
+CoreScripts.FTUX.Onboard.ShowMe,讓我看看
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,您的意見將幫助我們改善系統。
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,感謝告知
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,自由視角
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,顯示 GUI：'{GuiType}'
+CommonUI.Controls.Action.Yes,是
+Feature.Notifications.Heading.EnableNotifications,開啟此體驗的通知
+Feature.Notifications.Heading.EnableNotificationsForExperience,開啟「{experienceName}」的通知
+Feature.Notifications.Label.ReceiveActivityUpdates,當您不在時接收活動更新
+Feature.Notifications.Response.NotificationsEnabled,此體驗的通知已開啟
+Feature.Notifications.Response.NotificationsEnabledForExperience,「{experienceName}」的通知已開啟
+Feature.SettingsHub.Action.LearnMore,了解更多
+Feature.SettingsHub.Action.NotNow,下次再說
+Feature.SettingsHub.Action.TurnOn,開啟
+Feature.SettingsHub.Prompt.ChangeYourMind,若您改變心意
+Feature.SettingsHub.Prompt.JoinedVoiceChat,您已加入語音聊天
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,您隨時可以從語音聊天中斷或將任何人靜音。
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,您稍後可在 Roblox 選單中隨時加入語音聊天。
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,選擇開啟代表我同意 Roblox 可為了審查、安全及改良服務和工具之目的，而收集、使用及儲存我的錄音，進而啟用語音服務。
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,Roblox 不會使用行為資訊來投放此廣告。您會看到此廣告，是根據裝置類型、位置及年齡，所提供的適當相關廣告。廣告主為 {AdvertiserName}。
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,Roblox 不會使用行為資訊來投放此廣告。您會看到此廣告，是根據裝置類型、位置及年齡，所提供的適當相關廣告。廣告主為 {AdvertiserName}。此廣告出資者為 {PayerName}。
+Feature.Notifications.Heading.TurnOnNotifications,開啟通知
+Feature.Notifications.Label.GetUpdatesFromExperience,當您不在時接收「{experienceName}」的通知？
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,您可以隨時將任何人靜音。
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,開啟語音聊天來與其他人聊天。您必須授予 Roblox 麥克風存取權限。您隨時可以將自己或他人靜音。
+Verification.Identity.Heading.V2LetsChat,來聊天吧
+Feature.Call.Label.Retry,重試
+Feature.Friends.Action.Unfriend,刪除好友
+AuthorizeWebsite.PermissionRequest.Label.Subscription,訂閱
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,取得關於您訂閱的資訊。
+CreatorDashboard.ScopeSystem.Label.Subscription,訂閱
+Feature.ReportAbuse.Action.BuildAReport,文字模式
+Feature.ReportAbuse.Action.EnterSceneReporting,進入醒目模式
+Feature.ReportAbuse.Action.SelectInScene,醒目模式
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,使用醒目模式回報
+Feature.ReportAbuse.Label.SelectInSceneDescription1,使用最多 5 個圓圈來標示問題所在
+Feature.ReportAbuse.Label.SelectInSceneDescription2,請告訴我們問題出在哪裡
+Feature.ReportAbuse.Label.SelectInSceneDescription3,提交報告
+Feature.SettingsHub.Prompt.GetVoiceChat,開始語音聊天
+Feature.SettingsHub.Prompt.MicPermissionPrime,授予 Roblox 麥克風存取權以開始聊天。
+Feature.SettingsHub.Prompt.TalkWithOthers,與其他人聊天，樂趣加倍。
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,與其他人語音聊天
+Feature.SettingsHub.Prompt.VoiceUserAgency,一切由您掌控，隨時將自己或他人靜音。
+InGame.HelpMenu.Controls.ToggleGameMenu,遊戲選單切換
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,確定
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,購買失敗
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,您已擁有這些道具，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,目前無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,您需要 Roblox Premium 才能購買這些道具，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,您沒有足夠的 Robux，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,您不得購買此類型的道具，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,這些道具是非賣品，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,價格已變更，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,您不得購買自己的道具，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,您已達到這些道具的擁有上限，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,您已達到每分鐘 9 次的交易上限，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,這些道具已售完，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,您並未被收取任何 Robux。請稍後再試。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,您並未被收取任何 Robux。請購買更多然後再試一次。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,您並未被收取任何 Robux。請再試一次。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,您並未被收取任何 Robux。請購買其他道具然後再試一次。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,您並未被收取任何 Robux。請稍後再試一次。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,購買完成
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,部分購買已完成
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} 個道具
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,成功
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} 個道具
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,失敗
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,已擁有
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,無法使用
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,需要 Premium
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Robux 不足
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,無法使用
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,非賣品
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,價格變動
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,賣家是買家
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,已達上限
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,已達請求上限
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,已售完
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,已購買
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,目前無法購買某些道具，請稍後再試。
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,目前餘額
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,完成
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,花費的 Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,概要
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} 個道具
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,購買總道具數
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,已擁有 {ownedCount} 個
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,付款
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,目前餘額
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,購買後餘額
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,訂單總數
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,您已成功購買 {itemCount} 個道具。在道具欄中找到這些道具。
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,完成
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,購買完成
+Feature.Accessibility.Description.MainVolume,控制 Roblox 的整體音量，包括選單音效、體驗音效和語音聊天
+Feature.Notifications.Webview.Title.PolicyUpdate,政策更新
+Feature.SettingsHub.Prompt.CameraUnavailable,無法使用相機
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,我們已停用相機以改善此裝置上的體驗效能。建議您用其他裝置嘗試。輕觸以了解更多。
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,與其他人聊天，樂趣更加倍。授予 Roblox 麥克風存取權以開始聊天。一切由您掌控，隨時將自己或他人靜音。
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,和其他人聊天樂趣更加倍。一切由您掌控，隨時將自己或他人靜音。
+Feature.SettingsHub.Label.MyCaptures,我的截圖
+Feature.ReportAbuse.Action.ErrorModalGoBack,返回
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,錯誤：最多 5 個圓圈
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,您最多可以放置 5 個圓圈來標示出問題所在。使用復原按鈕可移除圓圈。
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,調整影格速率可讓遊戲更順暢。更高影格速率會消耗更多效能，且超過顯示器更新速率的影格將不會顯示。
+Feature.Subscription.Text.Subscribed,已訂閱
+Feature.ReportAbuse.Label.ChooseOne,請選擇一項
+Feature.ReportAbuse.Label.PleaseSelectOne,請選擇一項。
+Feature.ReportAbuse.Label.SelectInSceneComplete,我們將運用您的檢舉報告，讓 Roblox 成為所有人都能安全享受樂趣的地方。
+Feature.ReportAbuse.Label.TellUsWhatHappened,告訴我們發生了什麼事。（可省略）
+Feature.ReportAbuse.Label.WhatWasWrong,發生了什麼狀況？
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,完成報告
+Feature.ReportAbuse.Title.SelectInSceneThankYou,感謝您的檢舉
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,離開
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,購買 Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,缺少 Robux
+Feature.ReportAbuse.Action.Close,關閉
+Feature.ReportAbuse.Action.Submit,提交
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,您已達到家長監護中設定的每月消費限制。您需等到下個月才能進行新的購買。
+Feature.ReportAbuse.Label.Avatar,虛擬人偶
+Feature.ReportAbuse.Label.Bullying,霸凌
+Feature.ReportAbuse.Label.Cheating,作弊/濫用
+Feature.ReportAbuse.Label.Content,不當內容
+Feature.ReportAbuse.Label.Dating,約會
+Feature.ReportAbuse.Label.Links,站外連結
+Feature.ReportAbuse.Label.Personal,私人問題
+Feature.ReportAbuse.Label.Scamming,詐騙
+Feature.ReportAbuse.Label.Swearing,髒話謾罵
+Feature.ReportAbuse.Label.TextChat,文字聊天
+Feature.ReportAbuse.Label.Username,使用者名稱不當
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,進行此交易之前需要進行雙步驟驗證。請前往「設定」>「安全」完成雙步驟驗證。
+CommonUI.Controls.Action.Refresh,重新整理
+CommonUI.Controls.NoResultsFound,找不到結果
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,這些道具無法在此體驗中使用，因此無法完成購買。
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,無法在此體驗中使用
+CoreScripts.PublishAvatarPrompt.Description,說明（可選填）
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,描述此道具
+Feature.Accessibility.Description.Haptics,控制 Roblox App 的整體震動。
+Feature.Accessibility.Header.Haptics,觸覺
+Feature.AccountSettings.Label.CameraNotAvailable,特定裝置無法使用相機。
+Feature.AccountSettings.Label.CameraNotSupported,特定裝置無法使用相機。{linkStart}了解更多{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,允許
+Feature.Notifications.Action.PushUpsellNotNow,下次再說
+Feature.Notifications.Heading.PushUpsellGeneric,千萬別錯過
+Feature.Notifications.Label.PushUpsellGeneric,取得聊天訊息、邀請、好友邀請等活動的通知。
+Feature.Squads.Action.Join,加入
+Feature.VerificationUpsell.Action.EditPhoneNumber,編輯手機號碼
+IAPExperience.LeaveRoblox.Action.Cancel,取消
+IAPExperience.LeaveRoblox.Action.Continue,繼續
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,按下「繼續」後，系統會將你導向 Roblox 以外的網站，該網站的條款與隱私權政策可能與 Roblox 不同。
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,您即將離開 Roblox
+Feature.ReportAbuse.Label.HighlightProblem,使用圓圈來標示出問題所在
+Feature.Toast.NetworkingError.SomethingIsWrong,發生錯誤，請重新嘗試。
+Feature.Accessibility.Description.PreferredTextSize,根據您的喜好調整 Roblox 上的文字大小
+Feature.Accessibility.Heading.PreferredTextSize,文字大小
+Feature.Accessibility.PreferredTextSize.Default,預設
+Feature.Accessibility.PreferredTextSize.Largest,最大
+Feature.Accessibility.Action.ScrollDown,往下捲動
+Feature.Accessibility.Action.ScrollUp,往上捲動
+CoreScripts.PublishAvatarPrompt.BuyCreation,購買作品
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,確定
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,發生錯誤，因此未取消續訂。請再試一次。
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,錯誤
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,您的訂閱已成功取消。無需進一步動作。
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,已取消
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,就算現在取消訂閱，您在 {date} 結束前仍可以進入。
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,不取消
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,取消訂閱
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,確定取消
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,您的訂閱已成功取消
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,您目前並未訂閱。
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,無法取消
+Feature.Subscription.Error.GenericSubscribeError,嘗試訂閱時發生錯誤。請稍後再試一次。
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,道具完成後，就能在道具欄找到您的道具。
+CoreScripts.TopBar.JoinVoice,開始語音聊天
+Feature.ReportAbuse.Heading.ReportAbuse,檢舉濫用
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,成年適宜內容有誤（例：血腥暴力）
+Feature.ReportAbuse.Label.CategoryBullyingV2,霸凌、騷擾、歧視
+Feature.ReportAbuse.Label.CategoryContent,內容不當：地點、圖像、模型
+Feature.ReportAbuse.Label.CategoryDating,約會
+Feature.ReportAbuse.Label.CategoryInappropriate,言語不當：髒話及成人內容
+Feature.ReportAbuse.Label.CategoryOther,其他違規行為
+Feature.ReportAbuse.Label.CategoryPrivateInfo,索取或提供私人資訊
+Feature.ReportAbuse.Label.CategoryScamming,剝削、欺騙、詐騙
+Feature.ReportAbuse.Label.CategoryTheft,帳號盜竊：網路釣魚、駭客、交易
+Feature.ReportAbuse.Label.CategoryThreats,生命或自殺威脅
+Feature.ReportAbuse.Message.Success,檢舉已送出。
+CoreScripts.Ads.Label.ReportAd,檢舉廣告
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} 說...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,您已加入語音聊天
+Feature.SettingsHub.Prompt.LeaveVoiceChat,語音聊天已斷線
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,您隨時可以從語音聊天中斷或將任何人靜音。
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,您隨時可以在此從語音聊天中斷或將任何人靜音
+Feature.SettingsHub.Action.Ok,確定
+Feature.SettingsHub.Action.OpenSettings,開啟設定
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,需要麥克風存取權
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,請先允許 Roblox 存取您的麥克風，才能與其他人語音聊天。
+CoreScripts.Ads.Label.InappropriateAd,不當廣告
+CoreScripts.TopBar.Party,隊伍
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. 選擇權限<br />2. 選擇麥克風<br />3. 允許 Roblox 存取您的麥克風</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. 前往「設定」>「隱私權」>「權限」<br />2. 選擇麥克風<br />3. 允許 Roblox 存取您的麥克風</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. 將「允許應用程式存取您的麥克風」設為開啟<br />2. 允許 Roblox 存取您的麥克風</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. 前往「設定」>「隱私權」>「麥克風」<br />2. 將「允許應用程式存取您的麥克風」設為開啟<br />3. 允許 Roblox 存取您的麥克風</b>
+Feature.ReportAbuse.Action.ContinueReport,繼續檢舉
+Feature.ReportAbuse.Action.EnterChatLineReporting,檢舉濫用
+Feature.ReportAbuse.Label.FinishChatReport,完成您的聊天檢舉
+Feature.ReportAbuse.Label.SelectChatLine,選取一個聊天來檢舉
+CoreScripts.Ads.Label.IllegalContentReportingLink,檢舉非法內容或對兒童有害的內容
+Feature.ReportAbuse.Problem.Bullying,霸凌
+Feature.ReportAbuse.Problem.Cheating,作弊
+Feature.ReportAbuse.Problem.Dating,約會/性
+Feature.ReportAbuse.Problem.Hate,仇恨
+Feature.ReportAbuse.Problem.Links,平台外連結
+Feature.ReportAbuse.Problem.Personal,個人資訊
+Feature.ReportAbuse.Problem.Scamming,詐騙
+Feature.ReportAbuse.Problem.Spamming,垃圾內容
+Feature.ReportAbuse.Problem.Swearing,髒話謾罵
+Feature.ReportAbuse.Problem.Violence,暴力
+Feature.VerifiedParentalControls.Action.Cancel,取消
+Feature.ReportAbuse.Action.ReturnToExperience,返回體驗
+Feature.ReportAbuse.Label.ReportSubmitted,已提交檢舉
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,您可以採取的額外行動
+Feature.ReportAbuse.Label.SentInAnotherChat,於另一個聊天室傳送
+Feature.ReportAbuse.Label.SentPrivately,私下傳送
+Feature.ReportAbuse.Message.ThankYouReport,感謝您。我們將運用您的檢舉報告，讓 Roblox 成為所有人都能安全享受樂趣的地方。
+Feature.VerifiedParentalControls.Action.Close,關閉
+Feature.VerifiedParentalControls.Action.GoToSettings,前往設定
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,由於地區限制，您需要家長許可才能進行購買。請造訪網站或隨附裝置，於「設定」>「消費」中請求家長許可。
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,由於地區限制，您需要家長許可才能進行購買。請在「設定」>「消費」中請求家長許可。
+Feature.VerifiedParentalControls.Label.AskParent,請詢問您的家長
+Common.VerifiedParentalConsent.Action.Cancel,取消
+Common.VerifiedParentalConsent.Action.Close,關閉
+Common.VerifiedParentalConsent.Action.GoToSettings,前往設定
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,由於地區限制，您需要家長許可才能進行購買。請造訪網站或隨附裝置，於「設定」>「消費」中請求家長許可。
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,由於地區限制，您需要家長許可才能進行購買。請在「設定」>「消費」中請求家長許可。
+Common.VerifiedParentalConsent.Label.AskParent,詢問家長
+Feature.ReportAbuse.Action.TextMute,封鎖來自「{name}」的訊息
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,您需要重新啟動 App 以套用麥克風存取權變更。
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,您目前無法傳送聊天訊息。沒有使用者會看到您的訊息。
+Features.OnDemandAds.Reward_Notification,恭喜！您獲得了{REWARD_NAME}！
+Feature.Avatar.Label.Front,正面
+Feature.PlayWithReward.Message.ErrorBanner.Body,此獎勵目前無法使用，請再試一次。
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,你的好友 {RBX_NAME} 已加入體驗。
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,搜尋好友
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,要向 {RBX_NAME} 傳送好友邀請嗎？
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,要將 {RBX_NAME} 從好友名單中移除嗎？
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,移除好友
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,你無法傳送好友邀請給 {RBX_NAME}，因為對方的好友人數已達上限。
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,向 {RBX_NAME} 傳送好友邀請時發生錯誤，請稍後再試。
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,要傳送好友邀請嗎？
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,要移除好友嗎？

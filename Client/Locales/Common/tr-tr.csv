@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,Işınlanıyor...
+Corescripts.AvatarContextMenu.FriendRequestPending,Arkadaşlık İsteği Beklemede
+Corescripts.AvatarContextMenu.AddFriend,Arkadaş Ekle
+Corescripts.AvatarContextMenu.Friends,Arkadaşsın
+Corescripts.AvatarContextMenu.AcceptFriendRequest,Arkadaşlık İsteğini Kabul Et
+Corescripts.AvatarContextMenu.Chat,Sohbet Et
+Corescripts.AvatarContextMenu.ChatDisabled,Sohbet Devre Dışı
+Corescripts.AvatarContextMenu.Wave,El Salla
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,Öğelere erişime izin verilsin mi?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,"{RBX_NAME}, senin avatarının öğelerine erişmek istiyor"
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,Avatar Karakterini Kaydet
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Bu karakteri Roblox'a kaydetmek ister misin? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,Hayır
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,Evet
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,İptal Et
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,Tamam
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,Avatarı Öğelerle Donat
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,"{RBX_NAME}, senin avatarına aşağıda belirtilen değişiklikleri yapmak istiyor:"
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,Tamam
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,İptal Et
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,Öğeyi Favorile
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,{RBX_NAME} öğesini favorilere eklemek ister misin?
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,Öğeyi Favorilerden Çıkar
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,{RBX_NAME} öğesini favorilerden çıkarmak ister misin?
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,Hayır
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,Evet
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,Karakter Adını Gir
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,Karakter Adı
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,Onayla
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,Yükleme Başarısız
+CoreScripts.AvatarEditorPrompts.Adding,Şunlar ekleniyor:
+CoreScripts.AvatarEditorPrompts.Removing,Şunlar çıkarılıyor:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,Öğe değişikliği yapılmadı
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,İptal Et
+CoreScripts.PremiumModal.Title.PremiumRequired,Yalnızca Premium'a Özel
+CoreScripts.PremiumModal.Body.Description,Roblox Premium sana şunları kazandırır:
+CoreScripts.PremiumModal.Body.RobuxMonthly,Ayda 450 Robux
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,Yalnızca Premium'a özel avantajlara erişim
+CoreScripts.PremiumModal.Body.RobuxDiscount,Robux satın alırken %10 bonus
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/aylık
+CoreScripts.PremiumModal.Error.PlatformUnavailable,"Kullandığın platform, Roblox Premium satın alımını desteklemiyor. Premium'u satın almak için lütfen masaüstünü kullan."
+CoreScripts.PremiumModal.Error.AlreadyPremium,Görünüşe göre geliştirici senden Roblox Premium satın almanı istiyor ama sen zaten bir Premium üyesin!
+CoreScripts.PremiumModal.Error.Unavailable,Premium şu anda mevcut değil. Lütfen daha sonra tekrar dene!
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,Aylık {robux} Robux
+CoreScripts.PremiumModal.Error.FailedNativePurchase,"Satın alım tamamlanmadı, lütfen tekrar dene."
+CoreScripts.PremiumModal.Title.Error,Hata
+CoreScripts.ScreenshotHud.Action.TakePhoto,Ekran Görüntüsü Al
+CoreScripts.ScreenshotHud.Action.Cancel,İptal Et
+CoreScripts.TextChat.ChatWindow.Welcome,"Sohbet komut listesi için sohbete ""/?"" veya ""/help"" yaz."
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,Bu eylem sırasında İfade kullanamazsın.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,Bu İfadeyi kullanamazsın.
+CoreScripts.TextChat.Emote.Error.R15Only,Yalnızca R15 avatarları İfade kullanabilir.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,Şu anda İfade kullanamazsın.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,İfade mevcut değil.
+CoreScripts.TextChat.Emote.Error.NotEquipped,Bu İfadeyi donanmadın.
+CoreScripts.TextChat.Emote.Error.NotEnabled,Bu İfadeyi burada kullanamazsın.
+CoreScripts.TextChat.Help.FirstLine,Bunlar temel sohbet komutlarıdır:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,Sohbet etmek için buraya tıkla veya {KEY} tuşuna bas
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,"Sohbet ayarların, mesajı göndermeni ve almanı engelliyor."
+CoreScripts.TextChat.InputBar.Hint.Touch,Sohbet etmek için buraya dokun
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,Başka bir mesaj göndermeden önce beklemelisin.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,Bu kanalda konuşamazsın.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,"Sohbet ayarların, mesajı göndermeni ve almanı engelliyor."
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,"Mesajın, maksimum mesaj uzunluğunu aşıyor."
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,Sohbet filtresinde şu anda sorunlar yaşanıyor ve mesajların görüntülenmesi yavaş olabilir.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,Mesajın gönderilemedi.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,Kendini sessize alamazsın.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,"Aşağıda listelenen kullanıcılar, şu görünen ada sahip: {RBX_LIST_NAMES}"
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,"""{RBX_NAME}"" adlı bir kullanıcı yok."
+CoreScripts.TextChat.Mute.Help.Description,/mute <user>: bir kullanıcıyı sessize al
+CoreScripts.TextChat.Mute.Success,"""{RBX_NAME}"" adlı kullanıcı sessize alındı."
+CoreScripts.TextChat.Notification.Friend.Joined,Etkileşim ağında bulunan {RBX_NAME} deneyime katıldı.
+CoreScripts.TextChat.Notification.Team.Joined,"Artık ""{RBX_NAME}"" takımındasın."
+CoreScripts.TextChat.Notification.WhisperChat.Created,Şu anda {RBX_NAME} ile özel sohbet ediyorsun.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,Bir takımda değilsen takım sohbeti yapamazsın.
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> veya /t <message>: takımındaki kişilere takım sohbeti gönder
+CoreScripts.TextChat.TeamChat.PrefixText,[Team]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user>: bir kullanıcının sesini aç
+CoreScripts.TextChat.Unmute.Success,"""{RBX_NAME}"" adlı kullanıcının sesi açıldı."
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,Bu kişiyle sohbet edemezsin.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> veya /w <user>: bir kullanıcıyla özel mesaj kanalı aç
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[Gönderen: {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[Alıcı: {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,Liderlik Tablosu
+CoreScripts.TopBar.Emotes,İfadeler
+CoreScripts.TopBar.Inventory,Envanter
+CoreScripts.TopBar.Leave,Ayrıl
+CoreScripts.TopBar.Chat,Sohbet
+CoreScripts.TopBar.QuickMenu,Hızlı Menü
+CoreScripts.TopBar.Menu,Menü
+CoreScripts.TopBar.Respawn,Karakteri Sıfırla
+CoreScripts.TopBar.Back,Geri
+CoreScripts.TopBar.Screenshot,Ekran Görüntüsü
+Feature.SettingsHub.Label.LoadingFriendsListFailed,"Bir hata oluştu, lütfen daha sonra tekrar dene."
+Feature.SettingsHub.Action.CancelSearch,İptal Et
+Feature.SettingsHub.Label.DontLeaveButton,Ayrılma
+Feature.SettingsHub.Action.InviteFriend,Davet Et
+Feature.SettingsHub.Heading.InviteFriends,Arkadaşları Davet Et
+Feature.SettingsHub.Label.Invited,Davet Edildi
+Feature.SettingsHub.Label.LeaveButton,Ayrıl
+Feature.SettingsHub.Label.Moderated,Denetlendi
+Feature.SettingsHub.Label.InviteSearchNoResults,Hiçbir sonuç bulunamadı
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,Etkileşim ağında kişi ara
+Feature.SettingsHub.Label.Sending,Gönderiliyor
+Feature.SettingsHub.Action.InviteFriendsBack,Geri
+Feature.SettingsHub.Message.InviteToGameTitle,{PLACENAME} dünyasında bana katıl
+Feature.SettingsHub.TouchMovementMode.DPad,Yön Tuşları
+Feature.SettingsHub.Video.Off,Kapalı
+Feature.SettingsHub.Video.SystemDefault,Sistem Varsayılanı
+Feature.SettingsHub.Video.VideoCamera,Video Kamera
+Feature.SettingsHub.Default.DynamicThumbstick,Varsayılan (Dinamik Kontrol Çubuğu)
+Feature.SettingsHub.DefaultKeyboard,Varsayılan (Klavye)
+Feature.SettingsHub.Heading.Capture,Yakalama
+Feature.SettingsHub.Label.CaptureDescription2,Çekilen fotoğraflar cihazına kaydedilir.
+Feature.SettingsHub.Label.ChooseOne,Birini Seç
+InGame.CommonUI.Title.Warning,Uyarı
+InGame.CommonUI.Title.Error,Hata
+InGame.CommonUI.Button.Retry,Tekrar dene
+InGame.CommonUI.Button.Ok,Tamam
+InGame.CommonUI.Title.Alert,Uyarı
+InGame.CommonUI.Label.Default,Varsayılan
+InGame.CommonUI.Label.Custom,Özel
+InGame.CommonUI.Label.PossiblyCustom,Muhtemelen Özel
+InGame.CommonUI.Label.CustomOld,Özel Eski
+InGame.ConnectionError.DisconnectCloudEditKick,Team Create ile bağlantı kesildi. Lütfen yeniden bağlan. 
+InGame.ConnectionError.DisconnectWrongVersion,Roblox sürümün güncel olmayabilir. Lütfen Roblox'u güncelleyip tekrar dene.
+InGame.ConnectionError.TeleportFailure,Beklenmedik bir hata nedeniyle ışınlanma başarısız oldu. Lütfen tekrar ışınlanmayı dene.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,Bir hata nedeniyle bağlantı kesildi.
+InGame.ConnectionError.TeleportGameFull,Sunucu dolu. Lütfen daha sonra tekrar dene veya başka bir sunucu kullan.
+InGame.ConnectionError.DisconnectPlayerless,Bağlanmaya çalıştığında sunucu kapanıyordu. Lütfen tekrar dene.
+InGame.ConnectionError.TeleportGameNotFound,Hedef dünya bulunamıyor. Lütfen bir kez daha kontrol edip tekrar dene.
+InGame.ConnectionError.DisconnectErrors,Bilinmeyen bir hata nedeniyle bağlantı kesildi. Lütfen yeniden bağlan.
+InGame.ConnectionError.DisconnectDuplicateTicket,Bir hata nedeniyle bağlantı kesildi. Aynı hesaptan gelen birden fazla bağlantı tespit edildi.
+InGame.ConnectionError.DisconnectBadhash,Bir hata nedeniyle bağlantı kesildi.
+InGame.ConnectionError.DisconnectSendPacketError,"Veri gönderilirken bir sorun oluştu, lütfen yeniden bağlan."
+InGame.ConnectionError.DisconnectOnRemoteSysStats,Beklenmedik istemci davranışları nedeniyle atıldın.
+InGame.ConnectionError.DisconnectTimeout,Bağlantın zaman aşımına uğradı. İnternet bağlantını kontrol edip tekrar dene.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,Bir hata nedeniyle bağlantı kesildi.
+InGame.ConnectionError.TeleportErrors,Beklenmedik bir hata nedeniyle ışınlanma başarısız oldu. Lütfen tekrar ışınlanmayı dene.
+InGame.ConnectionError.TeleportGameEnded,Sunucu artık kullanılamıyor. Lütfen farklı bir sunucuyu dene veya daha sonra tekrar dene.
+InGame.ConnectionError.PlacelaunchFlooded,Sunucu şu anda meşgul. Lütfen tekrar dene.
+InGame.ConnectionError.DisconnectProtocolMismatch,Roblox sürümün güncel olmayabilir. Lütfen Roblox'u güncelleyip tekrar dene.
+InGame.ConnectionError.DisconnectRobloxMaintenance,"Roblox, bakım için sunucuyu kapattı. Lütfen tekrar dene."
+InGame.ConnectionError.DisconnectHashTimeout,Bağlantın zaman aşımına uğradı. İnternet bağlantını kontrol edip tekrar dene.
+InGame.ConnectionError.DisconnectReceivePacketError,"Veri alınırken bir sorun oluştu, lütfen yeniden bağlan."
+InGame.ConnectionError.PlacelaunchOtherError,Bazı teknik sıkıntılar yaşıyoruz. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.TeleportFlooded,Çok fazla ışınlanma talebinde bulunuldu. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.DisconnectIllegalTeleport,Geçersiz bir ışınlanma nedeniyle bağlantı kesildi. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,"Veri akışında bir sorun oluştu, lütfen yeniden bağlan."
+InGame.ConnectionError.PlacelaunchError,Katılmaya çalıştığın sunucu bulunamıyor. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.TeleportUnauthorized,Kısıtlamaya sahip bir dünyaya ışınlanmaya çalışıldı.
+InGame.ConnectionError.Title.JoinError,Katılım Hatası
+InGame.ConnectionError.Title.Disconnected,Bağlantı kesildi
+InGame.ConnectionError.Title.TeleportFailed,Işınlanma Başarısız
+InGame.ConnectionError.Message.ErrorCode,Hata Kodu: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,Yeniden Bağlan
+InGame.ConnectionError.DisconnectConnectionLost,İnternet bağlantını kontrol edip tekrar dene.
+InGame.ConnectionError.DisconnectIdle,{RBX_NUM} dakika boyunca boşta durduğun için bağlantın kesildi
+InGame.ConnectionError.UnknownError,Bilinmeyen hata.
+InGame.ConnectionError.ReconnectFailed,Yeniden bağlanma başarısız oldu. Lütfen tekrar dene.
+InGame.EmotesMenu.SelectAnEmote,Bir İfade Seç
+InGame.EmotesMenu.NoEmotesEquipped,Donanılmış hiç İfade yok
+InGame.EmotesMenu.ErrorMessageNotSupported,Burada İfade kullanamazsın.
+InGame.EmotesMenu.ErrorMessageR15Only,Yalnızca R15 avatarları İfade kullanabilir.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,Bu İfadeyi kullanamazsın.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,Şu anda İfade kullanamazsın.
+InGame.EmotesMenu.VisitShopToGetEmotes,Hiç ifaden yok. İfade almak için Mağazayı ziyaret et!
+InGame.EmotesMenu.ErrorMessageSwitchToR15,İfadeleri oynatmak için R15 avatarına geç.
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,İfadeleri bu eylem sırasında oynatamazsın.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,{RBX_NAME} adlı kullanıcıyı Etkileşim Ağına ekleme talebin gönderilirken bir hata oluştu. Lütfen daha sonra tekrar dene.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,{RBX_NAME} adlı kullanıcıyı Etkileşim Ağından kaldırmak ister misin?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,{RBX_NAME} adlı kullanıcıyı Etkileşim Ağına eklemek için kendisine talep göndermek ister misin?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,Etkileşim Ağın maksimum kişi sayısına ulaştığı için {RBX_NAME} adlı kullanıcıyı Etkileşim Ağına ekleme isteği gönderemezsin.
+FriendPlayerPrompt.Title.SendFriendRequest,Arkadaşlık İsteği Gönderilsin mi?
+FriendPlayerPrompt.Label.Unfriend,Etkileşim Ağından Kaldır
+InGame.GameplayPaused.Title,Oyun Duraklatıldı
+InGame.GameplayPaused.Body,Oyun duraklatıldı: Oyun içeriği yüklenirken lütfen bekle.
+InGame.HelpMenu.UpArrow,Yukarı Ok Tuşu
+InGame.HelpMenu.DownArrow,Aşağı Ok Tuşu
+InGame.HelpMenu.LeftArrow,Sol Ok Tuşu
+InGame.HelpMenu.RightArrow,Sağ Ok Tuşu
+InGame.HelpMenu.Label.ServerVersion,Sunucu Sürümü:
+InGame.HelpMenu.Label.ClientVersion,İstemci Sürümü:
+InGame.HelpMenu.Label.PlayerScripts,Oyuncu Kodlamaları:
+InGame.HelpMenu.Label.PlaceVersion,Dünya Sürümü:
+InGame.HelpMenu.Leave,Ayrıl
+InGame.HelpMenu.Resume,Oyuna Dön
+InGame.HelpMenu.Label.ClientCoreScriptVersion,İstemci CoreScript Sürümü:
+InGame.InspectMenu.Description.NoInventoryNotice,"Bu kullanıcı, inceleyebileceğin herhangi bir öğe giymiyor."
+InGame.InspectMenu.Description.MultipleBundlesNotice,"Bu öğe, birden fazla paketin bir parçasıdır."
+InGame.InspectMenu.Description.SingleBundleNotice,"Bu öğe, bir paketin parçasıdır."
+InGame.InspectMenu.Action.TakeOff,Çıkar
+InGame.InspectMenu.Action.TryOn,Üstüne Dene
+InGame.InspectMenu.Action.Buy,Satın Al
+InGame.InspectMenu.Action.Inspect,İncele
+InGame.InspectMenu.Action.View,Görüntüle
+InGame.InspectMenu.Label.Owned,Sahip Olunan
+InGame.InspectMenu.Label.Offsale,Satışa Kapalı
+InGame.InspectMenu.Label.Limited,Sınırlı Sayıda Üretilmiş
+InGame.InspectMenu.Label.CurrentlyWearing,Şu Anda Giyilen
+InGame.InspectMenu.Label.By,Oluşturan: {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,"Bu öğe, yalnızca Katalogdaki satıcılardan satın alınabilir."
+InGame.InspectMenu.Label.Avatar,{PLAYER_NAME} Adlı Oyuncunun Avatarı
+InGame.InspectMenu.Label.NoResellers,Satıcı Yok
+InGame.InspectMenu.Label.PremiumOnly,Premium'a Özel
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,{RBX_NUMBER}. seviyeye düşürüldü
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,{RBX_NUMBER}. seviyeye çıkarıldı
+NotificationScript2.NewFollower,"Yeni Takipçin {RBX_NAME}, artık seni takip ediyor!"
+NotificationScript2.FriendRequestEvent.Accept,Artık {RBX_NAME} ile arkadaşsın!
+NotificationScript2.onPointsRewarded.negative,{RBX_NUMBER} puan kaybettin!
+NotificationScript2.onPointsAwarded.single,{RBX_NUMBER} puan kazandın!
+NotificationScript2.onPointsAwarded.multiple,{RBX_NUMBER} puan kazandın!
+NotificationScript2.onBadgeAwardedTitle,Ödüllendirilen Rozet
+NotificationScript2.onBadgeAwardedDetail,"{RBX_NAME}, {CREATOR_NAME} adlı yaratıcının ""{BADGE_NAME}"" rozetini kazandı!"
+NotificationScript2.Screenshot.Title,Ekran Görüntüsü Alındı
+NotificationScript2.Screenshot.Description,Ekran görüntüsünü görmek için ekran görüntüleri klasörüne göz at.
+NotificationScript2.Screenshot.ButtonText,Klasörü Aç
+NotificationScript2.Video.Title,Video Kaydedildi
+NotificationScript2.Video.Description,Videoyu görmek için video klasörüne göz at.
+NotificationScript2.Video.ButtonText,Klasörü Aç
+NotificationScript2.Capture.Permission.AlertTitle,Kaydetme İzinlerini Etkinleştir
+NotificationScript2.Capture.Permission.AlertText,"Bu özelliği kullanabilmek için fotoğraf izinlerini etkinleştirmen gerekiyor. Bu ayar, cihazının ayarlarından değiştirilebilir."
+NotificationScript2.Capture.Permission.AlertTextIOS,"Ayarlar > Gizlilik > Fotoğraflar'a git ve Roblox'un, yakalamalarını galerine kaydetmesini etkinleştir."
+NotificationScript2.Capture.Permission.AlertTextAndroid,"Yakalamaları, fotoğraf kitaplığına kaydetmek için Ayarlar > Roblox > İzinler'e git ve Depolama'yı etkinleştir."
+NotificationScript2.Capture.Permission.AlertButtonText,Tamam
+NotificationScript2.Capture.Success.ToastText,Yakalama Kaydedildi
+NotificationScript2.Capture.Fail.ToastText,Yakalama Başarısız
+NotificationScript2.UINavigation.Title,Kullanıcı Arayüzü Gezinmesi Etkin
+NotificationScript2.UINavigation.Text,Değiştirmek için ters eğik çizgi (\)
+NotificationScript2.CameraToggle.Title,Kamera Kontrolü Etkin
+NotificationScript2.CameraToggle.Text,Değiştirmek için sağ fare düğmesi
+NotificationScript2.GraphicsQuality.Title,Grafik Kalitesi
+PlayerDropDown.onUnfollowButtonPress.success,{RBX_NAME} adlı kullanıcıyı artık takip etmiyorsun.
+PlayerDropDown.onFollowButtonPress.success,{RBX_NAME} adlı kullanıcıyı artık takip ediyorsun.
+PlayerDropDown.CannotSendFriendRequest,Arkadaşlık isteği gönderilemez
+PlayerDropDown.FriendLimit,Maksimum arkadaş sınırına ulaştın.
+PlayerDropDown.OtherPlayerFriendLimit,"{RBX_NAME}, maksimum arkadaş sınırına ulaşmış durumda."
+PlayerDropDown.UnFollow,Takipten Çık
+PlayerDropDown.Follow,Takip Et
+PlayerDropDown.Report,Kötüye Kullanım Bildir
+PlayerDropDown.Examine,Avatarı İncele
+PlayerDropDown.Unfriend,Arkadaşlıktan Çıkar
+PlayerDropDown.FriendRequest,Arkadaşlık İsteği
+PlayerDropDown.CancelRequest,İsteği İptal Et
+PlayerDropDown.Accept,Kabul Et
+InGame.PlayerList.Leaderboard,Liderlik Tablosu
+InGame.Presence.Label.InStudio,Studio'da
+InGame.Presence.Label.Offline,Çevrimdışı
+InGame.Presence.Label.Online,Çevrimiçi
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,Bakiyene şu anda erişilemiyor. Hesabından ücret alınmadı. Lütfen daha sonra tekrar dene.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX bakım yapıyor
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,"Kalan {RBX_NUMBER} ROBUX, bakiyene aktarılacak."
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,Bu dünya için üçüncü taraf öğe satışları devre dışı bırakıldı. Hesabından ücret alınmadı.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,Bu öğe şu anda sahip olduğundan daha fazla bilete mal oluyor. Daha fazla bilet almak için www.roblox.com adresinde para takası yapmayı dene.
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,Bu öğe şu anda satılık değil. Hesabından ücret alınmadı.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,"Bu öğe için {RBX_NAME1} gerekli. Yaratıcılar Kulübü'nü yükseltmek için ""Yükselt"" düğmesine tıkla!"
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,Bu sınırlı sayıda üretilmiş öğenin başka kopyası yok. www.roblox.com adresindeki başka bir kullanıcıdan satın almayı dene. Hesabından ücret alınmadı.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,Şu fiyata {RBX_NAME1} {RBX_NAME2} satın almak ister misin:
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,Şu anda öğenin fiyatına erişemedik. Hesabından ücret alınmadı. Lütfen daha sonra tekrar dene.
+PurchasePromptScript.PURCHASE_MSG.FREE,{RBX_NAME2} öğesini ÜCRETSİZ bir şekilde almak ister misin?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,"Öğe satın alabilmek için bir ROBLOX hesabı oluşturman gerekiyor, daha fazla bilgi için www.roblox.com adresini ziyaret et."
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,{RBX_NAME1} {RBX_NAME2} satın almak için {RBX_NUMBER} ROBUX'a daha ihtiyacın var. Daha fazla ROBUX satın almak ister misin?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,Hesabın 13 yaşın altında. Bu öğenin satın alınmasına izin verilmiyor. Hesabından ücret alınmadı.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,Bu işlemden sonra bakiyen {RBX_NUMBER} olacak.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,Şu anki bakiyen {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,Satın alım işlemin başarısız oldu çünkü {ERROR_REASON}. Hesabından ücret alınmadı. Lütfen daha sonra tekrar dene.
+PurchasePromptScript.PURCHASE_MSG.FAILED,{RBX_NAME1} satın alım işlemin başarısız oldu çünkü {RBX_NAME2}. Hesabından ücret alınmadı. Lütfen daha sonra tekrar dene.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,{RBX_NAME1} satın alım işlemin başarılı!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,bir şeyler yanlış gitti
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,hesabında yeterli ROBUX yok
+StatsUtil.KBps,{RBX_NUMBER} KB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(Ağ bağlantısı)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <channel>: kanal menü sekmelerini değiştir.
+GameChat_ChatCommandsTeller_MeCommand,/me <text>: eylemleri gerçekleştirmek için rol yapma komutu.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <speaker>: bir konuşmacıyı sessize al.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker>: bir konuşmacının sesini aç.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> veya /w <speaker>: bir konuşmacı ile özel mesaj kanalı aç.
+Average,Ortalama
+GameChat_ChatServiceRunner_ChannelDoesNotExist,{RBX_NAME} kanalı mevcut değil.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,"Sohbet komut listesi için sohbete ""/?"" veya ""/help"" yaz."
+GameChat_SwallowGuestChat_Message,Sohbet izinlerine erişim sağlamak için ücretsiz bir hesap oluştur!
+Current,Güncel
+DisableVoiceKey,Sesli Sohbeti Devre Dışı Bırak
+EnableVoiceKey,Sesli Sohbeti Etkinleştir
+key_142,"Yeni Arkadaş, {RBX_NAME}"
+KEY_DESCRIPTION_OPTIONAL,İsteğe Bağlı
+key_145,Ödüllendirilen Puan. {RBX_NUMBER} puan kazandın!
+Received,Alındı
+BACKPACK_SEARCH,Ara
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,Kısa Açıklama (İsteğe Bağlı)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,"""{RBX_NAME}"" adlı bir konuşmacı yok."
+GameChat_ChatMain_SpeakerHasBeenBlocked,"""{RBX_NAME}"" adlı konuşmacı engellendi."
+GameChat_ChatMain_SpeakerHasBeenMuted,"""{RBX_NAME}"" adlı konuşmacı sessize alındı."
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,"""{RBX_NAME}"" adlı konuşmacının engeli açıldı."
+GameChat_ChatMain_SpeakerHasBeenUnMuted,"""{RBX_NAME}"" adlı konuşmacının sesi açıldı."
+GameChat_ChatMain_ChatBarTextTouch,Sohbet etmek için buraya dokun
+Target,Hedef
+GameChat_ChatService_ChatFilterIssues,Sohbet filtresinde şu anda sorunlar yaşanıyor ve mesajların görüntülenmesi yavaş olabilir.
+GameChat_ChatCommandsTeller_Desc,Bunlar temel sohbet komutlarıdır.
+GameChat_TeamChat_WelcomeMessage,"Bu kanal, senin ile takım üyelerin arasındaki özel bir kanaldır."
+GameChat_ChatMain_ChatBarText,"Sohbet etmek için buraya tıkla veya ""/"" tuşuna bas"
+GameChat_ChatChannel_MutedInChannel,Sessize alındın ve bu kanalda konuşamazsın
+GameChat_ChatServiceRunner_YouAreNotInChannel,{RBX_NAME} kanalında değilsin
+GameChat_SwitchChannel_NotInChannel,{RBX_NAME} kanalında değilsin.
+GameChat_TeamChat_NowInTeam,"Artık ""{RBX_NAME}"" takımındasın."
+GameChat_PrivateMessaging_NowChattingWith,Şu anda {RBX_NAME} ile özel olarak sohbet ediyorsun
+GameChat_ChatServiceRunner_YouCannotJoinChannel,{RBX_NAME} kanalına katılamazsın
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,{RBX_NAME} kanalından ayrılamazsın
+GameChat_ChatService_CannotLeaveChannel,Bu kanaldan ayrılamazsın.
+GameChat_DoMuteCommand_CannotMuteSelf,Kendini sessize alamazsın.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,Bir takımda değilsen takım sohbeti yapamazsın!
+GameChat_PrivateMessaging_CannotWhisperToSelf,Kendinle bir özel mesaj kanalı açamazsın.
+GameChat_ChatService_YouHaveLeftChannel,{RBX_NAME} kanalından ayrıldın.
+GameChat_ChatFloodDetector_Message,Başka bir mesaj göndermeden önce beklemelisin!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,Başka bir mesaj göndermeden önce {RBX_NUMBER} saniye beklemen gerekiyor!
+KEY_PLAYER_IDLE_DISCONNECT,{RBX_NUMBER} dakika boyunca boşta durduğun için bağlantın kesildi
+GameChat_ChatMessageValidator_SettingsError,"Sohbet ayarların, mesajı göndermeni engelliyor."
+GameChat_ChatMessageValidator_WhitespaceError,"Mesajın, izin verilmeyen boşluklar içeriyor."
+GameChat_ChatMessageValidator_MaxLengthError,"Mesajın, maksimum mesaj uzunluğunu aşıyor."
+GameChat_SwitchChannel_NowInChannel,Şu anda {RBX_NAME} kanalında sohbet ediyorsun.
+Sent,Gönderildi
+Corescripts.AvatarContextMenu.PlayerBlocked,Kişi Engellendi
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,Bilinmeyen Deneyim Adı
+CoreScripts.TopBar.GameNamePlaceHolder,Deneyim
+Feature.SettingsHub.Label.LeaveGame,Deneyimden ayrılmak istediğine emin misin?
+Feature.SettingsHub.Label.GameInviteError,Deneyim daveti gönderilemedi. Lütfen daha sonra tekrar dene.
+Feature.SettingsHub.Label.ModeratedInviteError,Deneyim daveti denetlendi ve gönderilmedi.
+Feature.SettingsHub.Action.InviteFriendsToPlay,Arkadaşları davet et
+Feature.SettingsHub.Label.CaptureDescription,Deneyimlerini yakala. Çekilen fotoğraflar cihazına kaydedilir.
+Feature.SettingsHub.Label.CaptureDescription1,Deneyimlerini yakala.
+Feature.SettingsHub.Label.WhichPlayer,Kim?
+InGame.ConnectionError.DisconnectDuplicatePlayer,"Aynı hesap, deneyimi farklı cihazlardan başlattı. Diğer cihazda deneyimden ayrıl ve tekrar dene."
+InGame.ConnectionError.PlacelaunchUserLeft,Katılmaya çalıştığın kullanıcı deneyimden ayrıldı.
+InGame.ConnectionError.PlacelaunchHashExpired,Bu deneyim şu anda kullanılamıyor. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.PlacelaunchUnauthorized,Bu deneyime katılmak için iznin yok.
+InGame.ConnectionError.PlacelaunchDisabled,"Hedef dünya, kısıtlamaya sahip. Lütfen başka bir dünyayı dene veya daha sonra tekrar dene."
+InGame.ConnectionError.DisconnectRejoin,"Deneyim, aynı hesap tarafından farklı cihazdan başlatıldı. Bu cihazı kullanmayı tercih ediyorsan yeniden bağlan."
+InGame.ConnectionError.DisconnectDevMaintenance,"Deneyimin geliştiricisi, deneyimin sunucusunu geçici olarak kapattı. Lütfen tekrar dene."
+InGame.ConnectionError.DisconnectEvicted,"Deneyim, aynı hesap tarafından farklı bir cihazdan başlatıldı. Bu cihazı kullanmayı tercih ediyorsan yeniden bağlan."
+InGame.ConnectionError.PlacelaunchPartyCannotFit,"Grubun, bu deneyime katılamayacak kadar büyük. Farklı bir deneyime katılmayı dene."
+InGame.ConnectionError.PlacelaunchRestricted,Deneyimin durumu değişti ve bu deneyime artık erişimin yok. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.PlacelaunchErrors,Deneyime katılırken bir hata oluştu. Lütfen tekrar dene.
+InGame.ConnectionError.DisconnectLuaKick,Bu deneyim veya denetimcileri tarafından atıldın.
+InGame.ConnectionError.PlacelaunchHashException,Bu deneyim şu anda kullanılamıyor. Lütfen daha sonra tekrar dene.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,Bu deneyim veya denetimcileri tarafından atıldın. Denetim mesajı:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Bu deneyimde ifadeler devre dışı bırakıldı.
+FriendPlayerPrompt.Title.UnfriendPlayer,Etkileşim Ağından Kaldır?
+InGame.PlayerList.Players,Kişiler
+InGame.Presence.Label.InGame,Deneyimde
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,Deneyim içi satın alımlar geçici olarak devre dışı
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> veya /t <message>: takımındaki kişilere takım sohbeti gönder.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,"Bu kanal, sistem ve deneyim bildirimleri içindir."
+GameChat_GetVersion_Message,"Bu deneyim, [{RBX_NUMBER}.{RBX_NUMBER}] sohbet sürümünü çalıştırıyor."
+GameChat_PrivateMessaging_CannotChat,Bu kişiyle sohbet edemezsin.
+GameChat_FriendChatNotifier_JoinMessage,Etkileşim ağında bulunan {RBX_NAME} deneyime katıldı.
+Authentication.Login.WeChat.AntiAddictionText,"Kötü deneyimleri boykot et ve korsan deneyimlerden kaçın. Kandırılma ve kendini savunma konusunda bilinçli ol. Deneyim ziyaretleri, zihnin için faydalıdır ancak çok fazla deneyim ziyareti, sağlığına zarar verebilir. Zamanını iyi kullan ve sağlıklı bir yaşam tarzı benimsemeye özen göster."
+Authentication.Login.Label.WeChatAntiAddictionText,"Kötü deneyimleri boykot et ve korsan deneyimlerden kaçın. Kandırılma ve kendini savunma konusunda bilinçli ol. Deneyim ziyaretleri, zihnin için faydalıdır ancak çok fazla deneyim ziyareti, sağlığına zarar verebilir. Zamanını iyi kullan ve sağlıklı bir yaşam tarzı benimsemeye özen göster."
+Feature.SettingsHub.Label.NoFriendsScreen,Sana katılmaları için davet edebilmek adına arkadaşlar edin!
+Feature.SettingsHub.Label.RecentPlayed,Yakın Zamanda Ziyaret Edilen
+InGame.HelpMenu.ConfirmLeaveGame,Deneyimden ayrılmak istediğine emin misin?
+PlayerDropDown.UnBlock,Engeli Kaldır
+PlayerDropDown.Block,Engelle
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,İç hata. Lütfen tekrar giriş yapmayı dene.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Klasik Kontrol Çubuğu
+Feature.SettingsHub.Action.Unblock,Engeli Kaldır
+Feature.SettingsHub.Action.Block,Engelle
+Feature.SettingsHub.Heading.BlockUser,{DisplayName} adlı kullanıcıyı engelle
+Feature.SettingsHub.Action.Cancel,İptal Et
+Feature.SettingsHub.Message.BlockConfirmation,Sen ve {DISPLAY_NAME} (@{RBX_NAME}) artık birbirinizle iletişim kuramayacaksınız.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,Avatar Karakterini Sil
+Feature.SettingsHub.Heading.Report.ThanksForReport,Bildirimde bulunduğun için teşekkürler!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,"Yaptığın bildirim bize ulaştı ve gerekirse harekete geçeceğiz. Geri bildirimin, topluluğumuzun güvende kalmasına yardımcı oluyor."
+Feature.SettingsHub.Label.Report.OtherActionsHeader,Atabileceğin Diğer Adımlar
+Feature.SettingsHub.Action.Report.Done,Bitti
+Feature.SettingsHub.Label.Report.BlockDisplayName,{DISPLAY_NAME} (@{RBX_NAME}) adlı kullanıcıyı engelle
+Feature.SettingsHub.Label.Report.UnblockDisplayName,{DISPLAY_NAME} (@{RBX_NAME}) adlı kullanıcının engelini kaldır
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,{RBX_NAME} karakterini Roblox'tan silmek ister misin?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Bu karakteri Roblox'tan silmek ister misin?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,Sil
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,İptal Et
+InGame.InspectMenu.Description.LayeredClothingR6,"R6 vücut tipi, bu öğeyi desteklemiyor."
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,Karakterin Adını Değiştir
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,{RBX_NAME} karakteri için yeni bir ad gir:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,Karakterin Adı Değiştirilsin mi?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,Karakterin Adının Değiştirilmesi Devre Dışı
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,Karakterlerin adlarının değiştirilmesi devre dışı bırakıldı
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,Tamam
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,Tüm arkadaşlık isteklerini yok saymak istediğine emin misin?
+Feature.Friends.Label.Cancel,İptal Et
+Feature.SettingsHub.GameSettings.Input,Giriş
+Feature.SettingsHub.GameSettings.Output,Çıkış
+Feature.SettingsHub.GameSettings.Device,Cihaz
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,Sesli Sohbet Duyulmuyor
+Feature.SettingsHub.Prompt.Permission,Sesli Sohbet Kullanılamıyor
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,"Oyun ses seviyesi, ayarlarda ""0"" olarak ayarlandı. Sesi duymak için lütfen ses seviyesini artır."
+Feature.SettingsHub.Prompt.Subtitle.Permission,Roblox'un mikrofonu kullanmasına izin vermek için ayarlarına git.
+Feature.SettingsHub.Prompt.Subtitle.Retry,Lütfen ayrılıp tekrar katılmayı dene.
+Feature.FaceChat.Message.PlaceUnavailable,Bu dünya geçici olarak kullanılamıyor. Lütfen daha sonra tekrar dene.
+Feature.FaceChat.Subtitle.NotAvailable,Lütfen ayrılıp tekrar katılmayı dene.
+Feature.SettingsHub.GameSettings.InputDevice,Giriş Cihazı
+Feature.SettingsHub.GameSettings.OutputDevice,Çıkış Cihazı
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,"Not: ""Tümünü Yok Say"" düğmesine her tıkladığında bu eylem, son 300 arkadaşlık isteğini kaldırır."
+Feature.SettingsHub.Prompt.VoiceChatSuspended,Sesli sohbet askıya alındı
+Feature.SettingsHub.Prompt.Subtitle.Respect,Lütfen başkalarına saygılı davranarak Roblox'un eğlenceli kalmasına yardımcı ol.
+Feature.SettingsHub.Prompt.Understand,Anladım
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,"Konumsal sesli sohbet, yalnızca Maksimum Oyuncu sayısı 30 veya daha az olan dünyalarda kullanılabilir."
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,"Bu hesap, Konumsal Sesli Sohbeti kullanmak için uygun değil."
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,Maksimum Oyuncu Sayısını Aştı
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,Ses için Uygun Değil
+InGame.ConnectionError.Action.Restart,Yeniden Başlat
+InGame.ConnectionError.Heading.VRDisconnected,Başlık Bağlantısı Kesildi
+InGame.ConnectionError.Message.RestartApp,Oynamaya devam etmek için uygulamayı yeniden başlat.
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,Tamam
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,İptal Et
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,Karakter Güncellensin mi?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,Kaydedilmiş karakteri güncellemek ister misin?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,{RBX_NAME} karakterini güncellemek ister misin?
+Feature.SettingsHub.Prompt.Subtitle.Place,"Konumsal sesli sohbet, yalnızca Maksimum Oyuncu sayısı 30 veya daha az olan dünyalarda kullanılabilir."
+Feature.SettingsHub.Prompt.Subtitle.User,"Bu hesap, Konumsal Sesli Sohbeti kullanmak için uygun değil."
+Feature.SettingsHub.Prompt.Place,Maksimum Oyuncu Sayısını Aştı
+Feature.SettingsHub.Prompt.User,Ses için Uygun Değil
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,{RBX_NAME} karakterini güncellemek ister misin?
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,Kaydedilmiş karakteri güncellemek ister misin?
+InGame.InspectMenu.Action.Cancel,İptal Et
+InGame.InspectMenu.Action.Confirm,Onayla
+InGame.InspectMenu.Action.Favorite,Favorile
+InGame.CommonUI.Message.LuobuGameJoinWarning,Lütfen tehlikeli oyun içi davranışları taklit etme ve herhangi bir olumsuz davranışla karşılaşırsan lütfen bunu bildir.
+Feature.DevModule.ProfileCard.StatusPlaceholder,Aklında ne var?
+Feature.DevModule.ProfileCard.StatusErrorMessage,"Durum, uygunsuz kelimeler içeriyor."
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Roblox Premium sana şunları kazandırır:
+Feature.PremiumUpsell.Label.RobuxPerMonth,Aylık {robux} Robux
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Yalnızca Premium'a özel avantajlara erişim
+Feature.PremiumUpsell.Label.AvatarShopBenefits,Avatar mağazasında özel ve indirimli öğelere erişim
+Feature.PremiumUpsell.Title.GetPremium,Premium Edin
+Feature.PremiumUpsell.Action.RobuxPerMonth,{robux}{currencySymbol}/aylık
+Feature.PremiumUpsell.Label.Disclosure,Aylık <b>{price}{currencySymbol} karşılığında abone ol. İstediğin zaman iptal et.</b> Roblox Kullanım Koşulları ve Gizlilik Politikası geçerlidir.
+Feature.PremiumUpsell.Action.Subscribe,Abone Ol
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,Topluluk Standartlarımızın ihlali nedeniyle sesli sohbete erişimini aşağıdaki tarihe kadar geçici olarak iptal ettik:
+Feature.SettingsHub.Prompt.Subtitle.Revoked,Topluluk Standartlarımızın birden fazla ihlali nedeniyle Beta Sürümü aşaması sona erene kadar sesli sohbete erişimini geçici olarak iptal ettik.
+InGame.InspectMenu.Action.Unfavorite,Favorilerden Çıkar
+Feature.AddFriends.Action.FriendAdded,Arkadaş Eklendi
+Feature.AddFriends.Action.RequestIgnored,İstek Yok Sayıldı
+Feature.Avatar.Label.LeftInitial,Sol
+Feature.Avatar.Label.Right,Sağ
+Feature.Avatar.Label.RightInitial,Sağ
+Feature.Friends.Label.Following,Takip Edilen
+Feature.Friends.Label.Followers,Takipçiler
+Feature.Friends.Label.MutualFriends,Ortak Arkadaşlar
+Feature.Friends.Label.FollowsYou,Seni Takip Ediyor
+Feature.Friends.Label.YouAreFollowing,Takip Ediyorsun
+Feature.Friends.Action.Block,Engelle
+Feature.Friends.Label.Friend,Arkadaş
+Feature.Friends.Action.Unblock,Engellemeyi Kaldır
+Verification.Identity.Label.VoiceChatUpsell,"Bu deneyim, konumsal sesli sohbeti destekler. Bu özelliği kullanabilmek için en az 13 yaşında olduğunu doğrulaman gerekiyor."
+Verification.Identity.Action.SkipVoiceChat,Sesli Sohbet Olmadan Katıl
+Verification.Identity.Label.DontShowAgain,Tekrar Gösterme
+Verification.Identity.Label.EnableVoiceChat,Sesli Sohbeti Etkinleştir
+Verification.Identity.Label.UsesVoiceChat,"Bu deneyimde sesli sohbet kullanılır. Sesli sohbeti etkinleştirmek, sesin etkin olduğu deneyimlerde mikrofon girişini kullanır."
+Verification.Identity.Label.ToggleInstruction,Bu özelliği Ayarlarına erişerek de açabilir veya kapatabilirsin.
+Verification.Identity.Label.JoinWithout,Sesli Sohbet Olmadan Katıl
+InGame.CommonUI.BetaBadge.BadgeText,Beta Sürümü
+InGame.CommonUI.Badge.Popup.DisclaimerText,"Topluluk Kurallarımızı ihlal eden kişilerle karşılaşırsan lütfen kötüye kullanım bildiriminde bulun. Sesli sohbet etme seçeneğini açtıysan Roblox, denetleme ve güvenlik amacıyla platformun herhangi bir yerinde konuşma sesi kaydeder. Sesli sohbet etme özelliğini kullanmaya devam ederek Roblox'un ses kaydını denetleme ve güvenlik amacıyla toplamasına, kullanmasına ve saklamasına izin vermiş olursun. Konumsal sesli sohbet etme özelliğini istediğin zaman devre dışı bırakabilirsin."
+InGame.CommonUI.Badge.Popup.HeaderList,Aşağıda belirtilen beta sürümü özelliklerimizden birini veya daha fazlasını seçtin:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,Sesli sohbet
+InGame.CommonUI.Badge.BadgeText,BETA SÜRÜMÜ
+InGame.CommonUI.Badge.Popup.LearnMoreLink,Daha Fazla Bilgi Edin
+InGame.CommonUI.Badge.Popup.LearnMoreText,"Daha fazla bilgi için lütfen ""Ses Kaydı SSS"" yardım makalesine göz at."
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,Azaltılmış filtrelerle artık daha özgür bir şekilde sohbet edebilirsin! Bu özellikten yalnızca 13 yaş ve üzeri uygun kullanıcılar yararlanabilir.
+InGame.CommonUI.Badge.Popup.VoiceInfo,"Beta sürümü özelliğimiz olan sesli sohbet etmeyi etkinleştirdin. Roblox, denetleme ve güvenlik amacıyla platformun herhangi bir yerinde konuşma sesi kaydeder. Sesli sohbet etme özelliğini kullanmaya devam ederek Roblox'un ses kaydını denetleme ve güvenlik amacıyla toplamasına, kullanmasına ve saklamasına izin vermiş olursun. Sesli sohbet etme özelliğini istediğin zaman kapatabilirsin."
+InGame.CommonUI.Badge.Popup.CommunityStandards,Topluluk Standartlarımızı ihlal eden kişilerle karşılaşırsan lütfen Kötüye Kullanım Bildiriminde bulun.
+Feature.NativeAds.Label.Sponsored,Sponsorlu
+Feature.NativeAds.Label.Ad,Reklam
+InGame.ConnectionError.DisconnectOutOfMemory,Cihazında bu deneyimi çalıştırmak için yeterli bellek yok. Uygulamaya geri dön.
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,"Bu deneyim, bu cihazın kabiliyeti nedeniyle kararsız hâle geldi ve çökebilir."
+InGame.ConnectionError.Title.ExperienceUnstable,Deneyim Dengesiz
+Feature.SettingsHub.Label.MethodOfAbuse,Kötüye Kullanım Türü Nedir?
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,Sesli Sohbet
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,Bu kişi var gücüyle çığlık atıyordu
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,Bu kişi metin sohbetinde kötü bir kelime yazdı
+Feature.SettingsHub.MethodOfAbuse.Text.Title,Metin Sohbeti
+Feature.SettingsHub.MethodOfAbuse.Other.Title,Diğer
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,"Bu kişi beni takip ediyor, kötü bir gömlek giyiyor vs."
+Feature.SettingsHub.ReportSubmitted.MutePlayer,{Player} adlı oyuncuyu sessize al
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,{Player} adlı oyuncuyu engelle
+Feature.SettingsHub.ReportSubmitted.ThankYou,"Yaptığın bildirim bize ulaştı ve gerektiği takdirde daha fazla eylem alacağız. Geri bildirimin, topluluğumuzun güvende kalmasına yardımcı oluyor."
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,{Player} adlı oyuncuyu duyamayacaksın
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,Sen ve {Player} artık birbirinizle iletişim kuramayacaksınız.
+Feature.SettingsHub.Label.ReportComment,"Kendi sözlerinle, neyin yanlış gittiğini anlamamıza yardım et."
+Feature.SocialShare.Action.Share,Paylaş
+Feature.SocialShare.Label.ShareServerLink,Davet Bağlantısını Paylaş
+Feature.SocialShare.Label.Copied,Kopyalandı
+Feature.AccountSettings.Label.FreeCommConsentOnly,"Roblox'un ses kaydımı yalnızca denetleme ve güvenlik amacıyla toplamasına, kullanmasına ve saklamasına izin veriyorum."
+InGame.CommonUI.Button.KeepPlaying,Oynamaya Devam Et
+InGame.ConnectionError.Title.OutOfMemory,Bellek Yetersiz
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,Bu deneyim çok fazla bellek kullanıyor ve çökebilir.
+Feature.SettingsHub.Label.DefaultInviteMessage,{DisplayName} adlı kullanıcıyı sana katılması için davet etmek ister misin?
+Feature.SettingsHub.Heading.InviteUser,{DisplayName} davet edilsin mi?
+Feature.SettingsHub.Action.MuteAll,Tümünü Sessize Al
+Feature.SettingsHub.Action.UnmuteAll,Tümünün Sesini Aç
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,Kendinle bir özel mesaj kanalı açamazsın.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,"Uyarı: Kullanıcı adını değiştirmek, doğrulanmış rozet durumunu ortadan kaldırır. Bunu yapmak istediğine emin misin?"
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,Ad Kutusu Görünürlüğü
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,Görünür
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,Gizli
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (Orijinal)
+Feature.SettingsHub.LanguageSelection.Unavailable,Mevcut değil
+Feature.SettingsHub.LanguageSelection.SettingLabel,Deneyim Dili
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,Ses Kaydı Hakkında Daha Fazla Bilgi Edin
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,{DisplayName} sessize alınıp engellensin mi?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,Sen ve {Player} artık birbirinizle iletişim kuramayacaksınız.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,{DisplayName} (@{Username}) sessize alınsın mı?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,{DisplayName} (@{Username}) engellensin mi?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,Sen ve {DisplayName} (@{Username}) artık birbirinizle iletişim kuramayacaksınız.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,{Displayname} (@{Username}) adlı kullanıcıyı sessize aldın ve engelledin
+Feature.SettingsHub.ReportSubmitted.Muted,{Displayname} (@{Username}) adlı kullanıcıyı sessize aldın
+Feature.SettingsHub.ReportSubmitted.Blocked,{Displayname} (@{Username}) adlı kullanıcıyı engelledin
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,{DisplayName} (@{Username}) sessize alınıp engellensin mi?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,Işınlanma Durduruldu
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,Menü kapatıldığında ışınlanma devam edecek.
+Feature.NativeAds.Action.EnterExperience,Deneyime Gir
+Feature.NativeAds.Action.ReturnToExperience,Deneyime Dön
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,Gizlilik ayarların bu sunucuya katılmanı engelliyor.
+CoreScripts.TopBar.RobloxMenu,Roblox Menüsü
+InGame.CommonUI.Label.MicOff,Mikrofon Kapalı
+InGame.CommonUI.Label.MicOnRecording,Mikrofon Açık (ses kaydediyor)
+InGame.InspectMenu.Label.VerifiedAvatar,{PLAYER_NAME}{VERIFIED_BADGE} Adlı Oyuncunun Avatarı
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,Bu öğeyi satın almak için yeterli Robux'ın yok.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,Mevcut Bakiye
+IAPExperience.InsufficientRobux.Action.Cancel,İptal Et
+IAPExperience.InsufficientRobux.Action.BuyRobux,Robux Satın Al
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,AdGui'nin Adornee'si Blok şeklinde değil
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,AdGui'nin Adornee rotasyonu geçersiz
+Feature.NativeAds.Description.InvalidAdPortalParentType,Parent Type geçersiz
+Feature.NativeAds.Description.AdPortalParentMissing,Parent yok
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,AdGui'nin Adornee boyutu geçersiz
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,AdGui'nin Adornee pozisyonu geçersiz
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal'ın hiyerarşisi doğru değil
+Feature.NativeAds.Description.InvalidAdGuiValidation,AdGui doğrulaması başarısız
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal'da doğru özellikler ayarlanmamış
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,AdPortal parent part için doğru özellikler ayarlanmamış
+Feature.NativeAds.Description.InvalidAdGuiAdornee,AdGui'nin Adornee'si bir Part değil
+Feature.NativeAds.Description.AdPortalMissing,AdPortal mevcut değil
+IAPExperience.InsufficientRobux.Text.YouNeed,{robux} Robux'a daha ihtiyacın var. Lütfen daha fazla Robux Paketi satın alıp deneyime dön.
+IAPExperience.InsufficientRobux.Action.RobuxStore,Robux Mağazası'na Git
+CoreScripts.TextChat.Emote.Error.NotOwned,"""{RBX_EMOTE}"" ifadesine sahip değilsin."
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,Topluluk Standartlarımızın ihlali nedeniyle sesli sohbet etme erişimini aşağıdaki tarihe kadar geçici olarak iptal ettik:
+Feature.SettingsHub.Prompt.MicUseSuspended,Mikrofon kullanımı askıya alındı
+InGame.ConnectionError.Title.LowMemoryWarning,Düşük Bellek Uyarısı
+InGame.ConnectionError.Queue,{POSITION}. sıradasın
+CoreScripts.PublishAssetPrompt.TitleTextClothing,Kıyafeti Gönder
+CoreScripts.PublishAssetPrompt.TitleTextEmote,İfadeyi Gönder
+CoreScripts.PublishAssetPrompt.TitleTextPackage,Paketi Gönder
+CoreScripts.PublishAssetPrompt.Name,Ad
+CoreScripts.PublishAssetPrompt.Description,Açıklama
+CoreScripts.PublishAssetPrompt.InvalidName,Geçersiz Ad
+CoreScripts.PublishAssetPrompt.InvalidDescription,Geçersiz Açıklama
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,"Bu deneyimin, avatar öğemi denetlemeye göndereceğini ve Yaratımlarım sayfasına yükleyeceğini kabul ediyorum."
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,"Bu deneyimin, ifademi denetlemeye göndereceğini ve Yaratımlarım sayfasına yükleyeceğini kabul ediyorum."
+CoreScripts.PublishAssetPrompt.Cancel,İptal Et
+CoreScripts.PublishAssetPrompt.Submit,Gönder
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,Açıklama
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,Ad
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,Bu ifadeye sahip değilsin.
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,Kamera
+InGame.CommonUI.Label.Return,Dön
+InGame.CommonUI.Label.ReturnFallback,Önceki deneyime dön
+InGame.CommonUI.Label.ReturnTo,"""{placeName}"" dünyasına dön"
+Feature.FaceChat.Heading.FacialAnimation,Yüz Animasyonu
+Feature.FaceChat.Subtitle.FeatureDisabled,Yüz animasyonu geçici olarak kullanılamıyor. Lütfen daha sonra tekrar dene.
+Feature.FaceChat.Subtitle.ServerDisabled,Yüz animasyonu geçici olarak kullanılamıyor. Lütfen daha sonra tekrar dene.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,Kameranı kapatmak deneyim performansını artırabilir.
+Feature.FaceChat.Heading.VideoNoPermission,Kamera Kullanılamıyor
+Feature.FaceChat.Subtitle.VideoNoPermission,Roblox'un kamerayı kullanmasına izin vermek için ayarlarına git.
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,Cihaz Performansı Düşük
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,Yüz Animasyonu Kullanılamıyor
+Feature.FaceChat.Heading.VideoUnsupported,Cihaz Kamerası Desteklenmiyor
+Feature.FaceChat.Subtitle.VideoUnsupported,"Roblox, avatarını canlandırmak için kameranı kullanamıyor."
+Feature.SettingsHub.Prompt.Connecting,Ses Hâlâ Bağlanıyor
+Feature.SettingsHub.Prompt.Subtitle.Connecting,Ses hâlâ bağlanmaya devam ediyor. Bu biraz sürebilir.
+CoreScripts.ContactList.Label.Outgoing,Giden Çağrı
+CoreScripts.ContactList.Label.Incoming,Gelen Çağrı
+CoreScripts.ContactList.Label.Missed,Cevapsız Çağrı
+Feature.FaceChat.Heading.LODCameraForceDisable,Kamera Kapatıldı
+Feature.FaceChat.Subtitle.LODCameraForceDisable,"Roblox, performans sorunları nedeniyle cihazının kamerasını kapattı."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,Kur
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,"Bu işlemi tamamlamak için 2 Aşamalı Doğrulamayı ayarlaman gerekiyor. Bu eylem; giriş bilgilerini, satın alımlarını ve daha fazlasını korumana yardımcı olacak."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,2 Aşamalı Doğrulama Gerekli
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,Topluluk Standartlarımızın ihlali nedeniyle sesli sohbet etme ve avatarın olarak sohbet etme erişimini aşağıdaki tarihe kadar geçici olarak iptal ettik:
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,"Gelecekteki ihlaller, hesabınla ilgili ilave işlemler yapılmasıyla sonuçlanabilir."
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,Geçerlilik süresi:
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,"Sistemlerimiz, Topluluk Standartlarımızı ihlal edebilecek davranışlar tespit etti. Önlem olarak sesli sohbet etme ve avatarın olarak sohbet etme erişimini geçici olarak devre dışı bıraktık."
+Feature.SettingsHub.Prompt.Subtitle.Microphone,"Sistemlerimiz, Topluluk Standartlarımızı ihlal edebilecek davranışlar tespit etti. Önlem olarak sesli sohbet etme erişimini geçici olarak devre dışı bıraktık."
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Mikrofon ve Kamera Kullanımı Askıya Alındı
+IAPExperience.BuyRobux.Banner.Text,"Robux, avatarın için yükseltmeler veya deneyimlerde özel yetenekler satın almana olanak tanır"
+IAPExperience.BuyRobux.Banner.Title,Robux'ın kilidini aç
+IAPExperience.BuyRobux.Text.MoreRobux,{robux} Robux daha
+InGame.ConnectionError.PlacelaunchHttpError,Bir Http hatası oluştu. Lütfen istemciyi kapatıp tekrar dene.
+InGame.ConnectionError.PlacelaunchGameFull,İstenilen deneyim dolu
+InGame.ConnectionError.PlacelaunchGameEnded,Bu deneyim sona erdi veya bir sistem hatası nedeniyle sunucu beklenmedik bir şekilde kullanılamaz duruma geldi
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,"Cihazının belleği düşük. Şimdi ayrılmak, durumunu kurtaracak ve Roblox'un çökmesini önleyecek."
+InGame.ConnectionError.Waiting,Kullanılabilir bir sunucu bekleniyor
+InGame.ConnectionError.Loading,"Sunucu bulundu, yükleniyor..."
+InGame.ConnectionError.Joining,Sunucuya katılıyor
+NotificationScript2.UINavigation.FormattedText,Değiştirmek için {KEY_NAME} tuşuna bas.
+Feature.FaceChat.Subtitle.UnsupportedDevice,"Donanımın, kameranı kullanarak avatarını canlandırmaya yönelik gereksinimleri karşılamıyor."
+Feature.AccountSettings.Heading.Communication,İletişim
+Feature.FaceChat.Heading.NotAvailable,Yüz Animasyonu Kullanılamıyor
+InGame.ConnectionError.DisconnectPrivateServerKickout,Bu özel sunucuya artık erişimin olmadığı için bağlantın kesildi.
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,{RBX_NAME} Adlı Kullanıcının Paketi
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,"Avatarın, yüz animasyonunu desteklemeyen bir kafaya sahip. Uyumlu kafalar, envanterinde ve Avatar Mağazasında mevcut."
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,İptal Et
+CoreScripts.EmoteThumbnailEditor.Action.Update,Güncelle
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,Küçük resmi düzenle
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,Döndürme
+CoreScripts.EmoteThumbnailEditor.Label.Time,Zaman
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,Bu deneyimden ayrılıp başka bir deneyime katılmak istediğine emin misin?
+Feature.SettingsHub.Prompt.SimpleNudge,Lütfen medeni ve nazik ol
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,"Sistemlerimiz, Topluluk Standartlarımızı ihlal edebilecek davranışlar tespit etti. Bu, Roblox'u medeni ve nazik tutman için nazik bir hatırlatmadır."
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,"Gelecekteki ihlaller, hesabınla ilgili ilave işlemler yapılmasıyla sonuçlanabilir."
+Feature.SettingsHub.Prompt.ThankYouForFeedback,Bizi bilgilendirdiğin için teşekkürler
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,Geri bildirimlerine göre sistemlerimizi geliştirmeye devam edeceğiz.
+Feature.SettingsHub.Chat.TranslationEnabled,Sohbeti Otomatik Olarak Çevir
+Notifications.ToastNotifications.Title.LeavingExperience,Deneyimden Ayrılıyorsun
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,Bu öğeyi envanterinde bulabilirsin.
+CoreScripts.PublishAssetPrompt.PublishFailed,Bir şeyler yanlış gitti. Lütfen tekrar dene.
+CoreScripts.PublishAssetPrompt.PermissionDenied,Bir şeyler yanlış gitti. Lütfen tekrar dene.
+CoreScripts.PublishAssetPrompt.Timeout,Bir şeyler yanlış gitti. Lütfen tekrar dene.
+CoreScripts.PublishAssetPrompt.NoUserInput,Bir şeyler yanlış gitti. Lütfen tekrar dene.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,Başarılı!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,Gönderme Başarısız
+Feature.SettingsHub.Chat.TranslationInformation,"Metin sohbeti, senin diline çevrilecek. Orijinal hâlini görmek için mesajın önündeki sembole dokun."
+CoreScripts.TextChat.Clear.Help.Description,/clear veya /cls: sohbet penceresindeki mesajları temizler 
+GameChat_ChatMain_ChatTranslationOnboarding,"Metin sohbeti, senin diline çevrilecek. Orijinal hâlini görmek için mesajın önündeki sembole dokun. Çevirileri Ayarlar menüsünden kapatabilirsin."
+CoreScripts.PublishAssetPrompt.TitleTextModel,Paketi Gönder
+IAPExperience.BuyRobux.Text.MoreRobux2,{robux} Robux daha
+CoreScripts.PublishAssetPrompt.UndefinedError,Bir şeyler yanlış gitti. Lütfen tekrar dene. Hata Kodu: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,Kapalı
+InGame.CommonUI.Label.On,Açık
+CoreScripts.PublishAssetPrompt.DisclaimerModel,Oluşturulan öğeler incelenecek ve Topluluk Standartlarına uymayan reddedilmiş öğeler için iade alamayabilirsin.
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,Başarıyla Robux satın aldın!
+CoreScripts.AssetPreviewView.Action.ResetView,Görünümü sıfırla
+CoreScripts.AssetPreviewView.Label.LoadingFailed,Yükleme başarısız
+CoreScripts.PublishAssetPrompt.ResultModalOk,Tamam
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,Roblox'un Topluluk Standartlarını ihlal edebilecek bir ifade tespit ettik.<br /><br />Birden fazla ihlalden sonra Sesli Sohbet Etme erişimini kaybedebilirsin.
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,Roblox'un Topluluk Standartlarını ihlal edebilecek bir ifade tespit ettik. Birden fazla ihlalden sonra Sesli Sohbet Etme erişimini kaybedebilirsin.
+Feature.SettingsHub.Prompt.GotIt,Anladım
+CreatorDashboard.AssetTypes.Label.Body,
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Yetersiz Robux
+IAPExperience.Loading.Text.PurchasingRobux,Robux satın alınıyor...
+IAPExperience.Loading.Text.PurchasingItem,Öğe satın alınıyor...
+IAPExperience.Loading.WaitingForPurchase,Satın alım için bekleniyor...
+IAPExperience.Loading.WaitingForRobux,Robux'ın verilmesi bekleniyor...
+IAPExperience.Loading.Text.WaitingForPurchase,Satın alım için bekleniyor...
+IAPExperience.Loading.Text.WaitingForRobux,Robux'ın verilmesi bekleniyor...
+Notifications.NotificationStream.Title.ReportNotification,Bildirimi Raporla
+Notifications.NotificationStream.AbuseReason.Bullying,Zorbalık
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,Hile/İstismar
+Notifications.NotificationStream.AbuseReason.Dating,Flört Etme
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,Site Dışı Bağlantılar
+Notifications.NotificationStream.AbuseReason.Other,Diğer
+Notifications.NotificationStream.AbuseReason.AskingPII,Kişisel Soru
+Notifications.NotificationStream.AbuseReason.Scamming,Dolandırıcılık
+Notifications.NotificationStream.AbuseReason.Profanity,Küfür
+Feature.ReportAbuse.Message.ErrorSubmit,Bildirin gönderilirken bir sorun oluştu.
+Feature.ReportAbuse.Action.ReportAbuse,Kötüye Kullanım Bildir
+Feature.ReportAbuse.Label.TellUsHowAsset,Bu varlığın Roblox kurallarını nasıl ihlal ettiğini düşündüğünü bizimle paylaş.
+Feature.ReportAbuse.Label.ReasonForFlag,İşaretlemenin Sebebi:
+Feature.ReportAbuse.Message.ThanksForFlagging,"Yapılan her bildirime yanıt veremiyoruz ancak yaptığın geri bildirim, tüm yaratıcıların deneyimini iyileştirmemize yardımcı olacak."
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,Yorumun {characterLimit} karakteri aşmamalı.
+Feature.SettingsHub.Prompt.IncorrectNudge,Bir hata mı yaptık?<br /><u>Bizi bilgilendir.</u>
+Feature.SettingsHub.Prompt.RememberRules,Politikalarımızı unutma
+Feature.SettingsHub.Label.Captures,Yakalamalar
+InGame.InspectMenu.Label.LimitedItems,Sınırlı öğe
+InGame.InspectMenu.Label.FromResale,Yeniden Satıştan {PRICE}
+InGame.InspectMenu.Action.FromResale,Yeniden Satıştan {PRICE}
+InGame.InspectMenu.Label.OwnedItem,Sahip Olunan Öğe Sayısı ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,Sahip Olunan Öğelerin Sayısı ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,Öğe Sınırına Ulaşıldı
+Feature.FaceChat.Heading.UnableToAccessCamera,Kameraya erişilemiyor
+Feature.FaceChat.Subtitle.UnableToAccessCamera,Kamera kullanarak avatarını canlandırmak için İşletim Sistemi Ayarlarına giderek Roblox'un kamerayı kullanmasına izin ver
+Feature.SettingsHub.Prompt.MicrophonePermission,Mikrofona erişilemiyor
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,Sesli sohbet etmek için Roblox'un mikrofonu kullanmasına izin vermek üzere İşletim Sistemi Ayarlarına git
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,Bu deneyim için hatırla.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,"Hayır, diğerlerini sessize al"
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,"Evet, diğerlerini duy"
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,Başkalarını duyabileceksin ancak sen sohbet etmeye hazır olana kadar mikrofonunun sesi kapalı kalacak.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,Ses Açık şekilde mi katılmak istiyorsun?
+CoreScripts.PublishCommon.Creator,Yaratıcı
+CoreScripts.PublishCommon.Leave,Evet
+CoreScripts.PublishCommon.MadeIn,Şurada Oluşturuldu:
+CoreScripts.PublishCommon.Stay,Hayır
+CoreScripts.PublishCommon.Type,Tip
+CoreScripts.PublishCommon.UnsavedWarning,Kaydedilmemiş değişiklikleri kaybedebilirsin
+Feature.Accessibility.Description.PreferredTransparency,Bazı arka planlarda şeffaflığı ayarlayarak kontrastı arttır
+Feature.Accessibility.Description.ReducedMotion,Hareket efektlerini durdur veya azalt
+Feature.Accessibility.Description.UiNavigationKeyBind,Kullanıcı Arayüzü navigasyon moduna girmek ve çıkmak için {uiNavigationKey} tuşunu kullan
+Feature.Accessibility.Heading.PreferredTransparency,Arka plan şeffaflığı
+Feature.Accessibility.Heading.ReducedMotion,Hareketi azalt
+Feature.Accessibility.Heading.UiNavigationKeyBind,Kullanıcı arayüzü gezinme değiştirme
+Feature.Accessibility.PreferredTransparency.Opaque,Opak
+Feature.Accessibility.PreferredTransparency.Transparent,Şeffaf
+Feature.Avatar.Heading.Clothing,Kıyafet
+Feature.Avatar.Label.Accessory,Aksesuar
+Feature.Avatar.Label.Back,Arka Taraf
+Feature.Avatar.Label.ClassicPants,Klasik Pantolonlar
+Feature.Avatar.Label.ClassicShirts,Klasik Gömlekler
+Feature.Avatar.Label.ClassicTShirts,Klasik Tişörtler
+Feature.Avatar.Label.Climb,Tırmanma
+Feature.Avatar.Label.DressesAndSkirts,Elbiseler ve Etekler
+Feature.Avatar.Label.DynamicHead,Dinamik Kafa
+Feature.Avatar.Label.Emote,İfade
+Feature.Avatar.Label.Face,Yüz
+Feature.Avatar.Label.Fall,Düşme
+Feature.Avatar.Label.Gear,Teçhizat
+Feature.Avatar.Label.Hair,Saç
+Feature.Avatar.Label.Hat,Şapka
+Feature.Avatar.Label.Head,Kafa
+Feature.Avatar.Label.Idle,Boşta durma
+Feature.Avatar.Label.Jacket,Ceket
+Feature.Avatar.Label.Jump,Zıplama
+Feature.Avatar.Label.LeftArm,Sol Kol
+Feature.Avatar.Label.LeftArms,Sol Kollar
+Feature.Avatar.Label.LeftLeg,Sol Bacak
+Feature.Avatar.Label.LeftLegs,Sol Bacaklar
+Feature.Avatar.Label.LeftShoe,Sol Ayakkabı
+Feature.Avatar.Label.Mood,Duygu
+Feature.Avatar.Label.Neck,Boyun
+Feature.Avatar.Label.Pants,Pantolonlar
+Feature.Avatar.Label.RightArm,Sağ Kol
+Feature.Avatar.Label.RightArms,Sağ Kollar
+Feature.Avatar.Label.RightLeg,Sağ Bacak
+Feature.Avatar.Label.RightLegs,Sağ Bacaklar
+Feature.Avatar.Label.RightShoe,Sağ Ayakkabı
+Feature.Avatar.Label.Run,Koşma
+Feature.Avatar.Label.Shirt,Gömlek
+Feature.Avatar.Label.Shorts,Şort
+Feature.Avatar.Label.Shoulder,Omuz
+Feature.Avatar.Label.Sweater,Kazak
+Feature.Avatar.Label.Swim,Yüzme
+Feature.Avatar.Label.Torso,Gövde
+Feature.Avatar.Label.TShirt,Tişört
+Feature.Avatar.Label.Waist,Bel
+Feature.Avatar.Label.Walk,Yürüme
+Feature.Catalog.Label.Animation,Animasyon
+Feature.Catalog.Label.Attribution,Şurada oluşturuldu:
+Feature.Catalog.Label.Body,Vücut
+Feature.Catalog.Label.CategoryType,Tip
+Feature.Catalog.Label.Emotes,İfadeler
+Feature.Catalog.Label.Eyebrow,Kaş
+Feature.Catalog.Label.Eyelash,Kirpik
+Feature.Catalog.Label.Filter.Creator,Yaratıcı
+Feature.GamepadDisconnect.Label.Message,"""%s"" adlı kullanıcının kontrol cihazı bağlantısı kesildi, lütfen kullanmak istediğin kontrol cihazı ""%s"" tuşuna bas."
+Feature.GamepadDisconnect.Label.Title,Kontrol cihazı Yok
+InGame.InspectMenu.Action.SoldOut,Tükendi
+CoreScripts.PublishCommon.Disclaimer,Oluşturulan öğeler incelenecek ve Topluluk Standartlarına uymayan reddedilmiş öğeler için iade alamayabilirsin.
+Feature.ReportAbuse.Action.AttachScreenshot,Ekran Görüntüsü Ekle
+Feature.ReportAbuse.Action.BackToExperience,Deneyime Dön
+Feature.ReportAbuse.Action.HighlightScene,Ekran Görüntüsünü Vurgula
+Feature.ReportAbuse.Action.Next,İleri
+Feature.ReportAbuse.Action.Retake,Yeniden Çek
+Feature.ReportAbuse.Action.RetakeScene,Sahneyi Yeniden Çek
+Feature.ReportAbuse.Label.SelectPerson,Ekran Görüntüsündeki Kişiyi Seç
+Feature.ReportAbuse.Label.SelectProblem,Ekran Görüntüsündeki Sorunu Seç
+Feature.ReportAbuse.Message.ProblemNotInScene,"Sorun bu görüntüde mevcut değilse ekran görüntüsünü ""Yeniden Çekebilirsin""."
+Feature.ReportAbuse.Message.RetakeScene,"Etrafında olup biteni anlamamıza yardımcı ol. ""Bildir"" düğmesine tıkladığın anda ekran görüntüsü alacağız."
+Feature.SettingsHub.Action.CaptureScene,Sahneyi Yakala
+Feature.SettingsHub.Label.AttachScreenshot,Ekran Görüntüsü Eklensin mi? (isteğe bağlı)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,Ekran Görüntüsü Eklensin mi?{lineBreak}(isteğe bağlı)
+Feature.SettingsHub.Label.SceneCaptured,Yakalanan Sahne
+CommonUI.Controls.Action.Cancel,İptal Et
+CommonUI.Controls.Action.Confirm,Onayla
+CoreScripts.TopBar.ControlMessageMotion,Hareket Takibi
+CoreScripts.TopBar.ControlMessageOff,Kapalı
+CoreScripts.TopBar.ControlMessageOn,Açık
+CoreScripts.TopBar.ControlMessageSound,Ses Takibi
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,Avatar > Özelleştir > Kafa ve Vücut
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,Göz kırpmak için dinamik bir kafa ekle!
+CoreScripts.TopBar.RobloxPermissionErrorBody,Roblox Ayarları > Gizlilik > Mikrofon ve Kamera Girişi
+CoreScripts.TopBar.RobloxPermissionErrorHeader,Kamera Erişimine İzin Ver
+CoreScripts.TopBar.SelfViewLabel,Kendi Görüntün
+CoreScripts.TopBar.SelfViewSecondaryAction,Aç
+InGame.CommonUI.Badge.Popup.DisclaimerText2,"Topluluk Kurallarımızı ihlal eden kişilerle karşılaşırsan lütfen kötüye kullanım bildiriminde bulun. Ses hizmetlerini kullanmayı seçtiysen Roblox, denetleme, güvenlik ve hizmetlerimizle araçlarımızı iyileştirmek için platformun herhangi bir yerinde konuşma sesi kaydeder. Ses hizmetlerini kullanmaya devam ederek Roblox'un ses kayıtlarını bu amaçlarla toplamasına, kullanmasına ve saklamasına izin vermiş olursun. Ses özelliklerini istediğin zaman devre dışı bırakabilirsin."
+CoreScripts.TopBar.MenuToggle,Genişlet/Daralt
+CoreScripts.TopBar.MoreMenu,Daha Fazla Menüsü
+CoreScripts.TopBar.OverflowMenu,Taşma Menüsü
+CoreScripts.TopBar.Title.ExperienceControls,Deneyim Kontrolleri
+CoreScripts.TopBar.ToggleMic,Kendini Sessize Al/Sesini Aç
+Feature.Catalog.Label.Bundle,Set
+Feature.SocialContextToast.Action.InviteBack,Geri Davet Et
+Feature.SocialContextToast.Action.JoinFriend,Katıl
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} adlı arkadaşın ayrıldı ve {EXPERIENCE_NAME} deneyimine katıldı
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} adlı arkadaşın bu deneyimden ayrıldı
+Feature.SocialContextToast.Message.FriendJoinedYou,"{FRIEND_NAME}, sana katıldı"
+Feature.SocialContextToast.Message.InvitationConfirmation,Davet gönderildi
+Feature.SocialContextToast.Message.YouJoinedManyFriends,{FRIEND_NAME} ve {FRIEND_COUNT} diğer arkadaşına katıldın
+Feature.SocialContextToast.Message.YouJoinedOneFriend,{FRIEND_NAME} adlı arkadaşına katıldın
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,{FRIEND_NAME_ONE} ve {FRIEND_NAME_TWO} adlı arkadaşlarına katıldın
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,"Bu kişinin avatarı, uygunsuz kıyafetler giyiyor"
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,Avatar
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,Başkalarının konuşmasını duyabileceksin ancak sen sohbet etmeye hazır olana kadar mikrofonunun sesi kapalı kalacak.
+Feature.Subscription.Text.DisclaimerMonthly,Aylık olarak yenilenir. İstediğin zaman iptal edebilirsin.
+Feature.Subscription.Text.PerMonth,/aylık
+Feature.SettingsHub.Action.EveryoneToggle,Herkes
+Feature.SettingsHub.Action.NobodyToggle,Hiç kimse
+Feature.SettingsHub.Action.NonfriendsToggle,Arkadaşlarım dışındakiler
+Feature.SettingsHub.Label.Mute,Sessize Al
+Feature.SocialContextToast.Message.InvitationFailure,Davet gönderme sorunu
+Feature.SocialShare.Action.CopyLink,Bağlantıyı Kopyala
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,Aylık olarak yenilenir. İstediğin zaman iptal edebilirsin.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} adlı arkadaşına katıldın fakat arkadaşın şu anda kısıtlamaya sahip bir dünyada
+Feature.SocialContextToast.Message.FriendInNonRootPlace,"{FRIEND_NAME}, bu deneyimde bulunan kısıtlamaya sahip bir bölgeye gitti"
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,"Roblox, sohbette desteklenen dilleri otomatik olarak çevirir"
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,Gönderdiğin ve aldığın mesajlar otomatik olarak çevrilir
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,Desteklenen diller için sohbet çevirisi açık
+Feature.SettingsHub.Chat.TranslationSetting,Otomatik Sohbet Çevirisi
+Feature.SettingsHub.Chat.TranslationToggleSetting,Çevrilmemiş Mesajı Görüntüleme Seçeneği
+Feature.Call.Description.NoFriendsFound,Hiç arkadaş bulunamadı
+Feature.Call.Error.Description.AlreadyInCall,Zaten bir çağrıdasın
+Feature.Call.Error.Description.CallEnabledVerificationFailed,Çağrı uygunluğunun doğrulanması başarısız.
+Feature.Call.Error.Description.Generic,Bir şeyler yanlış gitti. Lütfen daha sonra tekrar dene.
+Feature.Call.Error.Description.SettingsNotCallEnabled,"Mevcut ayarların, çağrı yapmaya izin vermiyor."
+Feature.Call.Error.Label.OhNo,Hay aksi!
+Feature.Call.Label.CallEnded,Çağrı Sonlandı
+Feature.Call.Label.Calling,Aranıyor...
+Feature.Call.Label.Incoming,Gelen Çağrı
+Feature.Call.Label.Missed,Cevapsız Çağrı
+Feature.Call.Label.Outgoing,Giden Çağrı
+Feature.Call.Label.RecentCalls,Son Çağrılar
+Feature.Call.Label.RobloxCall,Roblox Çağrısı
+Feature.Call.Label.StartNewCall,Yeni Çağrı Başlat
+Feature.Call.Label.Teleporting,Işınlanıyor...
+Feature.Call.Label.Yesterday,Dün
+Feature.Call.Prompt.AddFriends,Bir çağrı yapmak için Roblox'ta arkadaş ekle
+Feature.Call.Prompt.FirstCall,İlk çağrını yapmayı dene
+Feature.Call.Prompt.SearchFriends,Arkadaşları ara
+Feature.Call.Prompt.StartCall,Çağrı başlat
+Feature.FaceChat.Heading.LowPerformanceDetected,Düşük Performans Tespit Edildi
+Feature.FaceChat.Subtitle.LowPerformanceDetected,Kameranı kapatmak cihaz performansını artırabilir
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,Arkadaşlar yüklenemiyor. Daha sonra tekrar dene.
+Feature.SettingsHub.Label.NoFriendsPageMessage,Beraber keşfedebilmek için arkadaşlarını ekle.
+CoreScripts.Feedback.EntryPoint.ButtonText,Geri Bildirimde Bulun
+CoreScripts.Feedback.EntryPoint.MenuLabel,Geri Bildirim
+CoreScripts.Feedback.EntryPoint.OptionText,Çeviri Geri Bildiriminde Bulun
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,Çık
+CoreScripts.Feedback.FeedbackBar.HelpButton,Yardım
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,Eklemek istediklerini aşağıda belirt (isteğe bağlı)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,Eklemek istediklerini buraya gir
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,İptal Et
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,Doğru çevirisi nedir? (isteğe bağlı)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,Doğru çeviriyi buraya gir
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,Geri Bildirimde Bulun
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,Görüntü
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,Oyun Nesnesi
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Mesh
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,Model
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,Video
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,Bu çevirideki sorun nedir? (isteğe bağlı)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,Doğruluk Sorunu
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,Uygunsuz veya Aşağılayıcı
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,Seçim Yok
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,Yazım veya Dil Bilgisi Sorunu
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,Çevrilmemiş
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,Seçilen Nesne
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,Gönder
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,Seçilen Metin
+CoreScripts.Feedback.Help.CloseInstructions,Talimatları Kapat
+CoreScripts.Feedback.Help.Instructions1,Geri bildirim modunda iken ekranın donar ve bu yüzden avatarını veya kameranı hareket ettiremezsin. Yanlış veya eksik çeviriler hakkında geri bildirimde bulunmak için herhangi bir nesneye dokun veya tıkla.
+CoreScripts.Feedback.Help.Instructions2,Bir nesneyi seçtiğinde istediğin takdirde daha fazla bilgi sağlayabileceğin bir form görünür. Roblox'taki çevirileri geliştirmemize yardımcı olduğun için teşekkür ederiz!
+CoreScripts.Feedback.Help.MainHeader,Yardım
+CoreScripts.Feedback.SubmissionToastBody,"Roblox bu bilgiyi, bu deneyimin çeviri kalitesini artırmaya yardımcı olmak için kullanacak"
+CoreScripts.Feedback.SubmissionToastHeader,Geri bildirimin için teşekkürler!
+Feature.Call.Description.Friends,En iyi çağrı deneyimi için ayarlanmış cihazlara ve ayarlara sahip olan veya olmayan arkadaşlar.
+Feature.Call.Description.SuggestedFriends,En iyi çağrı deneyimi için ayarlanmış cihazlara ve ayarlara sahip arkadaşlar.
+Feature.Call.Error.Description.DeviceNotSupported,Çağrı şu anda cihazında desteklenmiyor. Lütfen daha sonra tekrar dene.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} şu anda meşgul ve çağrına cevap veremiyor. Lütfen daha sonra tekrar dene.
+Feature.Call.Error.Title.CouldntMakeCall,Çağrı yapılamadı
+Feature.Call.Error.Title.FriendBusy,Arkadaşın meşgul
+Feature.Call.Label.Friends,Arkadaşlar
+Feature.Call.Label.Suggested,Önerilen
+Feature.Call.Modal.EnableChatVoiceBody,Bu deneyimde başkalarıyla konuşmak için Ayarlar > Gizlilik bölümünde sesli sohbeti aç.
+Feature.Call.Modal.EnableChatVoiceTitle,Sesli sohbeti etkinleştir
+InGame.InspectMenu.Action.Go,Git
+InGame.InspectMenu.Attribution.GoToDescription,Bu bölgeden ayrılacak ve {EXPERIENCE_NAME} deneyimine gideceksin.
+InGame.InspectMenu.Attribution.GoToExperience,Deneyime gidilsin mi?
+Common.Presence.Label.Online,Çevrimiçi
+Feature.Call.Label.Block,{combinedName} adlı kullanıcıyı engelle
+CoreScripts.Ads.Action.PortalPromptAccept,Şimdi Işınlan
+CoreScripts.Ads.Action.PortalPromptCancel,İptal Et
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,Diyaloğu kapatmak için uzaklaş.
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,{RBX_NAME} deneyimine ışınlanılsın mı?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,Işınlanılsın mı?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,Kamera ve kendi görüntün ayarlarını burada bulabilirsin
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,Avatarının tıpkı senin gibi gülümsemesini ve hareket etmesini sağlamak için kameranı kullan
+Feature.Call.Description.ExperienceError,"Sesli sohbet, bu deneyim tarafından desteklenmiyor."
+Feature.Call.Error.Title.ExperienceError,Deneyim Hatası
+Feature.SettingsHub.Label.ReasonForAbuse,Kötüye Kullanımın Nedeni Nedir?
+Notifications.NotificationStream.Bundle.ShowLess,Daha azını göster
+Notifications.NotificationStream.Bundle.ShowMoreV2,{notificationCount} daha
+CommonUI.Controls.Input.Optional,{inputLabel} (isteğe bağlı)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,"Sesli sohbete erişimin, Topluluk Standartlarımızı ihlal edebilecek davranışlar nedeniyle {dateTime} tarihine kadar devre dışı bırakıldı."
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,Bildirim penceresini genişlet
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,"Hediye kartı para birimi, hesap konumunla eşleşmelidir. Hesap konumunu Ayarlar'da inceleyebilirsin. Başka sorunlar için lütfen {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd} adresinden destek ile iletişime geç."
+Feature.Call.Label.Unfriend,{combinedName} adlı kişiyi arkadaşlıktan çıkar
+Feature.GamepadDisconnect.Label.MessageGeneric,"""%s"" adlı kullanıcının kontrol cihazı bağlantısı kesildi. Lütfen kontrol cihazı yeniden bağla."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,Roblox Topluluk Standartları'na aykırı bir dil kullanmış olabileceğinden sesli sohbeti geçici olarak kapattık.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,Bu durumun tekrarlanması hâlinde hesabına erişimi kaybedebilirsin.
+Feature.SettingsHub.Prompt.XMinuteSuspension,Askıya alınma süresi: {banDurationInMinutes} dakika
+Feature.ReportAbuse.DSAIllegal.ReportLink,AB Dijital Hizmetler Yasası uyarınca yasa dışı içeriği bildir.
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,Yasa Dışı İçeriği Bildir
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,Açık ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,"Roblox, reklam yayınlamak için davranışsal bilgiler kullanmadı. Bu reklamı; sana uygun ve alakalı reklamlar sunmak için kullandığımız cihaz türü, konum ve yaş gibi bilgilere dayalı olarak görüyorsun."
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,AB Dijital Hizmetler Yasası uyarınca yasa dışı içeriği bildirmek için aşağıdaki adresi ziyaret et: https://www.roblox.com/illegal-content-reporting (İngilizce)
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,Varsayılan ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,Maksimum Kare Hızı
+CoreScripts.Ads.Action.Close,Kapat
+CoreScripts.Ads.Label.WhyThisAd,Neden Bu Reklam?
+CoreScripts.FTUX.Mic.Body,Mikrofonunu aç
+CoreScripts.FTUX.Mic.Header,Sesli sohbet et
+CoreScripts.FTUX.Onboard.Body,"Liderlik tabloları, sohbet, güvenlik ve daha fazlası"
+CoreScripts.FTUX.Onboard.Header,Favori kontrollerine hızlı ulaş
+CoreScripts.FTUX.SelfView.Body,"Avatarın; kameran açıkken gülümsediğinde, göz kırptığında ve daha birçok şey yaptığında hareketlerini tekrarlar"
+CoreScripts.FTUX.SelfView.Header,Avatarını canlandır
+CoreScripts.FTUX.Tools.Body,"Puanları takip et, sorunları bildir, ifadeler kullan"
+CoreScripts.FTUX.Tools.Header,En iyi araçlar ve eylemler
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,"Yakınlaştırmak için Sıkıştır, Döndürmek için Kaydır, Kaydırmak için İki Parmakla Kaydır"
+CoreScripts.PublishAvatarPrompt.Body,Vücut
+CoreScripts.PublishAvatarPrompt.BodyName,Vücut Adı
+CoreScripts.PublishAvatarPrompt.Close,Kapat
+CoreScripts.PublishAvatarPrompt.CreatedBody,{DisplayName} Adlı Kullanıcının Vücudu
+CoreScripts.PublishAvatarPrompt.CreatedHead,{DisplayName} Adlı Kullanıcının Kafası
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,{DisplayName} Adlı Kullanıcının Sol Kolu
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,{DisplayName} Adlı Kullanıcının Sol Bacağı
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,{DisplayName} Adlı Kullanıcının Sağ Kolu
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,{DisplayName} Adlı Kullanıcının Sağ Bacağı
+CoreScripts.PublishAvatarPrompt.CreatedTorso,{DisplayName} Adlı Kullanıcının Gövdesi
+CoreScripts.PublishAvatarPrompt.Head,Kafa
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,Yaratımdan ayrılmak ister misin?
+CoreScripts.PublishAvatarPrompt.LeftArm,Sol Kol
+CoreScripts.PublishAvatarPrompt.LeftLeg,Sol Bacak
+CoreScripts.PublishAvatarPrompt.Pan,Kamerayı Hareket Ettir
+CoreScripts.PublishAvatarPrompt.ResetView,Görünümü Sıfırla
+CoreScripts.PublishAvatarPrompt.RightArm,Sağ Kol
+CoreScripts.PublishAvatarPrompt.RightLeg,Sağ Bacak
+CoreScripts.PublishAvatarPrompt.Rotate,Döndür
+CoreScripts.PublishAvatarPrompt.SubmitCreation,Yaratımı Gönder
+CoreScripts.PublishAvatarPrompt.Torso,Gövde
+CoreScripts.PublishAvatarPrompt.Zoom,Yakınlaştır
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,Sohbet Çeviri Dili
+CoreScripts.Feedback.FeedbackBar.MainLabel,Geri Bildirimde Bulun
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,Deneyim Nesnesi: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,Yanlış veya eksik çevirilerle ilgili geri bildirimde bulunmak için bir metin seç.
+CoreScripts.Feedback.MobileSelectionModal.Close,Kapat
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,Geri Bildirimde Bulun
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,Deneyim Nesnesi: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,Seçilen Metin
+CoreScripts.Feedback.Onboarding.Cancel,İptal Et
+CoreScripts.Feedback.Onboarding.Instructions,Yanlış veya eksik çevirilerle ilgili geri bildirimde bulunmak için bir metin seç.
+CoreScripts.Feedback.Onboarding.MainHeader,Bize Sorunun Ne Olduğunu Söyle
+CoreScripts.Feedback.Onboarding.Start,Başla
+CoreScripts.FTUX.Onboard.Complete,Anladım
+CoreScripts.FTUX.Onboard.ShowMe,Bana Göster
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,"Geri bildirimin, sistemlerimizi geliştirmemize yardımcı olur."
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,Bizi bilgilendirdiğin için teşekkürler
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Serbest Kamera
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,"Grafik Kullanıcı Arayüzünü Göster: ""{GuiType}"""
+CommonUI.Controls.Action.Yes,Evet
+Feature.Notifications.Heading.EnableNotifications,Bu deneyim için Bildirimleri aç
+Feature.Notifications.Heading.EnableNotificationsForExperience,{experienceName} için Bildirimleri aç
+Feature.Notifications.Label.ReceiveActivityUpdates,Uzaktayken etkinlikle ilgili güncellemeler al
+Feature.Notifications.Response.NotificationsEnabled,Bu deneyim için bildirimler açıldı
+Feature.Notifications.Response.NotificationsEnabledForExperience,{experienceName} için bildirimler açıldı
+Feature.SettingsHub.Action.LearnMore,Daha fazla bilgi edin
+Feature.SettingsHub.Action.NotNow,Şimdi Değil
+Feature.SettingsHub.Action.TurnOn,Aç
+Feature.SettingsHub.Prompt.ChangeYourMind,Fikrini değiştirirsen
+Feature.SettingsHub.Prompt.JoinedVoiceChat,Sesli Sohbete Katıldın
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,İstediğin zaman Sesle olan bağlantıyı kesebilir veya herhangi birini susturabilirsin.
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,Daha sonra istediğin her zaman Roblox Menüsünden Sesli Sohbete katılabilirsin.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"""Aç""ı seçerek, ses hizmetlerini etkinleştirmek ve hizmetlerimiz ile araçlarımızın denetlenmesi, güvenliği ve iyileştirilmesi amacıyla Roblox'un; ses kaydımı toplamasına, kullanmasına ve saklamasına izin veriyorum."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,"Roblox, bu reklamı yayınlamak için davranışsal bilgiler kullanmadı. Bu reklamı; sana uygun ve alakalı reklamlar sunmak için kullandığımız cihaz türü, konum ve yaş gibi bilgilere dayalı olarak görüyorsun. Reklamcı: {AdvertiserName}."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,"Roblox, bu reklamı yayınlamak için davranışsal bilgiler kullanmadı. Bu reklamı; sana uygun ve alakalı reklamlar sunmak için kullandığımız cihaz türü, konum ve yaş gibi bilgilere dayalı olarak görüyorsun. Reklamcı: {AdvertiserName}. Bu reklamın ücreti {PayerName} tarafından karşılandı."
+Feature.Notifications.Heading.TurnOnNotifications,Bildirimleri Aç
+Feature.Notifications.Label.GetUpdatesFromExperience,Uzaktayken {experienceName} deneyiminden bildirimler almak ister misin?
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,Herhangi birini istediğin zaman susturabilirsin.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,"Başkalarıyla konuşmak için Sesli Sohbeti aç. Roblox'un, mikrofonuna erişmesi için izin vermen gerekiyor. Kontrol sende, kendini veya bir başkasını istediğin zaman susturabilirsin."
+Verification.Identity.Heading.V2LetsChat,Hadi Sohbet Edelim
+Feature.Call.Label.Retry,Tekrar Dene
+Feature.Friends.Action.Unfriend,Arkadaşlıktan Çıkar
+AuthorizeWebsite.PermissionRequest.Label.Subscription,Abonelik
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,Aboneliklerin hakkında bilgi al.
+CreatorDashboard.ScopeSystem.Label.Subscription,
+Feature.ReportAbuse.Action.BuildAReport,Metin modu
+Feature.ReportAbuse.Action.EnterSceneReporting,Vurgula moduna geç
+Feature.ReportAbuse.Action.SelectInScene,Vurgula modu
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,Vurgula modunu kullanarak raporla
+Feature.ReportAbuse.Label.SelectInSceneDescription1,Sorunu vurgulamak için 5'e kadar daire kullan.
+Feature.ReportAbuse.Label.SelectInSceneDescription2,Bunun neden bir sorun oluşturduğunu bize anlat
+Feature.ReportAbuse.Label.SelectInSceneDescription3,Bildirimini gönder
+Feature.SettingsHub.Prompt.GetVoiceChat,Sesli Sohbet Et
+Feature.SettingsHub.Prompt.MicPermissionPrime,Konuşmak için Roblox'a mikrofonuna erişim izni ver.
+Feature.SettingsHub.Prompt.TalkWithOthers,Başkalarıyla konuşarak daha fazla eğlen.
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,Başkalarıyla Sesli Sohbet
+Feature.SettingsHub.Prompt.VoiceUserAgency,Kontrol sende; kendini veya herhangi birini istediğin zaman sessize al.
+InGame.HelpMenu.Controls.ToggleGameMenu,Oyun Menüsü Geçişi
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,Tamam
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,Satın alım başarısız
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,Bu öğelere zaten sahip olduğundan satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,Satın alım işlemin şu anda tamamlanamıyor.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,Bu öğeleri satın almak için gerekli olan Roblox Premium'a sahip olmadığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,Yeterli Robux'ın olmadığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,Bu tip öğeleri satın alma iznin olmadığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,Bu öğeler satılık olmadığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,Fiyatlar değiştiğinden satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,Kendi öğelerini satın almana izin verilmediğinden satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,Bu öğeler için sahip olma sınırına zaten ulaştığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,Dakika başına izin verilen işlem sayısı sınırı 9'u aştığından satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,Bu öğeler tükendiğinden satın alım işlemin tamamlanamadı.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,Senden hiç Robux tahsil edilmedi. Lütfen daha sonra tekrar dene.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,Senden hiç Robux tahsil edilmedi. Lütfen daha fazla satın al ve tekrar dene.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,Senden hiç Robux tahsil edilmedi. Lütfen tekrar dene.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,Senden hiç Robux tahsil edilmedi. Lütfen başka öğelerle daha sonra tekrar dene.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,Senden hiç Robux tahsil edilmedi. Lütfen bekleyip tekrar dene.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,Satın Alım Tamamlandı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,Kısmi satın alım tamamlandı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} Öğe
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,Başarılı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} Öğe
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,Başarısız
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,Zaten sahipsin
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,Mevcut değil
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Premium gerekli
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Yeterli Robux yok
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,Mevcut değil
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,Satılık Değil
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,Fiyat değişikliği
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,Satıcı alıcıdır
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,Sınıra ulaşıldı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,İstek sınırına ulaşıldı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,Tükendi
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,Satın alındı
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,"Bazı öğeler şu anda satın alınamıyor, lütfen daha sonra tekrar dene."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,Mevcut bakiye
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,Bitti
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Harcanan Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,Özet
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} Öğe
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,Satın alınacak tüm öğeler
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,Sahip olunan: {ownedCount}
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,Öde
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,Mevcut bakiye
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,Satın alım sonrası bakiye
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,Sipariş toplamı
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,{itemCount} öğeyi başarıyla satın aldın. Bu öğelere envanterinden ulaşabilirsin.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,Bitti
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,Satın alım tamamlandı
+Feature.Accessibility.Description.MainVolume,"Menü efektleri, deneyim sesi ve sesli sohbet de dâhil olmak üzere Roblox'un genel ses seviyesini kontrol et"
+Feature.Notifications.Webview.Title.PolicyUpdate,Politika Güncellemesi
+Feature.SettingsHub.Prompt.CameraUnavailable,Kamera Kullanılamıyor
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,Bu cihazdaki deneyim performansını geliştirmek adına kamerayı devre dışı bıraktık. Başka bir cihazla deneyebilirsin. Daha fazla bilgi edinmek için dokun.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,"Başkalarıyla konuşarak daha fazla eğlen. Konuşmak için Roblox'a mikrofonuna erişim izni ver. Kontrol sende, kendini veya bir başkasını istediğin zaman susturabilirsin."
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,"Başkalarıyla konuşarak daha fazla eğlen. Kontrol sende, kendini veya bir başkasını istediğin zaman susturabilirsin."
+Feature.SettingsHub.Label.MyCaptures,Yakalamalarım
+Feature.ReportAbuse.Action.ErrorModalGoBack,Geri Dön
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,Hata: Maksimum 5 daire
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,"Sorunu vurgulamak için en fazla 5 daire kullanabilirsin. Daireleri kaldırmak için ""geri al"" düğmesini kullan."
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,Daha akıcı bir oyun deneyimi için kare hızını ayarla. Daha yüksek kare hızları daha fazla güç tüketir ve ekranının yenileme hızını aşan kareler gösterilmez.
+Feature.Subscription.Text.Subscribed,Abone olundu
+Feature.ReportAbuse.Label.ChooseOne,Birini seç
+Feature.ReportAbuse.Label.PleaseSelectOne,Lütfen birini seç.
+Feature.ReportAbuse.Label.SelectInSceneComplete,"Bildirimini, Roblox'u herkes için eğlenceli ve güvenli bir yer hâline getirmek için kullanacağız."
+Feature.ReportAbuse.Label.TellUsWhatHappened,Neler olduğunu bize anlat. (İsteğe Bağlı)
+Feature.ReportAbuse.Label.WhatWasWrong,Sorun nedir?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,Bildirimini tamamla
+Feature.ReportAbuse.Title.SelectInSceneThankYou,Bildirimin için teşekkürler
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,Ayrıl
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Robux Satın Al
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Eksik Robux:
+Feature.ReportAbuse.Action.Close,Kapat
+Feature.ReportAbuse.Action.Submit,Gönder
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,Ebeveyn Denetimlerinde belirlenmiş olan aylık satın alım sınırına ulaştın. Gelecek aya kadar yeni bir satın alım işlemi yapamayacaksın.
+Feature.ReportAbuse.Label.Avatar,Avatar
+Feature.ReportAbuse.Label.Bullying,Zorbalık
+Feature.ReportAbuse.Label.Cheating,Hile/İstismar
+Feature.ReportAbuse.Label.Content,Uygunsuz İçerik
+Feature.ReportAbuse.Label.Dating,Flört Etme
+Feature.ReportAbuse.Label.Links,Site Dışı Bağlantılar
+Feature.ReportAbuse.Label.Personal,Kişisel Soru
+Feature.ReportAbuse.Label.Scamming,Dolandırıcılık
+Feature.ReportAbuse.Label.Swearing,Küfür
+Feature.ReportAbuse.Label.TextChat,Metin Sohbeti
+Feature.ReportAbuse.Label.Username,Uygun Olmayan Kullanıcı Adı
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,Bu işlemi gerçekleştirebilmek için 2 Aşamalı Doğrulama gerekiyor. 2 Aşamalı Doğrulamayı tamamlamak için Ayarlar > Güvenlik menüsüne git.
+CommonUI.Controls.Action.Refresh,Yenile
+CommonUI.Controls.NoResultsFound,Hiçbir sonuç bulunamadı
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,"Bu öğeler, bu deneyimde mevcut olmadığından satın alım işlemin tamamlanamadı."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,Bu deneyimde mevcut değil
+CoreScripts.PublishAvatarPrompt.Description,Açıklama (İsteğe Bağlı)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,Bu öğe hakkında bilgi ver
+Feature.Accessibility.Description.Haptics,Roblox uygulaması için genel titreşim ayarını kontrol eder
+Feature.Accessibility.Header.Haptics,Titreşim Ayarı
+Feature.AccountSettings.Label.CameraNotAvailable,"Kamera, bazı cihazlarda mevcut değil."
+Feature.AccountSettings.Label.CameraNotSupported,"Kamera, bazı cihazlarda mevcut değil. {linkStart}Daha fazla bilgi edin.{linkEnd}"
+Feature.Notifications.Action.PushUpsellAllow,İzin Ver
+Feature.Notifications.Action.PushUpsellNotNow,Şimdi Değil
+Feature.Notifications.Heading.PushUpsellGeneric,Kaçırma
+Feature.Notifications.Label.PushUpsellGeneric,"Sohbet mesajları, davetler, arkadaş istekleri ve daha fazlası gibi etkinlikler için bildirim al."
+Feature.Squads.Action.Join,Katıl
+Feature.VerificationUpsell.Action.EditPhoneNumber,Telefon Numarasını Düzenle
+IAPExperience.LeaveRoblox.Action.Cancel,İptal Et
+IAPExperience.LeaveRoblox.Action.Continue,Devam Et
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"""Devam et"" düğmesine tıkladığında Roblox'a ait olmayan veya Roblox tarafından işletilmeyen bir web sitesine yönlendirileceksin. Bu web sitesi, farklı koşullara ve gizlilik politikasına sahip olabilir."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Roblox'tan Çıkılıyor
+Feature.ReportAbuse.Label.HighlightProblem,Problemi dairelerle vurgula
+Feature.Toast.NetworkingError.SomethingIsWrong,Bir şeyler yanlış gitti. Lütfen tekrar dene.
+Feature.Accessibility.Description.PreferredTextSize,Tercihlerine göre Roblox genelinde metin boyutunu değiştir
+Feature.Accessibility.Heading.PreferredTextSize,Metin boyutu
+Feature.Accessibility.PreferredTextSize.Default,Varsayılan
+Feature.Accessibility.PreferredTextSize.Largest,En Büyük
+Feature.Accessibility.Action.ScrollDown,Aşağı Kaydır
+Feature.Accessibility.Action.ScrollUp,Yukarı Kaydır
+CoreScripts.PublishAvatarPrompt.BuyCreation,Yaratımı Satın Al
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,Tamam
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,Bir hata oluştu ve abonelik yenileme iptal edilemedi. Lütfen tekrar dene.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,Hata
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,Aboneliğin zaten başarıyla iptal edildi. Başka bir işlem yapmana gerek yok.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,Zaten İptal Edildi
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,Aboneliğini şimdi iptal edersen {date} tarihine kadar sunucuya erişmeye devam edebilirsin.
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,İptal Etme
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,Aboneliği İptal Et
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,"Evet, İptal Et"
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,Aboneliğin başarıyla iptal edildi
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,Artık abone değilsin.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,İptal edilemiyor
+Feature.Subscription.Error.GenericSubscribeError,Abone olmaya çalışırken bir şeyler ters gitti. Lütfen daha sonra tekrar dene.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,Tamamlandığında öğeyi envanterinde bulabilirsin.
+CoreScripts.TopBar.JoinVoice,Sesli Sohbet Et
+Feature.ReportAbuse.Heading.ReportAbuse,Kötüye Kullanım Bildir
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,"Hatalı İçerik Olgunluk Düzeyi (ör. kan, şiddet)"
+Feature.ReportAbuse.Label.CategoryBullyingV2,"Zorbalık, Taciz, Ayrımcılık"
+Feature.ReportAbuse.Label.CategoryContent,"Uygunsuz İçerik - Dünya, Görüntü, Model"
+Feature.ReportAbuse.Label.CategoryDating,Flört Etme
+Feature.ReportAbuse.Label.CategoryInappropriate,Uygunsuz Dil - Küfür ve Yetişkin İçeriği
+Feature.ReportAbuse.Label.CategoryOther,Diğer kural ihlali
+Feature.ReportAbuse.Label.CategoryPrivateInfo,Kişisel Bilgi Talep Etme veya Verme
+Feature.ReportAbuse.Label.CategoryScamming,"İstismar, Hile, Dolandırıcılık"
+Feature.ReportAbuse.Label.CategoryTheft,"Hesap Hırsızlığı - Kimlik Hırsızlığı, Hacking, Takas"
+Feature.ReportAbuse.Label.CategoryThreats,Gerçek Hayat Tehditleri ve İntihar Tehditleri
+Feature.ReportAbuse.Message.Success,Bildirin gönderildi.
+CoreScripts.Ads.Label.ReportAd,Reklamı Bildir
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} şöyle dedi:
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,Sesli Sohbete Katıldın
+Feature.SettingsHub.Prompt.LeaveVoiceChat,Sesli sohbet bağlantısı kesildi
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,İstediğin zaman sesle olan bağlantıyı kesebilir veya herhangi birini susturabilirsin.
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,İstediğin zaman sesle olan bağlantıyı kesebilir veya herhangi birini buradan susturabilirsin
+Feature.SettingsHub.Action.Ok,Tamam
+Feature.SettingsHub.Action.OpenSettings,Ayarları Aç
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,Mikrofon Erişimi Gerekli
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,Başkalarıyla sesli sohbet edebilmek için Roblox'un mikrofona erişmesine izin ver.
+CoreScripts.Ads.Label.InappropriateAd,Uygunsuz Reklam
+CoreScripts.TopBar.Party,Grup
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. İzni seç<br />2. Mikrofonu seç<br />Roblox'un Mikrofonuna erişmesine izin ver</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. Ayarlar > Gizlilik > İzinler bölümüne git<br />2. Mikrofonu seç<br />Roblox'un Mikrofonuna erişmesine izin ver</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. Uygulamaların mikrofununa erişmesine izin ver seçeneğini aç<br />2. Roblox'un Mikrofonuna erişmesine izin ver</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. Ayarlar > Gizlilik > Mikrofon bölümüne git<br />2. Uygulamaların mikrofununa erişmesine izin ver seçeneğini aç<br />3. Roblox'un Mikrofonuna erişmesine izin ver</b>
+Feature.ReportAbuse.Action.ContinueReport,Bildirmeye devam et
+Feature.ReportAbuse.Action.EnterChatLineReporting,Kötüye kullanım bildir
+Feature.ReportAbuse.Label.FinishChatReport,Sohbet raporunu tamamla
+Feature.ReportAbuse.Label.SelectChatLine,Bildirmek için bir sohbet seç
+CoreScripts.Ads.Label.IllegalContentReportingLink,Yasa dışı veya çocuklara zararlı içeriği raporla
+Feature.ReportAbuse.Problem.Bullying,Zorbalık
+Feature.ReportAbuse.Problem.Cheating,Hile
+Feature.ReportAbuse.Problem.Dating,Flört etme/Seks
+Feature.ReportAbuse.Problem.Hate,Nefret söylemi
+Feature.ReportAbuse.Problem.Links,Site dışı bağlantılar
+Feature.ReportAbuse.Problem.Personal,Kişisel bilgiler
+Feature.ReportAbuse.Problem.Scamming,Dolandırıcılık
+Feature.ReportAbuse.Problem.Spamming,Spam
+Feature.ReportAbuse.Problem.Swearing,Küfür
+Feature.ReportAbuse.Problem.Violence,Şiddet
+Feature.VerifiedParentalControls.Action.Cancel,İptal Et
+Feature.ReportAbuse.Action.ReturnToExperience,Deneyime dön
+Feature.ReportAbuse.Label.ReportSubmitted,Bildirim gönderildi
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,Yapabileceğin diğer şeyler:
+Feature.ReportAbuse.Label.SentInAnotherChat,Başka bir sohbette gönderildi
+Feature.ReportAbuse.Label.SentPrivately,Özel olarak gönderildi
+Feature.ReportAbuse.Message.ThankYouReport,"Teşekkürler. Bildirimini, Roblox'u herkes için eğlenceli ve güvenli bir yer hâline getirmek için kullanacağız."
+Feature.VerifiedParentalControls.Action.Close,Kapat
+Feature.VerifiedParentalControls.Action.GoToSettings,Ayarlara git
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,Satın alım işlemi gerçekleştirmek için bölgesel kısıtlamalar nedeniyle ebeveyn iznine ihtiyacın var. Ayarlar > Harcama bölümünde ebeveyninden izin istemek için lütfen web'i ziyaret et veya yardımcı bir cihazı kullan.
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,Satın alım işlemi gerçekleştirmek için bölgesel kısıtlamalar nedeniyle ebeveyn iznine ihtiyacın var. Ayarlar > Harcama bölümünde ebeveyninden izin iste.
+Feature.VerifiedParentalControls.Label.AskParent,Ebeveynine Sor
+Common.VerifiedParentalConsent.Action.Cancel,İptal
+Common.VerifiedParentalConsent.Action.Close,Kapat
+Common.VerifiedParentalConsent.Action.GoToSettings,Ayarlara git
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,Satın alım işlemi gerçekleştirmek için bölgesel kısıtlamalar nedeniyle ebeveyn iznine ihtiyacın var. Ayarlar > Harcama bölümünde ebeveyninden izin istemek için lütfen web'i ziyaret et veya yardımcı bir cihaz kullan.
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,Satın alım işlemi gerçekleştirmek için bölgesel kısıtlamalar nedeniyle ebeveyn iznine ihtiyacın var. Ayarlar > Harcama bölümünde ebeveyninden izin iste.
+Common.VerifiedParentalConsent.Label.AskParent,Ebeveynine Sor
+Feature.ReportAbuse.Action.TextMute,Sohbetlerden engelle: {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,Mikrofon erişim değişikliklerinin uygulanabilmesi için uygulamayı yeniden başlatman gerekiyor.
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,Şu anda sohbete mesaj gönderemiyorsun. Mesajlarını kimse göremez.
+Features.OnDemandAds.Reward_Notification,Tebrikler! Bir {REWARD_NAME} kazandın!
+Feature.Avatar.Label.Front,Ön Taraf
+Feature.PlayWithReward.Message.ErrorBanner.Body,Bu ödül şu anda mevcut değil. Lütfen tekrar dene.
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,Arkadaşın {RBX_NAME} deneyime katıldı.
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,Arkadaş Ara
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,{RBX_NAME} adlı kişiye bir arkadaşlık isteği göndermek ister misin?
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,{RBX_NAME} adlı kişiyi arkadaş listenden çıkarmak ister misin?
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,Arkadaşlardan kaldır
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,{RBX_NAME} maksimum arkadaş sınırına ulaştığı için ona arkadaşlık isteği gönderemezsin.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,{RBX_NAME} adlı kişiye arkadaşlık isteği gönderilirken bir hata oluştu. Lütfen daha sonra tekrar dene.
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,Arkadaşlık isteği gönderilsin mi?
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,Arkadaşlardan kaldırılsın mı?

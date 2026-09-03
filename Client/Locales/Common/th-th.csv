@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,กำลังเทเลพอร์ต...
+Corescripts.AvatarContextMenu.FriendRequestPending,คำขอเป็นเพื่อนที่รอดำเนินการอยู่
+Corescripts.AvatarContextMenu.AddFriend,เพิ่มเพื่อน
+Corescripts.AvatarContextMenu.Friends,เพื่อน
+Corescripts.AvatarContextMenu.AcceptFriendRequest,ยอมรับคำขอเป็นเพื่อน
+Corescripts.AvatarContextMenu.Chat,แชท
+Corescripts.AvatarContextMenu.ChatDisabled,ปิดใช้งานการแชท
+Corescripts.AvatarContextMenu.Wave,ทักทาย
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,ต้องการเข้าถึงไอเท็มหรือไม่?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} ต้องการเข้าถึงไอเท็มของอวาตาร์ของคุณ
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,บันทึกตัวละครอวาตาร์
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,คุณต้องการบันทึกตัวละครนี้บน Roblox ใช่หรือไม่? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,ไม่ใช่
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,ใช่
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,ยกเลิก
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,ตกลง
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,สวมใส่ไอเท็มให้อวาตาร์
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} ต้องการทำการเปลี่ยนเแปลงต่อไปนี้กับอวาตาร์ของคุณ:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,ตกลง
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,ยกเลิก
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,ไอเท็มโปรด
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,"คุณต้องการเพิ่ม ""{RBX_NAME}"" ไปยังรายการโปรดใช่หรือไม่?"
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,ลบไอเท็มนี้ออกจากรายการโปรด
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,"คุณต้องการลบ ""{RBX_NAME}"" ออกจากรายการโปรดใช่หรือไม่?"
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,ไม่ใช่
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,ใช่
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,กรอกชื่อตัวละคร
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,ชื่อตัวละคร
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,ยืนยัน
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,โหลดไม่สำเร็จ
+CoreScripts.AvatarEditorPrompts.Adding,เพิ่ม:
+CoreScripts.AvatarEditorPrompts.Removing,ลบ:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,ไม่มีการเปลี่ยนแปลงใดๆ
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,ยกเลิก
+CoreScripts.PremiumModal.Title.PremiumRequired,สำหรับ Premium เท่านั้น
+CoreScripts.PremiumModal.Body.Description,สมาชิก Roblox Premium จะได้รับ:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux ต่อเดือน
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,การเข้าถึงสิทธิประโยชน์ต่างๆ สำหรับ Premium เท่านั้น
+CoreScripts.PremiumModal.Body.RobuxDiscount,โบนัส 10% เมื่อซื้อ Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/เดือน
+CoreScripts.PremiumModal.Error.PlatformUnavailable,แพลตฟอร์มของคุณไม่รองรับการซื้อ Roblox Premium โปรดใช้เดสก์ท็อปของคุณเพื่อซื้อ Premium
+CoreScripts.PremiumModal.Error.AlreadyPremium,ดูเหมือนว่านักพัฒนาจะพยายามแจ้งเตือนให้คุณซื้อ Roblox Premium แต่คุณเป็นสมาชิก Roblox Premium อยู่แล้ว!
+CoreScripts.PremiumModal.Error.Unavailable,ไม่สามารถใช้งาน Premium ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง!
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux ต่อเดือน
+CoreScripts.PremiumModal.Error.FailedNativePurchase,ไม่สามารถทำการซื้อนี้ให้เสร็จสมบูรณ์ได้ โปรดลองอีกครั้ง
+CoreScripts.PremiumModal.Title.Error,ข้อผิดพลาด
+CoreScripts.ScreenshotHud.Action.TakePhoto,ถ่ายรูป
+CoreScripts.ScreenshotHud.Action.Cancel,ยกเลิก
+CoreScripts.TextChat.ChatWindow.Welcome,"พิมพ์ ""/?"" หรือ ""/help"" ในแชทเพื่อดูคำสั่งต่างๆ ที่เกี่ยวกับการแชท"
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,คุณไม่สามารถใช้ท่าทางในระหว่างการดำเนินการนี้
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,คุณไม่สามารถใช้ท่าทางนี้ได้
+CoreScripts.TextChat.Emote.Error.R15Only,เฉพาะอวาตาร์ R15 เท่านั้นที่สามารถใช้ท่าทางได้
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,คุณไม่สามารถใช้ท่าทางได้ในตอนนี้
+CoreScripts.TextChat.Emote.Error.DoesNotExist,ไม่มีท่าทางนี้อยู่
+CoreScripts.TextChat.Emote.Error.NotEquipped,คุณไม่ได้เลือกใช้ท่าทางนั้นไว้
+CoreScripts.TextChat.Emote.Error.NotEnabled,คุณไม่สามารถใช้ท่าทางนั้นที่นี่ได้
+CoreScripts.TextChat.Help.FirstLine,คำสั่งแชทเบื้องต้นมีดังต่อไปนี้:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,คลิกที่นี่หรือกดที่ {KEY} เพื่อเริ่มแชท
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,การตั้งค่าแชทของคุณทำให้คุณไม่สามารถรับและส่งข้อความได้
+CoreScripts.TextChat.InputBar.Hint.Touch,แตะที่นี่เพื่อแชท
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,คุณจำเป็นต้องรอก่อนที่จะส่งข้อความอื่นต่อ
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,คุณไม่สามารถพูดคุยในแชนเนลนี้ได้
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,การตั้งค่าแชทของคุณทำให้คุณไม่สามารถรับและส่งข้อความได้
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,ข้อความของคุณยาวเกินความยาวสูงสุดที่กำหนดไว้แล้ว
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,ขณะนี้ตัวกรองแชทกำลังประสบปัญหาอยู่ทำให้ข้อความอาจปรากฏขึ้นช้า
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,ไม่สามารถส่งข้อความของคุณได้
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,คุณไม่สามารถปิดเสียงตัวเองได้
+CoreScripts.TextChat.Mute.Error.MultipleMatches,ผู้ใช้ที่ใช้ชื่อที่แสดงนี้มีดังต่อไปนี้: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,"ไม่มีผู้ใช้ที่ชื่อ ""{RBX_NAME}"""
+CoreScripts.TextChat.Mute.Help.Description,/mute <ผู้ใช้> : ปิดเสียงผู้ใช้
+CoreScripts.TextChat.Mute.Success,"ปิดเสียงผู้ใช้ ""{RBX_NAME}"" แล้ว"
+CoreScripts.TextChat.Notification.Friend.Joined,คนรู้จักของคุณที่ใช้ชื่อ {RBX_NAME} เข้าร่วมประสบการณ์แล้ว
+CoreScripts.TextChat.Notification.Team.Joined,"คุณอยู่ในทีม ""{RBX_NAME}"" แล้วตอนนี้"
+CoreScripts.TextChat.Notification.WhisperChat.Created,"คุณกำลังแชทแบบส่วนตัวกับ ""{RBX_NAME}"" อยู่ในตอนนี้"
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,คุณไม่สามารถแชทกับทีมได้หากคุณไม่ได้อยู่ในทีมนั้น
+CoreScripts.TextChat.TeamChat.Help.Description,/team <ข้อความ> หรือ /t <ข้อความ> : ส่งแชททีมไปยังคนในทีมของคุณ
+CoreScripts.TextChat.TeamChat.PrefixText,[Team]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <ผู้ใช้> : เปิดเสียงผู้ใช้
+CoreScripts.TextChat.Unmute.Success,"เปิดเสียงผู้ใช้ ""{RBX_NAME}"" แล้ว"
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,คุณไม่สามารถแชทกับผู้ใช้นี้ได้
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <ผู้ใช้> or /w <ผู้ใช้> : เปิดแชนเนลเพื่อแชทข้อความแบบส่วนตัวกับผู้ใช้
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[จาก: {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[ถึง: {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,ตารางอันดับ
+CoreScripts.TopBar.Emotes,ท่าทาง
+CoreScripts.TopBar.Inventory,คลังไอเท็ม
+CoreScripts.TopBar.Leave,ออก
+CoreScripts.TopBar.Chat,แชท
+CoreScripts.TopBar.QuickMenu,เมนูด่วน
+CoreScripts.TopBar.Menu,เมนู
+CoreScripts.TopBar.Respawn,เกิดใหม่
+CoreScripts.TopBar.Back,ย้อนกลับ
+CoreScripts.TopBar.Screenshot,ภาพหน้าจอ
+Feature.SettingsHub.Label.LoadingFriendsListFailed,เกิดข้อผิดพลาด โปรดลองอีกครั้งในภายหลัง
+Feature.SettingsHub.Action.CancelSearch,ยกเลิก
+Feature.SettingsHub.Label.DontLeaveButton,ดำเนินการต่อ
+Feature.SettingsHub.Action.InviteFriend,เชิญ
+Feature.SettingsHub.Heading.InviteFriends,เชิญเพื่อน
+Feature.SettingsHub.Label.Invited,เชิญแล้ว
+Feature.SettingsHub.Label.LeaveButton,ออก
+Feature.SettingsHub.Label.Moderated,กลั่นกรองแล้ว
+Feature.SettingsHub.Label.InviteSearchNoResults,ไม่พบผลการค้นหา
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,ค้นหาคนรู้จัก
+Feature.SettingsHub.Label.Sending,กำลังส่ง
+Feature.SettingsHub.Action.InviteFriendsBack,ย้อนกลับ
+Feature.SettingsHub.Message.InviteToGameTitle,"มาร่วมสนุกกับฉันใน ""{PLACENAME}"""
+Feature.SettingsHub.TouchMovementMode.DPad,D-Pad
+Feature.SettingsHub.Video.Off,ปิด
+Feature.SettingsHub.Video.SystemDefault,ค่าเริ่มต้นของระบบ
+Feature.SettingsHub.Video.VideoCamera,กล้องวิดีโอ
+Feature.SettingsHub.Default.DynamicThumbstick,ค่าเริ่มต้น (ทัมบ์สติกแบบไดนามิก)
+Feature.SettingsHub.DefaultKeyboard,ค่าเริ่มต้น (คีย์บอร์ด)
+Feature.SettingsHub.Heading.Capture,จับภาพ
+Feature.SettingsHub.Label.CaptureDescription2,รูปที่ถ่ายจะถูกบันทึกในอุปกรณ์ของคุณ
+Feature.SettingsHub.Label.ChooseOne,เลือก
+InGame.CommonUI.Title.Warning,คำเตือน
+InGame.CommonUI.Title.Error,ข้อผิดพลาด
+InGame.CommonUI.Button.Retry,ลองอีกครั้ง
+InGame.CommonUI.Button.Ok,ตกลง
+InGame.CommonUI.Title.Alert,คำเตือน
+InGame.CommonUI.Label.Default,ค่าเริ่มต้น
+InGame.CommonUI.Label.Custom,แบบกำหนดเอง
+InGame.CommonUI.Label.PossiblyCustom,อาจเป็นแบบกำหนดเอง
+InGame.CommonUI.Label.CustomOld,แบบกำหนดเองเวอร์ชันก่อนหน้านี้
+InGame.ConnectionError.DisconnectCloudEditKick,สูญเสียการเชื่อมต่อกับการสร้างร่วมกับเพื่อน โปรดเชื่อมต่ออีกครั้ง 
+InGame.ConnectionError.DisconnectWrongVersion,เวอร์ชัน Roblox ของคุณอาจไม่เป็นปัจจุบัน โปรดอัปเดต Roblox แล้วลองอีกครั้ง
+InGame.ConnectionError.TeleportFailure,เทเลพอร์ตไม่สำเร็จเนื่องจากข้อผิดพลาดที่ไม่คาดคิด โปรดลองเทเลพอร์ตอีกครั้ง
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,สูญเสียการเชื่อมต่อเนื่องจากข้อผิดพลาด
+InGame.ConnectionError.TeleportGameFull,เซิร์ฟเวอร์เต็มแล้ว โปรดลองอีกครั้งในภายหลังหรือใช้เซิร์ฟเวอร์อื่น
+InGame.ConnectionError.DisconnectPlayerless,เซิร์ฟเวอร์ถูกปิดการทำงานในขณะที่คุณพยายามเชื่อมต่อ โปรดลองอีกครั้ง
+InGame.ConnectionError.TeleportGameNotFound,ไม่พบสถานที่ปลายทาง โปรดตรวจสอบแล้วลองอีกครั้ง
+InGame.ConnectionError.DisconnectErrors,สูญเสียการเชื่อมต่อเนื่องจากข้อผิดพลาดที่ไม่ทราบสาเหตุ โปรดเชื่อมต่ออีกครั้ง
+InGame.ConnectionError.DisconnectDuplicateTicket,สูญเสียการเชื่อมต่อเนื่องจากข้อผิดพลาด ตรวจพบการเชื่อมต่อหลายรายการจากบัญชีเดียวกัน
+InGame.ConnectionError.DisconnectBadhash,สูญเสียการเชื่อมต่อเนื่องจากข้อผิดพลาด
+InGame.ConnectionError.DisconnectSendPacketError,เกิดปัญหาในการส่งข้อมูล โปรดเชื่อมต่ออีกครั้ง
+InGame.ConnectionError.DisconnectOnRemoteSysStats,คุณถูกบังคับให้ออกเนื่องจากพฤติกรรมของลูกค้าที่ไม่คาดคิด
+InGame.ConnectionError.DisconnectTimeout,การเชื่อมต่อของคุณหมดเวลาแล้ว โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,สูญเสียการเชื่อมต่อเนื่องจากข้อผิดพลาด
+InGame.ConnectionError.TeleportErrors,เทเลพอร์ตไม่สำเร็จเนื่องจากข้อผิดพลาดที่ไม่คาดคิด โปรดลองเทเลพอร์ตอีกครั้ง
+InGame.ConnectionError.TeleportGameEnded,ไม่สามารถใช้งานเซิร์ฟเวอร์ได้อีกต่อไป โปรดลองใช้เซิร์ฟเวอร์อื่นหรือลองอีกครั้งในภายหลัง
+InGame.ConnectionError.PlacelaunchFlooded,เซิร์ฟเวอร์ไม่ว่างในขณะนี้ โปรดลองอีกครั้ง
+InGame.ConnectionError.DisconnectProtocolMismatch,เวอร์ชัน Roblox ของคุณอาจไม่เป็นปัจจุบัน โปรดอัปเดต Roblox แล้วลองอีกครั้ง
+InGame.ConnectionError.DisconnectRobloxMaintenance,Roblox ได้ปิดการทำงานของเซิร์ฟเวอร์เพื่อทำการบำรุงรักษา โปรดลองอีกครั้ง
+InGame.ConnectionError.DisconnectHashTimeout,การเชื่อมต่อของคุณหมดเวลาแล้ว โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง
+InGame.ConnectionError.DisconnectReceivePacketError,เกิดปัญหาในการรับข้อมูล โปรดเชื่อมต่ออีกครั้ง
+InGame.ConnectionError.PlacelaunchOtherError,เรากำลังประสบปัญหาด้านเทคนิค โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.TeleportFlooded,มีการดำเนินการซ้ำมากเกินไป โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.DisconnectIllegalTeleport,สูญเสียการเชื่อมต่อเนื่องจากเทเลพอร์ตไม่ถูกต้อง 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,เกิดปัญหาในการสตรีมข้อมูล โปรดเชื่อมต่ออีกครั้ง
+InGame.ConnectionError.PlacelaunchError,ไม่พบเซิร์ฟเวอร์ที่คุณกำลังพยายามเข้าร่วม โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.TeleportUnauthorized,พยายามเทเลพอร์ตไปยังสถานที่ที่มีการจำกัดอยู่
+InGame.ConnectionError.Title.JoinError,เกิดข้อผิดพลาดในการเข้าร่วม
+InGame.ConnectionError.Title.Disconnected,ยกเลิกการเชื่อมต่อแล้ว
+InGame.ConnectionError.Title.TeleportFailed,เทเลพอร์ตไม่สำเร็จ
+InGame.ConnectionError.Message.ErrorCode,รหัสข้อผิดพลาด: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,เชื่อมต่ออีกครั้ง
+InGame.ConnectionError.DisconnectConnectionLost,โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง
+InGame.ConnectionError.DisconnectIdle,การเชื่อมต่อของคุณถูกยกเลิกเนื่องจากอยู่นิ่งเฉยเป็นเวลา {RBX_NUM} นาที
+InGame.ConnectionError.UnknownError,ข้อผิดพลาดที่ไม่ทราบสาเหตุ
+InGame.ConnectionError.ReconnectFailed,เชื่อมต่ออีกครั้งไม่สำเร็จ โปรดลองอีกครั้ง
+InGame.EmotesMenu.SelectAnEmote,เลือกท่าทาง
+InGame.EmotesMenu.NoEmotesEquipped,ไม่ได้เลือกใช้ท่าทางใดๆ อยู่
+InGame.EmotesMenu.ErrorMessageNotSupported,คุณไม่สามารถใช้ท่าทางที่นี่ได้
+InGame.EmotesMenu.ErrorMessageR15Only,เฉพาะอวาตาร์ R15 เท่านั้นที่สามารถใช้ท่าทางได้
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,คุณไม่สามารถใช้ท่าทางนั้นได้
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,คุณไม่สามารถใช้ท่าทางได้ในตอนนี้
+InGame.EmotesMenu.VisitShopToGetEmotes,คุณไม่มีท่าทาง โปรดไปที่ร้านค้าเพื่อรับท่าทางตอนนี้เลย!
+InGame.EmotesMenu.ErrorMessageSwitchToR15,สลับไปใช้อวาตาร์ R15 ของคุณเพื่อใช้ท่าทาง
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,คุณไม่สามารถใช้ท่าทางในระหว่างการดำเนินการนี้
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,"เกิดข้อผิดพลาดขณะส่งคำขอเป็นคนรู้จักไปยัง ""{RBX_NAME}"" โปรดลองอีกครั้งในภายหลัง"
+FriendPlayerPrompt.DoPromptUnfriendPlayer,คุณต้องการลบ {RBX_NAME} ออกจากรายชื่อคนรู้จักหรือไม่?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,คุณต้องการส่งคำขอเป็นคนรู้จักไปยัง {RBX_NAME} หรือไม่?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,คุณไม่สามารถส่งคำขอเป็นคนรู้จักไปยัง {RBX_NAME} เนื่องจากผู้รับมีคนรู้จักเต็มจำนวนสูงสุดแล้ว
+FriendPlayerPrompt.Title.SendFriendRequest,ต้องการส่งคำขอเป็นเพื่อนใช่หรือไม่?
+FriendPlayerPrompt.Label.Unfriend,ลบคนรู้จัก
+InGame.GameplayPaused.Title,การเล่นเกมถูกหยุดชั่วคราว
+InGame.GameplayPaused.Body,การเล่นเกมถูกหยุดชั่วคราว: โปรดรอสักครู่ขณะโหลดเนื้อหาของเกม
+InGame.HelpMenu.UpArrow,ลูกศรขึ้น
+InGame.HelpMenu.DownArrow,ลูกศรลง
+InGame.HelpMenu.LeftArrow,ลูกศรซ้าย
+InGame.HelpMenu.RightArrow,ลูกศรขวา
+InGame.HelpMenu.Label.ServerVersion,เวอร์ชันเซิร์ฟเวอร์:
+InGame.HelpMenu.Label.ClientVersion,เวอร์ชันไคลเอ็นต์:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,เวอร์ชันสถานที่:
+InGame.HelpMenu.Leave,ออก
+InGame.HelpMenu.Resume,เล่นต่อ
+InGame.HelpMenu.Label.ClientCoreScriptVersion,เวอร์ชัน CoreScript ของไคลเอ็นต์:
+InGame.InspectMenu.Description.NoInventoryNotice,ผู้ใช้นี้ไม่ได้สวมใส่ไอเท็มใดๆ ที่คุณสามารถสำรวจได้
+InGame.InspectMenu.Description.MultipleBundlesNotice,ไอเท็มนี้เป็นส่วนหนึ่งของชุดรวมหลายชุด
+InGame.InspectMenu.Description.SingleBundleNotice,ไอเท็มนี้เป็นส่วนหนึ่งของชุดรวม
+InGame.InspectMenu.Action.TakeOff,ถอดออก
+InGame.InspectMenu.Action.TryOn,ลองสวมใส่
+InGame.InspectMenu.Action.Buy,ซื้อ
+InGame.InspectMenu.Action.Inspect,สำรวจ
+InGame.InspectMenu.Action.View,ดู
+InGame.InspectMenu.Label.Owned,เป็นเจ้าของแล้ว
+InGame.InspectMenu.Label.Offsale,หยุดขาย
+InGame.InspectMenu.Label.Limited,ลิมิเต็ด
+InGame.InspectMenu.Label.CurrentlyWearing,สวมใส่อยู่ตอนนี้
+InGame.InspectMenu.Label.By,โดย {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,สามารถซื้อไอเท็มนี้ได้จากผู้ขายต่อในแค็ตตาล็อกเท่านั้น
+InGame.InspectMenu.Label.Avatar,อวาตาร์ของ {PLAYER_NAME}
+InGame.InspectMenu.Label.NoResellers,ไม่มีผู้ขายต่อ
+InGame.InspectMenu.Label.PremiumOnly,Premium เท่านั้น
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,ลดลงเหลือ {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,เพิ่มขึ้นเป็น {RBX_NUMBER}
+NotificationScript2.NewFollower,"ผู้ติดตามใหม่ ""{RBX_NAME}"" กำลังติดตามคุณอยู่ในตอนนี้!"
+NotificationScript2.FriendRequestEvent.Accept,"คุณเป็นเพื่อนกับ ""{RBX_NAME}"" แล้วตอนนี้!"
+NotificationScript2.onPointsRewarded.negative,คุณเสียไป {RBX_NUMBER} คะแนน!
+NotificationScript2.onPointsAwarded.single,คุณได้รับ {RBX_NUMBER} คะแนน!
+NotificationScript2.onPointsAwarded.multiple,คุณได้รับ {RBX_NUMBER} คะแนน!
+NotificationScript2.onBadgeAwardedTitle,ได้รับเหรียญตราแล้ว
+NotificationScript2.onBadgeAwardedDetail,"{RBX_NAME} ได้รับ ""{BADGE_NAME}"" จาก {CREATOR_NAME} เป็นรางวัล!"
+NotificationScript2.Screenshot.Title,ถ่ายภาพหน้าจอแล้ว
+NotificationScript2.Screenshot.Description,ไปที่โฟลเดอร์ภาพหน้าจอของคุณเพื่อดูภาพ
+NotificationScript2.Screenshot.ButtonText,เปิดโฟลเดอร์
+NotificationScript2.Video.Title,บันทึกวิดีโอแล้ว
+NotificationScript2.Video.Description,ไปที่โฟลเดอร์วิดีโอของคุณเพื่อดูวิดีโอ
+NotificationScript2.Video.ButtonText,เปิดโฟลเดอร์
+NotificationScript2.Capture.Permission.AlertTitle,เปิดใช้งานสิทธิ์ในการบันทึก
+NotificationScript2.Capture.Permission.AlertText,คุณต้องอนุญาตให้เข้าถึงรูปภาพเพื่อใช้คุณสมบัตินี้ คุณสามารถเปลี่ยนการตั้งค่านี้ได้โดยไปที่การตั้งค่าอุปกรณ์ของคุณ
+NotificationScript2.Capture.Permission.AlertTextIOS,"ไปที่การตั้งค่า > ความเป็นส่วนตัว > รูปภาพ แล้วเปิดการใช้งานให้ Roblox สามารถบันทึกภาพที่จับไปยัง ""ล่าสุด"" ได้"
+NotificationScript2.Capture.Permission.AlertTextAndroid,ไปที่การตั้งค่า > Roblox > การอนุญาต แล้วเปิดใช้งานพื้นที่จัดเก็บข้อมูลเพื่อบันทึกภาพที่จับไปยังคลังรูปภาพของคุณ
+NotificationScript2.Capture.Permission.AlertButtonText,ตกลง
+NotificationScript2.Capture.Success.ToastText,บันทึกการจับภาพแล้ว
+NotificationScript2.Capture.Fail.ToastText,จับภาพไม่สำเร็จ
+NotificationScript2.UINavigation.Title,เปิดใช้การนำทางบน UI แล้ว
+NotificationScript2.UINavigation.Text,"กด ""\ เพื่อเปิด/ปิด"""
+NotificationScript2.CameraToggle.Title,เปิดใช้การควบคุมกล้องแล้ว
+NotificationScript2.CameraToggle.Text,คลิกปุ่มเมาส์ขวาเพื่อเปิด/ปิด
+NotificationScript2.GraphicsQuality.Title,คุณภาพกราฟิก
+PlayerDropDown.onUnfollowButtonPress.success,เลิกติดตาม {RBX_NAME} แล้ว
+PlayerDropDown.onFollowButtonPress.success,กำลังติดตาม {RBX_NAME} อยู่ในตอนนี้
+PlayerDropDown.CannotSendFriendRequest,ไม่สามารถส่งคำขอเป็นเพื่อนได้
+PlayerDropDown.FriendLimit,คุณมีเพื่อนถึงจำนวนสูงสุดแล้ว
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} มีเพื่อนถึงจำนวนสูงสุดแล้ว
+PlayerDropDown.UnFollow,เลิกติดตาม
+PlayerDropDown.Follow,ติดตาม
+PlayerDropDown.Report,รายงานการกระทำผิด
+PlayerDropDown.Examine,สำรวจอวาตาร์
+PlayerDropDown.Unfriend,เลิกเป็นเพื่อน
+PlayerDropDown.FriendRequest,คำขอเป็นเพื่อน
+PlayerDropDown.CancelRequest,ยกเลิกคำขอแล้ว
+PlayerDropDown.Accept,ยอมรับ
+InGame.PlayerList.Leaderboard,ตารางอันดับ
+InGame.Presence.Label.InStudio,ใน Studio
+InGame.Presence.Label.Offline,ออฟไลน์
+InGame.Presence.Label.Online,ออนไลน์
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,ไม่สามารถดึงข้อมูลยอดคงเหลือของคุณได้ในตอนนี้ บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน โปรดลองอีกครั้งในภายหลัง
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX กำลังดำเนินการบำรุงรักษา
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,Robux ที่เหลืออยู่จำนวน {RBX_NUMBER} จะได้รับการเครดิตไปยังยอดคงเหลือของคุณ
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,สถานที่นี้ปิดใช้งานการขายไอเท็มจากภายนอก บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,ตั๋วที่คุณมีอยู่ในขณะนี้ไม่เพียงพอที่จะซื้อไอเท็มนี้ หากต้องการตั๋วเพิ่มเติมลองทำการแลกเปลี่ยนสกุลเงินบน www.roblox.com
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,ไอเท็มนี้ไม่ได้ขายอยู่ในขณะนี้ บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,"ไอเท็มนี้จำเป็นต้องใช้ {RBX_NAME1} คลิก ""อัปเกรด"" เพื่ออัปเกรด Builders Club ของคุณ!"
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,ไอเท็มนี้เป็นไอเท็มจำนวนจำกัดและไม่มีสำเนาเหลือแล้ว ลองทำการซื้อจากผู้ใช้รายอื่นๆ บน www.roblox.com บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,ต้องการซื้อ {RBX_NAME1} {RBX_NAME2} ในราคา
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,เราไม่สามารถดึงข้อมูลราคาของไอเท็มได้ในตอนนี้ บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน โปรดลองอีกครั้งในภายหลัง
+PurchasePromptScript.PURCHASE_MSG.FREE,คุณต้องการรับ {RBX_NAME2} ฟรีหรือไม่?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,คุณจำเป็นต้องสร้างบัญชี ROBLOX เพื่อซื้อไอเท็ม สำหรับข้อมูลเพิ่มเติมโปรดไปที่ www.roblox.com
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,คุณต้องการอีก {RBX_NUMBER} Robux จึงจะสามารถซื้อ {RBX_NAME1} {RBX_NAME2} ได้ คุณต้องการซื้อ Robux เพิ่มหรือไม่?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,เจ้าของบัญชีมีอายุต่ำกว่า 13 ปี จึงไม่ได้รับอนุญาตให้ซื้อไอเท็มนี้ บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,หลังการทำธุรกรรมนี้คุณจะมียอดคงเหลือ {RBX_NUMBER}
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,ขณะนี้คุณมียอดคงเหลือ {RBX_NUMBER}
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,คุณซื้อไม่สำเร็จเนื่องจาก {ERROR_REASON} บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน โปรดลองอีกครั้งในภายหลัง
+PurchasePromptScript.PURCHASE_MSG.FAILED,คุณซื้อ {RBX_NAME1} ไม่สำเร็จเนื่องจาก {RBX_NAME2} บัญชีของคุณจะไม่ถูกเรียกเก็บเงิน โปรดลองอีกครั้งในภายหลัง
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,คุณซื้อ {RBX_NAME1} สำเร็จเรียบร้อยแล้ว!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,มีปัญหาบางอย่างเกิดขึ้น
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,บัญชีของคุณมี Robux ไม่เพียงพอ
+StatsUtil.KBps,{RBX_NUMBER} KB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(เครือข่าย)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <แชนเนล> : สลับแท็บเมนูแชนเนล
+GameChat_ChatCommandsTeller_MeCommand,/me <ข้อความ> : คำสั่งการสวมบทบาทเพื่อดำเนินการต่างๆ
+GameChat_ChatCommandsTeller_MuteCommand,/mute <ผู้พูด> : ปิดเสียงผู้พูด
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <ผู้พูด> : เปิดเสียงผู้พูด
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <ผู้พูด> or /w <ผู้พูด> : เปิดแชนเนลเพื่อแชทข้อความแบบส่วนตัวกับผู้พูด
+Average,โดยเฉลี่ย
+GameChat_ChatServiceRunner_ChannelDoesNotExist,"ไม่มีแชนเนล ""{RBX_NAME}"" อยู่"
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,"พิมพ์ ""/?"" หรือ ""/help"" ในแชทเพื่อดูคำสั่งต่างๆ ที่เกี่ยวกับการแชท"
+GameChat_SwallowGuestChat_Message,สร้างบัญชีฟรีเพื่อรับสิทธิ์ในการแชท!
+Current,ปัจจุบัน
+DisableVoiceKey,ปิดใช้งานการแชทด้วยเสียง
+EnableVoiceKey,เปิดใช้งานการแชทด้วยเสียง
+key_142,เพื่อนใหม่ {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,ไม่จำเป็น
+key_145,ได้รับคะแนน คุณได้รับ {RBX_NUMBER} คะแนน!
+Received,ได้รับ
+BACKPACK_SEARCH,ค้นหา
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,คำอธิบายโดยย่อ (ไม่จำเป็น)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,"ไม่มีผู้พูด ""{RBX_NAME}"" อยู่"
+GameChat_ChatMain_SpeakerHasBeenBlocked,"บล็อคผู้พูด ""{RBX_NAME}"" แล้ว"
+GameChat_ChatMain_SpeakerHasBeenMuted,"ปิดเสียงผู้พูด ""{RBX_NAME}"" แล้ว"
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,"เลิกบล็อคผู้พูด ""{RBX_NAME}"" แล้ว"
+GameChat_ChatMain_SpeakerHasBeenUnMuted,"เปิดเสียงผู้พูด ""{RBX_NAME}"" แล้ว"
+GameChat_ChatMain_ChatBarTextTouch,แตะที่นี่เพื่อแชท
+Target,เป้าหมาย
+GameChat_ChatService_ChatFilterIssues,ขณะนี้ตัวกรองแชทกำลังประสบปัญหาอยู่ทำให้ข้อความอาจปรากฏขึ้นช้า
+GameChat_ChatCommandsTeller_Desc,คำสั่งเหล่านี้เป็นคำสั่งแชทเบื้องต้น
+GameChat_TeamChat_WelcomeMessage,แชนเนลนี้เป็นแชนเนลส่วนตัวระหว่างคุณและสมาชิกในทีมของคุณ
+GameChat_ChatMain_ChatBarText,"คลิกที่นี่หรือกดที่ ""/"" เพื่อเริ่มแชท"
+GameChat_ChatChannel_MutedInChannel,คุณถูกปิดเสียงและไม่สามารถพูดคุยในแชนเนลนี้ได้
+GameChat_ChatServiceRunner_YouAreNotInChannel,คุณไม่ได้อยู่ในแชนเนล {RBX_NAME}
+GameChat_SwitchChannel_NotInChannel,"คุณไม่ได้อยู่ในแชนเนล: ""{RBX_NAME}"""
+GameChat_TeamChat_NowInTeam,"คุณอยู่ในทีม ""{RBX_NAME}"" แล้วตอนนี้"
+GameChat_PrivateMessaging_NowChattingWith,"คุณกำลังแชทแบบส่วนตัวกับ ""{RBX_NAME}"" อยู่ในตอนนี้"
+GameChat_ChatServiceRunner_YouCannotJoinChannel,"คุณไม่สามารถเข้าร่วมแชนเนล ""{RBX_NAME}"" ได้"
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,"คุณไม่สามารถออกจากแชนเนล ""{RBX_NAME}"" ได้"
+GameChat_ChatService_CannotLeaveChannel,คุณไม่สามารถออกจากแชนเนลนี้ได้
+GameChat_DoMuteCommand_CannotMuteSelf,คุณไม่สามารถปิดเสียงตัวเองได้
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,คุณไม่สามารถแชททีมได้หากคุณไม่ได้อยู่ในทีมนั้น!
+GameChat_PrivateMessaging_CannotWhisperToSelf,คุณไม่สามารถแชทแบบส่วนตัวกับตัวเองได้
+GameChat_ChatService_YouHaveLeftChannel,"คุณได้ออกจากแชนเนล ""{RBX_NAME}"" แล้ว"
+GameChat_ChatFloodDetector_Message,คุณจำเป็นต้องรอก่อนที่จะส่งข้อความอื่นต่อ!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,คุณจำเป็นต้องรอเป็นเวลา {RBX_NUMBER} วินาทีก่อนที่จะส่งข้อความอื่นต่อ!
+KEY_PLAYER_IDLE_DISCONNECT,คุณถูกยกเลิกการเชื่อมต่อเนื่องจากอยู่นิ่งเฉยเป็นเวลา {RBX_NUMBER} นาที
+GameChat_ChatMessageValidator_SettingsError,การตั้งค่าแชทของคุณทำให้คุณไม่สามารถส่งข้อความได้
+GameChat_ChatMessageValidator_WhitespaceError,ข้อความของคุณมีช่องว่างซึ่งไม่ได้รับอนุญาต
+GameChat_ChatMessageValidator_MaxLengthError,ข้อความของคุณยาวเกินความยาวสูงสุดที่กำหนดไว้แล้ว
+GameChat_SwitchChannel_NowInChannel,"ตอนนี้คุณกำลังแชทอยู่ในแชนเนล: ""{RBX_NAME}"""
+Sent,ส่งแล้ว
+Corescripts.AvatarContextMenu.PlayerBlocked,ผู้ใช้ที่ถูกบล็อค
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,ไม่ทราบชื่อประสบการณ์
+CoreScripts.TopBar.GameNamePlaceHolder,ประสบการณ์
+Feature.SettingsHub.Label.LeaveGame,คุณแน่ใจหรือไม่ว่าคุณต้องการออกจากประสบการณ์นี้?
+Feature.SettingsHub.Label.GameInviteError,ไม่สามารถส่งคำเชิญเข้าร่วมประสบการณ์ได้ โปรดลองอีกครั้งในภายหลัง
+Feature.SettingsHub.Label.ModeratedInviteError,คำเชิญเข้าร่วมประสบการณ์ไม่ผ่านเกณฑ์การกลั่นกรองจึงไม่ถูกส่ง
+Feature.SettingsHub.Action.InviteFriendsToPlay,เชิญเพื่อน
+Feature.SettingsHub.Label.CaptureDescription,จับภาพประสบการณ์ของคุณ รูปที่ถ่ายจะถูกบันทึกในอุปกรณ์ของคุณ
+Feature.SettingsHub.Label.CaptureDescription1,จับภาพประสบการณ์ของคุณ
+Feature.SettingsHub.Label.WhichPlayer,ผู้ใช้คนนั้นคือใคร?
+InGame.ConnectionError.DisconnectDuplicatePlayer,บัญชีเดียวกันนี้เปิดใช้ประสบการณ์อยู่บนอุปกรณ์อื่นแล้ว ออกจากประสบการณ์ในอีกอุปกรณ์แล้วลองอีกครั้ง
+InGame.ConnectionError.PlacelaunchUserLeft,ผู้ใช้ที่คุณต้องการเข้าร่วมได้ออกจากประสบการณ์แล้ว
+InGame.ConnectionError.PlacelaunchHashExpired,ไม่สามารถเข้าใช้ประสบการณ์นี้ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.PlacelaunchUnauthorized,คุณไม่มีสิทธิ์ในการเข้าร่วมประสบการณ์นี้
+InGame.ConnectionError.PlacelaunchDisabled,สถานที่ปลายทางถูกจํากัด โปรดลองใช้สถานที่อื่นหรือลองอีกครั้งในภายหลัง
+InGame.ConnectionError.DisconnectRejoin,บัญชีเดียวกันนี้เปิดใช้ประสบการณ์อยู่บนอุปกรณ์อื่นแล้ว เชื่อมต่ออีกครั้งหากคุณต้องการใช้บนอุปกรณ์นี้
+InGame.ConnectionError.DisconnectDevMaintenance,นักพัฒนาประสบการณ์นี้ได้ปิดการทำงานของเซิร์ฟเวอร์ประสบการณ์ชั่วคราว โปรดลองอีกครั้ง
+InGame.ConnectionError.DisconnectEvicted,บัญชีเดียวกันนี้เปิดใช้ประสบการณ์อยู่บนอุปกรณ์อื่นแล้ว โปรดเชื่อมต่ออีกครั้งหากคุณต้องการใช้บนอุปกรณ์นี้
+InGame.ConnectionError.PlacelaunchPartyCannotFit,กลุ่มของคุณใหญ่เกินไปที่จะเข้าร่วมประสบการณ์นี้ โปรดลองเข้าร่วมประสบการณ์อื่น
+InGame.ConnectionError.PlacelaunchRestricted,สถานะของประสบการณ์ได้เปลี่ยนแปลงแล้วและคุณไม่มีสิทธิ์ในการเข้าถึงอีกต่อไป โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.PlacelaunchErrors,เกิดข้อผิดพลาดขณะเข้าร่วมประสบการณ์ โปรดลองอีกครั้ง
+InGame.ConnectionError.DisconnectLuaKick,คุณถูกบังคับให้ออกโดยประสบการณ์นี้หรือผู้กลั่นกรอง
+InGame.ConnectionError.PlacelaunchHashException,ไม่สามารถเข้าใช้ประสบการณ์นี้ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง
+InGame.ConnectionError.DisconnectLuaKickWithMessage,คุณถูกบังคับให้ออกโดยประสบการณ์นี้หรือผู้กลั่นกรอง ข้อความการควบคุมดูแล:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,ไม่สามารถใช้ท่าทางได้ในประสบการณ์นี้
+FriendPlayerPrompt.Title.UnfriendPlayer,ต้องการลบคนรู้จักใช่ไหม?
+InGame.PlayerList.Players,ผู้ใช้
+InGame.Presence.Label.InGame,ในประสบการณ์
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,การซื้อในประสบการณ์ถูกปิดใช้งานชั่วคราว
+GameChat_ChatCommandsTeller_TeamCommand,/team <ข้อความ> หรือ /t <ข้อความ> : ส่งแชททีมไปยังคนในทีมของคุณ
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,แชนเนลนี้เป็นแชนเนลสำหรับการแจ้งเตือนของระบบและประสบการณ์
+GameChat_GetVersion_Message,ประสบการณ์นี้ใช้แชทในเวอร์ชัน [{RBX_NUMBER}.{RBX_NUMBER}]
+GameChat_PrivateMessaging_CannotChat,คุณไม่สามารถแชทกับผู้ใช้นี้ได้
+GameChat_FriendChatNotifier_JoinMessage,คนรู้จักของคุณที่ใช้ชื่อ {RBX_NAME} เข้าร่วมประสบการณ์แล้ว
+Authentication.Login.WeChat.AntiAddictionText,คว่ำบาตรประสบการณ์แย่ๆ ปฏิเสธประสบการณ์ที่ละเมิดลิขสิทธิ์ รู้จักการป้องกันตัวและระวังไม่ให้ถูกหลอกลวง การเยี่ยมชมประสบการณ์ต่างๆ นั้นดีต่อสมองของคุณ แต่หากเยี่ยมชมหลายประสบการณ์มากเกินไปอาจก่อให้เกิดอันตรายต่อสุขภาพของคุณได้ บริหารเวลาของคุณให้ดีและสนุกกับการใช้ชีวิตแบบเฮลธ์ตี้
+Authentication.Login.Label.WeChatAntiAddictionText,คว่ำบาตรประสบการณ์แย่ๆ ปฏิเสธประสบการณ์ที่ละเมิดลิขสิทธิ์ รู้จักการป้องกันตัวและระวังไม่ให้ถูกหลอกลวง การเยี่ยมชมประสบการณ์ต่างๆ นั้นดีต่อสมองของคุณ แต่หากเยี่ยมชมหลายประสบการณ์มากเกินไปอาจก่อให้เกิดอันตรายต่อสุขภาพของคุณได้ บริหารเวลาของคุณให้ดีและสนุกกับการใช้ชีวิตแบบเฮลธ์ตี้
+Feature.SettingsHub.Label.NoFriendsScreen,หาเพื่อนแล้วเชิญให้เข้าร่วมประสบการณ์ต่างๆ กับคุณ!
+Feature.SettingsHub.Label.RecentPlayed,เยี่ยมชมล่าสุด
+InGame.HelpMenu.ConfirmLeaveGame,คุณแน่ใจหรือไม่ว่าคุณต้องการออกจากประสบการณ์นี้?
+PlayerDropDown.UnBlock,เลิกบล็อค
+PlayerDropDown.Block,บล็อค
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,เกิดข้อผิดพลาดภายใน โปรดลองลงชื่อเข้าใช้อีกครั้ง
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,ทัมบ์สติกแบบคลาสสิก
+Feature.SettingsHub.Action.Unblock,เลิกบล็อค
+Feature.SettingsHub.Action.Block,บล็อค
+Feature.SettingsHub.Heading.BlockUser,บล็อค {DisplayName}
+Feature.SettingsHub.Action.Cancel,ยกเลิก
+Feature.SettingsHub.Message.BlockConfirmation,คุณและ {DISPLAY_NAME} (@{RBX_NAME}) จะไม่สามารถสื่อสารกันได้อีกต่อไป
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,ลบตัวละครอวาตาร์
+Feature.SettingsHub.Heading.Report.ThanksForReport,ขอบคุณสำหรับการรายงานของคุณ!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,เราได้รับรายงานของคุณแล้วและจะดำเนินการให้เร็วที่สุดหากจำเป็น ข้อเสนอแนะของคุณช่วยรักษาชุมชนของเราให้ปลอดภัย
+Feature.SettingsHub.Label.Report.OtherActionsHeader,สิ่งอื่นที่คุณสามารถทำได้
+Feature.SettingsHub.Action.Report.Done,เสร็จสิ้น
+Feature.SettingsHub.Label.Report.BlockDisplayName,บล็อค {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,เลิกบล็อค {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,"คุณต้องการลบตัวละคร ""{RBX_NAME}"" ออกจาก Roblox ใช่หรือไม่?"
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,คุณต้องการลบตัวละครนี้ออกจาก Roblox ใช่หรือไม่?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,ลบ
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,ยกเลิก
+InGame.InspectMenu.Description.LayeredClothingR6,ลักษณะร่างกาย R6 ไม่รองรับไอเท็มนี้
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,เปลี่ยนชื่อตัวละคร
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,"กรอกชื่อใหม่สำหรับตัวละคร ""{RBX_NAME}"":"
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,ต้องการเปลี่ยนชื่อตัวละครใช่หรือไม่?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,การเปลี่ยนชื่อตัวละครถูกปิดใช้งาน
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,การเปลี่ยนชื่อตัวละครถูกปิดใช้งาน
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,ตกลง
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,คุณแน่ใจหรือไม่ว่าคุณต้องการปฏิเสธคำขอเป็นเพื่อนทั้งหมด?
+Feature.Friends.Label.Cancel,ยกเลิก
+Feature.SettingsHub.GameSettings.Input,อินพุต
+Feature.SettingsHub.GameSettings.Output,เอาต์พุต
+Feature.SettingsHub.GameSettings.Device,อุปกรณ์
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,ไม่ได้ยินเสียงจากการแชทด้วยเสียง
+Feature.SettingsHub.Prompt.Permission,ไม่สามารถใช้การแชทด้วยเสียงได้
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,"ระดับเสียงในเกมถูกตั้งค่าเป็น ""0"" ในการตั้งค่า โปรดเพิ่มระดับเสียงเพื่อให้ได้ยิน"
+Feature.SettingsHub.Prompt.Subtitle.Permission,ไปที่การตั้งค่าของคุณเพื่ออนุญาตให้ Roblox ใช้ไมโครโฟน
+Feature.SettingsHub.Prompt.Subtitle.Retry,โปรดลองออกจากประสบการณ์แล้วเข้าร่วมอีกครั้ง
+Feature.FaceChat.Message.PlaceUnavailable,ไม่สามารถใช้สถานที่นี้ได้ชั่วคราว โปรดลองอีกครั้งในภายหลัง
+Feature.FaceChat.Subtitle.NotAvailable,โปรดลองออกจากประสบการณ์แล้วเข้าร่วมอีกครั้ง
+Feature.SettingsHub.GameSettings.InputDevice,อุปกรณ์อินพุต
+Feature.SettingsHub.GameSettings.OutputDevice,อุปกรณ์เอาต์พุต
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,"โปรดทราบ: การคลิกที่ปุ่ม ""ปฏิเสธทั้งหมด"" จะลบคำขอเป็นเพื่อนรายการล่าสุดของคุณได้สูงสุด 300 รายการต่อครั้ง"
+Feature.SettingsHub.Prompt.VoiceChatSuspended,การแชทด้วยเสียงถูกระงับ
+Feature.SettingsHub.Prompt.Subtitle.Respect,โปรดให้เกียรติซึ่งกันและกันเพื่อให้ทุกคนสามารถใช้ Roblox ได้อย่างสนุกสนาน
+Feature.SettingsHub.Prompt.Understand,ฉันเข้าใจแล้ว
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,เสียงตามตำแหน่งทิศทางจะสามารถใช้ได้กับสถานที่ที่มีผู้เล่นสูงสุด 30 คนเท่านั้น
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,บัญชีนี้ไม่มีสิทธิ์ในการใช้เสียงตามตำแหน่งทิศทาง
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,มีผู้เล่นเกินจำนวนสูงสุดแล้ว
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,ไม่มีสิทธิ์ในการใช้เสียง
+InGame.ConnectionError.Action.Restart,รีสตาร์ท
+InGame.ConnectionError.Heading.VRDisconnected,ยกเลิกการเชื่อมต่อกับเฮดเซ็ทแล้ว
+InGame.ConnectionError.Message.RestartApp,หากต้องการเล่นต่อ โปรดรีสตาร์ทแอป
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,ตกลง
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,ยกเลิก
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,ต้องการอัปเดตตัวละครใช่หรือไม่?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,คุณต้องการอัปเดตตัวละครที่บันทึกไว้ใช่หรือไม่?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,"คุณต้องการอัปเดตตัวละคร ""{RBX_NAME}"" ใช่หรือไม่?"
+Feature.SettingsHub.Prompt.Subtitle.Place,เสียงตามตำแหน่งทิศทางจะสามารถได้กับสถานที่ที่มีผู้เล่นสูงสุด 30 คนเท่านั้น
+Feature.SettingsHub.Prompt.Subtitle.User,บัญชีนี้ไม่มีสิทธิ์ในการใช้เสียงตามตำแหน่งทิศทาง
+Feature.SettingsHub.Prompt.Place,มีผู้เล่นเกินจำนวนสูงสุดแล้ว
+Feature.SettingsHub.Prompt.User,ไม่มีสิทธิ์ในการใช้เสียง
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,"คุณต้องการอัปเดตตัวละคร ""{RBX_NAME}"" ใช่หรือไม่?"
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,คุณต้องการอัปเดตตัวละครที่บันทึกไว้ใช่หรือไม่?
+InGame.InspectMenu.Action.Cancel,ยกเลิก
+InGame.InspectMenu.Action.Confirm,ยืนยัน
+InGame.InspectMenu.Action.Favorite,เพิ่มไปยังรายการโปรด
+InGame.CommonUI.Message.LuobuGameJoinWarning,โปรดอย่าเลียนแบบพฤติกรรมในเกมที่เป็นอันตราย หากคุณพบพฤติกรรมเชิงลบใดๆ โปรดรายงานการกระทำผิดในทันที
+Feature.DevModule.ProfileCard.StatusPlaceholder,คุณกำลังคิดอะไรอยู่?
+Feature.DevModule.ProfileCard.StatusErrorMessage,สถานะของคุณมีคำที่ไม่เหมาะสม
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,สมาชิก Roblox Premium จะได้รับ:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux ต่อเดือน
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,เข้าถึงสิทธิประโยชน์สำหรับ Premium เท่านั้น
+Feature.PremiumUpsell.Label.AvatarShopBenefits,เข้าถึงไอเท็มลดราคาและไอเท็มสุดพิเศษได้ในร้านค้าอวาตาร์
+Feature.PremiumUpsell.Title.GetPremium,สมัครสมาชิก Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/เดือน
+Feature.PremiumUpsell.Label.Disclosure,สมัครสมาชิกในราคา <b>{currencySymbol}{price}/เดือน ยกเลิกได้ตลอดเวลา</b> ข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวของ Roblox มีผลบังคับใช้
+Feature.PremiumUpsell.Action.Subscribe,สมัครสมาชิก
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,เนื่องจากคุณได้ละเมิดมาตรฐานชุมชนของเรา เราจึงได้ยกเลิกการเข้าถึงการแชทด้วยเสียงของคุณชั่วคราวจนถึงวันที่
+Feature.SettingsHub.Prompt.Subtitle.Revoked,เนื่องจากคุณได้ละเมิดมาตรฐานชุมชนของเราหลายครั้ง เราจึงได้ยกเลิกการเข้าถึงการแชทด้วยเสียงของคุณชั่วคราวจนกว่าช่วง Beta จะสิ้นสุดลง
+InGame.InspectMenu.Action.Unfavorite,ลบออกจากรายการโปรด
+Feature.AddFriends.Action.FriendAdded,เพิ่มเป็นเพื่อนแล้ว
+Feature.AddFriends.Action.RequestIgnored,คำขอถูกปฏิเสธ
+Feature.Avatar.Label.LeftInitial,L
+Feature.Avatar.Label.Right,R
+Feature.Avatar.Label.RightInitial,R
+Feature.Friends.Label.Following,กำลังติดตาม
+Feature.Friends.Label.Followers,ผู้ติดตาม
+Feature.Friends.Label.MutualFriends,เพื่อนที่มีร่วมกัน
+Feature.Friends.Label.FollowsYou,ติดตามคุณ
+Feature.Friends.Label.YouAreFollowing,คุณกำลังติดตาม
+Feature.Friends.Action.Block,บล็อค
+Feature.Friends.Label.Friend,เพื่อน
+Feature.Friends.Action.Unblock,เลิกบล็อค
+Verification.Identity.Label.VoiceChatUpsell,ประสบการณ์นี้รองรับการแชทด้วยเสียงตามตำแหน่งทิศทาง หากต้องการใช้คุณสมบัตินี้ คุณต้องตรวจสอบยืนยันว่าคุณมีอายุอย่างน้อย 13 ปี
+Verification.Identity.Action.SkipVoiceChat,เข้าร่วมโดยไม่ใช้การแชทด้วยเสียง
+Verification.Identity.Label.DontShowAgain,ไม่ต้องแสดงอีก
+Verification.Identity.Label.EnableVoiceChat,เปิดใช้งานการแชทด้วยเสียง
+Verification.Identity.Label.UsesVoiceChat,ประสบการณ์นี้ใช้การแชทด้วยเสียง การเปิดใช้งานการแชทด้วยเสียงจะใช้อินพุตจากไมโครโฟนของคุณในประสบการณ์ที่เปิดการใช้งานเสียง
+Verification.Identity.Label.ToggleInstruction,คุณสามารถสลับเปิดหรือปิดใช้งานคุณสมบัตินี้ได้ในการตั้งค่าของคุณ
+Verification.Identity.Label.JoinWithout,เข้าร่วมโดยไม่ใช้การแชทด้วยเสียง
+InGame.CommonUI.BetaBadge.BadgeText,เวอร์ชัน Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,โปรดรายงานการกระทำผิดหากคุณพบผู้ที่ไม่ปฏิบัติตามแนวทางปฏิบัติสำหรับชุมชนของเรา หากคุณเลือกเข้าร่วมการแชทด้วยเสียง Roblox จะบันทึกเสียงพูดของคุณจากที่ใดก็ได้บนแพลตฟอร์มเพื่อกลั่นกรองและดูแลความปลอดภัย การใช้คุณสมบัติการแชทด้วยเสียงต่อหมายความว่าคุณยินยอมให้ Roblox เก็บรวมรวม ใช้ และจัดเก็บการบันทึกเสียงของคุณเพื่อกลั่นกรองและดูแลความปลอดภัย คุณสามารถเลือกไม่เข้าร่วมการใช้คุณสมบัติเสียงตามตำแหน่งทิศทางได้ตลอดเวลา
+InGame.CommonUI.Badge.Popup.HeaderList,คุณได้เลือกเข้าร่วมการใช้คุณสมบัติเวอร์ชัน Beta ของเราอย่างน้อยหนึ่งรายการ:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,การแชทด้วยเสียง
+InGame.CommonUI.Badge.BadgeText,BETA
+InGame.CommonUI.Badge.Popup.LearnMoreLink,เรียนรู้เพิ่มเติม
+InGame.CommonUI.Badge.Popup.LearnMoreText,หากต้องการข้อมูลเพิ่มเติม โปรดไปที่บทความช่วยเหลือ “คำถามที่พบบ่อยเกี่ยวกับการบันทึกเสียง”
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,คุณสามารถแชทได้อย่างอิสระมากขึ้นด้วยตัวกรองที่ลดลง! ผู้ใช้ที่มีสิทธิ์ซึ่งมีอายุ 13 ปีขึ้นไปเท่านั้นที่สามารถใช้คุณสมบัตินี้ได้
+InGame.CommonUI.Badge.Popup.VoiceInfo,คุณได้เลือกเข้าร่วมใช้การแชทด้วยเสียงซึ่งเป็นคุณสมบัติเวอร์ชัน Beta ของเรา Roblox จะบันทึกเสียงพูดของคุณจากที่ใดก็ได้บนแพลตฟอร์มเพื่อกลั่นกรองและดูแลความปลอดภัย การใช้คุณสมบัติการแชทด้วยเสียงต่อหมายความว่าคุณยินยอมให้ Roblox เก็บรวมรวม ใช้ และจัดเก็บการบันทึกเสียงของคุณเพื่อกลั่นกรองและดูแลความปลอดภัย คุณสามารถเลือกไม่เข้าร่วมการใช้คุณสมบัติการแชทด้วยเสียงได้ตลอดเวลา
+InGame.CommonUI.Badge.Popup.CommunityStandards,โปรดรายงานการกระทำผิดหากคุณพบผู้ที่ไม่ปฏิบัติตามมาตรฐานชุมชนของเรา
+Feature.NativeAds.Label.Sponsored,ได้รับการสนับสนุน
+Feature.NativeAds.Label.Ad,โฆษณา
+InGame.ConnectionError.DisconnectOutOfMemory,อุปกรณ์ของคุณมีหน่วยความจำไม่เพียงพอที่จะใช้ประสบการณ์นี้ โปรดออกแล้วกลับไปยังแอป
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,เนื่องจากประสิทธิภาพของอุปกรณ์ ประสบการณ์นี้จึงไม่เสถียรและอาจเกิดข้อขัดข้องได้
+InGame.ConnectionError.Title.ExperienceUnstable,ประสบการณ์ไม่เสถียร
+Feature.SettingsHub.Label.MethodOfAbuse,ลักษณะของการกระทำความผิด
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,การแชทด้วยเสียง
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,บุคคลนี้กำลังส่งเสียงดัง
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,ผู้ใช้คนนี้พิมพ์คำที่ไม่เหมาะสมในการแชทด้วยข้อความ
+Feature.SettingsHub.MethodOfAbuse.Text.Title,การแชทด้วยข้อความ
+Feature.SettingsHub.MethodOfAbuse.Other.Title,อื่นๆ
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,ผู้ใช้คนนี้ติดตามฉันไปทุกที่ สวมเสื้อที่มีเนื้อหาไม่เหมาะสม ฯลฯ
+Feature.SettingsHub.ReportSubmitted.MutePlayer,ปิดเสียง {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,บล็อค {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,เราได้รับรายงานของคุณแล้วและจะดำเนินการเพิ่มเติมให้เร็วที่สุดหากจำเป็น ข้อเสนอแนะของคุณช่วยรักษาชุมชนของเราให้ปลอดภัย
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,คุณจะไม่ได้ยิน {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,คุณและ {Player} จะไม่สามารถสื่อสารกันได้อีกต่อไป
+Feature.SettingsHub.Label.ReportComment,โปรดอธิบายเพื่อช่วยให้เราเข้าใจถึงปัญหา
+Feature.SocialShare.Action.Share,แชร์
+Feature.SocialShare.Label.ShareServerLink,แชร์ลิงก์คำเชิญ
+Feature.SocialShare.Label.Copied,คัดลอกแล้ว
+Feature.AccountSettings.Label.FreeCommConsentOnly,ฉันยินยอมให้ Roblox รวบรวม ใช้ และจัดเก็บการบันทึกเสียงของฉันเพื่อวัตถุประสงค์ในการกลั่นกรองและความปลอดภัยเท่านั้น
+InGame.CommonUI.Button.KeepPlaying,เล่นต่อไป
+InGame.ConnectionError.Title.OutOfMemory,หน่วยความจำไม่เพียงพอ
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,ประสบการณ์นี้ใช้หน่วยความจำไม่มากเกินไปซึ่งอาจทำให้เกิดข้อขัดข้องได้
+Feature.SettingsHub.Label.DefaultInviteMessage,คุณต้องการเชิญ {DisplayName} ให้เข้าร่วมประสบการณ์กับคุณใช่หรือไม่?
+Feature.SettingsHub.Heading.InviteUser,ต้องการเชิญ {DisplayName} หรือไม่?
+Feature.SettingsHub.Action.MuteAll,ปิดเสียงทั้งหมด
+Feature.SettingsHub.Action.UnmuteAll,เปิดเสียงทั้งหมด
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,คุณไม่สามารถแชทแบบส่วนตัวกับตัวเองได้
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,คำเตือน: การเปลี่ยนชื่อผู้ใช้ของคุณจะลบสถานะของเครื่องหมายรับรองออก คุณแน่ใจหรือไม่ว่าคุณต้องการดำเนินการนี้?
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,การแสดงป้ายชื่อ
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,แสดง
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,ซ่อน
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (ต้นฉบับ)
+Feature.SettingsHub.LanguageSelection.Unavailable,ไม่สามารถใช้ได้
+Feature.SettingsHub.LanguageSelection.SettingLabel,ภาษาของประสบการณ์
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,เรียนรู้เพิ่มเติมเกี่ยวกับการบันทึกเสียง
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,ต้องการปิดเสียงและบล็อค {DisplayName} หรือไม่?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,คุณและ {Player} จะไม่สามารถสื่อสารกันได้อีกต่อไป
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,ต้องการปิดเสียง {DisplayName}(@{Username}) หรือไม่?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,ต้องการบล็อค {DisplayName}(@{Username}) หรือไม่?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,คุณและ {DisplayName}(@{Username}) จะไม่สามารถสื่อสารกันได้อีกต่อไป
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,คุณได้บล็อคและปิดเสียง {Displayname}(@{Username}) แล้ว
+Feature.SettingsHub.ReportSubmitted.Muted,คุณได้ปิดเสียง {Displayname}(@{Username}) แล้ว
+Feature.SettingsHub.ReportSubmitted.Blocked,คุณได้บล็อค {Displayname}(@{Username}) แล้ว
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,ต้องการปิดเสียงและบล็อค {DisplayName}(@{Username}) หรือไม่?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,การเทเลพอร์ตถูกหยุดชั่วคราว
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,การเทเลพอร์ตจะดำเนินการต่อเมื่อปิดเมนู
+Feature.NativeAds.Action.EnterExperience,กรอกประสบการณ์
+Feature.NativeAds.Action.ReturnToExperience,กลับไปยังประสบการณ์
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,การตั้งค่าความเป็นส่วนตัวของคุณทำให้คุณไม่สามารถเข้าร่วมเซิร์ฟเวอร์นี้ได้
+CoreScripts.TopBar.RobloxMenu,เมนู Roblox
+InGame.CommonUI.Label.MicOff,ไมโครโฟนปิดอยู่
+InGame.CommonUI.Label.MicOnRecording,ไมโครโฟนเปิดอยู่ (กำลังบันทึกเสียง)
+InGame.InspectMenu.Label.VerifiedAvatar,อวาตาร์ของ {PLAYER_NAME}{VERIFIED_BADGE}
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,คุณมี Robux ไม่เพียงพอที่จะซื้อไอเท็มนี้
+IAPExperience.InsufficientRobux.Text.CurrentBalance,ยอดคงเหลือปัจจุบัน
+IAPExperience.InsufficientRobux.Action.Cancel,ยกเลิก
+IAPExperience.InsufficientRobux.Action.BuyRobux,ซื้อ Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,Adornee ของ AdGui ไม่ใช่รูปทรงบล็อก
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,การหมุน Adornee ของ AdGui ไม่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdPortalParentType,ประเภท Parent ไม่ถูกต้อง
+Feature.NativeAds.Description.AdPortalParentMissing,ไม่มี Parent
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,ขนาด Adornee ของ AdGui ไม่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,ตำแหน่ง Adornee ของ AdGui ไม่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal ไม่มีลำดับชั้นที่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdGuiValidation,ตรวจสอบความถูกต้องของ AdGui ไม่สำเร็จ
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal ไม่มีชุดคุณสมบัติที่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,ส่วนประกอบ Parent ของ AdPortal ไม่มีชุดคุณสมบัติที่ถูกต้อง
+Feature.NativeAds.Description.InvalidAdGuiAdornee,Adornee ของ AdGui ไม่ใช่ส่วนประกอบ
+Feature.NativeAds.Description.AdPortalMissing,ไม่มี AdPortal 
+IAPExperience.InsufficientRobux.Text.YouNeed,คุณต้องการเพิ่มอีก {robux} โปรดซื้อแพ็คเกจ Robux เพิ่มเติมแล้วกลับมาที่ประสบการณ์อีกครั้ง
+IAPExperience.InsufficientRobux.Action.RobuxStore,ไปที่ร้านค้า Robux
+CoreScripts.TextChat.Emote.Error.NotOwned,"คุณไม่ได้เป็นเจ้าของท่าทาง ""{RBX_EMOTE}"""
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,เนื่องจากคุณได้ละเมิดมาตรฐานชุมชนของเรา เราจึงได้ยกเลิกการเข้าถึงการแชทด้วยเสียงของคุณชั่วคราวจนถึงวันที่
+Feature.SettingsHub.Prompt.MicUseSuspended,การใช้ไมโครโฟนถูกระงับ
+InGame.ConnectionError.Title.LowMemoryWarning,คำเตือน: หน่วยความจำเหลือน้อย
+InGame.ConnectionError.Queue,ลำดับของคุณในแถว: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,ส่งเสื้อผ้า
+CoreScripts.PublishAssetPrompt.TitleTextEmote,ส่งท่าทาง
+CoreScripts.PublishAssetPrompt.TitleTextPackage,ส่งแพ็คเกจ
+CoreScripts.PublishAssetPrompt.Name,ชื่อ
+CoreScripts.PublishAssetPrompt.Description,คำอธิบาย
+CoreScripts.PublishAssetPrompt.InvalidName,ชื่อไม่ถูกต้อง
+CoreScripts.PublishAssetPrompt.InvalidDescription,คำอธิบายไม่ถูกต้อง
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,ฉันยอมรับว่าประสบการณ์นี้จะส่งไอเท็มสำหรับอวาตาร์ของฉันไปยังทีมกลั่นกรองและอัปโหลดไปยังการสร้างสรรค์ของฉัน
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,ฉันยอมรับว่าประสบการณ์นี้จะส่งท่าทางของฉันไปยังทีมกลั่นกรองและอัปโหลดไปยังการสร้างสรรค์ของฉัน
+CoreScripts.PublishAssetPrompt.Cancel,ยกเลิก
+CoreScripts.PublishAssetPrompt.Submit,ส่ง
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,คำอธิบาย
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,ชื่อ
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,คุณไม่ได้เป็นเจ้าของท่าทางนั้น
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,กล้อง
+InGame.CommonUI.Label.Return,กลับไปยัง
+InGame.CommonUI.Label.ReturnFallback,กลับไปยังประสบการณ์ก่อนหน้า
+InGame.CommonUI.Label.ReturnTo,"กลับไปยัง ""{placeName}"""
+Feature.FaceChat.Heading.FacialAnimation,แอนิชันบนใบหน้า
+Feature.FaceChat.Subtitle.FeatureDisabled,ไม่สามารถใช้แอนิเมชันบนใบหน้าได้ชั่วคราว โปรดลองอีกครั้งในภายหลัง
+Feature.FaceChat.Subtitle.ServerDisabled,ไม่สามารถใช้แอนิเมชันบนใบหน้าได้ชั่วคราว โปรดลองอีกครั้งในภายหลัง
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,การปิดกล้องของคุณอาจช่วยปรับปรุงประสิทธิภาพของประสบการณ์
+Feature.FaceChat.Heading.VideoNoPermission,ไม่สามารถใช้กล้องได้
+Feature.FaceChat.Subtitle.VideoNoPermission,ไปที่การตั้งค่าของคุณเพื่ออนุญาตให้ Roblox ใช้กล้อง
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,อุปกรณ์มีประสิทธิภาพต่ำ
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,ไม่สามารถใช้แอนิเมชันบนใบหน้าได้
+Feature.FaceChat.Heading.VideoUnsupported,ไม่รองรับกล้องนี้
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox ไม่สามารถใช้กล้องของคุณเพื่อเคลื่อนไหวอวาตาร์ของคุณ
+Feature.SettingsHub.Prompt.Connecting,กำลังเชื่อมต่อกับเสียงอยู่
+Feature.SettingsHub.Prompt.Subtitle.Connecting,การเชื่อมต่อกับเสียงอยู่ระหว่างดำเนินการ อาจใช้เวลาสักครู่
+CoreScripts.ContactList.Label.Outgoing,โทรออก
+CoreScripts.ContactList.Label.Incoming,โทรเข้า
+CoreScripts.ContactList.Label.Missed,ไม่ได้รับ
+Feature.FaceChat.Heading.LODCameraForceDisable,ปิดการใช้งานกล้องแล้ว
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox ได้ปิดการใช้งานกล้องของคุณเนื่องจากปัญหาด้านประสิทธิภาพ
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,ตั้งค่า
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,คุณต้องตั้งค่าการตรวจสอบยืนยันตัวตน 2 ขั้นตอนเพื่อดำเนินการนี้ให้เสร็จสิ้น การตั้งค่านี้จะช่วยปกป้องการลงชื่อเข้าใช้ การซื้อ และอื่นๆ อีกมากมายของคุณ
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,ต้องตรวจสอบยืนยันตัวตน 2 ขั้นตอน
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,เนื่องจากคุณได้ละเมิดมาตรฐานชุมชนของเรา เราจึงได้ยกเลิกการเข้าถึงการแชทด้วยเสียงและการแชทด้วยอวาตาร์ของคุณชั่วคราวจนถึงวันที่
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,การละเมิดในอนาคตอาจส่งผลให้มีการดำเนินการเพิ่มเติมกับบัญชี
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,มีผลบังคับถึงวันที่
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,ระบบของเราตรวจพบพฤติกรรมที่อาจเป็นการละเมิดมาตรฐานชุมชนของเรา เพื่อเป็นการป้องกันเราได้ปิดการเข้าถึงการแชทด้วยเสียงและอวาตาร์ของคุณชั่วคราว
+Feature.SettingsHub.Prompt.Subtitle.Microphone,ระบบของเราตรวจพบพฤติกรรมที่อาจเป็นการละเมิดมาตรฐานชุมชนของเรา เพื่อเป็นการป้องกันเราได้ปิดการเข้าถึงการแชทด้วยเสียงของคุณชั่วคราว
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,การใช้งานไมโครโฟนและกล้องถูกระงับ
+IAPExperience.BuyRobux.Banner.Text,Robux ช่วยให้คุณสามารถซื้อการอัปเกรดให้กับอวาตาร์ของคุณหรือความสามารถพิเศษในประสบการณ์ได้
+IAPExperience.BuyRobux.Banner.Title,ปลดล็อค Robux
+IAPExperience.BuyRobux.Text.MoreRobux,รับเพิ่มขึ้น {robux} Robux
+InGame.ConnectionError.PlacelaunchHttpError,เกิดข้อผิดพลาดกับ Http โปรดปิดไคลเอ็นต์แล้วลองอีกครั้ง
+InGame.ConnectionError.PlacelaunchGameFull,ประสบการณ์ที่ร้องขอไม่มีที่ว่างแล้ว
+InGame.ConnectionError.PlacelaunchGameEnded,ประสบการณ์นี้ได้สิ้นสุดลงแล้วหรือไม่สามารถใช้งานเซิร์ฟเวอร์ได้โดยไม่คาดคิดเนื่องจากข้อผิดพลาดของระบบ
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,อุปกรณ์ของคุณมีหน่วยความจำไม่เพียงพอ การออกตอนนี้จะช่วยรักษาสถานะของคุณและป้องกันไม่ให้ Roblox เกิดข้อขัดข้อง
+InGame.ConnectionError.Waiting,กำลังรอเซิร์ฟเวอร์ที่พร้อมใช้งาน
+InGame.ConnectionError.Loading,พบเซิร์ฟเวอร์แล้ว กำลังโหลด...
+InGame.ConnectionError.Joining,เข้าร่วมเซิร์ฟเวอร์นี้
+NotificationScript2.UINavigation.FormattedText,กด {KEY_NAME} เพื่อเปิด/ปิด
+Feature.FaceChat.Subtitle.UnsupportedDevice,ฮาร์ดแวร์ของคุณมีคุณสมบัติไม่ตรงตามข้อกำหนดในการใช้กล้องเพื่อเคลื่อนไหวอวาตาร์ของคุณ
+Feature.AccountSettings.Heading.Communication,การสื่อสาร
+Feature.FaceChat.Heading.NotAvailable,ไม่สามารถใช้แอนิเมชันบนใบหน้าได้
+InGame.ConnectionError.DisconnectPrivateServerKickout,การเชื่อมต่อของคุณถูกยกเลิกเนื่องจากคุณไม่มีสิทธิ์เข้าถึงเซิร์ฟเวอร์ส่วนตัวนี้อีกต่อไป
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,แพ็คเกจของ {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,อวาตาร์ของคุณมีศีรษะที่ไม่รองรับแอนิเมชันบนใบหน้า คุณสามารถดูศีรษะที่ได้รับการรองรับได้ในคลังไอเท็มของคุณและร้านค้าอวาตาร์
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,ยกเลิก
+CoreScripts.EmoteThumbnailEditor.Action.Update,อัปเดต
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,แก้ไขภาพขนาดย่อ
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,หมุน
+CoreScripts.EmoteThumbnailEditor.Label.Time,เวลา
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,คุณแน่ใจหรือไม่ว่าคุณต้องการออกเพื่อเข้าใช้ประสบการณ์อื่น?
+Feature.SettingsHub.Prompt.SimpleNudge,โปรดใช้ภาษาที่สุภาพและเป็นมิตร
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,ระบบของเราตรวจพบพฤติกรรมที่อาจเป็นการละเมิดมาตรฐานชุมชนของเรา นี่เป็นการแจ้งเตือนให้ใช้งานบน Roblox อย่างสุภาพและเป็นมิตร
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,การละเมิดในอนาคตอาจส่งผลให้มีการดำเนินการเพิ่มเติมกับบัญชี
+Feature.SettingsHub.Prompt.ThankYouForFeedback,ขอบคุณที่แจ้งให้เราทราบ
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,เราจะนำข้อเสนอแนะของคุณมาใช้ในการปรับปรุงระบบของเราต่อไป
+Feature.SettingsHub.Chat.TranslationEnabled,แปลการแชทโดยอัตโนมัติ
+Notifications.ToastNotifications.Title.LeavingExperience,ออกจากประสบการณ์
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,คุณสามารถดูไอเท็มนี้ได้ในคลังไอเท็มของคุณ
+CoreScripts.PublishAssetPrompt.PublishFailed,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง
+CoreScripts.PublishAssetPrompt.PermissionDenied,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง
+CoreScripts.PublishAssetPrompt.Timeout,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง
+CoreScripts.PublishAssetPrompt.NoUserInput,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,สำเร็จแล้ว!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,ส่งไม่สำเร็จ
+Feature.SettingsHub.Chat.TranslationInformation,ข้อความแชทจะได้รับการแปลเป็นภาษาของคุณ แตะสัญลักษณ์หน้าข้อความเพื่อดูต้นฉบับ
+CoreScripts.TextChat.Clear.Help.Description,/clear หรือ /cls: ล้างข้อความในหน้าต่างแชท 
+GameChat_ChatMain_ChatTranslationOnboarding,ข้อความในแชทจะได้รับการแปลเป็นภาษาของคุณ แตะสัญลักษณ์หน้าข้อความเพื่อดูข้อความในภาษาต้นฉบับ คุณสามารถปิดการแปลภาษาได้ในเมนูการตั้งค่า
+CoreScripts.PublishAssetPrompt.TitleTextModel,ส่งแพ็คเกจ
+IAPExperience.BuyRobux.Text.MoreRobux2,รับเพิ่มขึ้น {robux} Robux
+CoreScripts.PublishAssetPrompt.UndefinedError,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง รหัสข้อผิดพลาด: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,ปิด
+InGame.CommonUI.Label.On,เปิด
+CoreScripts.PublishAssetPrompt.DisclaimerModel,เราจะตรวจสอบไอเท็มที่สร้าง คุณอาจไม่ได้รับเงินคืนสำหรับไอเท็มที่ถูกปฏิเสธเนื่องจากไม่เป็นไปตามมาตรฐานชุมชน
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,คุณซื้อ Robux สำเร็จเรียบร้อยแล้ว!
+CoreScripts.AssetPreviewView.Action.ResetView,รีเซ็ตมุมมอง
+CoreScripts.AssetPreviewView.Label.LoadingFailed,โหลดไม่สำเร็จ
+CoreScripts.PublishAssetPrompt.ResultModalOk,ตกลง
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,เราตรวจพบการใช้ภาษาที่อาจเป็นการละเมิดมาตรฐานชุมชน Roblox ของเรา<br /><br />คุณอาจสูญเสียการเข้าถึงการแชทด้วยเสียงหากทำการละเมิดหลายครั้ง
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,เราตรวจพบการใช้ภาษาที่อาจเป็นการละเมิดมาตรฐานชุมชน Roblox ของเรา คุณอาจสูญเสียการเข้าถึงการแชทด้วยเสียงหากทำการละเมิดหลายครั้ง
+Feature.SettingsHub.Prompt.GotIt,เข้าใจแล้ว
+CreatorDashboard.AssetTypes.Label.Body,
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Robux ไม่เพียงพอ
+IAPExperience.Loading.Text.PurchasingRobux,กำลังซื้อ Robux...
+IAPExperience.Loading.Text.PurchasingItem,กำลังซื้อไอเท็ม...
+IAPExperience.Loading.WaitingForPurchase,กำลังรอการซื้อ...
+IAPExperience.Loading.WaitingForRobux,กำลังรอรับ Robux...
+IAPExperience.Loading.Text.WaitingForPurchase,กำลังรอการซื้อ...
+IAPExperience.Loading.Text.WaitingForRobux,กำลังรอรับ Robux...
+Notifications.NotificationStream.Title.ReportNotification,การแจ้งเตือนเกี่ยวกับรายงาน
+Notifications.NotificationStream.AbuseReason.Bullying,การกลั่นแกล้ง
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,การโกง/การแสวงหาผลประโยชน์
+Notifications.NotificationStream.AbuseReason.Dating,การออกเดท
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,ลิงก์ไปนอกแพลตฟอร์ม
+Notifications.NotificationStream.AbuseReason.Other,อื่นๆ
+Notifications.NotificationStream.AbuseReason.AskingPII,การถามเกี่ยวกับเรื่องส่วนตัว
+Notifications.NotificationStream.AbuseReason.Scamming,การหลอกลวง
+Notifications.NotificationStream.AbuseReason.Profanity,คำสบถ
+Feature.ReportAbuse.Message.ErrorSubmit,เกิดปัญหากับการส่งรายงานของคุณ
+Feature.ReportAbuse.Action.ReportAbuse,รายงานการกระทำผิด
+Feature.ReportAbuse.Label.TellUsHowAsset,ทำไมคุณถึงคิดว่าทรัพยากรนี้ผิดกฎของ Roblox
+Feature.ReportAbuse.Label.ReasonForFlag,เหตุผลที่รายงาน:
+Feature.ReportAbuse.Message.ThanksForFlagging,แม้ว่าเราจะไม่สามารถตอบกลับทุกรายงานได้ แต่ข้อเสนอแนะของคุณช่วยให้เราสามารถปรับปรุงประสบการณ์สำหรับครีเอเตอร์ทุกคนได้
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,ความคิดเห็นของคุณต้องมีความยาวน้อยกว่า {characterLimit} อักขระ
+Feature.SettingsHub.Prompt.IncorrectNudge,หากมีอะไรผิดพลาด โปรด<br /><u>แจ้งให้เราทราบ</u>
+Feature.SettingsHub.Prompt.RememberRules,โปรดจดจำนโยบายของเรา
+Feature.SettingsHub.Label.Captures,จับภาพ
+InGame.InspectMenu.Label.LimitedItems,ไอเท็มแบบลิมิเต็ด
+InGame.InspectMenu.Label.FromResale,{PRICE} จากการขายต่อ
+InGame.InspectMenu.Action.FromResale,{PRICE} จากการขายต่อ
+InGame.InspectMenu.Label.OwnedItem,ไอเท็มที่เป็นเจ้าของแล้ว ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,ไอเท็มที่เป็นเจ้าของแล้ว ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,มีไอเท็มถึงจำนวนสูงสุดแล้ว
+Feature.FaceChat.Heading.UnableToAccessCamera,ไม่สามารถเข้าถึงกล้องได้
+Feature.FaceChat.Subtitle.UnableToAccessCamera,หากต้องการเคลื่อนไหวอวาตาร์ของคุณโดยใช้กล้อง โปรดไปที่การตั้งค่าระบบปฏิบัติการ (OS) เพื่ออนุญาตให้ Roblox ใช้กล้อง
+Feature.SettingsHub.Prompt.MicrophonePermission,ไม่สามารถเข้าถึงไมโครโฟนได้
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,หากต้องการแชทด้วยเสียง โปรดไปที่การตั้งค่าระบบปฏิบัติการ (OS) ของคุณเพื่ออนุญาตให้ Roblox ใช้ไมโครโฟน
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,จดจำสำหรับประสบการณ์นี้
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,ไม่ ปิดเสียงผู้อื่น
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,ใช่ เปิดเสียงผู้อื่น
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,คุณจะได้ยินเสียงผู้อื่น แต่ไมค์ของคุณจะถูกปิดเสียงไว้จนกว่าคุณพร้อมที่จะแชท
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,เข้าร่วมโดยเปิดเสียงไว้หรือไม่?
+CoreScripts.PublishCommon.Creator,ครีเอเตอร์
+CoreScripts.PublishCommon.Leave,ใช่
+CoreScripts.PublishCommon.MadeIn,ผลิตใน
+CoreScripts.PublishCommon.Stay,ไม่
+CoreScripts.PublishCommon.Type,ประเภท
+CoreScripts.PublishCommon.UnsavedWarning,คุณอาจสูญเสียการเปลี่ยนแปลงที่ยังไม่ได้บันทึก
+Feature.Accessibility.Description.PreferredTransparency,ปรับปรุงความคมชัดโดยการปรับความโปร่งใสให้กับบางพื้นหลัง
+Feature.Accessibility.Description.ReducedMotion,หยุดหรือลดเอฟเฟ็กต์การเคลื่อนไหว
+Feature.Accessibility.Description.UiNavigationKeyBind,ใช้คีย์ {uiNavigationKey} เพื่อเข้าสู่และออกจากโหมดการนำทางบน UI
+Feature.Accessibility.Heading.PreferredTransparency,ความโปร่งใสของพื้นหลัง
+Feature.Accessibility.Heading.ReducedMotion,ลดการเคลื่อนไหว
+Feature.Accessibility.Heading.UiNavigationKeyBind,เปิด/ปิดการนำทางบน UI
+Feature.Accessibility.PreferredTransparency.Opaque,ทึบ
+Feature.Accessibility.PreferredTransparency.Transparent,โปร่งใส
+Feature.Avatar.Heading.Clothing,เสื้อผ้า
+Feature.Avatar.Label.Accessory,ไอเท็มเสริม
+Feature.Avatar.Label.Back,ด้านหลัง
+Feature.Avatar.Label.ClassicPants,กางเกงขายาวแบบคลาสสิก
+Feature.Avatar.Label.ClassicShirts,เสื้อเชิ้ตแบบคลาสสิก
+Feature.Avatar.Label.ClassicTShirts,เสื้อยืดแบบคลาสสิก
+Feature.Avatar.Label.Climb,ปีน
+Feature.Avatar.Label.DressesAndSkirts,เดรสและกระโปรง
+Feature.Avatar.Label.DynamicHead,ศีรษะแบบเคลื่อนไหว
+Feature.Avatar.Label.Emote,ท่าทาง
+Feature.Avatar.Label.Face,ใบหน้า
+Feature.Avatar.Label.Fall,หล่น
+Feature.Avatar.Label.Gear,อุปกรณ์
+Feature.Avatar.Label.Hair,ผม
+Feature.Avatar.Label.Hat,หมวก
+Feature.Avatar.Label.Head,ศีรษะ
+Feature.Avatar.Label.Idle,อยู่นิ่ง
+Feature.Avatar.Label.Jacket,เสื้อแจ็คเก็ต
+Feature.Avatar.Label.Jump,กระโดด
+Feature.Avatar.Label.LeftArm,แขนซ้าย
+Feature.Avatar.Label.LeftArms,แขนซ้าย
+Feature.Avatar.Label.LeftLeg,ขาซ้าย
+Feature.Avatar.Label.LeftLegs,ขาซ้าย
+Feature.Avatar.Label.LeftShoe,รองเท้าข้างซ้าย
+Feature.Avatar.Label.Mood,อารมณ์
+Feature.Avatar.Label.Neck,คอ
+Feature.Avatar.Label.Pants,กางเกงขายาว
+Feature.Avatar.Label.RightArm,แขนขวา
+Feature.Avatar.Label.RightArms,แขนขวา
+Feature.Avatar.Label.RightLeg,ขาขวา
+Feature.Avatar.Label.RightLegs,ขาขวา
+Feature.Avatar.Label.RightShoe,รองเท้าข้างขวา
+Feature.Avatar.Label.Run,วิ่ง
+Feature.Avatar.Label.Shirt,เสื้อเชิ้ต
+Feature.Avatar.Label.Shorts,กางเกงขาสั้น
+Feature.Avatar.Label.Shoulder,ไหล่
+Feature.Avatar.Label.Sweater,เสื้อสเวตเตอร์
+Feature.Avatar.Label.Swim,ว่ายน้ำ
+Feature.Avatar.Label.Torso,ลำตัว
+Feature.Avatar.Label.TShirt,เสื้อยืด
+Feature.Avatar.Label.Waist,เอว
+Feature.Avatar.Label.Walk,เดิน
+Feature.Catalog.Label.Animation,แอนิเมชัน
+Feature.Catalog.Label.Attribution,จัดทำใน
+Feature.Catalog.Label.Body,ร่างกาย
+Feature.Catalog.Label.CategoryType,ประเภท
+Feature.Catalog.Label.Emotes,ท่าทาง
+Feature.Catalog.Label.Eyebrow,คิ้ว
+Feature.Catalog.Label.Eyelash,ขนตา
+Feature.Catalog.Label.Filter.Creator,ครีเอเตอร์
+Feature.GamepadDisconnect.Label.Message,"คอนโทรลเลอร์สำหรับผู้ใช้ ""%s"" ถูกตัดการเชื่อมต่อ โปรดกดปุ่ม ""%s"" บนคอนโทรลเลอร์เพื่อดำเนินการต่อ"
+Feature.GamepadDisconnect.Label.Title,ไม่พบคอนโทรลเลอร์
+InGame.InspectMenu.Action.SoldOut,ขายหมดแล้ว
+CoreScripts.PublishCommon.Disclaimer,เราจะตรวจสอบไอเท็มที่สร้าง คุณอาจไม่ได้รับเงินคืนสำหรับไอเท็มที่ถูกปฏิเสธเนื่องจากไม่เป็นไปตามมาตรฐานชุมชน
+Feature.ReportAbuse.Action.AttachScreenshot,แนบภาพหน้าจอ
+Feature.ReportAbuse.Action.BackToExperience,กลับไปที่ประสบการณ์
+Feature.ReportAbuse.Action.HighlightScene,ไฮไลต์ฉาก
+Feature.ReportAbuse.Action.Next,ถัดไป
+Feature.ReportAbuse.Action.Retake,จับภาพอีกครั้ง
+Feature.ReportAbuse.Action.RetakeScene,จับภาพฉากอีกครั้ง
+Feature.ReportAbuse.Label.SelectPerson,เลือกผู้ใช้ในฉาก
+Feature.ReportAbuse.Label.SelectProblem,เลือกปัญหาที่เกิดขึ้นในฉาก
+Feature.ReportAbuse.Message.ProblemNotInScene,หากปัญหาที่เกิดขึ้นไม่ได้อยู่ในฉากนี้ คุณสามารถจับภาพหน้าจออีกครั้งได้
+Feature.ReportAbuse.Message.RetakeScene,"ช่วยเราให้เข้าใจสิ่งที่เกิดขึ้นกับคุณ เราจะจับภาพฉากในขณะที่คุณเลือก ""รายงาน"""
+Feature.SettingsHub.Action.CaptureScene,จับภาพหน้าจอ
+Feature.SettingsHub.Label.AttachScreenshot,ต้องการแนบภาพหน้าจอหรือไม่? (ไม่จำเป็น)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,ต้องการแนบภาพหน้าจอหรือไม่?{lineBreak}(ไม่จำเป็น)
+Feature.SettingsHub.Label.SceneCaptured,จับภาพหน้าจอแล้ว
+CommonUI.Controls.Action.Cancel,ยกเลิก
+CommonUI.Controls.Action.Confirm,ยืนยัน
+CoreScripts.TopBar.ControlMessageMotion,การติดตามการเคลื่อนไหว
+CoreScripts.TopBar.ControlMessageOff,ปิด
+CoreScripts.TopBar.ControlMessageOn,เปิด
+CoreScripts.TopBar.ControlMessageSound,การติดตามการออกเสียง
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,อวาตาร์ › ปรับแต่ง › ศีรษะและร่างกาย
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,ใช้ศีรษะแบบเคลื่อนไหวเพื่อกะพริบตา!
+CoreScripts.TopBar.RobloxPermissionErrorBody,การตั้งค่าบน Roblox › ความเป็นส่วนตัว › อินพุตไมโครโฟนและกล้อง
+CoreScripts.TopBar.RobloxPermissionErrorHeader,อนุญาตให้เข้าถึงกล้อง
+CoreScripts.TopBar.SelfViewLabel,มุมมองตนเอง
+CoreScripts.TopBar.SelfViewSecondaryAction,เปิด
+InGame.CommonUI.Badge.Popup.DisclaimerText2,โปรดรายงานการกระทำผิดหากคุณพบผู้ที่ไม่ปฏิบัติตามแนวทางปฏิบัติสำหรับชุมชนของเรา หากคุณเลือกเข้าร่วมใช้บริการแชทด้วยเสียง Roblox สามารถบันทึกเสียงพูดของคุณจากที่ใดก็ได้บนแพลตฟอร์มเพื่อทำการกลั่นกรอง เพื่อความปลอดภัย และเพื่อปรับปรุงบริการและเครื่องมือของเรา การใช้บริการแชทด้วยเสียงต่อ หมายความว่าคุณยินยอมให้ Roblox เก็บรวมรวม ใช้ และจัดเก็บการบันทึกเสียงของคุณเพื่อจุดประสงค์ดังกล่าว คุณสามารถเลือกไม่เข้าร่วมการใช้คุณสมบัติเสียงได้ตลอดเวลา
+CoreScripts.TopBar.MenuToggle,ขยาย/ย่อ
+CoreScripts.TopBar.MoreMenu,เมนูเพิ่มเติม
+CoreScripts.TopBar.OverflowMenu,เมนูรายการเพิ่มเติม
+CoreScripts.TopBar.Title.ExperienceControls,การควบคุมประสบการณ์
+CoreScripts.TopBar.ToggleMic,ปิด/เปิดเสียงตัวเอง
+Feature.Catalog.Label.Bundle,ชุดรวม
+Feature.SocialContextToast.Action.InviteBack,เชิญให้กลับมาอีกครั้ง
+Feature.SocialContextToast.Action.JoinFriend,เข้าร่วม
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} ได้ออกไปแล้วและตอนนี้อยู่ที่ {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} ได้ออกจากประสบการณ์นี้แล้ว
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} ได้เข้าร่วมประสบการณ์กับคุณ
+Feature.SocialContextToast.Message.InvitationConfirmation,ส่งคำเชิญแล้ว
+Feature.SocialContextToast.Message.YouJoinedManyFriends,คุณได้เข้าร่วมประสบการณ์กับ {FRIEND_NAME} และเพื่อนคนอื่นๆ อีก {FRIEND_COUNT} คน
+Feature.SocialContextToast.Message.YouJoinedOneFriend,คุณได้เข้าร่วมประสบการณ์กับ {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,คุณได้เข้าร่วมประสบการณ์กับ {FRIEND_NAME_ONE} และ {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,อวาตาร์ของผู้ใช้คนนี้สวมใส่เสื้อผ้าที่ไม่เหมาะสม
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,อวาตาร์
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,คุณจะได้ยินเสียงผู้อื่น แต่ไมค์ของคุณจะถูกปิดเสียงไว้จนกว่าคุณพร้อมที่จะแชท
+Feature.Subscription.Text.DisclaimerMonthly,ต่ออายุรายเดือน ยกเลิกได้ตลอดเวลา
+Feature.Subscription.Text.PerMonth,/เดือน
+Feature.SettingsHub.Action.EveryoneToggle,ทุกคน
+Feature.SettingsHub.Action.NobodyToggle,ไม่มีเลย
+Feature.SettingsHub.Action.NonfriendsToggle,ไม่ใช่เพื่อน
+Feature.SettingsHub.Label.Mute,ปิดเสียง
+Feature.SocialContextToast.Message.InvitationFailure,ประสบปัญหาในการส่งคำเชิญ
+Feature.SocialShare.Action.CopyLink,คัดลอกลิงก์
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,ต่ออายุรายเดือน ยกเลิกได้ตลอดเวลา
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,"คุณได้เข้าร่วมประสบการณ์กับ ""{FRIEND_NAME}"" แล้ว แต่ตอนนี้เขาอยู่ในสถานที่ที่มีการจำกัดอยู่"
+Feature.SocialContextToast.Message.FriendInNonRootPlace,"""{FRIEND_NAME}"" ได้ย้ายไปยังบริเวณที่ถูกจำกัดอยู่ภายในประสบการณ์นี้"
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox จะแปลภาษาที่รองรับโดยอัตโนมัติในแชท
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,ข้อความที่คุณส่งและรับจะได้รับการแปลโดยอัตโนมัติ
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,การแปลแชทเปิดใช้งานอยู่สำหรับภาษาที่รองรับ
+Feature.SettingsHub.Chat.TranslationSetting,การแปลแชทโดยอัตโนมัติ
+Feature.SettingsHub.Chat.TranslationToggleSetting,ตัวเลือกเพื่อดูข้อความที่ยังไม่ได้แปล
+Feature.Call.Description.NoFriendsFound,ไม่พบเพื่อน
+Feature.Call.Error.Description.AlreadyInCall,คุณอยู่ในสายแล้ว
+Feature.Call.Error.Description.CallEnabledVerificationFailed,ตรวจสอบความสามารถในการโทรไม่สำเร็จ
+Feature.Call.Error.Description.Generic,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้งในภายหลัง
+Feature.Call.Error.Description.SettingsNotCallEnabled,การตั้งค่าในปัจจุบันของคุณไม่อนุญาตให้โทรได้
+Feature.Call.Error.Label.OhNo,แย่แล้ว!
+Feature.Call.Label.CallEnded,สิ้นสุดการโทร
+Feature.Call.Label.Calling,กําลังโทร...
+Feature.Call.Label.Incoming,โทรเข้า
+Feature.Call.Label.Missed,ไม่ได้รับ
+Feature.Call.Label.Outgoing,โทรออก
+Feature.Call.Label.RecentCalls,การโทรล่าสุด
+Feature.Call.Label.RobloxCall,โทรผ่าน Roblox
+Feature.Call.Label.StartNewCall,เริ่มการโทรใหม่
+Feature.Call.Label.Teleporting,กำลังเทเลพอร์ต...
+Feature.Call.Label.Yesterday,เมื่อวานนี้
+Feature.Call.Prompt.AddFriends,เพิ่มเพื่อนบน Roblox เพื่อเริ่มการโทร
+Feature.Call.Prompt.FirstCall,ลองโทรเป็นครั้งแรก
+Feature.Call.Prompt.SearchFriends,ค้นหาเพื่อน
+Feature.Call.Prompt.StartCall,เริ่มการโทร
+Feature.FaceChat.Heading.LowPerformanceDetected,ตรวจพบประสิทธิภาพต่ำ
+Feature.FaceChat.Subtitle.LowPerformanceDetected,การปิดกล้องของคุณอาจช่วยปรับปรุงประสิทธิภาพอุปกรณ์ของคุณ
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,ไม่สามารถโหลดเพื่อนได้ โปรดลองอีกครั้งในภายหลัง
+Feature.SettingsHub.Label.NoFriendsPageMessage,เพิ่มเพื่อนเพื่อให้คุณสามารถสำรวจด้วยกันได้
+CoreScripts.Feedback.EntryPoint.ButtonText,ให้ข้อเสนอแนะ
+CoreScripts.Feedback.EntryPoint.MenuLabel,ข้อเสนอแนะ
+CoreScripts.Feedback.EntryPoint.OptionText,ให้ข้อเสนอแนะเกี่ยวกับคำแปล
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,ออก
+CoreScripts.Feedback.FeedbackBar.HelpButton,ความช่วยเหลือ
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,ระบุความคิดเห็นเพิ่มเติมได้ที่ด้านล่าง (ไม่จำเป็นต้องระบุ)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,กรอกความคิดเห็นเพิ่มเติมของคุณได้ที่นี่
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,ยกเลิก
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,คำแปลที่ถูกต้องคืออะไร? (ไม่จำเป็นต้องระบุ)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,กรอกคำแปลที่ถูกต้องที่นี่
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,โปรดให้ข้อเสนอแนะ
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,ภาพ
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,วัตถุในเกม
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,เมช
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,โมเดล
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,วิดีโอ
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,ปัญหาเกี่ยวกับคำแปลนี้คืออะไร? (ไม่จําเป็นต้องระบุ)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,ปัญหาเกี่ยวกับความถูกต้องแม่นยำ
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,ไม่เหมาะสมหรือทำให้เสื่อมเสีย
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,ยังไม่ได้เลือก
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,ปัญหาเกี่ยวกับการสะกดหรือไวยากรณ์
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,ยังไม่ได้แปล
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,วัตถุที่เลือก
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,ส่ง
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,ข้อความที่เลือก
+CoreScripts.Feedback.Help.CloseInstructions,ปิดคำแนะนำ
+CoreScripts.Feedback.Help.Instructions1,ในโหมดข้อเสนอแนะ หน้าจอของคุณจะหยุดค้างไว้และคุณจะไม่สามารถเคลื่อนไหวอวาตาร์หรือกล้องของคุณได้ โปรดแตะหรือคลิกที่วัตถุใดๆ ที่คุณต้องการให้ข้อเสนอแนะเกี่ยวกับคำแปลที่ไม่ถูกต้องหรือยังไม่ได้รับการแปล
+CoreScripts.Feedback.Help.Instructions2,เมื่อคุณเลือกวัตถุ แบบฟอร์มจะปรากฏขึ้นเพื่อให้คุณระบุข้อมูลเพิ่มเติมตามที่คุณต้องการได้ ขอบคุณที่ช่วยเราในการปรับปรุงคำแปลบน Roblox!
+CoreScripts.Feedback.Help.MainHeader,ความช่วยเหลือ
+CoreScripts.Feedback.SubmissionToastBody,Roblox จะใช้ข้อมูลนี้เพื่อช่วยปรับปรุงคุณภาพของคำแปลสำหรับประสบการณ์นี้
+CoreScripts.Feedback.SubmissionToastHeader,ขอบคุณสำหรับข้อเสนอแนะของคุณ!
+Feature.Call.Description.Friends,เพื่อนที่อาจมีหรือไม่มีอุปกรณ์และการตั้งค่าสําหรับประสบการณ์การโทรที่ดีที่สุด
+Feature.Call.Description.SuggestedFriends,เพื่อนที่มีอุปกรณ์และการตั้งค่าที่กําหนดไว้สําหรับประสบการณ์การโทรที่ดีที่สุด
+Feature.Call.Error.Description.DeviceNotSupported,ขณะนี้อุปกรณ์ของคุณยังไม่รองรับการโทร โปรดลองอีกครั้งในภายหลัง
+Feature.Call.Error.Description.FriendBusy,"ขณะนี้ ""{calleeCombinedName}"" ไม่ว่างและไม่สามารถรับสายของคุณได้ในตอนนี้ โปรดลองอีกครั้งในภายหลัง"
+Feature.Call.Error.Title.CouldntMakeCall,ไม่สามารถทำการโทรได้
+Feature.Call.Error.Title.FriendBusy,เพื่อนสายไม่ว่าง
+Feature.Call.Label.Friends,เพื่อน
+Feature.Call.Label.Suggested,แนะนำ
+Feature.Call.Modal.EnableChatVoiceBody,เปิดใช้งานการแชทด้วยเสียงในการตั้งค่า > ความเป็นส่วนตัวเพื่อพูดคุยกับคนอื่นๆ ในประสบการณ์นี้
+Feature.Call.Modal.EnableChatVoiceTitle,เปิดใช้งานการแชทด้วยเสียง
+InGame.InspectMenu.Action.Go,ไป
+InGame.InspectMenu.Attribution.GoToDescription,คุณจะออกจากพื้นที่นี้และจะถูกนำไปที่ {EXPERIENCE_NAME}
+InGame.InspectMenu.Attribution.GoToExperience,ไปที่ประสบการณ์หรือไม่?
+Common.Presence.Label.Online,ออนไลน์
+Feature.Call.Label.Block,"บล็อค ""{combinedName}"""
+CoreScripts.Ads.Action.PortalPromptAccept,เทเลพอร์ตตอนนี้
+CoreScripts.Ads.Action.PortalPromptCancel,ยกเลิก
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,เดินจากไปเพื่อปิดกล่องข้อความโต้ตอบ
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,ต้องการเทเลพอร์ตไปยัง {RBX_NAME} หรือไม่?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,ต้องการเทเลพอร์ตหรือไม่?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,คุณสามารถดูการควบคุมกล้องและมุมมองตนเองได้ที่นี่
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,ใช้กล้องเพื่อทำให้อวาตาร์ของคุณยิ้มและเคลื่อนไหวเหมือนคุณ
+Feature.Call.Description.ExperienceError,ประสบการณ์นี้ไม่รองรับการแชทด้วยเสียง
+Feature.Call.Error.Title.ExperienceError,เกิดข้อผิดพลาดกับประสบการณ์
+Feature.SettingsHub.Label.ReasonForAbuse,เหตุผลที่รายงาน
+Notifications.NotificationStream.Bundle.ShowLess,แสดงน้อยลง
+Notifications.NotificationStream.Bundle.ShowMoreV2,แสดงเพิ่มอีก {notificationCount} รายการ
+CommonUI.Controls.Input.Optional,{inputLabel} (ไม่จำเป็น)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,การเข้าถึงการแชทด้วยเสียงของคุณถูกปิดการใช้งานจนถึงวันที่ {dateTime} เนื่องจากพฤติกรรมที่อาจละเมิดมาตรฐานชุมชนของเรา
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,ขยายเพื่อดูกลุ่มข้อความการแจ้งเตือน
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,สกุลเงินของบัตรของขวัญต้องตรงกับตำแหน่งที่ตั้งของบัญชีของคุณ คุณสามารถตรวจสอบตำแหน่งที่ตั้งของบัญชีของคุณได้ในการตั้งค่า หากมีปัญหาใดๆ เพิ่มเติม โปรดติดต่อ {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}
+Feature.Call.Label.Unfriend,"เลิกเป็นเพื่อนกับ ""{combinedName}"""
+Feature.GamepadDisconnect.Label.MessageGeneric,"คอนโทรลเลอร์สำหรับผู้ใช้ ""%s"" ถูกตัดการเชื่อมต่อแล้ว โปรดเชื่อมต่อคอนโทรลเลอร์ของคุณอีกครั้ง"
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,เราได้ปิดการแชทด้วยเสียงชั่วคราวเนื่องจากคุณอาจใช้ภาษาที่ขัดต่อมาตรฐานชุมชนของ Roblox
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,หากเกิดเหตุการณ์นี้ขึ้นอีกครั้ง คุณอาจสูญเสียการเข้าถึงบัญชีของคุณ
+Feature.SettingsHub.Prompt.XMinuteSuspension,ระงับเป็นเวลา {banDurationInMinutes} นาที
+Feature.ReportAbuse.DSAIllegal.ReportLink,รายงานเนื้อหาที่ผิดกฎหมายภายใต้กฎหมายการให้บริการดิจิทัล (DSA) ของสหภาพยุโรป
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,รายงานเนื้อหาที่ผิดกฎหมาย
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,เปิด ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,Roblox ไม่ได้ใช้ข้อมูลทางพฤติกรรมเพื่อแสดงโฆษณานี้ โฆษณาที่แสดงให้คุณเห็นอ้างอิงจากข้อมูลต่างๆ ได้แก่ ประเภทอุปกรณ์ ตำแหน่งที่ตั้ง และอายุเพื่อให้สามารถแสดงโฆษณาที่เหมาะสมและเกี่ยวข้องกับคุณได้
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,หากต้องการรายงานเกี่ยวกับเนื้อหาที่ผิดกฎหมายภายใต้กฎหมายการให้บริการดิจิทัล (DSA) ของสหภาพยุโรป โปรดไปที่: https://www.roblox.com/illegal-content-reporting
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,ค่าเริ่มต้น ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,อัตราเฟรมสูงสุด
+CoreScripts.Ads.Action.Close,ปิด
+CoreScripts.Ads.Label.WhyThisAd,ทำไมคุณจึงเห็นโฆษณานี้?
+CoreScripts.FTUX.Mic.Body,เปิดไมโครโฟนของคุณ
+CoreScripts.FTUX.Mic.Header,แชทด้วยเสียงของคุณ
+CoreScripts.FTUX.Onboard.Body,"ตารางอันดับ, แชท, ความปลอดภัย และอื่นๆ อีกมากมาย"
+CoreScripts.FTUX.Onboard.Header,ไปยังการควบคุมที่คุณชื่นชอบได้อย่างรวดเร็ว
+CoreScripts.FTUX.SelfView.Body,เมื่อกล้องของคุณเปิดอยู่ อวาตาร์ของคุณจะทําตามการเคลื่อนไหวของคุณไม่ว่าคุณจะยิ้ม กระพริบตาหรืออื่นๆ
+CoreScripts.FTUX.SelfView.Header,เคลื่อนไหวอวาตาร์ของคุณ
+CoreScripts.FTUX.Tools.Body,"ติดตามคะแนน, รายงานปัญหา, ใช้ท่าทาง"
+CoreScripts.FTUX.Tools.Header,เครื่องมือและการดำเนินการยอดนิยม
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,หนีบนิ้วเพื่อซูม ปัดเพื่อหมุน ปัดด้วยสองนิ้วเพื่อเลื่อนซ้ายขวา
+CoreScripts.PublishAvatarPrompt.Body,ร่างกาย
+CoreScripts.PublishAvatarPrompt.BodyName,ชื่อร่างกาย
+CoreScripts.PublishAvatarPrompt.Close,ปิด
+CoreScripts.PublishAvatarPrompt.CreatedBody,ร่างกายของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedHead,ศีรษะของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,แขนซ้ายของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,ขาซ้ายของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,แขนขวาของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,ขาขวาของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedTorso,ลำตัวของ {DisplayName}
+CoreScripts.PublishAvatarPrompt.Head,ศีรษะ
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,ออกจากการสร้างสรรค์?
+CoreScripts.PublishAvatarPrompt.LeftArm,แขนซ้าย
+CoreScripts.PublishAvatarPrompt.LeftLeg,ขาซ้าย
+CoreScripts.PublishAvatarPrompt.Pan,เลื่อน
+CoreScripts.PublishAvatarPrompt.ResetView,รีเซ็ตมุมมอง
+CoreScripts.PublishAvatarPrompt.RightArm,แขนขวา
+CoreScripts.PublishAvatarPrompt.RightLeg,ขาขวา
+CoreScripts.PublishAvatarPrompt.Rotate,หมุน
+CoreScripts.PublishAvatarPrompt.SubmitCreation,ส่งการสร้างสรรค์
+CoreScripts.PublishAvatarPrompt.Torso,ลำตัว
+CoreScripts.PublishAvatarPrompt.Zoom,ซูม
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,ภาษาสำหรับคำแปลแชท
+CoreScripts.Feedback.FeedbackBar.MainLabel,ให้ข้อเสนอแนะ
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,วัตถุในประสบการณ์: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,เลือกข้อความเพื่อให้ข้อเสนอแนะเกี่ยวกับคำแปลที่ไม่ถูกต้องหรือขาดหายไป
+CoreScripts.Feedback.MobileSelectionModal.Close,ปิด
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,ให้ข้อเสนอแนะ
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,วัตถุในประสบการณ์: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,ข้อความที่เลือก
+CoreScripts.Feedback.Onboarding.Cancel,ยกเลิก
+CoreScripts.Feedback.Onboarding.Instructions,เลือกข้อความเพื่อให้ข้อเสนอแนะเกี่ยวกับคำแปลที่ไม่ถูกต้องหรือขาดหายไป
+CoreScripts.Feedback.Onboarding.MainHeader,แจ้งให้เราทราบเกี่ยวกับข้อผิดพลาด
+CoreScripts.Feedback.Onboarding.Start,เริ่ม
+CoreScripts.FTUX.Onboard.Complete,เข้าใจแล้ว
+CoreScripts.FTUX.Onboard.ShowMe,แสดงให้ฉันดู
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,ข้อเสนอแนะของคุณช่วยปรับปรุงระบบของเรา
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,ขอบคุณที่แจ้งให้เราทราบ
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Freecam
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,แสดง GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,ใช่
+Feature.Notifications.Heading.EnableNotifications,เปิดการแจ้งเตือนสำหรับประสบการณ์นี้
+Feature.Notifications.Heading.EnableNotificationsForExperience,"เปิดการแจ้งเตือนสำหรับ ""{experienceName}"""
+Feature.Notifications.Label.ReceiveActivityUpdates,รับข้อมูลอัปเดตเกี่ยวกับกิจกรรมขณะที่คุณไม่ได้ใช้งานอยู่
+Feature.Notifications.Response.NotificationsEnabled,เปิดการแจ้งเตือนสําหรับประสบการณ์นี้
+Feature.Notifications.Response.NotificationsEnabledForExperience,"เปิดการแจ้งเตือนสําหรับ ""{experienceName}"""
+Feature.SettingsHub.Action.LearnMore,เรียนรู้เพิ่มเติม
+Feature.SettingsHub.Action.NotNow,ไม่ใช่ตอนนี้
+Feature.SettingsHub.Action.TurnOn,เปิด
+Feature.SettingsHub.Prompt.ChangeYourMind,หากคุณเปลี่ยนใจ
+Feature.SettingsHub.Prompt.JoinedVoiceChat,คุณได้เปิดใช้งานการแชทด้วยเสียงแล้ว
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,คุณสามารถยกเลิกการเชื่อมต่อกับเสียงหรือปิดเสียงใครก็ได้ทุกเมื่อ
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,คุณสามารถเข้าร่วมการแชทด้วยเสียงในภายหลังได้ตลอดเวลาจากเมนู Roblox
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,การเลือกที่เปิด จะถือว่าฉันยินยอมให้ Roblox รวบรวม ใช้ และจัดเก็บการบันทึกเสียงของฉันเพื่อเปิดใช้งานบริการเสียงและเพื่อวัตถุประสงค์ในการกลั่นกรอง ความปลอดภัย และเพื่อปรับปรุงเครื่องมือและบริการของ Roblox
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,Roblox ไม่ได้ใช้ข้อมูลทางพฤติกรรมเพื่อแสดงโฆษณานี้ โฆษณาที่แสดงให้คุณเห็นอ้างอิงมาจากข้อมูลต่างๆ ได้แก่ ประเภทอุปกรณ์ ตำแหน่งที่ตั้ง และอายุเพื่อให้สามารถแสดงโฆษณาที่เหมาะสมและเกี่ยวข้องกับคุณได้ ผู้โฆษณาคือ {AdvertiserName}
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,Roblox ไม่ได้ใช้ข้อมูลทางพฤติกรรมเพื่อแสดงโฆษณานี้ โฆษณาที่แสดงให้คุณเห็นอ้างอิงมาจากข้อมูลต่างๆ ได้แก่ ประเภทอุปกรณ์ ตำแหน่งที่ตั้ง และอายุเพื่อให้สามารถแสดงโฆษณาที่เหมาะสมและเกี่ยวข้องกับคุณได้ ผู้โฆษณาคือ {AdvertiserName} โฆษณานี้ได้รับการชำระเงินโดย {PayerName}
+Feature.Notifications.Heading.TurnOnNotifications,เปิดการแจ้งเตือน
+Feature.Notifications.Label.GetUpdatesFromExperience,"ต้องการรับการแจ้งเตือนจาก ""{experienceName}"" ขณะที่คุณไม่ได้ใช้งานอยู่หรือไม่?"
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,คุณสามารถปิดเสียงใครก็ได้ทุกเมื่อ
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,เปิดการแชทด้วยเสียงเพื่อพูดคุยกับผู้อื่น คุณจะต้องให้สิทธิ์ Roblox ในการเข้าถึงไมโครโฟนของคุณ คุณคือผู้ควบคุม — ปิดเสียงของตนเองหรือคนอื่นๆ ได้ตลอดเวลา
+Verification.Identity.Heading.V2LetsChat,มาแชทกันเถอะ
+Feature.Call.Label.Retry,ลองอีกครั้ง
+Feature.Friends.Action.Unfriend,เลิกเป็นเพื่อน
+AuthorizeWebsite.PermissionRequest.Label.Subscription,การสมัครสมาชิก
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,รับข้อมูลเกี่ยวกับการสมัครสมาชิกของคุณ
+CreatorDashboard.ScopeSystem.Label.Subscription,
+Feature.ReportAbuse.Action.BuildAReport,โหมดข้อความ
+Feature.ReportAbuse.Action.EnterSceneReporting,เข้าสู่โหมดไฮไลต์
+Feature.ReportAbuse.Action.SelectInScene,โหมดไฮไลต์
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,รายงานด้วยการใช้โหมดไฮไลต์
+Feature.ReportAbuse.Label.SelectInSceneDescription1,ใช้วงกลมได้สูงสุด 5 วงเพื่อไฮไลต์ปัญหา
+Feature.ReportAbuse.Label.SelectInSceneDescription2,บอกให้เราทราบว่าทำไมถึงเป็นปัญหา
+Feature.ReportAbuse.Label.SelectInSceneDescription3,ส่งรายงานของคุณ
+Feature.SettingsHub.Prompt.GetVoiceChat,เปิดใช้การแชทด้วยเสียง
+Feature.SettingsHub.Prompt.MicPermissionPrime,ให้สิทธิ์ Roblox ในการเข้าถึงไมโครโฟนของคุณเพื่อพูดคุย
+Feature.SettingsHub.Prompt.TalkWithOthers,พูดคุยกับคนอื่นๆ เพื่อความสนุกที่มากยิ่งขึ้น
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,แชทด้วยเสียงกับผู้อื่น
+Feature.SettingsHub.Prompt.VoiceUserAgency,คุณคือผู้ควบคุม — ปิดเสียงของตนเองหรือคนอื่นๆ ได้ตลอดเวลา
+InGame.HelpMenu.Controls.ToggleGameMenu,เปิด/ปิดเมนูเกม
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,ตกลง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,ซื้อไม่สำเร็จ
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณเป็นเจ้าของไอเท็มเหล่านี้แล้ว
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้ในขณะนี้
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณต้องเป็นสมาชิก Roblox Premium จึงจะสามารถซื้อไอเท็มเหล่านี้ได้
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณมี Robux ไม่เพียงพอ
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณไม่ได้รับอนุญาตให้ซื้อไอเท็มประเภทเหล่านี้
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากไอเท็มเหล่านี้ไม่มีขาย
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากราคามีการเปลี่ยนแปลง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณไม่ได้รับอนุญาตให้ซื้อไอเท็มของตัวเอง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณมีไอเท็มเหล่านี้ถึงขีดจำกัดการครอบครองสูงสุดแล้ว
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากคุณได้ทำธุรกรรมถึงขีดจำกัดสูงสุดคือ 9 รายการต่อนาทีแล้ว
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากไอเท็มเหล่านี้ขายหมดแล้ว
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,คุณยังไม่ถูกเรียกเก็บ Robux ใดๆ โปรดลองอีกครั้งในภายหลัง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,คุณยังไม่ถูกเรียกเก็บ Robux ใดๆ โปรดซื้อเพิ่มเติมแล้วลองอีกครั้ง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,คุณยังไม่ถูกเรียกเก็บ Robux ใดๆ โปรดลองอีกครั้ง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,คุณยังไม่ถูกเรียกเก็บ Robux ใดๆ โปรดลองอีกครั้งด้วยการซื้อไอเท็มอื่น
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,คุณยังไม่ถูกเรียกเก็บ Robux ใดๆ โปรดรอสักครู่แล้วลองอีกครั้ง
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,ทำการซื้อสำเร็จแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,การซื้อบางส่วนสำเร็จเรียบร้อยแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} ไอเท็ม
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,สำเร็จ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} ไอเท็ม
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,ไม่สำเร็จ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,เป็นเจ้าของอยู่แล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,ไม่สามารถซื้อได้
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,ต้องเป็นสมาชิก Premium
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Robux ไม่เพียงพอ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,ไม่สามารถซื้อได้
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,ไม่ขาย
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,ราคามีการเปลี่ยนแปลง
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,ผู้ขายคือผู้ซื้อ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,มีไอเท็มนี้ถึงจำนวนสูงสุดแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,ทำรายการธุรกรรมถึงขีดจำกัดสูงสุดแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,สินค้าหมดแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,ซื้อแล้ว
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,ไม่สามารถซื้อไอเท็มบางรายการได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,ยอดคงเหลือปัจจุบัน
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,เสร็จสิ้น
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Robux ที่ใช้ไป
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,ข้อมูลสรุป
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} ไอเท็ม
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,ไอเท็มทั้งหมดที่จะซื้อ
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,เป็นเจ้าของแล้ว {ownedCount} ไอเท็ม
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,ชำระเงิน
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,ยอดคงเหลือปัจจุบัน
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,ยอดคงเหลือหลังซื้อ
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,ยอดรวม
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,คุณซื้อสำเร็จเรียบร้อยแล้ว {itemCount} ไอเท็ม ดูไอเท็มเหล่านี้ได้ในคลังไอเท็มของคุณ
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,เสร็จสิ้น
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,ซื้อสำเร็จแล้ว
+Feature.Accessibility.Description.MainVolume,ควบคุมระดับเสียงโดยรวมของ Roblox รวมถึงเอฟเฟ็กต์เมนู เสียงประสบการณ์ และการแชทด้วยเสียง
+Feature.Notifications.Webview.Title.PolicyUpdate,การอัปเดตนโยบาย
+Feature.SettingsHub.Prompt.CameraUnavailable,ไม่สามารถใช้งานกล้องได้
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,เราได้ปิดการใช้งานกล้องเพื่อปรับปรุงประสิทธิภาพประสบการณ์บนอุปกรณ์นี้ คุณอาจต้องลองใช้กล้องบนอุปกรณ์อื่น แตะเพื่อเรียนรู้เพิ่มเติม
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,พูดคุยกับคนอื่นๆ เพื่อความสนุกที่มากยิ่งขึ้น ให้สิทธิ์ Roblox ในการเข้าถึงไมโครโฟนของคุณเพื่อทำการพูดคุย คุณคือผู้ควบคุม — ปิดเสียงของตนเองหรือคนอื่นๆ ได้ตลอดเวลา
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,พูดคุยกับคนอื่นๆ เพื่อความสนุกที่มากยิ่งขึ้น คุณคือผู้ควบคุม — ปิดเสียงของตนเองหรือคนอื่นๆ ได้ตลอดเวลา
+Feature.SettingsHub.Label.MyCaptures,การจับภาพของฉัน
+Feature.ReportAbuse.Action.ErrorModalGoBack,ย้อนกลับ
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,ข้อผิดพลาด: สูงสุด 5 วงกลม
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,คุณสามารถวงกลมได้สูงสุด 5 วงเพื่อไฮไลต์ปัญหา ใช้ปุ่มยกเลิกเพื่อลบวงกลม
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,ปรับอัตราเฟรมของคุณเพื่อการเล่นเกมที่ราบรื่นยิ่งขึ้น อัตราเฟรมที่สูงขึ้นจะใช้พลังงานที่สูงขึ้นด้วย เฟรมที่เกินอัตราการรีเฟรชของหน้าจอของคุณจะไม่ถูกแสดง
+Feature.Subscription.Text.Subscribed,สมัครแล้ว
+Feature.ReportAbuse.Label.ChooseOne,เลือกหนึ่งรายการ
+Feature.ReportAbuse.Label.PleaseSelectOne,โปรดเลือกหนึ่งรายการ
+Feature.ReportAbuse.Label.SelectInSceneComplete,เราจะใช้รายงานของคุณเพื่อให้แน่ใจว่า Roblox จะเป็นสถานที่ที่สนุกสนานและปลอดภัยสําหรับทุกคน
+Feature.ReportAbuse.Label.TellUsWhatHappened,โปรดอธิบายว่าเกิดอะไรขึ้น (ไม่บังคับ)
+Feature.ReportAbuse.Label.WhatWasWrong,เกิดปัญหาอะไรขึ้น?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,ส่งรายงานของคุณให้เสร็จสิ้น
+Feature.ReportAbuse.Title.SelectInSceneThankYou,ขอบคุณสำหรับการรายงานของคุณ
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,ออก
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,ซื้อ Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Robux ที่ต้องการเพิ่ม
+Feature.ReportAbuse.Action.Close,ปิด
+Feature.ReportAbuse.Action.Submit,ส่ง
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,คุณทำการซื้อถึงขีดจำกัดที่ตั้งไว้ในการควบคุมโดยผู้ปกครองแล้ว คุณจะไม่สามารถทำการซื้อใหม่ได้จนกว่าจะถึงเดือนหน้า
+Feature.ReportAbuse.Label.Avatar,อวาตาร์
+Feature.ReportAbuse.Label.Bullying,การกลั่นแกล้ง
+Feature.ReportAbuse.Label.Cheating,การโกง/การแสวงหาผลประโยชน์
+Feature.ReportAbuse.Label.Content,เนื้อหาที่ไม่เหมาะสม
+Feature.ReportAbuse.Label.Dating,การออกเดท
+Feature.ReportAbuse.Label.Links,ลิงก์ไปนอกแพลตฟอร์ม
+Feature.ReportAbuse.Label.Personal,การถามเกี่ยวกับเรื่องส่วนตัว
+Feature.ReportAbuse.Label.Scamming,การหลอกลวง
+Feature.ReportAbuse.Label.Swearing,คำสบถ
+Feature.ReportAbuse.Label.TextChat,ข้อความในแชท
+Feature.ReportAbuse.Label.Username,ชื่อผู้ใช้ไม่เหมาะสม
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,"จำเป็นต้องตรวจสอบยืนยันตัวตน 2 ขั้นตอนเพื่อทำธุรกรรมนี้ โปรดไปที่ ""การตั้งค่า > ความปลอดภัย"" เพื่อทำการตรวจสอบยืนยันตัวตน 2 ขั้นตอนให้เสร็จสิ้น"
+CommonUI.Controls.Action.Refresh,รีเฟรช
+CommonUI.Controls.NoResultsFound,ไม่พบผลการค้นหา
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,ไม่สามารถดำเนินการซื้อของคุณให้เสร็จสิ้นได้เนื่องจากไอเท็มเหล่านี้ไม่มีอยู่ในประสบการณ์นี้
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,ไม่มีอยู่ในประสบการณ์นี้
+CoreScripts.PublishAvatarPrompt.Description,คำอธิบาย (ไม่จำเป็น)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,อธิบายเกี่ยวกับไอเท็มนี้
+Feature.Accessibility.Description.Haptics,ควบคุมการสั่นโดยรวมของแอป Roblox
+Feature.Accessibility.Header.Haptics,การสั่น
+Feature.AccountSettings.Label.CameraNotAvailable,บางอุปกรณ์ไม่สามารถใช้กล้องได้
+Feature.AccountSettings.Label.CameraNotSupported,บางอุปกรณ์ไม่สามารถใช้กล้องได้ {linkStart}เรียนรู้เพิ่มเติม{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,อนุญาต
+Feature.Notifications.Action.PushUpsellNotNow,ไม่ใช่ตอนนี้
+Feature.Notifications.Heading.PushUpsellGeneric,อย่าพลาด
+Feature.Notifications.Label.PushUpsellGeneric,รับการแจ้งเตือนเกี่ยวกับกิจกรรมต่างๆ เช่น ข้อความแชท คำเชิญ คำขอเป็นเพื่อนและอื่นๆ อีกมากมาย
+Feature.Squads.Action.Join,เข้าร่วม
+Feature.VerificationUpsell.Action.EditPhoneNumber,แก้ไขหมายเลขโทรศัพท์
+IAPExperience.LeaveRoblox.Action.Cancel,ยกเลิก
+IAPExperience.LeaveRoblox.Action.Continue,ดำเนินการต่อ
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,การคลิก “ดำเนินการต่อ” จะนำคุณไปยังเว็บไซต์ที่ Roblox ไม่ได้เป็นเจ้าของหรือดำเนินการ ซึ่งอาจมีข้อกำหนดและนโยบายความเป็นส่วนตัวที่แตกต่างออกไป
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,กำลังออกจาก Roblox
+Feature.ReportAbuse.Label.HighlightProblem,ไฮไลต์ปัญหาด้วยวงกลม
+Feature.Toast.NetworkingError.SomethingIsWrong,มีปัญหาบางอย่างเกิดขึ้น โปรดลองอีกครั้ง
+Feature.Accessibility.Description.PreferredTextSize,ปรับขนาดข้อความทั่วทั้ง Roblox ตามการตั้งค่าของคุณ
+Feature.Accessibility.Heading.PreferredTextSize,ขนาดข้อความ
+Feature.Accessibility.PreferredTextSize.Default,ค่าเริ่มต้น
+Feature.Accessibility.PreferredTextSize.Largest,ใหญ่ที่สุด
+Feature.Accessibility.Action.ScrollDown,เลื่อนลง
+Feature.Accessibility.Action.ScrollUp,เลื่อนขึ้น
+CoreScripts.PublishAvatarPrompt.BuyCreation,ซื้อผลงานสร้างสรรค์
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,ตกลง
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,มีข้อผิดพลาดเกิดขึ้นทำให้การต่ออายุการเป็นสมาชิกไม่ถูกยกเลิก โปรดลองอีกครั้งในภายหลัง
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,ข้อผิดพลาด
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,ยกเลิกการเป็นสมาชิกของคุณเรียบร้อยแล้ว คุณไม่จำเป็นต้องดำเนินการใดๆ เพิ่มเติม
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,ยกเลิกเรียบร้อยแล้ว
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,หากยกเลิกการเป็นสมาชิกของคุณตอนนี้ คุณยังคงสามารถเข้าถึงได้จนถึงวันที่ {date}
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,ไม่ยกเลิก
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,ยกเลิกการเป็นสมาชิก
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,ใช่ ยกเลิก
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,ยกเลิกการสมัครสมาชิกของคุณเรียบร้อยแล้ว
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,คุณไม่ได้สมัครสมาชิกอยู่ในขณะนี้
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,ไม่สามารถยกเลิกได้
+Feature.Subscription.Error.GenericSubscribeError,มีปัญหาบางอย่างเกิดขึ้นในระหว่างทำการสมัครสมาชิก โปรดลองอีกครั้งในภายหลัง
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,คุณสามารถดูไอเท็มของคุณได้ในคลังไอเท็มเมื่อการดำเนินการเสร็จสิ้นลงแล้ว
+CoreScripts.TopBar.JoinVoice,เปิดการแชทด้วยเสียง
+Feature.ReportAbuse.Heading.ReportAbuse,รายงานการกระทำผิด
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,จัดระดับให้เนื้อหาสำหรับผู้ใหญ่ไม่ถูกต้อง (เช่น เลือด ความรุนแรง)
+Feature.ReportAbuse.Label.CategoryBullyingV2,การกลั่นแกล้ง การล่วงละเมิด การเลือกปฏิบัติ
+Feature.ReportAbuse.Label.CategoryContent,เนื้อหาที่ไม่เหมาะสม - สถานที่ ภาพ โมเดล
+Feature.ReportAbuse.Label.CategoryDating,การออกเดท
+Feature.ReportAbuse.Label.CategoryInappropriate,การใช้ภาษาที่ไม่เหมาะสม - เนื้อหามีคำหยาบคายหรือเนื้อหาสำหรับผู้ใหญ่
+Feature.ReportAbuse.Label.CategoryOther,การละเมิดกฎอื่นๆ
+Feature.ReportAbuse.Label.CategoryPrivateInfo,การขอหรือให้ข้อมูลส่วนตัว
+Feature.ReportAbuse.Label.CategoryScamming,การแสวงหาผลประโยชน์ การโกง การหลอกลวง
+Feature.ReportAbuse.Label.CategoryTheft,การโจรกรรมบัญชี - การฟิชชิ่ง การแฮ็ก การแลกเปลี่ยน
+Feature.ReportAbuse.Label.CategoryThreats,การคุกคามในชีวิตจริงและการฆ่าตัวตาย
+Feature.ReportAbuse.Message.Success,ส่งรายงานของคุณแล้ว
+CoreScripts.Ads.Label.ReportAd,รายงานเกี่ยวกับโฆษณา
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} พูดว่า...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,คุณได้เปิดใช้งานการแชทด้วยเสียงแล้ว
+Feature.SettingsHub.Prompt.LeaveVoiceChat,ยกเลิกการเชื่อมต่อแชทด้วยเสียงแล้ว
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,ตัดการเชื่อมต่อเสียงหรือปิดเสียงคนที่ต้องการได้ทุกเมื่อ
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,คุณสามารถยกเลิกการเชื่อมต่อกับเสียงหรือปิดเสียงใครก็ได้ได้ทุกเมื่อที่นี่
+Feature.SettingsHub.Action.Ok,ตกลง
+Feature.SettingsHub.Action.OpenSettings,เปิดการตั้งค่า
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,ต้องการการเข้าถึงไมโครโฟน
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,หากต้องการแชทด้วยเสียงกับผู้อื่น อนุญาตให้ Roblox เข้าถึงไมโครโฟนของคุณ
+CoreScripts.Ads.Label.InappropriateAd,การโฆษณาที่ไม่เหมาะสม
+CoreScripts.TopBar.Party,ปาร์ตี้
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. เลือกสิทธิ์<br />2. เลือกไมโครโฟน<br />3. อนุญาตให้ Roblox เข้าถึงไมโครโฟน</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. ไปที่การตั้งค่า > ความเป็นส่วนตัว > สิทธิ์<br />2. เลือกไมโครโฟน<br />3. อนุญาตให้ Roblox เข้าถึงไมโครโฟน</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. เปิดให้แอปเข้าถึงไมโครโฟนของคุณ<br />2. อนุญาตให้ Roblox เข้าถึงไมโครโฟน</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. ไปที่การตั้งค่า > ความเป็นส่วนตัว > ไมโครโฟน<br />2. เปิดให้แอปเข้าถึงไมโครโฟนของคุณ<br />3. อนุญาตให้ Roblox เข้าถึงไมโครโฟน</b>
+Feature.ReportAbuse.Action.ContinueReport,ดำเนินการรายงานต่อ
+Feature.ReportAbuse.Action.EnterChatLineReporting,รายงานการกระทำผิด
+Feature.ReportAbuse.Label.FinishChatReport,ส่งรายงานแชทของคุณให้เสร็จสิ้น
+Feature.ReportAbuse.Label.SelectChatLine,เลือกหนึ่งแชทเพื่อรายงาน
+CoreScripts.Ads.Label.IllegalContentReportingLink,รายงานเนื้อหาผิดกฎหมายหรือเนื้อหาที่เป็นอันตรายต่อเด็ก
+Feature.ReportAbuse.Problem.Bullying,การกลั่นแกล้ง
+Feature.ReportAbuse.Problem.Cheating,การโกง
+Feature.ReportAbuse.Problem.Dating,ชู้สาว/เรื่องทางเพศ
+Feature.ReportAbuse.Problem.Hate,ความเกลียดชัง
+Feature.ReportAbuse.Problem.Links,ลิงก์ไปนอกแพลตฟอร์ม
+Feature.ReportAbuse.Problem.Personal,ข้อมูลส่วนตัว
+Feature.ReportAbuse.Problem.Scamming,การหลอกลวง
+Feature.ReportAbuse.Problem.Spamming,สแปม
+Feature.ReportAbuse.Problem.Swearing,คำสบถ
+Feature.ReportAbuse.Problem.Violence,ความรุนแรง
+Feature.VerifiedParentalControls.Action.Cancel,ยกเลิก
+Feature.ReportAbuse.Action.ReturnToExperience,กลับไปที่ประสบการณ์
+Feature.ReportAbuse.Label.ReportSubmitted,ส่งรายงานแล้ว
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,การดำเนินการเพิ่มเติมที่คุณสามารถทำได้
+Feature.ReportAbuse.Label.SentInAnotherChat,ส่งไปในแชทอื่นแล้ว
+Feature.ReportAbuse.Label.SentPrivately,ส่งเป็นการส่วนตัวแล้ว
+Feature.ReportAbuse.Message.ThankYouReport,ขอบคุณ เราจะใช้รายงานของคุณเพื่อให้แน่ใจว่า Roblox จะเป็นสถานที่ที่สนุกสนานและปลอดภัยสําหรับทุกคน
+Feature.VerifiedParentalControls.Action.Close,ปิด
+Feature.VerifiedParentalControls.Action.GoToSettings,ไปที่การตั้งค่า
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,เนื่องจากข้อจำกัดในระดับภูมิภาค คุณต้องได้รับอนุญาตจากผู้ปกครองเพื่อทำการซื้อ โปรดไปที่เว็บไซต์หรืออุปกรณ์อื่นของคุณเพื่อขออนุญาตผู้ปกครองของคุณในการตั้งค่า > การใช้จ่าย
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,เนื่องจากข้อจำกัดในระดับภูมิภาค คุณต้องได้รับอนุญาตจากผู้ปกครองเพื่อทำการซื้อ ขออนุญาตผู้ปกครองของคุณได้ในการตั้งค่า > การใช้จ่าย
+Feature.VerifiedParentalControls.Label.AskParent,ขออนุญาตผู้ปกครองของคุณ
+Common.VerifiedParentalConsent.Action.Cancel,ยกเลิก
+Common.VerifiedParentalConsent.Action.Close,ปิด
+Common.VerifiedParentalConsent.Action.GoToSettings,ไปที่การตั้งค่า
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,เนื่องจากข้อจำกัดในระดับภูมิภาค คุณต้องได้รับอนุญาตจากผู้ปกครองเพื่อทำการซื้อ โปรดไปที่เว็บไซต์หรืออุปกรณ์อื่นของคุณเพื่อขออนุญาตผู้ปกครองของคุณในการตั้งค่า > การใช้จ่าย
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,เนื่องจากข้อจำกัดในระดับภูมิภาค คุณต้องได้รับอนุญาตจากผู้ปกครองเพื่อทำการซื้อ ขออนุญาตผู้ปกครองของคุณได้ในการตั้งค่า > การใช้จ่าย
+Common.VerifiedParentalConsent.Label.AskParent,ขออนุญาตผู้ปกครองของคุณ
+Feature.ReportAbuse.Action.TextMute,บล็อคการแชทจาก {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,ต้องรีสตาร์ทแอปก่อน การเปลี่ยนแปลงสิทธิ์เข้าถึงไมโครโฟนจึงจะมีผล
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,คุณยังส่งแชทไม่ได้ จึงจะไม่มีใครเห็นข้อความของคุณ
+Features.OnDemandAds.Reward_Notification,ยินดีด้วย! คุณได้รับ {REWARD_NAME} แล้ว!
+Feature.Avatar.Label.Front,ด้านหน้า
+Feature.PlayWithReward.Message.ErrorBanner.Body,รางวัลนี้ไม่พร้อมใช้งานในขณะนี้ โปรดลองอีกครั้ง
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,เพื่อนของคุณ {RBX_NAME} ได้เข้าร่วมประสบการณ์แล้ว
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,ค้นหาเพื่อน
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,คุณต้องการส่งคำขอเป็นเพื่อนไปยัง {RBX_NAME} หรือไม่?
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,คุณต้องการลบ {RBX_NAME} ออกจากรายชื่อเพื่อนของคุณหรือไม่?
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,ลบเพื่อน
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,คุณไม่สามารถส่งคำขอเป็นเพื่อนไปยัง {RBX_NAME} เนื่องจากเขามีเพื่อนถึงจำนวนสูงสุดแล้ว
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,เกิดข้อผิดพลาดขณะส่งคำขอเป็นเพื่อนไปยัง {RBX_NAME} โปรดลองอีกครั้งในภายหลัง
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,ต้องการส่งคำขอเป็นเพื่อนใช่หรือไม่?
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,ลบเพื่อนไหม

@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,Телепортация...
+Corescripts.AvatarContextMenu.FriendRequestPending,Запрос о дружбе на рассмотрении
+Corescripts.AvatarContextMenu.AddFriend,Добавить друга
+Corescripts.AvatarContextMenu.Friends,Друзья
+Corescripts.AvatarContextMenu.AcceptFriendRequest,Принять запрос дружбы
+Corescripts.AvatarContextMenu.Chat,Чат
+Corescripts.AvatarContextMenu.ChatDisabled,Чат отключён
+Corescripts.AvatarContextMenu.Wave,Волна
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,Разрешить доступ к предметам?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} запрашивает доступ к предметам аватара
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,Сохранение аватара персонажа
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Хочешь сохранить этого персонажа в Roblox? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,Нет
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,Да
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,Отмена
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,ОК
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,Снаряжение аватара предметами
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} хочет внести изменения в твой аватар:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,ОК
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,Отмена
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,Добавление в избранное
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,Хочешь добавить в избранное {RBX_NAME}?
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,Удаление из избранного
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,Хочешь удалить из избранного {RBX_NAME}?
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,Нет
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,Да
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,Введи имя персонажа
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,Имя персонажа
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,Подтвердить
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,Загрузка не удалась
+CoreScripts.AvatarEditorPrompts.Adding,Добавление:
+CoreScripts.AvatarEditorPrompts.Removing,Удаление:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,Изменения отсутствуют
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,Отмена
+CoreScripts.PremiumModal.Title.PremiumRequired,Только для подписчиков Premium
+CoreScripts.PremiumModal.Body.Description,Преимущества Roblox Premium:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux в месяц;
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,Доступ к преимуществам только для подписчиков Premium
+CoreScripts.PremiumModal.Body.RobuxDiscount,бонус в 10% при покупке Robux.
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/месяц
+CoreScripts.PremiumModal.Error.PlatformUnavailable,Покупка Roblox Premium не поддерживается на этой платформе. Используй компьютер для покупки.
+CoreScripts.PremiumModal.Error.AlreadyPremium,"Похоже, разработчик пытается убедить тебя купить подписку Roblox Premium, а она у тебя уже есть!"
+CoreScripts.PremiumModal.Error.Unavailable,В настоящий момент подписка Premium недоступна. Повтори попытку позже!
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux в месяц;
+CoreScripts.PremiumModal.Error.FailedNativePurchase,"Покупка не удалась, попробуй ещё раз."
+CoreScripts.PremiumModal.Title.Error,Ошибка
+CoreScripts.ScreenshotHud.Action.TakePhoto,Сделать снимок
+CoreScripts.ScreenshotHud.Action.Cancel,Отмена
+CoreScripts.TextChat.ChatWindow.Welcome,Chat '/?' или '/help': списко команд чата
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,Во время этого действия эмоции недоступны.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,Невозможно использовать эту эмоцию.
+CoreScripts.TextChat.Emote.Error.R15Only,Только аватары R15 могут использовать эмоции.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,Невозможно использовать эмоции сейчас.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,Эмоция не существует.
+CoreScripts.TextChat.Emote.Error.NotEquipped,Эта эмоция не установлена.
+CoreScripts.TextChat.Emote.Error.NotEnabled,Невозможно использовать эту эмоцию здесь.
+CoreScripts.TextChat.Help.FirstLine,Это основные команды чата:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,"Чтобы отправить сообщение в чате, нажми здесь или на клавишу {KEY}"
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,В настройках чата заблокирована возможность отправлять и получать сообщения.
+CoreScripts.TextChat.InputBar.Hint.Touch,"Нажми, чтобы написать"
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,"Необходимо подождать, прежде чем отправлять новое сообщение."
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,Ты не можешь говорить в этом канале.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,В настройках чата заблокирована возможность отправлять и получать сообщения.
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,Превышено максимально допустимое количество символов в сообщении.
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,Могут возникать задержки в отображении сообщений из-за проблем с фильтром чата.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,Не удалось отправить сообщение.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,Невозможно отключить звук.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,Следующие пользователи имеют это отображаемое имя: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,Пользователь {RBX_NAME} не существует.
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : отключить звук пользователя
+CoreScripts.TextChat.Mute.Success,Звук пользователя {RBX_NAME} отключён.
+CoreScripts.TextChat.Notification.Friend.Joined,Твой контакт {RBX_NAME} присоединяется к плейсу.
+CoreScripts.TextChat.Notification.Team.Joined,Ты теперь в команде {RBX_NAME}.
+CoreScripts.TextChat.Notification.WhisperChat.Created,Ты в канале для личного общения с пользователем {RBX_NAME}.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,"Ты не можешь общаться в командном чате, если не состоишь в команде."
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> или /t <message> : отправить сообщение всем в твоей команде
+CoreScripts.TextChat.TeamChat.PrefixText,[Команда]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : включить звук пользователя
+CoreScripts.TextChat.Unmute.Success,Звук пользователя {RBX_NAME} включён.
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,Ты не можешь общаться с этим пользователем.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> или /w <user> : открыть канал для личной переписки
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[От: {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[Для: {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,Список лидеров
+CoreScripts.TopBar.Emotes,Эмоции
+CoreScripts.TopBar.Inventory,Инвентарь
+CoreScripts.TopBar.Leave,Выйти
+CoreScripts.TopBar.Chat,Чат
+CoreScripts.TopBar.QuickMenu,Быстрое меню
+CoreScripts.TopBar.Menu,Меню
+CoreScripts.TopBar.Respawn,Возродить персонажа
+CoreScripts.TopBar.Back,Назад
+CoreScripts.TopBar.Screenshot,Снимок экрана
+Feature.SettingsHub.Label.LoadingFriendsListFailed,Произошла ошибка. Повтори попытку позже.
+Feature.SettingsHub.Action.CancelSearch,Отмена
+Feature.SettingsHub.Label.DontLeaveButton,Не выходить
+Feature.SettingsHub.Action.InviteFriend,Пригласить
+Feature.SettingsHub.Heading.InviteFriends,Пригласить друзей
+Feature.SettingsHub.Label.Invited,Приглашено
+Feature.SettingsHub.Label.LeaveButton,Выйти
+Feature.SettingsHub.Label.Moderated,Проверено
+Feature.SettingsHub.Label.InviteSearchNoResults,Нет результатов
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,Поиск по контактам
+Feature.SettingsHub.Label.Sending,Отправка
+Feature.SettingsHub.Action.InviteFriendsBack,Назад
+Feature.SettingsHub.Message.InviteToGameTitle,Присоединяйтесь ко мне в: {PLACENAME}
+Feature.SettingsHub.TouchMovementMode.DPad,Крестовина
+Feature.SettingsHub.Video.Off,Выкл.
+Feature.SettingsHub.Video.SystemDefault,Системное значение по умолчанию
+Feature.SettingsHub.Video.VideoCamera,Видеокамера
+Feature.SettingsHub.Default.DynamicThumbstick,По умолчанию (динамический аналоговый стик)
+Feature.SettingsHub.DefaultKeyboard,По умолчанию (клавиатура)
+Feature.SettingsHub.Heading.Capture,Сделать скриншот
+Feature.SettingsHub.Label.CaptureDescription2,Фотографии сохраняются на твоём устройстве.
+Feature.SettingsHub.Label.ChooseOne,Выбери один вариант
+InGame.CommonUI.Title.Warning,Предупреждение
+InGame.CommonUI.Title.Error,Ошибка
+InGame.CommonUI.Button.Retry,Повторить
+InGame.CommonUI.Button.Ok,OK
+InGame.CommonUI.Title.Alert,Тревога
+InGame.CommonUI.Label.Default,По умолчанию
+InGame.CommonUI.Label.Custom,Настраиваемый
+InGame.CommonUI.Label.PossiblyCustom,Возможно особенное
+InGame.CommonUI.Label.CustomOld,Старое особенное
+InGame.ConnectionError.DisconnectCloudEditKick,Потеряно соединение с командой создателей. Установи соединение заново. 
+InGame.ConnectionError.DisconnectWrongVersion,"Версия Roblox, возможно, устарела. Обнови Roblox и попробуй снова."
+InGame.ConnectionError.TeleportFailure,Телепорт не удался из-за непредвиденной ошибки. Повтори попытку.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,Потеряно соединение из-за ошибки.
+InGame.ConnectionError.TeleportGameFull,Сервер переполнен. Повтори попытку позже или используй другой сервер.
+InGame.ConnectionError.DisconnectPlayerless,В попытке соединения с сервером отказано. Повтори попытку позже.
+InGame.ConnectionError.TeleportGameNotFound,Невозможно найти место назначения. Перепроверь и повтори попытку.
+InGame.ConnectionError.DisconnectErrors,Пропало соединение из-за неизвестной ошибки. Установи соединение повторно.
+InGame.ConnectionError.DisconnectDuplicateTicket,Из-за ошибки пропало соединение. С этого аккаунта следуют многочисленные попытки входа.
+InGame.ConnectionError.DisconnectBadhash,Из-за ошибки пропало соединение.
+InGame.ConnectionError.DisconnectSendPacketError,Проблемы с отправкой данных. Установи соединение повторно.
+InGame.ConnectionError.DisconnectOnRemoteSysStats,Тебя исключили из игры за неподобающее поведение.
+InGame.ConnectionError.DisconnectTimeout,Время подключения истекло.  Проверь подключение к интернету и повтори попытку.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,Потеряно соединение из-за ошибки.
+InGame.ConnectionError.TeleportErrors,Телепорт не удался из-за непредвиденной ошибки. Повтори попытку.
+InGame.ConnectionError.TeleportGameEnded,Сервер больше не доступен. Попробуй другой или повтори попытку позже.
+InGame.ConnectionError.PlacelaunchFlooded,Сейчас сервер занят. Повтори попытку.
+InGame.ConnectionError.DisconnectProtocolMismatch,"Версия Roblox, возможно, устарела. Обнови Roblox и попробуй снова."
+InGame.ConnectionError.DisconnectRobloxMaintenance,Roblox отключил игровой сервер для техобслуживания. Повтори попытку.
+InGame.ConnectionError.DisconnectHashTimeout,Время подключения истекло.  Проверь подключение к интернету и повтори попытку.
+InGame.ConnectionError.DisconnectReceivePacketError,Проблема с получением данных. Установи соединение повторно.
+InGame.ConnectionError.PlacelaunchOtherError,Возникла техническая проблема. Повтори попытку позже.
+InGame.ConnectionError.TeleportFlooded,Слишком много запросов телепорта. Повтори попытку позже.
+InGame.ConnectionError.DisconnectIllegalTeleport,Пропало соединение из-за неправильного телепорта. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,Проблема с транслированием данных. Установи соединение повторно.
+InGame.ConnectionError.PlacelaunchError,Невозможно найти выбранный сервер. Повтори попытку.
+InGame.ConnectionError.TeleportUnauthorized,Попытка телепорта в запрещённое место.
+InGame.ConnectionError.Title.JoinError,Ошибка присоединения
+InGame.ConnectionError.Title.Disconnected,Отключено
+InGame.ConnectionError.Title.TeleportFailed,Телепорт не удался
+InGame.ConnectionError.Message.ErrorCode,Код ошибки: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,Повторное соединение
+InGame.ConnectionError.DisconnectConnectionLost,Проверь подключение к интернету и повтори попытку.
+InGame.ConnectionError.DisconnectIdle,Произошло отключение из-за неактивности в течение {RBX_NUM} мин.
+InGame.ConnectionError.UnknownError,Неизвестная ошибка.
+InGame.ConnectionError.ReconnectFailed,Повторное соединение не удалось. Повтори попытку.
+InGame.EmotesMenu.SelectAnEmote,Выбрать эмоцию
+InGame.EmotesMenu.NoEmotesEquipped,Эмоция не выбрана
+InGame.EmotesMenu.ErrorMessageNotSupported,Здесь нельзя использовать эмоции.
+InGame.EmotesMenu.ErrorMessageR15Only,Только аватары R15 могут использовать эмоции.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,Невозможно использовать эту эмоцию.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,Невозможно использовать эмоции прямо сейчас.
+InGame.EmotesMenu.VisitShopToGetEmotes,У тебя нет эмоций. Посети магазин!
+InGame.EmotesMenu.ErrorMessageSwitchToR15,"Переключись на аватара R15, чтобы использовать эмоции."
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,Во время этого действия эмоции недоступны.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,При отправлении запроса дружбы пользователю {RBX_NAME} произошла ошибка. Повтори попытку позже.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,Удалить пользователя {RBX_NAME} из списка друзей?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,Отправить пользователю {RBX_NAME} запрос дружбы?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,Нельзя отправить запрос дружбы пользователю {RBX_NAME}: количество его друзей достигло максимума.
+FriendPlayerPrompt.Title.SendFriendRequest,Отправить запрос дружбы?
+FriendPlayerPrompt.Label.Unfriend,Убрать из друзей
+InGame.GameplayPaused.Title,Игра приостановлена
+InGame.GameplayPaused.Body,Игра приостановлена: дождись загрузки игровых данных
+InGame.HelpMenu.UpArrow,Стрелка вверх
+InGame.HelpMenu.DownArrow,Стрелка вниз
+InGame.HelpMenu.LeftArrow,Стрелка влево
+InGame.HelpMenu.RightArrow,Стрелка вправо
+InGame.HelpMenu.Label.ServerVersion,Версия сервера:
+InGame.HelpMenu.Label.ClientVersion,Версия клиента:
+InGame.HelpMenu.Label.PlayerScripts,СкриптИгрока:
+InGame.HelpMenu.Label.PlaceVersion,Версия расположения:
+InGame.HelpMenu.Leave,Выйти
+InGame.HelpMenu.Resume,Вернуться
+InGame.HelpMenu.Label.ClientCoreScriptVersion,Клиентская версия CoreScript:
+InGame.InspectMenu.Description.NoInventoryNotice,Этот пользователь не носит интересующих предметов.
+InGame.InspectMenu.Description.MultipleBundlesNotice,Этот предмет является частью нескольких наборов.
+InGame.InspectMenu.Description.SingleBundleNotice,Этот предмет является частью набора.
+InGame.InspectMenu.Action.TakeOff,Снять
+InGame.InspectMenu.Action.TryOn,Примерить
+InGame.InspectMenu.Action.Buy,Купить
+InGame.InspectMenu.Action.Inspect,Осмотреть
+InGame.InspectMenu.Action.View,Осмотр
+InGame.InspectMenu.Label.Owned,В наличии
+InGame.InspectMenu.Label.Offsale,Распродано
+InGame.InspectMenu.Label.Limited,Ограничено
+InGame.InspectMenu.Label.CurrentlyWearing,Сейчас одето
+InGame.InspectMenu.Label.By,Создатель: {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,Этот предмет можно приобрести только у продавцов из каталога.
+InGame.InspectMenu.Label.Avatar,Аватар игрока {PLAYER_NAME}
+InGame.InspectMenu.Label.NoResellers,Нет посредников
+InGame.InspectMenu.Label.PremiumOnly,Только подписка Premium
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,Уменьшено до {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,Увеличено до {RBX_NUMBER}
+NotificationScript2.NewFollower,Новый подписчик: {RBX_NAME}!
+NotificationScript2.FriendRequestEvent.Accept,Новый друг: {RBX_NAME}!
+NotificationScript2.onPointsRewarded.negative,Потеряно {RBX_NUMBER} очк.!
+NotificationScript2.onPointsAwarded.single,Получено {RBX_NUMBER} очк.!
+NotificationScript2.onPointsAwarded.multiple,Получено {RBX_NUMBER} очк.!
+NotificationScript2.onBadgeAwardedTitle,Получен значок
+NotificationScript2.onBadgeAwardedDetail,{RBX_NAME} получает награду {CREATOR_NAME} «{BADGE_NAME}»!
+NotificationScript2.Screenshot.Title,Сделан снимок экрана
+NotificationScript2.Screenshot.Description,"Открой папку со снимками экрана, чтобы его увидеть."
+NotificationScript2.Screenshot.ButtonText,Открыть папку
+NotificationScript2.Video.Title,Видео записано
+NotificationScript2.Video.Description,"Открой папку с видеозаписями, чтобы его увидеть."
+NotificationScript2.Video.ButtonText,Открыть папку
+NotificationScript2.Capture.Permission.AlertTitle,Включить сохранение разрешений
+NotificationScript2.Capture.Permission.AlertText,"Чтобы использовать эту функцию, необходимо включить разрешения в настройках устройства."
+NotificationScript2.Capture.Permission.AlertTextIOS,Перейди в Настройки > Конфиденциальность > Фото и разреши Roblox сохранять снимки в фотоплёнку.
+NotificationScript2.Capture.Permission.AlertTextAndroid,Перейди в Настройки > Roblox > Разрешения и включите Хранилище для сохранения снимков в библиотеку фотографий.
+NotificationScript2.Capture.Permission.AlertButtonText,OK
+NotificationScript2.Capture.Success.ToastText,Скриншот сохранён
+NotificationScript2.Capture.Fail.ToastText,Не удалось сделать скриншот
+NotificationScript2.UINavigation.Title,Навигация интерфейса включена
+NotificationScript2.UINavigation.Text,Обратная косая черта для переключения
+NotificationScript2.CameraToggle.Title,Управление камерой включено
+NotificationScript2.CameraToggle.Text,Правая кнопка мыши для переключения
+NotificationScript2.GraphicsQuality.Title,Качество графики
+PlayerDropDown.onUnfollowButtonPress.success,Подписка на {RBX_NAME} отменена.
+PlayerDropDown.onFollowButtonPress.success,теперь подписан(а) на {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,Нельзя отправить запрос на приглашение в друзья
+PlayerDropDown.FriendLimit,Количество друзей достигло максимума.
+PlayerDropDown.OtherPlayerFriendLimit,Максимальное количество друзей: {RBX_NAME}
+PlayerDropDown.UnFollow,Отписаться
+PlayerDropDown.Follow,Подписаться
+PlayerDropDown.Report,Сообщить о нарушении
+PlayerDropDown.Examine,Посмотреть аватар
+PlayerDropDown.Unfriend,Удалить из друзей
+PlayerDropDown.FriendRequest,Запрос дружбы
+PlayerDropDown.CancelRequest,Отменить запрос
+PlayerDropDown.Accept,Принять
+InGame.PlayerList.Leaderboard,Список лидеров
+InGame.Presence.Label.InStudio,В студии
+InGame.Presence.Label.Offline,Не в сети
+InGame.Presence.Label.Online,В сети
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,Не удалось получить доступ к балансу. Средства со счёта не списаны. Повтори попытку позже.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,Проводится техническое обслуживание ROBLOX
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,Оставшиеся {RBX_NUMBER} ROBUX будут перечислены на счёт.
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,Продажа сторонних товаров в этом месте запрещена. Средства со счёта не списаны.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,"Цена товара превышает имеющееся количество купонов. Обменяй валюту на странице www.roblox.com, чтобы получить больше купонов."
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,Этот товар в настоящее время не продаётся. Средства со счёта не списаны.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,"Для этого предмета требуется: {RBX_NAME1}. Нажми кнопку «Улучшение», чтобы улучшить клуб создателей!"
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,Этого ограниченного товара больше нет в продаже. Попробуй купить его у другого пользователя на сайте www.roblox.com. Средства со счёта не списаны.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,Купить {RBX_NAME1} {RBX_NAME2} за
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,Не удалось получить данные о цене товара. Средства со счёта не списаны. Повтори попытку позже.
+PurchasePromptScript.PURCHASE_MSG.FREE,Хочешь получить товар {RBX_NAME2} БЕСПЛАТНО?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,"Создай аккаунт ROBLOX, чтобы покупать предметы. Посети сайт www.roblox.com."
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,Для покупки товара {RBX_NAME1} {RBX_NAME2} требуется ещё {RBX_NUMBER} ROBUX. Приобрести больше ROBUX?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,Возраст владельца аккаунта не превышает 13 лет. Ты не можешь купить этот товар. Средства со счёта не списаны.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,После этой операции баланс составит {RBX_NUMBER}
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,Сейчас баланс составляет {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,Произвести покупку не удалось: {ERROR_REASON}. Средства с аккаунта не списаны. Повтори попытку позже.
+PurchasePromptScript.PURCHASE_MSG.FAILED,Не удалось купить товар {RBX_NAME1}: {RBX_NAME2}. Средства со счёта не списаны. Повтори попытку позже.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,Куплен товар: {RBX_NAME1}!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,что-то пошло не так
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,недостаточно ROBUX
+StatsUtil.KBps,{RBX_NUMBER} КБ/с
+StatsUtil.MB,{RBX_NUMBER} МБ
+StatsUtil.ms,{RBX_NUMBER} мс
+Network,(Сеть)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <канал> : переключить вкладку в меню каналов.
+GameChat_ChatCommandsTeller_MeCommand,/me <текст> : сообщить о выполнении какого-либо действия.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <пользователь> : игнорировать пользователя.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker>: перестать игнорировать пользователя.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> или /w <speaker> : открыть канал для личной переписки с пользователем.
+Average,Среднее
+GameChat_ChatServiceRunner_ChannelDoesNotExist,Канал «{RBX_NAME}» не существует.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,"Введи «/?» или «/help», чтобы увидеть список команд чата."
+GameChat_SwallowGuestChat_Message,"Создай бесплатный аккаунт, чтобы настроить права доступа в чате!"
+Current,Текущее
+DisableVoiceKey,Отключить голосовой чат
+EnableVoiceKey,Включить голосовой чат
+key_142,Новый друг {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,Необязательно
+key_145,Получены очки: {RBX_NUMBER}!
+Received,Принято
+BACKPACK_SEARCH,Поиск
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,Короткое описание (необязательно)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,Пользователь {RBX_NAME} не существует.
+GameChat_ChatMain_SpeakerHasBeenBlocked,Пользователь {RBX_NAME} заблокирован.
+GameChat_ChatMain_SpeakerHasBeenMuted,Пользователь {RBX_NAME} добавлен в список игнорируемых.
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,Пользователь {RBX_NAME} разблокирован.
+GameChat_ChatMain_SpeakerHasBeenUnMuted,Пользователь {RBX_NAME} удалён из списка игнорируемых.
+GameChat_ChatMain_ChatBarTextTouch,"Коснись здесь, чтобы общаться в чате"
+Target,Цель
+GameChat_ChatService_ChatFilterIssues,Могут возникать задержки в передаче сообщений из-за проблем с фильтром чата.
+GameChat_ChatCommandsTeller_Desc,Это основные команды чата.
+GameChat_TeamChat_WelcomeMessage,Это канал для личного общения участников команды.
+GameChat_ChatMain_ChatBarText,"Чтобы общаться в чате, нажми здесь или на клавишу «/»"
+GameChat_ChatChannel_MutedInChannel,Тебя добавили в список игнорируемых. Ты не можешь общаться на этом канале
+GameChat_ChatServiceRunner_YouAreNotInChannel,Тебя нет на канале «{RBX_NAME}»
+GameChat_SwitchChannel_NotInChannel,Тебя нет на канале «{RBX_NAME}»
+GameChat_TeamChat_NowInTeam,Ты теперь в команде {RBX_NAME}.
+GameChat_PrivateMessaging_NowChattingWith,Открыт канал для личного общения с пользователем {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotJoinChannel,Ты не можешь подключиться к каналу «{RBX_NAME}»
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,Ты не можешь покинуть канал «{RBX_NAME}».
+GameChat_ChatService_CannotLeaveChannel,Ты не можешь покинуть этот канал.
+GameChat_DoMuteCommand_CannotMuteSelf,Невозможно добавить себя в список игнорируемых.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,"Ты не можешь общаться в командном чате, если не состоишь в команде!"
+GameChat_PrivateMessaging_CannotWhisperToSelf,Нельзя отправлять себе личные сообщения.
+GameChat_ChatService_YouHaveLeftChannel,Ты покидаешь канал «{RBX_NAME}»
+GameChat_ChatFloodDetector_Message,"Необходимо подождать, прежде чем отправлять новое сообщение!"
+GameChat_ChatFloodDetector_MessageDisplaySeconds,Ты сможешь отправить новое сообщение только через {RBX_NUMBER} с!
+KEY_PLAYER_IDLE_DISCONNECT,"Произошло отключение, так не было активности в течение {RBX_NUMBER} мин"
+GameChat_ChatMessageValidator_SettingsError,В настройках чата заблокирована возможность отправлять сообщения.
+GameChat_ChatMessageValidator_WhitespaceError,Сообщение содержит недопустимый пробел.
+GameChat_ChatMessageValidator_MaxLengthError,Превышено максимально допустимое количество символов в сообщении.
+GameChat_SwitchChannel_NowInChannel,Ты общаешься на канале «{RBX_NAME}»
+Sent,Отправлено
+Corescripts.AvatarContextMenu.PlayerBlocked,Пользователь заблокирован
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,Неизвестное название плейса
+CoreScripts.TopBar.GameNamePlaceHolder,Плейс
+Feature.SettingsHub.Label.LeaveGame,Выйти?
+Feature.SettingsHub.Label.GameInviteError,Не удалось отправить приглашение. Повтори попытку позже.
+Feature.SettingsHub.Label.ModeratedInviteError,Приглашение было проверено и не было отправлено.
+Feature.SettingsHub.Action.InviteFriendsToPlay,Пригласить друзей
+Feature.SettingsHub.Label.CaptureDescription,Делай скриншоты в плейсах. Они сохраняются на устройстве.
+Feature.SettingsHub.Label.CaptureDescription1,Делай скриншоты в плейсах.
+Feature.SettingsHub.Label.WhichPlayer,Кто из пользователей?
+InGame.ConnectionError.DisconnectDuplicatePlayer,Один и тот же аккаунт же запустил плейс с другого устройства. Оставь плейс на другом устройстве и повтори попытку.
+InGame.ConnectionError.PlacelaunchUserLeft,"Пользователь, к которому ты пытаешься присоединиться, покинул плейс."
+InGame.ConnectionError.PlacelaunchHashExpired,Этот плейс сейчас недоступен. Повтори попытку позже.
+InGame.ConnectionError.PlacelaunchUnauthorized,Нет прав для доступа к этому плейсу.
+InGame.ConnectionError.PlacelaunchDisabled,Локация имеет ограничения. Попробуй другую локацию или повтори попытку позже.
+InGame.ConnectionError.DisconnectRejoin,"Плейс уже был запущен с того же аккаунта на другом устройстве. Необходимо подключиться повторно, если ты хочешь использовать это устройство."
+InGame.ConnectionError.DisconnectDevMaintenance,Разработчик временно отключил сервер. Повтори попытку.
+InGame.ConnectionError.DisconnectEvicted,"Плейс уже был запущен с того же аккаунта на другом устройстве. Необходимо подключиться повторно, если ты хочешь использовать это устройство."
+InGame.ConnectionError.PlacelaunchPartyCannotFit,Невозможно присоединиться из-за большого количества участников. Попробуй присоединиться к другому плейсу.
+InGame.ConnectionError.PlacelaunchRestricted,"Статус этого плейса был изменён, и  у тебя больше нет к нему доступа. Повтори попытку."
+InGame.ConnectionError.PlacelaunchErrors,Произошла ошибка доступа к плейсу. Повтори попытку позже.
+InGame.ConnectionError.DisconnectLuaKick,Тебя исключил плейс или модераторы.
+InGame.ConnectionError.PlacelaunchHashException,Этот плейс сейчас недоступен. Повтори попытку позже.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,Тебя исключил плейс или модераторы. Сообщение модерации:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Выражение эмоций отключено в этом плейсе.
+FriendPlayerPrompt.Title.UnfriendPlayer,Удалить из друзей?
+InGame.PlayerList.Players,Люди
+InGame.Presence.Label.InGame,В плейсе
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,Внутриигровые покупки временно недоступны
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> или /t <message> : отправить групповое сообщение команде.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,Этот канал предназначен для системных и игровых уведомлений.
+GameChat_GetVersion_Message,Этот плейс поддерживает чат версии [{RBX_NUMBER}.{RBX_NUMBER}].
+GameChat_PrivateMessaging_CannotChat,Ты не можешь общаться в чате с этим пользователем.
+GameChat_FriendChatNotifier_JoinMessage,Твой контакт {RBX_NAME} присоединяется к плейсу.
+Authentication.Login.WeChat.AntiAddictionText,"Не участвуй в плохих и пиратских проектах. Будь начеку, чтобы избежать обмана. Не проводи слишком много времени в сети, это может навредить здоровью. Разумно распределяй своё время и наслаждайся правильным образом жизни."
+Authentication.Login.Label.WeChatAntiAddictionText,"Не участвуй в плохих и пиратских проектах. Будь начеку, чтобы избежать обмана. Не проводи слишком много времени в сети, это может навредить здоровью. Разумно распределяй своё время и наслаждайся правильным образом жизни."
+Feature.SettingsHub.Label.NoFriendsScreen,"Найди друзей, чтобы играть вместе с ними!"
+Feature.SettingsHub.Label.RecentPlayed,Недавно посещённые
+InGame.HelpMenu.ConfirmLeaveGame,Выйти из плейса?
+PlayerDropDown.UnBlock,Разблокировать
+PlayerDropDown.Block,Заблокировать
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,Внутренняя ошибка. Повтори попытку.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Классический джойстик
+Feature.SettingsHub.Action.Unblock,Разблокировать
+Feature.SettingsHub.Action.Block,Заблокировать
+Feature.SettingsHub.Heading.BlockUser,Заблокировать {DisplayName}
+Feature.SettingsHub.Action.Cancel,Отмена
+Feature.SettingsHub.Message.BlockConfirmation,Ты и {DISPLAY_NAME} (@{RBX_NAME}) больше не сможете общаться друг с другом.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,Удаление персонажа аватара
+Feature.SettingsHub.Heading.Report.ThanksForReport,Спасибо за сообщение!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,Мы получили жалобу и рассмотрим её в ближайшее время. Благодаря твоей обратной связи наше сообщество остаётся безопасным.
+Feature.SettingsHub.Label.Report.OtherActionsHeader,Другие возможные шаги
+Feature.SettingsHub.Action.Report.Done,Готово
+Feature.SettingsHub.Label.Report.BlockDisplayName,Заблокировать {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,Разблокировать {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,Хочешь удалить персонажа {RBX_NAME} из Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Хочешь удалить этого персонажа из Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,Удалить
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,Отмена
+InGame.InspectMenu.Description.LayeredClothingR6,Тип тела R6 не поддерживает этот предмет.
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,Переименовать
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,Введи новое имя для персонажа: {RBX_NAME}:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,Переименовать?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,Изменение имени персонажа отключено
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,Изменение имени персонажа отключено
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,Ок
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,Ты действительно хочешь отменить все запросы на добавление в друзья?
+Feature.Friends.Label.Cancel,Отмена
+Feature.SettingsHub.GameSettings.Input,Ввод
+Feature.SettingsHub.GameSettings.Output,Выход
+Feature.SettingsHub.GameSettings.Device,Устройство
+Feature.SettingsHub.GameSettings.MicroProfiler,Micro Profiler
+Feature.SettingsHub.Prompt.NotAudible,Голосовой чат не слышен
+Feature.SettingsHub.Prompt.Permission,Голосовой чат недоступен
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,"Громкость выключена в настройках. Чтобы слышать голос, увеличь громкость."
+Feature.SettingsHub.Prompt.Subtitle.Permission,"Перейди в настройки, чтобы открыть Roblox доступ к микрофону."
+Feature.SettingsHub.Prompt.Subtitle.Retry,Попробуй перезайти.
+Feature.FaceChat.Message.PlaceUnavailable,Эта локация временно недоступна. Повтори попытку позже.
+Feature.FaceChat.Subtitle.NotAvailable,Попробуй перезайти.
+Feature.SettingsHub.GameSettings.InputDevice,Устройства входа
+Feature.SettingsHub.GameSettings.OutputDevice,Устройство выхода
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,Примечание: последние 300 запросов в друзья будут удалены за раз при нажатии кнопки «‎Игнорировать все»‎‎.
+Feature.SettingsHub.Prompt.VoiceChatSuspended,Голосовой чат приостановлен
+Feature.SettingsHub.Prompt.Subtitle.Respect,"Давайте уважать друг друга, чтобы в Roblox всегда было весело."
+Feature.SettingsHub.Prompt.Understand,Понятно
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,"Трёхмерное звучание доступно только для локаций, где находится максимум 30 пользователей."
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,На этом аккаунте трёхмерное звучание недоступно.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,Превышено максимальное количество пользователей
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,Голос недоступен
+InGame.ConnectionError.Action.Restart,Перезапустить
+InGame.ConnectionError.Heading.VRDisconnected,Наушники отключены
+InGame.ConnectionError.Message.RestartApp,"Чтобы продолжить играть, перезапусти приложение."
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,OK
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,Отмена
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,Обновить персонажа?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,Обновить сохранённого персонажа?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,Хочешь обновить персонажа {RBX_NAME}?
+Feature.SettingsHub.Prompt.Subtitle.Place,"Трёхмерное звучание доступно только для локаций, где находится максимум 30 пользователей."
+Feature.SettingsHub.Prompt.Subtitle.User,На этом аккаунте трёхмерное звучание недоступно.
+Feature.SettingsHub.Prompt.Place,Превышено максимальное количество пользователей
+Feature.SettingsHub.Prompt.User,Голос недоступен
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,Обновить персонажа {RBX_NAME}?
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,Обновить сохранённого персонажа?
+InGame.InspectMenu.Action.Cancel,Отмена
+InGame.InspectMenu.Action.Confirm,Подтвердить
+InGame.InspectMenu.Action.Favorite,Избранное
+InGame.CommonUI.Message.LuobuGameJoinWarning,"Please don't imitate dangerous in-game behaviors, please proactively report abuse if you encounter any negative behavior."
+Feature.DevModule.ProfileCard.StatusPlaceholder,Что у тебя нового?
+Feature.DevModule.ProfileCard.StatusErrorMessage,Статус содержит недопустимые слова.
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Возможности Roblox Premium:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux в месяц
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Доступ к эксклюзивным возможностям
+Feature.PremiumUpsell.Label.AvatarShopBenefits,Доступ к эксклюзивным предметам со скидкой в Магазине аватаров
+Feature.PremiumUpsell.Title.GetPremium,Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol} {robux} в месяц
+Feature.PremiumUpsell.Label.Disclosure,Подпишись за <b>{currencySymbol}{price}/мес. Отмена в любой момент.</b> Применяются Условия использования и Политика конфиденциальности Roblox.
+Feature.PremiumUpsell.Action.Subscribe,Подписаться
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,"На основании жалоб пользователей мы определили, что твоё поведение при использовании голосового чата нарушает Правила нашего сообщества. Доступ к голосовому чату приостановлен до"
+Feature.SettingsHub.Prompt.Subtitle.Revoked,В связи с многочисленными нарушениями Правил сообщества мы временно отключили доступ к голосовому чату до завершения стадии бета-тестирования.
+InGame.InspectMenu.Action.Unfavorite,Убрать из Избранного
+Feature.AddFriends.Action.FriendAdded,Друг добавлен
+Feature.AddFriends.Action.RequestIgnored,Запрос заблокирован
+Feature.Avatar.Label.LeftInitial,L
+Feature.Avatar.Label.Right,R
+Feature.Avatar.Label.RightInitial,R
+Feature.Friends.Label.Following,Подписки
+Feature.Friends.Label.Followers,Подписчики
+Feature.Friends.Label.MutualFriends,Общие друзья:
+Feature.Friends.Label.FollowsYou,Подписчик
+Feature.Friends.Label.YouAreFollowing,Подписка
+Feature.Friends.Action.Block,Заблокировать
+Feature.Friends.Label.Friend,Друг
+Feature.Friends.Action.Unblock,Разблокировать
+Verification.Identity.Label.VoiceChatUpsell,"Этот плейс поддерживает трёхмерное звучание. Чтобы использовать эту функцию, подтверди, что тебе не меньше 13 лет."
+Verification.Identity.Action.SkipVoiceChat,Присоединиться без голосового чата
+Verification.Identity.Label.DontShowAgain,Больше не показывать
+Verification.Identity.Label.EnableVoiceChat,Включить голосовой чат
+Verification.Identity.Label.UsesVoiceChat,Это плейс с голосовым чатом. Включение голосового чата будет использовать микрофон в таких плейсах.
+Verification.Identity.Label.ToggleInstruction,Ты можешь включить или выключить эту функцию в Настройках.
+Verification.Identity.Label.JoinWithout,Присоединиться без голосового чата
+InGame.CommonUI.BetaBadge.BadgeText,Бета
+InGame.CommonUI.Badge.Popup.DisclaimerText,"Если ты видишь, что кто-то нарушает наши Правила сообщества, пожалуйста, сообщи нам об этом. При использовании голосового чата Roblox записывает звук в любом месте на платформе в целях модерации и безопасности. Продолжая использовать функцию голосового чата, ты соглашаешься на сбор, использование и хранение Roblox голосовых записей в целях модерации и безопасности. Ты можешь отказаться от использования функции трёхмерного звучания в любой момент."
+InGame.CommonUI.Badge.Popup.HeaderList,Ты соглашаешься использовать одну или несколько бета-функций:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,Голосовой чат
+InGame.CommonUI.Badge.BadgeText,БЕТА
+InGame.CommonUI.Badge.Popup.LearnMoreLink,Подробнее
+InGame.CommonUI.Badge.Popup.LearnMoreText,Для получения дополнительной информации ознакомься с разделом «‎Частые вопросы о записи голоса»‎.
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,Теперь ты можешь беспрепятственно общаться с меньшим количеством фильтров! Доступно только для соответствующих требованиям пользователей старше 13 лет.
+InGame.CommonUI.Badge.Popup.VoiceInfo,"Бета-функция голосового чата включена. Roblox записывает звук голоса в любом месте на платформе в целях модерации и безопасности. Продолжая использовать голосовой чат, ты соглашаешься на сбор, использование и хранение Roblox голосовых запискй в целях модерации и безопасности. Ты можешь отказаться от голосового чата в любое время."
+InGame.CommonUI.Badge.Popup.CommunityStandards,"Если ты видишь, что кто-то нарушает Правила сообщества, отправь жалобу."
+Feature.NativeAds.Label.Sponsored,Спонсируемые
+Feature.NativeAds.Label.Ad,Реклама
+InGame.ConnectionError.DisconnectOutOfMemory,"На твоём устройстве недостаточно памяти, чтобы запустить этот плейс. Вернись в приложение."
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,"Из-за особенностей устройства, этот плейс стал нестабильным, что может привести к сбою."
+InGame.ConnectionError.Title.ExperienceUnstable,Неустойчивый плейс
+Feature.SettingsHub.Label.MethodOfAbuse,Тип нарушения?
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,Голосовой чат
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,Этот пользователь громко кричал
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,Этот пользователь оскорблял других в чате
+Feature.SettingsHub.MethodOfAbuse.Text.Title,Текстовый чат
+Feature.SettingsHub.MethodOfAbuse.Other.Title,Другое
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,"Этот пользователь следит за мной, у него неприличная рубашка и т. д."
+Feature.SettingsHub.ReportSubmitted.MutePlayer,Отключить звук: {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,Заблокировать: {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,Мы получили жалобу и рассмотрим её в ближайшее время. Благодаря твоей обратной связи наше сообщество остаётся безопасным.
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,Ты не сможешь услышать {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,Ты и {Player} больше не сможете общаться.
+Feature.SettingsHub.Label.ReportComment,Объясни своими словами произошедшее
+Feature.SocialShare.Action.Share,Поделиться
+Feature.SocialShare.Label.ShareServerLink,Отправить ссылку на
+Feature.SocialShare.Label.Copied,Скопировано
+Feature.AccountSettings.Label.FreeCommConsentOnly,"Я даю согласие на сбор, использование и хранение голосовых записей только в целях модерации и безопасности."
+InGame.CommonUI.Button.KeepPlaying,Продолжить играть
+InGame.ConnectionError.Title.OutOfMemory,Недостаточно памяти
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,Этот плейс использует слишком много памяти. Может произойти сбой.
+Feature.SettingsHub.Label.DefaultInviteMessage,Пригласить {DisplayName} присоединиться?
+Feature.SettingsHub.Heading.InviteUser,Пригласить {DisplayName}?
+Feature.SettingsHub.Action.MuteAll,Отключить звук у всех
+Feature.SettingsHub.Action.UnmuteAll,Включить звук у всех
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,Нельзя шептать самому себе.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,Внимание: изменение имени пользователя приведёт к удалению значка подтверждения. Продолжить?
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,Видимость таблички
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,Видно
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,Не видно
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (оригинал)
+Feature.SettingsHub.LanguageSelection.Unavailable,Недоступно
+Feature.SettingsHub.LanguageSelection.SettingLabel,Язык плейса
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,Подробнее о голосовой записи
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,Отключить звук и заблокировать: {DisplayName}?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,Ты и {Player} больше не сможете общаться.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,Отключить звук: {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,Заблокировать: {DisplayName} (@{Username})?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,Ты и {DisplayName} (@{Username}) больше не сможете общаться друг с другом.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,Ты блокируешь и отключаешь звук: {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Muted,Ты отключаешь звук: {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Blocked,Ты блокируешь: {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,Отключить звук и заблокировать: {DisplayName}(@{Username})?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,Телепортирование приостановлено
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,Телепортирование возобновится после закрытия меню.
+Feature.NativeAds.Action.EnterExperience,Войти в плейс
+Feature.NativeAds.Action.ReturnToExperience,Вернуться в плейс
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,Твои настройки конфиденциальности не позволяют соединиться с этим сервером.
+CoreScripts.TopBar.RobloxMenu,Меню Roblox
+InGame.CommonUI.Label.MicOff,Микрофон выключен
+InGame.CommonUI.Label.MicOnRecording,Микрофон включён (запись аудио)
+InGame.InspectMenu.Label.VerifiedAvatar,Аватар пользователя {PLAYER_NAME}{VERIFIED_BADGE}
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,У вас не хватает Robux для покупки.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,Текущий баланс
+IAPExperience.InsufficientRobux.Action.Cancel,Отмена
+IAPExperience.InsufficientRobux.Action.BuyRobux,Купить Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,AdGui's Adornee не в форме блока
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,Вращение AdGui's Adornee не удалось
+Feature.NativeAds.Description.InvalidAdPortalParentType,Parent Type недействителен
+Feature.NativeAds.Description.AdPortalParentMissing,Parent не существует
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,Размер AdGui's Adornee неверный
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,Позиция AdGui's Adornee неверная
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal не имеет правильной иерархии
+Feature.NativeAds.Description.InvalidAdGuiValidation,Проверка AdGui не удалась
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal не имеет правильного набора свойств
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,У родительской части AdPortal не установлены правильные свойства
+Feature.NativeAds.Description.InvalidAdGuiAdornee,AdGui's Adornee не является частью
+Feature.NativeAds.Description.AdPortalMissing,AdPortal не существует
+IAPExperience.InsufficientRobux.Text.YouNeed,Необходимо ещё {robux}. Приобрети пакет Robux и возвращайся в плейс.
+IAPExperience.InsufficientRobux.Action.RobuxStore,Перейти в магазин Robux
+CoreScripts.TextChat.Emote.Error.NotOwned,Эмоция '{RBX_EMOTE}' отсутствует.
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,"На основании жалоб пользователей мы определили, что твоё поведение при использовании голосового чата нарушает Правила сообщества. Доступ к голосовому чату приостановлен до"
+Feature.SettingsHub.Prompt.MicUseSuspended,Использование микрофона отключено
+InGame.ConnectionError.Title.LowMemoryWarning,Предупреждение о нехватке памяти
+InGame.ConnectionError.Queue,Место в очереди: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,Отправить одежду
+CoreScripts.PublishAssetPrompt.TitleTextEmote,Отправить эмоцию
+CoreScripts.PublishAssetPrompt.TitleTextPackage,Отправить пакет
+CoreScripts.PublishAssetPrompt.Name,Название
+CoreScripts.PublishAssetPrompt.Description,Описание
+CoreScripts.PublishAssetPrompt.InvalidName,Неверное имя
+CoreScripts.PublishAssetPrompt.InvalidDescription,Неверное описание
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,"Я согласен с тем, что этот плейс будет представлять мой предмет для аватара для модерации и загрузки в Мои разработки."
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,"Я согласен с тем, что этот плейс будет представлять мою эмоцию для модерации и загрузки в Мои разработки."
+CoreScripts.PublishAssetPrompt.Cancel,Отмена
+CoreScripts.PublishAssetPrompt.Submit,Отправить
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,Описание
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,Название
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,Эта эмоция отсутствует.
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,Камера
+InGame.CommonUI.Label.Return,Вернуться
+InGame.CommonUI.Label.ReturnFallback,Вернуться к предыдущему плейсу
+InGame.CommonUI.Label.ReturnTo,Вернуться к {placeName}
+Feature.FaceChat.Heading.FacialAnimation,Анимация лица
+Feature.FaceChat.Subtitle.FeatureDisabled,Анимация лица временно недоступна. Повтори попытку позже.
+Feature.FaceChat.Subtitle.ServerDisabled,Анимация лица временно недоступна. Повтори попытку позже.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,Отключение камеры может повысить производительность.
+Feature.FaceChat.Heading.VideoNoPermission,Камера недоступна
+Feature.FaceChat.Subtitle.VideoNoPermission,"Перейди в настройки, чтобы открыть Roblox доступ к камере."
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,Низкая производительность устройства
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,Анимация лица недоступна
+Feature.FaceChat.Heading.VideoUnsupported,Камера устройства не поддерживается
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox не может использовать твою камеру для анимации твоего аватара.
+Feature.SettingsHub.Prompt.Connecting,Выполняется подключение голоса
+Feature.SettingsHub.Prompt.Subtitle.Connecting,Выполняется подключение голоса. Это может занять некоторое время.
+CoreScripts.ContactList.Label.Outgoing,Исходящий
+CoreScripts.ContactList.Label.Incoming,Входящий
+CoreScripts.ContactList.Label.Missed,Пропущенный
+Feature.FaceChat.Heading.LODCameraForceDisable,Камера отключена
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox отключил камеру устройства из-за проблем с производительностью.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,Настроить
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,"Для завершения этого действия необходимо настроить двухшаговую проверку. Это поможет защитить данные для входа, покупки и многое другое."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,Требуется двухшаговая проверка
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,На основании жалоб пользователей мы приостановили доступ к голосовому чату и чату с использованием аватара до
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,Будущие нарушения могут привести к дополнительным мерам с аккаунтом.
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,Действует до
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,"Наши системы обнаружили поведение, которое возможно нарушает наши Правила сообщества. В целях предосторожности мы временно отключили доступ к голосовому чату и чату с использованием аватара."
+Feature.SettingsHub.Prompt.Subtitle.Microphone,"Наши системы обнаружили поведение, которое возможно нарушает наши Правила сообщества. В целях предосторожности мы временно отключили доступ к голосовому чату."
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Приостановлено использование микрофона и камеры
+IAPExperience.BuyRobux.Banner.Text,Robux позволяет покупать обновления для аватара или специальные способности в плейсах
+IAPExperience.BuyRobux.Banner.Title,Разблокировать Roblox
+IAPExperience.BuyRobux.Text.MoreRobux,Ещё {robux} Robux
+InGame.ConnectionError.PlacelaunchHttpError,Произошла ошибка Http. Закрой клиент и попробуй снова.
+InGame.ConnectionError.PlacelaunchGameFull,Этот плейс переполнен
+InGame.ConnectionError.PlacelaunchGameEnded,"Этот плейс закрылся, или сервер стал недоступен из-за ошибки системы"
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,Память устройства низкая. Выход сохранит текущее состояние и предотвратит сбой Roblox.
+InGame.ConnectionError.Waiting,Ожидание доступного сервера
+InGame.ConnectionError.Loading,Сервер найден. Загрузка...
+InGame.ConnectionError.Joining,Подключение к серверу
+NotificationScript2.UINavigation.FormattedText,Нажми {KEY_NAME} для переключения.
+Feature.FaceChat.Subtitle.UnsupportedDevice,Твоё оборудование не соответствует требованиям для анимации аватара с помощью камеры.
+Feature.AccountSettings.Heading.Communication,Связь
+Feature.FaceChat.Heading.NotAvailable,Анимация лица недоступна
+InGame.ConnectionError.DisconnectPrivateServerKickout,"Подключение завершено, потому что у тебя больше нет доступа к этому частному серверу."
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,Набор от {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,Голова аватара не поддерживает лицевую анимацию. Совместимые головы доступны в инвентаре и в Магазине аватаров.
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,Отмена
+CoreScripts.EmoteThumbnailEditor.Action.Update,Обновить
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,Редактировать миниатюру
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,Вращение
+CoreScripts.EmoteThumbnailEditor.Label.Time,Время
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,Действительно выйти и присоединиться к другому плейсу?
+Feature.SettingsHub.Prompt.SimpleNudge,"Пожалуйста, будьте вежливы и добры"
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,"Наши системы обнаружили поведение, которое может нарушать наши Правила сообщества. Это мягкое напоминание о том, что Roblox должен оставаться культурной и доброжелательной площадкой."
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,Будущие нарушения могут привести к дополнительным мерам с аккаунтом.
+Feature.SettingsHub.Prompt.ThankYouForFeedback,Спасибо за отзыв!
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,Мы будем продолжать улучшать наши системы с учётом отзывов.
+Feature.SettingsHub.Chat.TranslationEnabled,Автоматически переводить чат
+Notifications.ToastNotifications.Title.LeavingExperience,Выход из плейса
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,Ты можешь найти этот предмет в своём инвентаре.
+CoreScripts.PublishAssetPrompt.PublishFailed,Что-то пошло не так. Попробуй ещё раз.
+CoreScripts.PublishAssetPrompt.PermissionDenied,Что-то пошло не так. Попробуй ещё раз.
+CoreScripts.PublishAssetPrompt.Timeout,Что-то пошло не так. Попробуй ещё раз.
+CoreScripts.PublishAssetPrompt.NoUserInput,Что-то пошло не так. Попробуй ещё раз.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,Готово!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,Отправка не удалась
+Feature.SettingsHub.Chat.TranslationInformation,"Текстовый чат будет переведён на твой язык. Нажми на символ перед сообщением, чтобы увидеть оригинал."
+CoreScripts.TextChat.Clear.Help.Description,/clear или /cls: очистить сообщения в окне чата 
+GameChat_ChatMain_ChatTranslationOnboarding,"Текстовый чат будет переведён на твой язык. Коснись символа перед сообщением, чтобы увидеть оригинал. Ты можешь отключить переводы в меню настроек."
+CoreScripts.PublishAssetPrompt.TitleTextModel,Отправить пакет
+IAPExperience.BuyRobux.Text.MoreRobux2,Ещё Robux: {robux}
+CoreScripts.PublishAssetPrompt.UndefinedError,Что-то пошло не так. Попробуй ещё раз. Код ошибки: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,Выкл.
+InGame.CommonUI.Label.On,Вкл.
+CoreScripts.PublishAssetPrompt.DisclaimerModel,"Созданные предметы будут проверены, и ты не сможешь получить возврат за отклонённые предметы, которые не соответствуют Правилам сообщества."
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,Успешная покупка Robux!
+CoreScripts.AssetPreviewView.Action.ResetView,Сбросить вид
+CoreScripts.AssetPreviewView.Label.LoadingFailed,Загрузка не удалась
+CoreScripts.PublishAssetPrompt.ResultModalOk,OK
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,"Мы обнаружили выражения, которые, возможно, нарушают Правила сообщества Roblox.<br /><br />Ты можешь потерять доступ к голосовому чату после нескольких нарушений."
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,"Мы обнаружили выражения, которые, возможно, нарушают Правила сообщества Roblox. Ты можешь потерять доступ к голосовому чату после нескольких нарушений."
+Feature.SettingsHub.Prompt.GotIt,Понятно
+CreatorDashboard.AssetTypes.Label.Body,Тело
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Недостаточно Robux
+IAPExperience.Loading.Text.PurchasingRobux,Покупка Robux...
+IAPExperience.Loading.Text.PurchasingItem,Покупка предмета...
+IAPExperience.Loading.WaitingForPurchase,Ожидание покупки...
+IAPExperience.Loading.WaitingForRobux,Ожидание получения Robux...
+IAPExperience.Loading.Text.WaitingForPurchase,Ожидание покупки...
+IAPExperience.Loading.Text.WaitingForRobux,Ожидание получения Robux...
+Notifications.NotificationStream.Title.ReportNotification,Уведомление о жалобе
+Notifications.NotificationStream.AbuseReason.Bullying,Травля
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,Мошенничество/использование уязвимости в своих интересах
+Notifications.NotificationStream.AbuseReason.Dating,Флирт/свидания
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,Внешние ссылки
+Notifications.NotificationStream.AbuseReason.Other,Прочее
+Notifications.NotificationStream.AbuseReason.AskingPII,Личный вопрос
+Notifications.NotificationStream.AbuseReason.Scamming,Мошенничество
+Notifications.NotificationStream.AbuseReason.Profanity,Мат
+Feature.ReportAbuse.Message.ErrorSubmit,При отправке жалобы произошла ошибка.
+Feature.ReportAbuse.Action.ReportAbuse,Сообщить о нарушении
+Feature.ReportAbuse.Label.TellUsHowAsset,"Расскажи нам, как этот ресурс нарушает правила Roblox."
+Feature.ReportAbuse.Label.ReasonForFlag,Причина:
+Feature.ReportAbuse.Message.ThanksForFlagging,"Мы не сможем ответить на каждую жалобу, но твоя обратная связь помогает нам улучшить наш сервис для всех авторов."
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,Комментарий должен содержать не более {characterLimit} симв.
+Feature.SettingsHub.Prompt.IncorrectNudge,Видишь ошибку?<br /><u>Отправь отзыв.</u>
+Feature.SettingsHub.Prompt.RememberRules,Запомни нашу политику
+Feature.SettingsHub.Label.Captures,Захват экрана
+InGame.InspectMenu.Label.LimitedItems,Предмет ограниченной серии
+InGame.InspectMenu.Label.FromResale,{PRICE} от перепродажи
+InGame.InspectMenu.Action.FromResale,{PRICE} от перепродажи
+InGame.InspectMenu.Label.OwnedItem,Существующий предмет ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,Существующий предмет ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,Достигнуто максимальное количество предметов
+Feature.FaceChat.Heading.UnableToAccessCamera,Невозможно получить доступ к камере
+Feature.FaceChat.Subtitle.UnableToAccessCamera,"Чтобы анимировать аватар с помощью камеры, перейди в настройки операционной системы, чтобы разрешить использование камеры"
+Feature.SettingsHub.Prompt.MicrophonePermission,Не удаётся получить доступ к микрофону
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,"Чтобы общаться в голосовом чате, перейди в настройки операционной системы, чтобы разрешить Roblox использовать микрофон."
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,Запомнить для этого плейса.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,"Нет, выключить звук у других"
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,"Да, слышать других"
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,"Ты будешь слышать другие голоса, но твой микрофон будет отключён до тех пор, пока ты снова не захочешь пообщаться."
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,Присоединиться с голосом?
+CoreScripts.PublishCommon.Creator,Автор
+CoreScripts.PublishCommon.Leave,Да
+CoreScripts.PublishCommon.MadeIn,Сделано в
+CoreScripts.PublishCommon.Stay,Нет
+CoreScripts.PublishCommon.Type,Тип
+CoreScripts.PublishCommon.UnsavedWarning,Ты можешь потерять любые несохранённые изменения
+Feature.Accessibility.Description.PreferredTransparency,"Улучшить контраст, изменив прозрачность на некоторых фонах"
+Feature.Accessibility.Description.ReducedMotion,Остановить или уменьшить эффекты движения
+Feature.Accessibility.Description.UiNavigationKeyBind,Используй клавишу {uiNavigationKey} для входа и выхода из режима навигации
+Feature.Accessibility.Heading.PreferredTransparency,Прозрачность фона
+Feature.Accessibility.Heading.ReducedMotion,Уменьшить движение
+Feature.Accessibility.Heading.UiNavigationKeyBind,Переключатель навигации по интерфейсу
+Feature.Accessibility.PreferredTransparency.Opaque,Непрозрачный
+Feature.Accessibility.PreferredTransparency.Transparent,Прозрачный
+Feature.Avatar.Heading.Clothing,Одежда
+Feature.Avatar.Label.Accessory,Аксессуар
+Feature.Avatar.Label.Back,Спина
+Feature.Avatar.Label.ClassicPants,Классические брюки
+Feature.Avatar.Label.ClassicShirts,Классические рубашки
+Feature.Avatar.Label.ClassicTShirts,Классические футболки
+Feature.Avatar.Label.Climb,Лазание
+Feature.Avatar.Label.DressesAndSkirts,Платья и юбки
+Feature.Avatar.Label.DynamicHead,Динамическая голова
+Feature.Avatar.Label.Emote,Эмоция
+Feature.Avatar.Label.Face,Лицо
+Feature.Avatar.Label.Fall,Падение
+Feature.Avatar.Label.Gear,Снаряжение
+Feature.Avatar.Label.Hair,Причёска
+Feature.Avatar.Label.Hat,Головной убор
+Feature.Avatar.Label.Head,Голова
+Feature.Avatar.Label.Idle,Бездействие
+Feature.Avatar.Label.Jacket,Куртка
+Feature.Avatar.Label.Jump,Прыжок
+Feature.Avatar.Label.LeftArm,Левая рука
+Feature.Avatar.Label.LeftArms,Левые руки
+Feature.Avatar.Label.LeftLeg,Левая нога
+Feature.Avatar.Label.LeftLegs,Левые ноги
+Feature.Avatar.Label.LeftShoe,Левый ботинок
+Feature.Avatar.Label.Mood,Настроение
+Feature.Avatar.Label.Neck,Шея
+Feature.Avatar.Label.Pants,Брюки
+Feature.Avatar.Label.RightArm,Правая рука
+Feature.Avatar.Label.RightArms,Правые руки
+Feature.Avatar.Label.RightLeg,Правая нога
+Feature.Avatar.Label.RightLegs,Правые ноги
+Feature.Avatar.Label.RightShoe,Правый ботинок
+Feature.Avatar.Label.Run,Бег
+Feature.Avatar.Label.Shirt,Рубашка
+Feature.Avatar.Label.Shorts,Шорты
+Feature.Avatar.Label.Shoulder,Плечо
+Feature.Avatar.Label.Sweater,Свитер
+Feature.Avatar.Label.Swim,Плавание
+Feature.Avatar.Label.Torso,Торс
+Feature.Avatar.Label.TShirt,Футболка
+Feature.Avatar.Label.Waist,Талия
+Feature.Avatar.Label.Walk,Ходьба
+Feature.Catalog.Label.Animation,Анимация
+Feature.Catalog.Label.Attribution,Сделано в
+Feature.Catalog.Label.Body,Тело
+Feature.Catalog.Label.CategoryType,Тип
+Feature.Catalog.Label.Emotes,Эмоции
+Feature.Catalog.Label.Eyebrow,Бровь
+Feature.Catalog.Label.Eyelash,Ресницы
+Feature.Catalog.Label.Filter.Creator,Автор
+Feature.GamepadDisconnect.Label.Message,"Контроллер для пользователя ""%s"" был отключён. Нажми '%s' на контроллере, который хочешь использовать."
+Feature.GamepadDisconnect.Label.Title,Отсутствующий контроллер
+InGame.InspectMenu.Action.SoldOut,Продано
+CoreScripts.PublishCommon.Disclaimer,"Созданные предметы будут проверены, и ты не сможешь получить возврат за отклонённые предметы, которые не соответствуют Правилам сообщества."
+Feature.ReportAbuse.Action.AttachScreenshot,Прикрепить скриншот
+Feature.ReportAbuse.Action.BackToExperience,Вернуться в плейс
+Feature.ReportAbuse.Action.HighlightScene,Выделить сцену
+Feature.ReportAbuse.Action.Next,Далее
+Feature.ReportAbuse.Action.Retake,Переснять
+Feature.ReportAbuse.Action.RetakeScene,Сделать повторный захват сцены
+Feature.ReportAbuse.Label.SelectPerson,Выбрать человека в сцене
+Feature.ReportAbuse.Label.SelectProblem,Выделить проблему в сцене
+Feature.ReportAbuse.Message.ProblemNotInScene,"Если проблема не в этой сцене, можно повторно сделать скриншот."
+Feature.ReportAbuse.Message.RetakeScene,"Помоги нам понять, что происходит вокруг. Мы сделаем снимок в тот момент, когда ты нажмёшь «Пожаловаться»."
+Feature.SettingsHub.Action.CaptureScene,Сделать снимок сцены
+Feature.SettingsHub.Label.AttachScreenshot,Прикрепить скриншот? (необязательно)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,Прикрепить скриншот?{lineBreak}(необязательно)
+Feature.SettingsHub.Label.SceneCaptured,Снимок сцены сделан
+CommonUI.Controls.Action.Cancel,Отмена
+CommonUI.Controls.Action.Confirm,Подтверждаю
+CoreScripts.TopBar.ControlMessageMotion,Отслеживание движения
+CoreScripts.TopBar.ControlMessageOff,Выкл.
+CoreScripts.TopBar.ControlMessageOn,Вкл.
+CoreScripts.TopBar.ControlMessageSound,Отслеживание звука
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,Аватар > Настройки > Голова и тело
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,"Чтобы подмигнуть, нужна динамическая голова"
+CoreScripts.TopBar.RobloxPermissionErrorBody,Настройки Roblox › Конфиденциальность › Микрофон и камера
+CoreScripts.TopBar.RobloxPermissionErrorHeader,Разрешить доступ к камере
+CoreScripts.TopBar.SelfViewLabel,Самопросмотр
+CoreScripts.TopBar.SelfViewSecondaryAction,Открыть
+InGame.CommonUI.Badge.Popup.DisclaimerText2,"Если ты видишь, что кто-то нарушает наши Правила сообщества, пожалуйста, сообщи нам об этом. При использовании голосового чата Roblox записывает звук в любом месте на платформе в целях модерации, безопасности и улучшения качества наших услуг и инструментов. Продолжая использовать функцию голосового чата, ты соглашаешься на сбор, использование и хранение Roblox голосовых записей в перечисленных целях. Ты можешь отказаться от использования голосовых функицй в любой момент."
+CoreScripts.TopBar.MenuToggle,Развернуть/свернуть
+CoreScripts.TopBar.MoreMenu,Меню «Ещё»
+CoreScripts.TopBar.OverflowMenu,Дополнительное меню
+CoreScripts.TopBar.Title.ExperienceControls,Управление плейсом
+CoreScripts.TopBar.ToggleMic,Отключить/Включить свой звук
+Feature.Catalog.Label.Bundle,Комплект
+Feature.SocialContextToast.Action.InviteBack,Пригласить обратно
+Feature.SocialContextToast.Action.JoinFriend,Присоединиться
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} выходит и присоединяется к {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} покидает плейс
+Feature.SocialContextToast.Message.FriendJoinedYou,К тебе присоединился пользователь {FRIEND_NAME}
+Feature.SocialContextToast.Message.InvitationConfirmation,Приглашение отправлено
+Feature.SocialContextToast.Message.YouJoinedManyFriends,Ты присоединяешься к {FRIEND_NAME} и {FRIEND_COUNT} др.
+Feature.SocialContextToast.Message.YouJoinedOneFriend,Ты присоединяешься к: {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,Ты присоединяешься к: {FRIEND_NAME_ONE} и {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,Аватар этого человека одет в неприличную одежду
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,Аватар
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,"Ты будешь слышать другие голоса, но твой микрофон будет отключён до тех пор, пока ты снова не захочешь пообщаться."
+Feature.Subscription.Text.DisclaimerMonthly,Обновляется ежемесячно. Можно отменить в любое время.
+Feature.Subscription.Text.PerMonth,в месяц
+Feature.SettingsHub.Action.EveryoneToggle,Все
+Feature.SettingsHub.Action.NobodyToggle,Никто
+Feature.SettingsHub.Action.NonfriendsToggle,"Те, кто не в списке друзей"
+Feature.SettingsHub.Label.Mute,Отключить звук
+Feature.SocialContextToast.Message.InvitationFailure,Не удаётся отправить приглашения
+Feature.SocialShare.Action.CopyLink,Скопировать ссылку
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,Обновляется ежемесячно. Можно отменить в любое время.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,"Ты присоединяешься к пользователю {FRIEND_NAME}, но он сейчас в недоступной локации"
+Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} перемещается в недоступное местоположение в этом плейсе
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox автоматически переводит поддерживаемые языки в чате
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,Входящие и исходящие сообщения будут переводиться автоматически
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,Перевод чата включён для поддерживаемых языков
+Feature.SettingsHub.Chat.TranslationSetting,Автоматический перевод чата
+Feature.SettingsHub.Chat.TranslationToggleSetting,Опция для просмотра непереведённого сообщения
+Feature.Call.Description.NoFriendsFound,Друзья не найдены
+Feature.Call.Error.Description.AlreadyInCall,Вы уже участвуете в звонке
+Feature.Call.Error.Description.CallEnabledVerificationFailed,Не удалось проверить возможность вызова.
+Feature.Call.Error.Description.Generic,Что-то пошло не так. Повтори попытку позже.
+Feature.Call.Error.Description.SettingsNotCallEnabled,Текущие настройки не позволяют совершать звонки.
+Feature.Call.Error.Label.OhNo,Ой!
+Feature.Call.Label.CallEnded,Вызов завершён
+Feature.Call.Label.Calling,Вызов...
+Feature.Call.Label.Incoming,Входящий
+Feature.Call.Label.Missed,Пропущенный
+Feature.Call.Label.Outgoing,Исходящий
+Feature.Call.Label.RecentCalls,Недавние звонки
+Feature.Call.Label.RobloxCall,Вызов Roblox
+Feature.Call.Label.StartNewCall,Начать новый звонок
+Feature.Call.Label.Teleporting,Телепортация...
+Feature.Call.Label.Yesterday,Вчера
+Feature.Call.Prompt.AddFriends,"Добавь друзей в Roblox, чтобы позвонить"
+Feature.Call.Prompt.FirstCall,Попробуй сделать свой первый звонок
+Feature.Call.Prompt.SearchFriends,Поиск друзей
+Feature.Call.Prompt.StartCall,Начать звонок
+Feature.FaceChat.Heading.LowPerformanceDetected,Обнаружена низкая производительность
+Feature.FaceChat.Subtitle.LowPerformanceDetected,Отключение камеры может повысить производительность устройства
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,Не удаётся загрузить друзей. Повтори попытку.
+Feature.SettingsHub.Label.NoFriendsPageMessage,"Добавляй друзей, чтобы можно было исследовать Roblox вместе."
+CoreScripts.Feedback.EntryPoint.ButtonText,Отправить отзыв
+CoreScripts.Feedback.EntryPoint.MenuLabel,Отзыв
+CoreScripts.Feedback.EntryPoint.OptionText,Отправить отзыв о переводе
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,Выход
+CoreScripts.Feedback.FeedbackBar.HelpButton,Помощь
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,Оставь комментарий ниже (необязательно)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,Введи любые дополнительные комментарии
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,Отмена
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,Какой будет правильный перевод? (необязательно)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,Введи правильный перевод
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,Отправить отзыв
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,Изображение
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,Игровой объект
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Меш
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,Модель
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,Видео
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,Что не так с данным переводом? (необязательно)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,Ошибка с точностью
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,Неуместный или оскорбительный
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,Нет выбора
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,Орфографическая или грамматическая ошибка
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,Перевод отсутствует
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,Выбранный объект
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,Отправить
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,Выбранный текст
+CoreScripts.Feedback.Help.CloseInstructions,Закрыть инструкции
+CoreScripts.Feedback.Help.Instructions1,"В режиме обратной связи экран будет заморожен, и ты не сможешь переместить аватар или камеру. Нажми на любой объект, чтобы оставить отзыв о неправильном или пропущенном переводе."
+CoreScripts.Feedback.Help.Instructions2,"При выборе объекта появляется форма, с помощью которой можно отправить дополнительную информацию. Благодарим за помощь в улучшении перевода в Roblox!"
+CoreScripts.Feedback.Help.MainHeader,Помощь
+CoreScripts.Feedback.SubmissionToastBody,Roblox будет использовать эту информацию для улучшения качества перевода этого плейса
+CoreScripts.Feedback.SubmissionToastHeader,Спасибо за отзыв!
+Feature.Call.Description.Friends,"Друзья, устройства или настройки устройств которых не поддерживают оптимальное качество звонка."
+Feature.Call.Description.SuggestedFriends,"Друзья, устройства или настройки устройств которых поддерживают оптимальное качество звонка."
+Feature.Call.Error.Description.DeviceNotSupported,Звонки в настоящее время не поддерживаются на этом устройстве. Повтори попытку позже.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} в настоящее время занят и не может принять твой звонок. Повтори попытку позже.
+Feature.Call.Error.Title.CouldntMakeCall,Не удалось позвонить
+Feature.Call.Error.Title.FriendBusy,Друг занят
+Feature.Call.Label.Friends,Друзья
+Feature.Call.Label.Suggested,Рекомендуемый
+Feature.Call.Modal.EnableChatVoiceBody,"Включи Голосовой чат, перейдя в Настройки > Конфиденциальность, чтобы разговаривать с другими пользователями в этом плейсе."
+Feature.Call.Modal.EnableChatVoiceTitle,Включить голосовой чат
+InGame.InspectMenu.Action.Go,Перейти
+InGame.InspectMenu.Attribution.GoToDescription,Ты покидаешь эту область и присоединяешься к {EXPERIENCE_NAME}.
+InGame.InspectMenu.Attribution.GoToExperience,Перейти в плейс?
+Common.Presence.Label.Online,В сети
+Feature.Call.Label.Block,Заблокировать: {combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,Телепортироваться сейчас
+CoreScripts.Ads.Action.PortalPromptCancel,Отмена
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,"Отойдите, чтобы закрыть диалог."
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,Телепортироваться в {RBX_NAME}?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,Телепортироваться?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,Ты можешь найти свою камеру и элементы управления просмотром здесь
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,"Используй свою камеру, чтобы твой аватар улыбался и двигался так же, как ты"
+Feature.Call.Description.ExperienceError,Голосовой чат не поддерживается в этом плейсе.
+Feature.Call.Error.Title.ExperienceError,Ошибка
+Feature.SettingsHub.Label.ReasonForAbuse,Причина нарушения?
+Notifications.NotificationStream.Bundle.ShowLess,Свернуть
+Notifications.NotificationStream.Bundle.ShowMoreV2,Ещё {notificationCount}
+CommonUI.Controls.Input.Optional,{inputLabel} (необязательно)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,"Доступ к голосовому чату отключён до {dateTime} из-за поведения, которое, вероятно, нарушает наши Правила сообщества."
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,Развернуть
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,Валюта подарочной карты должна совпадать с местоположением твоего аккаунта. Ты можешь просмотреть местоположение своего аккаунта в настройках. По любым вопросам обращайся в Службу поддержки {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}.
+Feature.Call.Label.Unfriend,Удалить из друзей: {combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,Контроллер для пользователя «%s» был отключён. Подключи контроллер.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,"Мы временно отключили голосовой чат. Вероятно, была использована лексика, нарушающая Правила сообщества Roblox."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,"Если это произойдет снова, ты можешь потерять доступ к своему аккаунту."
+Feature.SettingsHub.Prompt.XMinuteSuspension,Минутная приостановка: {banDurationInMinutes}
+Feature.ReportAbuse.DSAIllegal.ReportLink,Сообщи о незаконном контенте в соответствии с Законом о цифровых услугах (ЕС).
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,Сообщить о незаконном контенте
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,Вкл. ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,"Roblox не использует поведенческую информацию для подбора рекламы. Ты видишь это объявление на основе такой информации, как тип устройства, местоположение устройства и возраст."
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,"Чтобы сообщить о незаконном контенте в соответствии с определением Закона о цифровых услугах (ЕС), посети: https://www.roblox.com/illegal-content-reporting"
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,По умолчанию ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,Максимальная частота кадров
+CoreScripts.Ads.Action.Close,Закрыть
+CoreScripts.Ads.Label.WhyThisAd,Почему я вижу эту рекламу?
+CoreScripts.FTUX.Mic.Body,Включи микрофон
+CoreScripts.FTUX.Mic.Header,Используй голосовой чат
+CoreScripts.FTUX.Onboard.Body,"Таблицы лидеров, чат, безопасность и многое другое"
+CoreScripts.FTUX.Onboard.Header,Быстрый доступ к любимым элементам управления
+CoreScripts.FTUX.SelfView.Body,"Когда твоя камера включена, аватар будет следить за твоей мимикой и движениями"
+CoreScripts.FTUX.SelfView.Header,Анимация аватара
+CoreScripts.FTUX.Tools.Body,"Следи за результатами, сообщай о проблемах, используй эмоции"
+CoreScripts.FTUX.Tools.Header,Лучшие инструменты и действия
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,"Масштабировать двумя пальцами; провести пальцем, чтобы повернуть; провести двумя пальцами для панорамы"
+CoreScripts.PublishAvatarPrompt.Body,Тело
+CoreScripts.PublishAvatarPrompt.BodyName,Имя тела
+CoreScripts.PublishAvatarPrompt.Close,Закрыть
+CoreScripts.PublishAvatarPrompt.CreatedBody,Тело {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedHead,Голова {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,Левая рука {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,Левая нога {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,Правая рука {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,Правая нога {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedTorso,Торс {DisplayName}
+CoreScripts.PublishAvatarPrompt.Head,Голова
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,Оставить?
+CoreScripts.PublishAvatarPrompt.LeftArm,Левая рука
+CoreScripts.PublishAvatarPrompt.LeftLeg,Левая нога
+CoreScripts.PublishAvatarPrompt.Pan,Панорама
+CoreScripts.PublishAvatarPrompt.ResetView,Сбросить вид
+CoreScripts.PublishAvatarPrompt.RightArm,Правая рука
+CoreScripts.PublishAvatarPrompt.RightLeg,Правая нога
+CoreScripts.PublishAvatarPrompt.Rotate,Повернуть
+CoreScripts.PublishAvatarPrompt.SubmitCreation,Отправить
+CoreScripts.PublishAvatarPrompt.Torso,Торс
+CoreScripts.PublishAvatarPrompt.Zoom,Приблизить
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,Язык перевода чата
+CoreScripts.Feedback.FeedbackBar.MainLabel,Отправить отзыв
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,Объект: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,"Выбери любой текст, чтобы дать отзыв о неправильных или отсутствующих переводах."
+CoreScripts.Feedback.MobileSelectionModal.Close,Закрыть
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,Отправить отзыв
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,Объект: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,Выбранный текст
+CoreScripts.Feedback.Onboarding.Cancel,Отмена
+CoreScripts.Feedback.Onboarding.Instructions,"Выбери любой текст, чтобы дать отзыв о неправильных или отсутствующих переводах."
+CoreScripts.Feedback.Onboarding.MainHeader,"Расскажи нам, что пошло не так"
+CoreScripts.Feedback.Onboarding.Start,Начать
+CoreScripts.FTUX.Onboard.Complete,Понятно
+CoreScripts.FTUX.Onboard.ShowMe,Показать больше
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,Твоя обратная связь помогает нам улучшать наши системы.
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,Спасибо за отзыв!
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Freecam
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,Show GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,Да
+Feature.Notifications.Heading.EnableNotifications,Включить уведомления в этом плейсе
+Feature.Notifications.Heading.EnableNotificationsForExperience,Включить уведомления в плейсе {experienceName}
+Feature.Notifications.Label.ReceiveActivityUpdates,Получай обновления об активности во время своего отсутствия
+Feature.Notifications.Response.NotificationsEnabled,Уведомления отключены для этого плейса
+Feature.Notifications.Response.NotificationsEnabledForExperience,Уведомления включены для плейса {experienceName}
+Feature.SettingsHub.Action.LearnMore,Подробнее
+Feature.SettingsHub.Action.NotNow,Не сейчас
+Feature.SettingsHub.Action.TurnOn,Включить
+Feature.SettingsHub.Prompt.ChangeYourMind,Если ты передумаешь
+Feature.SettingsHub.Prompt.JoinedVoiceChat,Ты присоединяешься к голосовому чату
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,Ты всегда можешь отключиться от голосового чата или отключать звук любого из пользователей в любое время.
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,Ты всегда можешь присоединиться к голосовому чату позже в меню Roblox.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"Выбирая «Включить», я даю согласие на сбор, использование и хранение моих голосовых записей для включения голосовых сервисов и модерации, безопасности и улучшения наших услуг и инструментов."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,"Roblox не использует поведенческую информацию для подбора рекламы. Ты видишь это объявление на основе такой информации, как тип устройства, местоположение устройства и возраст. Рекламодатель: {AdvertiserName}."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,"Roblox не использует поведенческую информацию для подбора рекламы. Ты видишь это объявление на основе такой информации, как тип устройства, местоположение устройства и возраст. Рекламодатель: {AdvertiserName}. Объявление оплачено: {PayerName}."
+Feature.Notifications.Heading.TurnOnNotifications,Включить уведомления
+Feature.Notifications.Label.GetUpdatesFromExperience,"Получать обновления из плейса {experienceName}, когда ты не в сети?"
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,Ты можешь отключить звук любого пользователя в любое время.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,Включи голосовой чат и общайся с друзьями. Тебе нужно будет предоставить Roblox доступ к микрофону. Ты управляешь настройками — отключай свой звук или звук других пользователей в любое время.
+Verification.Identity.Heading.V2LetsChat,Поболтаем?
+Feature.Call.Label.Retry,Повторить
+Feature.Friends.Action.Unfriend,Удалить из друзей
+AuthorizeWebsite.PermissionRequest.Label.Subscription,Подписка
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,Получить информацию о подписках.
+CreatorDashboard.ScopeSystem.Label.Subscription,
+Feature.ReportAbuse.Action.BuildAReport,Текстовый режим
+Feature.ReportAbuse.Action.EnterSceneReporting,Вход в режим выделения
+Feature.ReportAbuse.Action.SelectInScene,Режим выделения
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,"Отправить отчёт, используя режим выделения"
+Feature.ReportAbuse.Label.SelectInSceneDescription1,"Используй до 5 кругов, чтобы выделить о проблеме"
+Feature.ReportAbuse.Label.SelectInSceneDescription2,"Расскажи нам, почему это проблема"
+Feature.ReportAbuse.Label.SelectInSceneDescription3,Отправить отчёт
+Feature.SettingsHub.Prompt.GetVoiceChat,Включить голосовой чат
+Feature.SettingsHub.Prompt.MicPermissionPrime,"Чтобы начать говорить, разреши Roblox доступ к микрофону"
+Feature.SettingsHub.Prompt.TalkWithOthers,Общайся с другими
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,Голосовой чат с другими
+Feature.SettingsHub.Prompt.VoiceUserAgency,Ты контролируешь звук в любое время
+InGame.HelpMenu.Controls.ToggleGameMenu,Переключатель игрового меню
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,Ок
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,Покупка не удалась
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,"Не удалось завершить покупку, потому что у тебя уже есть эти предметы."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,В настоящий момент невозможно совершить эту покупку.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,"Не удалось совершить покупку, потому что тебе необходима подписка Roblox Premium, чтобы купить эти предметы."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,"Не удалось совершить покупку, потому что у тебя недостаточно Robux."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,"Не удалось совершить покупку, потому что невозможно купить предметы этого типа."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,"Покупка не могла быть завершена, так как эти предметы не продаются."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,"Не удалось совершить покупку, так как изменилась цена."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,"Не удалось совершить покупку, потому что невозможно купить предметы, которыми ты владеешь."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,"Не удалось совершить покупку, потому что достигнут лимит количества данных предметов."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,"Не удалось совершить покупку, так как достигнут лимит в 9 транзакций в минуту."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,"Не удалось совершить покупку, так как предметы распроданы."
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,Robux не были списаны. Повтори попытку позже.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,Robux не были списаны. Пополни баланс и повтори попытку позже.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,Robux не были списаны. Повтори попытку.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,Robux не были списаны. Попробуй выбрать другие предметы.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,Robux не были списаны. Повтори попытку позже.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,Покупка выполнена
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,Частичная покупка завершена
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,Предметов: {itemCount} 
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,Готово!
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,Предметов: {itemCount} 
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,Не удалось купить
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,У тебя уже есть этот предмет
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,Недоступно
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Требуется Premium
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Недостаточно Robux
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,Недоступно
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,Не продаётся
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,Изменение цены
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,Продавец является покупателем
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,Достигнут лимит
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,Достигнут лимит
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,Продано
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,Куплено
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,"Некоторые предметы не удалось купить, попробуй позже."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,Текущий баланс
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,Готово
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Потрачено Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,Краткое содержание
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,Предметов: {itemCount} 
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,Всего предметов куплено
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,{ownedCount}
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,Оплатить
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,Текущий баланс
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,Баланс после покупки
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,Всего заказов
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,Покупка совершена: {itemCount}. Теперь эти предметы в твоём инвентаре.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,Готово
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,Покупка выполнена
+Feature.Accessibility.Description.MainVolume,"Контролируй общий уровень звука Roblox, включая эффекты меню, звук в плейсах и голосовой чат"
+Feature.Notifications.Webview.Title.PolicyUpdate,Обновление политики
+Feature.SettingsHub.Prompt.CameraUnavailable,Камера недоступна
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,"Мы отключили камеру для улучшения производительности на этом устройстве. Ты можешь использовать другое устройство. Нажми, чтобы узнать более подробную информацию."
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,"Общайся с другими пользователями и получай больше удовольствия. Чтобы начать говорить, разреши Roblox доступ к микрофону. Всё под твоим контролем — отключай свой звук или звук других пользователей в любое время."
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,Общайся с другими пользователями и получай больше удовольствия. Всё под твоим контролем — отключи свой звук или звук других пользователей в любое время.
+Feature.SettingsHub.Label.MyCaptures,Мои снимки
+Feature.ReportAbuse.Action.ErrorModalGoBack,Назад
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,Ошибка: максимум 5 кругов
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,"Ты можешь разместить до 5 кругов, чтобы выделить проблему. Используй кнопку отмены для удаления кругов."
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,"Настрой частоту кадров для более плавного игрового режима. Чем выше частота кадров, тем больше мощность, и рамки превышающие частоту обновления дисплея не будут показаны."
+Feature.Subscription.Text.Subscribed,Есть подписка
+Feature.ReportAbuse.Label.ChooseOne,Выбери вариант
+Feature.ReportAbuse.Label.PleaseSelectOne,Выбери причину
+Feature.ReportAbuse.Label.SelectInSceneComplete,"Мы используем отчёт, чтобы сделать Roblox интересным и безопасным местом для всех."
+Feature.ReportAbuse.Label.TellUsWhatHappened,"Расскажи нам, что произошло. (Необязательное поле)"
+Feature.ReportAbuse.Label.WhatWasWrong,Что случилось?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,Закончить отчёт
+Feature.ReportAbuse.Title.SelectInSceneThankYou,Спасибо за сообщение
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,Выйти
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Купить Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Не хватает Robux
+Feature.ReportAbuse.Action.Close,Закрыть
+Feature.ReportAbuse.Action.Submit,Отправить
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,"Достигнут месячный лимит на покупку, установленный в родительском контроле. Ты не сможешь совершить новую покупку до следующего месяца."
+Feature.ReportAbuse.Label.Avatar,Аватар
+Feature.ReportAbuse.Label.Bullying,Травля
+Feature.ReportAbuse.Label.Cheating,Мошенничество/использование уязвимости в своих интересах
+Feature.ReportAbuse.Label.Content,Недопустимое содержимое
+Feature.ReportAbuse.Label.Dating,Флирт/свидания
+Feature.ReportAbuse.Label.Links,Внешние ссылки
+Feature.ReportAbuse.Label.Personal,Личный вопрос
+Feature.ReportAbuse.Label.Scamming,Мошенничество
+Feature.ReportAbuse.Label.Swearing,Ненормативная лексика
+Feature.ReportAbuse.Label.TextChat,Текстовый чат
+Feature.ReportAbuse.Label.Username,Недопустимое имя пользователя
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,"Необходима двухшаговая проверка для совершения данной транзакции. Перейди в Настройки > Безопасность, чтобы завершить двухшаговую проверку."
+CommonUI.Controls.Action.Refresh,Обновить
+CommonUI.Controls.NoResultsFound,Ничего не найдено
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,"Покупка не могла быть завершена, так как эти предметы не продаются."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,Недоступно в этом плейсе
+CoreScripts.PublishAvatarPrompt.Description,Описание (не обязательно)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,Опиши этот предмет
+Feature.Accessibility.Description.Haptics,Контролируй общую вибрацию приложения Roblox
+Feature.Accessibility.Header.Haptics,Вибрация
+Feature.AccountSettings.Label.CameraNotAvailable,Камера недоступна на некоторых устройствах.
+Feature.AccountSettings.Label.CameraNotSupported,Камера недоступна на некоторых устройствах. {linkStart}Подробнее{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,Разрешить
+Feature.Notifications.Action.PushUpsellNotNow,Не сейчас
+Feature.Notifications.Heading.PushUpsellGeneric,Не пропусти
+Feature.Notifications.Label.PushUpsellGeneric,"Получай уведомления о событиях, таких как сообщения в чате, приглашения, запросы в друзья и многое другое."
+Feature.Squads.Action.Join,Присоединиться
+Feature.VerificationUpsell.Action.EditPhoneNumber,Изменить номер телефона
+IAPExperience.LeaveRoblox.Action.Cancel,Отмена
+IAPExperience.LeaveRoblox.Action.Continue,Продолжить
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"Нажав «Продолжить», ты перейдёшь на сайт, не принадлежащий Roblox. Он регулируется другими Условиями использования и другой Политикой конфиденциальности."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Ты покидаешь Roblox
+Feature.ReportAbuse.Label.HighlightProblem,Выдели проблему с кругами
+Feature.Toast.NetworkingError.SomethingIsWrong,Что-то пошло не так. Повтори попытку.
+Feature.Accessibility.Description.PreferredTextSize,Отрегулируй размер текста в Roblox в соответствии с предпочтениями
+Feature.Accessibility.Heading.PreferredTextSize,Размер текста
+Feature.Accessibility.PreferredTextSize.Default,По умолчанию
+Feature.Accessibility.PreferredTextSize.Largest,Самый большой
+Feature.Accessibility.Action.ScrollDown,Прокрутить вниз
+Feature.Accessibility.Action.ScrollUp,Прокрутить вверх
+CoreScripts.PublishAvatarPrompt.BuyCreation,Купить разработку
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,ОК
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,Произошла ошибка и обновление подписки не было отменено. Повтори попытку.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,Ошибка
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,Подписка уже успешно отменена. Никаких действий не требуется.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,Уже отменено
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,"Если ты отменишь подписку, доступ к ней сохранится до {date}."
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,Не отменять
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,Отменить подписку
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,"Да, отменить"
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,Подписка успешно отменена
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,Нет подписки на Premium.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,Не удалось отменить
+Feature.Subscription.Error.GenericSubscribeError,Что-то пошло не так при попытке подписаться. Повтори попытку позже.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,Ты сможешь найти предмет в инвентаре.
+CoreScripts.TopBar.JoinVoice,Включить голосовой чат
+Feature.ReportAbuse.Heading.ReportAbuse,Сообщить о нарушении
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,"Неверно указана зрелость контента (например, наличие крови, насилия)"
+Feature.ReportAbuse.Label.CategoryBullyingV2,"Агрессивное поведение, травля, дискриминация"
+Feature.ReportAbuse.Label.CategoryContent,"Недопустимый контент: место, изображение, модель"
+Feature.ReportAbuse.Label.CategoryDating,Флирт
+Feature.ReportAbuse.Label.CategoryInappropriate,Недопустимые выражения: ругательства и материалы для взрослых
+Feature.ReportAbuse.Label.CategoryOther,Другое нарушение правил
+Feature.ReportAbuse.Label.CategoryPrivateInfo,Просьба предоставить личную информацию
+Feature.ReportAbuse.Label.CategoryScamming,"Мошенничество, спекуляция, скам"
+Feature.ReportAbuse.Label.CategoryTheft,"Кража аккаунта: фишинг, взлом, продажа"
+Feature.ReportAbuse.Label.CategoryThreats,"Угрозы в реальной жизни, угроза самоубийства"
+Feature.ReportAbuse.Message.Success,Жалоба отправлена.
+CoreScripts.Ads.Label.ReportAd,Пожаловаться на рекламу
+Feature.Chat.Label.ReplyingToOthers,В ответ {DISPLAY_NAME}
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,Ты присоединяешься к голосовому чату
+Feature.SettingsHub.Prompt.LeaveVoiceChat,Голосовой чат отключён
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,Ты всегда можешь отключиться от голосового чата или отключать звук любого из пользователей.
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,Ты всегда можешь отключиться от голосового чата или отключать звук любого из пользователей в любое время здесь.
+Feature.SettingsHub.Action.Ok,Ок
+Feature.SettingsHub.Action.OpenSettings,Открой настройки
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,Нужен доступ к микрофону
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,"Чтобы использовать голосовой чат, разреши Roblox доступ к микрофону."
+CoreScripts.Ads.Label.InappropriateAd,Неподходящая реклама
+CoreScripts.TopBar.Party,Команда
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. Разрешения<br />2. Микрофон<br />3. Разрешить Roblox доступ к микрофону</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. Перейди в Настройки > Конфиденциальность > Разрешения<br />2. Микрофон<br />3. Разрешить Roblox доступ к микрофону</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. Включи «Разрешить приложениям доступ к микрофону»<br />2. Разрешить Roblox доступ к микрофону</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. Перейди в Настройки > Конфиденциальность > Микрофон<br />2. Включи «Разрешить приложениям доступ к микрофону»<br />3. Разрешить Roblox доступ к микрофону</b>
+Feature.ReportAbuse.Action.ContinueReport,Продолжить
+Feature.ReportAbuse.Action.EnterChatLineReporting,Жалоба на нарушение
+Feature.ReportAbuse.Label.FinishChatReport,Закончить отчёт
+Feature.ReportAbuse.Label.SelectChatLine,Выбери чат
+CoreScripts.Ads.Label.IllegalContentReportingLink,Сообщить о незаконном контенте в соответствии с определением Закона о цифровых услугах (ЕС)
+Feature.ReportAbuse.Problem.Bullying,Травля
+Feature.ReportAbuse.Problem.Cheating,Обман
+Feature.ReportAbuse.Problem.Dating,Знакомства/секс
+Feature.ReportAbuse.Problem.Hate,Ненависть
+Feature.ReportAbuse.Problem.Links,"Ссылки, ведущие за пределы Roblox"
+Feature.ReportAbuse.Problem.Personal,Личная информация
+Feature.ReportAbuse.Problem.Scamming,Мошенничество
+Feature.ReportAbuse.Problem.Spamming,Спам
+Feature.ReportAbuse.Problem.Swearing,Ненормативная лексика
+Feature.ReportAbuse.Problem.Violence,Насилие
+Feature.VerifiedParentalControls.Action.Cancel,Отмена
+Feature.ReportAbuse.Action.ReturnToExperience,Вернуться в плейс
+Feature.ReportAbuse.Label.ReportSubmitted,Отчёт отправлен
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,"Дополнительные действия, которые ты можешь предпринять"
+Feature.ReportAbuse.Label.SentInAnotherChat,Отправлено в другой чат
+Feature.ReportAbuse.Label.SentPrivately,Отправлено лично
+Feature.ReportAbuse.Message.ThankYouReport,"Спасибо! Мы используем отчёт, чтобы сделать Roblox интересным и безопасным местом для всех."
+Feature.VerifiedParentalControls.Action.Close,Закрыть
+Feature.VerifiedParentalControls.Action.GoToSettings,Перейти в Настройки
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,"В связи с региональными ограничениями требуется разрешение родителя для совершения покупки. Используй веб-версию или устройство-компаньон, чтобы попросить разрешение у родителя, перейдя в Настройки > Расходы."
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,"В связи с региональными ограничениями требуется разрешение родителя для совершения покупки. Попроси разрешение у родителя, перейдя в Настройки > Расходы."
+Feature.VerifiedParentalControls.Label.AskParent,Спроси родителей
+Common.VerifiedParentalConsent.Action.Cancel,Отмена
+Common.VerifiedParentalConsent.Action.Close,Закрыть
+Common.VerifiedParentalConsent.Action.GoToSettings,Перейти в Настройки
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,"В связи с региональными ограничениями требуется разрешение родителя для совершения покупки. Используй веб-версию или устройство-компаньон, чтобы попросить разрешение у родителя, перейдя в Настройки > Расходы."
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,"В связи с региональными ограничениями требуется разрешение родителя для совершения покупки. Попроси разрешение у родителе, перейдя в Настройки > Расходы."
+Common.VerifiedParentalConsent.Label.AskParent,Спроси родителей
+Feature.ReportAbuse.Action.TextMute,Блокировать чаты от: {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,"Необходимо перезапустить приложение, чтобы применить изменения доступа к микрофону."
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,Ты не можешь отправлять сообщения в чат. Никто не будет видеть твои сообщения.
+Features.OnDemandAds.Reward_Notification,Поздравляем! Заработано: {REWARD_NAME}!
+Feature.Avatar.Label.Front,Передняя часть
+Feature.PlayWithReward.Message.ErrorBanner.Body,
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,

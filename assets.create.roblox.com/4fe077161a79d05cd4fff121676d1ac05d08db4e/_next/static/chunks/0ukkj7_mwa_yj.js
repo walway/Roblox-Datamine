@@ -16444,32 +16444,28 @@
                 (0, v.jsxs)("div", {
                   className: "flex flex-col items-start",
                   children: [
-                    n
-                      .slice(0, 4)
-                      .map((t) =>
-                        (0, v.jsx)(
-                          "p",
-                          {
-                            className: "text-body-medium",
-                            style: { wordBreak: "break-word" },
-                            children: t.utteranceText
-                          },
-                          t.utteranceText
-                        )
-                      ),
-                    n
-                      .slice(4)
-                      .map((t) =>
-                        (0, v.jsx)(
-                          "p",
-                          {
-                            className: "text-body-medium ".concat(r ? "" : "hidden"),
-                            style: { wordBreak: "break-word" },
-                            children: t.utteranceText
-                          },
-                          t.utteranceText
-                        )
+                    n.slice(0, 4).map((t) =>
+                      (0, v.jsx)(
+                        "p",
+                        {
+                          className: "text-body-medium",
+                          style: { wordBreak: "break-word" },
+                          children: t.utteranceText
+                        },
+                        t.utteranceText
                       )
+                    ),
+                    n.slice(4).map((t) =>
+                      (0, v.jsx)(
+                        "p",
+                        {
+                          className: "text-body-medium ".concat(r ? "" : "hidden"),
+                          style: { wordBreak: "break-word" },
+                          children: t.utteranceText
+                        },
+                        t.utteranceText
+                      )
+                    )
                   ]
                 })
               ]
