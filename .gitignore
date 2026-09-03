@@ -1,0 +1,43 @@
+﻿# Ignore everything by default — tracker stays closed-source / local-only.
+*
+
+# Keep this file tracked so GitHub knows the rules.
+!.gitignore
+
+# Public dump folders only (mined Roblox assets).
+!css.rbxcdn.com/
+!css.rbxcdn.com/**
+
+!js.rbxcdn.com/
+!js.rbxcdn.com/**
+
+!www.roblox.com/
+!www.roblox.com/**
+
+!roblox.com/
+!roblox.com/**
+
+!assets.create.roblox.com/
+!assets.create.roblox.com/**
+
+!clientsettings.roblox.com/
+!clientsettings.roblox.com/**
+
+!setup.rbxcdn.com/
+!setup.rbxcdn.com/**
+
+!Client/
+!Client/**
+
+!UniversalApp/
+!UniversalApp/**
+
+!InExperience/
+!InExperience/**
+
+# Never publish tooling / secrets even if nested somehow.
+**/.datamine/
+**/node_modules/
+**/.env
+**/.env.*
+**/*.log
