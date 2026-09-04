@@ -1,4 +1,11 @@
 @font-face {
+  font-family: Comic Neue Angular;
+  src: url(https://css.rbxcdn.com/b3a872b70b067e30.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
   font-family: Builder Sans;
   src:
     url(https://css.rbxcdn.com/751845fb13435230.woff2) format("woff2"),
@@ -443,29 +450,21 @@
 .builder-font select,
 .builder-font button,
 .builder-font .text {
+  font-family:
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
-    sans-serif;
 }
 
 .builder-font .font-title,
 .builder-font .h1 {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: var(--font-weight-800);
 }
 
 @media (max-width: 767px) {
@@ -476,7 +475,7 @@
 }
 
 .builder-font .text-link {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .builder-font .small,
@@ -522,14 +521,10 @@
 .builder-font .ad-identification-text:hover,
 .builder-font .ad-identification-text:focus {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .builder-font .font-header-1,
@@ -538,14 +533,10 @@
 .builder-font .h4,
 .builder-font .text-robux-lg {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: var(--font-weight-700);
 }
 
 @media (max-width: 767px) {
@@ -573,14 +564,10 @@
 .builder-font .font-header-2:hover,
 .builder-font .font-header-2:active {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 @media (max-width: 767px) {
@@ -604,14 +591,10 @@
 
 .builder-font .font-subheader-2 {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 @media (max-width: 767px) {
@@ -624,14 +607,10 @@
 .builder-font .text-description,
 .builder-font .text-favorite {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .builder-font .font-caption-header,
@@ -651,14 +630,10 @@
 .builder-font .small.font-caption-header:hover,
 .builder-font .small.font-caption-header:focus {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .builder-font .font-footer,
@@ -671,14 +646,10 @@
 .builder-font .font-footer:hover,
 .builder-font .font-footer:focus {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 10px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 @media (max-width: 767px) {
@@ -707,14 +678,10 @@
 .builder-font .font-caption-body:hover,
 .builder-font .font-caption-body:focus {
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .builder-font .line-height,
@@ -723,7 +690,7 @@
 }
 
 .builder-font .game-card-container .game-card-name {
-  font-weight: 700;
+  font-weight: var(--font-weight-700);
 }
 
-/*# sourceMappingURL=https://sourcemaps.rbxcdn.com/builder-466c2cc98ce4146d.css.map*/
+/*# sourceMappingURL=https://sourcemaps.rbxcdn.com/builder-2052d071ce544022.css.map*/

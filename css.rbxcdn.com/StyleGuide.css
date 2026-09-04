@@ -3585,7 +3585,7 @@ h5 {
 
 h1 {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: var(--font-weight-800);
 }
 
 @media (max-width: 767px) {
@@ -3598,7 +3598,7 @@ h2,
 h3,
 h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: var(--font-weight-700);
 }
 
 @media (max-width: 767px) {
@@ -3612,7 +3612,7 @@ h4 {
 h5,
 h6 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 @media (max-width: 767px) {
@@ -3624,7 +3624,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-description {
@@ -3634,7 +3634,7 @@ p {
   hyphens: none;
   -o-hyphens: none;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
   line-height: 1.5em;
 }
 
@@ -3654,7 +3654,7 @@ strong,
 strong:link,
 strong:visited,
 strong:active {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .font-small,
@@ -3662,7 +3662,7 @@ strong:active {
 .font-small:visited,
 .font-small:active {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .small,
@@ -3679,7 +3679,7 @@ strong:active {
 .small-oneline:visited,
 .small-oneline:active {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .small-oneline {
@@ -3697,7 +3697,7 @@ strong:active {
 .xsmall:visited,
 .xsmall:active {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .xxsmall {
@@ -3709,7 +3709,7 @@ strong:active {
 .xxsmall:visited,
 .xxsmall:active {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-center {
@@ -3763,7 +3763,7 @@ strong:active {
 }
 
 .text-name {
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-name,
@@ -3800,21 +3800,21 @@ strong:active {
 
 .text-lead {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-label {
   color: #bcbec8;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-report-ads,
 .text-report-ads:link,
 .text-report-ads:visited,
 .text-report-ads:active {
-  color: #bcbec8;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #bcbec8;
 }
 
 .text-report-ads:hover {
@@ -3831,9 +3831,9 @@ strong:active {
 .text-report:hover,
 .text-report:visited,
 .text-report:active {
-  color: #e75750;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #e75750;
 }
 
 .text-report:hover,
@@ -3850,27 +3850,27 @@ strong:active {
 }
 
 .text-error {
-  color: #e75750;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #e75750;
 }
 
 .text-secondary {
-  color: #494d5a;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #494d5a;
 }
 
 .text-pastname {
-  color: #bcbec8;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #bcbec8;
 }
 
 .text-date-hint {
-  color: #bcbec8;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #bcbec8;
 }
 
 .text-footer-nav,
@@ -3879,7 +3879,7 @@ strong:active {
 .text-footer-nav:active {
   color: #bcbec8;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
 }
 
 @media (max-width: 767px) {
@@ -3895,7 +3895,7 @@ strong:active {
 .text-footer-nav:focus {
   color: #121215;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
 }
 
 @media (max-width: 767px) {
@@ -3906,9 +3906,9 @@ strong:active {
 }
 
 .text-footer {
-  color: #bcbec8;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  color: #bcbec8;
 }
 
 @media (max-width: 767px) {
@@ -3920,7 +3920,7 @@ strong:active {
 .text-robux,
 .text-robux-tile {
   color: #01854b;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .text-success {
@@ -3930,17 +3930,17 @@ strong:active {
 .text-tooltips {
   color: #f7f7f8;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-robux-lg {
   color: #01854b;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-subject {
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .text-overflow {
@@ -4260,19 +4260,15 @@ html {
 }
 
 body {
+  font-family:
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
+  font-weight: var(--font-weight-400);
   width: 100%;
   min-width: 320px;
   height: 100%;
   margin-bottom: 168px;
-  font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
-    sans-serif;
   font-size: 16px;
-  font-weight: 400;
   overflow-y: scroll;
 }
 
@@ -4293,7 +4289,7 @@ body.no-footer .container-main {
 @media (max-width: 767px) {
   body {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: var(--font-weight-400);
   }
 }
 
@@ -4417,14 +4413,10 @@ img {
 }
 
 pre {
-  margin: 0;
   font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
     sans-serif;
+  margin: 0;
   font-size: 16px;
 }
 
@@ -4439,7 +4431,7 @@ option {
 
 a[class^="btn"],
 button[class^="btn"] {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .container-main:before,
@@ -4941,7 +4933,7 @@ button[class^="btn"] {
 }
 
 .vlist .list-item .list-body .rbx-text-notes.small {
-  font-weight: 300;
+  font-weight: var(--font-weight-300);
 }
 
 .stack .stack-list .stack-row {
@@ -5068,13 +5060,13 @@ button[class^="btn"] {
 }
 
 .asset-status-icon .status-default {
+  font-size: 20px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #494d5a;
   border-radius: 5px;
   margin-left: 6px;
   padding: 6px;
-  font-size: 20px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5084,13 +5076,13 @@ button[class^="btn"] {
 }
 
 .asset-status-icon .status-new {
+  font-size: 20px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #f57630;
   border-radius: 5px;
   margin-left: 6px;
   padding: 6px;
-  font-size: 20px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5100,13 +5092,13 @@ button[class^="btn"] {
 }
 
 .asset-status-icon .status-sale {
+  font-size: 20px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #df281f;
   border-radius: 5px;
   margin-left: 6px;
   padding: 6px;
-  font-size: 20px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5130,13 +5122,13 @@ button[class^="btn"] {
 }
 
 .item-cards-stackable .asset-status-icon .status-default {
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #494d5a;
   border-radius: 3px;
   margin-left: 3px;
   padding: 4px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5146,13 +5138,13 @@ button[class^="btn"] {
 }
 
 .item-cards-stackable .asset-status-icon .status-new {
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #f57630;
   border-radius: 3px;
   margin-left: 3px;
   padding: 4px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5162,13 +5154,13 @@ button[class^="btn"] {
 }
 
 .item-cards-stackable .asset-status-icon .status-sale {
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   color: #fff;
   background-color: #df281f;
   border-radius: 3px;
   margin-left: 3px;
   padding: 4px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
   display: inline-block;
 }
@@ -5212,12 +5204,12 @@ button[class^="btn"] {
 }
 
 .breadcrumb-container li.breadcrumb-filter {
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   background-color: #70a0ff;
   border-radius: 10px;
   margin: 3px 3px 0;
   padding: 2px 6px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
 }
 
@@ -5249,7 +5241,7 @@ button[class^="btn"] {
 }
 
 .breadcrumb-container li .breadcrumb-link {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .btn-primary-lg {
@@ -5259,6 +5251,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -5268,7 +5261,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -5474,6 +5466,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -5483,7 +5476,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -5689,6 +5681,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -5698,7 +5691,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -5886,6 +5878,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -5895,7 +5888,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -6083,6 +6075,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6092,7 +6085,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -6293,6 +6285,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6302,7 +6295,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -6503,6 +6495,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6512,7 +6505,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -6695,6 +6687,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6704,7 +6697,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -6887,6 +6879,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -6896,7 +6889,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -7097,6 +7089,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7106,7 +7099,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -7307,6 +7299,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7316,7 +7309,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -7499,6 +7491,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7508,7 +7501,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -7691,6 +7683,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7700,7 +7693,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -7901,6 +7893,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -7910,7 +7903,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -8111,6 +8103,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8120,7 +8113,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -8303,6 +8295,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8312,7 +8305,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -8495,6 +8487,7 @@ button[class^="btn"] {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8504,7 +8497,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -8705,6 +8697,7 @@ button[class^="btn"] {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8714,7 +8707,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -8915,6 +8907,7 @@ button[class^="btn"] {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -8924,7 +8917,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -9107,6 +9099,7 @@ button[class^="btn"] {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9116,7 +9109,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -9299,6 +9291,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9308,7 +9301,6 @@ button[class^="btn"] {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -9509,6 +9501,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9518,7 +9511,6 @@ button[class^="btn"] {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -9719,6 +9711,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9728,7 +9721,6 @@ button[class^="btn"] {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -9911,6 +9903,7 @@ button[class^="btn"] {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -9920,7 +9913,6 @@ button[class^="btn"] {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -10105,6 +10097,7 @@ a.btn-generic-edit-lg {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -10114,7 +10107,6 @@ a.btn-generic-edit-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -10515,6 +10507,7 @@ a.btn-generic-edit-md {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -10524,7 +10517,6 @@ a.btn-generic-edit-md {
   height: auto;
   padding: 4px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -10925,6 +10917,7 @@ a.btn-generic-edit-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -10934,7 +10927,6 @@ a.btn-generic-edit-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -11335,6 +11327,7 @@ a.btn-generic-edit-xs {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -11344,7 +11337,6 @@ a.btn-generic-edit-xs {
   height: auto;
   padding: 2px 1px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -11745,6 +11737,7 @@ a.btn-generic-trash-bin-lg {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -11754,7 +11747,6 @@ a.btn-generic-trash-bin-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -12155,6 +12147,7 @@ a.btn-generic-trash-bin-md {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -12164,7 +12157,6 @@ a.btn-generic-trash-bin-md {
   height: auto;
   padding: 4px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -12565,6 +12557,7 @@ a.btn-generic-trash-bin-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -12574,7 +12567,6 @@ a.btn-generic-trash-bin-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -12975,6 +12967,7 @@ a.btn-generic-trash-bin-xs {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -12984,7 +12977,6 @@ a.btn-generic-trash-bin-xs {
   height: auto;
   padding: 2px 1px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -13385,6 +13377,7 @@ a.btn-generic-next-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -13394,7 +13387,6 @@ a.btn-generic-next-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -13786,6 +13778,7 @@ a.btn-generic-back-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -13795,7 +13788,6 @@ a.btn-generic-back-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -14187,6 +14179,7 @@ a.btn-generic-right-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -14196,7 +14189,6 @@ a.btn-generic-right-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -14597,6 +14589,7 @@ a.btn-generic-left-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -14606,7 +14599,6 @@ a.btn-generic-left-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -15007,6 +14999,7 @@ a.btn-generic-last-page-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -15016,7 +15009,6 @@ a.btn-generic-last-page-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -15408,6 +15400,7 @@ a.btn-generic-first-page-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -15417,7 +15410,6 @@ a.btn-generic-first-page-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -15809,6 +15801,7 @@ a.btn-generic-locked-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -15818,7 +15811,6 @@ a.btn-generic-locked-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -16210,6 +16202,7 @@ a.btn-generic-unlocked-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -16219,7 +16212,6 @@ a.btn-generic-unlocked-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -16611,6 +16603,7 @@ a.btn-generic-copy-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -16620,7 +16613,6 @@ a.btn-generic-copy-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -17021,6 +17013,7 @@ a.btn-download-download-md {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -17030,7 +17023,6 @@ a.btn-download-download-md {
   height: auto;
   padding: 4px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -17422,6 +17414,7 @@ a.btn-generic-more-sm {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -17431,7 +17424,6 @@ a.btn-generic-more-sm {
   height: auto;
   padding: 5px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -17832,6 +17824,7 @@ a.btn-games-experimental-gray2-xs {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -17841,7 +17834,6 @@ a.btn-games-experimental-gray2-xs {
   height: auto;
   padding: 2px 1px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -18233,6 +18225,7 @@ a.btn-common-play-game-lg {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -18242,7 +18235,6 @@ a.btn-common-play-game-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -18604,6 +18596,7 @@ a.btn-common-play-game-action-needed-lg {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -18613,7 +18606,6 @@ a.btn-common-play-game-action-needed-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -18975,6 +18967,7 @@ a.btn-common-play-game-unplayable-lg {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -18984,7 +18977,6 @@ a.btn-common-play-game-unplayable-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -19346,6 +19338,7 @@ a.btn-branded-robux-white-lg {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -19355,7 +19348,6 @@ a.btn-branded-robux-white-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -19717,6 +19709,7 @@ a.btn-economy-robux-white-lg {
   user-select: none;
   color: #fff;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -19726,7 +19719,6 @@ a.btn-economy-robux-white-lg {
   height: auto;
   padding: 12px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -20086,6 +20078,7 @@ a.btn-economy-robux-white-lg .btn-text {
   user-select: none;
   color: #494d5a;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -20095,7 +20088,6 @@ a.btn-economy-robux-white-lg .btn-text {
   height: auto;
   padding: 15px;
   font-size: 20px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -20311,6 +20303,7 @@ a.btn-economy-robux-white-lg .btn-text {
   user-select: none;
   color: #494d5a;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -20320,7 +20313,6 @@ a.btn-economy-robux-white-lg .btn-text {
   height: auto;
   padding: 9px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -20536,6 +20528,7 @@ a.btn-economy-robux-white-lg .btn-text {
   user-select: none;
   color: #494d5a;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -20545,7 +20538,6 @@ a.btn-economy-robux-white-lg .btn-text {
   height: auto;
   padding: 7px;
   font-size: 16px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -20743,6 +20735,7 @@ a.btn-economy-robux-white-lg .btn-text {
   user-select: none;
   color: #494d5a;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -20752,7 +20745,6 @@ a.btn-economy-robux-white-lg .btn-text {
   height: auto;
   padding: 4px;
   font-size: 12px;
-  font-weight: 500;
   line-height: 100%;
   display: inline-block;
 }
@@ -20948,10 +20940,10 @@ a.btn-economy-robux-white-lg .btn-text {
   text-align: center;
   width: auto;
   color: inherit;
+  font-size: 16px;
+  font-weight: var(--font-weight-500);
   background-color: transparent;
   border: 0;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .touch .see-all-link,
@@ -20976,10 +20968,10 @@ a.btn-economy-robux-white-lg .btn-text {
   text-align: center;
   width: auto;
   color: inherit;
+  font-size: 16px;
+  font-weight: var(--font-weight-500);
   background-color: transparent;
   border: 0;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .touch .refresh-link,
@@ -21004,10 +20996,10 @@ a.btn-economy-robux-white-lg .btn-text {
   text-align: center;
   width: auto;
   color: inherit;
+  font-size: 16px;
+  font-weight: var(--font-weight-500);
   background-color: transparent;
   border: 0;
-  font-size: 16px;
-  font-weight: 500;
   position: relative;
 }
 
@@ -21042,10 +21034,10 @@ a.btn-economy-robux-white-lg .btn-text {
   text-align: center;
   width: auto;
   color: inherit;
+  font-size: 16px;
+  font-weight: var(--font-weight-500);
   background-color: transparent;
   border: 0;
-  font-size: 16px;
-  font-weight: 500;
   position: relative;
 }
 
@@ -21840,7 +21832,7 @@ a.btn-growth-md:active {
 }
 
 .avatar-card-container .friend-name {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .avatar-cards:before,
@@ -21924,7 +21916,7 @@ a.btn-growth-md:active {
 }
 
 .avatar-container .friend-name {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .avatar-group {
@@ -22120,17 +22112,17 @@ a.btn-growth-md:active {
   .avatar-card-caption
   .avatar-name-container
   .avatar-name {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .avatar-card-container .avatar-card-content .avatar-card-caption .avatar-card-label,
 .avatar-card-container .avatar-card-content .avatar-card-caption .avatar-status-link {
+  font-size: 12px;
+  line-height: 1.3em;
+  font-weight: var(--font-weight-400);
   text-overflow: ellipsis;
   max-height: 34px;
   padding: 3px 0 0;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.3em;
   overflow: hidden;
 }
 
@@ -22687,7 +22679,7 @@ a.btn-growth-md:active {
 }
 
 .game-card-container .game-card-name {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 @media (max-width: 767px) {
@@ -22838,7 +22830,7 @@ a.btn-growth-md:active {
 .game-card-experimental,
 .game-card-name-secondary {
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 @media (max-width: 543px) {
@@ -23124,7 +23116,7 @@ a.btn-growth-md:active {
 
 .game-card-info .info-label {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
   line-height: 18px;
   display: inline-block;
 }
@@ -23396,9 +23388,9 @@ a.btn-growth-md:active {
 
 .sponsored-game .game-card-native-ad .native-ad-label {
   color: #fff;
-  text-align: center;
   font-size: 10px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
+  text-align: center;
 }
 
 .game-card.sponsored-game:hover {
@@ -23665,7 +23657,7 @@ a.btn-growth-md:active {
 .item-card-container .item-card-name {
   white-space: normal;
   height: 45px;
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
   overflow: hidden;
 }
 
@@ -23738,10 +23730,10 @@ a.btn-growth-md:active {
 
 .item-card-thumb-container .item-serial-number {
   color: #fff;
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   background-color: #121215;
   padding: 4px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
   position: absolute;
   top: 6px;
@@ -23750,12 +23742,12 @@ a.btn-growth-md:active {
 
 .item-card-thumb-container .item-expire-time-label {
   color: #fff;
+  font-size: 10px;
+  font-weight: var(--font-weight-400);
   text-align: center;
   background-color: #e75750;
   width: 100%;
   padding: 2px;
-  font-size: 10px;
-  font-weight: 400;
   line-height: 1em;
   position: absolute;
   bottom: 0;
@@ -23828,7 +23820,7 @@ a.btn-growth-md:active {
 .item-card-label {
   color: #494d5a;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
 }
 
 .item-card-price {
@@ -24376,13 +24368,13 @@ a.btn-growth-md:active {
 }
 
 .store-card .store-product-card-caption .store-product-card-name {
+  font-weight: var(--font-weight-500);
   text-overflow: ellipsis;
   white-space: nowrap;
   word-break: break-word;
   width: 100%;
   height: 1.2em;
   margin: 6px auto;
-  font-weight: 500;
   line-height: 1.2;
   display: block;
   overflow: hidden;
@@ -24443,8 +24435,8 @@ a.btn-growth-md:active {
 }
 
 .store-card .store-card-name {
+  font-weight: var(--font-weight-500);
   margin: 3px auto;
-  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -25135,15 +25127,11 @@ a.btn-growth-md:active {
 }
 
 div.flatpickr-calendar {
+  font-family:
+    var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+    sans-serif;
   width: 276px;
   margin-top: 12px;
-  font-family:
-    Builder Sans,
-    Helvetica Neue,
-    Helvetica,
-    Arial,
-    Lucida Grande,
-    sans-serif;
 }
 
 div.flatpickr-calendar .flatpicker-days,
@@ -25174,8 +25162,8 @@ div.flatpickr-calendar .flatpickr-current-month {
 div.flatpickr-calendar .flatpickr-current-month .flatpickr-monthDropdown-months,
 div.flatpickr-calendar .flatpickr-current-month input.cur-year {
   color: #272930;
+  font-weight: var(--font-weight-500);
   background-color: #fff;
-  font-weight: 500;
 }
 
 div.flatpickr-calendar .flatpickr-current-month .flatpickr-monthDropdown-months:hover,
@@ -25185,10 +25173,10 @@ div.flatpickr-calendar .flatpickr-current-month input.cur-year:hover {
 
 div.flatpickr-calendar .flatpickr-weekdays {
   color: #272930;
+  font-weight: var(--font-weight-400);
   background-color: #fff;
   width: 276px;
   height: 36px;
-  font-weight: 400;
 }
 
 div.flatpickr-calendar .flatpickr-weekdays .flatpickr-weekdaycontainer {
@@ -25819,16 +25807,16 @@ textarea.form-control {
 .form-has-feedback .form-control-feedback {
   visibility: visible;
   color: #bcbec8;
-  margin: 0;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  margin: 0;
 }
 
 .form-has-feedback .form-control-label {
   color: #bcbec8;
-  margin: 0;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: var(--font-weight-400);
+  margin: 0;
   display: block;
 }
 
@@ -25954,11 +25942,11 @@ textarea.form-control {
 }
 
 .input-field {
+  font-weight: var(--font-weight-400);
   -webkit-appearance: none;
   height: 38px;
   padding: 5px 12px;
   font-size: 16px;
-  font-weight: 400;
   line-height: 100%;
 }
 
@@ -30556,6 +30544,7 @@ a:hover .icon-voice-mic-muted {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -30565,7 +30554,6 @@ a:hover .icon-voice-mic-muted {
   border-radius: 0 3px 3px 0;
   height: 38px;
   padding: 0;
-  font-weight: 500;
   display: inline-block;
 }
 
@@ -30643,6 +30631,7 @@ a:hover .icon-voice-mic-muted {
   user-select: none;
   color: #121215;
   cursor: pointer;
+  font-weight: var(--font-weight-500);
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -30653,7 +30642,6 @@ a:hover .icon-voice-mic-muted {
   height: auto;
   margin: 0;
   padding: 5px 12px;
-  font-weight: 500;
   line-height: 18px;
   display: block;
 }
@@ -31221,7 +31209,7 @@ a:hover .icon-voice-mic-muted {
 @media (max-width: 767px) {
   .modal-dialog .modal-content .modal-body p {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: var(--font-weight-400);
   }
 }
 
@@ -31430,25 +31418,25 @@ div[role="dialog"]:not(:first-of-type) .modal {
 }
 
 .notification-blue {
+  font-size: 10px;
+  font-weight: var(--font-weight-500);
   color: #fff;
   text-align: center;
   background-color: #70a0ff;
   border-radius: 12px;
   min-width: 24px;
   padding: 3px 5px;
-  font-size: 10px;
-  font-weight: 500;
 }
 
 .notification-red {
   color: #fff;
+  font-size: 10px;
+  font-weight: var(--font-weight-500);
   text-align: center;
   background-color: #df281f;
   border-radius: 8px;
   min-width: 18px;
   padding: 1px 6px;
-  font-size: 10px;
-  font-weight: 500;
 }
 
 @media (max-width: 767px) {
@@ -31537,7 +31525,7 @@ div[role="dialog"]:not(:first-of-type) .modal {
 .alert-info .alert-link:visited,
 .alert-info .alert-link:hover,
 .alert-info .alert-link:active {
-  font-weight: 500;
+  font-weight: var(--font-weight-500);
 }
 
 .alert-system-feedback {
@@ -31794,15 +31782,15 @@ div[role="dialog"]:not(:first-of-type) .modal {
   text-align: center;
   float: left;
   vertical-align: middle;
-  cursor: pointer;
-  border-radius: 20px;
   min-width: 36px;
   height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: var(--font-weight-400);
+  cursor: pointer;
+  border-radius: 20px;
   padding-left: 2px;
   padding-right: 2px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
 }
 
 .popover {
@@ -35174,14 +35162,14 @@ input[type="range"].pr100:disabled::-webkit-slider-runnable-track {
 .tooltip-inner {
   text-align: center;
   color: #f7f7f8;
-  background-color: #494d5a;
-  border-radius: 0;
   min-width: 150px;
   max-width: 200px;
-  padding: 6px;
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.3em;
+  font-weight: var(--font-weight-400);
+  background-color: #494d5a;
+  border-radius: 0;
+  padding: 6px;
   text-decoration: none;
 }
 
@@ -38204,4 +38192,4 @@ textarea::placeholder {
   background-color: var(--color-surface-0);
 }
 
-/*# sourceMappingURL=https://sourcemaps.rbxcdn.com/styleGuide-7a8008bffa0a1462.css.map*/
+/*# sourceMappingURL=https://sourcemaps.rbxcdn.com/styleGuide-06a26f05ef1f72cc.css.map*/

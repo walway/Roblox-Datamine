@@ -1,238 +1,238 @@
 (!(function () {
   try {
     var t =
-      "undefined" != typeof window
+      "u" > typeof window
         ? window
-        : "undefined" != typeof global
+        : "u" > typeof global
           ? global
-          : "undefined" != typeof globalThis
+          : "u" > typeof globalThis
             ? globalThis
-            : "undefined" != typeof self
+            : "u" > typeof self
               ? self
               : {};
-    t.SENTRY_RELEASE = { id: "57dfe6ae3e57a2b69d57e0d8776d1e9177a22044" };
+    t.SENTRY_RELEASE = { id: "7dd1427733ace37b11c373bec2ccb29663c84427" };
     var o = new t.Error().stack;
     o &&
       ((t._sentryDebugIds = t._sentryDebugIds || {}),
-      (t._sentryDebugIds[o] = "86213743-908d-437f-8ce1-d9ea8f3ea7c7"),
-      (t._sentryDebugIdIdentifier = "sentry-dbid-86213743-908d-437f-8ce1-d9ea8f3ea7c7"));
+      (t._sentryDebugIds[o] = "f31355fb-7a09-48d4-8ad8-9ea6e15e7f05"),
+      (t._sentryDebugIdIdentifier = "sentry-dbid-f31355fb-7a09-48d4-8ad8-9ea6e15e7f05"));
   } catch (t) {}
 })(),
   (function () {
     var t = {
-        7358: function (t, o, n) {
-          var e = { "./infiniteScrollDirective.js": "900" };
-          function i(t) {
-            return n(r(t));
+        4688: function (t, o, n) {
+          var e = { "./infiniteScrollDirective.js": "7409" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 7358));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 4688));
         },
-        2800: function (t, o, n) {
-          var e = { "./limitedIconDirective.js": "2490" };
-          function i(t) {
-            return n(r(t));
+        1197: function (t, o, n) {
+          var e = { "./limitedIconDirective.js": "9439" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 2800));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 1197));
         },
-        3651: function (t, o, n) {
-          var e = { "./directives/templates/limitedIconContainer.html": "4462" };
-          function i(t) {
-            return n(r(t));
+        7605: function (t, o, n) {
+          var e = { "./directives/templates/limitedIconContainer.html": "476" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 3651));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 7605));
         },
-        4133: function (t, o, n) {
-          var e = { "./modalOptions.js": "2884" };
-          function i(t) {
-            return n(r(t));
+        8695: function (t, o, n) {
+          var e = { "./modalOptions.js": "3291" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 4133));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 8695));
         },
-        3313: function (t, o, n) {
-          var e = { "./modalController.js": "1520" };
-          function i(t) {
-            return n(r(t));
+        643: function (t, o, n) {
+          var e = { "./modalController.js": "9933" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 3313));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 643));
         },
-        8160: function (t, o, n) {
-          var e = { "./modalService.js": "6210", "./modalStringService.js": "6273" };
-          function i(t) {
-            return n(r(t));
+        1866: function (t, o, n) {
+          var e = { "./modalService.js": "5655", "./modalStringService.js": "5372" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 8160));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 1866));
         },
-        3453: function (t, o, n) {
-          var e = { "./controllers/templates/commonModal.html": "3593" };
-          function i(t) {
-            return n(r(t));
+        7399: function (t, o, n) {
+          var e = { "./controllers/templates/commonModal.html": "2823" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 3453));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 7399));
         },
-        8244: function (t, o, n) {
-          var e = { "./toastDirective.js": "3302" };
-          function i(t) {
-            return n(r(t));
+        1182: function (t, o, n) {
+          var e = { "./toastDirective.js": "5375" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 8244));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 1182));
         },
-        1639: function (t, o, n) {
-          var e = { "./directives/templates/toast.html": "285" };
-          function i(t) {
-            return n(r(t));
+        2841: function (t, o, n) {
+          var e = { "./directives/templates/toast.html": "8083" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 1639));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 2841));
         },
-        7886: function (t, o, n) {
-          var e = { "./verticalMenuDirective.js": "3152" };
-          function i(t) {
-            return n(r(t));
+        4768: function (t, o, n) {
+          var e = { "./verticalMenuDirective.js": "7645" };
+          function a(t) {
+            return n(i(t));
           }
-          function r(t) {
+          function i(t) {
             if (!n.o(e, t)) {
               var o = Error("Cannot find module '" + t + "'");
               throw ((o.code = "MODULE_NOT_FOUND"), o);
             }
             return e[t];
           }
-          ((i.keys = function () {
+          ((a.keys = function () {
             return Object.keys(e);
           }),
-            (i.resolve = r),
-            (t.exports = i),
-            (i.id = 7886));
+            (a.resolve = i),
+            (t.exports = a),
+            (a.id = 4768));
         },
-        4462: function (t) {
+        476: function (t) {
           t.exports =
             '<span class="limited-icon-container"> <span class="icon-shop-limited" ng-hide="layoutOptions.isIconDisabled"> </span> <span class="limited-number-container" ng-show="layoutOptions.isUnique"> <span class="font-caption-header">#</span> <span class="font-caption-header text-subheader limited-number" ng-show="layoutOptions.isLimitedNumberShown" ng-bind="layoutOptions.limitedNumber"></span> </span></span> ';
         },
-        3593: function (t) {
+        2823: function (t) {
           t.exports =
             '<div> <div class="modal-header"> <button type="button" class="close" ng-show="modalData.closeButtonShow" ng-click="dismiss()" title="close"> <span class="icon-close"></span> </button> <div class="modal-title"> <span ng-if="modalData.titleIcon && modalData.titleIcon.length > 0" ng-class="modalData.titleIcon"></span> <h4 ng-bind="modalData.titleText"></h4> </div> </div> <div class="modal-body"> <p ng-if="modalData.bodyText" class="body-text text-description" ng-bind="modalData.bodyText"></p> <p ng-if="modalData.bodyHtmlUnsafe" class="body-text text-description" ng-bind-html="modalData.bodyHtmlUnsafe"></p> <div class="img-container modal-image-container" ng-show="modalData.imageUrl && modalData.imageUrl.length > 0"> <img class="modal-thumb" ng-src="{{modalData.imageUrl}}"/> </div> </div> <div class="modal-buttons"> <button type="submit" ng-attr-id="{{modalData.actionButtonId}}" class="modal-button" ng-class="modalData.actionButtonClass" ng-if="modalData.actionButtonShow" ng-click="close(true)" ng-bind="modalData.actionButtonText"></button> <button type="button" class="modal-button" ng-class="modalData.neutralButtonClass" ng-if="modalData.neutralButtonShow" ng-click="dismiss()" ng-bind="modalData.neutralButtonText"></button> </div> <div class="modal-footer" ng-if="modalData.footerText && modalData.footerText.length > 0"> <div class="text-footer" ng-bind="modalData.footerText"></div> </div> <div class="modal-footer" ng-if="modalData.footerHtmlUnsafe && modalData.footerHtmlUnsafe.length > 0"> <div class="text-footer" ng-bind-html="modalData.footerHtmlUnsafe"></div> </div> </div> ';
         },
-        285: function (t) {
+        8083: function (t) {
           t.exports =
             '<div class="toast-container" ng-show="layout.isEnabled" ng-class="{\'toast-visible\': layout.isVisible}"> <div class="toast-content"> <span ng-bind="layout.text"></span> </div> </div> ';
         },
-        900: function (t, o, n) {
+        7409: function (t, o, n) {
           "use strict";
           n.r(o);
-          var e = n(4026);
-          function i(t, o, n, e) {
+          var e = n(7935);
+          function a(t, o, n, e) {
             return {
-              link: function (i, r, a) {
+              link: function (a, i, r) {
                 ((o = angular.element(o)),
                   (c = 0),
-                  null != a.infiniteScrollDistance &&
-                    i.$watch(a.infiniteScrollDistance, function (t) {
+                  null != r.infiniteScrollDistance &&
+                    a.$watch(r.infiniteScrollDistance, function (t) {
                       return (c = parseInt(t, 10));
                     }));
                 var l,
@@ -244,8 +244,8 @@
                 return (
                   (u = !0),
                   (l = !1),
-                  null != a.infiniteScrollDisabled &&
-                    i.$watch(a.infiniteScrollDisabled, function (t) {
+                  null != r.infiniteScrollDisabled &&
+                    a.$watch(r.infiniteScrollDisabled, function (t) {
                       if ((u = !t) && l) return ((l = !1), s());
                     }),
                   (s = function () {
@@ -253,32 +253,32 @@
                     return (
                       !!f &&
                       (((e = o.height() + o.scrollTop()),
-                      (n = r.offset().top + r.height() - e <= o.height() * c) && u)
+                      (n = i.offset().top + i.height() - e <= o.height() * c) && u)
                         ? t.$$phase
-                          ? i.$eval(a.infiniteScroll)
-                          : i.$apply(a.infiniteScroll)
+                          ? a.$eval(r.infiniteScroll)
+                          : a.$apply(r.infiniteScroll)
                         : n
                           ? (l = !0)
                           : void 0)
                     );
                   }),
-                  null !== a.infiniteScrollAlwaysDisabled &&
-                    (d = i.$watch(
+                  null !== r.infiniteScrollAlwaysDisabled &&
+                    (d = a.$watch(
                       function () {
-                        return e(a.infiniteScrollAlwaysDisabled)(i);
+                        return e(r.infiniteScrollAlwaysDisabled)(a);
                       },
                       function (t) {
                         null != t && (f = !t);
                       }
                     )),
                   o.on("scroll", s),
-                  i.$on("manualInfiniteScrollCheck", s),
-                  i.$on("$destroy", function () {
+                  a.$on("manualInfiniteScrollCheck", s),
+                  a.$on("$destroy", function () {
                     return (d && d(), o.off("scroll", s));
                   }),
                   n(function () {
                     return (
-                      a.infiniteScrollImmediateCheck && i.$eval(a.infiniteScrollImmediateCheck),
+                      r.infiniteScrollImmediateCheck && a.$eval(r.infiniteScrollImmediateCheck),
                       s()
                     );
                   }, 0)
@@ -286,16 +286,16 @@
               }
             };
           }
-          ((i.$inject = ["$rootScope", "$window", "$timeout", "$parse"]),
-            e.A.directive("infiniteScroll", i),
-            (o.default = i));
+          ((a.$inject = ["$rootScope", "$window", "$timeout", "$parse"]),
+            e.A.directive("infiniteScroll", a),
+            (o.default = a));
         },
-        4026: function (t, o, n) {
+        7935: function (t, o, n) {
           "use strict";
           var e = n(8192);
           o.A = n.n(e)().module("infiniteScroll", []);
         },
-        2490: function (t, o, n) {
+        9439: function (t, o, n) {
           "use strict";
           function e() {
             return {
@@ -305,18 +305,18 @@
               templateUrl: "limited-icon-container"
             };
           }
-          (n.r(o), n(9234).A.directive("limitedIcon", e), (o.default = e));
+          (n.r(o), n(4583).A.directive("limitedIcon", e), (o.default = e));
         },
-        9234: function (t, o, n) {
+        4583: function (t, o, n) {
           "use strict";
           var e = n(8192);
           o.A = n.n(e)().module("limitedIcon", ["limitedIconTemplate"]);
         },
-        2884: function (t, o, n) {
+        3291: function (t, o, n) {
           "use strict";
           n.r(o);
-          var e = n(3404),
-            i = {
+          var e = n(5567),
+            a = {
               params: {
                 titleText: "",
                 titleIcon: "",
@@ -341,15 +341,15 @@
               userInteraction: { mouseDown: "mousedown" },
               mainButtonPressed: 0
             };
-          (e.A.constant("modalOptions", i), (o.default = i));
+          (e.A.constant("modalOptions", a), (o.default = a));
         },
-        1520: function (t, o, n) {
+        9933: function (t, o, n) {
           "use strict";
           n.r(o);
-          var e = n(3404);
-          function i(t, o, n, e, i, r) {
-            ((o.modalData = i),
-              (o.closeActions = r.closeActions),
+          var e = n(5567);
+          function a(t, o, n, e, a, i) {
+            ((o.modalData = a),
+              (o.closeActions = i.closeActions),
               (o.close = function (t) {
                 e.close(t);
               }),
@@ -357,7 +357,7 @@
                 e.dismiss("dismissed");
               }));
           }
-          ((i.$inject = [
+          ((a.$inject = [
             "$log",
             "$scope",
             "$sce",
@@ -365,10 +365,10 @@
             "modalData",
             "modalService"
           ]),
-            e.A.controller("modalController", i),
-            (o.default = i));
+            e.A.controller("modalController", a),
+            (o.default = a));
         },
-        3404: function (t, o, n) {
+        5567: function (t, o, n) {
           "use strict";
           n.d(o, {
             A: function () {
@@ -376,12 +376,12 @@
             }
           });
           var e = window.Roblox["core-scripts"].intl.translation,
-            i = n(8192),
-            r = n.n(i),
-            a = function (t, o) {
-              return !!t.classList.contains(o) || (!!t.parentElement && a(t.parentElement, o));
+            a = n(8192),
+            i = n.n(a),
+            r = function (t, o) {
+              return !!t.classList.contains(o) || (!!t.parentElement && r(t.parentElement, o));
             },
-            l = r()
+            l = i()
               .module("modal", ["ui.bootstrap", "modalHtmlTemplate"])
               .config([
                 "$uibModalProvider",
@@ -389,10 +389,10 @@
                 function (t, o) {
                   ((t.options.openedClass = "modal-open-noscroll"), (t.options.animation = !1));
                   var n = o.get("languageResourceProvider"),
-                    i = new e.TranslationResourceProvider().getTranslationResource(
+                    a = new e.TranslationResourceProvider().getTranslationResource(
                       "CommonUI.Controls"
                     );
-                  n.setTranslationResources([i]);
+                  n.setTranslationResources([a]);
                 }
               ])
               .run([
@@ -416,7 +416,7 @@
                             e &&
                               e.value.backdrop !== t.backdropStatus.static &&
                               n.addEventListener(t.userInteraction.mouseDown, function (n) {
-                                a(n.target, t.layoutParams.modalContentClass)
+                                r(n.target, t.layoutParams.modalContentClass)
                                   ? n.stopPropagation()
                                   : n.button === t.mainButtonPressed &&
                                     o.getTop().key &&
@@ -432,40 +432,40 @@
                 }
               ]);
         },
-        6210: function (t, o, n) {
+        5655: function (t, o, n) {
           "use strict";
           n.r(o);
           var e = n(8192),
-            i = n.n(e),
-            r = n(3404);
-          function a(t, o, n) {
-            var e = i().extend({}, n.params, o.params);
+            a = n.n(e),
+            i = n(5567);
+          function r(t, o, n) {
+            var e = a().extend({}, n.params, o.params);
             return {
               open: function (n) {
-                var r = i().extend({}, e, n),
-                  a = t.open({
+                var i = a().extend({}, e, n),
+                  r = t.open({
                     templateUrl: o.commonTemplateUrl,
                     controller: o.commonController,
-                    windowClass: r.cssClass || "",
-                    animation: r.animation || o.defaults.animation,
-                    keyboard: r.keyboard || o.defaults.keyboard,
-                    backdrop: !!r.closeButtonShow || "static",
-                    openedClass: r.openedClass || "modal-open-noscroll",
-                    resolve: { modalData: r }
+                    windowClass: i.cssClass || "",
+                    animation: i.animation || o.defaults.animation,
+                    keyboard: i.keyboard || o.defaults.keyboard,
+                    backdrop: !!i.closeButtonShow || "static",
+                    openedClass: i.openedClass || "modal-open-noscroll",
+                    resolve: { modalData: i }
                   });
-                return (a.result.then(i().noop, i().noop), a);
+                return (r.result.then(a().noop, a().noop), r);
               }
             };
           }
-          ((a.$inject = ["$uibModal", "modalOptions", "modalStringService"]),
-            r.A.service("modalService", a),
-            (o.default = a));
+          ((r.$inject = ["$uibModal", "modalOptions", "modalStringService"]),
+            i.A.service("modalService", r),
+            (o.default = r));
         },
-        6273: function (t, o, n) {
+        5372: function (t, o, n) {
           "use strict";
           n.r(o);
-          var e = n(3404);
-          function i(t) {
+          var e = n(5567);
+          function a(t) {
             return {
               params: {
                 actionButtonText: t.get("Action.Yes"),
@@ -473,15 +473,15 @@
               }
             };
           }
-          ((i.$inject = ["languageResource"]),
-            e.A.service("modalStringService", i),
-            (o.default = i));
+          ((a.$inject = ["languageResource"]),
+            e.A.service("modalStringService", a),
+            (o.default = a));
         },
-        3302: function (t, o, n) {
+        5375: function (t, o, n) {
           "use strict";
           n.r(o);
-          var e = n(1706);
-          function i(t) {
+          var e = n(1319);
+          function a(t) {
             return {
               restrict: "A",
               replace: !0,
@@ -524,14 +524,14 @@
               }
             };
           }
-          ((i.$inject = ["$timeout"]), e.A.directive("toast", i), (o.default = i));
+          ((a.$inject = ["$timeout"]), e.A.directive("toast", a), (o.default = a));
         },
-        1706: function (t, o, n) {
+        1319: function (t, o, n) {
           "use strict";
           var e = n(8192);
           o.A = n.n(e)().module("toast", ["toastHtmlTemplate"]);
         },
-        3152: function (t, o, n) {
+        7645: function (t, o, n) {
           "use strict";
           function e() {
             return {
@@ -546,28 +546,12 @@
               }
             };
           }
-          (n.r(o), n(9886).A.directive("verticalMenu", e), (o.default = e));
+          (n.r(o), n(9295).A.directive("verticalMenu", e), (o.default = e));
         },
-        9886: function (t, o, n) {
+        9295: function (t, o, n) {
           "use strict";
           var e = n(8192);
           o.A = n.n(e)().module("verticalMenu", []);
-        },
-        2452: function (t, o, n) {
-          "use strict";
-          n.r((t.exports = {}));
-        },
-        9793: function (t, o, n) {
-          "use strict";
-          n.r((t.exports = {}));
-        },
-        5298: function (t, o, n) {
-          "use strict";
-          n.r((t.exports = {}));
-        },
-        8012: function (t, o, n) {
-          "use strict";
-          t.exports = {};
         },
         8192: function (t) {
           "use strict";
@@ -576,10 +560,10 @@
       },
       o = {};
     function n(e) {
-      var i = o[e];
-      if (void 0 !== i) return i.exports;
-      var r = (o[e] = { exports: {} });
-      return (t[e](r, r.exports, n), r.exports);
+      var a = o[e];
+      if (void 0 !== a) return a.exports;
+      var i = (o[e] = { exports: {} });
+      return (t[e](i, i.exports, n), i.exports);
     }
     ((n.m = t),
       (n.n = function (t) {
@@ -597,51 +581,19 @@
         for (var e in o)
           n.o(o, e) && !n.o(t, e) && Object.defineProperty(t, e, { enumerable: !0, get: o[e] });
       }),
-      (n.k = function (t) {
-        return "" + t + ".css";
-      }),
-      (n.g = (function () {
-        if ("object" == typeof globalThis) return globalThis;
-        try {
-          return this || Function("return this")();
-        } catch (t) {
-          if ("object" == typeof window) return window;
-        }
-      })()),
       (n.o = function (t, o) {
         return Object.prototype.hasOwnProperty.call(t, o);
       }),
       (n.r = function (t) {
-        ("undefined" != typeof Symbol &&
+        ("u" > typeof Symbol &&
           Symbol.toStringTag &&
           Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }),
           Object.defineProperty(t, "__esModule", { value: !0 }));
       }),
       (n.rv = function () {
-        return "1.5.7";
+        return "1.7.12";
       }),
-      n.g.importScripts && (e = n.g.location + ""));
-    var e,
-      i = n.g.document;
-    if (
-      !e &&
-      i &&
-      (i.currentScript &&
-        "SCRIPT" === i.currentScript.tagName.toUpperCase() &&
-        (e = i.currentScript.src),
-      !e)
-    ) {
-      var r = i.getElementsByTagName("script");
-      if (r.length)
-        for (var a = r.length - 1; a > -1 && (!e || !/^http(s?):/.test(e));) e = r[a--].src;
-    }
-    if (!e) throw Error("Automatic publicPath is not supported in this browser");
-    ((n.p = e
-      .replace(/^blob:/, "")
-      .replace(/#.*$/, "")
-      .replace(/\?.*$/, "")
-      .replace(/\/[^\/]+$/, "/")),
-      (n.ruid = "bundler=rspack@1.5.7"),
+      (n.ruid = "bundler=rspack@1.7.12"),
       (function () {
         "use strict";
         var t = n(8192),
@@ -649,44 +601,39 @@
           e = function (t) {
             return t.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
           },
-          i = function (t) {
+          a = function (t) {
             return t.split("/").pop().replace(".html", "");
           },
-          r = function (t) {
+          i = function (t) {
             t.keys().forEach(t);
           },
-          a = function (t, o, n, r) {
+          r = function (t, o, n, i) {
             return t.module(o, []).run([
               "$templateCache",
               function (t) {
                 (n &&
                   n.keys().forEach(function (o) {
-                    var r = e(i(o));
-                    t.put(r, n(o));
+                    var i = e(a(o));
+                    t.put(i, n(o));
                   }),
-                  r &&
-                    r.keys().forEach(function (o) {
-                      var n = e(i(o));
-                      t.put(n, r(o).replace(/<\/?script[^>]*>/gi, ""));
+                  i &&
+                    i.keys().forEach(function (o) {
+                      var n = e(a(o));
+                      t.put(n, i(o).replace(/<\/?script[^>]*>/gi, ""));
                     }));
               }
             ]);
           };
-        (n(8012), n(1706), n(4026), n(9886), n(3404), n(9234), r(n(8244)));
-        var l = n(1639);
-        (a(o(), "toastHtmlTemplate", l),
-          r(n(7358)),
-          r(n(7886)),
-          r(n(4133)),
-          r(n(3313)),
-          r(n(8160)));
-        var s = n(3453);
-        (a(o(), "modalHtmlTemplate", s), r(n(2800)));
-        var c = n(3651);
-        a(o(), "limitedIconTemplate", c);
+        (n(1319), n(7935), n(9295), n(5567), n(4583), i(n(1182)));
+        var l = n(2841);
+        (r(o(), "toastHtmlTemplate", l), i(n(4688)), i(n(4768)), i(n(8695)), i(n(643)), i(n(1866)));
+        var s = n(7399);
+        (r(o(), "modalHtmlTemplate", s), i(n(1197)));
+        var c = n(7605);
+        r(o(), "limitedIconTemplate", c);
       })());
   })(),
   window.Roblox &&
     window.Roblox.BundleDetector &&
     window.Roblox.BundleDetector.bundleDetected("StyleGuide"));
-//# sourceMappingURL=https://sourcemaps.rbxcdn.com/styleGuide-0ad5c5cc4695c71d.js.map
+//# sourceMappingURL=https://sourcemaps.rbxcdn.com/styleGuide-d3d2a8e6693faad0.js.map
