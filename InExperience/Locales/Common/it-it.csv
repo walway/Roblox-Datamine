@@ -1040,7 +1040,8 @@ CoreScripts.TextChat.ChatWindow.SummarySystemMessage,Roblox genera automaticamen
 CoreScripts.TextChat.ChatWindow.Transcribing,Trascrizione in corso...
 CoreScripts.TextChat.ChatWindow.TranscriptionFailed,Non abbiamo capito! Riprova.
 CoreScripts.TextChat.ChatWindow.TranscriptionLanguageUnsupported,Non supportiamo ancora quella lingua!
-CoreScripts.TextChat.ChatWindow.TranscriptionNoMicAccessToastBody,"Per utilizzare il microfono, vai alle impostazioni del tuo dispositivo e concedi a Roblox l'autorizzazione ad accedervi."
+CoreScripts.TextChat.ChatWindow.TranscriptionNoMicAccessToastBody,"Per utilizzare il microfono, modifica qui le impostazioni del tuo dispositivo."
+CoreScripts.TextChat.ChatWindow.TranscriptionNoMicAccessToastBodyAlternate,"Per utilizzare il microfono, vai alle impostazioni del tuo dispositivo e concedi a Roblox l'autorizzazione ad accedervi."
 CoreScripts.TextChat.ChatWindow.TranscriptionNoMicAccessToastHeader,Impossibile accedere al microfono
 CoreScripts.TextChat.ChatWindow.TranscriptionU13MicAccessToastBody,"Per inviare messaggi con la tua voce, elaboreremo il tuo audio e lo cancelleremo subito, in conformità con la nostra informativa sulla privacy."
 CoreScripts.TextChat.ChatWindow.TranscriptionU13MicAccessToastHeader,Hai abilitato la chat vocale
@@ -2598,6 +2599,7 @@ Feature.Catalog.Label.Torso,
 Feature.Catalog.Label.TotalItemsParenthesis,
 Feature.Catalog.Label.TotalUnformatted,Totale
 Feature.Catalog.Label.Tradable,Commerciabile
+Feature.Catalog.Label.Trending,Tendenze
 Feature.Catalog.Label.TryOns,
 Feature.Catalog.Label.TryOnsMultiple,Le tue prove ({numItems})
 Feature.Catalog.Label.Unlimited,Illimitato
@@ -3199,6 +3201,8 @@ Feature.FriendsMenu.Label.SelectedFriendsCountNoLimit,{selectedCount} amici sele
 Feature.GameDetails.Action.GameDetails,
 Feature.GameDetails.Action.GiveFeedback,Lascia un feedback
 Feature.GameDetails.Action.NotInterested,Non mi interessa
+Feature.GameDetails.Action.PauseVideo,Metti in pausa il video
+Feature.GameDetails.Action.PlayVideo,Riproduci video
 Feature.GameDetails.Action.Report,
 Feature.GameDetails.Action.ReportAd,
 Feature.GameDetails.Action.Undo,
@@ -3466,7 +3470,7 @@ Feature.Moments.Label.FeedEndBody,Controlla più tardi o crea il tuo Momento.
 Feature.Moments.Label.FeedEndTitle,È tutto aggiornato
 Feature.Moments.Label.FeedFailedToLoad,Impossibile caricare il feed
 Feature.Moments.Label.FeedMyMoments,I miei Momenti
-Feature.Moments.Label.FeedTrending,Tendenze
+Feature.Moments.Label.FeedTrending,
 Feature.Moments.Label.HowToUseCaptureTitle,Come usare lo strumento Acquisisci
 Feature.Moments.Label.LinkCopied,Link copiato.
 Feature.Moments.Label.LinkCopyFailed,Impossibile copiare il link.
@@ -3621,7 +3625,6 @@ Feature.Profile.Action.AboutThisProfile,Informazioni su questo profilo
 Feature.Profile.Action.Accept,
 Feature.Profile.Action.AcceptFriends,Accetta amico/a
 Feature.Profile.Action.Add,
-Feature.Profile.Action.AddNickname,Aggiungi nome
 Feature.Profile.Action.Chat,
 Feature.Profile.Action.CopyProfileLink,Copia il link del profilo
 Feature.Profile.Action.EditAppearance,Modifica aspetto
@@ -3634,17 +3637,13 @@ Feature.Profile.Action.Pending,
 Feature.Profile.Action.Save,
 Feature.Profile.Action.ShareProfile,Condividi profilo
 Feature.Profile.Action.ShareProfileLink,Condividi il link del profilo
-Feature.Profile.Action.SkipAddNickname,
 Feature.Profile.Action.SwitchAvatar,
 Feature.Profile.Action.ToQRCode,
 Feature.Profile.Action.UserBlocked,Utente bloccato
 Feature.Profile.Action.ViewFullProfile,Visualizza il profilo completo
 Feature.Profile.Action.ViewProfile,
 Feature.Profile.Description.AboutModalCaption,"Fai sapere agli altri di più su di te. Tieniti al sicuro, non condividere dati personali."
-Feature.Profile.Description.EnterNicknameTextbox,Inserisci il tuo soprannome
 Feature.Profile.Description.InspectAndBuy,Clicca per vedere e acquistare il loro look.
-Feature.Profile.Description.NicknamePrivacy,Solo {displayName} vedrà questo.
-Feature.Profile.Description.NicknamePrivacyNoDisplayName,Solo questo utente lo vedrà.
 Feature.Profile.Description.QrCodeDescription,Consenti ad altri di scansionare il tuo codice QR per connettersi su Roblox. Gli utenti di età superiore ai 13 anni che si connettono tramite scansione QR in tempo reale saranno considerati amici affidabili.
 Feature.Profile.Description.QrCodeDescription.FriendsRename,
 Feature.Profile.Description.QrCodeScanning,Lascia che gli altri scansionino il tuo codice QR Roblox con la loro fotocamera del dispositivo per aggiungerti rapidamente come amico!
@@ -3652,11 +3651,8 @@ Feature.Profile.Description.RecognizeConnectionsByCustomName,Riconoscere più fa
 Feature.Profile.Description.RecognizeFriendsByCustomName,
 Feature.Profile.Description.SaySomething,
 Feature.Profile.Description.ScanQR,Permetti alle persone che conosci di scansionare il tuo codice QR per aggiungerti.
-Feature.Profile.Description.SelectNicknameDropdown,Seleziona un nome
 Feature.Profile.Description.SetCustomName,"Imposta un nome personalizzato per <font weight=""medium"">{displayName}</font>."
 Feature.Profile.Description.SetCustomNameNoDisplayName,Imposta un nome personalizzato.
-Feature.Profile.Description.SetNicknamePrompt,Aggiungi un nome per {displayName} per riconoscerti.
-Feature.Profile.Description.SetNicknamePromptNoDisplayName,Aggiungi un nome per questo utente per farti riconoscere.
 Feature.Profile.Description.SocialNetworksCaptionEveryone,Attualmente visibile a tutti.
 Feature.Profile.Description.SocialNetworksCaptionFollowers,"Attualmente visibile agli amici, agli utenti che segui e ai tuoi follower."
 Feature.Profile.Description.SocialNetworksCaptionFollowing,Attualmente visibile agli amici e agli utenti che segui.
@@ -3677,7 +3673,6 @@ Feature.Profile.Heading.DisplayNameUpdated,Nome visualizzato aggiornato
 Feature.Profile.Heading.EditAgedUpDisplayName,Modifica nome
 Feature.Profile.Heading.EditDisplayName,Modifica Nome visualizzato
 Feature.Profile.Heading.InsufficientFunds,Fondi Insufficienti
-Feature.Profile.Heading.NicknameRequestSent,
 Feature.Profile.Heading.ProfileFrame,Cornice del profilo
 Feature.Profile.Heading.ProfilePictureSaved,Immagine del profilo salvata correttamente
 Feature.Profile.Heading.ProfileQRCode,
@@ -3697,7 +3692,6 @@ Feature.Profile.Label.AgedUpDisplayNameModalCaption,"Il tuo nome visualizzato pu
 Feature.Profile.Label.AgedUpDisplayNameTooShort,Il nome visualizzato deve essere di almeno 3 caratteri.
 Feature.Profile.Label.Cancel,
 Feature.Profile.Label.CustomName,Nome personalizzato
-Feature.Profile.Label.CustomNicknameDropdown,Imposta un nome personalizzato
 Feature.Profile.Label.CustomizeName,Personalizza nome
 Feature.Profile.Label.CustomizeNamePlaceholder,
 Feature.Profile.Label.DisplayNameCaption,Questo è il nome pubblico principale che gli altri utenti vedranno per te su Roblox.
@@ -3705,12 +3699,6 @@ Feature.Profile.Label.DisplayNameFailed,Il nome visualizzato non può essere sal
 Feature.Profile.Label.DisplayNameModalCaption,Il tuo nome visualizzato può essere cambiato solo una volta ogni 7 giorni.
 Feature.Profile.Label.DisplayNameTooShort,
 Feature.Profile.Label.EditBackground,
-Feature.Profile.Label.NicknameErrorMessageInvalid,Il nome non è valido.
-Feature.Profile.Label.NicknameErrorMessageInvalidCharacters,Il nome contiene caratteri non supportati.
-Feature.Profile.Label.NicknameErrorMessageModerated,Nome inappropriato per Roblox.
-Feature.Profile.Label.NicknameErrorMessageThrottled,Il tuo nome è già stato cambiato oggi.
-Feature.Profile.Label.NicknameErrorMessageTooLong,Il nome deve contenere almeno 20 caratteri.
-Feature.Profile.Label.NicknameErrorMessageTooShort,Il nome deve contenere almeno 2 caratteri.
 Feature.Profile.Label.NoBioYet,Ancora nessuna biografia
 Feature.Profile.Label.NoPreviousName,Nessun nome precedente
 Feature.Profile.Label.NoSocialLink,Ancora nessun collegamento social
@@ -3720,7 +3708,6 @@ Feature.Profile.Label.QRCodeFriendRequest,Inviato dal tuo codice QR
 Feature.Profile.Label.RecentAgedUpDisplayName,"Il tuo nome visualizzato è stato cambiato troppo di recente. Il tuo nome visualizzato può essere cambiato solo una volta ogni 7 giorni.
 "
 Feature.Profile.Label.RecentDisplayName,Il tuo nome visualizzato è stato cambiato troppo di recente. Il tuo nome visualizzato può essere cambiato solo una volta ogni 7 giorni.
-Feature.Profile.Label.TimeToChangeNickname,Puoi cambiare il tuo nome in {hours} ore.
 Feature.Profile.Label.UnableToJoin,Impossibile connettersi
 Feature.Profile.Label.UserIsPlayingExperience,<b>{userName}</b> sta giocando all'esperienza <b>{experienceName}</b>
 Feature.Profile.Label.UsernameDescription,Questo è il tuo nome unico su Roblox. Cambiare il tuo nome utente ti costerà {icon}{price}.
@@ -4023,7 +4010,6 @@ Feature.SettingsHub.Prompt.IncorrectNudgeV2,Pensi che ci sia stato un errore?<br
 Feature.SettingsHub.Prompt.JoinedVoiceChat,Hai Partecipato alla Chat Vocale
 Feature.SettingsHub.Prompt.JoinedVoiceChatV2,Ti sei iscritto alla chat vocale
 Feature.SettingsHub.Prompt.JoinedVoiceChatV3,Hai effettuato la connessione alla chat vocale
-Feature.SettingsHub.Prompt.LeaveVoiceChat,Chat vocale disconnessa
 Feature.SettingsHub.Prompt.LeaveVoiceChatV2,Hai effettuato la disconnessione dalla chat vocale
 Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Uso del microfono e videocamera sospeso
 Feature.SettingsHub.Prompt.MicUseSuspended,Utilizzo microfono sospeso
@@ -4207,7 +4193,6 @@ Feature.Squads.Label.FindExperiencesPlayTogether,Trova esperienze per giocare in
 Feature.Squads.Label.FriendJoinedYourParty,{combinedName} partecipa al tuo Party
 Feature.Squads.Label.InviteConnectionsConfirmation,Vuoi invitare questi contatti a unirsi al gruppo?
 Feature.Squads.Label.InviteFriendsConfirmation,Vuoi invitare quest* amic* a unirsi al gruppo?
-Feature.Squads.Label.InviteToSquad,Invito per la Squad
 Feature.Squads.Label.InvitedToExperience,Hai ricevuto un invito all'Esperienza
 Feature.Squads.Label.JoinAnotherParty,Cambia Party
 Feature.Squads.Label.JoinExperiencesTogether,Partecipa alle esperienze insieme
@@ -4514,6 +4499,7 @@ IAPExperience.PurchasePrompt.BuyRobuxAndSubscription,Acquista Robux e abbonament
 IAPExperience.PurchasePrompt.Header.BuyAvatar,
 IAPExperience.PurchasePrompt.Header.BuyRobuxAndAvatar,Acquista Robux e avatar
 IAPExperience.PurchasePrompt.Label.BlackbirdDiscount,Vantaggio Plus ({discountPercentage}% di sconto)
+IAPExperience.PurchasePrompt.Label.BlackbirdDiscountEligibleItems,Vantaggio Plus ({discountPercentage}% di sconto sugli articoli idonei)
 IAPExperience.PurchasePrompt.Label.BlackbirdDiscountNoPercent,Vantaggio del piano Plus
 IAPExperience.PurchasePrompt.Label.BlackbirdSummary,Risparmio {robuxIcon} {savingsAmount} con Plus
 IAPExperience.PurchasePrompt.Label.GenericDiscount,Sconto ({discountPercentage}%)
@@ -4861,6 +4847,7 @@ PlayerFeedbacks.VoteForm.PromptBanner.Title,Aiuta a migliorare questa esperienza
 PlayerFeedbacks.VoteForm.PromptBanner.TitleOnly,Aiuta il creatore a migliorare questa esperienza
 Purchasing.PurchaseDialog.Heading.PendingDeveloperProductLimitReached,Impossibile completare l'acquisto
 Purchasing.PurchaseDialog.Message.PendingDeveloperProductLimitReached,Unisciti all'esperienza per riscattare i tuoi acquisti precedenti prima di acquistare altri prodotti.
+Purchasing.PurchaseDialog.Message.PendingDeveloperProductOnHome,Unisciti per riscattare il tuo acquisto
 Roblox.ReferralRewards.AdditionalCreatorTerms,Termini aggiuntivi di servizio dei creatori
 Roblox.ReferralRewards.Expires,Scade
 Roblox.ReferralRewards.ReferralProgramTerms,Condizioni del programma di invito
