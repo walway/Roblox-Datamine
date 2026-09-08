@@ -2499,7 +2499,9 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
   "Description.ThirdPartyFriendAccess": "Can developers have access to your friend list?",
   "Action.Copy": "Copy",
   "Message.RecoveryCodesCopied": "Backup Codes Copied to Keyboard",
-  "Action.Download": "Download"
+  "Action.Download": "Download",
+  "Label.PrivatePlaytestSetting": "Private Playtest",
+  "Heading.PrivatePlaytestSetting": "Private playtest setting"
 };
 window.Roblox &&
   window.Roblox.BundleDetector &&
