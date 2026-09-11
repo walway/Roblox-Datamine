@@ -2492,9 +2492,9 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
   "Heading.RobuxTransferLimits": "Robux transfer limits",
   "Heading.EligibleGamesForPlaytest": "Eligible games for playtest",
   "Description.PrivatePlaytest":
-    "Test in-development games from trusted friends and friends in similar age groups, before the games receive full evaluation. When you join the game, Roblox will conduct a preliminary review against our safety standard.",
+    "Choose whose early access games you can be invited to test, before these games are available in our catalog for kids and young teens.",
   "Description.ParentSide.PrivatePlaytest":
-    "Allow your child to test in-development games from trusted friends and friends in similar age groups, before the games receive full evaluation. When you child joins the game, Roblox will conduct a preliminary review against our safety standard.",
+    "Choose whose early access games your child can be invited to test, before these games are available in our catalog for kids and young teens.",
   "Label.ThirdPartyFriendAccess": "Friend list API acccess",
   "Description.ThirdPartyFriendAccess": "Can developers have access to your friend list?",
   "Action.Copy": "Copy",
