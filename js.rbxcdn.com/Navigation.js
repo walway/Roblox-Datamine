@@ -10,7 +10,7 @@
             : "u" > typeof self
               ? self
               : {};
-    e.SENTRY_RELEASE = { id: "3f3f3526494e916ede8e24845e7058b9b1dbdaaa" };
+    e.SENTRY_RELEASE = { id: "fda7012a0caf0c1e2bac173bd4a703869401705d" };
     var t = new e.Error().stack;
     t &&
       ((e._sentryDebugIds = e._sentryDebugIds || {}),
