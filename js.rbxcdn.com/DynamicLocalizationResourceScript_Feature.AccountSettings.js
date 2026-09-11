@@ -2490,7 +2490,7 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
   "Description.WaitingForParentToChangeTransferLimits":
     "You asked your parent to change your transfer limits.",
   "Heading.RobuxTransferLimits": "Robux transfer limits",
-  "Heading.EligibleGamesForPlaytest": "Eligible games for playtest",
+  "Heading.EligibleGamesForPlaytest": "Preview games",
   "Description.PrivatePlaytest":
     "Choose whose early access games you can be invited to test, before these games are available in our catalog for kids and young teens.",
   "Description.ParentSide.PrivatePlaytest":
@@ -2500,8 +2500,8 @@ Roblox.LangDynamic["Feature.AccountSettings"] = {
   "Action.Copy": "Copy",
   "Message.RecoveryCodesCopied": "Backup Codes Copied to Keyboard",
   "Action.Download": "Download",
-  "Label.PrivatePlaytestSetting": "Playtest",
-  "Heading.PrivatePlaytestSetting": "playtest setting",
+  "Label.PrivatePlaytestSetting": "Preview games",
+  "Heading.PrivatePlaytestSetting": "preview games setting",
   "Message.RecoveryCodesNotCopied": "Backup Codes Failed to Copy",
   "Label.Subscriptions.FreeWithPlusUntil": "Free With Plus Until {freeExpirationDate}"
 };
