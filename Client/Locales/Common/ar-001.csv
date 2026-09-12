@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,انتقال فوري...
+Corescripts.AvatarContextMenu.FriendRequestPending,طلب صداقة معلق
+Corescripts.AvatarContextMenu.AddFriend,إضافة صديق
+Corescripts.AvatarContextMenu.Friends,الأصدقاء
+Corescripts.AvatarContextMenu.AcceptFriendRequest,قبول طلب الصداقة
+Corescripts.AvatarContextMenu.Chat,دردشة
+Corescripts.AvatarContextMenu.ChatDisabled,الدردشة معطلة
+Corescripts.AvatarContextMenu.Wave,تلويح
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,الوصول إلى العناصر؟
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,يريد المستخدم {RBX_NAME} الاطلاع على عناصر أفاتارك
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,حفظ شخصية الأفاتار
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,هل تريد حفظ هذه الشخصية في Roblox؟ 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,لا
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,نعم
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,إلغاء
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,حسنًا
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,تجهيز الأفاتار بالعناصر
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,يريد المستخدم {RBX_NAME} إجراء تعديلات على عناصر أفاتارك:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,حسنًا
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,إلغاء
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,تفضيل العنصر
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,هل تريد إضافة {RBX_NAME} إلى المفضلة؟
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,إلغاء تفضيل العنصر
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,هل تريد إزالة {RBX_NAME} من المفضلة؟
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,لا
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,نعم
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,أدخل اسم الشخصية
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,اسم الشخصية
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,تأكيد
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,تعذّر التحميل
+CoreScripts.AvatarEditorPrompts.Adding,إضافة:
+CoreScripts.AvatarEditorPrompts.Removing,إزالة:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,لم تتغير أي عناصر
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,إلغاء
+CoreScripts.PremiumModal.Title.PremiumRequired,خاص بـ Premium
+CoreScripts.PremiumModal.Body.Description,تعطيك Premium:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux شهريًا
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,الوصول إلى مزايا المميزة فقط بـ Premium
+CoreScripts.PremiumModal.Body.RobuxDiscount,خصم 10% عند شراء Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/شهريًا
+CoreScripts.PremiumModal.Error.PlatformUnavailable,شراء Roblox Premium غير مدعوم على هذه المنصة. الرجاء استعمال كمبيوتر شخصي لشراء Premium.
+CoreScripts.PremiumModal.Error.AlreadyPremium,يبدو أن المطور يحاول أن يعرض عليك شراء Roblox Premium إلا أنك حاليًا عضو في Premium.
+CoreScripts.PremiumModal.Error.Unavailable,Premium غير متوفر حاليًا. الرجاء المحاولة لاحقًا.
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux شهريًا
+CoreScripts.PremiumModal.Error.FailedNativePurchase,لم تكتمل عملية الشراء، الرجاء المحاولة مجددًا.
+CoreScripts.PremiumModal.Title.Error,خطأ
+CoreScripts.ScreenshotHud.Action.TakePhoto,التقط صورة
+CoreScripts.ScreenshotHud.Action.Cancel,إلغاء
+CoreScripts.TextChat.ChatWindow.Welcome,دردشة '/?' أو '/help' لقائمة أوامر الدردشة.
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,لا يمكنك استخدام Emotes بنفس وقت هذا الإجراء.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,لا يمكنك استخدام Emote.
+CoreScripts.TextChat.Emote.Error.R15Only,فقط الأفاتار R15 يمكنها استخدام Emotes.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,لا يمكنك استخدام Emote حاليًا.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,Emote غير موجود.
+CoreScripts.TextChat.Emote.Error.NotEquipped,لست مجهزًا بتلك Emote.
+CoreScripts.TextChat.Emote.Error.NotEnabled,لا يمكنك استخدام Emote هنا.
+CoreScripts.TextChat.Help.FirstLine,هذه هي الأوامر الأساسية للدردشة:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,للمحادثة، انقر هنا أو اضغط على مفتاح {KEY}
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,إعدادات الدردشة لديك تمنعك من إرسال الرسائل وتلقّيها.
+CoreScripts.TextChat.InputBar.Hint.Touch,انقر هنا للدردشة
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,يتعيّن عليك الانتظار قبل إرسال رسالة أخرى.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,لا يمكنك التحدث في هذه القناة.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,إعدادات الدردشة لديك تمنعك من إرسال الرسائل وتلقّيها.
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,رسالتك تتجاوز الحد الأقصى المسموح به.
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,يواجه فلتر الدردشة حاليًا بعض المشاكل مما يتسبب بظهور بطيء لبعض الرسائل.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,تعذر إرسال رسالتك.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,لا يمكنك كتم نفسك.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,هؤلاء المستخدمون لديهم اسم العرض هذا: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,المستخدم '{RBX_NAME}' غير موجود.
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : كتم مستخدم
+CoreScripts.TextChat.Mute.Success,تم كتم صوت المستخدم '{RBX_NAME}'.
+CoreScripts.TextChat.Notification.Friend.Joined,انضمت جهة تواصلك {RBX_NAME} إلى التجربة.
+CoreScripts.TextChat.Notification.Team.Joined,صرت الآن عضوًا في فريق '{RBX_NAME}'.
+CoreScripts.TextChat.Notification.WhisperChat.Created,دردشة خاصة مع {RBX_NAME}.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,لا يمكنك الدردشة مع الفريق لأنك لست جزءًا من الفريق.
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> أو /t <message> : لإرسال دردشة جماعية لأشخاص في فريقك
+CoreScripts.TextChat.TeamChat.PrefixText,[فريق]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : لإلغاء كتم مستخدم
+CoreScripts.TextChat.Unmute.Success,تم إلغاء كتم المستخدم '{RBX_NAME}'.
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,لا يمكنك الدردشة مع هذا الشخص.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> or /w <user> : لفتح قناة رسالة خاصة مع مستخدم
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[من {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[إلى {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,المشاركون
+CoreScripts.TopBar.Emotes,Emotes
+CoreScripts.TopBar.Inventory,مقتنيات
+CoreScripts.TopBar.Leave,مغادرة
+CoreScripts.TopBar.Chat,دردشة
+CoreScripts.TopBar.QuickMenu,القائمة السريعة
+CoreScripts.TopBar.Menu,القائمة
+CoreScripts.TopBar.Respawn,Respawn الشخصية
+CoreScripts.TopBar.Back,رجوع
+CoreScripts.TopBar.Screenshot,لقطة شاشة
+Feature.SettingsHub.Label.LoadingFriendsListFailed,حدث خطأ، الرجاء المحاولة مجددًا.
+Feature.SettingsHub.Action.CancelSearch,إلغاء
+Feature.SettingsHub.Label.DontLeaveButton,عدم المغادرة
+Feature.SettingsHub.Action.InviteFriend,دعوة
+Feature.SettingsHub.Heading.InviteFriends,دعوة أصدقاء
+Feature.SettingsHub.Label.Invited,دعوة
+Feature.SettingsHub.Label.LeaveButton,مغادرة
+Feature.SettingsHub.Label.Moderated,تم الإشراف عليها
+Feature.SettingsHub.Label.InviteSearchNoResults,لا توجد نتائج
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,البحث عن جهات تواصل
+Feature.SettingsHub.Label.Sending,جاري الإرسال
+Feature.SettingsHub.Action.InviteFriendsBack,رجوع
+Feature.SettingsHub.Message.InviteToGameTitle,تعال وانضم إلي في {PLACENAME}
+Feature.SettingsHub.TouchMovementMode.DPad,DPad
+Feature.SettingsHub.Video.Off,معطل
+Feature.SettingsHub.Video.SystemDefault,النظام الافتراضي
+Feature.SettingsHub.Video.VideoCamera,كاميرا الفيديو
+Feature.SettingsHub.Default.DynamicThumbstick,الافتراضي (Dynamic Thumbstick)
+Feature.SettingsHub.DefaultKeyboard,الافتراضي (لوحة المفاتيح)
+Feature.SettingsHub.Heading.Capture,التقاط
+Feature.SettingsHub.Label.CaptureDescription2,يتم حفظ الصور الملتقطة على جهازك.
+Feature.SettingsHub.Label.ChooseOne,اختر واحدة
+InGame.CommonUI.Title.Warning,تحذير
+InGame.CommonUI.Title.Error,خطأ
+InGame.CommonUI.Button.Retry,إعادة المحاولة
+InGame.CommonUI.Button.Ok,حسنًا
+InGame.CommonUI.Title.Alert,تنبيه
+InGame.CommonUI.Label.Default,الافتراضي
+InGame.CommonUI.Label.Custom,مخصص
+InGame.CommonUI.Label.PossiblyCustom,ربما مخصص
+InGame.CommonUI.Label.CustomOld,مخصص قديم
+InGame.ConnectionError.DisconnectCloudEditKick,انقطع الاتصال بميزة إنشاء الفريق. الرجاء إعادة الاتصال. 
+InGame.ConnectionError.DisconnectWrongVersion,قد يكون إصدار Roblox لديك قديمًا. الرجاء تحديث Roblox والمحاولة مرة أخرى.
+InGame.ConnectionError.TeleportFailure,تعذّر الانتقال الفوري بسبب خطأ غير متوقع. الرجاء محاولة الانتقال مجددًا.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,انقطع الاتصال بسبب خطأ ما.
+InGame.ConnectionError.TeleportGameFull,الخادم ممتلئ. الرجاء المحاولة لاحقًا أو الانضمام لخادم آخر.
+InGame.ConnectionError.DisconnectPlayerless,تم إغلاق تشغيل الخادم لدى محاولتك الاتصال به. الرجاء المحاولة مجددًا.
+InGame.ConnectionError.TeleportGameNotFound,لا يمكن العثور على المكان المقصود. الرجاء التحقق منه ثم المحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectErrors,انقطع الاتصال بسبب خطأ غير معروف. الرجاء إعادة الاتصال.
+InGame.ConnectionError.DisconnectDuplicateTicket,انقطع الاتصال بسبب خطأ. تم اكتشاف اتصالات متعددة من نفس الحساب.
+InGame.ConnectionError.DisconnectBadhash,انقطع الاتصال بسبب خطأ ما.
+InGame.ConnectionError.DisconnectSendPacketError,حدثت مشكلة في إرسال البيانات، الرجاء إعادة الاتصال.
+InGame.ConnectionError.DisconnectOnRemoteSysStats,لقد تم إخراجك بسبب مشكلة في التطبيق.
+InGame.ConnectionError.DisconnectTimeout,انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت وحاول مجددًا.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,انقطع الاتصال بسبب خطأ ما.
+InGame.ConnectionError.TeleportErrors,تعذّر الانتقال الفوري بسبب خطأ غير متوقع. الرجاء محاولة الانتقال مجددًا.
+InGame.ConnectionError.TeleportGameEnded,الخادم لم يعد متوفرًا. الرجاء استخدام خادم مختلف أو المحاولة لاحقًا.
+InGame.ConnectionError.PlacelaunchFlooded,الخادم مشغول حاليًا. الرجاء المحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectProtocolMismatch,قد يكون إصدار Roblox لديك قديمًا. الرجاء تحديث Roblox والمحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectRobloxMaintenance,أغلق Roblox هذا الخادم للصيانة. الرجاء المحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectHashTimeout,انتهت مهلة الاتصال. تحقق من اتصالك بالإنترنت وحاول مجددًا.
+InGame.ConnectionError.DisconnectReceivePacketError,حدثت مشكلة في تلقي البيانات، الرجاء إعادة الاتصال.
+InGame.ConnectionError.PlacelaunchOtherError,نواجه حاليًّا صعوبات تقنية. الرجاء المحاولة مرة أخرى لاحقًا.
+InGame.ConnectionError.TeleportFlooded,محاولات انتقال فوري كثيرة. الرجاء التريث ثم المحاولة لاحقًا.
+InGame.ConnectionError.DisconnectIllegalTeleport,انقطع الاتصال بسبب طلب نقل غير صالح. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,حدثت مشكلة في نقل البيانات، الرجاء إعادة الاتصال.
+InGame.ConnectionError.PlacelaunchError,غير قادر على العثور على الخادم الذي تحاول الانضمام إليه. الرجاء المحاولة لاحقًا.
+InGame.ConnectionError.TeleportUnauthorized,أنتَ تحاول الانتقال الفوري إلى مكان مقيّد.
+InGame.ConnectionError.Title.JoinError,خطأ في الانضمام
+InGame.ConnectionError.Title.Disconnected,غير متّصل
+InGame.ConnectionError.Title.TeleportFailed,فشل الانتقال السريع
+InGame.ConnectionError.Message.ErrorCode,رمز الخطأ: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,إعادة الاتصال
+InGame.ConnectionError.DisconnectConnectionLost,الرجاء التحقق من اتصالك بالإنترنت وحاول مرة أخرى.
+InGame.ConnectionError.DisconnectIdle,انقطع اتصالك لعدم وجود نشاط لمدة {RBX_NUM} (دقيقة)
+InGame.ConnectionError.UnknownError,خطأ غير معروف.
+InGame.ConnectionError.ReconnectFailed,لم تنجح إعادة الاتصال. الرجاء المحاولة مجددًا.
+InGame.EmotesMenu.SelectAnEmote,حدّد Emote
+InGame.EmotesMenu.NoEmotesEquipped,لا يوجد Emote مجهّزة
+InGame.EmotesMenu.ErrorMessageNotSupported,لا يمكنك استخدام Emote هنا.
+InGame.EmotesMenu.ErrorMessageR15Only,فقط الأفاتار R15 يمكنها استخدام Emotes.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,لا يمكنك استخدام Emote.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,لا يمكنك استخدام Emotes حاليًا.
+InGame.EmotesMenu.VisitShopToGetEmotes,ليس لديك Emotes. انتقل إلى المتجر للحصول على Emotes.
+InGame.EmotesMenu.ErrorMessageSwitchToR15,انتقل إلى أفاتار R15 لتشغيل Emote.
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,لا يمكنك تشغيل Emotes بنفس وقت هذا الإجراء.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,حدث خطأ أثناء إرسال طلب جهة تواصل إلى {RBX_NAME}. يُرجى المحاولة لاحقًا.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,هل ترغب في إزالة {RBX_NAME} من قائمة جهات تواصلك؟
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,هل ترغب في إرسال طلب جهة تواصل إلى {RBX_NAME}؟
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,لا يمكنك إرسال طلب جهة تواصل إلى {RBX_NAME} لأن هذا المستخدم وصل إلى الحد الأقصى المسموح به لعدد جهات التواصل.
+FriendPlayerPrompt.Title.SendFriendRequest,هل تود إرسال طلب صداقة؟
+FriendPlayerPrompt.Label.Unfriend,إزالة جهة تواصل
+InGame.GameplayPaused.Title,اللعبة متوقفة مؤقتًا
+InGame.GameplayPaused.Body,اللعبة متوقفة مؤقتًا. الرجاء الانتظار لحين تحميل محتوى اللعبة.
+InGame.HelpMenu.UpArrow,سهم للأعلى
+InGame.HelpMenu.DownArrow,سهم للأسفل
+InGame.HelpMenu.LeftArrow,السهم الأيسر
+InGame.HelpMenu.RightArrow,السهم الأيمن
+InGame.HelpMenu.Label.ServerVersion,إصدار الخادم:
+InGame.HelpMenu.Label.ClientVersion,إصدار التطبيق:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,إصدار المكان:
+InGame.HelpMenu.Leave,مغادرة
+InGame.HelpMenu.Resume,استئناف
+InGame.HelpMenu.Label.ClientCoreScriptVersion,إصدار تطبيق CoreScript:
+InGame.InspectMenu.Description.NoInventoryNotice,لا يرتدي هذا المستخدم أي عناصر يمكنك تفتيشها.
+InGame.InspectMenu.Description.MultipleBundlesNotice,هذا العنصر جزء من حزم متعددة.
+InGame.InspectMenu.Description.SingleBundleNotice,هذا العنصر جزء من حزمة.
+InGame.InspectMenu.Action.TakeOff,خلع
+InGame.InspectMenu.Action.TryOn,تجربة
+InGame.InspectMenu.Action.Buy,شراء
+InGame.InspectMenu.Action.Inspect,فحص
+InGame.InspectMenu.Action.View,عرض
+InGame.InspectMenu.Label.Owned,ملكك
+InGame.InspectMenu.Label.Offsale,ليس للبيع
+InGame.InspectMenu.Label.Limited,محدود
+InGame.InspectMenu.Label.CurrentlyWearing,مرتدي حاليًّا
+InGame.InspectMenu.Label.By,بواسطة {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,لا يمكن شراء هذا العنصر إلا من بائعين آخرين في الكاتالوج.
+InGame.InspectMenu.Label.Avatar,أفاتار {PLAYER_NAME}
+InGame.InspectMenu.Label.NoResellers,لا يوجد بائعين
+InGame.InspectMenu.Label.PremiumOnly,فقط Premium
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,انخفضت إلى {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,ارتفعت إلى {RBX_NUMBER}
+NotificationScript2.NewFollower,متابع جديد {RBX_NAME} يتابعك الآن!
+NotificationScript2.FriendRequestEvent.Accept,تم إنشاء صداقة بينك وبين {RBX_NAME}.
+NotificationScript2.onPointsRewarded.negative,أنتَ فقدت نقاط {RBX_NUMBER}.
+NotificationScript2.onPointsAwarded.single,أنت حصلت على نقطة من {RBX_NUMBER}.
+NotificationScript2.onPointsAwarded.multiple,أنت حصلت على نقاط من {RBX_NUMBER}.
+NotificationScript2.onBadgeAwardedTitle,تم منحك وسامًا
+NotificationScript2.onBadgeAwardedDetail,حصل {RBX_NAME} على وسام {BADGE_NAME} من {CREATOR_NAME}.
+NotificationScript2.Screenshot.Title,تم حفظ لقطة الشاشة
+NotificationScript2.Screenshot.Description,تحقق من مجلد لقطات الشاشة لديك لمعاينتها.
+NotificationScript2.Screenshot.ButtonText,فتح المجلد
+NotificationScript2.Video.Title,تم تسجيل الفيديو
+NotificationScript2.Video.Description,تحقق من مجلد الفيديوهات لديك لمشاهدته.
+NotificationScript2.Video.ButtonText,فتح المجلد
+NotificationScript2.Capture.Permission.AlertTitle,تمكين حفظ الأذونات
+NotificationScript2.Capture.Permission.AlertText,يتعين عليك تمكين أذونات الصور لكي تتمكن من استخدام هذه الميزة. يمكن تحديد الإذن في إعدادات جهازك.
+NotificationScript2.Capture.Permission.AlertTextIOS,اذهب إلى الإعدادات> الخصوصية > الصور، واعطِ Roblox الإذن لحفظ لقطات الشاشة في معرض الصور.
+NotificationScript2.Capture.Permission.AlertTextAndroid,"اذهب إلى الإعدادات> Roblox > الأذونات، ومكّن ""التخزين"" لتمكين حفظ لقطات الصور في معرض الصور."
+NotificationScript2.Capture.Permission.AlertButtonText,حسنًا
+NotificationScript2.Capture.Success.ToastText,تم حفظ اللقطة
+NotificationScript2.Capture.Fail.ToastText,تعذّرت اللقطة
+NotificationScript2.UINavigation.Title,تم تمكين UI Navigation
+NotificationScript2.UINavigation.Text,Backslash للتبديل
+NotificationScript2.CameraToggle.Title,تم تمكين التحكم في الكاميرا
+NotificationScript2.CameraToggle.Text,زر الفأرة الأيمن للتبديل
+NotificationScript2.GraphicsQuality.Title,جودة الرسومات
+PlayerDropDown.onUnfollowButtonPress.success,لم تعد تتابع {RBX_NAME}.
+PlayerDropDown.onFollowButtonPress.success,أنت الآن تتابع {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,لا يمكن إرسال طلب صداقة
+PlayerDropDown.FriendLimit,وصلت للحدّ الأقصى لعدد الأصدقاء.
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} وصل للحد الأقصى للأصدقاء.
+PlayerDropDown.UnFollow,إلغاء المتابعة
+PlayerDropDown.Follow,متابعة
+PlayerDropDown.Report,الإبلاغ عن إساءة
+PlayerDropDown.Examine,فحص الأفاتار
+PlayerDropDown.Unfriend,إلغاء الصداقة
+PlayerDropDown.FriendRequest,طلب صداقة
+PlayerDropDown.CancelRequest,إلغاء الطلب
+PlayerDropDown.Accept,قبول
+InGame.PlayerList.Leaderboard,المشاركون
+InGame.Presence.Label.InStudio,في الاستوديو
+InGame.Presence.Label.Offline,غير متصل
+InGame.Presence.Label.Online,متصل
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,لا يمكن استرداد رصيدك في هذا الوقت. لم يتم خصم حسابك. الرجاء المحاولة مرة أخرى لاحقًا.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,تقوم Roblox ببعض أعمال الصيانة
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,سيتم إرجاع {RBX_NUMBER} Robux إلى رصيد حسابك.
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,تم تعطيل مبيعات العناصر الخارجية لهذا المكان. لم يتم تحصيل رسوم على حسابك.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,هذا العنصر يكلف تذاكر أكثر مما لديك حاليًا. حاول تبديل العملة على www.roblox.com للحصول على المزيد من التذاكر.
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,هذا العنصر ليس للبيع حاليًّا. لم يتم خصم حسابك.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,يتطلب هذا العنصر {RBX_NAME1}. انقر على 'ترقية' لترقية Builders Club.
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,هذا العنصر محدود لا يحتوي على نسخ أخرى. حاول شراءه من مستخدم آخر على www.roblox.com. لم يتم خصم حسابك.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,هل تريد شراء {RBX_NAME1}{RBX_NAME2} بقيمة
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,لم نتمكن من استرداد سعر هذا العنصر حاليًّا. لم يتم خصم حسابك. الرجاء المحاولة لاحقًا.
+PurchasePromptScript.PURCHASE_MSG.FREE,هل تريد أخذ {RBX_NAME2} مجانًا؟
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,يتعيّن عليك إنشاء حساب في ROBLOX لشراء هذه العناصر. الرجاء زيارة www.roblox.com للمزيد من المعلومات.
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,أنت بحاجة إلى {RBX_NUMBER} إضافية من ROBUX لشراء {RBX_NAME1} {RBX_NAME2}. هل تريد شراء المزيد من ROBUX؟
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,حسابك لأقل من عمر 13. شراء هذا العنصر غير مسموح به. لم يتم خصم حسابك.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,سيصير رصيدك بعد هذه المعاملة {RBX_NUMBER}.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,رصيدك الآن {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,فشلت عملية الشراء لأن {ERROR_REASON}. لم تسر على حسابك أي رسوم. الرجاء المحاولة لاحقًا.
+PurchasePromptScript.PURCHASE_MSG.FAILED,فشلت عملية شراء {RBX_NAME1} لأن {RBX_NAME2}. لم تسر على حسابك أيّ رسوم. الرجاء المحاولة لاحقًا.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,تم شراء {RBX_NAME1} بنجاح!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,حدث خطأ ما
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,ليس لديك رصيد Robux كافي في حسابك
+StatsUtil.KBps,{RBX_NUMBER} ك.ب./ث
+StatsUtil.MB,{RBX_NUMBER} م.ب.
+StatsUtil.ms,{RBX_NUMBER} ج.ث
+Network,(الشبكة)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <channel>: التبديل بين علامات تبويب قائمة القناة.
+GameChat_ChatCommandsTeller_MeCommand,/me <text> : أمر لتنفيذ إجراءات في لعب الأدوار.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <speaker> : كتم مستخدم.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker> : لإلغاء كتم صوت المستخدم.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> أو /w <speaker> : لفتح قناة مراسلة خاصة مع المتكلم.
+Average,معدّل
+GameChat_ChatServiceRunner_ChannelDoesNotExist,القناة {RBX_NAME} غير موجودة.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,دردشة '/?' أو '/help' لمعاينة أوامر الدردشة.
+GameChat_SwallowGuestChat_Message,أنشئ حسابًا مجانيًا لتتمكن من الوصول إلى أذونات الدردشة.
+Current,الحالية
+DisableVoiceKey,تعطيل الدردشة الصوتية
+EnableVoiceKey,تمكين الدردشة الصوتية
+key_142,صديق جديد {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,اختياري
+key_145,نقاط ممنوحة. وصلك {RBX_NUMBER} (نقطة).
+Received,تم استلامها
+BACKPACK_SEARCH,بحث
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,وصف قصير (اختياري)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,المتكلم '{RBX_NAME}' غير موجود.
+GameChat_ChatMain_SpeakerHasBeenBlocked,تم حظر المتكلم '{RBX_NAME}'.
+GameChat_ChatMain_SpeakerHasBeenMuted,تم كتم المتكلم '{RBX_NAME}'.
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,تم إلغاء حظر المتكلم '{RBX_NAME}'.
+GameChat_ChatMain_SpeakerHasBeenUnMuted,تم إلغاء كتم المتكلم '{RBX_NAME}'.
+GameChat_ChatMain_ChatBarTextTouch,انقر هنا للدردشة
+Target,الهدف
+GameChat_ChatService_ChatFilterIssues,يواجه فلتر الدردشة حاليًا بعض المشاكل مما يتسبب بظهور بطيء لبعض الرسائل.
+GameChat_ChatCommandsTeller_Desc,هذه هي الأوامر الأساسية للدردشة.
+GameChat_TeamChat_WelcomeMessage,هذه قناة خاصة بينك وبين أعضاء فريقك.
+GameChat_ChatMain_ChatBarText,"للمحادثة، انقر هنا أو اضغط على مفتاح ""/"""
+GameChat_ChatChannel_MutedInChannel,صوتك مكتوم ولن تتمكن من التكلم في هذه القناة
+GameChat_ChatServiceRunner_YouAreNotInChannel,أنت لست في القناة {RBX_NAME}
+GameChat_SwitchChannel_NotInChannel,أنت لست في القناة: {RBX_NAME}'
+GameChat_TeamChat_NowInTeam,صرت الآن عضوًا في فريق '{RBX_NAME}'.
+GameChat_PrivateMessaging_NowChattingWith,أنت الآن في دردشة خاصة مع {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotJoinChannel,لا يمكنك الانضمام إلى القناة {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,لا يمكنك مغادرة القناة {RBX_NAME}
+GameChat_ChatService_CannotLeaveChannel,لا يمكنك مغادرة هذه القناة.
+GameChat_DoMuteCommand_CannotMuteSelf,لا يمكنك كتم نفسك.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,لا يمكنك الدردشة مع الفريق لأنك لست عضوًا في الفريق!
+GameChat_PrivateMessaging_CannotWhisperToSelf,لا يمكنك إجراء دردشة خاصة مع نفسك.
+GameChat_ChatService_YouHaveLeftChannel,أنت غادرتَ القناة '{RBX_NAME}'
+GameChat_ChatFloodDetector_Message,يتعيّن عليك الانتظار قبل إرسال رسالة أخرى!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,يتعيّن عليك الانتظار {RBX_NUMBER} (ثانية) قبل إرسال رسالة أخرى!
+KEY_PLAYER_IDLE_DISCONNECT,انقطع اتصالك لعدم وجود نشاط لمدة {RBX_NUMBER} (دقيقة)
+GameChat_ChatMessageValidator_SettingsError,إعدادات الدردشة لديك تمنعك من إرسال الرسائل.
+GameChat_ChatMessageValidator_WhitespaceError,تحتوي رسالتك على مساحات بيضاء غير مسموح بها.
+GameChat_ChatMessageValidator_MaxLengthError,رسالتك تتجاوز الحد الأقصى المسموح به.
+GameChat_SwitchChannel_NowInChannel,أنت الآن تدردش في القناة: '{RBX_NAME}'
+Sent,أرسلت
+Corescripts.AvatarContextMenu.PlayerBlocked,شخص محظور
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,اسم التجربة غير معروف
+CoreScripts.TopBar.GameNamePlaceHolder,تجربة
+Feature.SettingsHub.Label.LeaveGame,هل تريد حقًّا مغادرة هذه التجربة؟
+Feature.SettingsHub.Label.GameInviteError,تعذر إرسال الدعوة إلى التجربة. الرجاء المحاولة لاحقاً.
+Feature.SettingsHub.Label.ModeratedInviteError,تمت الإشراف على الدعوة إلى التجربة ولم نوافق على إرسالها.
+Feature.SettingsHub.Action.InviteFriendsToPlay,دعوة الأصدقاء
+Feature.SettingsHub.Label.CaptureDescription,التقط أفضل اللحظات في تجاربك. تُحفظ الصور على جهازك.
+Feature.SettingsHub.Label.CaptureDescription1,التقط أفضل لحظات تجاربك.
+Feature.SettingsHub.Label.WhichPlayer,أي شخص؟
+InGame.ConnectionError.DisconnectDuplicatePlayer,تم الدخول إلى هذه التجربة من جهاز آخر بالحساب نفسه. غادر التجربة من ذلك الجهاز قم حاول مجددًا.
+InGame.ConnectionError.PlacelaunchUserLeft,المستخدم الذي تحاول الانضمام إليه قد غادر هذه التجربة.
+InGame.ConnectionError.PlacelaunchHashExpired,هذه التجربة غير متوفرة حاليًا. الرجاء المحاولة لاحقًا.
+InGame.ConnectionError.PlacelaunchUnauthorized,ليس لديك الإذن للانضمام إلى هذه التجربة.
+InGame.ConnectionError.PlacelaunchDisabled,الوُجهة مقيدة. الرجاء محاولة الانتقال لمكان مختلف أو إعادة المحاولة لاحقًا.
+InGame.ConnectionError.DisconnectRejoin,هذا الحساب انضم إلى تجربة من جهاز آخر. أعِد الاتصال إذا كنت تريد استخدام هذا الجهاز.
+InGame.ConnectionError.DisconnectDevMaintenance,أغلق المطور خادم التجربة مؤقتًا. الرجاء المحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectEvicted,الحساب نفسه انضم إلى تجربة من جهاز آخر. أعِد الاتصال إذا كنت تريد استخدام هذا الجهاز.
+InGame.ConnectionError.PlacelaunchPartyCannotFit,هذه الفرقة تفوق عدد الأشخاص المتوفر للانضمام إلى هذه التجربة. حاول الانضمام إلى تجربة مختلفة.
+InGame.ConnectionError.PlacelaunchRestricted,تغيرت حالة التجربة ولم يعد لديك الإذن بالدخول. الرجاء المحاولة لاحقًا.
+InGame.ConnectionError.PlacelaunchErrors,حدث خطأ لدى الانضمام إلى التجربة. الرجاء المحاولة مرة أخرى.
+InGame.ConnectionError.DisconnectLuaKick,تم طردك من هذه التجربة أو من قِبل المشرفين عليها.
+InGame.ConnectionError.PlacelaunchHashException,هذه التجربة غير متوفرة حاليًا. الرجاء المحاولة لاحقًا.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,تم طردك من هذه التجربة أو من قِبل المشرفين عليها. رسالة المشرفين:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Emotes معطلة في هذه التجربة.
+FriendPlayerPrompt.Title.UnfriendPlayer,هل ترغب في إزالة جهة التواصل؟
+InGame.PlayerList.Players,الأشخاص
+InGame.Presence.Label.InGame,في التجربة
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,عمليات الشراء داخل التجربة معطلة مؤقتًا
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> أو /t <message> : لإرسال دردشة فريق لأشخاص معك في الفريق.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,هذه القناة مخصصة لإشعارات النظام والتجربة.
+GameChat_GetVersion_Message,تشغيل إصدار الدردشة في التجربة [{RBX_NUMBER}.{RBX_NUMBER}].
+GameChat_PrivateMessaging_CannotChat,لن تتمكن من الدردشة مع هذا الشخص.
+GameChat_FriendChatNotifier_JoinMessage,انضمت جهة تواصلك {RBX_NAME} إلى التجربة.
+Authentication.Login.WeChat.AntiAddictionText,ابتعد عن التجارب السيئة وارفض المشاركة في التجارب المقرصنة. ابقَ متيقظًا واحذر الخداع. إن المشاركة في بعض التجارب مفيدة لعقلك، لكن الإفراط فيها يمكن أن يضر بصحتك. لذلك نوصيك بإدارة وقتك بالمفيد النافع واتباع نمط حياة سليم.
+Authentication.Login.Label.WeChatAntiAddictionText,ابتعد عن التجارب السيئة وارفض المشاركة في التجارب المقرصنة. ابقَ متيقظًا واحذر الخداع. إن المشاركة في بعض التجارب مفيدة لعقلك، لكن الإفراط فيها يمكن أن يضر بصحتك. لذلك نوصيك بإدارة وقتك بالمفيد النافع واتباع نمط حياة سليم.
+Feature.SettingsHub.Label.NoFriendsScreen,أنشئ صداقات لكي تتمكن من دعوتهم للانضمام إليك.
+Feature.SettingsHub.Label.RecentPlayed,تمت زيارتها مؤخرًا
+InGame.HelpMenu.ConfirmLeaveGame,هل تريد حقًّا مغادرة هذه التجربة؟
+PlayerDropDown.UnBlock,إلغاء الحظر
+PlayerDropDown.Block,حظر
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,خطأ داخلي. الرجاء محاولة تسجيل الدخول مجددًا.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Classic Thumbstick
+Feature.SettingsHub.Action.Unblock,إلغاء الحظر
+Feature.SettingsHub.Action.Block,حظر
+Feature.SettingsHub.Heading.BlockUser,حظر {DisplayName}
+Feature.SettingsHub.Action.Cancel,إلغاء
+Feature.SettingsHub.Message.BlockConfirmation,لن تتمكن أنت و {DISPLAY_NAME} (@{RBX_NAME}) من التواصل مع بعضكما بعد الآن.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,حذف شخصية الأفاتار
+Feature.SettingsHub.Heading.Report.ThanksForReport,شكرًا على إرسال البلاغ!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,لقد تلقينا تقريرك وسوف نتخذ الإجراء المناسب إذا لزم الأمر. ملاحظاتك تساهم بالحفاظ على سلامة مجتمعنا.
+Feature.SettingsHub.Label.Report.OtherActionsHeader,خطوات أخرى يمكنك اتخاذها
+Feature.SettingsHub.Action.Report.Done,تم
+Feature.SettingsHub.Label.Report.BlockDisplayName,حظر {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,إلغاء حظر {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,هل تريد حذف الشخصية {RBX_NAME} من Roblox؟
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,هل تريد حذف هذه الشخصية من Roblox؟
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,حذف
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,إلغاء
+InGame.InspectMenu.Description.LayeredClothingR6,جسم R6 لا يدعم هذا العنصر.
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,إعادة تسمية الشخصية
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,أدخل اسم جديد للشخصية {RBX_NAME}:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,إعادة تسمية الشخصية؟
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,إعادة تسمية الشخصية معطلة
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,إعادة تسمية الشخصيات معطلة
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,حسنًا
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,هل أنت متأكد من أنك تريد تجاهل جميع طلبات الصداقة؟
+Feature.Friends.Label.Cancel,إلغاء
+Feature.SettingsHub.GameSettings.Input,الإدخال
+Feature.SettingsHub.GameSettings.Output,الإخراج
+Feature.SettingsHub.GameSettings.Device,جهاز
+Feature.SettingsHub.GameSettings.MicroProfiler,أداة تحليل الأداء
+Feature.SettingsHub.Prompt.NotAudible,الدردشة الصوتية غير مسموعة
+Feature.SettingsHub.Prompt.Permission,الدردشة الصوتية غير متوفرة
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,"تم تعيين مستوى صوت اللعبة إلى ""0"" في الإعدادات. الرجاء زيادة مستوى الصوت لتتمكن من الاستماع."
+Feature.SettingsHub.Prompt.Subtitle.Permission,انتقل إلى إعداداتك للسماح لـ Roblox بتشغيل الميكروفون لك.
+Feature.SettingsHub.Prompt.Subtitle.Retry,الرجاء محاولة الخروج وإعادة الانضمام.
+Feature.FaceChat.Message.PlaceUnavailable,هذا المكان غير متوفر مؤقتًا. الرجاء المحاولة لاحقاً.
+Feature.FaceChat.Subtitle.NotAvailable,الرجاء محاولة الخروج ثم إعادة الانضمام.
+Feature.SettingsHub.GameSettings.InputDevice,أسلوب الإدخال
+Feature.SettingsHub.GameSettings.OutputDevice,جهاز الإخراج
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,"ملاحظة: سيؤدي النقر على زر ""تجاهل الكل"" كل مرة إلى إزالة أحدث 300 طلب صديق لك."
+Feature.SettingsHub.Prompt.VoiceChatSuspended,الدردشة الصوتية معلّقة
+Feature.SettingsHub.Prompt.Subtitle.Respect,الرجاء الحفاظ على Roblox مكانًا للمتعة باحترام الآخرين.
+Feature.SettingsHub.Prompt.Understand,أتعهّد بذلك
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,الصوت الاستشعاري متاح فقط للأماكن التي فيها 30 لاعبًا أو أقل.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,هذا الحساب غير مؤهل لاستخدام الصوت الاستشعاري.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,يتجاوز العدد الأقصى للاعبين
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,غير مؤهل لاستخدام الصوت
+InGame.ConnectionError.Action.Restart,إعادة تشغيل
+InGame.ConnectionError.Heading.VRDisconnected,سماعات الرأس غير متصلة
+InGame.ConnectionError.Message.RestartApp,لمواصلة اللعب، يرجى إعادة تشغيل التطبيق.
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,حسنًا
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,إلغاء
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,تحديث الشخصية؟
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,هل تريد تحديث الشخصية المحفوظة؟
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,هل تريد تحديث الشخصية {RBX_NAME}؟
+Feature.SettingsHub.Prompt.Subtitle.Place,الصوت الاستشعاري متاح فقط للأماكن التي فيها 30 لاعبًا أو أقل.
+Feature.SettingsHub.Prompt.Subtitle.User,هذا الحساب غير مؤهل لاستخدام الصوت الاستشعاري.
+Feature.SettingsHub.Prompt.Place,يتجاوز العدد الأقصى للاعبين
+Feature.SettingsHub.Prompt.User,غير مؤهل لاستخدام الصوت
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,هل تريد تحديث الشخصية {RBX_NAME}؟
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,هل تريد تحديث الشخصية المحفوظة؟
+InGame.InspectMenu.Action.Cancel,إلغاء
+InGame.InspectMenu.Action.Confirm,تأكيد
+InGame.InspectMenu.Action.Favorite,تفضيل
+InGame.CommonUI.Message.LuobuGameJoinWarning,الرجاء عدم تقليد السلوكيات الخطرة في اللعبة. يرجى الإبلاغ فورًا عن أيّ الإساءة إذا لاحظت سلوك غير لائق.
+Feature.DevModule.ProfileCard.StatusPlaceholder,ما الذي يدور في ذهنك؟
+Feature.DevModule.ProfileCard.StatusErrorMessage,الحالة تحتوي على كلمات غير لائقة.
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,سيمنحك Roblox Premium:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux في الشهر
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,الحصول بمزايا خاصة بمشتركي Premium
+Feature.PremiumUpsell.Label.AvatarShopBenefits,الوصول إلى عناصر حصرية مع حسومات في متجر الأفاتار
+Feature.PremiumUpsell.Title.GetPremium,احصل على Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/ الشهر
+Feature.PremiumUpsell.Label.Disclosure,اشترك بمبلغ <b>{currencySymbol}{price}/الشهر. يمكنك الإلغاء في أي وقت.</b> تنطبق هنا شروط الاستخدام وسياسة الخصوصية.
+Feature.PremiumUpsell.Action.Subscribe,اشتراك
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,بسبب مخالفة معايير مجتمعنا، ألغينا بشكل مؤقت وصولك إلى المحادثة مع الصوت لغاية
+Feature.SettingsHub.Prompt.Subtitle.Revoked,بسبب مخالفات متعددة لمعايير مجتمعنا، ألغينا مؤقتًا وصولك إلى المحادثة الصوتية لحين انتهاء صلاحية إصدار Beta.
+InGame.InspectMenu.Action.Unfavorite,إزالة من المفضلة
+Feature.AddFriends.Action.FriendAdded,تمت إضافة صديق
+Feature.AddFriends.Action.RequestIgnored,تم تجاهل الطلب
+Feature.Avatar.Label.LeftInitial,L
+Feature.Avatar.Label.Right,R
+Feature.Avatar.Label.RightInitial,R
+Feature.Friends.Label.Following,أتابعهم
+Feature.Friends.Label.Followers,المتابعون لي
+Feature.Friends.Label.MutualFriends,أصدقاء مشتركون
+Feature.Friends.Label.FollowsYou,يتابعك
+Feature.Friends.Label.YouAreFollowing,أنت تتابع
+Feature.Friends.Action.Block,حظر
+Feature.Friends.Label.Friend,صديق
+Feature.Friends.Action.Unblock,إلغاء الحظر
+Verification.Identity.Label.VoiceChatUpsell,هذه التجربة تدعم المحادثة الصوتية الاستشعارية. لاستخدام هذه الميزة، تحتاج إلى التحقق من أن عمرك 13 سنة على الأقل.
+Verification.Identity.Action.SkipVoiceChat,الانضمام دون محادثة صوتية
+Verification.Identity.Label.DontShowAgain,لا تظهر مرة أخرى
+Verification.Identity.Label.EnableVoiceChat,تمكين المحادثة الصوتية
+Verification.Identity.Label.UsesVoiceChat,هذه التجربة تستخدم المحادثة الصوتية. تمكين المحادثة الصوتية يتطلب استخدام ميكروفونك في التجارب التي تدعم المحادثة الصوتية.
+Verification.Identity.Label.ToggleInstruction,يمكنك أيضًا تشغيل أو تعطيل هذه الميزة من خلال الإعدادات في حسابك.
+Verification.Identity.Label.JoinWithout,الانضمام دون المحادثة الصوتية
+InGame.CommonUI.BetaBadge.BadgeText,Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,يرجى الإبلاغ عن أي إساءة تصدر من أشخاص يخالفون مبادئ وقواعد مجتمع Roblox. إذا كنت المشاركة في الدردشة الصوتية، فقد تسجل Roblox الصوت في أي مكان تكون فيه على المنصة لغرض الإشراف على سلامة المستخدمين. من خلال الاستمرار في استخدام ميزة الدردشة الصوتية، فإنك توافق على جمع واستعمال وتخزين تسجيلك الصوتي لغرض الإشراف على سلامة المستخدمين. يمكنك اختيار عدم المشاركة في ميزة الصوت الاستشعاري متى ما شئت.
+InGame.CommonUI.Badge.Popup.HeaderList,أنتَ اخترت المشاركة في بعض ميزاتنا التجريبية:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,دردشة صوتية
+InGame.CommonUI.Badge.BadgeText,BETA
+InGame.CommonUI.Badge.Popup.LearnMoreLink,معرفة المزيد
+InGame.CommonUI.Badge.Popup.LearnMoreText,الرجاء مراجعة الأسئلة الشائعة المتعلقة بالتسجيل الصوتي للمزيد من المعلومات.
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,يمكنك الآن الدردشة بحرية أكثر وفلاتر أقل. هذا الخيار متاح فقط للمستخدمين المؤهلين الذين هم بعمر 13+.
+InGame.CommonUI.Badge.Popup.VoiceInfo,أنتَ اخترت المشاركة في الميزة التجريبية للدردشة بالصوت. تسجل Roblox الصوت في أي مكان تكون فيه على المنصة لغرض الإشراف على سلامة المستخدمين. من خلال الاستمرار في استخدام ميزة الدردشة الصوتية، فإنك توافق على جمع واستعمال وتخزين تسجيلك الصوتي لغرض الإشراف على سلامة المستخدمين. يمكنك اختيار عدم المشاركة في ميزة الدرشة الصوتية متى ما شئت.
+InGame.CommonUI.Badge.Popup.CommunityStandards,يرجى الإبلاغ عن سوء المعاملة إذا واجهت أشخاصًا يخالفون معايير مجتمعنا.
+Feature.NativeAds.Label.Sponsored,دعائي
+Feature.NativeAds.Label.Ad,إعلان
+InGame.ConnectionError.DisconnectOutOfMemory,جهازك لا يملك ذاكرة كافية لتشغيل هذه التجربة. الرجاء العودة إلى التطبيق.
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,بسبب قدرات هذا الجهاز، أصبحت هذه التجربة غير مستقرة وقد يتعطّل عن العمل.
+InGame.ConnectionError.Title.ExperienceUnstable,أداء التجربة غير مستقر
+Feature.SettingsHub.Label.MethodOfAbuse,نوع سوء المعاملة؟
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,دردشة صوتية
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,كان هذا الشخص يتحدّث بصوت عالٍ للغاية
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,هذا الشخص كتب في الدردشة عبارة سيئة
+Feature.SettingsHub.MethodOfAbuse.Text.Title,دردشة نصية
+Feature.SettingsHub.MethodOfAbuse.Other.Title,أخرى
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,هذا الشخص يتبعني أو يلبس ثيابًا غير لائقة أو غير ذلك.
+Feature.SettingsHub.ReportSubmitted.MutePlayer,كتم {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,حظر {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,لقد تلقينا تقريرك وسوف نتخذ الإجراء المناسب إذا لزم الأمر. ملاحظاتك تساهم بالحفاظ على سلامة مجتمعنا.
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,لن تتمكن من سماع {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,لن تتمكن أنت و {Player} من التواصل مع بعضكما بعد الآن.
+Feature.SettingsHub.Label.ReportComment,الرجاء شرح المشكلة بدقة لنتمكن من مساعدتك.
+Feature.SocialShare.Action.Share,مشاركة
+Feature.SocialShare.Label.ShareServerLink,مشاركة رابط الدعوة
+Feature.SocialShare.Label.Copied,تم نسخه
+Feature.AccountSettings.Label.FreeCommConsentOnly,أنا أسمح لشركة Roblox بجمع واستعمال وتخزين تسجيلي الصوتي لأغراض الإشراف والسلامة فقط.
+InGame.CommonUI.Button.KeepPlaying,الاستمرار في اللعب
+InGame.ConnectionError.Title.OutOfMemory,نفاذ الذاكرة
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,هذه التجربة تستخدم الذاكرة أكثر مما ينبغي وقد تتعطّل عن العمل.
+Feature.SettingsHub.Label.DefaultInviteMessage,هل تريد دعوة {DisplayName} للانضمام إليك؟
+Feature.SettingsHub.Heading.InviteUser,دعوة {DisplayName}؟
+Feature.SettingsHub.Action.MuteAll,كتم الجميع
+Feature.SettingsHub.Action.UnmuteAll,إلغاء كتم الجميع
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,لا يمكنك إجراء دردشة خاصة مع نفسك.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,تحذير: تغيير اسم المستخدم سيؤدي إلى إزالة شارة التحقق. هل أنت متأكد من أنك تريد القيام بهذا؟
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,مجال رؤية اسم المستخدم
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,ظاهر
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,مخفي
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (الأصلية)
+Feature.SettingsHub.LanguageSelection.Unavailable,غير متوفرة
+Feature.SettingsHub.LanguageSelection.SettingLabel,لغة التجربة
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,معرفة المزيد حول التسجيل الصوتي
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,كتم وحظر {DisplayName}؟
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,لن تتمكن أنت و {Player} من التواصل مع بعضكما بعد الآن.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,كتم صوت {DisplayName}(@{Username})؟
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,حظر {DisplayName} (@{Username})؟
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,لن تتمكن أنت و {DisplayName} (@{Username}) من التواصل مع بعضكما بعد الآن.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,لقد حظرتَ وكتمت {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Muted,أنتَ كتمت {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Blocked,أنتَ حظرت {Displayname} (@{Username})
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,كتم وحظر {DisplayName}(@{Username})؟
+Feature.SettingsHub.Prompt.TeleportBlock.Title,توقف الانتقال الفوري
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,سيتم استئناف الانتقال الفوري عند إغلاق القائمة.
+Feature.NativeAds.Action.EnterExperience,الدخول إلى التجربة
+Feature.NativeAds.Action.ReturnToExperience,العودة إلى التجربة
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,إعدادات الخصوصية لديك تمنعك من الانضمام إلى هذا الخادم.
+CoreScripts.TopBar.RobloxMenu,قائمة Roblox
+InGame.CommonUI.Label.MicOff,تعطيل الميكروفون
+InGame.CommonUI.Label.MicOnRecording,تشغيل الميكروفون (تسجيل الصوت)
+InGame.InspectMenu.Label.VerifiedAvatar,أفاتار {PLAYER_NAME}{VERIFIED_BADGE}
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,ليس لديك Robux كفاية لشراء هذا العنصر.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,الرصيد الحالي
+IAPExperience.InsufficientRobux.Action.Cancel,إلغاء
+IAPExperience.InsufficientRobux.Action.BuyRobux,شراء Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,Adornee Adgui ليست في Block shape
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,دوران AdGui's Adornee غير صالح
+Feature.NativeAds.Description.InvalidAdPortalParentType,نوع الأصل غير صالح
+Feature.NativeAds.Description.AdPortalParentMissing,الأصل غير موجود
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,حجم AdGui's Adornee غير صالح
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,موقع AdGui's Adornee غير صالح
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal ليس لديه تسلسل هرمي صحيح
+Feature.NativeAds.Description.InvalidAdGuiValidation,تعذر التحقق من صحة AdGui
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal ليس لديه خصائص صحيحة
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,الجزء الرئيسي من AdPortal لا يحتوي على خصائص صحيحة
+Feature.NativeAds.Description.InvalidAdGuiAdornee,AdGui's Adornee ليس جزءًا
+Feature.NativeAds.Description.AdPortalMissing,AdPortal غير موجود
+IAPExperience.InsufficientRobux.Text.YouNeed,تحتاج إلى {robux} إضافية. الرجاء شراء المزيد من حزم Robux ثم العودة إلى التجربة.
+IAPExperience.InsufficientRobux.Action.RobuxStore,الانتقال إلى متجر Robux
+CoreScripts.TextChat.Emote.Error.NotOwned,أنت لا تملك emote '{RBX_EMOTE}'.
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,بسبب انتهاك معايير مجتمعنا، ألغينا بشكل مؤقت وصولك إلى المحادثة مع الصوت حتى
+Feature.SettingsHub.Prompt.MicUseSuspended,استخدام الميكروفون غير مسموح
+InGame.ConnectionError.Title.LowMemoryWarning,تحذير بسبب انخفاض الذاكرة
+InGame.ConnectionError.Queue,مكانك في الخط: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,إرسال الملابس
+CoreScripts.PublishAssetPrompt.TitleTextEmote,ارسال Emote
+CoreScripts.PublishAssetPrompt.TitleTextPackage,إرسال الحزمة
+CoreScripts.PublishAssetPrompt.Name,الاسم
+CoreScripts.PublishAssetPrompt.Description,الوصف
+CoreScripts.PublishAssetPrompt.InvalidName,اسم غير صالح
+CoreScripts.PublishAssetPrompt.InvalidDescription,وصف غير صالح
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,"أوافق على أن هذه التجربة سوف ترسل أفاتاري إلى قسم الإشراف ثم تحميله إلى ""تصاميمي""."
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,"أوافق على أن هذه التجربة سوف ترسل أفاتاري إلى قسم الإشراف ثم تحميله إلى ""تصاميمي""."
+CoreScripts.PublishAssetPrompt.Cancel,إلغاء
+CoreScripts.PublishAssetPrompt.Submit,إرسال
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,الوصف
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,الاسم
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,أنت لا تملك هذا emote.
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,الكاميرا
+InGame.CommonUI.Label.Return,العودة إلى
+InGame.CommonUI.Label.ReturnFallback,العودة إلى التجربة السابقة
+InGame.CommonUI.Label.ReturnTo,"العودة إلى ""{placeName}"""
+Feature.FaceChat.Heading.FacialAnimation,حركة الوجه
+Feature.FaceChat.Subtitle.FeatureDisabled,حركة الوجه غير متوفرة مؤقتًا. الرجاء المحاولة لاحقاً.
+Feature.FaceChat.Subtitle.ServerDisabled,حركة الوجه غير متوفرة مؤقتًا. الرجاء المحاولة لاحقاً.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,إيقاف تشغيل الكاميرا قد يساعدك في تحسين أداء التجربة.
+Feature.FaceChat.Heading.VideoNoPermission,الكاميرا غير متوفرة
+Feature.FaceChat.Subtitle.VideoNoPermission,انتقل إلى إعداداتك للسماح لـ Roblox بتشغيل الكاميرا لك.
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,أداء الجهاز منخفض
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,حركة الوجه غير متوفرة
+Feature.FaceChat.Heading.VideoUnsupported,كاميرا الجهاز غير مدعومة
+Feature.FaceChat.Subtitle.VideoUnsupported,لم يتمكن Roblox من استخدام كاميرتك لتحريك أفاتارك.
+Feature.SettingsHub.Prompt.Connecting,محاولة إعادة اتصال الصوت
+Feature.SettingsHub.Prompt.Subtitle.Connecting,جاري اتصال الصوت. قد يستغرق ذلك بعض الوقت.
+CoreScripts.ContactList.Label.Outgoing,مكالمة خارجية
+CoreScripts.ContactList.Label.Incoming,مكالمة واردة
+CoreScripts.ContactList.Label.Missed,مكالمة فائتة
+Feature.FaceChat.Heading.LODCameraForceDisable,تم إيقاف تشغيل الكاميرا
+Feature.FaceChat.Subtitle.LODCameraForceDisable,أوقف Roblox تشغيل الكاميرا بسبب مشاكل في الأداء.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,إعداد
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,يتعين عليك إعداد عملية التحقق بخطوتين لإكمال هذا الإجراء لمساعدتك على حماية تسجيل الدخول لحسابك وعمليات الشراء وغيرها.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,عملية التحقق بخطوتين إلزامية
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,بسبب مخالفة معايير مجتمعنا، ألغينا بشكل مؤقت وصولك إلى المحادثة مع الصوت والدردشة بأفاتارك لغاية
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,المزيد من المخالفات في المستقبل يؤدي إلى اتخاذ إجراءات إضافية بحق الحسابات.
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,ساري المفعول حتى
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,لقد اكتشفت أنظمتنا سلوكًا قد يخالف معايير مجتمعنا. على سبيل الاحتياط، عطّلنا وصولك إلى المحادثة مع الصوت وأفاتارك.
+Feature.SettingsHub.Prompt.Subtitle.Microphone,لقد اكتشفت أنظمتنا سلوكًا قد يخالف معايير مجتمعنا. على سبيل الاحتياط، عطّلنا وصولك إلى المحادثة مع الصوت.
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,استخدام الكاميرا والميكروفون غير مسموح
+IAPExperience.BuyRobux.Banner.Text,باستخدام Robux، يمكنك شراء ترقيات لأفاتارك وشراء قدرات خاصة بالتجارب
+IAPExperience.BuyRobux.Banner.Title,استفِد من عملات Robux
+IAPExperience.BuyRobux.Text.MoreRobux,{robux} Robux إضافية
+InGame.ConnectionError.PlacelaunchHttpError,لقد حدث خطأ في Http. الرجاء إغلاق التطبيق والمحاولة مرة أخرى.
+InGame.ConnectionError.PlacelaunchGameFull,التجربة المطلوبة ممتلئة
+InGame.ConnectionError.PlacelaunchGameEnded,انتهت هذه التجربة أو أن الخادم غير متوفر بسبب خطأ غير متوقع في النظام
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,ذاكرة جهازك منخفضة. الخروج الآن سيحفظ حالتك ويمنع Roblox من أي عطل مفاجئ.
+InGame.ConnectionError.Waiting,في انتظار خادم متاح
+InGame.ConnectionError.Loading,تم العثور على الخادم، تحميل...
+InGame.ConnectionError.Joining,الانضمام إلى الخادم
+NotificationScript2.UINavigation.FormattedText,اضغط على {KEY_NAME} للتبديل.
+Feature.FaceChat.Subtitle.UnsupportedDevice,جهازك لا يستوفي متطلبات تحريك الأفاتار باستخدام الكاميرا.
+Feature.AccountSettings.Heading.Communication,الاتصال
+Feature.FaceChat.Heading.NotAvailable,حركة الوجه غير متوفرة
+InGame.ConnectionError.DisconnectPrivateServerKickout,انقطع اتصالك لأنك لم يعد لديك الإذن بالانضمام إلى هذا الخادم الخاص.
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,حزمة من تصميم {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,يحتوي أفاتارك على رأس لا يدعم الرسوم المتحركة للوجه. تتوفر الرؤوس المتوافقة مع هذه الميزة في مقتنياتك ومتجر الأفاتار.
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,إلغاء
+CoreScripts.EmoteThumbnailEditor.Action.Update,تحديث
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,تعديل الصورة المصغّرة
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,تدوير
+CoreScripts.EmoteThumbnailEditor.Label.Time,الوقت
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,هل أنت متأكد من أنك تريد المغادرة للانضمام إلى تجربة أخرى؟
+Feature.SettingsHub.Prompt.SimpleNudge,الرجاء التصرف بتمدّن وتهذيب
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,لقد اكتشفت أنظمتنا سلوكًا قد يخالف معايير مجتمعنا. نرجو منك التحلي بالأخلاق الحسنة واحترام الآخرين.
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,المزيد من المخالفات في المستقبل يؤدي إلى اتخاذ إجراءات إضافية بحق حسابك.
+Feature.SettingsHub.Prompt.ThankYouForFeedback,شكرًا على إخبارنا
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,سنستمر في تطوير أنظمتنا بناء على ملاحظاتك.
+Feature.SettingsHub.Chat.TranslationEnabled,ترجمة المحادثة تلقائيًا
+Notifications.ToastNotifications.Title.LeavingExperience,مغادرة التجربة
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,يمكنك الرجوع إلى هذا العنصر في قسم مقتنياتك.
+CoreScripts.PublishAssetPrompt.PublishFailed,حدث خطأ ما. الرجاء المحاولة مجددًا.
+CoreScripts.PublishAssetPrompt.PermissionDenied,حدث خطأ ما. الرجاء المحاولة مجددًا.
+CoreScripts.PublishAssetPrompt.Timeout,حدث خطأ ما. الرجاء المحاولة مجددًا.
+CoreScripts.PublishAssetPrompt.NoUserInput,حدث خطأ ما. الرجاء المحاولة مجددًا.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,نجاح!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,تعذّر الإرسال
+Feature.SettingsHub.Chat.TranslationInformation,سيتم ترجمة الدردشة النصية إلى لغتك. انقر على الرمز بجانب الرسالة لمعاينة الأصل.
+CoreScripts.TextChat.Clear.Help.Description,/clear or /cls: يمسح الرسائل في شاشة الدردشة 
+GameChat_ChatMain_ChatTranslationOnboarding,سيتم ترجمة نص محادثاتك إلى لغتك. انقر على الرمز بجانب الرسالة لرؤية أصل الرسالة. يمكنك إيقاف الترجمات في قائمة الإعدادات.
+CoreScripts.PublishAssetPrompt.TitleTextModel,إرسال الحزمة
+IAPExperience.BuyRobux.Text.MoreRobux2,{robux} Robux إضافية
+CoreScripts.PublishAssetPrompt.UndefinedError,حدث خطأ ما. الرجاء المحاولة مجددًا. كود الخطأ: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,معطل
+InGame.CommonUI.Label.On,مشغّل
+CoreScripts.PublishAssetPrompt.DisclaimerModel,ستتم مراجعة العناصر التي تم إنشاؤها وقد لا نعيد لك المبلغ المدفوع مقابل العناصر التي يتم رفضها بسبب عدم توافقها مع معايير المجتمع.
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,لقد اشتريت Robux بنجاح!
+CoreScripts.AssetPreviewView.Action.ResetView,إعادة تعيين العرض
+CoreScripts.AssetPreviewView.Label.LoadingFailed,تعذّر التحميل
+CoreScripts.PublishAssetPrompt.ResultModalOk,حسنًا
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,لقد وجدنا لغة قد تخالف معايير مجتمع Roblox.<br /><br />قد نمنعك من الدردشة مع الصوت في حال تعدّدت الانتهاكات.
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,لقد وجدنا لغة قد تخالف معايير مجتمع Roblox. قد نمنعك من الدردشة مع الصوت في حال تعدّدت الانتهاكات.
+Feature.SettingsHub.Prompt.GotIt,حسنًا
+CreatorDashboard.AssetTypes.Label.Body,
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Robux غير كافية
+IAPExperience.Loading.Text.PurchasingRobux,شراء Robux...
+IAPExperience.Loading.Text.PurchasingItem,جاري شراء العنصر...
+IAPExperience.Loading.WaitingForPurchase,في انتظار الشراء...
+IAPExperience.Loading.WaitingForRobux,في انتظار إضافة Robux...
+IAPExperience.Loading.Text.WaitingForPurchase,في انتظار الشراء...
+IAPExperience.Loading.Text.WaitingForRobux,في انتظار إضافة Robux...
+Notifications.NotificationStream.Title.ReportNotification,الإبلاغ عن الإشعار
+Notifications.NotificationStream.AbuseReason.Bullying,تنمّر
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,غش/استغلال
+Notifications.NotificationStream.AbuseReason.Dating,مواعدة
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,روابط خارج الموقع
+Notifications.NotificationStream.AbuseReason.Other,شيء آخر
+Notifications.NotificationStream.AbuseReason.AskingPII,سؤال شخصي
+Notifications.NotificationStream.AbuseReason.Scamming,احتيال
+Notifications.NotificationStream.AbuseReason.Profanity,كلمات بذيئة
+Feature.ReportAbuse.Message.ErrorSubmit,حدثت مشكلة خلال إرسال تقريرك.
+Feature.ReportAbuse.Action.ReportAbuse,الإبلاغ عن إساءة الاستخدام
+Feature.ReportAbuse.Label.TellUsHowAsset,أخبرنا لماذا تظن أن هذا الأصل يخالف قواعد Roblox.
+Feature.ReportAbuse.Label.ReasonForFlag,سبب الإبلاغ:
+Feature.ReportAbuse.Message.ThanksForFlagging,لا يمكننا الرد على كل تقرير يصلنا، لكن ملاحظاتك ستساعدنا على تحسين التجربة لجميع المصممين.
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,ينبغي أن يكون تعليقك أقل من {characterLimit} حرفًا.
+Feature.SettingsHub.Prompt.IncorrectNudge,هل ارتكبنا أي خطأ؟<br /><u>أخبرنا</u>
+Feature.SettingsHub.Prompt.RememberRules,تذكير بسياساتنا
+Feature.SettingsHub.Label.Captures,لقطات
+InGame.InspectMenu.Label.LimitedItems,عنصر محدود
+InGame.InspectMenu.Label.FromResale,{PRICE} لإعادة البيع
+InGame.InspectMenu.Action.FromResale,{PRICE} لإعادة البيع
+InGame.InspectMenu.Label.OwnedItem,العنصر المملوك ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,العناصر المملوكة ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,وصلت للحد الأقصى للعناصر
+Feature.FaceChat.Heading.UnableToAccessCamera,غير قادر على الوصول إلى الكاميرا
+Feature.FaceChat.Subtitle.UnableToAccessCamera,لكي تتمكن من تحريك أفاتارك باستخدام الكاميرا، انتقل إلى إعدادات OS للسماح لـ Roblox بتشغيل الكاميرا لك
+Feature.SettingsHub.Prompt.MicrophonePermission,تعذر الوصول إلى الميكروفون
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,لكي تتمكن من الدردشة مع الصوت، انتقل إلى إعدادات نظام التشغيل للسماح لـ Roblox باستخدام الميكروفون
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,تذكّر هذه الإعدادات لهذه التجربة.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,لا، اكتم الآخرين
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,نعم، الاستماع للآخرين
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,ستتمكن من سماع الأصوات لكن ميكروفونك سيبقى مكتومًا حتى تصير مستعدًا للدردشة.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,الانضمام مع تشغيل الصوت؟
+CoreScripts.PublishCommon.Creator,المصمم
+CoreScripts.PublishCommon.Leave,نعم
+CoreScripts.PublishCommon.MadeIn,صنع في
+CoreScripts.PublishCommon.Stay,لا
+CoreScripts.PublishCommon.Type,النوع
+CoreScripts.PublishCommon.UnsavedWarning,قد تفقد أي تغييرات غير محفوظة
+Feature.Accessibility.Description.PreferredTransparency,تحسين التباين بتعديل الشفافية في بعض الخلفيات
+Feature.Accessibility.Description.ReducedMotion,إيقاف أو تقليل تأثيرات الحركة
+Feature.Accessibility.Description.UiNavigationKeyBind,استخدم مفتاح {uiNavigationKey} للدخول والخروج من وضع التنقل في واجهة المستخدم
+Feature.Accessibility.Heading.PreferredTransparency,شفافية الخلفية
+Feature.Accessibility.Heading.ReducedMotion,تقليل الحركة
+Feature.Accessibility.Heading.UiNavigationKeyBind,مفتاح تبديل وضع التنقل في واجهة المستخدم
+Feature.Accessibility.PreferredTransparency.Opaque,مظلم
+Feature.Accessibility.PreferredTransparency.Transparent,شفاف
+Feature.Avatar.Heading.Clothing,الملابس
+Feature.Avatar.Label.Accessory,أكسسوار
+Feature.Avatar.Label.Back,الجزء الخلفي
+Feature.Avatar.Label.ClassicPants,بنطال كلاسيكي
+Feature.Avatar.Label.ClassicShirts,قمصان كلاسيكية
+Feature.Avatar.Label.ClassicTShirts,تي شيرت كلاسيكية
+Feature.Avatar.Label.Climb,تسلق
+Feature.Avatar.Label.DressesAndSkirts,الفساتين والتنانير
+Feature.Avatar.Label.DynamicHead,رأس ديناميكي
+Feature.Avatar.Label.Emote,Emote
+Feature.Avatar.Label.Face,وجه
+Feature.Avatar.Label.Fall,سقوط
+Feature.Avatar.Label.Gear,عتاد
+Feature.Avatar.Label.Hair,شعر
+Feature.Avatar.Label.Hat,قبعة
+Feature.Avatar.Label.Head,رأس
+Feature.Avatar.Label.Idle,سكون
+Feature.Avatar.Label.Jacket,جاكيت
+Feature.Avatar.Label.Jump,قفز
+Feature.Avatar.Label.LeftArm,الذراع اليسرى
+Feature.Avatar.Label.LeftArms,الذراع اليسرى
+Feature.Avatar.Label.LeftLeg,الساق اليسرى
+Feature.Avatar.Label.LeftLegs,الساق اليسرى
+Feature.Avatar.Label.LeftShoe,الحذاء الأيسر
+Feature.Avatar.Label.Mood,مزاج
+Feature.Avatar.Label.Neck,رقبة
+Feature.Avatar.Label.Pants,بنطلون
+Feature.Avatar.Label.RightArm,الذراع اليمنى
+Feature.Avatar.Label.RightArms,الذراع اليمنى
+Feature.Avatar.Label.RightLeg,الساق اليمنى
+Feature.Avatar.Label.RightLegs,الساق اليمنى
+Feature.Avatar.Label.RightShoe,الحذاء الأيمن
+Feature.Avatar.Label.Run,ركض
+Feature.Avatar.Label.Shirt,قميص
+Feature.Avatar.Label.Shorts,سراويل قصيرة
+Feature.Avatar.Label.Shoulder,الكتف
+Feature.Avatar.Label.Sweater,سترة
+Feature.Avatar.Label.Swim,سباحة
+Feature.Avatar.Label.Torso,الجزء العلوي
+Feature.Avatar.Label.TShirt,تي شيرت
+Feature.Avatar.Label.Waist,خصر
+Feature.Avatar.Label.Walk,مشي
+Feature.Catalog.Label.Animation,الحركة
+Feature.Catalog.Label.Attribution,صنع في
+Feature.Catalog.Label.Body,الجسم
+Feature.Catalog.Label.CategoryType,النوع
+Feature.Catalog.Label.Emotes,Emotes
+Feature.Catalog.Label.Eyebrow,حاجب
+Feature.Catalog.Label.Eyelash,رمش
+Feature.Catalog.Label.Filter.Creator,المصمم
+Feature.GamepadDisconnect.Label.Message,"لقد تم قطع اتصال وحدة التحكم الخاصة وحدة تحكم ""%s""، يرجى الضغط على %s في وحدة حدة تحكم تريد الاستمرار بها."
+Feature.GamepadDisconnect.Label.Title,وحدة تحكم مفقود
+InGame.InspectMenu.Action.SoldOut,مباع كله
+CoreScripts.PublishCommon.Disclaimer,ستتم مراجعة العناصر التي تم إنشاؤها وقد لا نعيد لك المبلغ المدفوع مقابل العناصر التي يتم رفضها بسبب عدم توافقها مع معايير المجتمع.
+Feature.ReportAbuse.Action.AttachScreenshot,إرفاق لقطة الشاشة
+Feature.ReportAbuse.Action.BackToExperience,العودة إلى التجربة
+Feature.ReportAbuse.Action.HighlightScene,تعليم المشهد
+Feature.ReportAbuse.Action.Next,التالي
+Feature.ReportAbuse.Action.Retake,إعادة تصوير
+Feature.ReportAbuse.Action.RetakeScene,إعادة تصوير المشهد
+Feature.ReportAbuse.Label.SelectPerson,تحديد شخص في المشهد
+Feature.ReportAbuse.Label.SelectProblem,تحديد المشكلة في المشهد
+Feature.ReportAbuse.Message.ProblemNotInScene,"إذا كانت المشكلة غير موجودة في هذا المشهد، يمكنك حينها ""إعادة تصوير"" لقطة عن الشاشة."
+Feature.ReportAbuse.Message.RetakeScene,"ساعدنا على فهم ما حدث حولك. سوف نصوّر المشهد في اللحظة التي تضغط فيها على ""إبلاغ"""
+Feature.SettingsHub.Action.CaptureScene,أضف لقطة عن المشهد
+Feature.SettingsHub.Label.AttachScreenshot,إرفاق لقطة الشاشة؟ (اختياري)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,إرفاق لقطة الشاشة؟{lineBreak}(اختياري)
+Feature.SettingsHub.Label.SceneCaptured,تم التقاط المشهد
+CommonUI.Controls.Action.Cancel,إلغاء
+CommonUI.Controls.Action.Confirm,تأكيد
+CoreScripts.TopBar.ControlMessageMotion,تتبع الحركة
+CoreScripts.TopBar.ControlMessageOff,معطل
+CoreScripts.TopBar.ControlMessageOn,مشغّل
+CoreScripts.TopBar.ControlMessageSound,تتبع الصوت
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,أفاتار > تخصيص > الرأس والجسم
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,استخدم رأس ديناميكي للغمز!
+CoreScripts.TopBar.RobloxPermissionErrorBody,إعدادات Roblox > الخصوصية > الميكروفون ومدخل الكاميرا
+CoreScripts.TopBar.RobloxPermissionErrorHeader,السماح باستخدام للكاميرا
+CoreScripts.TopBar.SelfViewLabel,عرض ذاتي
+CoreScripts.TopBar.SelfViewSecondaryAction,فتح
+InGame.CommonUI.Badge.Popup.DisclaimerText2,يرجى الإبلاغ عن أي إساءة تصدر من أشخاص يخالفون مبادئ وقواعد مجتمع Roblox. إذا اخترت المشاركة في الدردشة الصوتية، فقد تسجل Roblox الصوت في أي مكان تكون فيه على المنصة لغرض الإشراف على سلامة المستخدمين. من خلال الاستمرار في استخدام ميزة الدردشة الصوتية، فإنك توافق على جمع واستعمال وتخزين تسجيلك الصوتي لغرض الإشراف على سلامة المستخدمين. يمكنك عدم المشاركة في ميزة الصوت متى ما شئت.
+CoreScripts.TopBar.MenuToggle,التوسع/الإغلاق
+CoreScripts.TopBar.MoreMenu,قائمة المزيد
+CoreScripts.TopBar.OverflowMenu,القائمة الكاملة
+CoreScripts.TopBar.Title.ExperienceControls,ضوابط التجربة
+CoreScripts.TopBar.ToggleMic,كتم/إلغاء كتم صوتي
+Feature.Catalog.Label.Bundle,حزمة
+Feature.SocialContextToast.Action.InviteBack,دعوته مجددًا
+Feature.SocialContextToast.Action.JoinFriend,انضمام
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} غادر وانضم إلى {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} غادر هذه التجربة
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} انضم إليك
+Feature.SocialContextToast.Message.InvitationConfirmation,تم إرسال الدعوة
+Feature.SocialContextToast.Message.YouJoinedManyFriends,أنتَ انضممت إلى {FRIEND_NAME} و {FRIEND_COUNT} وأصدقاء آخرين
+Feature.SocialContextToast.Message.YouJoinedOneFriend,أنتَ انضممت إلى {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,أنت انضممت إلى {FRIEND_NAME_ONE} و {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,أفاتار هذا الشخص يرتدي ملابس مسيئة
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,أفاتار
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,ستتمكن من سماع الأصوات لكن ميكروفونك سيبقى مكتومًا حتى تصير مستعدًا للدردشة.
+Feature.Subscription.Text.DisclaimerMonthly,يتجدد شهريًا. إلغاء في أي وقت.
+Feature.Subscription.Text.PerMonth,/ شهر
+Feature.SettingsHub.Action.EveryoneToggle,الجميع
+Feature.SettingsHub.Action.NobodyToggle,لا أحد
+Feature.SettingsHub.Action.NonfriendsToggle,غير الأصدقاء
+Feature.SettingsHub.Label.Mute,كتم
+Feature.SocialContextToast.Message.InvitationFailure,مشكلة في إرسال الدعوات
+Feature.SocialShare.Action.CopyLink,نسخ الرابط
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,يتجدد شهريًا. إلغاء في أي وقت.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,أنتَ انضممت إلى {FRIEND_NAME}، لكن صديقك في مكان مقيد الوصول حاليًّا
+Feature.SocialContextToast.Message.FriendInNonRootPlace,انتقل صديقك {FRIEND_NAME} إلى موقع مقيد ضمن هذه التجربة
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,يترجم Roblox تلقائيًا إلى اللغات المدعومة في الدردشة
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,ستتم ترجمة الرسائل التي ترسلها وتستلمها تلقائيًا
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,تم تشغيل ترجمة الدردشة للغات المدعومة
+Feature.SettingsHub.Chat.TranslationSetting,ترجمة تلقائية للدردشة
+Feature.SettingsHub.Chat.TranslationToggleSetting,خيار لعرض الرسالة غير المترجمة
+Feature.Call.Description.NoFriendsFound,لم يتم العثور على أصدقاء
+Feature.Call.Error.Description.AlreadyInCall,أنت في مكالمة حاليًّا
+Feature.Call.Error.Description.CallEnabledVerificationFailed,تعذّر التحقق من أهليتك لإجراء مكالمات.
+Feature.Call.Error.Description.Generic,حدث خطأ ما. الرجاء المحاولة مرة أخرى لاحقًا.
+Feature.Call.Error.Description.SettingsNotCallEnabled,إعداداتك الحالية لا تسمح بإجراء مكالمات.
+Feature.Call.Error.Label.OhNo,خطأ ما!
+Feature.Call.Label.CallEnded,انتهت المكالمة
+Feature.Call.Label.Calling,جاري الاتصال...
+Feature.Call.Label.Incoming,مكالمات واردة
+Feature.Call.Label.Missed,مكالمات فائتة
+Feature.Call.Label.Outgoing,مكالمات صادرة
+Feature.Call.Label.RecentCalls,المكالمات الأخيرة
+Feature.Call.Label.RobloxCall,مكالمة Roblox
+Feature.Call.Label.StartNewCall,بدء مكالمة جديدة
+Feature.Call.Label.Teleporting,انتقال فوري...
+Feature.Call.Label.Yesterday,الأمس
+Feature.Call.Prompt.AddFriends,إضافة أصدقاء على Roblox لإجراء مكالمة
+Feature.Call.Prompt.FirstCall,إجراء مكالمتك الأولى
+Feature.Call.Prompt.SearchFriends,البحث عن أصدقاء
+Feature.Call.Prompt.StartCall,بدء مكالمة
+Feature.FaceChat.Heading.LowPerformanceDetected,انخفاض في الأداء
+Feature.FaceChat.Subtitle.LowPerformanceDetected,إيقاف تشغيل الكاميرا قد يساعدك في تحسين أداء التجربة
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,تعذر تحميل الأصدقاء. حاول مرة أخرى لاحقًا.
+Feature.SettingsHub.Label.NoFriendsPageMessage,أضف أصدقاءك حتى تتمكن من الاستكشاف واللعب معهم.
+CoreScripts.Feedback.EntryPoint.ButtonText,تقديم ملاحظات
+CoreScripts.Feedback.EntryPoint.MenuLabel,ملاحظات
+CoreScripts.Feedback.EntryPoint.OptionText,ملاحظات حول الترجمة
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,الخروج
+CoreScripts.Feedback.FeedbackBar.HelpButton,المساعدة
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,تقديم أي تعليقات إضافية أدناه (اختياري)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,أدخل أي تعليقات إضافية لديك هنا
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,إلغاء
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,ما هي الترجمة الصحيحة؟ (إختياري)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,أدخل الترجمة الصحيحة هنا
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,تقديم ملاحظات
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,صورة
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,عنصر في اللعبة
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Mesh
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,النموذج
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,فيديو
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,ما هي المشكلة في هذه الترجمة؟ (اختياري)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,مشكلة في الدقة
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,غير لائق أو فيه استهزاء
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,لا يوجد اختيار
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,مشكلة في الكتابة أو الإعراب
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,غير مترجم
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,العنصر المحدد
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,إرسال
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,النص المحدد
+CoreScripts.Feedback.Help.CloseInstructions,إغلاق التعليمات
+CoreScripts.Feedback.Help.Instructions1,في وضع إبداء الملاحظات، سيتم تجميد شاشتك ولن تتمكن من تحريك أفاتارك أو الكاميرا. انقر أو اضغط على أي عنصر لتقديم ملاحظات على الترجمات غير الصحيحة أو الناقصة.
+CoreScripts.Feedback.Help.Instructions2,عند تحديد عنصر، سيظهر لك نموذج حيث يمكنك تقديم المزيد من المعلومات إذا كنت ترغب في ذلك. شكرًا لمساعدتك على تحسين الترجمة على Roblox!
+CoreScripts.Feedback.Help.MainHeader,المساعدة
+CoreScripts.Feedback.SubmissionToastBody,سوف تستخدم Roblox هذه المعلومات لتحسين جودة الترجمة لهذه التجربة
+CoreScripts.Feedback.SubmissionToastHeader,شكرًا لك على ملاحظاتك!
+Feature.Call.Description.Friends,الأصدقاء الذين يملكون أو لا يملكون أجهزة وإعدادات مناسبة لتجربة مكالمات سلسة.
+Feature.Call.Description.SuggestedFriends,الأصدقاء الذين لديهم أجهزة وإعدادات مناسبة لتجربة مكالمات سلسة.
+Feature.Call.Error.Description.DeviceNotSupported,المكالمات غير مدعومة حاليًا على جهازك. الرجاء المحاولة لاحقًا.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} مشغول حاليًا ولا يمكن استقبال مكالمتك الآن. الرجاء المحاولة لاحقًا.
+Feature.Call.Error.Title.CouldntMakeCall,تعذر إجراء مكالمة
+Feature.Call.Error.Title.FriendBusy,صديق مشغول
+Feature.Call.Label.Friends,الأصدقاء
+Feature.Call.Label.Suggested,مقترحة لك
+Feature.Call.Modal.EnableChatVoiceBody,للتحدث مع الآخرين في هذه التجربة، يمكنك تشغيل الدردشة مع الصوت في الإعدادات > الخصوصية.
+Feature.Call.Modal.EnableChatVoiceTitle,تمكين الدردشة مع الصوت
+InGame.InspectMenu.Action.Go,انتقال
+InGame.InspectMenu.Attribution.GoToDescription,ستغادر هذا المكان وتنتقل إلى {EXPERIENCE_NAME}.
+InGame.InspectMenu.Attribution.GoToExperience,الانتقال إلى التجربة؟
+Common.Presence.Label.Online,متصل
+Feature.Call.Label.Block,حظر {combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,انتقل فورًا الآن
+CoreScripts.Ads.Action.PortalPromptCancel,إلغاء
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,ابتعد عن مربع الحوار هذا لتجاهله.
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,الانتقال فورًا إلى {RBX_NAME}؟
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,انتقال فوري؟
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,يمكنك العثور على عناصر التحكم في الكاميرا و المنظور الذاتي هنا
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,استخدم كاميرتك لتحريك أفاتارك وتبسّمه كلما تفعل ذلك عادة
+Feature.Call.Description.ExperienceError,الدردشة مع الصوت غير مدعومة في هذه التجربة.
+Feature.Call.Error.Title.ExperienceError,خطأ في التجربة
+Feature.SettingsHub.Label.ReasonForAbuse,سبب الإساءة؟
+Notifications.NotificationStream.Bundle.ShowLess,عرض أقل
+Notifications.NotificationStream.Bundle.ShowMoreV2,{notificationCount} إضافية
+CommonUI.Controls.Input.Optional,{inputLabel} (اختياري)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,تم تعطيل وصولك إلى المحادثة مع الصوت لغاية {dateTime} بسبب السلوك الذي قد ينتهك معايير مجتمعنا.
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,توسيع نافذة الإشعارات
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,لا بد أن تتطابق عملة بطاقة الهدية مع الموقع المحدد في حسابك. يمكنك مراجعة موقع حسابك في الإعدادات. إذا كان لديك أيّ مشاكل أخرى، يرجى الاتصال بفريق الدعم {robloxSupportLinkStart}Roblox.com/Support{robloxSupportLinkEnd}.
+Feature.Call.Label.Unfriend,إلغاء صداقة {combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,"تم قطع اتصال وحدة التحكم للمستخدم ""%s"". الرجاء إعادة الاتصال بوحدة التحكم."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,لقد عطّلنا المحادثة الصوتية مؤقتًا لأنك قلت شيئًا قد يتعارض مع معايير مجتمع Roblox.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,إذا حدث هذا الأمر ثانية، قد تفقد الوصول إلى حسابك.
+Feature.SettingsHub.Prompt.XMinuteSuspension,{banDurationInMinutes} دقيقة تعطيل
+Feature.ReportAbuse.DSAIllegal.ReportLink,الإبلاغ عن محتوى غير قانوني بموجب قانون الخدمات الرقمية للاتحاد الأوروبي.
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,الإبلاغ عن محتوى غير قانوني
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,مشغّل ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,لم تستخدم Roblox أي معلومات تتعلق بسلوك المستخدم لعرض هذا الإعلان. أنت تشاهد هذا الإعلان بناءً على معلومات تتضمن نوع الجهاز والموقع والعمر، نهدف من خلالها إلى عرض إعلانات ذات صلة ومناسبة لاهتماماتك.
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,للإبلاغ عن محتوى غير قانوني كما حدده قانون الخدمات الرقمية الأوروبي، يرجى زيارة الموقع التالي: https://www.roblox.com/illegal-content-reporting
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,الافتراضي ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,الحد الأقصى للإطارات
+CoreScripts.Ads.Action.Close,إغلاق
+CoreScripts.Ads.Label.WhyThisAd,لماذا هذا الإعلان؟
+CoreScripts.FTUX.Mic.Body,تشغيل ميكروفونك
+CoreScripts.FTUX.Mic.Header,الدردشة بصوتك
+CoreScripts.FTUX.Onboard.Body,لوحة الأهداف، الدردشة، الأمان وغيرها
+CoreScripts.FTUX.Onboard.Header,انتقل إلى عناصر التحكم المفضلة لديك بسرعة
+CoreScripts.FTUX.SelfView.Body,عند تشغيل كاميرتك، سيتتبع أفاتارك حركتَك عندما تبتسم أو تغمض عينيك وغير ذلك
+CoreScripts.FTUX.SelfView.Header,تحريك أفاتارك
+CoreScripts.FTUX.Tools.Body,متابعة الإحرازات، الإبلاغ عن المشاكل، استخدام emotes
+CoreScripts.FTUX.Tools.Header,أشهر الأدوات والإجراءات
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,تكبير وتصغير بإصبعين، سحب للتدوير، سحب بإصبعين للتحريك
+CoreScripts.PublishAvatarPrompt.Body,الجسم
+CoreScripts.PublishAvatarPrompt.BodyName,اسم الجسم
+CoreScripts.PublishAvatarPrompt.Close,إغلاق
+CoreScripts.PublishAvatarPrompt.CreatedBody,جسم {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedHead,رأس {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,يد {DisplayName} اليسرى
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,رجل {DisplayName} اليسرى
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,يد {DisplayName} اليمنى
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,رجل {DisplayName} اليمنى
+CoreScripts.PublishAvatarPrompt.CreatedTorso,الجزء العلوي لجسم {DisplayName}
+CoreScripts.PublishAvatarPrompt.Head,الرأس
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,تجاهل التصميم؟
+CoreScripts.PublishAvatarPrompt.LeftArm,اليد اليسرى
+CoreScripts.PublishAvatarPrompt.LeftLeg,الرجل اليسرى
+CoreScripts.PublishAvatarPrompt.Pan,تحريك لليمين أو اليسار
+CoreScripts.PublishAvatarPrompt.ResetView,إعادة تعيين العرض
+CoreScripts.PublishAvatarPrompt.RightArm,اليد اليمنى
+CoreScripts.PublishAvatarPrompt.RightLeg,الرجل اليمنى
+CoreScripts.PublishAvatarPrompt.Rotate,تدوير
+CoreScripts.PublishAvatarPrompt.SubmitCreation,إرسال التصميم
+CoreScripts.PublishAvatarPrompt.Torso,الجزء العلوي للجسم
+CoreScripts.PublishAvatarPrompt.Zoom,تكبير
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,لغة ترجمة الدردشة
+CoreScripts.Feedback.FeedbackBar.MainLabel,تقديم ملاحظات
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,عنصر الخبرة: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,حدد أي نص لتقديم تعليقات على الترجمات غير الصحيحة أو الناقصة.
+CoreScripts.Feedback.MobileSelectionModal.Close,إغلاق
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,تقديم ملاحظات
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,عنصر الخبرة: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,النص المحدد
+CoreScripts.Feedback.Onboarding.Cancel,إلغاء
+CoreScripts.Feedback.Onboarding.Instructions,حدد أي نص لتقديم تعليقات على الترجمات غير الصحيحة أو الناقصة.
+CoreScripts.Feedback.Onboarding.MainHeader,أخبرنا ما الذي حصل
+CoreScripts.Feedback.Onboarding.Start,البدء
+CoreScripts.FTUX.Onboard.Complete,حسنًا
+CoreScripts.FTUX.Onboard.ShowMe,أرِني
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,تساعدنا ملاحظاتك على تحسين أداء أنظمتنا.
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,شكرًا على إخبارنا
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Freecam
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,إظهار GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,نعم
+Feature.Notifications.Heading.EnableNotifications,تشغيل إشعارات هذه التجربة
+Feature.Notifications.Heading.EnableNotificationsForExperience,تشغيل إشعارات {experienceName}
+Feature.Notifications.Label.ReceiveActivityUpdates,تلقي التحديثات عن النشاطات عندما تكون مشغولاً
+Feature.Notifications.Response.NotificationsEnabled,تم تشغيل الإشعارات لهذه التجربة
+Feature.Notifications.Response.NotificationsEnabledForExperience,تم تشغيل إشعارات {experienceName}
+Feature.SettingsHub.Action.LearnMore,معرفة المزيد
+Feature.SettingsHub.Action.NotNow,ليس الآن
+Feature.SettingsHub.Action.TurnOn,تشغيل
+Feature.SettingsHub.Prompt.ChangeYourMind,إذا غيرت رأيك
+Feature.SettingsHub.Prompt.JoinedVoiceChat,لقد انضممت إلى المحادثة الصوتية
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,يمكنك ترك المحادثة الصوتية متى ما شئت كما يمكنك كتم أي شخص في أي وقت.
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,يمكنك دائماً الانضمام إلى المحادثة الصوتية في وقت لاحق من قائمة Roblox.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"من خلال تحديد ""تفعيل""، أسمح لشركة Roblox بجمع واستخدام وتخزين تسجيلي الصوتي لتمكين الخدمات الصوتية ولغرض الإشراف والأمان وتحسين خدماتها وأدواتها."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,لم تستخدم Roblox أي معلومات تتعلق بسلوك المستخدم لعرض هذا الإعلان. أنت تشاهد هذا الإعلان بناءً على معلومات تتضمن نوع الجهاز والموقع والعمر، نهدف من خلالها إلى عرض إعلانات ذات صلة ومناسبة لاهتماماتك. المُعلِن هو {AdvertiserName}.
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,لم تستخدم Roblox أي معلومات تتعلق بسلوك المستخدم لعرض هذا الإعلان. أنت تشاهد هذا الإعلان بناءً على معلومات تتضمن نوع الجهاز والموقع والعمر، نهدف من خلالها إلى عرض إعلانات ذات صلة ومناسبة لاهتماماتك. المُعلِن هو {AdvertiserName}، ومموِّل الإعلان هو {PayerName}.
+Feature.Notifications.Heading.TurnOnNotifications,تشغيل الإشعارات
+Feature.Notifications.Label.GetUpdatesFromExperience,تلقي الإشعارات من {experienceName} عندما تكون مشغولاً؟
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,يمكنك كتم أي شخص في أي وقت.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,تشغيل المحادثة الصوتية للتحدث مع الآخرين. سوف تحتاج إلى منح Roblox الإذن للوصول إلى ميكروفونك. أنت المتحكّم بالمحادثة، يمكنك كتم نفسك أو أي شخص متى ما شئت.
+Verification.Identity.Heading.V2LetsChat,هيا بنا نتحدث
+Feature.Call.Label.Retry,إعادة المحاولة
+Feature.Friends.Action.Unfriend,إلغاء الصداقة
+AuthorizeWebsite.PermissionRequest.Label.Subscription,الاشتراك
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,معرفة معلومات بشأن اشتراكاتك.
+CreatorDashboard.ScopeSystem.Label.Subscription,
+Feature.ReportAbuse.Action.BuildAReport,وضع النص
+Feature.ReportAbuse.Action.EnterSceneReporting,الدخول في وضع التحديد
+Feature.ReportAbuse.Action.SelectInScene,وضع التحديد
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,الإبلاغ باستخدام وضع التحديد
+Feature.ReportAbuse.Label.SelectInSceneDescription1,استخدم ما يصل إلى 5 دوائر لتحديد المشكلة
+Feature.ReportAbuse.Label.SelectInSceneDescription2,أخبرنا لماذا تظن أن هذه مشكلة
+Feature.ReportAbuse.Label.SelectInSceneDescription3,إرسال تقريرك
+Feature.SettingsHub.Prompt.GetVoiceChat,احصل على المحادثة الصوتية
+Feature.SettingsHub.Prompt.MicPermissionPrime,امنح Roblox الإذن للوصول إلى ميكروفونك لتتحدّث.
+Feature.SettingsHub.Prompt.TalkWithOthers,تحدث مع الآخرين واستمتع أكثر.
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,المحادثة الصوتية مع الآخرين
+Feature.SettingsHub.Prompt.VoiceUserAgency,لديك كل التحكّم - اكتم نفسك أو أي شخص، في أي وقت.
+InGame.HelpMenu.Controls.ToggleGameMenu,تقليب قائمة اللعبة
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,حسنًا
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,تعذّر الشراء
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,لا يمكن إكمال عملية الشراء لأنك تمتلك هذه العناصر مسبقًا.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,لا يمكن إكمال عملية الشراء في هذه اللحظة.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,تعذر إكمال عملية الشراء لأنك تحتاج إلى Roblox Premium لشراء هذه العناصر.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,لا يمكن إكمال عملية الشراء لأنك لا تملك Robux كفاية.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,لا يمكن إكمال عملية الشراء لأنه لا يسمح لك بشراء هذا النوع من العناصر.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,تعذر إكمال عملية الشراء لأن هذه العناصر غير معروضة للبيع.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,تعذر إكمال عملية الشراء لأن سعر هذه العناصر تغيّر.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,لا يمكن إكمال عملية الشراء لأنه لا يسمح لك بشراء عناصرك الخاصة.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,لا يمكن إكمال عملية الشراء لأنك وصلت إلى الحد الأقصى لملكية هذه العناصر.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,تعذر إكمال عملية الشراء لأنك وصلت إلى الحد الأقصى وهو 9 معاملات في الدقيقة.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,تعذر إكمال عملية الشراء لأن هذه العناصر قد بيعت بالكامل.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,لم يتم تحصيل أي Robux منك. يرجى المحاولة مرة أخرى.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,لم يتم تحصيل أي Robux منك. يرجى شراء المزيد ثم المحاولة مرة أخرى.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,لم يتم تحصيل أي Robux منك. يرجى المحاولة مرة أخرى.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,لم يتم تحصيل أي Robux منك. يرجى المحاولة مرة أخرى من خلال عناصر أخرى.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,لم يتم تحصيل أي Robux منك. يرجى المحاولة مرة أخرى.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,اكتمل الشراء
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,تم اكتمال الشراء جزئيًا
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} من العناصر
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,نجاح
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} من العناصر
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,غير ناجح
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,مملوك بالفعل
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,غير متوفر
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Premium مطلوب
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Robux غير كافي
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,غير متوفر
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,ليس للبيع
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,تغيّر السعر
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,البائع هو المشتري
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,تم بلوغ الحد
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,تم الوصول إلى الحد الأقصى للطلبات
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,مباع بالكامل
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,مشتراة
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,لا يمكن شراء بعض العناصر حاليًا، يرجى المحاولة لاحقًا.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,الرصيد الحالي
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,تم
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Robux المصروفة
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,ملخص
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} من العناصر
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,إجمالي العناصر المشتراة
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,{ownedCount} تملكه
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,دفع
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,الرصيد الحالي
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,الرصيد بعد الشراء
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,إجمالي الطلب
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,لقد اشتريت بنجاح {itemCount}. ستجد هذه العناصر في مقتنياتك.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,تم
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,اكتمل الشراء
+Feature.Accessibility.Description.MainVolume,التحكم في مستوى الصوت في Roblox عمومًا بما في ذلك تأثيرات القائمة وصوت التجربة والمحادثة الصوتية
+Feature.Notifications.Webview.Title.PolicyUpdate,تحديث للسياسة
+Feature.SettingsHub.Prompt.CameraUnavailable,الكاميرا غير متوفرة
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,لقد عطلنا الكاميرا لتحسين أداء تجربة هذا الجهاز. حاول استخدام جهاز آخر. انقر لمعرفة المزيد.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,تحدث مع الآخرين واستمتع أكثر. اعط Roblox الإذن لميكروفونك لتتمكن من المحادثة. أنت المتحكِّم - يمكنك كتم صوتك أو كتم أي شخص متى ما شئت.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,تحدث مع الآخرين واستمتع أكثر. أنت المتحكِّم - يمكنك كتم صوتك أو كتم أي شخص متى ما شئت.
+Feature.SettingsHub.Label.MyCaptures,لقطاتي
+Feature.ReportAbuse.Action.ErrorModalGoBack,رجوع
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,خطأ: الحد الأقصى 5 دوائر
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,يمكنك استخدام ما يصل إلى خمس دوائر لتحديد المشكلة. استخدم زر التراجع لإزالة دائرة.
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,اضبط معدل الإطارات لديك للاستمتاع بسلاسة أكبر خلال اللعب. بما أن المعدلات الأعلى للإطارات تستهلك طاقة أكبر، لن يتم عرض الإطارات التي تتجاوز معدل تحديث الشاشة.
+Feature.Subscription.Text.Subscribed,مشترك
+Feature.ReportAbuse.Label.ChooseOne,اختر واحدًا
+Feature.ReportAbuse.Label.PleaseSelectOne,الرجاء اختيار واحد.
+Feature.ReportAbuse.Label.SelectInSceneComplete,سنستخدم تقريرك للحفاظ على Roblox مكانًا ممتعًا وآمنًا للجميع.
+Feature.ReportAbuse.Label.TellUsWhatHappened,أخبرنا بما حدث. (اختياري)
+Feature.ReportAbuse.Label.WhatWasWrong,ما الذي حصل؟
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,إكمال تقريرك
+Feature.ReportAbuse.Title.SelectInSceneThankYou,شكرًا على التقرير
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,مغادرة
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,شراء Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,مبلغ Robux المطلوب
+Feature.ReportAbuse.Action.Close,إغلاق
+Feature.ReportAbuse.Action.Submit,إرسال
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,لقد وصلت إلى حد الشراء الشهري المحدد في أدوات رقابة الوالدين. لن تتمكن من إجراء عملية شراء جديدة حتى الشهر المقبل.
+Feature.ReportAbuse.Label.Avatar,الأفاتار
+Feature.ReportAbuse.Label.Bullying,تنمّر
+Feature.ReportAbuse.Label.Cheating,غش/استغلال
+Feature.ReportAbuse.Label.Content,محتوى غير لائق
+Feature.ReportAbuse.Label.Dating,مواعدة
+Feature.ReportAbuse.Label.Links,روابط خارج الموقع
+Feature.ReportAbuse.Label.Personal,سؤال شخصي
+Feature.ReportAbuse.Label.Scamming,نصب واحتيال
+Feature.ReportAbuse.Label.Swearing,كلمات بذيئة
+Feature.ReportAbuse.Label.TextChat,دردشة نصية
+Feature.ReportAbuse.Label.Username,اسم المستخدم غير لائق
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,عملية التحقق بخطوتين مطلوبة لإجراء هذه المعاملات. انتقل إلى الإعدادات> الأمان لإتمام عملية التحقق بخطوتين.
+CommonUI.Controls.Action.Refresh,تحديث
+CommonUI.Controls.NoResultsFound,لا توجد نتائج
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,لم تكتمل عملية الشراء لأن هذه العناصر غير متوفرة في هذه التجربة.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,غير متوفر في هذه التجربة
+CoreScripts.PublishAvatarPrompt.Description,الوصف (اختياري)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,وصف العنصر
+Feature.Accessibility.Description.Haptics,التحكم في الاهتزاز العام لتطبيق Roblox
+Feature.Accessibility.Header.Haptics,اللمس
+Feature.AccountSettings.Label.CameraNotAvailable,الكاميرا غير متوفرة على بعض الأجهزة.
+Feature.AccountSettings.Label.CameraNotSupported,الكاميرا غير متوفرة على بعض الأجهزة. {linkStart}معرفة المزيد{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,السماح
+Feature.Notifications.Action.PushUpsellNotNow,ليس الآن
+Feature.Notifications.Heading.PushUpsellGeneric,لا تفوت عليك
+Feature.Notifications.Label.PushUpsellGeneric,احصل على إشعارات الأنشطة مثل رسائل الدردشة والدعوات وطلبات الصداقة والمزيد.
+Feature.Squads.Action.Join,الانضمام
+Feature.VerificationUpsell.Action.EditPhoneNumber,تحرير رقم الهاتف
+IAPExperience.LeaveRoblox.Action.Cancel,إلغاء
+IAPExperience.LeaveRoblox.Action.Continue,متابعة
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"بالضغط على ""متابعة""، ستتم إعادة توجيهك إلى موقع إلكتروني لا تملكه ولا تديره منصّة Roblox. قد تكون لدى هذا الموقع شروط وسياسات خصوصية مختلفة."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,مغادرة Roblox
+Feature.ReportAbuse.Label.HighlightProblem,حدد المشكلة برسم دوائر
+Feature.Toast.NetworkingError.SomethingIsWrong,حدث خطأ ما. الرجاء المحاولة مرة أخرى.
+Feature.Accessibility.Description.PreferredTextSize,ضبط حجم النص عبر Roblox وفقًا لتفضيلاتك
+Feature.Accessibility.Heading.PreferredTextSize,حجم النص
+Feature.Accessibility.PreferredTextSize.Default,الافتراضي
+Feature.Accessibility.PreferredTextSize.Largest,الأكبر
+Feature.Accessibility.Action.ScrollDown,تمرير للأسفل
+Feature.Accessibility.Action.ScrollUp,تمرير للأعلى
+CoreScripts.PublishAvatarPrompt.BuyCreation,شراء التصميم
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,حسنًا
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,حدث خطأ ولم يتم إلغاء تجديد الاشتراك. الرجاء المحاولة مرة أخرى.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,خطأ
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,لقد تم بالفعل إلغاء اشتراكك بنجاح. لست بحاجة إلى مزيد من الإجراءات.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,تم إلغاؤه بالفعل
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,إذا ألغيت اشتراك خادمك الخاص الآن، سيزال بإمكانك استخدامه لغاية {date}.
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,لا أريد الإلغاء
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,إلغاء الاشتراك
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,نعم، أريد الإلغاء
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,تم إلغاء اشتراكك بنجاح
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,أنت حاليًا غير مشترك.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,لا يمكن الإلغاء
+Feature.Subscription.Error.GenericSubscribeError,حدث خطأ ما خلال محاولة الاشتراك. يرجى المحاولة مرة أخرى لاحقًا.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,يمكنك العثور على عنصرك في مقتنياتك بمجرد جهوزه.
+CoreScripts.TopBar.JoinVoice,احصل على المحادثة الصوتية
+Feature.ReportAbuse.Heading.ReportAbuse,الإبلاغ عن إساءة الاستخدام
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,تفاصيل مدى حساسية المحتوى (مثل الدم والعنف) غير دقيقة
+Feature.ReportAbuse.Label.CategoryBullyingV2,تنمر وتحرش وتمييز
+Feature.ReportAbuse.Label.CategoryContent,محتوى غير لائق - مكان، صورة، نموذج
+Feature.ReportAbuse.Label.CategoryDating,مواعدة
+Feature.ReportAbuse.Label.CategoryInappropriate,لغة غير ملائمة - ألفاظ نابية ومحتوى خاص بالبالغين
+Feature.ReportAbuse.Label.CategoryOther,انتهاك قاعدة أخرى
+Feature.ReportAbuse.Label.CategoryPrivateInfo,طلب معلومات خاصة أو إعطاء معلومات خاصة
+Feature.ReportAbuse.Label.CategoryScamming,استغلال، غش، احتيال
+Feature.ReportAbuse.Label.CategoryTheft,سرقة الحساب - تصيد، قرصنة، تداول
+Feature.ReportAbuse.Label.CategoryThreats,تهديدات حقيقية للحياة وتهديدات بالانتحار
+Feature.ReportAbuse.Message.Success,تم إرسال تقريرك.
+CoreScripts.Ads.Label.ReportAd,الإبلاغ عن الإعلان
+Feature.Chat.Label.ReplyingToOthers,رسالة {DISPLAY_NAME} مفادها...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,لقد انضممت إلى المحادثة الصوتية
+Feature.SettingsHub.Prompt.LeaveVoiceChat,انقطع الاتصال بالمحادثة الصوتية
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,يمكنك دائمًا قطع الاتصال الصوتي أو كتم الصوت لأي شخص في أي وقت.
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,يمكنك دائمًا قطع الاتصال بالصوت أو إسكات أي شخص في أي وقت هنا
+Feature.SettingsHub.Action.Ok,حسنًا
+Feature.SettingsHub.Action.OpenSettings,فتح الإعدادات
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,بحاجة إلى الإذن للميكروفون
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,للمحادثة الصوتية مع الآخرين، اسمح لتطبيق Roblox بالوصول إلى الميكروفون.
+CoreScripts.Ads.Label.InappropriateAd,إعلان غير لائق
+CoreScripts.TopBar.Party,الفرقة
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. حدد الإذن<br />2. اختر ميكروفون<br />3. السماح لـ Roblox بالوصول إلى ميكروفونك</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. حدد الإذن<br />2. اختر ميكروفون<br />3. السماح لـ Roblox بالوصول إلى ميكروفونك</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. تشغيل خيار السماح للتطبيقات بالوصول إلى الميكروفون<br />2. السماح لـ Roblox بالوصول إلى الميكروفون</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. انتقل إلى الإعدادات > الخصوصية > الميكروفون<br />2. شغّل السماح للتطبيقات بالوصول إلى الميكروفون<br />3. اسمح لـ Roblox بالوصول إلى الميكروفون</b>
+Feature.ReportAbuse.Action.ContinueReport,المتابعة إلى الإبلاغ
+Feature.ReportAbuse.Action.EnterChatLineReporting,الإبلاغ عن إساءة استخدام
+Feature.ReportAbuse.Label.FinishChatReport,إكمال تقرير الإبلاغ عن المحادثة
+Feature.ReportAbuse.Label.SelectChatLine,حدد محادثة واحدة للإبلاغ عنها
+CoreScripts.Ads.Label.IllegalContentReportingLink,الإبلاغ عن محتوى غير قانوني أو محتوى ضار بالأطفال
+Feature.ReportAbuse.Problem.Bullying,تنمّر
+Feature.ReportAbuse.Problem.Cheating,غش
+Feature.ReportAbuse.Problem.Dating,مواعدة/جنس
+Feature.ReportAbuse.Problem.Hate,كراهية
+Feature.ReportAbuse.Problem.Links,روابط خارج المنصة
+Feature.ReportAbuse.Problem.Personal,معلومات شخصية
+Feature.ReportAbuse.Problem.Scamming,نصب واحتيال
+Feature.ReportAbuse.Problem.Spamming,غير مرغوب به
+Feature.ReportAbuse.Problem.Swearing,شتائم
+Feature.ReportAbuse.Problem.Violence,عنف
+Feature.VerifiedParentalControls.Action.Cancel,إلغاء
+Feature.ReportAbuse.Action.ReturnToExperience,العودة إلى التجربة
+Feature.ReportAbuse.Label.ReportSubmitted,تم إرسال البلاغ
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,إجراءات إضافية يمكنك اتخاذها
+Feature.ReportAbuse.Label.SentInAnotherChat,تم الإرسال في دردشة أخرى
+Feature.ReportAbuse.Label.SentPrivately,تم الإرسال في رسالة خاصة
+Feature.ReportAbuse.Message.ThankYouReport,شكرًا لك. سنستخدم بلاغك للحفاظ على Roblox مكانًا ممتعًا وآمنًا للجميع.
+Feature.VerifiedParentalControls.Action.Close,إغلاق
+Feature.VerifiedParentalControls.Action.GoToSettings,الانتقال إلى الإعدادات
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,نظرًا للقيود الإقليمية المطبّقة، فأنت بحاجة إلى إذن والديك للشراء. يُرجى زيارة الويب أو استخدام جهاز آخر لطلب الإذن من والديك في الإعدادات > الإنفاق.
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,نظرًا للقيود الإقليمية المطبّقة، فأنت بحاجة إلى إذن والديك للشراء. اطلب الإذن من والديك في الإعدادات > الإنفاق.
+Feature.VerifiedParentalControls.Label.AskParent,اسأل والديك
+Common.VerifiedParentalConsent.Action.Cancel,إلغاء
+Common.VerifiedParentalConsent.Action.Close,إغلاق
+Common.VerifiedParentalConsent.Action.GoToSettings,الانتقال إلى الإعدادات
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,نظرًا للقيود الإقليمية المطبّقة، فأنت بحاجة إلى إذن والديك لإجراء عملية الشراء. يُرجى زيارة الويب أو جهاز مرافق لطلب الإذن من والديك في الإعدادات > الإنفاق.
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,نظرًا للقيود الإقليمية المطبّقة، فأنت بحاجة إلى إذن والديك لإجراء عملية الشراء. اطلب الإذن من والديك في الإعدادات > الإنفاق.
+Common.VerifiedParentalConsent.Label.AskParent,اطلب من والديك
+Feature.ReportAbuse.Action.TextMute,حظر رسائل الدردشة الواردة من {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,تحتاج إلى إعادة تشغيل التطبيق لتفعيل تغييرات الوصول التي أجريتها في الميكروفون.
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,لا يمكنك حاليًا إرسال رسائل الدردشة. لن تظهر رسائلك لأحد.
+Features.OnDemandAds.Reward_Notification,تهانينا! لقد ربحت {REWARD_NAME}!
+Feature.Avatar.Label.Front,الجزء الأمامي
+Feature.PlayWithReward.Message.ErrorBanner.Body,هذه المكافأة غير متاحة في الوقت الحالي. يُرجى المحاولة مرة أخرى.
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,انضم صديقك {RBX_NAME} إلى التجربة.
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,البحث عن أصدقاء
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,هل تريد إرسال طلب صداقة إلى {RBX_NAME}؟
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,هل تريد إزالة {RBX_NAME} من قائمة أصدقائك؟
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,إزالة الصديق
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,لا يمكنك إرسال طلب صداقة إلى {RBX_NAME} لأن قائمة صداقتهم ممتلئة.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,حدث خطأ أثناء إرسال طلب صداقة إلى {RBX_NAME}. يُرجى المحاولة لاحقًا.
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,هل تريد إرسال طلب صداقة؟
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,هل تريد إزالة الصديق؟

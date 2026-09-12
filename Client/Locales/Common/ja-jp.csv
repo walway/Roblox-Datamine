@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,テレポート中...
+Corescripts.AvatarContextMenu.FriendRequestPending,友達リクエスト中
+Corescripts.AvatarContextMenu.AddFriend,友達を追加
+Corescripts.AvatarContextMenu.Friends,友達
+Corescripts.AvatarContextMenu.AcceptFriendRequest,友達リクエストを承認する
+Corescripts.AvatarContextMenu.Chat,チャット
+Corescripts.AvatarContextMenu.ChatDisabled,チャットを無効にしました
+Corescripts.AvatarContextMenu.Wave,手を振って挨拶
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,アイテムにアクセスしますか？
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} さんがあなたのアバターアイテムへのアクセスを希望しています
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,アバターキャラクターを保存
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Robloxにこのキャラクターを保存しますか？ 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,いいえ
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,はい
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,キャンセル
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,OK
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,アバターにアイテムを装備
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} さんがあなたのアバターに以下の変更を希望しています:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,OK
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,キャンセル
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,アイテムをお気に入り登録
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,{RBX_NAME} をお気に入りに追加しますか？
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,アイテムのお気に入り登録を解除
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,{RBX_NAME} をお気に入りから削除しますか？
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,いいえ
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,はい
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,キャラクター名を入力
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,キャラクター名
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,確認
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,読み込みできませんでした
+CoreScripts.AvatarEditorPrompts.Adding,追加中:
+CoreScripts.AvatarEditorPrompts.Removing,削除中:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,アイテム変更なし
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,キャンセル
+CoreScripts.PremiumModal.Title.PremiumRequired,プレミアム限定
+CoreScripts.PremiumModal.Body.Description,Robloxプレミアムには以下が含まれています。
+CoreScripts.PremiumModal.Body.RobuxMonthly,1ヶ月に450Robux
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,プレミアム限定特典にアクセス
+CoreScripts.PremiumModal.Body.RobuxDiscount,Robux購入時に10%のボーナス
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/月額
+CoreScripts.PremiumModal.Error.PlatformUnavailable,お使いのプラットフォームはRoblox プレミアムの購入に対応していません。プレミアムを購入するにはデスクトップをお使いください。
+CoreScripts.PremiumModal.Error.AlreadyPremium,開発者がRobloxプレミアムを購入するように促しているようですが、すでにプレミアムメンバーです！
+CoreScripts.PremiumModal.Error.Unavailable,現在、プレミアムが利用できません。あとでお試しください！
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,1ヶ月につき{robux} Robux
+CoreScripts.PremiumModal.Error.FailedNativePurchase,購入は完了していません。もう一度お試しください。
+CoreScripts.PremiumModal.Title.Error,エラー
+CoreScripts.ScreenshotHud.Action.TakePhoto,写真を撮る
+CoreScripts.ScreenshotHud.Action.Cancel,キャンセル
+CoreScripts.TextChat.ChatWindow.Welcome,チャットで 「/?」 か 「/help」を入力してチャットコマンドの一覧を表示。
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,この動作中はリアクションを使えません。
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,そのリアクションは使えません。
+CoreScripts.TextChat.Emote.Error.R15Only,R15指定のアバターしかリアクションを使えません。
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,今はリアクションを使えません。
+CoreScripts.TextChat.Emote.Error.DoesNotExist,リアクションが存在しません。
+CoreScripts.TextChat.Emote.Error.NotEquipped,リアクションを装備していません。
+CoreScripts.TextChat.Emote.Error.NotEnabled,そのリアクションはここでは使えません。
+CoreScripts.TextChat.Help.FirstLine,こちらは基本的なチャットコマンドです。
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,ここをクリックするか {KEY} を押してチャット
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,メッセージの送受信ができないチャット設定になっています。
+CoreScripts.TextChat.InputBar.Hint.Touch,ここをタップしてチャットする
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,少し待ってから次のメッセージを送ってください。
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,このチャンネルでは話せません。
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,メッセージの送受信ができないチャット設定になっています。
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,メッセージが最大文字数を超えています。
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,現在、チャットフィルタに問題があるためメッセージの表示が遅い可能性があります。
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,メッセージを送信できませんでした。
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,自分をミュートすることはできません。
+CoreScripts.TextChat.Mute.Error.MultipleMatches,次のユーザーはこの表示名を持っています: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,ユーザーの「{RBX_NAME}」さんは存在しません。
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : ユーザーをミュート
+CoreScripts.TextChat.Mute.Success,ユーザーの「{RBX_NAME}」さんをミュートしました。
+CoreScripts.TextChat.Notification.Friend.Joined,あなたがつながっている {RBX_NAME} がバーチャル空間に参加しました。
+CoreScripts.TextChat.Notification.Team.Joined,あなたは現在「{RBX_NAME}」チームに所属しています。
+CoreScripts.TextChat.Notification.WhisperChat.Created,あなたは現在、{RBX_NAME} さんとプライベートチャット中です。
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,チームに所属していなければチームチャットは出来ません。
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> か /t <message> : 自分のチームメンバーにチームチャットを送信
+CoreScripts.TextChat.TeamChat.PrefixText,[チーム]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : ユーザーをミュート解除
+CoreScripts.TextChat.Unmute.Success,ユーザーの「{RBX_NAME}」さんをミュート解除しました。
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,この人とはチャットできません。
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> か /w <user> : ユーザーとのプライベートメッセージチャンネルを開設
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[送信者： {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[あて先： {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,スコアボード
+CoreScripts.TopBar.Emotes,リアクション
+CoreScripts.TopBar.Inventory,持ち物リスト
+CoreScripts.TopBar.Leave,退出
+CoreScripts.TopBar.Chat,チャット
+CoreScripts.TopBar.QuickMenu,クイックメニュー
+CoreScripts.TopBar.Menu,メニュー
+CoreScripts.TopBar.Respawn,キャラクターをリスポーンする
+CoreScripts.TopBar.Back,戻る
+CoreScripts.TopBar.Screenshot,スクリーンショット
+Feature.SettingsHub.Label.LoadingFriendsListFailed,エラーが発生しました。後でもう一度お試しください。
+Feature.SettingsHub.Action.CancelSearch,キャンセル
+Feature.SettingsHub.Label.DontLeaveButton,退出しない
+Feature.SettingsHub.Action.InviteFriend,招待
+Feature.SettingsHub.Heading.InviteFriends,友達を招待
+Feature.SettingsHub.Label.Invited,招待済み
+Feature.SettingsHub.Label.LeaveButton,退出
+Feature.SettingsHub.Label.Moderated,内容規制済み
+Feature.SettingsHub.Label.InviteSearchNoResults,結果が見つかりませんでした
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,つながりを探す
+Feature.SettingsHub.Label.Sending,送信しています
+Feature.SettingsHub.Action.InviteFriendsBack,戻る
+Feature.SettingsHub.Message.InviteToGameTitle,{PLACENAME} に一緒に参加しよう。
+Feature.SettingsHub.TouchMovementMode.DPad,十字キー
+Feature.SettingsHub.Video.Off,オフにする
+Feature.SettingsHub.Video.SystemDefault,システムの初期設定
+Feature.SettingsHub.Video.VideoCamera,ビデオカメラ
+Feature.SettingsHub.Default.DynamicThumbstick,初期設定（動的サムスティック）
+Feature.SettingsHub.DefaultKeyboard,初期設定（キーボード）
+Feature.SettingsHub.Heading.Capture,切り抜き
+Feature.SettingsHub.Label.CaptureDescription2,撮影した写真はお持ちのデバイス上に保存されました。
+Feature.SettingsHub.Label.ChooseOne,一つ選ぶ
+InGame.CommonUI.Title.Warning,警告
+InGame.CommonUI.Title.Error,エラー
+InGame.CommonUI.Button.Retry,再試行
+InGame.CommonUI.Button.Ok,OK
+InGame.CommonUI.Title.Alert,注意
+InGame.CommonUI.Label.Default,初期設定
+InGame.CommonUI.Label.Custom,カスタム
+InGame.CommonUI.Label.PossiblyCustom,カスタムの可能性あり
+InGame.CommonUI.Label.CustomOld,旧カスタム
+InGame.ConnectionError.DisconnectCloudEditKick,チーム制作機能への接続が切断されました。再接続してください。 
+InGame.ConnectionError.DisconnectWrongVersion,Robloxのバージョンが最新ではありません。Robloxを更新して、もう一度お試しください。
+InGame.ConnectionError.TeleportFailure,予期しないエラーのためテレポートできませんでした。もう一度、テレポートしてみてください。
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,エラーにより接続が切断されました。
+InGame.ConnectionError.TeleportGameFull,サーバーがいっぱいです。また後で試すか、別のサーバーを使用してください。
+InGame.ConnectionError.DisconnectPlayerless,接続中にサーバーがシャットダウンしました。もう一度お試しください。
+InGame.ConnectionError.TeleportGameNotFound,行き先のプレースが見つかりません。確認してから、もう一度やり直してください。
+InGame.ConnectionError.DisconnectErrors,不測のエラーにより接続が切断されました。再接続してください。
+InGame.ConnectionError.DisconnectDuplicateTicket,エラーにより接続が切断されました。同じアカウントからの複数の接続を検出しました。
+InGame.ConnectionError.DisconnectBadhash,エラーにより接続が切断されました。
+InGame.ConnectionError.DisconnectSendPacketError,データを送信中に問題が発生しました。再接続してください
+InGame.ConnectionError.DisconnectOnRemoteSysStats,クライアントの不測の動作により、終了させられました。
+InGame.ConnectionError.DisconnectTimeout,接続がタイムアウトしました。インターネット接続をチェックしてもう一度お試しください。
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,エラーにより接続が切断されました。
+InGame.ConnectionError.TeleportErrors,予期しないエラーのためテレポートできませんでした。もう一度、テレポートしてみてください。
+InGame.ConnectionError.TeleportGameEnded,サーバーはもう利用できません。別のサーバーを試すか、後で試してください。
+InGame.ConnectionError.PlacelaunchFlooded,現在サーバーが混雑しています。もう一度お試しください。
+InGame.ConnectionError.DisconnectProtocolMismatch,Robloxのバージョンが最新ではありません。Robloxを更新して、もう一度お試しください。
+InGame.ConnectionError.DisconnectRobloxMaintenance,メンテナンスのため、Robloxによってサーバーがシャットダウンされています。もう一度お試しください。
+InGame.ConnectionError.DisconnectHashTimeout,接続がタイムアウトしました。インターネット接続をチェックしてもう一度お試しください。
+InGame.ConnectionError.DisconnectReceivePacketError,データを受信中に問題が発生しました。再接続してください。
+InGame.ConnectionError.PlacelaunchOtherError,技術的な問題が発生しています。後でもう一度お試しください。
+InGame.ConnectionError.TeleportFlooded,テレポートのリクエスト回数が多すぎます。後でもう一度お試しください。
+InGame.ConnectionError.DisconnectIllegalTeleport,無効なテレポートにより接続が切断されました。 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,データをストリーミング中にエラーが発生しました。再接続してください。
+InGame.ConnectionError.PlacelaunchError,参加しようとしているサーバーが見つかりません。後でもう一度試してください。
+InGame.ConnectionError.TeleportUnauthorized,制限された場所へのテレポートを試みました。
+InGame.ConnectionError.Title.JoinError,参加エラー
+InGame.ConnectionError.Title.Disconnected,切断されました
+InGame.ConnectionError.Title.TeleportFailed,テレポートできませんでした
+InGame.ConnectionError.Message.ErrorCode,エラーコード: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,再接続
+InGame.ConnectionError.DisconnectConnectionLost,インターネット接続をチェックしてやり直してください。
+InGame.ConnectionError.DisconnectIdle,{RBX_NUM} 分間、アイドル状態だったので切断されました。
+InGame.ConnectionError.UnknownError,不明なエラーです。
+InGame.ConnectionError.ReconnectFailed,再接続できませんでした。もう一度やり直してください。
+InGame.EmotesMenu.SelectAnEmote,リアクションを選ぶ
+InGame.EmotesMenu.NoEmotesEquipped,リアクションをつけていません
+InGame.EmotesMenu.ErrorMessageNotSupported,ここではリアクションは使えません。
+InGame.EmotesMenu.ErrorMessageR15Only,R15指定のアバターしかリアクションは使えません。
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,そのリアクションは使えません。
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,今はリアクションを使えません。
+InGame.EmotesMenu.VisitShopToGetEmotes,リアクションがありません。ショップに行ってリアクションをゲットしてください！
+InGame.EmotesMenu.ErrorMessageSwitchToR15,リアクションを表示するにはR15アバターに切り替えてください。
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,この動作中はリアクションを表示できません。
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,{RBX_NAME}さんへのつながりリクエストを送信中にエラーが発生しました。しばらくしてからやり直してください。
+FriendPlayerPrompt.DoPromptUnfriendPlayer,{RBX_NAME}さんをつながりリストから削除しますか？
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,{RBX_NAME}さんにつながりリクエストを送信しますか？
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,{RBX_NAME}さんのつながり数が上限に達しているため、つながりリクエストを送信できません。
+FriendPlayerPrompt.Title.SendFriendRequest,友達リクエストを送信しますか？
+FriendPlayerPrompt.Label.Unfriend,つながりを削除
+InGame.GameplayPaused.Title,ゲームプレイが一時停止しました
+InGame.GameplayPaused.Body,ゲームプレイが一時停止しました: ゲームコンテンツを読み込んでいる間、お待ちください。
+InGame.HelpMenu.UpArrow,上カーソル
+InGame.HelpMenu.DownArrow,下カーソル
+InGame.HelpMenu.LeftArrow,左カーソル
+InGame.HelpMenu.RightArrow,右カーソル
+InGame.HelpMenu.Label.ServerVersion,サーバーバージョン:
+InGame.HelpMenu.Label.ClientVersion,クライアントバージョン:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,プレースバージョン:
+InGame.HelpMenu.Leave,退出
+InGame.HelpMenu.Resume,再開
+InGame.HelpMenu.Label.ClientCoreScriptVersion,クライアントCoreScriptバージョン:
+InGame.InspectMenu.Description.NoInventoryNotice,このユーザーはあなたが確認できるアイテムをつけていません。
+InGame.InspectMenu.Description.MultipleBundlesNotice,このアイテムは複数のバンドルの一部です。
+InGame.InspectMenu.Description.SingleBundleNotice,このアイテムは、バンドルの一部です。
+InGame.InspectMenu.Action.TakeOff,外す
+InGame.InspectMenu.Action.TryOn,つける
+InGame.InspectMenu.Action.Buy,購入
+InGame.InspectMenu.Action.Inspect,確認
+InGame.InspectMenu.Action.View,表示
+InGame.InspectMenu.Label.Owned,所有済み
+InGame.InspectMenu.Label.Offsale,非売品
+InGame.InspectMenu.Label.Limited,限定
+InGame.InspectMenu.Label.CurrentlyWearing,今つけているもの
+InGame.InspectMenu.Label.By,{CREATOR} 作
+InGame.InspectMenu.Description.LimitedNotice,このアイテムはカタログ内の再販者からのみ購入できます。
+InGame.InspectMenu.Label.Avatar,{PLAYER_NAME} さんのアバター
+InGame.InspectMenu.Label.NoResellers,再販者がいません
+InGame.InspectMenu.Label.PremiumOnly,プレミアム限定
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,{RBX_NUMBER}に減少
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,{RBX_NUMBER}に増加
+NotificationScript2.NewFollower,新規フォロワー {RBX_NAME} さんがあなたをフォローしました！
+NotificationScript2.FriendRequestEvent.Accept,{RBX_NAME} さんと友達になりました！
+NotificationScript2.onPointsRewarded.negative,{RBX_NUMBER} ポイント失いました!
+NotificationScript2.onPointsAwarded.single,{RBX_NUMBER} ポイントをゲットしました!
+NotificationScript2.onPointsAwarded.multiple,{RBX_NUMBER} ポイントをゲットしました!
+NotificationScript2.onBadgeAwardedTitle,授与されたバッジ
+NotificationScript2.onBadgeAwardedDetail,{RBX_NAME} さんが {CREATOR_NAME} の「{BADGE_NAME}」を獲得
+NotificationScript2.Screenshot.Title,撮影したスクリーンショット
+NotificationScript2.Screenshot.Description,見るにはスクリーンショットフォルダをチェック。
+NotificationScript2.Screenshot.ButtonText,フォルダを開く
+NotificationScript2.Video.Title,録画したビデオ
+NotificationScript2.Video.Description,見るにはビデオフォルダをチェック。
+NotificationScript2.Video.ButtonText,フォルダを開く
+NotificationScript2.Capture.Permission.AlertTitle,保存権限を有効化
+NotificationScript2.Capture.Permission.AlertText,この機能を使うには写真の権限を有効化する必要があります。これは、デバイスの設定で変更できます。
+NotificationScript2.Capture.Permission.AlertTextIOS,[設定] > [プライバシー] > [写真] に移動し、ロブロックスによる、カメラロールへの切り抜きの保存を有効にします。
+NotificationScript2.Capture.Permission.AlertTextAndroid,[設定] > [ロブロックス] > [権限] に移動し、ストレージを有効にしてフォトライブラリに切り抜いた内容を保存します。
+NotificationScript2.Capture.Permission.AlertButtonText,OK
+NotificationScript2.Capture.Success.ToastText,切り抜きを保存済み
+NotificationScript2.Capture.Fail.ToastText,切り抜きできませんでした
+NotificationScript2.UINavigation.Title,UI ナビゲーション有効化済み
+NotificationScript2.UINavigation.Text,逆斜線で切り替え
+NotificationScript2.CameraToggle.Title,カメラコントロールが有効になっています
+NotificationScript2.CameraToggle.Text,マウスの右ボタンで切り替え
+NotificationScript2.GraphicsQuality.Title,グラフィックのクオリティ
+PlayerDropDown.onUnfollowButtonPress.success,{RBX_NAME} さんをフォローしていません。
+PlayerDropDown.onFollowButtonPress.success,{RBX_NAME} さんをフォロー中
+PlayerDropDown.CannotSendFriendRequest,友達リクエストを送信できません
+PlayerDropDown.FriendLimit,友達の数が上限に達しました。
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} さんで友達の数が上限に達しました。
+PlayerDropDown.UnFollow,フォロー解除
+PlayerDropDown.Follow,フォロー
+PlayerDropDown.Report,規約違反を報告
+PlayerDropDown.Examine,アバターをチェック
+PlayerDropDown.Unfriend,友達解除
+PlayerDropDown.FriendRequest,友達リクエスト
+PlayerDropDown.CancelRequest,リクエストをキャンセル
+PlayerDropDown.Accept,承認する
+InGame.PlayerList.Leaderboard,スコアボード
+InGame.Presence.Label.InStudio,Studio内
+InGame.Presence.Label.Offline,オフライン
+InGame.Presence.Label.Online,オンライン
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,現在は残額を参照できません。アカウントがチャージされませんでした。しばらくしてからやり直してください。
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOXはメンテナンス中です。
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,残りの {RBX_NUMBER} ROBUX があなたのアカウントの残高に戻ります。
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,サードパーティ製のアイテムの販売はここでは禁止されています。アカウントがチャージされませんでした。
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,このアイテムの入手には現在お持ちのチケットでは足りません。www.roblox.com でお金のトレーディングをしてチケットを手に入れよう。
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,このアイテムは現在売られていません。アカウントがチャージされませんでした。
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,このアイテムには{RBX_NAME1} が必要です。「アップグレード」をクリックしてBuilders Clubをアップグレード！
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,この限定アイテムはもう残っていません。www.roblox.com で他のユーザから購入してみてください。アカウントがチャージされませんでした。
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,{RBX_NAME1} {RBX_NAME2} を以下の価格で購入希望：
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,現在はアイテムの価格が参照できません。アカウントがチャージされませんでした。しばらくしてからやり直してください。
+PurchasePromptScript.PURCHASE_MSG.FREE,アイテム名{RBX_NAME2} を無料で入手したいですか？
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,アイテムを購入するにはROBLOX アカウントを作る必要があります。詳しくは www.roblox.com で。
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,{RBX_NAME1} {RBX_NAME2}.を買うにはあと{RBX_NUMBER}のROBUXが必要です。もっとROBUXを買いますか？
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,あなたのアカウントは13才以下です。このアイテムの購入は認められていません。アカウントがチャージされませんでした。
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,取引後の残高は{RBX_NUMBER}になります。
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,残高は現在 {RBX_NUMBER} です。
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,{ERROR_REASON}のため購入を完了できませんでした。アカウントへの請求は行われていません。後でもう一度お試し下さい。
+PurchasePromptScript.PURCHASE_MSG.FAILED,{RBX_NAME1} のため、 {RBX_NAME2} の購入に失敗しました。アカウントがチャージされませんでした。しばらくしてからやり直してください。
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,{RBX_NAME1} の購入に成功しました!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,エラーが起きました
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,アカウントのROBUXが足りません。
+StatsUtil.KBps,{RBX_NUMBER} KB/秒
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(ネットワーク)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <チャンネル> : チャンネルメニュータブを切り替える。
+GameChat_ChatCommandsTeller_MeCommand,/me <テキスト> : アクションのためのロールプレイングコマンド。
+GameChat_ChatCommandsTeller_MuteCommand,/mute <スピーカー> : スピーカーをミュート。
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <スピーカー> : スピーカーのミュートを解除。
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <スピーカー> または /w <スピーカー> : プライベートメッセージチャンネルを開く
+Average,平均
+GameChat_ChatServiceRunner_ChannelDoesNotExist,チャンネル {RBX_NAME} は存在しません。
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,チャットで 「/?」 または 「/help」を入力するとチャットコマンドの一覧を表示します。
+GameChat_SwallowGuestChat_Message,無料アカウントを作ってチャット権限にアクセス！
+Current,現在
+DisableVoiceKey,ボイスチャットをオフにする
+EnableVoiceKey,ボイスチャットをオンにする
+key_142,新しい友達 {RBX_NAME} さん
+KEY_DESCRIPTION_OPTIONAL,オプション
+key_145,獲得ポイント： {RBX_NUMBER} ポイントをゲットしました！
+Received,受信済み
+BACKPACK_SEARCH,サーチ
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,簡単な説明（オプション）
+GameChat_MuteSpeaker_SpeakerDoesNotExist,スピーカーの「{RBX_NAME}」さんは存在しません。
+GameChat_ChatMain_SpeakerHasBeenBlocked,スピーカーの「{RBX_NAME}」さんをブロック中です。
+GameChat_ChatMain_SpeakerHasBeenMuted,スピーカーの「{RBX_NAME}」さんをミュート中です。
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,スピーカーの「{RBX_NAME}」さんをブロック解除しました。
+GameChat_ChatMain_SpeakerHasBeenUnMuted,スピーカーの「{RBX_NAME}」さんをミュート解除しました。
+GameChat_ChatMain_ChatBarTextTouch,ここをタップしてチャットする
+Target,目標
+GameChat_ChatService_ChatFilterIssues,現在、チャットフィルターに問題があるためメッセージの表示が遅れています。
+GameChat_ChatCommandsTeller_Desc,これらは基本的なチャットコマンドです。
+GameChat_TeamChat_WelcomeMessage,これはあなたとあなたのチームメンバーとのプライベートチャンネルです。
+GameChat_ChatMain_ChatBarText,チャットするにはここをクリックするか 「 / 」 キーを押します。
+GameChat_ChatChannel_MutedInChannel,あなたはミュートされているので、このチャンネルで話すことは出来ません。
+GameChat_ChatServiceRunner_YouAreNotInChannel,あなたは {RBX_NAME} チャンネルにいません。
+GameChat_SwitchChannel_NotInChannel,あなたは「{RBX_NAME}」チャネルにいません。
+GameChat_TeamChat_NowInTeam,あなたは現在「{RBX_NAME}」チームに所属しています。
+GameChat_PrivateMessaging_NowChattingWith,あなたは現在、{RBX_NAME} さんとプライベートチャット中です
+GameChat_ChatServiceRunner_YouCannotJoinChannel,{RBX_NAME} チャンネルに参加できません
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,{RBX_NAME} チャンネルから退出できません
+GameChat_ChatService_CannotLeaveChannel,このチャンネルから退出できません。
+GameChat_DoMuteCommand_CannotMuteSelf,自分をミュートすることは出来ません。
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,チームに所属していなければチームチャットは出来ません。
+GameChat_PrivateMessaging_CannotWhisperToSelf,自分自身に話しかけることは出来ません。
+GameChat_ChatService_YouHaveLeftChannel,チャンネル 「{RBX_NAME}」を退出しました。
+GameChat_ChatFloodDetector_Message,少し待ってから次のメッセージを送ってください!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,{RBX_NUMBER} 秒待ってから次のメッセージを送ってください!
+KEY_PLAYER_IDLE_DISCONNECT,{RBX_NUMBER} 分間アイドル状態だったので切断されました。
+GameChat_ChatMessageValidator_SettingsError,メッセージが送れないチャット設定です。
+GameChat_ChatMessageValidator_WhitespaceError,メッセージに許可されていないスペースが含まれています。
+GameChat_ChatMessageValidator_MaxLengthError,メッセージが最大文字数を超えています。
+GameChat_SwitchChannel_NowInChannel,あなたの現在のチャットチャンネルは: 「{RBX_NAME}」です。
+Sent,送付済み
+Corescripts.AvatarContextMenu.PlayerBlocked,ブロック済みの人
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,不明なバーチャル空間名
+CoreScripts.TopBar.GameNamePlaceHolder,バーチャル空間
+Feature.SettingsHub.Label.LeaveGame,バーチャル空間から退出しますか？
+Feature.SettingsHub.Label.GameInviteError,バーチャル空間への招待を送信できませんでした。しばらくしてからやり直してください。
+Feature.SettingsHub.Label.ModeratedInviteError,バーチャル空間への招待は、内容規制により送信されませんでした。
+Feature.SettingsHub.Action.InviteFriendsToPlay,友達を招待する
+Feature.SettingsHub.Label.CaptureDescription,バーチャル空間を切り抜きましょう。撮影した写真はお持ちのデバイス上に保存されました。
+Feature.SettingsHub.Label.CaptureDescription1,バーチャル空間を切り抜きましょう。
+Feature.SettingsHub.Label.WhichPlayer,どの人ですか？
+InGame.ConnectionError.DisconnectDuplicatePlayer,同じアカウントが別のデバイスでバーチャル空間を起動しました。他のデバイスを終了してもう一度お試しください。
+InGame.ConnectionError.PlacelaunchUserLeft,参加しようとしていたユーザーがバーチャル空間から退出しました。
+InGame.ConnectionError.PlacelaunchHashExpired,現在、このバーチャル空間は利用できません。後でもう一度お試しください。
+InGame.ConnectionError.PlacelaunchUnauthorized,このバーチャル空間に参加する権限がありません。
+InGame.ConnectionError.PlacelaunchDisabled,行き先のプレースは制限されています。別のプレースを試すか、後でやり直してください。
+InGame.ConnectionError.DisconnectRejoin,同じアカウントで別のデバイスからバーチャル空間を起動しました。このデバイスを使う場合は再接続してください。
+InGame.ConnectionError.DisconnectDevMaintenance,仮想空間の開発者が一時的にこのバーチャル空間サーバーをシャットダウンしました。もう一度お試しください。
+InGame.ConnectionError.DisconnectEvicted,同じアカウントで別のデバイスからバーチャル空間を起動しました。このデバイスを使う場合は再接続してください。
+InGame.ConnectionError.PlacelaunchPartyCannotFit,人数が多すぎて、このバーチャル空間に参加できません。別の仮想空間に行ってみてください。
+InGame.ConnectionError.PlacelaunchRestricted,バーチャル空間の状況が変更されたため、アクセスできなくなりました。後でもう一度お試しください。
+InGame.ConnectionError.PlacelaunchErrors,バーチャル空間への参加中にエラーが発生しました。もう一度お試しください。
+InGame.ConnectionError.DisconnectLuaKick,このバーチャル空間または内容審査によって追放されました。
+InGame.ConnectionError.PlacelaunchHashException,現在、このバーチャル空間は利用できません。後でもう一度お試しください。
+InGame.ConnectionError.DisconnectLuaKickWithMessage,このバーチャル空間または内容審査によって追放されました。内容審査に関するメッセージは以下の通りです。  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,このバーチャル空間ではリアクションが無効化されています。
+FriendPlayerPrompt.Title.UnfriendPlayer,つながりを削除しますか？
+InGame.PlayerList.Players,人
+InGame.Presence.Label.InGame,バーチャル空間内
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,バーチャル空間内の購入は一時的に無効になっています。
+GameChat_ChatCommandsTeller_TeamCommand,/team <メッセージ> または /t <メッセージ> : 自分のチームメンバーにチームチャットを送る。
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,このチャンネルはシステムとバーチャル空間の通知のためのものです。
+GameChat_GetVersion_Message,このバーチャル空間はチャットバージョン [{RBX_NUMBER}.{RBX_NUMBER}] を実行しています。
+GameChat_PrivateMessaging_CannotChat,この人とはチャットできません。
+GameChat_FriendChatNotifier_JoinMessage,あなたがつながっている {RBX_NAME} がバーチャル空間に参加しました。
+Authentication.Login.WeChat.AntiAddictionText,不適切なバーチャル空間には参加しないように心掛け、海賊版は拒否しましょう。自衛意識を高め、騙されないようにしましょう。バーチャル空間を訪問することは脳の働きを高めてくれますが、度がすぎると健康を害する恐れがあります。時間管理をきちんと行い、健康的なライフスタイルをお楽しみください。
+Authentication.Login.Label.WeChatAntiAddictionText,不適切なバーチャル空間には参加しないように心掛け、海賊版のバーチャル空間は拒否しましょう。自衛意識を高め、騙されないようにしましょう。バーチャル空間を訪問することは脳の働きを高めてくれますが、度がすぎると健康を害する恐れがあります。時間管理をきちんと行い、健康的なライフスタイルをお楽しみください。
+Feature.SettingsHub.Label.NoFriendsScreen,友達を作って一緒に参加できるように招待しよう！
+Feature.SettingsHub.Label.RecentPlayed,最近、訪問したもの
+InGame.HelpMenu.ConfirmLeaveGame,バーチャル空間から退出しますか？
+PlayerDropDown.UnBlock,ブロック解除
+PlayerDropDown.Block,ブロック
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,内部エラーです。ログインし直してください。
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,定番サムスティック
+Feature.SettingsHub.Action.Unblock,ブロック解除
+Feature.SettingsHub.Action.Block,ブロック
+Feature.SettingsHub.Heading.BlockUser,{DisplayName} さんをブロック
+Feature.SettingsHub.Action.Cancel,キャンセル
+Feature.SettingsHub.Message.BlockConfirmation,あなたと {DISPLAY_NAME} (@{RBX_NAME}) さんは、お互いにやりとりすることができなくなりました。
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,アバターキャラクターを削除
+Feature.SettingsHub.Heading.Report.ThanksForReport,ご報告ありがとうございました！
+Feature.SettingsHub.Label.Report.ReceivedReportBody,あなたの報告を受け取りました。必要があれば対処いたします。あなたのフィードバックは当社のコミュニティを安全に保つために役立っています。
+Feature.SettingsHub.Label.Report.OtherActionsHeader,他にできること
+Feature.SettingsHub.Action.Report.Done,終了
+Feature.SettingsHub.Label.Report.BlockDisplayName,{DISPLAY_NAME} (@{RBX_NAME}) さんをブロック
+Feature.SettingsHub.Label.Report.UnblockDisplayName,{DISPLAY_NAME} (@{RBX_NAME}) さんのブロック解除
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,Robloxから {RBX_NAME} のキャラクターを削除しますか？
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Robloxからこのキャラクターを削除しますか？
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,削除
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,キャンセル
+InGame.InspectMenu.Description.LayeredClothingR6,R6 ボディタイプはこのアイテムに対応していません。
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,キャラクター名を変更
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,{RBX_NAME} の新しいキャラクター名を入力:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,キャラクター名を変更しますか？
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,キャラクター名の変更を無効化済み
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,キャラクター名の変更が無効化済みです
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,OK
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,友達リクエストをすべて無視しますか？
+Feature.Friends.Label.Cancel,キャンセル
+Feature.SettingsHub.GameSettings.Input,入力
+Feature.SettingsHub.GameSettings.Output,出力
+Feature.SettingsHub.GameSettings.Device,デバイス
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,ボイスチャットが聞こえません
+Feature.SettingsHub.Prompt.Permission,ボイスチャットが利用できません
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,ゲームの音量が設定で「0」に設定されています。声を聞くには音量を上げてください。
+Feature.SettingsHub.Prompt.Subtitle.Permission,Roblox がマイクを使用できるようにするには設定へ行ってください。
+Feature.SettingsHub.Prompt.Subtitle.Retry,退出してからもう一度参加してみてください。
+Feature.FaceChat.Message.PlaceUnavailable,このプレースは一時的に利用できません。後ほどお試しください。
+Feature.FaceChat.Subtitle.NotAvailable,退出してからもう一度参加してみてください。
+Feature.SettingsHub.GameSettings.InputDevice,入力デバイス
+Feature.SettingsHub.GameSettings.OutputDevice,出力デバイス
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,ご注意: これで「すべて無視」ボタンをクリックするたびに、最大で最近の300件の友達リクエストを削除します。
+Feature.SettingsHub.Prompt.VoiceChatSuspended,ボイスチャットが使用停止中
+Feature.SettingsHub.Prompt.Subtitle.Respect,他のみなさんに対して節度のある行動を心がけて、Robloxを楽しい場所に保ちましょう。
+Feature.SettingsHub.Prompt.Understand,了解
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,スペーシャルボイスは最大プレイヤー数が30人以下のプレースでしか利用できません。
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,このアカウントには、スペーシャルボイスの使用権限がありません。
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,最大プレイヤー数を超過
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,ボイスの使用権限がありません
+InGame.ConnectionError.Action.Restart,再起動
+InGame.ConnectionError.Heading.VRDisconnected,ヘッドセットへの接続が切断されています
+InGame.ConnectionError.Message.RestartApp,プレイし続けるには、アプリを再起動してください。
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,OK
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,キャンセル
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,キャラクターを更新しますか？
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,保存済みのキャラクターを更新しますか？
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,保存済みのキャラクター、 {RBX_NAME} を更新しますか？
+Feature.SettingsHub.Prompt.Subtitle.Place,スペーシャルボイスは最大プレイヤー数が30人以下のプレースでしか利用できません。
+Feature.SettingsHub.Prompt.Subtitle.User,このアカウントには、スペーシャルボイスの使用権限がありません。
+Feature.SettingsHub.Prompt.Place,最大プレイヤー数を超過
+Feature.SettingsHub.Prompt.User,ボイスの使用権限がありません
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,{RBX_NAME} のキャラクターを更新しますか？
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,保存済みのキャラクターを更新しますか？
+InGame.InspectMenu.Action.Cancel,キャンセル
+InGame.InspectMenu.Action.Confirm,確認
+InGame.InspectMenu.Action.Favorite,お気に入り
+InGame.CommonUI.Message.LuobuGameJoinWarning,ゲーム内の危険な行動をまねしないでください。マイナスの行動を見聞きした場合は、率先して規約違反を報告してください。
+Feature.DevModule.ProfileCard.StatusPlaceholder,思ったことを書いてみましょう。
+Feature.DevModule.ProfileCard.StatusErrorMessage,ステータスに不適切な言葉が含まれています。
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Robloxプレミアムについてくるもの:
+Feature.PremiumUpsell.Label.RobuxPerMonth,毎月{robux} Robux
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,プレミアム会員の限定特典にアクセス
+Feature.PremiumUpsell.Label.AvatarShopBenefits,アバターショップで限定アイテムと割引済みアイテムにアクセス
+Feature.PremiumUpsell.Title.GetPremium,プレミアムに入会
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/月
+Feature.PremiumUpsell.Label.Disclosure,定期購入を <b>月額 {currencySymbol}{price} で申し込みます。いつでもキャンセルできます。</b> Robloxの利用規約とプライバシーポリシーが適用されます。
+Feature.PremiumUpsell.Action.Subscribe,定期購入する
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,ユーザー報告に基づき、ボイスチャット使用の際のあなたの行動は当社のコミュニティルールに違反していることが判明しました。以下までボイスチャットへのアクセスは禁止となります。
+Feature.SettingsHub.Prompt.Subtitle.Revoked,当社のコミュニティルールに関する複数の違反があったため、ベータ版の段階が終了するまでボイスチャットへのアクセスが一時取り消しとなりました。
+InGame.InspectMenu.Action.Unfavorite,お気に入りから外す
+Feature.AddFriends.Action.FriendAdded,友達が追加されました
+Feature.AddFriends.Action.RequestIgnored,リクエストを無視しました
+Feature.Avatar.Label.LeftInitial,左
+Feature.Avatar.Label.Right,右
+Feature.Avatar.Label.RightInitial,右
+Feature.Friends.Label.Following,フォロー中
+Feature.Friends.Label.Followers,フォロワー
+Feature.Friends.Label.MutualFriends,共通の友達
+Feature.Friends.Label.FollowsYou,あなたをフォロー中
+Feature.Friends.Label.YouAreFollowing,フォロー中
+Feature.Friends.Action.Block,ブロックする
+Feature.Friends.Label.Friend,友達
+Feature.Friends.Action.Unblock,ブロックを解除
+Verification.Identity.Label.VoiceChatUpsell,このバーチャル空間はスペーシャルボイスチャットに対応しています。この機能を使うには、13歳以上かどうかの確認が必要です。
+Verification.Identity.Action.SkipVoiceChat,ボイスチャットなしで参加
+Verification.Identity.Label.DontShowAgain,次回から表示しない
+Verification.Identity.Label.EnableVoiceChat,ボイスチャットをオンにする
+Verification.Identity.Label.UsesVoiceChat,このバーチャル空間はボイスチャットを使用しています。ボイスチャットをオンにすると、音声対応のバーチャル空間でマイク入力が使用されます。
+Verification.Identity.Label.ToggleInstruction,設定にアクセスして、この機能のオンとオフの切りかえもできます。
+Verification.Identity.Label.JoinWithout,ボイスチャットなしで参加
+InGame.CommonUI.BetaBadge.BadgeText,ベータ版
+InGame.CommonUI.Badge.Popup.DisclaimerText,コミュニティガイドラインに違反している人を見かけたら、規約違反を報告してください。ボイスチャットを有効にしている場合、Robloxは内容規制と安全のためにプラットフォーム上のどこにいても音声オーディオを録音します。 ボイスチャット機能の使用を続けることにより、Robloxが内容規制と安全上の目的での音声録音の収集、使用、および保存に同意するものとします。 スペーシャルボイスは、いつでもオプトアウト（停止）することができます。
+InGame.CommonUI.Badge.Popup.HeaderList,ベータ版の機能を1つ以上選択しました。
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,ボイスチャット
+InGame.CommonUI.Badge.BadgeText,ベータ版
+InGame.CommonUI.Badge.Popup.LearnMoreLink,もっと詳しく
+InGame.CommonUI.Badge.Popup.LearnMoreText,詳しくは、「ボイス録音についてよくあるご質問」のヘルプ記事をごらんください。
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,内容へのフィルタを減らして、もっと自由にチャットできるようになりました！これは、13才以上（13+）のユーザーのみが対象となります。
+InGame.CommonUI.Badge.Popup.VoiceInfo,当社のベータ機能である音声つきのチャットにオプトインしました。Robloxは内容規制と安全のためにプラットフォーム上のどこにいても音声オーディオを録音します。 ボイス機能のついたチャットの使用を続けることにより、Robloxが内容規制と安全上の目的でするあなたの音声の録音の収集、使用、および保存に同意するものとします。 「音声でチャット」は、いつでもオプトアウト（停止）することができます。
+InGame.CommonUI.Badge.Popup.CommunityStandards,コミュニティ基準に違反している人を見かけた場合は、規約違反の報告をしてください。
+Feature.NativeAds.Label.Sponsored,スポンサー広告
+Feature.NativeAds.Label.Ad,広告
+InGame.ConnectionError.DisconnectOutOfMemory,お使いのデバイスには、このバーチャル空間を実行するのに十分なメモリがありません。終了してアプリに戻ってください。
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,このデバイスの機能により、このバーチャル空間は不安定になったため、クラッシュする可能性があります。
+InGame.ConnectionError.Title.ExperienceUnstable,バーチャル空間が不安定です
+Feature.SettingsHub.Label.MethodOfAbuse,規約違反の種類は？
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,ボイスチャット
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,この人は絶叫していました
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,この人はテキストチャットで意地悪な言葉を入力してきました
+Feature.SettingsHub.MethodOfAbuse.Text.Title,テキストチャット
+Feature.SettingsHub.MethodOfAbuse.Other.Title,その他
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,「この人が悪い内容がついたシャツを着て、つきまとってきます」など。
+Feature.SettingsHub.ReportSubmitted.MutePlayer,{Player} さんをミュート
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,{Player} さんをブロック
+Feature.SettingsHub.ReportSubmitted.ThankYou,規約違反の報告を受け取りました。必要がある場合は対処いたします。お送りいただいたご意見・ご感想は当社のコミュニティを安全に保つために役立っています。
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,{Player} さんの音声を聞くことはできなくなります
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,あなたと {Player} さんは、お互いにやりとりすることができなくなりました。
+Feature.SettingsHub.Label.ReportComment,何が良くなかったかを分かるように説明してください。
+Feature.SocialShare.Action.Share,シェア
+Feature.SocialShare.Label.ShareServerLink,招待リンクをシェアする
+Feature.SocialShare.Label.Copied,コピー済み
+Feature.AccountSettings.Label.FreeCommConsentOnly,内容審査と安全上の理由でのみ、Robloxによる音声録音の収集、使用、保管に同意します。
+InGame.CommonUI.Button.KeepPlaying,プレイを続ける
+InGame.ConnectionError.Title.OutOfMemory,メモリ不足です
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,このバーチャル空間がメモリを使用しすぎているため、クラッシュする可能性があります。
+Feature.SettingsHub.Label.DefaultInviteMessage,{DisplayName} さんを招待しますか？
+Feature.SettingsHub.Heading.InviteUser,{DisplayName} さんを招待しますか？
+Feature.SettingsHub.Action.MuteAll,すべて消音
+Feature.SettingsHub.Action.UnmuteAll,すべて消音解除
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,自分自身に「ささやき」はできません。
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,警告: ユーザーネームを変更すると、認証済みバッジステータスが削除されます。削除しますか？
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,ネームプレートの表示
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,表示する
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,非表示
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} （元の言語）
+Feature.SettingsHub.LanguageSelection.Unavailable,利用できません
+Feature.SettingsHub.LanguageSelection.SettingLabel,バーチャル空間の言語
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,音声録音についての詳細
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,{DisplayName} さんをミュートしてブロックしますか？
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,あなたと {Player} さんは、お互いにやりとりすることができなくなりました。
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,{DisplayName}(@{Username}) さんをミュートしますか？
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,{DisplayName} (@{Username}) さんをブロックしますか？
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,あなたと {DisplayName} (@{Username}) さんは、お互いにやりとりすることができなくなりました。
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,{Displayname} (@{Username}) さんをブロックしてミュートしました
+Feature.SettingsHub.ReportSubmitted.Muted,{Displayname} (@{Username}) さんをミュートしました
+Feature.SettingsHub.ReportSubmitted.Blocked,{Displayname} (@{Username}) さんをブロックしました
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,{DisplayName}(@{Username}) さんをミュートしてブロックしますか？
+Feature.SettingsHub.Prompt.TeleportBlock.Title,テレポートを一時停止中
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,テレポートはメニューを閉じると再開します。
+Feature.NativeAds.Action.EnterExperience,バーチャル空間に入る
+Feature.NativeAds.Action.ReturnToExperience,バーチャル空間に戻る
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,プライバシー設定により、このサーバーに参加できません。
+CoreScripts.TopBar.RobloxMenu,Roblox メニュー
+InGame.CommonUI.Label.MicOff,マイクをオフ
+InGame.CommonUI.Label.MicOnRecording,マイクをオン（音声を録音中）
+InGame.InspectMenu.Label.VerifiedAvatar,{PLAYER_NAME} {VERIFIED_BADGE} さんのアバター
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,このアイテムを購入するには、Robuxが足りません。
+IAPExperience.InsufficientRobux.Text.CurrentBalance,現在の残高
+IAPExperience.InsufficientRobux.Action.Cancel,キャンセル
+IAPExperience.InsufficientRobux.Action.BuyRobux,Robuxを買う
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,AdGui の出力場所は、ブロック型ではありません
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,AdGui の出力場所の回転が無効です
+Feature.NativeAds.Description.InvalidAdPortalParentType,親タイプが無効です
+Feature.NativeAds.Description.AdPortalParentMissing,親が存在しません
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,AdGui の出力場所のサイズが無効です
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,AdGui の出力場所の位置が無効です
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal に正しい階層が設定されていません
+Feature.NativeAds.Description.InvalidAdGuiValidation,AdGui を認証できませんでした
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal に正しいプロパティが設定されていません
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,AdPortal の親パーツに正しいプロパティが設定されていません
+Feature.NativeAds.Description.InvalidAdGuiAdornee,AdGui の出力場所はパーツではありません
+Feature.NativeAds.Description.AdPortalMissing,AdPortal が存在しません
+IAPExperience.InsufficientRobux.Text.YouNeed,追加で {robux} 必要です。Robuxのパッケージをもっと購入してから、バーチャル空間に戻ってきてください。
+IAPExperience.InsufficientRobux.Action.RobuxStore,Robuxストアへ
+CoreScripts.TextChat.Emote.Error.NotOwned,「{RBX_EMOTE}」のリアクションを所有していません。
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,当社のコミュニティ基準違反のため、以下の日付までボイスチャットへのアクセスが一時的に停止されました。
+Feature.SettingsHub.Prompt.MicUseSuspended,マイクの使用停止中
+InGame.ConnectionError.Title.LowMemoryWarning,メモリ不足の警告
+InGame.ConnectionError.Queue,あなたの順番: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,服装を送信
+CoreScripts.PublishAssetPrompt.TitleTextEmote,リアクションを送信
+CoreScripts.PublishAssetPrompt.TitleTextPackage,パッケージを送信
+CoreScripts.PublishAssetPrompt.Name,名前
+CoreScripts.PublishAssetPrompt.Description,概要
+CoreScripts.PublishAssetPrompt.InvalidName,名前が無効です
+CoreScripts.PublishAssetPrompt.InvalidDescription,概要が無効です
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,このバーチャル空間が私のアバターアイテムを内容規制に送信し、自分の作品ページにアップロードすることに同意します。
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,このバーチャル空間が私のリアクションを内容規制に送信、自分の作品ページにアップロードすることに同意します。
+CoreScripts.PublishAssetPrompt.Cancel,キャンセル
+CoreScripts.PublishAssetPrompt.Submit,送信
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,概要
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,名前
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,そのリアクションは所有していません。
+Client.App.Message.Win32DeprecationNotifyPhase,まもなくRobloxは、お持ちのWindows 32ビットデバイスへの対応を終了します。 Robloxをプレイし続けるには、Robloxのシステム要件と互換性のあるデバイスを使用してください。
+Client.App.Message.Win32DeprecationDeadlinePhase,2023年4月2日をもって、Robloxは Windows 32ビットデバイスへの対応を終了サポートしました。これには、Win 7 32ビット、Win 8 32ビット、Win 10 32ビットが含まれます。
+Client.App.Message.Win32DeprecationDeprecatedPhase,Robloxは、お持ちのWindows 32ビットデバイスへの対応を終了しています。これには、Win 7 32ビット、Win 8 32ビット、Win 10 32ビットが含まれます。Robloxをプレイし続けるには、Robloxのシステム要件と互換性のあるデバイスを使用してください。
+Feature.GameDetails.Label.Camera,カメラ
+InGame.CommonUI.Label.Return,次に戻る：
+InGame.CommonUI.Label.ReturnFallback,前のバーチャル空間に戻る
+InGame.CommonUI.Label.ReturnTo,「{placeName}」に戻る
+Feature.FaceChat.Heading.FacialAnimation,表情アニメーション
+Feature.FaceChat.Subtitle.FeatureDisabled,表情アニメーションが一時的に利用できません。後ほどお試しください。
+Feature.FaceChat.Subtitle.ServerDisabled,表情アニメーションが一時的に利用できません。後ほどお試しください。
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,カメラをオフにすると、パフォーマンスが向上する可能性があります。
+Feature.FaceChat.Heading.VideoNoPermission,カメラは利用できません
+Feature.FaceChat.Subtitle.VideoNoPermission,Roblox がカメラを使用できるようにするには設定へ行ってください。
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,デバイスのパフォーマンスが低下しています
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,表情アニメーションは利用できません
+Feature.FaceChat.Heading.VideoUnsupported,デバイスのカメラに対応していません
+Feature.FaceChat.Subtitle.VideoUnsupported,Robloxがあなたのアバターを動かすカメラを使用できません。
+Feature.SettingsHub.Prompt.Connecting,まだ音声に接続中です
+Feature.SettingsHub.Prompt.Subtitle.Connecting,まだ音声に接続中です。しばらくお待ちください。
+CoreScripts.ContactList.Label.Outgoing,発信履歴
+CoreScripts.ContactList.Label.Incoming,着信履歴
+CoreScripts.ContactList.Label.Missed,不在着信
+Feature.FaceChat.Heading.LODCameraForceDisable,カメラがオフになっています
+Feature.FaceChat.Subtitle.LODCameraForceDisable,性能の問題によって、Robloxがデバイスのカメラをオフにしました。
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,設定
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,この操作を完了するには、2段階認証を設定する必要があります。これはログインや購入などのを保護するのに役立ちます。
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,2段階認証が必要です
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,当社のコミュニティ基準違反のため、以下の日付まで「音声でチャット」へのアクセスが一時的に停止されました。
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,今後、違反するとアカウントへ追加制裁があるかもしれません。
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,有効期限：
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,当社のシステムがコミュニティ基準に違反している可能性のある言動を検知しました。予防措置として、「音声でチャット」と「アバターでチャット」へのアクセスを一時的に無効にしました。
+Feature.SettingsHub.Prompt.Subtitle.Microphone,当社のシステムがコミュニティ基準に違反している可能性のある言動を検知しました。予防措置として、「音声でチャット」へのアクセスを一時的に無効にしました。
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,マイクとカメラの使用が停止されました
+IAPExperience.BuyRobux.Banner.Text,Robuxでアバターの更新を購入したり、バーチャル空間内での特殊能力を購入できます
+IAPExperience.BuyRobux.Banner.Title,Robuxを獲得
+IAPExperience.BuyRobux.Text.MoreRobux,あと {robux} Robux
+InGame.ConnectionError.PlacelaunchHttpError,Httpエラーが発生しました。クライアントを閉じて、もう一度試してください。
+InGame.ConnectionError.PlacelaunchGameFull,リクエストしたバーチャル空間が満員です
+InGame.ConnectionError.PlacelaunchGameEnded,このバーチャル空間が終了したか、システムエラーが原因でサーバーが予期せず利用できなくなりました
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,デバイスのメモリが不足しています。すぐに退出すれば、現在の状態を保存してRobloxがクラッシュするのを防ぎます。
+InGame.ConnectionError.Waiting,使用可能なサーバを待っています
+InGame.ConnectionError.Loading,サーバが見つかりました。読み込み中です...
+InGame.ConnectionError.Joining,サーバーに接続中
+NotificationScript2.UINavigation.FormattedText,{KEY_NAME} を押して切り替え。
+Feature.FaceChat.Subtitle.UnsupportedDevice,お持ちのカメラを使用してアバターを動かすハードウエア要件を満たしていません。
+Feature.AccountSettings.Heading.Communication,通信機能
+Feature.FaceChat.Heading.NotAvailable,表情アニメーションは利用できません
+InGame.ConnectionError.DisconnectPrivateServerKickout,このプライベートサーバーにアクセスできなくなったため、切断されました。
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,パッケージ制作：{RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,お持ちのアバターに表情アニメーションに対応していない頭があります。持ち物リストとアバターショップで互換性のある頭を利用できます。
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,キャンセル
+CoreScripts.EmoteThumbnailEditor.Action.Update,更新
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,サムネイルを編集
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,回転
+CoreScripts.EmoteThumbnailEditor.Label.Time,時間
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,退出してから新しいセッションに参加しますか？
+Feature.SettingsHub.Prompt.SimpleNudge,思いやりを持って人に接しましょう
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,当社のシステムが「コミュニティ基準」に違反している可能性のある言動を検出しました。これはRobloxにおける民度を保ち、お互いに思いやりを持つためのお知らせです。
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,今後、違反するとアカウントへ追加制裁があるかもしれません。
+Feature.SettingsHub.Prompt.ThankYouForFeedback,ご連絡ありがとうございました
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,みなさんのフィードバックを使って当社のシステムを改善していくよう努めます。
+Feature.SettingsHub.Chat.TranslationEnabled,チャットを自動翻訳する
+Notifications.ToastNotifications.Title.LeavingExperience,バーチャル空間から退出中
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,持ち物リストの中にあります。
+CoreScripts.PublishAssetPrompt.PublishFailed,問題が発生しました。もう一度やり直してください。
+CoreScripts.PublishAssetPrompt.PermissionDenied,問題が発生しました。もう一度やり直してください。
+CoreScripts.PublishAssetPrompt.Timeout,問題が発生しました。もう一度やり直してください。
+CoreScripts.PublishAssetPrompt.NoUserInput,問題が発生しました。もう一度やり直してください。
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,完了！
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,送信できませんでした
+Feature.SettingsHub.Chat.TranslationInformation,テキストチャットが設定言語に翻訳されます。翻訳原文を見るには、メッセージの前にある翻訳マークをタップしてください。
+CoreScripts.TextChat.Clear.Help.Description,「/clear」または「/cls」: チャットウィンドウでメッセージを消去 
+GameChat_ChatMain_ChatTranslationOnboarding,テキストチャットが設定言語に翻訳されます。原文を見るには、メッセージの前にある翻訳マークをタップしてください。翻訳は設定メニューでオフにできます。
+CoreScripts.PublishAssetPrompt.TitleTextModel,パッケージを提出
+IAPExperience.BuyRobux.Text.MoreRobux2,あと {robux} Robux
+CoreScripts.PublishAssetPrompt.UndefinedError,何らかの問題が発生しました。もう一度お試しください。エラーコード: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,オフ
+InGame.CommonUI.Label.On,オン
+CoreScripts.PublishAssetPrompt.DisclaimerModel,作成されたアイテムは内容審査を受けます。コミュニティ基準に準拠していないため承認されなかったアイテムの払い戻しは受けられない場合があります。
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,Robuxを購入できました！
+CoreScripts.AssetPreviewView.Action.ResetView,表示をリセット
+CoreScripts.AssetPreviewView.Label.LoadingFailed,読み込みできませんでした
+CoreScripts.PublishAssetPrompt.ResultModalOk,了解
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,Robloxのコミュニティ基準に違反する可能性のある言葉使いを検出しました。<br /><br />複数の違反があった場合、「音声でチャット」にアクセスできなくなることがあります。
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,Robloxのコミュニティ基準に違反する可能性のある言葉使いを検出しました。複数の違反があった場合、「音声でチャット」にアクセスできなくなることがあります。
+Feature.SettingsHub.Prompt.GotIt,了解
+CreatorDashboard.AssetTypes.Label.Body,ボディ
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Robuxが足りません
+IAPExperience.Loading.Text.PurchasingRobux,Robuxを購入中...
+IAPExperience.Loading.Text.PurchasingItem,アイテムを購入中...
+IAPExperience.Loading.WaitingForPurchase,購入まで待機中...
+IAPExperience.Loading.WaitingForRobux,Robuxが付与されるまで待機中...
+IAPExperience.Loading.Text.WaitingForPurchase,購入まで待機中...
+IAPExperience.Loading.Text.WaitingForRobux,Robuxが付与されるまで待機中...
+Notifications.NotificationStream.Title.ReportNotification,報告通知
+Notifications.NotificationStream.AbuseReason.Bullying,いじめ
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,不正行為・悪用
+Notifications.NotificationStream.AbuseReason.Dating,恋愛・デートの誘い
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,外部リンク
+Notifications.NotificationStream.AbuseReason.Other,その他
+Notifications.NotificationStream.AbuseReason.AskingPII,個人情報の収集
+Notifications.NotificationStream.AbuseReason.Scamming,詐欺
+Notifications.NotificationStream.AbuseReason.Profanity,暴言
+Feature.ReportAbuse.Message.ErrorSubmit,レポートの送信中にエラーが発生しました。
+Feature.ReportAbuse.Action.ReportAbuse,規約違反を報告
+Feature.ReportAbuse.Label.TellUsHowAsset,アセットがどのようにRobloxのルール違反をしているかをお知らせください。
+Feature.ReportAbuse.Label.ReasonForFlag,フラグを立てる理由：
+Feature.ReportAbuse.Message.ThanksForFlagging,当社はすべての規約違反の報告には対応しかねますが、みなさんのフィードバックをすべてのクリエーターのバーチャル空間を向上させるのに役立てています。
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,コメントは {characterLimit} 文字未満にしてください。
+Feature.SettingsHub.Prompt.IncorrectNudge,間違いがありましたか？<br /><u>詳しくお知らせください</u>
+Feature.SettingsHub.Prompt.RememberRules,当社のポリシーを覚えておきましょう
+Feature.SettingsHub.Label.Captures,切り抜き
+InGame.InspectMenu.Label.LimitedItems,限定アイテム
+InGame.InspectMenu.Label.FromResale,再販売から {PRICE}
+InGame.InspectMenu.Action.FromResale,再販売から {PRICE}
+InGame.InspectMenu.Label.OwnedItem,所有済みアイテム ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,所有済みアイテム ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,アイテム数が上限に達しました
+Feature.FaceChat.Heading.UnableToAccessCamera,カメラにアクセスできません
+Feature.FaceChat.Subtitle.UnableToAccessCamera,カメラを使用してアバターを動かすには、OS設定ページでRobloxがカメラを使えるように許可を出してください。
+Feature.SettingsHub.Prompt.MicrophonePermission,マイクにアクセスできません
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,「音声でチャット」を使用するには、OS設定ページでRobloxがマイクを使えるように許可を出してください。
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,このバーチャル空間の設定を記憶
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,いいえ。参加者をミュート
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,はい。参加者をミュートしない
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,他の人の声が聞こえますがチャットの準備ができるまでマイクはミュート状態になります。
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,音声をオンにして参加しますか？
+CoreScripts.PublishCommon.Creator,クリエーター
+CoreScripts.PublishCommon.Leave,はい
+CoreScripts.PublishCommon.MadeIn,作成：
+CoreScripts.PublishCommon.Stay,いいえ
+CoreScripts.PublishCommon.Type,タイプ
+CoreScripts.PublishCommon.UnsavedWarning,未保存の変更内容が失われる可能性があります
+Feature.Accessibility.Description.PreferredTransparency,一部の背景の透明度を調整してコントラストを改善
+Feature.Accessibility.Description.ReducedMotion,視差効果を停止または減らす
+Feature.Accessibility.Description.UiNavigationKeyBind,{uiNavigationKey} キーを使用してUIナビゲーションモードの開始/終了
+Feature.Accessibility.Heading.PreferredTransparency,背景の透明度
+Feature.Accessibility.Heading.ReducedMotion,視差効果を減らす
+Feature.Accessibility.Heading.UiNavigationKeyBind,UI ナビゲーション切りかえ
+Feature.Accessibility.PreferredTransparency.Opaque,不透明
+Feature.Accessibility.PreferredTransparency.Transparent,透明
+Feature.Avatar.Heading.Clothing,服装
+Feature.Avatar.Label.Accessory,アクセサリ
+Feature.Avatar.Label.Back,背面
+Feature.Avatar.Label.ClassicPants,定番のズボン
+Feature.Avatar.Label.ClassicShirts,定番のシャツ
+Feature.Avatar.Label.ClassicTShirts,定番のTシャツ
+Feature.Avatar.Label.Climb,登る
+Feature.Avatar.Label.DressesAndSkirts,ワンピースとスカート
+Feature.Avatar.Label.DynamicHead,ダイナミックヘッド
+Feature.Avatar.Label.Emote,リアクション
+Feature.Avatar.Label.Face,顔
+Feature.Avatar.Label.Fall,落下
+Feature.Avatar.Label.Gear,ギア
+Feature.Avatar.Label.Hair,髪
+Feature.Avatar.Label.Hat,帽子
+Feature.Avatar.Label.Head,頭
+Feature.Avatar.Label.Idle,待機
+Feature.Avatar.Label.Jacket,ジャケット
+Feature.Avatar.Label.Jump,ジャンプ
+Feature.Avatar.Label.LeftArm,左腕
+Feature.Avatar.Label.LeftArms,左腕
+Feature.Avatar.Label.LeftLeg,左足
+Feature.Avatar.Label.LeftLegs,左足
+Feature.Avatar.Label.LeftShoe,靴（左）
+Feature.Avatar.Label.Mood,気分
+Feature.Avatar.Label.Neck,首
+Feature.Avatar.Label.Pants,ズボン
+Feature.Avatar.Label.RightArm,右腕
+Feature.Avatar.Label.RightArms,右腕
+Feature.Avatar.Label.RightLeg,右足
+Feature.Avatar.Label.RightLegs,右足
+Feature.Avatar.Label.RightShoe,靴（右）
+Feature.Avatar.Label.Run,走る
+Feature.Avatar.Label.Shirt,シャツ
+Feature.Avatar.Label.Shorts,短パン
+Feature.Avatar.Label.Shoulder,肩
+Feature.Avatar.Label.Sweater,セーター
+Feature.Avatar.Label.Swim,泳ぐ
+Feature.Avatar.Label.Torso,胴体
+Feature.Avatar.Label.TShirt,Tシャツ
+Feature.Avatar.Label.Waist,腰
+Feature.Avatar.Label.Walk,歩く
+Feature.Catalog.Label.Animation,アニメ
+Feature.Catalog.Label.Attribution,作成場所：
+Feature.Catalog.Label.Body,ボディ
+Feature.Catalog.Label.CategoryType,タイプ
+Feature.Catalog.Label.Emotes,リアクション
+Feature.Catalog.Label.Eyebrow,眉毛
+Feature.Catalog.Label.Eyelash,まつげ
+Feature.Catalog.Label.Filter.Creator,クリエーター
+Feature.GamepadDisconnect.Label.Message,"ユーザーの ""%s"" のコントローラーへの接続が切断されました。接続したいコントローラーで '%s' を押してください。"
+Feature.GamepadDisconnect.Label.Title,コントローラーが見つかりません
+InGame.InspectMenu.Action.SoldOut,売り切れ
+CoreScripts.PublishCommon.Disclaimer,作成されたアイテムは内容審査を受けます。コミュニティ基準に準拠していないため承認されなかったアイテムの払い戻しは受けられない場合があります。
+Feature.ReportAbuse.Action.AttachScreenshot,スクショを添付
+Feature.ReportAbuse.Action.BackToExperience,バーチャル空間に戻る
+Feature.ReportAbuse.Action.HighlightScene,シーンをハイライト
+Feature.ReportAbuse.Action.Next,次へ
+Feature.ReportAbuse.Action.Retake,もう一度撮る
+Feature.ReportAbuse.Action.RetakeScene,シーンをもう一度撮る
+Feature.ReportAbuse.Label.SelectPerson,シーンにいる人を選択
+Feature.ReportAbuse.Label.SelectProblem,シーンの問題を選択
+Feature.ReportAbuse.Message.ProblemNotInScene,このシーンに問題がない場合はスクショを「もう一度撮る」ことができます。
+Feature.ReportAbuse.Message.RetakeScene,あなたの周りで何が起きているか分かるように教えてください。「報告する」を選択すると、問題のシーンのスクショを撮ります。
+Feature.SettingsHub.Action.CaptureScene,場面を切り抜き
+Feature.SettingsHub.Label.AttachScreenshot,スクショを添付しますか？（任意）
+Feature.SettingsHub.Label.AttachScreenshotFormatted,スクショを添付しますか？{lineBreak}（任意）
+Feature.SettingsHub.Label.SceneCaptured,切り抜き済みの場面
+CommonUI.Controls.Action.Cancel,キャンセル
+CommonUI.Controls.Action.Confirm,確認
+CoreScripts.TopBar.ControlMessageMotion,動作追跡
+CoreScripts.TopBar.ControlMessageOff,オフ
+CoreScripts.TopBar.ControlMessageOn,オン
+CoreScripts.TopBar.ControlMessageSound,音源追跡
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,アバター › カスタマイズ › 頭とボティ
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,動く頭を装備してウインクしよう！
+CoreScripts.TopBar.RobloxPermissionErrorBody,Robloxの設定 › プライバシー › マイクとカメラ入力
+CoreScripts.TopBar.RobloxPermissionErrorHeader,カメラへのアクセスを許可
+CoreScripts.TopBar.SelfViewLabel,セルフビュー
+CoreScripts.TopBar.SelfViewSecondaryAction,開く
+InGame.CommonUI.Badge.Popup.DisclaimerText2,コミュニティガイドラインに違反している人を見かけたら、規約違反を報告してください。音声サービスの使用を有効にしている場合、Robloxは内容審査と安全性、当社のサービスとツール向上のためにプラットフォーム上のどこにいても音声オーディオを録音します。 音声サービス機能の使用を続けることにより、Robloxが前述の目的での音声録音の収集、使用、保存に同意するものとします。音声機能は、いつでもオプトアウト（停止）できます。
+CoreScripts.TopBar.MenuToggle,展開/折りたたむ
+CoreScripts.TopBar.MoreMenu,その他のメニュー
+CoreScripts.TopBar.OverflowMenu,オーバーフローメニュー
+CoreScripts.TopBar.Title.ExperienceControls,バーチャル空間操作
+CoreScripts.TopBar.ToggleMic,自分を消音/消音解除
+Feature.Catalog.Label.Bundle,バンドル
+Feature.SocialContextToast.Action.InviteBack,また招待する
+Feature.SocialContextToast.Action.JoinFriend,参加する
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} さんが退出して {EXPERIENCE_NAME} に参加しました
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} さんがバーチャル空間から退出しました
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} さんが一緒に参加しました
+Feature.SocialContextToast.Message.InvitationConfirmation,招待状を送信しました
+Feature.SocialContextToast.Message.YouJoinedManyFriends,{FRIEND_NAME} さんと他の {FRIEND_COUNT} 人の友達と一緒に参加しました
+Feature.SocialContextToast.Message.YouJoinedOneFriend,{FRIEND_NAME} さんと一緒にに参加しました
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,{FRIEND_NAME_ONE} さんと {FRIEND_NAME_TWO} さんと一緒に参加しました
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,このアバターは不適切な衣装を着ています
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,アバター
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,他の人の声が聞こえますが、通話の準備ができるまでマイクはミュート状態になります。
+Feature.Subscription.Text.DisclaimerMonthly,毎月更新。いつでもキャンセル可。
+Feature.Subscription.Text.PerMonth,（月額）
+Feature.SettingsHub.Action.EveryoneToggle,全員
+Feature.SettingsHub.Action.NobodyToggle,なし
+Feature.SettingsHub.Action.NonfriendsToggle,友達以外のユーザー
+Feature.SettingsHub.Label.Mute,ミュート
+Feature.SocialContextToast.Message.InvitationFailure,招待状の送信中に問題が発生しました
+Feature.SocialShare.Action.CopyLink,リンクをコピー
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,毎月更新。いつでもキャンセル可。
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} さんと一緒に参加しましたが相手が現在、制限つきの場所にいます
+Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} さんがこのバーチャル空間で制限された場所に移動しました
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Robloxはチャットで対応言語を自動的に翻訳します
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,あなたが送受信したメッセージは自動的に翻訳されます
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,対応言語でチャットの翻訳がオンになっています
+Feature.SettingsHub.Chat.TranslationSetting,チャットの自動翻訳
+Feature.SettingsHub.Chat.TranslationToggleSetting,未翻訳のメッセージを表示するオプション
+Feature.Call.Description.NoFriendsFound,友達が見つかりません
+Feature.Call.Error.Description.AlreadyInCall,すでに通話中です
+Feature.Call.Error.Description.CallEnabledVerificationFailed,通話権限を確認できませんでした。
+Feature.Call.Error.Description.Generic,問題が発生しました。後でもう一度お試しください。
+Feature.Call.Error.Description.SettingsNotCallEnabled,現在の設定では通話はできません。
+Feature.Call.Error.Label.OhNo,エラー
+Feature.Call.Label.CallEnded,通話終了
+Feature.Call.Label.Calling,発信中...
+Feature.Call.Label.Incoming,着信
+Feature.Call.Label.Missed,不在着信
+Feature.Call.Label.Outgoing,発信
+Feature.Call.Label.RecentCalls,最近の通話
+Feature.Call.Label.RobloxCall,Roblox通話
+Feature.Call.Label.StartNewCall,新しい通話を開始
+Feature.Call.Label.Teleporting,テレポート中...
+Feature.Call.Label.Yesterday,昨日
+Feature.Call.Prompt.AddFriends,Robloxに友達を追加して通話しましょう
+Feature.Call.Prompt.FirstCall,通話してみましょう
+Feature.Call.Prompt.SearchFriends,友達をサーチ
+Feature.Call.Prompt.StartCall,通話を開始
+Feature.FaceChat.Heading.LowPerformanceDetected,パフォーマンスの低下を検出
+Feature.FaceChat.Subtitle.LowPerformanceDetected,カメラをオフにするとデバイスのパフォーマンスが向上する可能性があります。
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,友達を読み込めませんでした。後でもう一度お試しください。
+Feature.SettingsHub.Label.NoFriendsPageMessage,友達を追加して一緒に探検しましょう。
+CoreScripts.Feedback.EntryPoint.ButtonText,フィードバックを送信
+CoreScripts.Feedback.EntryPoint.MenuLabel,フィードバック
+CoreScripts.Feedback.EntryPoint.OptionText,翻訳の向上に協力する
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,終了
+CoreScripts.Feedback.FeedbackBar.HelpButton,ヘルプ
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,その他のご意見などは以下に入力してください（任意）
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,その他のご意見などはここに入力してください
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,キャンセル
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,正しい翻訳は何ですか？（任意）
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,ここに正しい翻訳を入力
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,フィードバックを送信
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,画像
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,ゲームオブジェクト
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,メッシュ
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,モデル
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,ビデオ
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,この翻訳内容の問題は何ですか？（任意）
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,誤訳
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,不適切な内容や暴言がある
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,選択項目なし
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,誤字や文法の問題
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,翻訳されていない
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,選択済みの対象
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,送信する
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,選択済みテキスト
+CoreScripts.Feedback.Help.CloseInstructions,説明を閉じる
+CoreScripts.Feedback.Help.Instructions1,フィードバックモードでは、画面がフリーズしてアバターやカメラを動かすことができなくなります。 任意のオブジェクトをタップまたはクリックして翻訳が間違っていたり未翻訳になっている部分についてのフィードバックを送れます。
+CoreScripts.Feedback.Help.Instructions2,対象を選択すると、さらに情報提供できるフォームが表示されます。Robloxの翻訳の向上にご協力いただきありがとうございました！
+CoreScripts.Feedback.Help.MainHeader,ヘルプ
+CoreScripts.Feedback.SubmissionToastBody,Roblox（ロブロックス）は、この情報を利用してこのバーチャル空間での翻訳のクオリティの改善に努めます
+CoreScripts.Feedback.SubmissionToastHeader,ご意見・ご感想をお寄せくださりありがとうございます。
+Feature.Call.Description.Friends,通話を最大限にお楽しみいただくための設定とデバイスを持っている（または持っていない）友達リスト。
+Feature.Call.Description.SuggestedFriends,通話を最大限にお楽しみいただくための設定とデバイスを持っている友達リスト。
+Feature.Call.Error.Description.DeviceNotSupported,お使いのデバイスは現在、通話に対応していません。後でもう一度お試しください。
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} はビジー状態のため、現在通話を受信できません。後でもう一度お試しください。
+Feature.Call.Error.Title.CouldntMakeCall,通話できませんでした
+Feature.Call.Error.Title.FriendBusy,友達がビジー状態です
+Feature.Call.Label.Friends,友達
+Feature.Call.Label.Suggested,おすすめ
+Feature.Call.Modal.EnableChatVoiceBody,[設定] > [プライバシー] で「音声でチャット」をオンにすれば、このバーチャル空間内にいる他のみなさんと話せます。
+Feature.Call.Modal.EnableChatVoiceTitle,「音声でチャット」を有効にする
+InGame.InspectMenu.Action.Go,移動する
+InGame.InspectMenu.Attribution.GoToDescription,このエリアを離れて {EXPERIENCE_NAME} に移動します。
+InGame.InspectMenu.Attribution.GoToExperience,バーチャル空間に移動しますか？
+Common.Presence.Label.Online,オンライン
+Feature.Call.Label.Block,{combinedName} をブロック
+CoreScripts.Ads.Action.PortalPromptAccept,今すぐテレポート
+CoreScripts.Ads.Action.PortalPromptCancel,キャンセル
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,ダイアログを終了して退出
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,{RBX_NAME} にテレポートしますか？
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,テレポートしますか？
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,カメラとセルフビュー操作はこちらから
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,カメラを使ってアバターを笑顔にしたり、あなたの動きを反映させましょう
+Feature.Call.Description.ExperienceError,このバーチャル空間は「音声でチャット」に対応していません。
+Feature.Call.Error.Title.ExperienceError,バーチャル空間エラー
+Feature.SettingsHub.Label.ReasonForAbuse,規約違反の理由を教えてください。
+Notifications.NotificationStream.Bundle.ShowLess,表示を減らす
+Notifications.NotificationStream.Bundle.ShowMoreV2,あと {notificationCount}
+CommonUI.Controls.Input.Optional,{inputLabel} （オプション）
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,「音声でチャット」へのアクセスは当社のコミュニティ基準に違反する可能性がある言動があったため、 {dateTime} まで無効になりました。
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,通知のまとめを展開
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,ギフトカードの通貨はアカウントの場所と一致している必要があります。設定でアカウントの場所を確認できます。問題がある場合は、 {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd} にお問い合わせください。
+Feature.Call.Label.Unfriend,{combinedName} を友達解除
+Feature.GamepadDisconnect.Label.MessageGeneric,"ユーザー ""%s"" のためのコントローラーへの接続が切断されました。コントローラーを再接続してください。"
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,Robloxのコミュニティ基準に違反する表現があった可能性があるためボイスチャットを一時的に無効にしました。
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,次に同じことが起きた場合、お持ちのアカウントにアクセスできなくなる可能性があります。
+Feature.SettingsHub.Prompt.XMinuteSuspension,{banDurationInMinutes} 分間の一時停止
+Feature.ReportAbuse.DSAIllegal.ReportLink,EUデジタルサービス法に基づく違法なコンテンツを報告。
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,違法なコンテンツを報告
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,オン ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,Robloxは、みなさんの行動情報を使用した広告配信はしていません。適切で関連性の高い広告を表示させるため、デバイスの種類や場所、年齢などの情報に基づいてこの広告を配信しています。
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,EU・デジタルサービス法に基づく違法コンテンツを報告するにはこちらへ。 https://www.roblox.com/illegal-content-reporting
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,デフォルト ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,最大フレームレート
+CoreScripts.Ads.Action.Close,閉じる
+CoreScripts.Ads.Label.WhyThisAd,この広告が表示される理由
+CoreScripts.FTUX.Mic.Body,マイクをオンにする
+CoreScripts.FTUX.Mic.Header,音声でチャット
+CoreScripts.FTUX.Onboard.Body,スコアボード、チャット、安全機能など
+CoreScripts.FTUX.Onboard.Header,よく使う操作にすばやくアクセス
+CoreScripts.FTUX.SelfView.Body,カメラがオンになっていると、笑ったりまばだきしたりする表情や動きがアバターに反映されます
+CoreScripts.FTUX.SelfView.Header,アバターを動かす
+CoreScripts.FTUX.Tools.Body,スコアのチェック、問題の報告、リアクションの使用
+CoreScripts.FTUX.Tools.Header,一番人気のツールと操作
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,つまみ操作でズーム、スライド操作で回転、二本指スライド操作でパン（並行移動）
+CoreScripts.PublishAvatarPrompt.Body,ボディ
+CoreScripts.PublishAvatarPrompt.BodyName,ボディ名
+CoreScripts.PublishAvatarPrompt.Close,閉じる
+CoreScripts.PublishAvatarPrompt.CreatedBody,{DisplayName} さんのボディ
+CoreScripts.PublishAvatarPrompt.CreatedHead,{DisplayName} さんの頭
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,{DisplayName} さんの左腕
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,{DisplayName} さんの左足
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,{DisplayName} さんの右腕
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,{DisplayName} さんの左足
+CoreScripts.PublishAvatarPrompt.CreatedTorso,{DisplayName} さんの胴体
+CoreScripts.PublishAvatarPrompt.Head,頭
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,作品ページから退出しますか？
+CoreScripts.PublishAvatarPrompt.LeftArm,左腕
+CoreScripts.PublishAvatarPrompt.LeftLeg,左足
+CoreScripts.PublishAvatarPrompt.Pan,パン
+CoreScripts.PublishAvatarPrompt.ResetView,表示をリセット
+CoreScripts.PublishAvatarPrompt.RightArm,右腕
+CoreScripts.PublishAvatarPrompt.RightLeg,右足
+CoreScripts.PublishAvatarPrompt.Rotate,回転
+CoreScripts.PublishAvatarPrompt.SubmitCreation,作成を提出
+CoreScripts.PublishAvatarPrompt.Torso,胴体
+CoreScripts.PublishAvatarPrompt.Zoom,ズーム
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,チャット翻訳の言語
+CoreScripts.Feedback.FeedbackBar.MainLabel,フィードバックを送信
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,バーチャル空間オブジェクト: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,任意の文章を選択して誤訳や翻訳されていない部分についてのフィードバックを送信してください。
+CoreScripts.Feedback.MobileSelectionModal.Close,閉じる
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,フィードバックを送信
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,バーチャル空間オブジェクト: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,選択済みテキスト
+CoreScripts.Feedback.Onboarding.Cancel,キャンセル
+CoreScripts.Feedback.Onboarding.Instructions,任意の文章を選択して誤訳や翻訳されていない部分についてのフィードバックを送信してください。
+CoreScripts.Feedback.Onboarding.MainHeader,問題点を教えてください
+CoreScripts.Feedback.Onboarding.Start,開始
+CoreScripts.FTUX.Onboard.Complete,了解
+CoreScripts.FTUX.Onboard.ShowMe,今すぐ表示
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,みなさんのご意見・ご感想を当社のシステム改善に役立てています。
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,ご連絡ありがとうございました
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,フリーカメラ
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,GUIを表示: '{GuiType}'
+CommonUI.Controls.Action.Yes,はい
+Feature.Notifications.Heading.EnableNotifications,このバーチャル空間の通知をオンにする
+Feature.Notifications.Heading.EnableNotificationsForExperience,{experienceName} の通知をオンにする
+Feature.Notifications.Label.ReceiveActivityUpdates,離席中のアクティビティの更新を受け取る
+Feature.Notifications.Response.NotificationsEnabled,
+Feature.Notifications.Response.NotificationsEnabledForExperience,{experienceName} の通知がオンになっています
+Feature.SettingsHub.Action.LearnMore,もっと詳しく
+Feature.SettingsHub.Action.NotNow,あとで
+Feature.SettingsHub.Action.TurnOn,オンにする
+Feature.SettingsHub.Prompt.ChangeYourMind,同意する場合
+Feature.SettingsHub.Prompt.JoinedVoiceChat,ボイスチャットに参加しました
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,いつでもボイス機能をオフにしたり、どの相手でもミュートできます。
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,Robloxメニューからいつでもボイスチャットに参加できます。
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,「オン」（有効化）を選ぶと、音声サービスを有効にする目的や内容審査、安全性の確保、当社のサービスとツールの向上のためにRobloxによる私の音声の録音、収集、保存に同意します。
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,Robloxは、みなさんの行動情報を使用した広告配信はしていません。適切で関連性の高い広告を表示させるため、デバイスの種類や場所、年齢などの情報に基づいてこの広告を配信しています。広告主は {AdvertiserName} です。
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,Robloxは、みなさんの行動情報を使用した広告配信はしていません。適切で関連性の高い広告を表示させるため、デバイスの種類や場所、年齢などの情報に基づいてこの広告を配信しています。広告主は {AdvertiserName} です。これは、 {PayerName} 提供による有料広告です。
+Feature.Notifications.Heading.TurnOnNotifications,通知をオンにする
+Feature.Notifications.Label.GetUpdatesFromExperience,{experienceName} から退席中のアクティビティ更新を受け取りますか？
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,いつでも相手をミュートできます。
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,他のユーザーと通話するにはボイスチャットをオンにしてください。Robloxにマイクへのアクセス許可を与える必要があります。いつでも自分をミュートしたり、どの相手でもミュートしたり、自分で管理できます。
+Verification.Identity.Heading.V2LetsChat,チャットしましょう！
+Feature.Call.Label.Retry,再試行
+Feature.Friends.Action.Unfriend,友達解除
+AuthorizeWebsite.PermissionRequest.Label.Subscription,定期購入
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,定期購入に関する情報を見る。
+CreatorDashboard.ScopeSystem.Label.Subscription,定期購入
+Feature.ReportAbuse.Action.BuildAReport,テキストモード
+Feature.ReportAbuse.Action.EnterSceneReporting,ハイライトモードへ
+Feature.ReportAbuse.Action.SelectInScene,ハイライトモード
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,ハイライトモードを使用して報告
+Feature.ReportAbuse.Label.SelectInSceneDescription1,最大5つの円を使って問題を報告
+Feature.ReportAbuse.Label.SelectInSceneDescription2,何か問題かを教えてください
+Feature.ReportAbuse.Label.SelectInSceneDescription3,規約違反報告を送信
+Feature.SettingsHub.Prompt.GetVoiceChat,ボイスチャット開始
+Feature.SettingsHub.Prompt.MicPermissionPrime,Robloxにマイクへのアクセスを許可して通話を開始。
+Feature.SettingsHub.Prompt.TalkWithOthers,音声通話で楽しもう
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,ボイスチャットしよう
+Feature.SettingsHub.Prompt.VoiceUserAgency,いつでもオン/オフを切りかえて、自分や相手をミュート可能。
+InGame.HelpMenu.Controls.ToggleGameMenu,ゲームメニュー切りかえ
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,了解
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,購入できませんでした
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,アイテムをすでに所有しているため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,購入を完了できていません。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,Roblox Premium（ロブロックス・プレミアム）が必要なため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,Robux不足のため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,このタイプのアイテムを購入できないため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,アイテムが非売品のため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,価格が変更されたため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,自分のアイテムは購入できないため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,アイテムの所有数が上限に達しているため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,1分間あたりの取引き数が上限の9回に達したため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,アイテムが完売しているため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,Robuxを請求していません。後でもう一度お試しください。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,Robuxを請求していません。購入額を増やしてから、もう一度お試しください。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,Robuxを請求していません。後でもう一度お試しください。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,Robuxを請求していません。他のアイテムでもう一度お試しください。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,Robuxを請求していません。しばらくしてから、もう一度お試しください。
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,購入完了
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,購入手続きが一部完了
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,アイテム {itemCount} 個
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,完了
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,アイテム {itemCount} 個
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,完了できませんでした
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,すでに所有中です
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,利用できません
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,プレミアムが必要です
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Robuxが不足しています
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,利用できません
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,非売品
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,価格変更
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,販売者と購入者が同じです
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,上限に達しました
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,試行回数が限度を超えました
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,売り切れ
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,購入済み
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,現在、購入できないアイテムもあります。また後でお試しください。
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,現在の残高
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,完了
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,利用済みRobux額
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,概要
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,アイテム {itemCount} 個
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,合計アイテム購入数
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,{ownedCount} 個所有中
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,支払う
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,現在の残高
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,購入後の残高
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,注文合計
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,{itemCount} 個のアイテムを購入できました。アイテムは持ち物リストにあります。
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,完了
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,購入完了
+Feature.Accessibility.Description.MainVolume,メニューエフェクト、バーチャル空間サウンド、ボイスチャットなど、Roblox（ロブロックス）での全体的な音量をコントロール
+Feature.Notifications.Webview.Title.PolicyUpdate,ポリシーの更新
+Feature.SettingsHub.Prompt.CameraUnavailable,カメラは利用できません
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,このデバイス上でバーチャル空間のパフォーマンス向上のためカメラをオフにしています。別のデバイスで試してみてください。詳しくはクリックしてください。
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,通話を楽しみましょう。通話するには、Robloxにマイクへのアクセス許可を与えてください。いつでも、相手も自分もミュート（消音）できます。
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,通話を楽しみましょう。いつでも相手も自分もミュート（消音）できます。
+Feature.SettingsHub.Label.MyCaptures,切り抜き
+Feature.ReportAbuse.Action.ErrorModalGoBack,戻る
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,エラー: 使用可能な円は最大5つ
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,問題をハイライト表示するには、最大5つの円を配置できます。「元に戻す」ボタンを使って円を削除します。
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,ゲームプレイをスムーズにするためにフレームレートを調整します。フレームレートが高いほど電力が消費され、ディスプレイのリフレッシュレートを超えるフレーム数は表示されません。
+Feature.Subscription.Text.Subscribed,定期購入/購読済み
+Feature.ReportAbuse.Label.ChooseOne,一つ選ぶ
+Feature.ReportAbuse.Label.PleaseSelectOne,1つ選択してください。
+Feature.ReportAbuse.Label.SelectInSceneComplete,当社は規約違反の報告を使ってRobloxをみなさんにとって楽しくて安全な場所にするように努めます。
+Feature.ReportAbuse.Label.TellUsWhatHappened,何が起きたか教えてください。（任意）
+Feature.ReportAbuse.Label.WhatWasWrong,どんな問題ですか？
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,規約違反の報告を終了
+Feature.ReportAbuse.Title.SelectInSceneThankYou,規約違反を報告してくださりありがとうございました。
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,やめる
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Robuxを購入
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Robuxの不足額
+Feature.ReportAbuse.Action.Close,閉じる
+Feature.ReportAbuse.Action.Submit,送信する
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,保護者コントロールで設定された月間購入限度額に達しました。来月まで新しく購入することはできません。
+Feature.ReportAbuse.Label.Avatar,アバター
+Feature.ReportAbuse.Label.Bullying,いじめ
+Feature.ReportAbuse.Label.Cheating,不正行為・悪用
+Feature.ReportAbuse.Label.Content,不適切なコンテンツ
+Feature.ReportAbuse.Label.Dating,恋愛・デートの誘い
+Feature.ReportAbuse.Label.Links,外部リンク
+Feature.ReportAbuse.Label.Personal,プライベートな質問
+Feature.ReportAbuse.Label.Scamming,詐欺
+Feature.ReportAbuse.Label.Swearing,暴言
+Feature.ReportAbuse.Label.TextChat,テキストチャット
+Feature.ReportAbuse.Label.Username,不適切なユーザーネーム
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,購入するには、2段階認証が必要です。 [設定] > [セキュリティ] に行って、2段階認証を完了してください。
+CommonUI.Controls.Action.Refresh,リフレッシュ
+CommonUI.Controls.NoResultsFound,結果が見つかりません
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,このバーチャル空間ではアイテムが利用できないため、購入を完了できませんでした。
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,このバーチャル空間ではご利用いただけません
+CoreScripts.PublishAvatarPrompt.Description,詳細（任意）
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,このアイテムを説明してください
+Feature.Accessibility.Description.Haptics,Robloxアプリでバイブレーション全般をコントロール。
+Feature.Accessibility.Header.Haptics,振動
+Feature.AccountSettings.Label.CameraNotAvailable,カメラは特定のデバイスでは利用できません。
+Feature.AccountSettings.Label.CameraNotSupported,カメラは特定のデバイスでは利用できません。 {linkStart}もっと詳しく{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,許可する
+Feature.Notifications.Action.PushUpsellNotNow,あとで
+Feature.Notifications.Heading.PushUpsellGeneric,お見逃しなく
+Feature.Notifications.Label.PushUpsellGeneric,チャットメッセージ、招待、友達リクエストなどアクティビティの通知を受け取りましょう。
+Feature.Squads.Action.Join,参加する
+Feature.VerificationUpsell.Action.EditPhoneNumber,電話番号を編集
+IAPExperience.LeaveRoblox.Action.Cancel,キャンセル
+IAPExperience.LeaveRoblox.Action.Continue,続ける
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,「続ける」をクリックすると、Robloxが所有・管理していないウェブサイトに移動します。独自の異なる規約やプライバシーポリシーが適用される場合があります。
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Robloxから退出中
+Feature.ReportAbuse.Label.HighlightProblem,問題部分を円で囲んでハイライト
+Feature.Toast.NetworkingError.SomethingIsWrong,問題が発生しました。もう一度お試しください。
+Feature.Accessibility.Description.PreferredTextSize,Robloxで好みに合わせてテキストのサイズを調整
+Feature.Accessibility.Heading.PreferredTextSize,文字サイズ
+Feature.Accessibility.PreferredTextSize.Default,初期設定
+Feature.Accessibility.PreferredTextSize.Largest,最大
+Feature.Accessibility.Action.ScrollDown,下スクロール
+Feature.Accessibility.Action.ScrollUp,上スクロール
+CoreScripts.PublishAvatarPrompt.BuyCreation,作品購入
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,了解
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,エラーが発生したため定期購入の更新をキャンセルできませんでした。もう一度お試しください。
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,エラー
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,定期購入のキャンセルが完了しました。これ以上は何もする必要はありません。
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,キャンセル済み
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,今すぐ定期購入をキャンセルした場合、 {date} までアクセスできます。
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,キャンセルしない
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,定期購入をキャンセル
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,キャンセルする
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,定期購入をキャンセルできました。
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,現在、定期購入（購読）していません。
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,キャンセルできません
+Feature.Subscription.Error.GenericSubscribeError,定期購入（購読）手続き中に問題が発生しました。また後でお試しください。
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,完了するとアイテムは持ち物に表示されます。
+CoreScripts.TopBar.JoinVoice,ボイスチャット開始
+Feature.ReportAbuse.Heading.ReportAbuse,規約違反を報告
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,不正確なコンテンツ成熟度（例：流血、暴力）
+Feature.ReportAbuse.Label.CategoryBullyingV2,いじめ、嫌がらせ、差別
+Feature.ReportAbuse.Label.CategoryContent,不適切なコンテンツ - プレース、画像、モデル
+Feature.ReportAbuse.Label.CategoryDating,恋愛関係
+Feature.ReportAbuse.Label.CategoryInappropriate,不適切な言葉 - 暴言、アダルトコンテンツ
+Feature.ReportAbuse.Label.CategoryOther,その他のルール違反
+Feature.ReportAbuse.Label.CategoryPrivateInfo,個人情報の要求または提供
+Feature.ReportAbuse.Label.CategoryScamming,不正行為、チート行為、詐欺
+Feature.ReportAbuse.Label.CategoryTheft,アカウント窃盗 - フィッシング、ハッキング、アカウント売買
+Feature.ReportAbuse.Label.CategoryThreats,リアルでの脅迫、自殺予告
+Feature.ReportAbuse.Message.Success,レポートを送信しました。
+CoreScripts.Ads.Label.ReportAd,広告の規約違反を報告
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME}さんの発言…
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,ボイスチャットに参加しました
+Feature.SettingsHub.Prompt.LeaveVoiceChat,ボイスチャットが切断されました
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,いつでもボイス機能をオフにしたり、どの相手でもミュートできます。
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,いつでもボイス機能をオフにしたり、どの相手でもミュートできます。
+Feature.SettingsHub.Action.Ok,了解
+Feature.SettingsHub.Action.OpenSettings,設定を開く
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,マイクへのアクセスが必要です
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,ボイスチャットを開始するにはRobloxがマイクにアクセスできるようにしてください。
+CoreScripts.Ads.Label.InappropriateAd,不適切な広告
+CoreScripts.TopBar.Party,パーティ
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. 権限を選択<br />2. マイクを選択<br />3. Robloxがあなたのマイクにアクセスすることを許可</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. [設定] > [プライバシー] > [権限]<br />2. [マイク] を選択<br />3. Robloxがあなたのマイクにアクセスすることを許可</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. アプリがあなたのマイクにアクセスできるように [アプリを許可] をオンにします<br />2. Robloxがあなたのマイクにアクセスすることを許可します</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. [設定] > [プライバシー] > [マイク]<br />2. アプリのあなたのマイクへのアクセスを [許可する] ボタンをオンにする<br />3. Robloxがあなたのマイクにアクセスすることを許可</b>
+Feature.ReportAbuse.Action.ContinueReport,規約違反の報告を続ける
+Feature.ReportAbuse.Action.EnterChatLineReporting,規約違反を報告
+Feature.ReportAbuse.Label.FinishChatReport,チャットの報告を終了
+Feature.ReportAbuse.Label.SelectChatLine,報告するチャットを1つ選択
+CoreScripts.Ads.Label.IllegalContentReportingLink,違法なコンテンツや子どもに有害なコンテンツを報告
+Feature.ReportAbuse.Problem.Bullying,いじめ
+Feature.ReportAbuse.Problem.Cheating,チート行為
+Feature.ReportAbuse.Problem.Dating,恋愛関係・性的内容
+Feature.ReportAbuse.Problem.Hate,ヘイト
+Feature.ReportAbuse.Problem.Links,プラットフォーム外へのリンク
+Feature.ReportAbuse.Problem.Personal,個人情報
+Feature.ReportAbuse.Problem.Scamming,詐欺
+Feature.ReportAbuse.Problem.Spamming,スパム
+Feature.ReportAbuse.Problem.Swearing,暴言
+Feature.ReportAbuse.Problem.Violence,暴力
+Feature.VerifiedParentalControls.Action.Cancel,キャンセル
+Feature.ReportAbuse.Action.ReturnToExperience,バーチャル空間に戻る
+Feature.ReportAbuse.Label.ReportSubmitted,報告が送信されました
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,その他にできる措置について
+Feature.ReportAbuse.Label.SentInAnotherChat,別のチャットで送信済み
+Feature.ReportAbuse.Label.SentPrivately,非公開で送信済み
+Feature.ReportAbuse.Message.ThankYouReport,ありがとうございました。当社は、お送りいただいた規約違反の報告を使ってRobloxをみなさんにとって楽しくて安全な場所にするように努めます。
+Feature.VerifiedParentalControls.Action.Close,閉じる
+Feature.VerifiedParentalControls.Action.GoToSettings,設定へ
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,お住まいの地域の規制により、購入には保護者の方の許可が必要です。併用している端末でウェブサイトに行くか、[設定] > [課金] で保護者の方の許可をもらってください。
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,お住まいの地域の規制により、購入には保護者の方の許可が必要です。[設定] > [使用] で保護者の方の許可をもらってください。　
+Feature.VerifiedParentalControls.Label.AskParent,保護者の許可を取る
+Common.VerifiedParentalConsent.Action.Cancel,キャンセル
+Common.VerifiedParentalConsent.Action.Close,閉じる
+Common.VerifiedParentalConsent.Action.GoToSettings,[設定] へ
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,お住まいの地域の規制により、購入には保護者の方の許可が必要です。併用している端末でウェブサイトに行くか、[設定] > [課金] で保護者の方の許可をもらってください。
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,お住まいの地域の規制により、購入には保護者の方の許可が必要です。[設定] > [課金] で保護者の方の許可をもらってください。　
+Common.VerifiedParentalConsent.Label.AskParent,保護者の許可を取る
+Feature.ReportAbuse.Action.TextMute,{name} からのチャットをブロック
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,マイクへのアクセス設定の変更を適用するにはアプリを再起動する必要があります。
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,現在、チャットを送信できません。あなたのメッセージはどなたにも表示されません。
+Features.OnDemandAds.Reward_Notification,おめでとうございます！ {REWARD_NAME} を獲得しました！
+Feature.Avatar.Label.Front,正面
+Feature.PlayWithReward.Message.ErrorBanner.Body,この報酬は現在ご利用いただけません。やり直してください。
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,あなたの友達の{RBX_NAME}さんが、このバーチャル空間に参加しました。
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,友達をサーチ
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,{RBX_NAME}さんに友達リクエストを送りますか？
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,{RBX_NAME}さんを友達リストから削除しますか？
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,友達を削除
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,{RBX_NAME}さんの友達が上限に達しているため、友達リクエストを送信できませんでした。
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,{RBX_NAME}さんへの友達リクエストの送信中にエラーが発生しました。しばらくしてからやり直してください。
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,友達リクエストを送信しますか？
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,友達を削除しますか？

@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,Teleporting...
+Corescripts.AvatarContextMenu.FriendRequestPending,Friend Request Pending
+Corescripts.AvatarContextMenu.AddFriend,Add Friend
+Corescripts.AvatarContextMenu.Friends,Friends
+Corescripts.AvatarContextMenu.AcceptFriendRequest,Accept Friend Request
+Corescripts.AvatarContextMenu.Chat,Chat
+Corescripts.AvatarContextMenu.ChatDisabled,Chat Disabled
+Corescripts.AvatarContextMenu.Wave,Wave
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,Access Items?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} would like to access your avatar’s items
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,Save Avatar Character
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Do you want to save this character to Roblox? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,No
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,Yes
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,Cancel
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,Equip Avatar with Items
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} would like to make the following changes to your avatar:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,Cancel
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,Favorite Item
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,Do you want to add {RBX_NAME} to favorites?
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,Unfavorite Item
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,Do you want to remove {RBX_NAME} from favorites?
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,No
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,Yes
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,Enter Character Name
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,Character Name
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,Confirm
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,Loading Failed
+CoreScripts.AvatarEditorPrompts.Adding,Adding:
+CoreScripts.AvatarEditorPrompts.Removing,Removing:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,No item changes
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,Cancel
+CoreScripts.PremiumModal.Title.PremiumRequired,For Premium Only
+CoreScripts.PremiumModal.Body.Description,Roblox Premium will get you:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux per month
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,Access to Premium only benefits
+CoreScripts.PremiumModal.Body.RobuxDiscount,10% bonus when buying Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/month
+CoreScripts.PremiumModal.Error.PlatformUnavailable,Purchasing Roblox Premium is not supported on your platform. Please use your desktop to purchase Premium.
+CoreScripts.PremiumModal.Error.AlreadyPremium,"Looks like the developer is trying to prompt you to purchase Roblox Premium, but you are already a Premium member!"
+CoreScripts.PremiumModal.Error.Unavailable,Premium is unavailable at the moment. Please again try later!
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux per month
+CoreScripts.PremiumModal.Error.FailedNativePurchase,"Purchase was not complete, please try again."
+CoreScripts.PremiumModal.Title.Error,Error
+CoreScripts.ScreenshotHud.Action.TakePhoto,Take Photo
+CoreScripts.ScreenshotHud.Action.Cancel,Cancel
+CoreScripts.TextChat.ChatWindow.Welcome,Chat '/?' or '/help' for a list of chat commands.
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,Unable to load conversations.
+CoreScripts.TextChat.FriendsChat.LoadingConversations,Loading conversations...
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,No conversations yet
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,No loaded conversations found
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,You cannot use Emotes during this action.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,You can't use that Emote.
+CoreScripts.TextChat.Emote.Error.R15Only,Only R15 avatars can use Emotes.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,You can't use Emotes right now.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,Emote does not exist.
+CoreScripts.TextChat.Emote.Error.NotEquipped,You don't have that Emote equipped.
+CoreScripts.TextChat.Emote.Error.NotEnabled,You can't use that Emote here.
+CoreScripts.TextChat.Help.FirstLine,These are the basic chat commands:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,To chat click here or press {KEY} key
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,Your chat settings prevent you from sending and receiving messages.
+CoreScripts.TextChat.InputBar.Hint.Touch,Tap here to chat
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,You must wait before sending another message.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,You cannot talk in this channel.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,Your chat settings prevent you from sending and receiving messages.
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,Your message exceeds the maximum message length.
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,The chat filter is currently experiencing issues and messages may be slow to appear.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,Your message could not be sent.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,You cannot mute yourself.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,The following users have this display name: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,User '{RBX_NAME}' does not exist.
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : mute a user
+CoreScripts.TextChat.Mute.Success,User '{RBX_NAME}' has been muted.
+CoreScripts.TextChat.Notification.Friend.Joined,Your connection {RBX_NAME} has joined the experience.
+CoreScripts.TextChat.Notification.Team.Joined,You are now on the '{RBX_NAME}' team.
+CoreScripts.TextChat.Notification.WhisperChat.Created,You are now privately chatting with {RBX_NAME}.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,You cannot team chat if you are not on a team.
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> or /t <message> : send a team chat to people on your team
+CoreScripts.TextChat.TeamChat.PrefixText,[Team]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : unmute a user
+CoreScripts.TextChat.Unmute.Success,User '{RBX_NAME}' has been unmuted.
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,You are not able to chat with this person.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> or /w <user> : open private message channel with a user
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[From {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[To {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,Leaderboard
+CoreScripts.TopBar.Emotes,Emotes
+CoreScripts.TopBar.Inventory,Inventory
+CoreScripts.TopBar.Leave,Leave
+CoreScripts.TopBar.Chat,Chat
+CoreScripts.TopBar.QuickMenu,Quick Menu
+CoreScripts.TopBar.Menu,Menu
+CoreScripts.TopBar.Respawn,Respawn Character
+CoreScripts.TopBar.Back,Back
+CoreScripts.TopBar.Screenshot,Screenshot
+Feature.SettingsHub.Label.LoadingFriendsListFailed,"An error occurred, please try again later."
+Feature.SettingsHub.Action.CancelSearch,Cancel
+Feature.SettingsHub.Label.DontLeaveButton,Don't Leave
+Feature.SettingsHub.Action.InviteFriend,Invite
+Feature.SettingsHub.Heading.InviteFriends,Invite Friends
+Feature.SettingsHub.Label.Invited,Invited
+Feature.SettingsHub.Label.LeaveButton,Leave
+Feature.SettingsHub.Label.Moderated,Moderated
+Feature.SettingsHub.Label.InviteSearchNoResults,No results found
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,Search for Connections
+Feature.SettingsHub.Label.Sending,Sending
+Feature.SettingsHub.Action.InviteFriendsBack,Back
+Feature.SettingsHub.Message.InviteToGameTitle,Come join me in {PLACENAME}
+Feature.SettingsHub.TouchMovementMode.DPad,DPad
+Feature.SettingsHub.Video.Off,Off
+Feature.SettingsHub.Video.SystemDefault,System Default
+Feature.SettingsHub.Video.VideoCamera,Video Camera
+Feature.SettingsHub.Default.DynamicThumbstick,Default (Dynamic Thumbstick)
+Feature.SettingsHub.DefaultKeyboard,Default (Keyboard)
+Feature.SettingsHub.Heading.Capture,Capture
+Feature.SettingsHub.Label.CaptureDescription2,Photos taken are saved to your device.
+Feature.SettingsHub.Label.ChooseOne,Choose One
+InGame.CommonUI.Title.Warning,Warning
+InGame.CommonUI.Title.Error,Error
+InGame.CommonUI.Button.Retry,Retry
+InGame.CommonUI.Button.Ok,Ok
+InGame.CommonUI.Title.Alert,Alert
+InGame.CommonUI.Label.Default,Default
+InGame.CommonUI.Label.Custom,Custom
+InGame.CommonUI.Label.PossiblyCustom,Possibly Custom
+InGame.CommonUI.Label.CustomOld,Custom Old
+InGame.ConnectionError.DisconnectCloudEditKick,Lost connection to Team Create. Please reconnect. 
+InGame.ConnectionError.DisconnectWrongVersion,Your version of Roblox may be out of date.  Please update Roblox and try again.
+InGame.ConnectionError.TeleportFailure,Teleport failed due to an unexpected error. Please try teleporting again.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,Lost connection due to an error.
+InGame.ConnectionError.TeleportGameFull,Server is full. Please try again later or use another server.
+InGame.ConnectionError.DisconnectPlayerless,Server was shutting down as you tried to connect.  Please try again.
+InGame.ConnectionError.TeleportGameNotFound,Cannot find the destination place. Please double check and try again.
+InGame.ConnectionError.DisconnectErrors,Lost connection due to an unknown error. Please reconnect.
+InGame.ConnectionError.DisconnectDuplicateTicket,Lost connection due to an error. Multiple connections detected from same account.
+InGame.ConnectionError.DisconnectBadhash,Lost connection due to an error.
+InGame.ConnectionError.DisconnectSendPacketError,"There was a problem sending data, please reconnect."
+InGame.ConnectionError.DisconnectOnRemoteSysStats,You have been kicked due to unexpected client behavior.
+InGame.ConnectionError.DisconnectTimeout,Your connection timed out.  Check your internet connection and try again.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,Lost connection due to an error.
+InGame.ConnectionError.TeleportErrors,Teleport failed due to an unexpected error. Please try teleporting again.
+InGame.ConnectionError.TeleportGameEnded,Server is no longer available. Please try a different one or attempt later.
+InGame.ConnectionError.PlacelaunchFlooded,The server is currently busy.  Please try again.
+InGame.ConnectionError.DisconnectProtocolMismatch,Your version of Roblox may be out of date.  Please update Roblox and try again.
+InGame.ConnectionError.DisconnectRobloxMaintenance,Roblox has shut down the server for maintenance. Please try again.
+InGame.ConnectionError.DisconnectHashTimeout,Your connection timed out.  Check your internet connection and try again.
+InGame.ConnectionError.DisconnectReceivePacketError,"There was a problem receiving data, please reconnect."
+InGame.ConnectionError.PlacelaunchOtherError,We are experiencing technical difficulties. Please try again later.
+InGame.ConnectionError.TeleportFlooded,Too many teleport requests. Please try again later.
+InGame.ConnectionError.DisconnectIllegalTeleport,Lost connection due to an invalid teleport. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,"There was a problem streaming data, please reconnect."
+InGame.ConnectionError.PlacelaunchError,Unable to find the server you are attempting to join. Please try again later.
+InGame.ConnectionError.TeleportUnauthorized,Attempted to teleport to a place that is restricted.
+InGame.ConnectionError.Title.JoinError,Join Error
+InGame.ConnectionError.Title.Disconnected,Disconnected
+InGame.ConnectionError.Title.TeleportFailed,Teleport Failed
+InGame.ConnectionError.Message.ErrorCode,Error Code: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,Reconnect
+InGame.ConnectionError.DisconnectConnectionLost,Please check your internet connection and try again.
+InGame.ConnectionError.DisconnectIdle,You were disconnected for being idle {RBX_NUM} minutes
+InGame.ConnectionError.UnknownError,Unknown error.
+InGame.ConnectionError.ReconnectFailed,Reconnect was unsuccessful. Please try again.
+InGame.EmotesMenu.SelectAnEmote,Select an Emote
+InGame.EmotesMenu.NoEmotesEquipped,No Emotes equipped
+InGame.EmotesMenu.ErrorMessageNotSupported,You can't use Emotes here.
+InGame.EmotesMenu.ErrorMessageR15Only,Only R15 avatars can use Emotes.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,You can't use that Emote.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,You can't use Emotes right now.
+InGame.EmotesMenu.VisitShopToGetEmotes,You don't have emotes. Visit Shop to get emotes!
+InGame.EmotesMenu.ErrorMessageSwitchToR15,Switch to your R15 avatar to play Emote.
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,You cannot play Emotes during this action.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,An error occurred while sending {RBX_NAME} a Connection request. Please try again later.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,Would you like to remove {RBX_NAME} from your Connections list?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,Would you like to send {RBX_NAME} a Connection Request?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,You can not send a Connection request to {RBX_NAME} because they are at the max Connection limit.
+FriendPlayerPrompt.Title.SendFriendRequest,Send Friend Request?
+FriendPlayerPrompt.Label.Unfriend,Remove Connection
+InGame.GameplayPaused.Title,Gameplay Paused
+InGame.GameplayPaused.Body,Gameplay has been paused: please wait while the game content loads.
+InGame.HelpMenu.UpArrow,Up Arrow
+InGame.HelpMenu.DownArrow,Down Arrow
+InGame.HelpMenu.LeftArrow,Left Arrow
+InGame.HelpMenu.RightArrow,Right Arrow
+InGame.HelpMenu.Label.ServerVersion,Server Version:
+InGame.HelpMenu.Label.ClientVersion,Client Version:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,Place Version:
+InGame.HelpMenu.Leave,Leave
+InGame.HelpMenu.Resume,Resume
+InGame.HelpMenu.Label.ClientCoreScriptVersion,Client CoreScript Version:
+InGame.InspectMenu.Description.NoInventoryNotice,This user isn't wearing any items you can inspect.
+InGame.InspectMenu.Description.MultipleBundlesNotice,This item is part of multiple bundles.
+InGame.InspectMenu.Description.SingleBundleNotice,This item is part of a bundle.
+InGame.InspectMenu.Action.TakeOff,Take Off
+InGame.InspectMenu.Action.TryOn,Try On
+InGame.InspectMenu.Action.Buy,Buy
+InGame.InspectMenu.Action.Inspect,Inspect
+InGame.InspectMenu.Action.View,View
+InGame.InspectMenu.Label.Owned,Owned
+InGame.InspectMenu.Label.Offsale,Offsale
+InGame.InspectMenu.Label.Limited,Limited
+InGame.InspectMenu.Label.CurrentlyWearing,Currently Wearing
+InGame.InspectMenu.Label.By,By {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,This item can only be purchased from resellers in the Catalog.
+InGame.InspectMenu.Label.Avatar,{PLAYER_NAME}'s Avatar
+InGame.InspectMenu.Label.NoResellers,No Resellers
+InGame.InspectMenu.Label.PremiumOnly,Premium Only
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,Decreased to {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,Increased to {RBX_NUMBER}
+NotificationScript2.NewFollower,New Follower {RBX_NAME} is now following you!
+NotificationScript2.FriendRequestEvent.Accept,You are now friends with {RBX_NAME}!
+NotificationScript2.onPointsRewarded.negative,You lost {RBX_NUMBER} points!
+NotificationScript2.onPointsAwarded.single,You received {RBX_NUMBER} point!
+NotificationScript2.onPointsAwarded.multiple,You received {RBX_NUMBER} points!
+NotificationScript2.onBadgeAwardedTitle,Badge Awarded
+NotificationScript2.onBadgeAwardedDetail,"{RBX_NAME} won {CREATOR_NAME}'s ""{BADGE_NAME}"" award!"
+NotificationScript2.Screenshot.Title,Screenshot Taken
+NotificationScript2.Screenshot.Description,Check out your screenshots folder to see it.
+NotificationScript2.Screenshot.ButtonText,Open Folder
+NotificationScript2.Video.Title,Video Recorded
+NotificationScript2.Video.Description,Check out your videos folder to see it.
+NotificationScript2.Video.ButtonText,Open Folder
+NotificationScript2.Capture.Permission.AlertTitle,Enable Save Permissions
+NotificationScript2.Capture.Permission.AlertText,You need to enable photo permissions in order to use this feature. This can be changed in your device’s settings.
+NotificationScript2.Capture.Permission.AlertTextIOS,"Go to Settings > Privacy > Photos, and enable Roblox to save captures to your camera roll."
+NotificationScript2.Capture.Permission.AlertTextAndroid,"Go to Settings > Roblox > Permissions, and enable Storage to save captures to your photo library."
+NotificationScript2.Capture.Permission.AlertButtonText,OK
+NotificationScript2.Capture.Success.ToastText,Capture Saved
+NotificationScript2.Capture.Fail.ToastText,Capture Failed
+NotificationScript2.UINavigation.Title,UI Navigation Enabled
+NotificationScript2.UINavigation.Text,Backslash to toggle
+NotificationScript2.CameraToggle.Title,Camera Control Enabled
+NotificationScript2.CameraToggle.Text,Right mouse button to toggle
+NotificationScript2.GraphicsQuality.Title,Graphics Quality
+PlayerDropDown.onUnfollowButtonPress.success,No longer following {RBX_NAME}.
+PlayerDropDown.onFollowButtonPress.success,now following {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,Cannot send friend request
+PlayerDropDown.FriendLimit,You are at the max friends limit.
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} is at the max friends limit.
+PlayerDropDown.UnFollow,Unfollow
+PlayerDropDown.Follow,Follow
+PlayerDropDown.Report,Report Abuse
+PlayerDropDown.Examine,Examine Avatar
+PlayerDropDown.Unfriend,Unfriend
+PlayerDropDown.FriendRequest,Friend Request
+PlayerDropDown.CancelRequest,Cancel Request
+PlayerDropDown.Accept,Accept
+InGame.PlayerList.Leaderboard,Leaderboard
+InGame.Presence.Label.InStudio,In Studio
+InGame.Presence.Label.Offline,Offline
+InGame.Presence.Label.Online,Online
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,Cannot retrieve your balance at this time. Your account has not been charged. Please try again later.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX is performing maintenance
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,The remaining {RBX_NUMBER} ROBUX will be credited to your balance.
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,Third-party item sales have been disabled for this place. Your account has not been charged.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,This item cost more tickets than you currently have. Try trading currency on www.roblox.com to get more tickets.
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,This item is not currently for sale. Your account has not been charged.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,This item requires {RBX_NAME1}. Click 'Upgrade' to upgrade your Builders Club!
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,This limited item has no more copies. Try buying from another user on www.roblox.com. Your account has not been charged.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,Want to buy the {RBX_NAME1} {RBX_NAME2} for
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,We couldn't retrieve the price of the item at this time. Your account has not been charged. Please try again later.
+PurchasePromptScript.PURCHASE_MSG.FREE,Would you like to take {RBX_NAME2} for FREE?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,"You need to create a ROBLOX account to buy items, visit www.roblox.com for more info."
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,You need {RBX_NUMBER} more ROBUX to buy the {RBX_NAME1} {RBX_NAME2}. Would you like to buy more ROBUX?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,Your account is under 13. Purchase of this item is not allowed. Your account has not been charged.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,Your balance after this transaction will be {RBX_NUMBER}.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,Your balance is now {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,Your purchase failed because {ERROR_REASON}. Your account has not been charged. Please try again later.
+PurchasePromptScript.PURCHASE_MSG.FAILED,Your purchase of {RBX_NAME1} failed because {RBX_NAME2}. Your account has not been charged. Please try again later.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,Your purchase of {RBX_NAME1} succeeded!
+PurchasePromptScript.ERROR_MSG.UNKNOWN,something went wrong
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,your account does not have enough ROBUX
+StatsUtil.KBps,{RBX_NUMBER} KB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(Network)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <channel> : switch channel menu tabs.
+GameChat_ChatCommandsTeller_MeCommand,/me <text> : roleplaying command for doing actions.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <speaker> : mute a speaker.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker> : unmute a speaker.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> or /w <speaker> : open private message channel with speaker.
+Average,Average
+GameChat_ChatServiceRunner_ChannelDoesNotExist,Channel {RBX_NAME} does not exist.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,Chat '/?' or '/help' for a list of chat commands.
+GameChat_SwallowGuestChat_Message,Create a free account to get access to chat permissions!
+Current,Current
+DisableVoiceKey,Disable Voice Chat
+EnableVoiceKey,Enable Voice Chat
+key_142,New Friend {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,Optional
+key_145,Points Awarded You received {RBX_NUMBER} points!
+Received,Received
+BACKPACK_SEARCH,Search
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,Short Description (Optional)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,Speaker '{RBX_NAME}' does not exist.
+GameChat_ChatMain_SpeakerHasBeenBlocked,Speaker '{RBX_NAME}' has been blocked.
+GameChat_ChatMain_SpeakerHasBeenMuted,Speaker '{RBX_NAME}' has been muted.
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,Speaker '{RBX_NAME}' has been unblocked.
+GameChat_ChatMain_SpeakerHasBeenUnMuted,Speaker '{RBX_NAME}' has been unmuted.
+GameChat_ChatMain_ChatBarTextTouch,Tap here to chat
+Target,Target
+GameChat_ChatService_ChatFilterIssues,The chat filter is currently experiencing issues and messages may be slow to appear.
+GameChat_ChatCommandsTeller_Desc,These are the basic chat commands.
+GameChat_TeamChat_WelcomeMessage,This is a private channel between you and your team members.
+GameChat_ChatMain_ChatBarText,"To chat click here or press ""/"" key"
+GameChat_ChatChannel_MutedInChannel,You are muted and cannot talk in this channel
+GameChat_ChatServiceRunner_YouAreNotInChannel,You are not in channel {RBX_NAME}
+GameChat_SwitchChannel_NotInChannel,You are not in channel: '{RBX_NAME}'
+GameChat_TeamChat_NowInTeam,You are now on the '{RBX_NAME}' team.
+GameChat_PrivateMessaging_NowChattingWith,You are now privately chatting with {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotJoinChannel,You cannot join channel {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,You cannot leave channel {RBX_NAME}
+GameChat_ChatService_CannotLeaveChannel,You cannot leave this channel.
+GameChat_DoMuteCommand_CannotMuteSelf,You cannot mute yourself.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,You cannot team chat if you are not on a team!
+GameChat_PrivateMessaging_CannotWhisperToSelf,You cannot whisper to yourself.
+GameChat_ChatService_YouHaveLeftChannel,You have left channel '{RBX_NAME}'
+GameChat_ChatFloodDetector_Message,You must wait before sending another message!
+GameChat_ChatFloodDetector_MessageDisplaySeconds,You must wait {RBX_NUMBER} seconds before sending another message!
+KEY_PLAYER_IDLE_DISCONNECT,You were disconnected for being idle {RBX_NUMBER} minutes
+GameChat_ChatMessageValidator_SettingsError,Your chat settings prevent you from sending messages.
+GameChat_ChatMessageValidator_WhitespaceError,Your message contains whitespace that is not allowed.
+GameChat_ChatMessageValidator_MaxLengthError,Your message exceeds the maximum message length.
+GameChat_SwitchChannel_NowInChannel,You are now chatting in channel: '{RBX_NAME}'
+Sent,Sent
+Corescripts.AvatarContextMenu.PlayerBlocked,Person Blocked
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,Unknown Experience Name
+CoreScripts.TopBar.GameNamePlaceHolder,Experience
+Feature.SettingsHub.Label.LeaveGame,Are you sure you want to leave the experience?
+Feature.SettingsHub.Label.GameInviteError,Experience invite could not be sent. Please try again later.
+Feature.SettingsHub.Label.ModeratedInviteError,Experience invite was moderated and not sent.
+Feature.SettingsHub.Action.InviteFriendsToPlay,Invite friends
+Feature.SettingsHub.Label.CaptureDescription,Capture your experiences. Photos taken are saved to your device.
+Feature.SettingsHub.Label.CaptureDescription1,Capture your experiences.
+Feature.SettingsHub.Label.WhichPlayer,Which Person?
+InGame.ConnectionError.DisconnectDuplicatePlayer,Same account launched experience from different device. Leave the experience on the other device and try again.
+InGame.ConnectionError.PlacelaunchUserLeft,The user you attempted to join has left the experience.
+InGame.ConnectionError.PlacelaunchHashExpired,This experience is currently unavailable. Please try again later.
+InGame.ConnectionError.PlacelaunchUnauthorized,You do not have permission to join this experience.
+InGame.ConnectionError.PlacelaunchDisabled,The destination place is restricted. Please try a different place or retry later.
+InGame.ConnectionError.DisconnectRejoin,Same account launched experience from different device. Reconnect if you prefer to use this device.
+InGame.ConnectionError.DisconnectDevMaintenance,The experience's developer has temporarily shut down the experience server.  Please try again.
+InGame.ConnectionError.DisconnectEvicted,Same account launched experience from different device. Reconnect if you prefer to use this device.
+InGame.ConnectionError.PlacelaunchPartyCannotFit,Your party is too large to join this experience. Try joining a different experience.
+InGame.ConnectionError.PlacelaunchRestricted,The status of the experience has changed and you no longer have access.  Please try again later.
+InGame.ConnectionError.PlacelaunchErrors,An error occured while joining the experience.  Please try again.
+InGame.ConnectionError.DisconnectLuaKick,You have been kicked by this experience or its moderators.
+InGame.ConnectionError.PlacelaunchHashException,This experience is currently unavailable. Please try again later.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,You have been kicked by this experience or its moderators. Moderation message:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Emotes are disabled in this experience.
+FriendPlayerPrompt.Title.UnfriendPlayer,Remove Connection?
+InGame.PlayerList.Players,People
+InGame.Presence.Label.InGame,In Experience
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,In-experience purchases are temporarily disabled
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> or /t <message> : send a team chat to people on your team.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,This channel is for system and experience notifications.
+GameChat_GetVersion_Message,This experience is running chat version [{RBX_NUMBER}.{RBX_NUMBER}].
+GameChat_PrivateMessaging_CannotChat,You are not able to chat with this person.
+GameChat_FriendChatNotifier_JoinMessage,Your connection {RBX_NAME} has joined the experience.
+Authentication.Login.WeChat.AntiAddictionText,"Boycott bad experiences, refuse pirated experiences. Be aware of self-defense and being deceived. Visiting experiences is good for your brain, but too much experience visit can harm your health. Manage your time well and enjoy a healthy lifestyle."
+Authentication.Login.Label.WeChatAntiAddictionText,"Boycott bad experiences, refuse pirated experiences. Be aware of self-defense and being deceived. Visiting experiences is good for your brain, but too much experience visit can harm your health. Manage your time well and enjoy a healthy lifestyle."
+Feature.SettingsHub.Label.NoFriendsScreen,Make friends so you can invite them to join you!
+Feature.SettingsHub.Label.RecentPlayed,Recently Visited
+InGame.HelpMenu.ConfirmLeaveGame,Are you sure you want to leave the experience?
+PlayerDropDown.UnBlock,Unblock
+PlayerDropDown.Block,Block
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,Internal Error. Please try login again.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Classic Thumbstick
+Feature.SettingsHub.Action.Unblock,Unblock
+Feature.SettingsHub.Action.Block,Block
+Feature.SettingsHub.Heading.BlockUser,Block {DisplayName}
+Feature.SettingsHub.Action.Cancel,Cancel
+Feature.SettingsHub.Message.BlockConfirmation,You and {DISPLAY_NAME} (@{RBX_NAME}) will no longer be able to communicate with each other.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,Delete Avatar Character
+Feature.SettingsHub.Heading.Report.ThanksForReport,Thanks for your report!
+Feature.SettingsHub.Label.Report.ReceivedReportBody,We’ve received your report and will take action soon if needed. Your feedback helps keep our community safe.
+Feature.SettingsHub.Label.Report.OtherActionsHeader,Other steps you can take
+Feature.SettingsHub.Action.Report.Done,Done
+Feature.SettingsHub.Label.Report.BlockDisplayName,Block {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,Unblock {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,Do you want to delete character {RBX_NAME} from Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Do you want to delete this character from Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,Delete
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,Cancel
+InGame.InspectMenu.Description.LayeredClothingR6,The R6 body type doesn't support this item.
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,Rename Character
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,Enter a new name for character {RBX_NAME}:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,Rename Character?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,Rename Character Disabled
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,Renaming characters is disabled
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,Okay
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,Are you sure you want to ignore all friend requests?
+Feature.Friends.Label.Cancel,Cancel
+Feature.SettingsHub.GameSettings.Input,Input
+Feature.SettingsHub.GameSettings.Output,Output
+Feature.SettingsHub.GameSettings.Device,Device
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,Voice Chat Not Audible
+Feature.SettingsHub.Prompt.Permission,Voice Chat Unavailable
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,Game volume is set to ‘0’ in settings. Please increase volume to hear voice.
+Feature.SettingsHub.Prompt.Subtitle.Permission,Go to your settings to allow Roblox to use the microphone.
+Feature.SettingsHub.Prompt.Subtitle.Retry,Please try leaving and rejoining.
+Feature.FaceChat.Message.PlaceUnavailable,This place is temporarily unavailable. Please try later.
+Feature.FaceChat.Subtitle.NotAvailable,Please try leaving and rejoining.
+Feature.SettingsHub.GameSettings.InputDevice,Input Device
+Feature.SettingsHub.GameSettings.OutputDevice,Output Device
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,Note: This will at max remove your most recent 300 friend requests each time you click the 'Ignore All' button.
+Feature.SettingsHub.Prompt.VoiceChatSuspended,Voice chat suspended
+Feature.SettingsHub.Prompt.Subtitle.Respect,Please help keep Roblox fun by being respectful to others.
+Feature.SettingsHub.Prompt.Understand,I Understand
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,Spatial voice is only available for places with Max Players of 30 or less.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,This account is not eligible to use Spatial Voice.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,Exceeds Max Players
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,Not Eligible for Voice
+InGame.ConnectionError.Action.Restart,Restart
+InGame.ConnectionError.Heading.VRDisconnected,Headset Disconnected
+InGame.ConnectionError.Message.RestartApp,"To continue playing, please restart the app."
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,Ok
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,Cancel
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,Update Character?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,Would you like to update the saved character?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,Would you like to update character {RBX_NAME}?
+Feature.SettingsHub.Prompt.Subtitle.Place,Spatial voice is only available for places with Max Players of 30 or less.
+Feature.SettingsHub.Prompt.Subtitle.User,This account is not eligible to use Spatial Voice.
+Feature.SettingsHub.Prompt.Place,Exceeds Max Players
+Feature.SettingsHub.Prompt.User,Not Eligible for Voice
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,Would you like to update character {RBX_NAME}?
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,Would you like to update the saved character?
+InGame.InspectMenu.Action.Cancel,Cancel
+InGame.InspectMenu.Action.Confirm,Confirm
+InGame.InspectMenu.Action.Favorite,Favorite
+InGame.CommonUI.Message.LuobuGameJoinWarning,"Please don't imitate dangerous in-game behaviors, please proactively report abuse if you encounter any negative behavior."
+Feature.DevModule.ProfileCard.StatusPlaceholder,What's on your mind?
+Feature.DevModule.ProfileCard.StatusErrorMessage,Status contains inappropriate words.
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Roblox Premium will get you:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux per month
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Access to Premium-only benefits
+Feature.PremiumUpsell.Label.AvatarShopBenefits,Access to exclusive and discounted items in avatar shop
+Feature.PremiumUpsell.Title.GetPremium,Get Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/month
+Feature.PremiumUpsell.Label.Disclosure,Subscribe for <b>{currencySymbol}{price}/month. Cancel anytime.</b> Roblox Terms of Use and Privacy Policy apply.
+Feature.PremiumUpsell.Action.Subscribe,Subscribe
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,"Due to the violation of our Community Standards, we have temporarily revoked your access to voice chat until"
+Feature.SettingsHub.Prompt.Subtitle.Revoked,"Due to multiple violations of our Community Standards, we have temporarily revoked your access to voice chat until the Beta phase ends."
+InGame.InspectMenu.Action.Unfavorite,Unfavorite
+Feature.AddFriends.Action.FriendAdded,Friend Added
+Feature.AddFriends.Action.RequestIgnored,Request Ignored
+Feature.Avatar.Label.LeftInitial,L
+Feature.Avatar.Label.Right,R
+Feature.Avatar.Label.RightInitial,R
+Feature.Friends.Label.Following,Following
+Feature.Friends.Label.Followers,Followers
+Feature.Friends.Label.MutualFriends,Mutual Friends
+Feature.Friends.Label.FollowsYou,Follows You
+Feature.Friends.Label.YouAreFollowing,You are following
+Feature.Friends.Action.Block,Block
+Feature.Friends.Label.Friend,Friend
+Feature.Friends.Action.Unblock,Unblock
+Verification.Identity.Label.VoiceChatUpsell,"This experience supports spatial voice chat. To use this feature, you need to verify you are at least 13 years old."
+Verification.Identity.Action.SkipVoiceChat,Join Without Voice Chat
+Verification.Identity.Label.DontShowAgain,Don't Show Again
+Verification.Identity.Label.EnableVoiceChat,Enable Voice Chat
+Verification.Identity.Label.UsesVoiceChat,This experience uses voice chat. Enabling voice chat will use your microphone input in voice enabled experiences.
+Verification.Identity.Label.ToggleInstruction,You can also toggle this feature on or off by accessing your Settings.
+Verification.Identity.Label.JoinWithout,Join Without Voice Chat
+InGame.CommonUI.BetaBadge.BadgeText,Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,"Please report abuse if you encounter people breaking our Community Guidelines. If you have opted-in to voice chat, Roblox records voice audio anywhere on the platform for moderation and safety purposes. By continuing to use the voice chat feature, you consent to Roblox's collection, use, and storage of your voice recording for moderation and safety purposes. You can opt-out of spatial voice at any time."
+InGame.CommonUI.Badge.Popup.HeaderList,You have opted in to one or more of our beta features:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,Voice chat
+InGame.CommonUI.Badge.BadgeText,BETA
+InGame.CommonUI.Badge.Popup.LearnMoreLink,Learn More
+InGame.CommonUI.Badge.Popup.LearnMoreText,Please check “Voice Recording FAQ” help article for more information.
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,You can now chat more freely with reduced filters! This is only available to eligible users who are 13+.
+InGame.CommonUI.Badge.Popup.VoiceInfo,"You have opted in to our beta feature, chat with voice. Roblox records voice audio anywhere on the platform for moderation and safety purposes. By continuing to use the chat with voice feature, you consent to Roblox’s collection, use, and storage of your voice recording for moderation and safety purposes. You can opt-out of chat with voice at any time."
+InGame.CommonUI.Badge.Popup.CommunityStandards,Please Report Abuse if you encounter people breaking our Community Standards.
+Feature.NativeAds.Label.Sponsored,Sponsored
+Feature.NativeAds.Label.Ad,Ad
+InGame.ConnectionError.DisconnectOutOfMemory,Your device does not have enough memory to run this experience. Exit back to the app.
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,"Due to this device's capabilities, this experience has become unstable and may crash."
+InGame.ConnectionError.Title.ExperienceUnstable,Experience Unstable
+Feature.SettingsHub.Label.MethodOfAbuse,Type Of Abuse?
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,Voice Chat
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,This person was screaming at the top of their lungs
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,This person typed a mean word in text chat
+Feature.SettingsHub.MethodOfAbuse.Text.Title,Text Chat
+Feature.SettingsHub.MethodOfAbuse.Other.Title,Other
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,"This person is following me, wearing a bad shirt, etc."
+Feature.SettingsHub.ReportSubmitted.MutePlayer,Mute {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,Block {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,We've received your report and will take more action soon if needed. Your feedback helps keep our community safe.
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,You won’t be able to hear {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,You and {Player} will no longer be able to communicate with each other.
+Feature.SettingsHub.Label.ReportComment,"In your own words, help us understand what went wrong."
+Feature.SocialShare.Action.Share,Share
+Feature.SocialShare.Label.ShareServerLink,Share Invite Link
+Feature.SocialShare.Label.Copied,Copied
+Feature.AccountSettings.Label.FreeCommConsentOnly,"I consent to Roblox’s collection, use, and storage of my voice recording for moderation and safety purposes only."
+InGame.CommonUI.Button.KeepPlaying,Keep Playing
+InGame.ConnectionError.Title.OutOfMemory,Out of Memory
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,This experience is using too much memory and might crash.
+Feature.SettingsHub.Label.DefaultInviteMessage,Would you like to invite {DisplayName} to join you?
+Feature.SettingsHub.Heading.InviteUser,Invite {DisplayName}?
+Feature.SettingsHub.Action.MuteAll,Mute All
+Feature.SettingsHub.Action.UnmuteAll,Unmute All
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,You cannot whisper to yourself.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,Warning: Changing your username will remove your verified badge status. Are you sure you want to do this?
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,Nameplate Visibility
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,Visible
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,Hidden
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (Original)
+Feature.SettingsHub.LanguageSelection.Unavailable,Unavailable
+Feature.SettingsHub.LanguageSelection.SettingLabel,Experience Language
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,Learn More about Voice Recording
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,Mute & Block {DisplayName}?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,You and {Player} will not longer be able to communicate with each other.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,Mute {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,Block {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,You and {DisplayName}(@{Username}) will not longer be able to communicate with each other.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,You have blocked and muted {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Muted,You have muted {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Blocked,You have blocked {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,Mute & Block {DisplayName}(@{Username})?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,Teleporting Paused
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,Teleporting will resume upon menu close.
+Feature.NativeAds.Action.EnterExperience,Enter the Experience
+Feature.NativeAds.Action.ReturnToExperience,Return to Experience
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,Your privacy settings prevent you from joining this server.
+CoreScripts.TopBar.RobloxMenu,Roblox Menu
+InGame.CommonUI.Label.MicOff,Mic Off
+InGame.CommonUI.Label.MicOnRecording,Mic On (recording audio)
+InGame.InspectMenu.Label.VerifiedAvatar,{PLAYER_NAME}'s{VERIFIED_BADGE} Avatar
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,You don't have enough Robux to buy this item.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,Current Balance
+IAPExperience.InsufficientRobux.Action.Cancel,Cancel
+IAPExperience.InsufficientRobux.Action.BuyRobux,Buy Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,AdGui's Adornee is not in Block shape
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,AdGui's Adornee rotation is invalid
+Feature.NativeAds.Description.InvalidAdPortalParentType,Parent Type is not valid
+Feature.NativeAds.Description.AdPortalParentMissing,Parent does not exist
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,AdGui's Adornee size is invalid
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,AdGui's Adornee position is invalid
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal doesn't have correct hierarchy
+Feature.NativeAds.Description.InvalidAdGuiValidation,AdGui validation failed
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal doesn't have correct properties set
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,AdPortal parent part doesn't have correct properties set
+Feature.NativeAds.Description.InvalidAdGuiAdornee,AdGui's Adornee is not a Part
+Feature.NativeAds.Description.AdPortalMissing,AdPortal doesn't exist
+IAPExperience.InsufficientRobux.Text.YouNeed,You need additional {robux}. Please purchase more Robux Packages then come back to the experience.
+IAPExperience.InsufficientRobux.Action.RobuxStore,Go to Robux Store
+CoreScripts.TextChat.Emote.Error.NotOwned,You do not own the emote '{RBX_EMOTE}'.
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,"Due to the violation of our Community Standards, we have temporarily revoked your access to chat with voice until"
+Feature.SettingsHub.Prompt.MicUseSuspended,Microphone use Suspended
+InGame.ConnectionError.Title.LowMemoryWarning,Low Memory Warning
+InGame.ConnectionError.Queue,Your position in line: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,Submit Clothing
+CoreScripts.PublishAssetPrompt.TitleTextEmote,Submit Emote
+CoreScripts.PublishAssetPrompt.TitleTextPackage,Submit Package
+CoreScripts.PublishAssetPrompt.Name,Name
+CoreScripts.PublishAssetPrompt.Description,Description
+CoreScripts.PublishAssetPrompt.InvalidName,Invalid Name
+CoreScripts.PublishAssetPrompt.InvalidDescription,Invalid Description
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,I agree that this experience will submit my avatar item to moderation and upload to My Creations.
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,I agree that this experience will submit my emote to moderation and upload to My Creations.
+CoreScripts.PublishAssetPrompt.Cancel,Cancel
+CoreScripts.PublishAssetPrompt.Submit,Submit
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,Description
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,Name
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,You do not own that emote.
+Client.App.Message.Win32DeprecationNotifyPhase,"In the near future, Roblox will no longer support your Windows 32-bit devices. To keep playing Roblox, please use a device that is compatible with Roblox's system requirements."
+Client.App.Message.Win32DeprecationDeadlinePhase,"On April 2, 2023, Roblox will no longer support Windows 32-bit devices. This includes Win7 32-bit, Win8 32-bit, and Win10 32-bit."
+Client.App.Message.Win32DeprecationDeprecatedPhase,"Roblox no longer supports Windows 32-bit devices. This includes Win7 32-bit, Win8 32-bit, and Win10 32-bit. To keep playing Roblox, please use a device that is compatible with Roblox's system requirements."
+Feature.GameDetails.Label.Camera,Camera
+InGame.CommonUI.Label.Return,Return to
+InGame.CommonUI.Label.ReturnFallback,Return to previous experience
+InGame.CommonUI.Label.ReturnTo,"Return to ""{placeName}"""
+Feature.FaceChat.Heading.FacialAnimation,Facial Animation
+Feature.FaceChat.Subtitle.FeatureDisabled,Facial animation is temporarily unavailable. Please try again later.
+Feature.FaceChat.Subtitle.ServerDisabled,Facial animation is temporarily unavailable. Please try again later.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,Turning off your camera may improve experience performance.
+Feature.FaceChat.Heading.VideoNoPermission,Camera Unavailable
+Feature.FaceChat.Subtitle.VideoNoPermission,Go to your settings to allow Roblox to use the camera.
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,Device Performance Low
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,Facial Animation Unavailable
+Feature.FaceChat.Heading.VideoUnsupported,Device Camera Not Supported
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox is unable to use your camera to animate your avatar.
+Feature.SettingsHub.Prompt.Connecting,Voice is Still Connecting
+Feature.SettingsHub.Prompt.Subtitle.Connecting,Voice connection still in progress. This may take a moment.
+CoreScripts.ContactList.Label.Outgoing,Outgoing
+CoreScripts.ContactList.Label.Incoming,Incoming
+CoreScripts.ContactList.Label.Missed,Missed
+Feature.FaceChat.Heading.LODCameraForceDisable,Camera Has Been Turned Off
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox has turned your device camera off due to performance issues.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,Set Up
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,"You must set up 2-Step Verification to complete this action. This will help protect your login, purchases, and more."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,2-Step Verification Required
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,"Due to the violation of our Community Standards, we have temporarily revoked your access to chat with voice and chat as your avatar until"
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,Future violations may result in additional account actions.
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,Effective until
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,"Our systems have detected behavior that may violate our Community Standards. As a precaution, we have temporarily disabled your access to chat with voice and avatar."
+Feature.SettingsHub.Prompt.Subtitle.Microphone,"Our systems have detected behavior that may violate our Community Standards. As a precaution, we have temporarily disabled your access to chat with voice."
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Microphone and Camera Use Suspended
+IAPExperience.BuyRobux.Banner.Text,Robux allows you to purchase upgrades for your avatar or buy special abilities in experiences
+IAPExperience.BuyRobux.Banner.Title,Unlock Robux
+IAPExperience.BuyRobux.Text.MoreRobux,{robux} Robux More
+InGame.ConnectionError.PlacelaunchHttpError,A Http error has occurred. Please close the client and try again.
+InGame.ConnectionError.PlacelaunchGameFull,Requested experience is full
+InGame.ConnectionError.PlacelaunchGameEnded,"This experience has ended, or the server became unavailable unexpectedly due to a system error"
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,Your device’s memory is low. Leaving now will save your state and prevent Roblox from crashing.
+InGame.ConnectionError.Waiting,Waiting for an available server
+InGame.ConnectionError.Loading,"Server found, loading..."
+InGame.ConnectionError.Joining,Joining server
+NotificationScript2.UINavigation.FormattedText,Press {KEY_NAME} to toggle.
+Feature.FaceChat.Subtitle.UnsupportedDevice,Your hardware does not meet the requirements to animate your avatar using your camera.
+Feature.AccountSettings.Heading.Communication,Communication
+Feature.FaceChat.Heading.NotAvailable,Facial Animation Unavailable
+InGame.ConnectionError.DisconnectPrivateServerKickout,You have been disconnected because you no longer have access to this private server.
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,Package by {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,Your avatar has a head that does not support facial animation. Compatible heads are available in your inventory and the Avatar Shop.
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,Cancel
+CoreScripts.EmoteThumbnailEditor.Action.Update,Update
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,Edit thumbnail
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,Rotation
+CoreScripts.EmoteThumbnailEditor.Label.Time,Time
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,Are you sure you want to leave and join another experience?
+Feature.SettingsHub.Prompt.SimpleNudge,Please be civil and kind
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,Our systems have detected behavior that may violate our Community Standards. This is a gentle reminder to keep Roblox civil and kind.
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,Future violations may result in additional account actions.
+Feature.SettingsHub.Prompt.ThankYouForFeedback,Thanks for letting us know
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,We will continue to improve our systems based on your feedback.
+Feature.SettingsHub.Chat.TranslationEnabled,Automatically Translate Chat
+Notifications.ToastNotifications.Title.LeavingExperience,Leaving Experience
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,You can find this item in your inventory.
+CoreScripts.PublishAssetPrompt.PublishFailed,Something went wrong. Please try again.
+CoreScripts.PublishAssetPrompt.PermissionDenied,Something went wrong. Please try again.
+CoreScripts.PublishAssetPrompt.Timeout,Something went wrong. Please try again.
+CoreScripts.PublishAssetPrompt.NoUserInput,Something went wrong. Please try again.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,Success!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,Submission Failed
+Feature.SettingsHub.Chat.TranslationInformation,Text chat will be translated into your language. Tap the symbol in front of the message to see the original.
+CoreScripts.TextChat.Clear.Help.Description,/clear or /cls: clear messages in chat window 
+GameChat_ChatMain_ChatTranslationOnboarding,Text chat will be translated into your language. Tap the symbol in front of the message to see the original. You can turn off translations in the Settings menu.
+CoreScripts.PublishAssetPrompt.TitleTextModel,Submit Package
+IAPExperience.BuyRobux.Text.MoreRobux2,{robux} More Robux
+CoreScripts.PublishAssetPrompt.UndefinedError,Something went wrong. Please try again. Error Code: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,Off
+InGame.CommonUI.Label.On,On
+CoreScripts.PublishAssetPrompt.DisclaimerModel,Created items will be reviewed and you may not receive a refund for rejected items that do not comply with Community Standards.
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,You have purchased Robux successfully!
+CoreScripts.AssetPreviewView.Action.ResetView,Reset view
+CoreScripts.AssetPreviewView.Label.LoadingFailed,Loading failed
+CoreScripts.PublishAssetPrompt.ResultModalOk,OK
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,We've detected language that may violate Roblox's Community Standards.<br /><br />You may lose access to Chat with Voice after multiple violations.
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,We've detected language that may violate Roblox's Community Standards. You may lose access to Chat with Voice after multiple violations.
+Feature.SettingsHub.Prompt.GotIt,Got It
+CreatorDashboard.AssetTypes.Label.Body,Body
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Insufficient Robux
+IAPExperience.Loading.Text.PurchasingRobux,Purchasing Robux...
+IAPExperience.Loading.Text.PurchasingItem,Purchasing item...
+IAPExperience.Loading.WaitingForPurchase,Waiting for purchase...
+IAPExperience.Loading.WaitingForRobux,Waiting for Robux to be granted...
+IAPExperience.Loading.Text.WaitingForPurchase,Waiting for purchase...
+IAPExperience.Loading.Text.WaitingForRobux,Waiting for Robux to be granted...
+Notifications.NotificationStream.Title.ReportNotification,Report Notification
+Notifications.NotificationStream.AbuseReason.Bullying,Bullying
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,Cheating/Exploiting
+Notifications.NotificationStream.AbuseReason.Dating,Dating
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,Offsite Links
+Notifications.NotificationStream.AbuseReason.Other,Other
+Notifications.NotificationStream.AbuseReason.AskingPII,Personal Question
+Notifications.NotificationStream.AbuseReason.Scamming,Scamming
+Notifications.NotificationStream.AbuseReason.Profanity,Swearing
+Feature.ReportAbuse.Message.ErrorSubmit,There was a problem submitting your report.
+Feature.ReportAbuse.Action.ReportAbuse,Report Abuse
+Feature.ReportAbuse.Label.TellUsHowAsset,Tell us how you think the asset is breaking the rules of Roblox.
+Feature.ReportAbuse.Label.ReasonForFlag,Reason For Flag:
+Feature.ReportAbuse.Message.ThanksForFlagging,"We are unable to respond to each report, but your feedback will help us improve the experience for all creators."
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,Your comment must be less than {characterLimit} characters.
+Feature.SettingsHub.Prompt.IncorrectNudge,Did we make a mistake?<br /><u>Let us know</u>
+Feature.SettingsHub.Prompt.RememberRules,Remember our policies
+Feature.SettingsHub.Label.Captures,Captures
+InGame.InspectMenu.Label.LimitedItems,Limited item
+InGame.InspectMenu.Label.FromResale,{PRICE} From Resale
+InGame.InspectMenu.Action.FromResale,{PRICE} From Resale
+InGame.InspectMenu.Label.OwnedItem,Owned Item ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,Owned Items ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,Item Limit Reached
+Feature.FaceChat.Heading.UnableToAccessCamera,Unable to access Camera
+Feature.FaceChat.Subtitle.UnableToAccessCamera,"In order to animate your avatar using camera, go to your OS Settings to allow Roblox to use the camera"
+Feature.SettingsHub.Prompt.MicrophonePermission,Unable to access Microphone
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,"In order to chat with voice, go to your OS Settings to allow Roblox to use the microphone"
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,Remember for this experience.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,"No, mute others"
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,"Yes, hear others"
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,"You'll hear other voices, but your mic will stay muted until you're ready to chat."
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,Join with Voice On?
+CoreScripts.PublishCommon.Creator,Creator
+CoreScripts.PublishCommon.Leave,Yes
+CoreScripts.PublishCommon.MadeIn,Made In
+CoreScripts.PublishCommon.Stay,No
+CoreScripts.PublishCommon.Type,Type
+CoreScripts.PublishCommon.UnsavedWarning,You may lose any unsaved changes
+Feature.Accessibility.Description.PreferredTransparency,Improve contrast by adjusting transparency on some backgrounds
+Feature.Accessibility.Description.ReducedMotion,Stop or reduce motion effects
+Feature.Accessibility.Description.UiNavigationKeyBind,Use the {uiNavigationKey} key to enter and exit UI navigation mode
+Feature.Accessibility.Heading.PreferredTransparency,Background transparency
+Feature.Accessibility.Heading.ReducedMotion,Reduce motion
+Feature.Accessibility.Heading.UiNavigationKeyBind,UI navigation toggle
+Feature.Accessibility.PreferredTransparency.Opaque,Opaque
+Feature.Accessibility.PreferredTransparency.Transparent,Transparent
+Feature.Avatar.Heading.Clothing,Clothing
+Feature.Avatar.Label.Accessory,Accessory
+Feature.Avatar.Label.Back,Back
+Feature.Avatar.Label.ClassicPants,Classic Pants
+Feature.Avatar.Label.ClassicShirts,Classic Shirts
+Feature.Avatar.Label.ClassicTShirts,Classic T-Shirts
+Feature.Avatar.Label.Climb,Climb
+Feature.Avatar.Label.DressesAndSkirts,Dresses & Skirts
+Feature.Avatar.Label.DynamicHead,Dynamic Head
+Feature.Avatar.Label.Emote,Emote
+Feature.Avatar.Label.Face,Face
+Feature.Avatar.Label.Fall,Fall
+Feature.Avatar.Label.Gear,Gear
+Feature.Avatar.Label.Hair,Hair
+Feature.Avatar.Label.Hat,Hat
+Feature.Avatar.Label.Head,Head
+Feature.Avatar.Label.Idle,Idle
+Feature.Avatar.Label.Jacket,Jacket
+Feature.Avatar.Label.Jump,Jump
+Feature.Avatar.Label.LeftArm,Left Arm
+Feature.Avatar.Label.LeftArms,Left Arms
+Feature.Avatar.Label.LeftLeg,Left Leg
+Feature.Avatar.Label.LeftLegs,Left Legs
+Feature.Avatar.Label.LeftShoe,Left Shoe
+Feature.Avatar.Label.Mood,Mood
+Feature.Avatar.Label.Neck,Neck
+Feature.Avatar.Label.Pants,Pants
+Feature.Avatar.Label.RightArm,Right Arm
+Feature.Avatar.Label.RightArms,Right Arms
+Feature.Avatar.Label.RightLeg,Right Leg
+Feature.Avatar.Label.RightLegs,Right Legs
+Feature.Avatar.Label.RightShoe,Right Shoe
+Feature.Avatar.Label.Run,Run
+Feature.Avatar.Label.Shirt,Shirt
+Feature.Avatar.Label.Shorts,Shorts
+Feature.Avatar.Label.Shoulder,Shoulder
+Feature.Avatar.Label.Sweater,Sweater
+Feature.Avatar.Label.Swim,Swim
+Feature.Avatar.Label.Torso,Torso
+Feature.Avatar.Label.TShirt,T-Shirt
+Feature.Avatar.Label.Waist,Waist
+Feature.Avatar.Label.Walk,Walk
+Feature.Catalog.Label.Animation,Animation
+Feature.Catalog.Label.Attribution,Made In
+Feature.Catalog.Label.Body,Body
+Feature.Catalog.Label.CategoryType,Type
+Feature.Catalog.Label.Emotes,Emotes
+Feature.Catalog.Label.Eyebrow,Eyebrow
+Feature.Catalog.Label.Eyelash,Eyelash
+Feature.Catalog.Label.Filter.Creator,Creator
+Feature.GamepadDisconnect.Label.Message,"Controller for user ""%s"" has been disconnected, please press '%s' on the controller you would like to continue with."
+Feature.GamepadDisconnect.Label.Title,Missing Controller
+InGame.InspectMenu.Action.SoldOut,Sold Out
+CoreScripts.PublishCommon.Disclaimer,Created items will be reviewed and you may not receive a refund for rejected items that do not comply with Community Standards.
+Feature.ReportAbuse.Action.AttachScreenshot,Attach Screenshot
+Feature.ReportAbuse.Action.BackToExperience,Back To Experience
+Feature.ReportAbuse.Action.HighlightScene,Highlight Scene
+Feature.ReportAbuse.Action.Next,Next
+Feature.ReportAbuse.Action.Retake,Retake
+Feature.ReportAbuse.Action.RetakeScene,Retake Scene
+Feature.ReportAbuse.Label.SelectPerson,Select Person in Scene
+Feature.ReportAbuse.Label.SelectProblem,Select Problem in Scene
+Feature.ReportAbuse.Message.ProblemNotInScene,"If the problem is not in this scene, you can “Retake” the screenshot."
+Feature.ReportAbuse.Message.RetakeScene,Help us understand what’s happening around you. We’ll capture the scene the moment you select “Report.”
+Feature.SettingsHub.Action.CaptureScene,Capture Scene
+Feature.SettingsHub.Label.AttachScreenshot,Attach Screenshot? (optional)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,Attach Screenshot?{lineBreak}(optional)
+Feature.SettingsHub.Label.SceneCaptured,Scene Captured
+CommonUI.Controls.Action.Cancel,Cancel
+CommonUI.Controls.Action.Confirm,Confirm
+CoreScripts.TopBar.ControlMessageMotion,Motion Tracking
+CoreScripts.TopBar.ControlMessageOff,Off
+CoreScripts.TopBar.ControlMessageOn,On
+CoreScripts.TopBar.ControlMessageSound,Sound Tracking
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,Avatar › Customize › Head & Body
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,Equip a dynamic head to wink!
+CoreScripts.TopBar.RobloxPermissionErrorBody,Roblox Settings › Privacy › Microphone and Camera Input
+CoreScripts.TopBar.RobloxPermissionErrorHeader,Allow Camera Access
+CoreScripts.TopBar.SelfViewLabel,Self View
+CoreScripts.TopBar.SelfViewSecondaryAction,Open
+InGame.CommonUI.Badge.Popup.DisclaimerText2,"Please report abuse if you encounter people breaking our Community Guidelines. If you have opted-in to use voice services, Roblox records voice audio anywhere on the platform for moderation, safety, and for improving our services and tools. By continuing to use the voice services, you consent to Roblox' collection, use, and storage of your voice recordings for those purposes. You can opt-out of voice features at any time."
+CoreScripts.TopBar.MenuToggle,Expand/Collapse
+CoreScripts.TopBar.MoreMenu,More Menu
+CoreScripts.TopBar.OverflowMenu,Overflow Menu
+CoreScripts.TopBar.Title.ExperienceControls,Experience Controls
+CoreScripts.TopBar.ToggleMic,Mute/Unmute Self
+Feature.Catalog.Label.Bundle,Bundle
+Feature.SocialContextToast.Action.InviteBack,Invite Back
+Feature.SocialContextToast.Action.JoinFriend,Join
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} left and joined {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} left this experience
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} joined you
+Feature.SocialContextToast.Message.InvitationConfirmation,Invitation sent
+Feature.SocialContextToast.Message.YouJoinedManyFriends,You've joined {FRIEND_NAME} and {FRIEND_COUNT} other friends
+Feature.SocialContextToast.Message.YouJoinedOneFriend,You've joined {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,You've joined {FRIEND_NAME_ONE} and {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,This person's avatar is wearing offensive clothing
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,Avatar
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,"You’ll hear others speak, but your mic will stay muted until you're ready to chat."
+Feature.Subscription.Text.DisclaimerMonthly,Renews monthly. Cancel anytime.
+Feature.Subscription.Text.PerMonth,/month
+Feature.SettingsHub.Action.EveryoneToggle,Everyone
+Feature.SettingsHub.Action.NobodyToggle,Nobody
+Feature.SettingsHub.Action.NonfriendsToggle,Non-friends
+Feature.SettingsHub.Label.Mute,Mute
+Feature.SocialContextToast.Message.InvitationFailure,Trouble sending invitations
+Feature.SocialShare.Action.CopyLink,Copy Link
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,Renews monthly. Cancel anytime.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,"You joined {FRIEND_NAME}, but they are in a restricted place right now"
+Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} has moved to a restricted location within this experience
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox automatically translates supported languages in chat
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,Messages you send and receive will be translated automatically
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,Chat translation is on for supported languages
+Feature.SettingsHub.Chat.TranslationSetting,Automatic Chat Translation
+Feature.SettingsHub.Chat.TranslationToggleSetting,Option to View Untranslated Message
+Feature.Call.Description.NoFriendsFound,No friends found
+Feature.Call.Error.Description.AlreadyInCall,You are already in a call
+Feature.Call.Error.Description.CallEnabledVerificationFailed,Failed to verify call eligibility.
+Feature.Call.Error.Description.Generic,Something went wrong. Please try again later.
+Feature.Call.Error.Description.SettingsNotCallEnabled,Your current settings don't allow calling.
+Feature.Call.Error.Label.OhNo,Oh no!
+Feature.Call.Label.CallEnded,Call Ended
+Feature.Call.Label.Calling,Calling...
+Feature.Call.Label.Incoming,Incoming
+Feature.Call.Label.Missed,Missed
+Feature.Call.Label.Outgoing,Outgoing
+Feature.Call.Label.RecentCalls,Recent Calls
+Feature.Call.Label.RobloxCall,Roblox Call
+Feature.Call.Label.StartNewCall,Start New Call
+Feature.Call.Label.Teleporting,Teleporting...
+Feature.Call.Label.Yesterday,Yesterday
+Feature.Call.Prompt.AddFriends,Add friends on Roblox to make a call
+Feature.Call.Prompt.FirstCall,Try making your first call
+Feature.Call.Prompt.SearchFriends,Search friends
+Feature.Call.Prompt.StartCall,Start a call
+Feature.FaceChat.Heading.LowPerformanceDetected,Low Performance Detected
+Feature.FaceChat.Subtitle.LowPerformanceDetected,Turning off your camera may improve your device performance
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,Can’t load friends. Try again later.
+Feature.SettingsHub.Label.NoFriendsPageMessage,Add friends so you can explore together.
+CoreScripts.Feedback.EntryPoint.ButtonText,Give Feedback
+CoreScripts.Feedback.EntryPoint.MenuLabel,Feedback
+CoreScripts.Feedback.EntryPoint.OptionText,Give Translation Feedback
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,Exit
+CoreScripts.Feedback.FeedbackBar.HelpButton,Help
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,Provide any additional comments below (optional)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,Enter any additional comments you have here
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,Cancel
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,What is the correct translation? (optional)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,Enter the correct translation here
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,Give Feedback
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,Image
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,Game Object
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Mesh
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,Model
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,Video
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,What is the problem with this translation? (optional)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,Accuracy Issue
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,Inappropriate or Derogatory
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,No Selection
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,Spelling or Grammar Issue
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,Untranslated
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,Selected Object
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,Submit
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,Selected Text
+CoreScripts.Feedback.Help.CloseInstructions,Close Instructions
+CoreScripts.Feedback.Help.Instructions1,"In feedback mode, your screen will be frozen and you will not be able to move your avatar or the camera. Tap or click on any object to give feedback on incorrect or missing translations."
+CoreScripts.Feedback.Help.Instructions2,"When you select an object, a form will appear where you can provide more information if you want to. Thank you for helping us improve translations on Roblox!"
+CoreScripts.Feedback.Help.MainHeader,Help
+CoreScripts.Feedback.SubmissionToastBody,Roblox will use this information to help improve the translation quality of this experience
+CoreScripts.Feedback.SubmissionToastHeader,Thanks for your feedback!
+Feature.Call.Description.Friends,Friends who may or may not have devices and settings for an optimal call experience.
+Feature.Call.Description.SuggestedFriends,Friends with devices and settings set for an optimal call experience.
+Feature.Call.Error.Description.DeviceNotSupported,Calling is currently not supported on your device. Please try again later.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} is currently busy and can't receive your call right now. Please try again later.
+Feature.Call.Error.Title.CouldntMakeCall,Couldn't make call
+Feature.Call.Error.Title.FriendBusy,Friend is busy
+Feature.Call.Label.Friends,Friends
+Feature.Call.Label.Suggested,Suggested
+Feature.Call.Modal.EnableChatVoiceBody,Turn on chat with voice in Settings > Privacy to talk with others in this experience.
+Feature.Call.Modal.EnableChatVoiceTitle,Enable chat with voice
+InGame.InspectMenu.Action.Go,Go
+InGame.InspectMenu.Attribution.GoToDescription,You will leave this area and be taken to {EXPERIENCE_NAME}.
+InGame.InspectMenu.Attribution.GoToExperience,Go to Experience?
+Common.Presence.Label.Online,Online
+Feature.Call.Label.Block,Block {combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,Teleport Now
+CoreScripts.Ads.Action.PortalPromptCancel,Cancel
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,Walk away to dismiss the dialog.
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,Teleport to {RBX_NAME}?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,Teleport?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,You can find your camera and self-view controls here
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,Use your camera to make your avatar smile and move just like you
+Feature.Call.Description.ExperienceError,Chat with voice is not supported by this experience.
+Feature.Call.Error.Title.ExperienceError,Experience Error
+Feature.SettingsHub.Label.ReasonForAbuse,Reason for Abuse?
+Notifications.NotificationStream.Bundle.ShowLess,Show less
+Notifications.NotificationStream.Bundle.ShowMoreV2,{notificationCount} more
+CommonUI.Controls.Input.Optional,{inputLabel} (optional)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,Your access to chat with voice has been disabled until {dateTime} due to behavior that may violate our Community Standards.
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,Expand notification bundle
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,"Gift card currency must match your account location. You can review your account location in Settings. For any further issues, please contact {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}."
+Feature.Call.Label.Unfriend,Unfriend {combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,"Controller for user ""%s"" has been disconnected. Please reconnect your controller."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,We’ve temporarily turned off voice chat because you may have used language that goes against Roblox Community Standards.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,"If this happens again, you may lose access to your account."
+Feature.SettingsHub.Prompt.XMinuteSuspension,{banDurationInMinutes} minute suspension
+Feature.ReportAbuse.DSAIllegal.ReportLink,Report illegal content under the EU Digital Services Act.
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,Report Illegal Content
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,On ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,"Roblox did not use behavioral information to deliver this ad. You are seeing this ad based on information including device type, location, and age to serve you appropriate and relevant ads."
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,"To report illegal content under the EU Digital Services Act, visit: https://www.roblox.com/illegal-content-reporting"
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,Default ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,Maximum Frame Rate
+CoreScripts.Ads.Action.Close,Close
+CoreScripts.Ads.Label.WhyThisAd,Why This Ad?
+CoreScripts.FTUX.Mic.Body,Turn on your microphone
+CoreScripts.FTUX.Mic.Header,Chat with your voice
+CoreScripts.FTUX.Onboard.Body,"Leaderboards, chat, safety - and more"
+CoreScripts.FTUX.Onboard.Header,Get to your favorite controls fast
+CoreScripts.FTUX.SelfView.Body,"When your camera is on, your avatar will follow your movement as you smile, blink, and more"
+CoreScripts.FTUX.SelfView.Header,Animate your avatar
+CoreScripts.FTUX.Tools.Body,"Follow scores, report problems, use emotes"
+CoreScripts.FTUX.Tools.Header,Top tools & actions
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,"Pinch to Zoom, Swipe to Rotate, 2 Finger Swipe to Pan"
+CoreScripts.PublishAvatarPrompt.Body,Body
+CoreScripts.PublishAvatarPrompt.BodyName,Body Name
+CoreScripts.PublishAvatarPrompt.Close,Close
+CoreScripts.PublishAvatarPrompt.CreatedBody,{DisplayName}'s Body
+CoreScripts.PublishAvatarPrompt.CreatedHead,{DisplayName}'s Head
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,{DisplayName}'s Left Arm
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,{DisplayName}'s Left Leg
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,{DisplayName}'s Right Arm
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,{DisplayName}'s Right Leg
+CoreScripts.PublishAvatarPrompt.CreatedTorso,{DisplayName}'s Torso
+CoreScripts.PublishAvatarPrompt.Head,Head
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,Leave Creation?
+CoreScripts.PublishAvatarPrompt.LeftArm,Left Arm
+CoreScripts.PublishAvatarPrompt.LeftLeg,Left Leg
+CoreScripts.PublishAvatarPrompt.Pan,Pan
+CoreScripts.PublishAvatarPrompt.ResetView,Reset View
+CoreScripts.PublishAvatarPrompt.RightArm,Right Arm
+CoreScripts.PublishAvatarPrompt.RightLeg,Right Leg
+CoreScripts.PublishAvatarPrompt.Rotate,Rotate
+CoreScripts.PublishAvatarPrompt.SubmitCreation,Submit Creation
+CoreScripts.PublishAvatarPrompt.Torso,Torso
+CoreScripts.PublishAvatarPrompt.Zoom,Zoom
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,Chat Translation Language
+CoreScripts.Feedback.FeedbackBar.MainLabel,Give Feedback
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,Experience Object: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,Select any text to give feedback on incorrect or missing translations.
+CoreScripts.Feedback.MobileSelectionModal.Close,Close
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,Give Feedback
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,Experience Object: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,Selected Text
+CoreScripts.Feedback.Onboarding.Cancel,Cancel
+CoreScripts.Feedback.Onboarding.Instructions,Select any text to give feedback on incorrect or missing translations.
+CoreScripts.Feedback.Onboarding.MainHeader,Tell Us What's Wrong
+CoreScripts.Feedback.Onboarding.Start,Start
+CoreScripts.FTUX.Onboard.Complete,Got It
+CoreScripts.FTUX.Onboard.ShowMe,Show Me
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,Your feedback helps us improve our systems.
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,Thanks for letting us know
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Freecam
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,Show GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,Yes
+Feature.Notifications.Heading.EnableNotifications,Turn on Notifications for this experience
+Feature.Notifications.Heading.EnableNotificationsForExperience,Turn on Notifications for {experienceName}
+Feature.Notifications.Label.ReceiveActivityUpdates,Receive updates on activity while you're away
+Feature.Notifications.Response.NotificationsEnabled,Notifications turned on for this experience
+Feature.Notifications.Response.NotificationsEnabledForExperience,Notifications turned on for {experienceName}
+Feature.SettingsHub.Action.LearnMore,Learn more
+Feature.SettingsHub.Action.NotNow,Not Now
+Feature.SettingsHub.Action.TurnOn,Turn On
+Feature.SettingsHub.Prompt.ChangeYourMind,If you change your mind
+Feature.SettingsHub.Prompt.JoinedVoiceChat,You've Joined Voice Chat
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,You can always disconnect from Voice or mute anyone anytime.
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,You can always join Voice Chat later from the Roblox Menu.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"By selecting turn on, I consent to Roblox's collection, use, and storage of my voice recording to enable voice services and for moderation, safety, and improvement of our services and tools."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,"Roblox did not use behavioral information to deliver this ad. You are seeing this ad based on information including device type, location, and age to serve you appropriate and relevant ads. The advertiser is {AdvertiserName}."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,"Roblox did not use behavioral information to deliver this ad. You are seeing this ad based on information including device type, location, and age to serve you appropriate and relevant ads. The advertiser is {AdvertiserName}. This Ad was paid for by {PayerName}."
+Feature.Notifications.Heading.TurnOnNotifications,Turn on Notifications
+Feature.Notifications.Label.GetUpdatesFromExperience,Receive notifications from {experienceName} while you're away?
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,You can mute anyone anytime.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,"Turn on Voice Chat to talk with others. You will need to give Roblox access to your microphone. You're in control — mute yourself or anyone, anytime."
+Verification.Identity.Heading.V2LetsChat,Let's Chat
+Feature.Call.Label.Retry,Retry
+Feature.Friends.Action.Unfriend,Unfriend
+AuthorizeWebsite.PermissionRequest.Label.Subscription,Subscription
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,Get information about your subscriptions.
+CreatorDashboard.ScopeSystem.Label.Subscription,Subscription
+Feature.ReportAbuse.Action.BuildAReport,Text mode
+Feature.ReportAbuse.Action.EnterSceneReporting,Enter highlight mode
+Feature.ReportAbuse.Action.SelectInScene,Highlight mode
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,Report using highlight mode
+Feature.ReportAbuse.Label.SelectInSceneDescription1,Use up to 5 circles to highlight the problem
+Feature.ReportAbuse.Label.SelectInSceneDescription2,Tell us why it's a problem
+Feature.ReportAbuse.Label.SelectInSceneDescription3,Submit your report
+Feature.SettingsHub.Prompt.GetVoiceChat,Get Voice Chat
+Feature.SettingsHub.Prompt.MicPermissionPrime,Give Roblox access to your microphone to talk.
+Feature.SettingsHub.Prompt.TalkWithOthers,Talk with others and have more fun.
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,Voice Chat with others
+Feature.SettingsHub.Prompt.VoiceUserAgency,"You're in control — mute yourself or anyone, anytime."
+InGame.HelpMenu.Controls.ToggleGameMenu,Game Menu Toggle
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,Ok
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,Purchase Unsuccessful
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,Your purchase could not be completed because you already own these items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,Your purchase could not be completed at this moment.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,Your purchase could not be completed because you need to have Roblox Premium to purchase these items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,Your purchase could not be completed because you do not have enough Robux.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,Your purchase could not be completed because you are not allowed to purchase these types of items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,Your purchase could not be completed because these items are not for sale.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,Your purchase could not be completed because the prices have changed.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,Your purchase could not be completed because you are not allowed to purchase your own items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,Your purchase could not be completed because you've already reached the maximum ownership limit for these items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,Your purchase could not be completed because you've reached the limit of 9 transactions per minute.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,Your purchase could not be completed because these items are sold out.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,You have not been charged any Robux. Please try again later.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,You have not been charged any Robux. Please purchase more and try again.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,You have not been charged any Robux. Please try again.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,You have not been charged any Robux. Please try again with other items.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,You have not been charged any Robux. Please wait and try again.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,Purchase Complete
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,Partial purchase completed
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} Items
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,Successful
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} Items
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,Unsuccessful
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,Already owned
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,Unavailable
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Premium required
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Not enough Robux
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,Unavailable
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,Not for sale
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,Price change
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,Seller is buyer
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,Limit reached
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,Rate limit reached
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,Sold out
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,Purchased
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,"Some items could not be purchased at this moment, please retry later."
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,Current balance
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,Done
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Robux spent
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,Summary
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} Items
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,Total items purchasing
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,{ownedCount} Owned
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,Pay
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,Current balance
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,Balance after purchase
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,Order total
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,You have successfully bought {itemCount} items. Find these items in your inventory.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,Done
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,Purchase complete
+Feature.Accessibility.Description.MainVolume,"Control the overall sound level of Roblox, including menu effects, experience sound, and voice chat"
+Feature.Notifications.Webview.Title.PolicyUpdate,Policy Update
+Feature.SettingsHub.Prompt.CameraUnavailable,Camera Unavailable
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,We’ve disabled camera to improve experience performance on this device. You may want to try with another device. Tap to learn more.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,"Talk with others and have more fun. Give Roblox access to your microphone to talk. You're in control — mute yourself or anyone, anytime."
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,"Talk with others and have more fun. You're in control — mute yourself or anyone, anytime."
+Feature.SettingsHub.Label.MyCaptures,My Captures
+Feature.ReportAbuse.Action.ErrorModalGoBack,Go Back
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,Error: Maximum 5 circles
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,You can place up to 5 circles to highlight the problem. Use the undo button to remove circles.
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,"Adjust your frame rate for smoother gameplay. Higher frame rates consume more power, and frames beyond your display's refresh rate won't be shown."
+Feature.Subscription.Text.Subscribed,Subscribed
+Feature.ReportAbuse.Label.ChooseOne,Choose one
+Feature.ReportAbuse.Label.PleaseSelectOne,Please select one.
+Feature.ReportAbuse.Label.SelectInSceneComplete,We'll use your report to make Roblox a fun and safe place for everyone.
+Feature.ReportAbuse.Label.TellUsWhatHappened,Tell us what happened. (Optional)
+Feature.ReportAbuse.Label.WhatWasWrong,What was wrong?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,Finish your report
+Feature.ReportAbuse.Title.SelectInSceneThankYou,Thank you for your report
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,Leave
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Buy Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Missing Robux
+Feature.ReportAbuse.Action.Close,Close
+Feature.ReportAbuse.Action.Submit,Submit
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,You have reached the monthly purchasing limit set in Parental Controls. You will not be able to make a new purchase until next month.
+Feature.ReportAbuse.Label.Avatar,Avatar
+Feature.ReportAbuse.Label.Bullying,Bullying
+Feature.ReportAbuse.Label.Cheating,Cheating/Exploiting
+Feature.ReportAbuse.Label.Content,Inappropriate Content
+Feature.ReportAbuse.Label.Dating,Dating
+Feature.ReportAbuse.Label.Links,Offsite Links
+Feature.ReportAbuse.Label.Personal,Personal Question
+Feature.ReportAbuse.Label.Scamming,Scamming
+Feature.ReportAbuse.Label.Swearing,Swearing
+Feature.ReportAbuse.Label.TextChat,Text Chat
+Feature.ReportAbuse.Label.Username,Inappropriate Username
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,2-Step Verification is required to make this transaction. Go to Settings > Security to complete 2-Step Verification.
+CommonUI.Controls.Action.Refresh,Refresh
+CommonUI.Controls.NoResultsFound,No results found
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,Your purchase could not be completed because these items are unavailable in this experience.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,Unavailable in this experience
+CoreScripts.PublishAvatarPrompt.Description,Description (Optional)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,Describe this item
+Feature.Accessibility.Description.Haptics,Control the overall vibration of the Roblox app
+Feature.Accessibility.Header.Haptics,Haptics
+Feature.AccountSettings.Label.CameraNotAvailable,Camera is not available on certain devices.
+Feature.AccountSettings.Label.CameraNotSupported,Camera is not available on certain devices. {linkStart}Learn more{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,Allow
+Feature.Notifications.Action.PushUpsellNotNow,Not Now
+Feature.Notifications.Heading.PushUpsellGeneric,Don't miss out
+Feature.Notifications.Label.PushUpsellGeneric,"Get notified for activities like chat messages, invites, friend requests and more."
+Feature.Squads.Action.Join,Join
+Feature.VerificationUpsell.Action.EditPhoneNumber,Edit Phone Number
+IAPExperience.LeaveRoblox.Action.Cancel,Cancel
+IAPExperience.LeaveRoblox.Action.Continue,Continue
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"By clicking “Continue”, you will be redirected to a website that is not owned or operated by Roblox. They may have different terms and privacy policies."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Leaving Roblox
+Feature.ReportAbuse.Label.HighlightProblem,Highlight the problem with circles
+Feature.Toast.NetworkingError.SomethingIsWrong,Something went wrong. Please try again.
+Feature.Accessibility.Description.PreferredTextSize,Adjust text size across Roblox according to your preferences
+Feature.Accessibility.Heading.PreferredTextSize,Text size
+Feature.Accessibility.PreferredTextSize.Default,Default
+Feature.Accessibility.PreferredTextSize.Largest,Largest
+Feature.Accessibility.Action.ScrollDown,Scroll Down
+Feature.Accessibility.Action.ScrollUp,Scroll Up
+CoreScripts.PublishAvatarPrompt.BuyCreation,Buy Creation
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,OK
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,An error occurred and subscription renewal was not canceled. Please try again.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,Error
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,Your subscription has already been successfully canceled. No further action is needed.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,Already Canceled
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,"If you cancel your subscription now, you can still access it until {date}."
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,Don't Cancel
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,Cancel Subscription
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,"Yes, Cancel"
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,Your subscription was successfully cancelled
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,You are not currently subscribed.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,Can’t Cancel
+Feature.Subscription.Error.GenericSubscribeError,Something went wrong while trying to subscribe. Please try again later.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,You can find your item in your inventory once it is finalized.
+CoreScripts.TopBar.JoinVoice,Get Voice Chat
+Feature.ReportAbuse.Heading.ReportAbuse,Report Abuse
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,"Inaccurate Content Maturity (e.g. blood, violence)"
+Feature.ReportAbuse.Label.CategoryBullyingV2,"Bullying, Harassment, Discrimination"
+Feature.ReportAbuse.Label.CategoryContent,"Inappropriate Content - Place, Image, Model"
+Feature.ReportAbuse.Label.CategoryDating,Dating
+Feature.ReportAbuse.Label.CategoryInappropriate,Inappropriate Language - Profanity & Adult Content
+Feature.ReportAbuse.Label.CategoryOther,Other rule violation
+Feature.ReportAbuse.Label.CategoryPrivateInfo,Asking for or Giving Private Information
+Feature.ReportAbuse.Label.CategoryScamming,"Exploiting, Cheating, Scamming"
+Feature.ReportAbuse.Label.CategoryTheft,"Account Theft - Phishing, Hacking, Trading"
+Feature.ReportAbuse.Label.CategoryThreats,Real Life Threats & Suicide Threats
+Feature.ReportAbuse.Message.Success,Your report has been sent.
+CoreScripts.Ads.Label.ReportAd,Report Ad
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} said...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,You Have Joined Voice Chat
+Feature.SettingsHub.Prompt.LeaveVoiceChat,Voice chat disconnected
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,You can always disconnect from voice or mute anyone anytime.
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,You can always disconnect from voice or mute anyone anytime here
+Feature.SettingsHub.Action.Ok,Ok
+Feature.SettingsHub.Action.OpenSettings,Open Settings
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,Need Microphone Access
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,"To voice chat with others, allow Roblox to access your microphone."
+CoreScripts.Ads.Label.InappropriateAd,Inappropriate Ad
+CoreScripts.TopBar.Party,Party
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. Select Permission<br />2. Select Microphone<br />3. Allow Roblox to access your Microphone</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. Go to Settings > Privacy > Permission<br />2. Select Microphone<br />3. Allow Roblox to access your Microphone</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. Switch on Allow apps to access your microphone<br />2. Allow Roblox to access your Microphone</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. Go to Settings > Privacy > Microphone<br />2. Switch on Allow apps to access your microphone<br />3. Allow Roblox to access your Microphone</b>
+Feature.ReportAbuse.Action.ContinueReport,Continue to report
+Feature.ReportAbuse.Action.EnterChatLineReporting,Report abuse
+Feature.ReportAbuse.Label.FinishChatReport,Finish your chat report
+Feature.ReportAbuse.Label.SelectChatLine,Select one chat to report
+CoreScripts.Ads.Label.IllegalContentReportingLink,Report illegal content or content harmful to children
+Feature.ReportAbuse.Problem.Bullying,Bullying
+Feature.ReportAbuse.Problem.Cheating,Cheating
+Feature.ReportAbuse.Problem.Dating,Dating/Sex
+Feature.ReportAbuse.Problem.Hate,Hate
+Feature.ReportAbuse.Problem.Links,Off-platform links
+Feature.ReportAbuse.Problem.Personal,Personal information
+Feature.ReportAbuse.Problem.Scamming,Scamming
+Feature.ReportAbuse.Problem.Spamming,Spam
+Feature.ReportAbuse.Problem.Swearing,Swearing
+Feature.ReportAbuse.Problem.Violence,Violence
+Feature.VerifiedParentalControls.Action.Cancel,Cancel
+Feature.ReportAbuse.Action.ReturnToExperience,Return to the experience
+Feature.ReportAbuse.Label.ReportSubmitted,Report submitted
+Feature.Chat.Label.Connect,Connect
+Feature.Chat.Label.RobloxConnect,Roblox Connect
+Feature.ReportAbuse.Label.AdditionalActions,Additional actions you can take
+Feature.ReportAbuse.Label.SentInAnotherChat,Sent in another chat
+Feature.ReportAbuse.Label.SentPrivately,Sent privately
+Feature.ReportAbuse.Message.ThankYouReport,Thank you. We'll use your report to make Roblox a fun and safe place for everyone.
+Feature.VerifiedParentalControls.Action.Close,Close
+Feature.VerifiedParentalControls.Action.GoToSettings,Go to Settings
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,"Due to regional restrictions, you need parent permission to make a purchase. Please visit the web or a companion device to ask your parent for permission in Settings > Spending."
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,"Due to regional restrictions, you need parent permission to make a purchase. Ask your parent for permission in Settings > Spending."
+Feature.VerifiedParentalControls.Label.AskParent,Ask Your Parent
+Common.VerifiedParentalConsent.Action.Cancel,Cancel
+Common.VerifiedParentalConsent.Action.Close,Close
+Common.VerifiedParentalConsent.Action.GoToSettings,Go to Settings
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,"Due to regional restrictions, you need parent permission to make a purchase. Please visit the web or a companion device to ask your parent for permission in Settings > Spending."
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,"Due to regional restrictions, you need parent permission to make a purchase. Ask your parent for permission in Settings > Spending."
+Common.VerifiedParentalConsent.Label.AskParent,Ask Your Parent
+Feature.ReportAbuse.Action.TextMute,Block chats from {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,You need to restart the app for the microphone access changes to be applied.
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,You cannot currently send chats. No one will see your messages.
+Features.OnDemandAds.Reward_Notification,Congratulations! You've earned {REWARD_NAME}!
+Feature.Avatar.Label.Front,Front
+Feature.PlayWithReward.Message.ErrorBanner.Body,This reward isn't available right now. Please try again.
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,Your friend {RBX_NAME} has joined the experience.
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,Search for Friends
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,Would you like to send {RBX_NAME} a friend request?
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,Would you like to remove {RBX_NAME} from your friends list?
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,Remove friend
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,You can not send a friend request to {RBX_NAME} because they are at the max friend limit.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,An error occurred while sending {RBX_NAME} a friend request. Please try again later.
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,Send friend request?
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,Remove friend?

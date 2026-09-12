@@ -1,0 +1,1230 @@
+Key,Value
+CoreScripts.Ads.Label.Teleporting,Berteleportasi...
+Corescripts.AvatarContextMenu.FriendRequestPending,Permintaan Teman Pending
+Corescripts.AvatarContextMenu.AddFriend,Tambahkan Teman
+Corescripts.AvatarContextMenu.Friends,Teman
+Corescripts.AvatarContextMenu.AcceptFriendRequest,Terima Permintaan Teman
+Corescripts.AvatarContextMenu.Chat,Chat
+Corescripts.AvatarContextMenu.ChatDisabled,Chat Dinonaktifkan
+Corescripts.AvatarContextMenu.Wave,Lambaikan Tangan
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptTitle,Akses Item?
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptText,{RBX_NAME} ingin mengakses item avatar kamu
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptTitle,Simpan Karakter Avatar
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptText,Kamu ingin menyimpan karakter ini ke Roblox? 
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptNo,Tidak
+CoreScripts.AvatarEditorPrompts.CreateOutfitPromptYes,Ya
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptNo,Batalkan
+CoreScripts.AvatarEditorPrompts.InventoryReadAccessPromptYes,Oke
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptTitle,Lengkapi Avatar dengan Item
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptText,{RBX_NAME} ingin membuat perubahan ke avatar kamu:
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptYes,Oke
+CoreScripts.AvatarEditorPrompts.SaveAvatarPromptNo,Batalkan
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptTitle,Item Favorit
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptText,Kamu ingin menambahkan {RBX_NAME} ke favorit?
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptTitle,Bukan Item Favorit
+CoreScripts.AvatarEditorPrompts.UnfavouriteItemPromptText,Kamu ingin menghapus {RBX_NAME} dari favorit?
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptNo,Tidak
+CoreScripts.AvatarEditorPrompts.FavouriteItemPromptYes,Ya
+CoreScripts.AvatarEditorPrompts.OutfitNamePlaceholder,Masukkan Nama Karakter
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptTitle,Nama Karakter
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptYes,Konfirmasi
+CoreScripts.AvatarEditorPrompts.ItemsListLoadingFailed,Loading Gagal
+CoreScripts.AvatarEditorPrompts.Adding,Menambahkan:
+CoreScripts.AvatarEditorPrompts.Removing,Menghapus:
+CoreScripts.AvatarEditorPrompts.NoChangedAssets,Tidak ada perubahan item
+CoreScripts.AvatarEditorPrompts.EnterOutfitNamePromptNo,Batalkan
+CoreScripts.PremiumModal.Title.PremiumRequired,Hanya untuk Premium
+CoreScripts.PremiumModal.Body.Description,Roblox Premium akan memberikan kamu:
+CoreScripts.PremiumModal.Body.RobuxMonthly,450 Robux setiap bulan
+CoreScripts.PremiumModal.Body.PremiumOnlyAreas,Akses ke keuntungan hanya Premium
+CoreScripts.PremiumModal.Body.RobuxDiscount,Bonus 10% saat membeli Robux
+CoreScripts.PremiumModal.Action.PricePerMonth,{price}/bulan
+CoreScripts.PremiumModal.Error.PlatformUnavailable,Membeli Roblox Premium tidak didukung di perangkat kamu. Gunakan desktop untuk membeli Premium.
+CoreScripts.PremiumModal.Error.AlreadyPremium,"Sepertinya developer sedang menyarankan kamu untuk membeli Roblox Premium, tetapi kamu sudah menjadi anggota Premium."
+CoreScripts.PremiumModal.Error.Unavailable,Premium tidak tersedia saat ini. Coba lagi nanti.
+CoreScripts.PremiumModal.Body.RobuxMonthlyV2,{robux} Robux setiap bulan
+CoreScripts.PremiumModal.Error.FailedNativePurchase,Pembelian gagal. Coba lagi.
+CoreScripts.PremiumModal.Title.Error,Eror
+CoreScripts.ScreenshotHud.Action.TakePhoto,Ambil Foto
+CoreScripts.ScreenshotHud.Action.Cancel,Batalkan
+CoreScripts.TextChat.ChatWindow.Welcome,Chat '/?' atau '/help' untuk daftar perintah chat.
+CoreScripts.TextChat.FriendsChat.LoadConversationsError,
+CoreScripts.TextChat.FriendsChat.LoadingConversations,
+CoreScripts.TextChat.FriendsChat.NoConversationsYet,
+CoreScripts.TextChat.FriendsChat.NoLoadedConversationsFound,
+CoreScripts.TextChat.Emote.Error.AnimationPlaying,Kamu tidak dapat menggunakan Emote saat melakukan tindakan ini.
+CoreScripts.TextChat.Emote.Error.NoMatchingEmote,Kamu tidak dapat menggunakan Emote itu.
+CoreScripts.TextChat.Emote.Error.R15Only,Hanya avatar R15 yang dapat menggunakan Emote.
+CoreScripts.TextChat.Emote.Error.TemporarilyUnavailable,Kamu tidak dapat menggunakan Emote saat ini.
+CoreScripts.TextChat.Emote.Error.DoesNotExist,Emote tidak ada.
+CoreScripts.TextChat.Emote.Error.NotEquipped,Kamu tidak memakai Emote itu.
+CoreScripts.TextChat.Emote.Error.NotEnabled,Kamu tidak dapat menggunakan Emote itu di sini.
+CoreScripts.TextChat.Help.FirstLine,Ini adalah perintah chat dasar:
+CoreScripts.TextChat.InputBar.Hint.MouseKeyboard,"Untuk chat, klik di sini atau tekan tombol {KEY}"
+CoreScripts.TextChat.InputBar.Hint.PrivacySettingsDisabled,Pengaturan chat-mu mencegahmu mengirim dan menerima pesan.
+CoreScripts.TextChat.InputBar.Hint.Touch,Ketuk di sini untuk chat
+CoreScripts.TextChat.MessageStatus.Warning.Floodchecked,Kamu harus menunggu sebelum mengirim pesan lain.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidChannelPermissions,Kamu tidak dapat berbicara di channel ini.
+CoreScripts.TextChat.MessageStatus.Warning.InvalidPrivacySettings,Pengaturan chat-mu mencegahmu mengirim dan menerima pesan.
+CoreScripts.TextChat.MessageStatus.Warning.MessageTooLong,Pesan kamu melebihi panjang maksimal.
+CoreScripts.TextChat.MessageStatus.Warning.TextFilterFailed,Filter chat sedang mengalami masalah dan pesan mungkin akan muncul terlambat.
+CoreScripts.TextChat.MessageStatus.Warning.Unknown,Pesan kamu tidak dapat dikirim.
+CoreScripts.TextChat.Mute.Error.CannotMuteSelf,Kamu tidak dapat membisukan diri sendiri.
+CoreScripts.TextChat.Mute.Error.MultipleMatches,Pengguna berikut memiliki nama display: {RBX_LIST_NAMES}
+CoreScripts.TextChat.Mute.Error.TargetDoesNotExist,Pengguna {RBX_NAME} tidak ada.
+CoreScripts.TextChat.Mute.Help.Description,/mute <user> : bisukan pengguna
+CoreScripts.TextChat.Mute.Success,Pengguna {RBX_NAME} telah dibisukan.
+CoreScripts.TextChat.Notification.Friend.Joined,Koneksimu {RBX_NAME} telah bergabung ke pengalaman virtual ini.
+CoreScripts.TextChat.Notification.Team.Joined,Kamu sekarang berada di tim {RBX_NAME}.
+CoreScripts.TextChat.Notification.WhisperChat.Created,Sekarang kamu sedang chat privat dengan {RBX_NAME}.
+CoreScripts.TextChat.TeamChat.Error.NotOnTeam,Kamu tidak dapat melakukan chat tim jika kamu tidak berada dalam tim.
+CoreScripts.TextChat.TeamChat.Help.Description,/team <message> atau /t <message> : kirim chat tim ke anggota tim kamu
+CoreScripts.TextChat.TeamChat.PrefixText,[Team]
+CoreScripts.TextChat.Unmute.Help.Description,/unmute <user> : bunyikan pengguna
+CoreScripts.TextChat.Unmute.Success,Pengguna {RBX_NAME} telah dibunyikan.
+CoreScripts.TextChat.Version.Success,{RBX_VERSION}
+CoreScripts.TextChat.Whisper.Error.CannotChat,Kamu tidak dapat chat dengan pengguna ini.
+CoreScripts.TextChat.Whisper.Help.Description,/whisper <user> atau /w <user> : buka channel pesan privat dengan pengguna
+CoreScripts.TextChat.WhisperChat.PrefixText.Incoming,[Dari {RBX_NAME}]
+CoreScripts.TextChat.WhisperChat.PrefixText.Outgoing,[Kepada {RBX_NAME}]
+CoreScripts.TopBar.Leaderboard,Papan Peringkat
+CoreScripts.TopBar.Emotes,Emote
+CoreScripts.TopBar.Inventory,Inventaris
+CoreScripts.TopBar.Leave,Keluar
+CoreScripts.TopBar.Chat,Chat
+CoreScripts.TopBar.QuickMenu,Menu Cepat
+CoreScripts.TopBar.Menu,Menu
+CoreScripts.TopBar.Respawn,Respawn Karakter
+CoreScripts.TopBar.Back,Kembali
+CoreScripts.TopBar.Screenshot,Tangkapan Layar
+Feature.SettingsHub.Label.LoadingFriendsListFailed,Terjadi eror. Coba lagi nanti.
+Feature.SettingsHub.Action.CancelSearch,Batalkan
+Feature.SettingsHub.Label.DontLeaveButton,Jangan Keluar
+Feature.SettingsHub.Action.InviteFriend,Undang
+Feature.SettingsHub.Heading.InviteFriends,Undang Teman
+Feature.SettingsHub.Label.Invited,Diundang
+Feature.SettingsHub.Label.LeaveButton,Keluar
+Feature.SettingsHub.Label.Moderated,Dimoderasi
+Feature.SettingsHub.Label.InviteSearchNoResults,Tidak ada hasil
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder,Cari Koneksi
+Feature.SettingsHub.Label.Sending,Mengirim
+Feature.SettingsHub.Action.InviteFriendsBack,Kembali
+Feature.SettingsHub.Message.InviteToGameTitle,Bergabung dengan saya di {PLACENAME}
+Feature.SettingsHub.TouchMovementMode.DPad,DPad
+Feature.SettingsHub.Video.Off,Mati
+Feature.SettingsHub.Video.SystemDefault,Sistem Default
+Feature.SettingsHub.Video.VideoCamera,Kamera Video
+Feature.SettingsHub.Default.DynamicThumbstick,Default (Thumbstick Dinamis)
+Feature.SettingsHub.DefaultKeyboard,Default (Keyboard)
+Feature.SettingsHub.Heading.Capture,Ambil Tangkapan Layar
+Feature.SettingsHub.Label.CaptureDescription2,Tangkapan layar yang diambil akan disimpan di perangkat kamu.
+Feature.SettingsHub.Label.ChooseOne,Pilih Satu
+InGame.CommonUI.Title.Warning,Peringatan
+InGame.CommonUI.Title.Error,Eror
+InGame.CommonUI.Button.Retry,Coba Lagi
+InGame.CommonUI.Button.Ok,Oke
+InGame.CommonUI.Title.Alert,Peringatan
+InGame.CommonUI.Label.Default,Default
+InGame.CommonUI.Label.Custom,Kustom
+InGame.CommonUI.Label.PossiblyCustom,Kemungkinan Kustom
+InGame.CommonUI.Label.CustomOld,Kustom Lama
+InGame.ConnectionError.DisconnectCloudEditKick,Koneksi ke Tim Kreasi terputus. Hubungkan kembali. 
+InGame.ConnectionError.DisconnectWrongVersion,Versi Roblox kamu mungkin sudah kedaluwarsa. Update Roblox lalu coba lagi.
+InGame.ConnectionError.TeleportFailure,Teleportasi gagal karena kesalahan tidak terduga. Coba lagi.
+InGame.ConnectionError.DisconnectNewSecurityKeyMismatch,Koneksi terputus karena terjadi eror.
+InGame.ConnectionError.TeleportGameFull,Server penuh. Coba lagi nanti atau gunakan server yang berbeda.
+InGame.ConnectionError.DisconnectPlayerless,Server dimatikan saat kamu mencoba menghubungkan.  Coba lagi.
+InGame.ConnectionError.TeleportGameNotFound,Tidak dapat menemukan tempat tujuan. Periksa kembali lalu coba lagi.
+InGame.ConnectionError.DisconnectErrors,Koneksi terputus karena eror yang tidak diketahui. Hubungkan kembali.
+InGame.ConnectionError.DisconnectDuplicateTicket,Koneksi terputus karena terjadi eror. Beberapa koneksi terdeteksi dari akun yang sama.
+InGame.ConnectionError.DisconnectBadhash,Koneksi terputus karena terjadi eror.
+InGame.ConnectionError.DisconnectSendPacketError,Terjadi masalah saat mengirim data. Hubungkan kembali.
+InGame.ConnectionError.DisconnectOnRemoteSysStats,Kamu telah dikeluarkan karena masalah pada aplikasi.
+InGame.ConnectionError.DisconnectTimeout,Waktu koneksi habis. Periksa koneksi internet lalu coba lagi.
+InGame.ConnectionError.DisconnectSecurityKeyMismatch,Koneksi terputus karena terjadi eror.
+InGame.ConnectionError.TeleportErrors,Teleportasi gagal karena kesalahan tidak terduga. Coba lagi.
+InGame.ConnectionError.TeleportGameEnded,Server tidak lagi tersedia. Coba server yang berbeda atau coba lagi nanti.
+InGame.ConnectionError.PlacelaunchFlooded,Saat ini server sedang sibuk.  Coba lagi.
+InGame.ConnectionError.DisconnectProtocolMismatch,Versi Roblox kamu mungkin sudah kedaluwarsa. Update Roblox lalu coba lagi.
+InGame.ConnectionError.DisconnectRobloxMaintenance,Roblox telah mematikan server untuk maintenance. Coba lagi.
+InGame.ConnectionError.DisconnectHashTimeout,Waktu koneksi habis. Periksa koneksi internet lalu coba lagi.
+InGame.ConnectionError.DisconnectReceivePacketError,Terjadi masalah saat menerima data. Hubungkan kembali.
+InGame.ConnectionError.PlacelaunchOtherError,Kami sedang mengalami masalah teknis. Coba lagi nanti.
+InGame.ConnectionError.TeleportFlooded,Terlalu banyak permintaan teleportasi. Coba lagi nanti.
+InGame.ConnectionError.DisconnectIllegalTeleport,Koneksi terputus karena teleportasi tidak valid. 
+InGame.ConnectionError.DisconnectReceivePacketStreamError,Terjadi masalah saat streaming data. Hubungkan kembali.
+InGame.ConnectionError.PlacelaunchError,Tidak dapat menemukan server yang ingin kamu gabung. Coba lagi nanti.
+InGame.ConnectionError.TeleportUnauthorized,Mencoba berteleportasi ke tempat yang dibatasi.
+InGame.ConnectionError.Title.JoinError,Eror saat Bergabung
+InGame.ConnectionError.Title.Disconnected,Koneksi Terputus
+InGame.ConnectionError.Title.TeleportFailed,Teleportasi Gagal
+InGame.ConnectionError.Message.ErrorCode,Kode Eror: {ERROR_CODE}
+InGame.ConnectionError.Button.Reconnect,Hubungkan Kembali
+InGame.ConnectionError.DisconnectConnectionLost,Periksa koneksi internet lalu coba lagi.
+InGame.ConnectionError.DisconnectIdle,Koneksi terputus karena tidak ada aktivitas selama {RBX_NUM} menit
+InGame.ConnectionError.UnknownError,Eror tidak diketahui.
+InGame.ConnectionError.ReconnectFailed,Menghubungkan kembali tidak berhasil. Coba lagi.
+InGame.EmotesMenu.SelectAnEmote,Pilih Emote
+InGame.EmotesMenu.NoEmotesEquipped,Tidak ada Emote yang dipakai
+InGame.EmotesMenu.ErrorMessageNotSupported,Kamu tidak dapat menggunakan Emote di sini.
+InGame.EmotesMenu.ErrorMessageR15Only,Hanya avatar R15 yang dapat menggunakan Emote.
+InGame.EmotesMenu.ErrorMessageNoMatchingEmote,Kamu tidak dapat menggunakan Emote itu.
+InGame.EmotesMenu.ErrorMessageTemporarilyUnavailable,Kamu tidak dapat menggunakan Emote saat ini.
+InGame.EmotesMenu.VisitShopToGetEmotes,Kamu tidak memiliki emote. Kunjungi Toko untuk mendapatkan emote.
+InGame.EmotesMenu.ErrorMessageSwitchToR15,Beralih ke avatar R15 kamu untuk menggunakan Emote.
+InGame.EmotesMenu.ErrorMessageAnimationPlaying,Kamu tidak dapat menggunakan Emote saat melakukan tindakan ini.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError,Terjadi kesalahan saat mengirim permintaan Koneksi ke {RBX_NAME}. Coba lagi nanti.
+FriendPlayerPrompt.DoPromptUnfriendPlayer,Kamu ingin menghapus {RBX_NAME} dari daftar Koneksimu?
+FriendPlayerPrompt.DoPromptRequestFriendPlayer,Kamu ingin mengirim Permintaan Koneksi ke {RBX_NAME}?
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit,Kamu tidak dapat mengirim permintaan Koneksi ke {RBX_NAME} karena mereka sudah mencapai batas maksimum Koneksi.
+FriendPlayerPrompt.Title.SendFriendRequest,Kirim Permintaan Pertemanan?
+FriendPlayerPrompt.Label.Unfriend,Hapus Koneksi
+InGame.GameplayPaused.Title,Gameplay Terjeda
+InGame.GameplayPaused.Body,Gameplay terjeda: harap tunggu sementara konten game di-load.
+InGame.HelpMenu.UpArrow,Panah Atas
+InGame.HelpMenu.DownArrow,Panah Bawah
+InGame.HelpMenu.LeftArrow,Panah Kiri
+InGame.HelpMenu.RightArrow,Panah Kanan
+InGame.HelpMenu.Label.ServerVersion,Versi Server:
+InGame.HelpMenu.Label.ClientVersion,Versi Aplikasi:
+InGame.HelpMenu.Label.PlayerScripts,PlayerScripts:
+InGame.HelpMenu.Label.PlaceVersion,Versi Tempat:
+InGame.HelpMenu.Leave,Keluar
+InGame.HelpMenu.Resume,Lanjutkan
+InGame.HelpMenu.Label.ClientCoreScriptVersion,Versi CoreScript Aplikasi:
+InGame.InspectMenu.Description.NoInventoryNotice,Pengguna ini tidak memakai item apa pun yang dapat kamu cek.
+InGame.InspectMenu.Description.MultipleBundlesNotice,Item ini bagian dari beberapa bundel.
+InGame.InspectMenu.Description.SingleBundleNotice,Item ini bagian dari suatu bundel.
+InGame.InspectMenu.Action.TakeOff,Lepaskan
+InGame.InspectMenu.Action.TryOn,Coba
+InGame.InspectMenu.Action.Buy,Beli
+InGame.InspectMenu.Action.Inspect,Cek
+InGame.InspectMenu.Action.View,Lihat
+InGame.InspectMenu.Label.Owned,Dimiliki
+InGame.InspectMenu.Label.Offsale,Tidak Dijual
+InGame.InspectMenu.Label.Limited,Terbatas
+InGame.InspectMenu.Label.CurrentlyWearing,Saat Ini Memakai
+InGame.InspectMenu.Label.By,Oleh {CREATOR}
+InGame.InspectMenu.Description.LimitedNotice,Item ini hanya dapat dibeli dari Reseller di Katalog.
+InGame.InspectMenu.Label.Avatar,Avatar {PLAYER_NAME}
+InGame.InspectMenu.Label.NoResellers,Tidak Ada Reseller
+InGame.InspectMenu.Label.PremiumOnly,Hanya Premium
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Decreased,Diturunkan ke {RBX_NUMBER}
+NotificationScrip2.onCurrentGraphicsQualityLevelChanged.Increased,Ditingkatkan ke {RBX_NUMBER}
+NotificationScript2.NewFollower,Pengikut Baru {RBX_NAME} sekarang mengikuti kamu.
+NotificationScript2.FriendRequestEvent.Accept,Sekarang kamu berteman dengan {RBX_NAME}.
+NotificationScript2.onPointsRewarded.negative,Kamu hilang {RBX_NUMBER} poin.
+NotificationScript2.onPointsAwarded.single,Kamu menerima {RBX_NUMBER} poin.
+NotificationScript2.onPointsAwarded.multiple,Kamu menerima {RBX_NUMBER} poin.
+NotificationScript2.onBadgeAwardedTitle,Lencana Dihadiahkan
+NotificationScript2.onBadgeAwardedDetail,"{RBX_NAME} memenangkan lencana ""{BADGE_NAME}"" {CREATOR_NAME}."
+NotificationScript2.Screenshot.Title,Tangkapan Layar Diambil
+NotificationScript2.Screenshot.Description,Buka folder tangkapan layar kamu untuk melihatnya.
+NotificationScript2.Screenshot.ButtonText,Buka Folder
+NotificationScript2.Video.Title,Video Direkam
+NotificationScript2.Video.Description,Buka folder video kamu untuk melihatnya.
+NotificationScript2.Video.ButtonText,Buka Folder
+NotificationScript2.Capture.Permission.AlertTitle,Aktifkan Izin Menyimpan
+NotificationScript2.Capture.Permission.AlertText,Kamu harus mengaktifkan izin foto untuk menggunakan fitur ini. Izin ini dapat diubah di pengaturan perangkat kamu.
+NotificationScript2.Capture.Permission.AlertTextIOS,Buka Pengaturan > Privasi & Keamanan > Foto lalu aktifkan Roblox untuk menyimpan tangkapan layar ke rol kamera perangkat kamu.
+NotificationScript2.Capture.Permission.AlertTextAndroid,Buka Setelan > Roblox > Izin lalu aktifkan Penyimpanan untuk menyimpan tangkapan layar ke perpustakaan foto perangkat kamu.
+NotificationScript2.Capture.Permission.AlertButtonText,OKE
+NotificationScript2.Capture.Success.ToastText,Tangkapan Layar Disimpan
+NotificationScript2.Capture.Fail.ToastText,Tangkapan Layar Gagal Disimpan
+NotificationScript2.UINavigation.Title,Navigasi UI Diaktifkan
+NotificationScript2.UINavigation.Text,Garis miring terbalik untuk mengaktifkan/menonaktifkan
+NotificationScript2.CameraToggle.Title,Kendali Kamera Diaktifkan
+NotificationScript2.CameraToggle.Text,Tombol kanan mouse untuk mengaktifkan/menonaktifkan
+NotificationScript2.GraphicsQuality.Title,Kualitas Grafik
+PlayerDropDown.onUnfollowButtonPress.success,Tidak lagi mengikuti {RBX_NAME}.
+PlayerDropDown.onFollowButtonPress.success,sekarang mengikuti {RBX_NAME}
+PlayerDropDown.CannotSendFriendRequest,Tidak dapat mengirim permintaan pertemanan
+PlayerDropDown.FriendLimit,Jumlah teman sudah mencapai maksimum.
+PlayerDropDown.OtherPlayerFriendLimit,{RBX_NAME} adalah batas jumlah teman.
+PlayerDropDown.UnFollow,Berhenti Mengikuti
+PlayerDropDown.Follow,Ikuti
+PlayerDropDown.Report,Laporkan Penyalahgunaan
+PlayerDropDown.Examine,Cek Avatar
+PlayerDropDown.Unfriend,Putus Pertemanan
+PlayerDropDown.FriendRequest,Permintaan Pertemanan
+PlayerDropDown.CancelRequest,Batalkan Permintaan Pertemanan
+PlayerDropDown.Accept,Terima
+InGame.PlayerList.Leaderboard,Papan Peringkat
+InGame.Presence.Label.InStudio,Dalam Studio
+InGame.Presence.Label.Offline,Offline
+InGame.Presence.Label.Online,Online
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_BALANCE,Tidak dapat menarik saldo kamu pada saat ini. Akun kamu belum dikenakan biaya. Coba lagi nanti.
+PurchasePromptScript.ERROR_MSG.MAINTENANCE,ROBLOX sedang melakukan maintenance
+PurchasePromptScript.setBuyMoreRobuxDialog.PostBalanceText,Sisa {RBX_NUMBER} ROBUX akan dikreditkan ke saldo kamu.
+PurchasePromptScript.PURCHASE_FAILED.THIRD_PARTY_DISABLED,Penjualan item pihak ketiga telah dinonaktifkan untuk tempat ini. Akun kamu belum dikenakan biaya.
+PurchasePromptScript.PURCHASE_FAILED.NOT_ENOUGH_TIX,Kamu tidak memiliki cukup tiket untuk membeli item ini. Coba menukar mata uang di www.roblox.com untuk mendapatkan lebih banyak tiket.
+PurchasePromptScript.PURCHASE_FAILED.NOT_FOR_SALE,Item ini tidak untuk dijual saat ini. Akun kamu belum dikenakan biaya.
+PurchasePromptScript.setPurchaseDataInGui.invalidBC,Item ini membutuhkan {RBX_NAME1}. Klik 'Upgrade' untuk meningkatkan Builders Club kamu.
+PurchasePromptScript.PURCHASE_FAILED.LIMITED,Item terbatas ini tidak memiliki salinan lagi. Coba beli dari pengguna lain di www.roblox.com. Akun kamu belum dikenakan biaya.
+PurchasePromptScript.PURCHASE_MSG.PURCHASE,Ingin membeli {RBX_NAME1} {RBX_NAME2} seharga
+PurchasePromptScript.PURCHASE_FAILED.CANNOT_GET_ITEM_PRICE,Tidak dapat mengidentifikasi harga pada saat ini. Akun kamu belum dikenakan biaya. Coba lagi nanti.
+PurchasePromptScript.PURCHASE_MSG.FREE,Kamu ingin mengambil {RBX_NAME2} secara GRATIS?
+PurchasePromptScript.PURCHASE_FAILED.PROMPT_PURCHASE_ON_GUEST,Kamu perlu membuat akun ROBLOX untuk membeli item. Kunjungi www.roblox.com untuk informasi lebih lanjut.
+PurchasePromptScript.setBuyMoreRobuxDialog.descriptionText,Kamu memerlukan {RBX_NUMBER} ROBUX lagi untuk membeli {RBX_NAME1} {RBX_NAME2}. Kamu ingin membeli lebih banyak ROBUX?
+PurchasePromptScript.PURCHASE_FAILED.UNDER_13,Akun kamu adalah akun untuk pengguna yang berusia di bawah 13 tahun. Pembelian item ini tidak diperbolehkan. Akun kamu belum dikenakan biaya.
+PurchasePromptScript.PURCHASE_MSG.BALANCE_FUTURE,"Setelah transaksi ini, saldo kamu akan menjadi {RBX_NUMBER}."
+PurchasePromptScript.PURCHASE_MSG.BALANCE_NOW,Saldo kamu sekarang adalah {RBX_NUMBER}.
+PurchasePromptScript.ERROR_MSG.FAILED_NO_ITEM_NAME,Pembelian gagal karena {ERROR_REASON}. Akun kamu belum dikenakan biaya. Coba lagi nanti.
+PurchasePromptScript.PURCHASE_MSG.FAILED,Pembelian {RBX_NAME1} gagal karena {RBX_NAME2}. Akun kamu belum dikenakan biaya. Coba lagi nanti.
+PurchasePromptScript.PURCHASE_MSG.SUCCEEDED,Pembelian {RBX_NAME1} berhasil.
+PurchasePromptScript.ERROR_MSG.UNKNOWN,terjadi masalah
+PurchasePromptScript.ERROR_MSG.INVALID_FUNDS,akun kamu tidak memiliki cukup ROBUX
+StatsUtil.KBps,{RBX_NUMBER} kB/s
+StatsUtil.MB,{RBX_NUMBER} MB
+StatsUtil.ms,{RBX_NUMBER} ms
+Network,(Jaringan)
+GameChat_ChatCommandsTeller_SwitchChannelCommand,/c <channel> : tab menu beralih channel.
+GameChat_ChatCommandsTeller_MeCommand,/me <text> : perintah roleplay untuk melakukan tindakan.
+GameChat_ChatCommandsTeller_MuteCommand,/mute <speaker> : bisukan pembicara.
+GameChat_ChatCommandsTeller_UnMuteCommand,/unmute <speaker> : bunyikan pembicara.
+GameChat_ChatCommandsTeller_WhisperCommand,/whisper <speaker> atau /w <speaker> : buka channel pesan privat dengan pembicara.
+Average,Rata-rata
+GameChat_ChatServiceRunner_ChannelDoesNotExist,Channel {RBX_NAME} tidak ada.
+GameChat_ChatCommandsTeller_AllChannelWelcomeMessage,Chat '/?' atau '/help' untuk daftar perintah chat.
+GameChat_SwallowGuestChat_Message,Buat akun gratis untuk mendapatkan akses ke izin chat.
+Current,Saat Ini
+DisableVoiceKey,Nonaktifkan Chat Suara
+EnableVoiceKey,Aktifkan Chat Suara
+key_142,Teman Baru {RBX_NAME}
+KEY_DESCRIPTION_OPTIONAL,Opsional
+key_145,Poin Dihadiahkan Kamu menerima {RBX_NUMBER} poin.
+Received,Menerima
+BACKPACK_SEARCH,Cari
+KEY_DESCRIPTION_SHORT_DECRIPTION_OPTIONAL,Deskripsi Pendek (Opsional)
+GameChat_MuteSpeaker_SpeakerDoesNotExist,Pembicara {RBX_NAME} tidak ada.
+GameChat_ChatMain_SpeakerHasBeenBlocked,Pembicara {RBX_NAME} telah diblokir.
+GameChat_ChatMain_SpeakerHasBeenMuted,Pembicara {RBX_NAME} telah dibisukan.
+GameChat_ChatMain_SpeakerHasBeenUnBlocked,Pembicara {RBX_NAME} telah dibuka blokir.
+GameChat_ChatMain_SpeakerHasBeenUnMuted,Pembicara {RBX_NAME} telah dibunyikan.
+GameChat_ChatMain_ChatBarTextTouch,Ketuk di sini untuk chat
+Target,Target
+GameChat_ChatService_ChatFilterIssues,Filter chat sedang mengalami masalah dan pesan mungkin akan muncul terlambat.
+GameChat_ChatCommandsTeller_Desc,Ini adalah perintah chat dasar.
+GameChat_TeamChat_WelcomeMessage,Ini adalah channel privat antara kamu dan anggota tim kamu.
+GameChat_ChatMain_ChatBarText,"Untuk chat, klik di sini atau tekan tombol ""/"""
+GameChat_ChatChannel_MutedInChannel,"Kamu dibisukan, jadi kamu tidak dapat berbicara di channel ini"
+GameChat_ChatServiceRunner_YouAreNotInChannel,Kamu tidak ada di channel {RBX_NAME}
+GameChat_SwitchChannel_NotInChannel,Kamu tidak ada di channel: {RBX_NAME}
+GameChat_TeamChat_NowInTeam,Kamu sekarang berada di tim {RBX_NAME}.
+GameChat_PrivateMessaging_NowChattingWith,Sekarang kamu sedang chat dengan {RBX_NAME} secara privat
+GameChat_ChatServiceRunner_YouCannotJoinChannel,Kamu tidak dapat bergabung ke channel {RBX_NAME}
+GameChat_ChatServiceRunner_YouCannotLeaveChannel,Kamu tidak dapat keluar dari channel {RBX_NAME}
+GameChat_ChatService_CannotLeaveChannel,Kamu tidak dapat keluar dari channel ini.
+GameChat_DoMuteCommand_CannotMuteSelf,Kamu tidak dapat membisukan diri sendiri.
+GameChat_TeamChat_CannotTeamChatIfNotInTeam,Kamu tidak dapat melakukan chat tim jika kamu tidak berada dalam tim.
+GameChat_PrivateMessaging_CannotWhisperToSelf,Kamu tidak dapat berbisik ke diri sendiri.
+GameChat_ChatService_YouHaveLeftChannel,Kamu telah keluar dari channel: {RBX_NAME}
+GameChat_ChatFloodDetector_Message,Kamu harus menunggu sebelum mengirim pesan lain.
+GameChat_ChatFloodDetector_MessageDisplaySeconds,Kamu harus menunggu {RBX_NUMBER} detik sebelum mengirim pesan lain.
+KEY_PLAYER_IDLE_DISCONNECT,Koneksi terputus karena tidak ada aktivitas selama {RBX_NUMBER} menit
+GameChat_ChatMessageValidator_SettingsError,Pengaturan chat mencegah kamu untuk mengirim pesan.
+GameChat_ChatMessageValidator_WhitespaceError,Terdapat spasi kosong di pesan kamu. Spasi kosong tidak diperbolehkan.
+GameChat_ChatMessageValidator_MaxLengthError,Pesan kamu melebihi panjang maksimal.
+GameChat_SwitchChannel_NowInChannel,Saat ini kamu sedang chat di channel: {RBX_NAME}
+Sent,Terkirim
+Corescripts.AvatarContextMenu.PlayerBlocked,Pengguna Diblokir
+CoreScripts.AvatarEditorPrompts.GameNamePlaceHolder,Nama Pengalaman Virtual Tidak Diketahui
+CoreScripts.TopBar.GameNamePlaceHolder,Pengalaman Virtual
+Feature.SettingsHub.Label.LeaveGame,Kamu yakin ingin keluar dari pengalaman virtual?
+Feature.SettingsHub.Label.GameInviteError,Undangan pengalaman virtual tidak dapat dikirim. Coba lagi nanti.
+Feature.SettingsHub.Label.ModeratedInviteError,Undangan pengalaman virtual dimoderasi dan tidak terkirim.
+Feature.SettingsHub.Action.InviteFriendsToPlay,Undang teman
+Feature.SettingsHub.Label.CaptureDescription,Ambil tangkapan layar pengalaman virtual kamu. Tangkapan layar yang diambil akan disimpan di perangkat kamu.
+Feature.SettingsHub.Label.CaptureDescription1,Ambil tangkapan layar pengalaman virtual kamu.
+Feature.SettingsHub.Label.WhichPlayer,Pengguna yang Mana?
+InGame.ConnectionError.DisconnectDuplicatePlayer,Akun yang sama telah meluncurkan pengalaman virtual yang sama dari perangkat yang berbeda. Keluar dari pengalaman virtual tersebut di perangkat lain lalu coba lagi.
+InGame.ConnectionError.PlacelaunchUserLeft,Pengguna yang kamu ikuti sudah keluar dari pengalaman virtual.
+InGame.ConnectionError.PlacelaunchHashExpired,Pengalaman virtual ini tidak tersedia untuk sementara. Coba lagi nanti.
+InGame.ConnectionError.PlacelaunchUnauthorized,Kamu tidak memiliki izin untuk bergabung ke pengalaman virtual ini.
+InGame.ConnectionError.PlacelaunchDisabled,Tempat tujuan dibatasi. Coba tempat yang berbeda atau coba lagi nanti.
+InGame.ConnectionError.DisconnectRejoin,Akun yang sama mengakses pengalaman virtual dari perangkat yang berbeda. Hubungkan kembali kalau kamu ingin menggunakan perangkat ini.
+InGame.ConnectionError.DisconnectDevMaintenance,Developer pengalaman virtual telah mematikan server pengalaman virtual untuk sementara. Coba lagi.
+InGame.ConnectionError.DisconnectEvicted,Akun yang sama mengakses pengalaman virtual dari perangkat yang berbeda. Hubungkan kembali kalau kamu ingin menggunakan perangkat ini.
+InGame.ConnectionError.PlacelaunchPartyCannotFit,Grup kamu terlalu besar untuk bergabung ke pengalaman virtual ini. Coba bergabung ke pengalaman virtual yang berbeda.
+InGame.ConnectionError.PlacelaunchRestricted,Status pengalaman virtual telah berubah dan kamu tidak lagi memiliki akses. Coba lagi nanti.
+InGame.ConnectionError.PlacelaunchErrors,Terjadi eror saat bergabung ke pengalaman virtual. Coba lagi.
+InGame.ConnectionError.DisconnectLuaKick,Kamu dikeluarkan oleh pengalaman virtual ini atau moderatornya.
+InGame.ConnectionError.PlacelaunchHashException,Pengalaman virtual ini tidak tersedia untuk sementara. Coba lagi nanti.
+InGame.ConnectionError.DisconnectLuaKickWithMessage,Kamu dikeluarkan oleh pengalaman virtual ini atau moderatornya. Pesan moderasi:  {RBX_STR}
+InGame.EmotesMenu.EmotesDisabled,Emote dinonaktifkan di pengalaman virtual ini.
+FriendPlayerPrompt.Title.UnfriendPlayer,Hapus Koneksi?
+InGame.PlayerList.Players,Pengguna
+InGame.Presence.Label.InGame,Dalam Pengalaman Virtual
+PurchasePromptScript.ERROR_MSG.PURCHASE_DISABLED,Pembelian dalam pengalaman virtual untuk sementara dinonaktifkan
+GameChat_ChatCommandsTeller_TeamCommand,/team <message> atau /t <message> : kirim chat tim ke anggota tim kamu.
+GameChat_ChatServiceRunner_SystemChannelWelcomeMessage,Channel ini untuk notifikasi sistem dan pengalaman virtual.
+GameChat_GetVersion_Message,Pengalaman virtual ini menjalankan versi chat. [{RBX_NUMBER}.{RBX_NUMBER}].
+GameChat_PrivateMessaging_CannotChat,Kamu tidak dapat chat dengan pengguna ini.
+GameChat_FriendChatNotifier_JoinMessage,Koneksimu {RBX_NAME} telah bergabung ke pengalaman virtual ini.
+Authentication.Login.WeChat.AntiAddictionText,"Boikot pengalaman virtual yang tidak baik, tolak pengalaman virtual bajakan. Pahami cara membela diri dan jangan sampai tertipu. Menghabiskan waktu di pengalaman virtual baik untuk otak, tetapi terlalu banyak dapat mengganggu kesehatan. Atur waktumu dengan baik dan nikmati gaya hidup sehat."
+Authentication.Login.Label.WeChatAntiAddictionText,"Boikot pengalaman virtual yang tidak baik, tolak pengalaman virtual bajakan. Pahami cara membela diri dan jangan sampai tertipu. Menghabiskan waktu di pengalaman virtual baik untuk otak, tetapi terlalu banyak dapat mengganggu kesehatan. Atur waktumu dengan baik dan nikmati gaya hidup sehat."
+Feature.SettingsHub.Label.NoFriendsScreen,Bertemanlah agar kamu dapat mengundang mereka untuk bergabung dengan kamu.
+Feature.SettingsHub.Label.RecentPlayed,Dikunjungi Baru-Baru Ini
+InGame.HelpMenu.ConfirmLeaveGame,Kamu yakin ingin keluar dari pengalaman virtual?
+PlayerDropDown.UnBlock,Buka Blokir
+PlayerDropDown.Block,Blokir
+Feature.Screentime.Description.HeartbeatConsecutiveFailure,Eror Internal. Coba log in lagi.
+Feature.SettingsHub.TouchMovementMode.ClassicThumbstick,Thumbstick Klasik
+Feature.SettingsHub.Action.Unblock,Buka Blokir
+Feature.SettingsHub.Action.Block,Blokir
+Feature.SettingsHub.Heading.BlockUser,Blokir {DisplayName}
+Feature.SettingsHub.Action.Cancel,Batalkan
+Feature.SettingsHub.Message.BlockConfirmation,Kamu dan {DISPLAY_NAME} (@{RBX_NAME}) tidak akan lagi dapat berkomunikasi satu sama lain.
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTitle,Hapus Karakter Avatar
+Feature.SettingsHub.Heading.Report.ThanksForReport,Terima kasih atas laporan kamu.
+Feature.SettingsHub.Label.Report.ReceivedReportBody,Kami telah menerima laporan kamu dan akan segera mengambil tindakan jika diperlukan. Masukan kamu akan membantu menjaga keamanan komunitas kami.
+Feature.SettingsHub.Label.Report.OtherActionsHeader,Langkah lain yang dapat kamu lakukan
+Feature.SettingsHub.Action.Report.Done,Selesai
+Feature.SettingsHub.Label.Report.BlockDisplayName,Blokir {DISPLAY_NAME} (@{RBX_NAME})
+Feature.SettingsHub.Label.Report.UnblockDisplayName,Buka blokir {DISPLAY_NAME} (@{RBX_NAME})
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptText,Kamu ingin menghapus karakter {RBX_NAME} dari Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptTextNoName,Kamu ingin menghapus karakter ini dari Roblox?
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptYes,Hapus
+CoreScripts.AvatarEditorPrompts.DeleteOutfitPromptNo,Batalkan
+InGame.InspectMenu.Description.LayeredClothingR6,Tipe tubuh R6 tidak mendukung item ini.
+CoreScripts.AvatarEditorPrompts.RenameOutfitNamePromptTitle,Ubah Nama Karakter
+CoreScripts.AvatarEditorPrompts.RenameOutfitPromptText,Masukkan nama baru untuk karakter {RBX_NAME}:
+CoreScripts.AvatarEditorPrompts.RenameOutfitNameTitle,Ubah Nama Karakter?
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptTitle,Ubah Nama Karakter Dinonaktifkan
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptText,Ubah nama karakter dinonaktifkan
+CoreScripts.AvatarEditorPrompts.DisabledRenameOutfitPromptOkay,Oke
+Feature.Friends.Action.IgnoreAllFriendRequestsPrompt,Kamu yakin ingin mengabaikan semua permintaan pertemanan?
+Feature.Friends.Label.Cancel,Batalkan
+Feature.SettingsHub.GameSettings.Input,Input
+Feature.SettingsHub.GameSettings.Output,Output
+Feature.SettingsHub.GameSettings.Device,Perangkat
+Feature.SettingsHub.GameSettings.MicroProfiler,MicroProfiler
+Feature.SettingsHub.Prompt.NotAudible,Chat Suara Tidak Terdengar
+Feature.SettingsHub.Prompt.Permission,Chat Suara Tidak Tersedia
+Feature.SettingsHub.Prompt.Subtitle.NotAudible,Volume game diatur ke '0' di pengaturan. Tingkatkan volume untuk mendengar suara.
+Feature.SettingsHub.Prompt.Subtitle.Permission,Buka pengaturan untuk mengizinkan Roblox menggunakan mikrofon.
+Feature.SettingsHub.Prompt.Subtitle.Retry,Coba keluar lalu bergabung kembali.
+Feature.FaceChat.Message.PlaceUnavailable,Tempat ini tidak tersedia untuk sementara. Coba lagi nanti.
+Feature.FaceChat.Subtitle.NotAvailable,Coba keluar lalu bergabung kembali.
+Feature.SettingsHub.GameSettings.InputDevice,Perangkat Input
+Feature.SettingsHub.GameSettings.OutputDevice,Perangkat Output
+Feature.Friends.Label.IgnoreAllDoesntIgnoreAll300,"Catatan: Tombol ""Abaikan Semua"" akan menghapus maksimum 300 permintaan pertemanan setiap kali tombol dipilih."
+Feature.SettingsHub.Prompt.VoiceChatSuspended,Chat suara ditangguhkan
+Feature.SettingsHub.Prompt.Subtitle.Respect,Harap bantu agar Roblox tetap menyenangkan dengan menghormati orang lain.
+Feature.SettingsHub.Prompt.Understand,Saya Mengerti
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.Place,Suara spasial hanya tersedia untuk tempat dengan jumlah Pemain Maksimal 30 atau kurang.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Subtitle.User,Akun ini tidak memenuhi syarat untuk menggunakan Suara Spasial.
+Feature.SettingsHub.Feature.SettingsHub.Prompt.Place,Melebihi Jumlah Pemain Maksimal
+Feature.SettingsHub.Feature.SettingsHub.Prompt.User,Tidak Memenuhi Syarat untuk Suara
+InGame.ConnectionError.Action.Restart,Mulai Ulang
+InGame.ConnectionError.Heading.VRDisconnected,Koneksi Headset Terputus
+InGame.ConnectionError.Message.RestartApp,"Untuk terus bermain, mulai ulang aplikasi."
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptYes,Oke
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptNo,Batalkan
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTitle,Update Karakter?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptTextNoOutfitName,Kamu ingin meng-update karakter yang telah disimpan?
+CoreScripts.AvatarEditorPrompts.UppdateOutfitPromptText,Kamu ingin meng-update karakter {RBX_NAME}?
+Feature.SettingsHub.Prompt.Subtitle.Place,Suara spasial hanya tersedia untuk tempat dengan jumlah Pemain Maksimal 30 atau kurang.
+Feature.SettingsHub.Prompt.Subtitle.User,Akun ini tidak memenuhi syarat untuk menggunakan Suara Spasial.
+Feature.SettingsHub.Prompt.Place,Melebihi Jumlah Pemain Maksimal
+Feature.SettingsHub.Prompt.User,Tidak Memenuhi Syarat untuk Suara
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptText,Kamu ingin meng-update karakter {RBX_NAME}?
+CoreScripts.AvatarEditorPrompts.UpdateOutfitPromptTextNoOutfitName,Kamu ingin meng-update karakter yang telah disimpan?
+InGame.InspectMenu.Action.Cancel,Batalkan
+InGame.InspectMenu.Action.Confirm,Konfirmasi
+InGame.InspectMenu.Action.Favorite,Jadikan Favorit
+InGame.CommonUI.Message.LuobuGameJoinWarning,Jangan meniru perilaku berbahaya dalam game. Laporkan penyalahgunaan secara proaktif jika kamu melihat perilaku negatif apa pun.
+Feature.DevModule.ProfileCard.StatusPlaceholder,Apa yang ada di pikiran kamu?
+Feature.DevModule.ProfileCard.StatusErrorMessage,Status mengandung kata yang tidak pantas.
+Feature.PremiumUpsell.Label.PremiumBenefitListDesc,Roblox Premium akan memberikan kamu:
+Feature.PremiumUpsell.Label.RobuxPerMonth,{robux} Robux setiap bulan
+Feature.PremiumUpsell.Label.PremiumOnlyBenefits,Akses ke keuntungan hanya Premium
+Feature.PremiumUpsell.Label.AvatarShopBenefits,Akses ke item eksklusif dan diskon di toko avatar
+Feature.PremiumUpsell.Title.GetPremium,Dapatkan Premium
+Feature.PremiumUpsell.Action.RobuxPerMonth,{currencySymbol}{robux}/bulan
+Feature.PremiumUpsell.Label.Disclosure,Subscribe untuk <b>{currencySymbol}{price}/bulan. Batalkan kapan saja.</b> Ketentuan Penggunaan dan Kebijakan Privasi Roblox berlaku.
+Feature.PremiumUpsell.Action.Subscribe,Subscribe
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension,"Karena pelanggaran terhadap Standar Komunitas kami, untuk sementara akses ke chat suara dihapus hingga"
+Feature.SettingsHub.Prompt.Subtitle.Revoked,"Karena beberapa pelanggaran terhadap Standar Komunitas kami, untuk sementara akses ke chat suara dihapus hingga fase Beta berakhir."
+InGame.InspectMenu.Action.Unfavorite,Tidak Difavoritkan
+Feature.AddFriends.Action.FriendAdded,Teman Ditambahkan
+Feature.AddFriends.Action.RequestIgnored,Permintaan Diabaikan
+Feature.Avatar.Label.LeftInitial,L
+Feature.Avatar.Label.Right,R
+Feature.Avatar.Label.RightInitial,R
+Feature.Friends.Label.Following,Mengikuti
+Feature.Friends.Label.Followers,Pengikut
+Feature.Friends.Label.MutualFriends,Teman Bersama
+Feature.Friends.Label.FollowsYou,Mengikuti Kamu
+Feature.Friends.Label.YouAreFollowing,Kamu mengikuti
+Feature.Friends.Action.Block,Blokir
+Feature.Friends.Label.Friend,Teman
+Feature.Friends.Action.Unblock,Buka Blokir
+Verification.Identity.Label.VoiceChatUpsell,"Pengalaman virtual ini mendukung chat suara spasial. Untuk menggunakan fitur ini, kamu perlu memverifikasi bahwa usia kamu setidaknya 13 tahun."
+Verification.Identity.Action.SkipVoiceChat,Bergabung tanpa Chat Suara
+Verification.Identity.Label.DontShowAgain,Jangan Tampilkan Lagi
+Verification.Identity.Label.EnableVoiceChat,Aktifkan Chat Suara
+Verification.Identity.Label.UsesVoiceChat,Pengalaman virtual ini menggunakan chat suara. Mengaktifkan chat suara akan menggunakan mikrofon perangkat kamu di pengalaman virtual dengan suara yang diaktifkan.
+Verification.Identity.Label.ToggleInstruction,Kamu juga dapat mematikan dan menyalakan fitur ini di Pengaturan.
+Verification.Identity.Label.JoinWithout,Bergabung tanpa Chat Suara
+InGame.CommonUI.BetaBadge.BadgeText,Beta
+InGame.CommonUI.Badge.Popup.DisclaimerText,"Laporkan penyalahgunaan jika kamu mengetahui pengguna yang melanggar Panduan Komunitas kami. Jika kamu berpartisipasi dalam chat suara, Roblox dapat merekam audio suara di mana saja di platform untuk tujuan moderasi dan keamanan. Dengan terus menggunakan fitur chat suara, kamu menyetujui pengumpulan, penggunaan, dan penyimpanan rekaman suara kamu oleh Roblox untuk tujuan moderasi dan keamanan. Kamu dapat keluar dari suara spasial kapan saja."
+InGame.CommonUI.Badge.Popup.HeaderList,Kamu telah memilih untuk berpartisipasi dalam satu atau beberapa fitur beta kami:
+InGame.CommonUI.Badge.Popup.VoiceChatBullet,Chat suara
+InGame.CommonUI.Badge.BadgeText,BETA
+InGame.CommonUI.Badge.Popup.LearnMoreLink,Pelajari Selengkapnya
+InGame.CommonUI.Badge.Popup.LearnMoreText,"Silakan lihat artikel bantuan ""Pertanyaan Umum Perekaman Suara"" untuk informasi selengkapnya."
+InGame.CommonUI.Badge.Popup.TextFilterOnlyInfo,Sekarang kamu dapat chat lebih bebas dengan lebih sedikit filter. Tersedia hanya untuk pengguna yang memenuhi syarat yang berusia 13+.
+InGame.CommonUI.Badge.Popup.VoiceInfo,"Kamu telah berpartisipasi dalam fitur beta kami, chat suara. Roblox merekam audio suara di mana saja di platform untuk tujuan moderasi dan keamanan. Dengan terus menggunakan fitur chat dengan suara, kamu menyetujui pengumpulan, penggunaan, dan penyimpanan rekaman suara kamu oleh Roblox untuk tujuan moderasi dan keamanan. Kamu dapat keluar dari chat suara kapan saja."
+InGame.CommonUI.Badge.Popup.CommunityStandards,Laporkan Penyalahgunaan jika kamu mengetahui pengguna yang melanggar Standar Komunitas kami.
+Feature.NativeAds.Label.Sponsored,Bersponsor
+Feature.NativeAds.Label.Ad,Iklan
+InGame.ConnectionError.DisconnectOutOfMemory,Perangkat kamu tidak memiliki cukup memori untuk menjalankan pengalaman virtual ini. Keluar untuk kembali ke aplikasi.
+InGame.ConnectionError.DisconnectOutOfMemoryExitContinue,"Karena kemampuan perangkat ini, pengalaman virtual ini menjadi tidak stabil, jadi dapat crash."
+InGame.ConnectionError.Title.ExperienceUnstable,Pengalaman Virtual Tidak Stabil
+Feature.SettingsHub.Label.MethodOfAbuse,Tipe Penyalahgunaan?
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Title,Chat Suara
+Feature.SettingsHub.MethodOfAbuse.VoiceChat.Subtitle,Pengguna ini berteriak sangat keras
+Feature.SettingsHub.MethodOfAbuse.Text.Subtitle,Pengguna ini mengetik kata kasar di chat teks
+Feature.SettingsHub.MethodOfAbuse.Text.Title,Chat Teks
+Feature.SettingsHub.MethodOfAbuse.Other.Title,Lainnya
+Feature.SettingsHub.MethodOfAbuse.Other.Subtitle,"Pengguna ini mengikuti saya, memakai baju ofensif, dll."
+Feature.SettingsHub.ReportSubmitted.MutePlayer,Bisukan {Player}
+Feature.SettingsHub.ReportSubmitted.BlockPlayer,Blokir {Player}
+Feature.SettingsHub.ReportSubmitted.ThankYou,Kami telah menerima laporan kamu dan akan segera mengambil tindakan jika diperlukan. Masukan kamu akan membantu menjaga keamanan komunitas kami.
+Feature.SettingsHub.ReportSubmitted.MutedSubtitleText,Kamu tidak akan lagi dapat mendengar {Player}
+Feature.SettingsHub.ReportSubmitted.BlockedSubtitleText,Kamu dan {Player} tidak akan lagi dapat berkomunikasi satu sama lain.
+Feature.SettingsHub.Label.ReportComment,Beri penjelasan untuk membantu kami memahami masalahnya.
+Feature.SocialShare.Action.Share,Bagikan
+Feature.SocialShare.Label.ShareServerLink,Bagikan Tautan Undangan
+Feature.SocialShare.Label.Copied,Disalin
+Feature.AccountSettings.Label.FreeCommConsentOnly,"Saya setuju akan pengumpulan, penggunaan, dan penyimpanan rekaman suara saya hanya untuk keperluan moderasi dan tujuan keamanan."
+InGame.CommonUI.Button.KeepPlaying,Terus Putar
+InGame.ConnectionError.Title.OutOfMemory,Memori Habis
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingExit,"Pengalaman virtual ini menggunakan terlalu banyak memori, jadi dapat crash."
+Feature.SettingsHub.Label.DefaultInviteMessage,Kamu ingin mengundang {DisplayName} untuk bergabung dengan kamu?
+Feature.SettingsHub.Heading.InviteUser,Undang {DisplayName}?
+Feature.SettingsHub.Action.MuteAll,Bisukan Semua
+Feature.SettingsHub.Action.UnmuteAll,Bunyikan Semua
+CoreScripts.TextChat.Whisper.Error.CannotWhisperSelf,Kamu tidak dapat berbisik ke diri sendiri.
+Feature.AccountSettings.Description.Dialog.VerifiedUsernameChangeWarning,Peringatan: Mengubah nama pengguna kamu akan menghapus status lencana terverifikasi. Kamu yakin ingin melakukannya?
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Title,Visibilitas Nama Display
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.All,Terlihat
+Feature.SettingsHub.GameSettings.GuiVisibilityPlayerNameplates.Hide,Tersembunyi
+Feature.SettingsHub.LanguageSelection.SourceLanguage,{LanguageName} (Orisinal)
+Feature.SettingsHub.LanguageSelection.Unavailable,Tidak Tersedia
+Feature.SettingsHub.LanguageSelection.SettingLabel,Bahasa Pengalaman Virtual
+Verification.Identity.Label.LearnMoreAboutVoiceRecording,Pelajari Selengkapnya tentang Rekaman Suara
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockPlayer,Bisukan dan Blokir {DisplayName}?
+Feature.SettingsHub.ReportSubmitted.Label.MuteAndBlockWarning,Kamu dan {Player} (@) tidak akan lagi dapat berkomunikasi satu sama lain.
+Feature.SettingsHub.ReportSubmitted.MutePlayerDisplayName,Bisukan {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.BlockPlayerDisplayName,Blokir {DisplayName}(@{Username})?
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockWarning,Kamu dan {DisplayName}(@{Username}) tidak akan lagi dapat berkomunikasi satu sama lain.
+Feature.SettingsHub.ReportSubmitted.MutedAndBlocked,Kamu telah memblokir dan membisukan {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Muted,Kamu telah membisukan {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.Blocked,Kamu telah memblokir {Displayname}(@{Username})
+Feature.SettingsHub.ReportSubmitted.MuteAndBlockPlayer,Bisukan dan Blokir {DisplayName}(@{Username})?
+Feature.SettingsHub.Prompt.TeleportBlock.Title,Teleportasi Dijeda
+Feature.SettingsHub.Prompt.TeleportBlock.Subtitle,Teleportasi akan dilanjutkan setelah menu ditutup.
+Feature.NativeAds.Action.EnterExperience,Masuk ke Pengalaman Virtual
+Feature.NativeAds.Action.ReturnToExperience,Kembali ke Pengalaman Virtual
+InGame.ConnectionError.PlacelaunchUserPrivacyUnauthorized,Pengaturan chat mencegah kamu untuk bergabung ke server ini.
+CoreScripts.TopBar.RobloxMenu,Menu Roblox
+InGame.CommonUI.Label.MicOff,Mikrofon Mati
+InGame.CommonUI.Label.MicOnRecording,Mikrofon Nyala (merekam audio)
+InGame.InspectMenu.Label.VerifiedAvatar,Avatar {VERIFIED_BADGE} {PLAYER_NAME}
+IAPExperience.InsufficientRobux.Text.DontHaveEnough,Kamu tidak memiliki cukup Robux untuk membeli item ini.
+IAPExperience.InsufficientRobux.Text.CurrentBalance,Saldo Saat Ini
+IAPExperience.InsufficientRobux.Action.Cancel,Batalkan
+IAPExperience.InsufficientRobux.Action.BuyRobux,Beli Robux
+Feature.NativeAds.Description.InvalidAdGuiAdorneeShape,Adornee AdGui tidak dalam bentuk Blok
+Feature.NativeAds.Description.InvalidAdGuiAdorneeRotation,Rotasi Adornee AdGui tidak valid
+Feature.NativeAds.Description.InvalidAdPortalParentType,Tipe orang tua tidak valid
+Feature.NativeAds.Description.AdPortalParentMissing,Orang tua tidak ada
+Feature.NativeAds.Description.InvalidAdGuiAdorneeSize,Ukuran Adornee AdGui tidak valid
+Feature.NativeAds.Description.InvalidAdGuiAdorneePosition,Posisi Adornee AdGui tidak valid
+Feature.NativeAds.Description.InvalidAdPortalHierarchy,AdPortal tidak memiliki hierarki yang benar
+Feature.NativeAds.Description.InvalidAdGuiValidation,Validasi AdGui gagal
+Feature.NativeAds.Description.InvalidAdPortalProperties,AdPortal tidak memiliki properti yang benar
+Feature.NativeAds.Description.InvalidAdPortalParentProperties,Bagian orang tua AdPortal tidak memiliki properti yang benar
+Feature.NativeAds.Description.InvalidAdGuiAdornee,Adornee AdGui bukan suatu Bagian
+Feature.NativeAds.Description.AdPortalMissing,AdPortal tidak ada
+IAPExperience.InsufficientRobux.Text.YouNeed,Kamu perlu tambah {robux}. Beli paket Robux lagi lalu kembali ke pengalaman virtual.
+IAPExperience.InsufficientRobux.Action.RobuxStore,Buka Toko Robux
+CoreScripts.TextChat.Emote.Error.NotOwned,Kamu tidak memiliki Emote {RBX_EMOTE}.
+InGame.HelpMenu.Label.PlaySessionId,PlaySessionId: {RBX_STR}
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspension2,"Karena pelanggaran terhadap Standar Komunitas, untuk sementara akses ke chat dengan suara dihapus hingga"
+Feature.SettingsHub.Prompt.MicUseSuspended,Penggunaan mikrofon ditangguhkan
+InGame.ConnectionError.Title.LowMemoryWarning,Peringatan Memori Hampir Habis
+InGame.ConnectionError.Queue,Posisimu dalam antrian: {POSITION}
+CoreScripts.PublishAssetPrompt.TitleTextClothing,Kirim Pakaian
+CoreScripts.PublishAssetPrompt.TitleTextEmote,Kirim Emote
+CoreScripts.PublishAssetPrompt.TitleTextPackage,Kirim Paket
+CoreScripts.PublishAssetPrompt.Name,Nama
+CoreScripts.PublishAssetPrompt.Description,Deskripsi
+CoreScripts.PublishAssetPrompt.InvalidName,Nama Tidak Valid
+CoreScripts.PublishAssetPrompt.InvalidDescription,Deskripsi Tidak Valid
+CoreScripts.PublishAssetPrompt.DisclaimerAvatar,Saya setuju bahwa pengalaman virtual ini akan mengirim item avatar saya ke moderasi lalu di-upload ke Kreasi Saya.
+CoreScripts.PublishAssetPrompt.DisclaimerEmote,Saya setuju bahwa pengalaman virtual ini akan mengirim emote saya ke moderasi lalu di-upload ke Kreasi Saya.
+CoreScripts.PublishAssetPrompt.Cancel,Batalkan
+CoreScripts.PublishAssetPrompt.Submit,Kirim
+CoreScripts.PublishAssetPrompt.AssetDescriptionPlaceholder,Deskripsi
+CoreScripts.PublishAssetPrompt.AssetNamePlaceholder,Nama
+CoreScripts.TextChat.Emote.Error.NotOwnedGeneric,Kamu tidak memiliki Emote itu.
+Client.App.Message.Win32DeprecationNotifyPhase,
+Client.App.Message.Win32DeprecationDeadlinePhase,
+Client.App.Message.Win32DeprecationDeprecatedPhase,
+Feature.GameDetails.Label.Camera,Kamera
+InGame.CommonUI.Label.Return,Kembali ke
+InGame.CommonUI.Label.ReturnFallback,Kembali ke pengalaman virtual sebelumnya
+InGame.CommonUI.Label.ReturnTo,Kembali ke {placeName}
+Feature.FaceChat.Heading.FacialAnimation,Animasi Wajah
+Feature.FaceChat.Subtitle.FeatureDisabled,Animasi wajah tidak tersedia untuk sementara. Coba lagi nanti.
+Feature.FaceChat.Subtitle.ServerDisabled,Animasi wajah tidak tersedia untuk sementara. Coba lagi nanti.
+Feature.FaceChat.Subtitle.VideoPerformancePromptDisable,Mematikan kamera dapat meningkatkan performa pengalaman virtual.
+Feature.FaceChat.Heading.VideoNoPermission,Kamera Tidak Tersedia
+Feature.FaceChat.Subtitle.VideoNoPermission,Buka pengaturan untuk mengizinkan Roblox menggunakan kamera.
+Feature.FaceChat.Heading.VideoPerformancePromptDisable,Performa Perangkat Rendah
+Feature.FaceChat.Heading.PromptNoDynamicHeadEquipped,Animasi Wajah Tidak Tersedia
+Feature.FaceChat.Heading.VideoUnsupported,Kamera Perangkat Tidak Didukung
+Feature.FaceChat.Subtitle.VideoUnsupported,Roblox tidak dapat menggunakan kamera perangkat kamu untuk menganimasi Avatarmu.
+Feature.SettingsHub.Prompt.Connecting,Suara Masih Sedang Dihubungkan
+Feature.SettingsHub.Prompt.Subtitle.Connecting,Koneksi suara sedang berlangsung. Proses ini mungkin membutuhkan waktu beberapa saat.
+CoreScripts.ContactList.Label.Outgoing,Keluar
+CoreScripts.ContactList.Label.Incoming,Masuk
+CoreScripts.ContactList.Label.Missed,Tak Terjawab
+Feature.FaceChat.Heading.LODCameraForceDisable,Kamera Telah Dimatikan
+Feature.FaceChat.Subtitle.LODCameraForceDisable,Roblox telah mematikan kamera perangkat kamu karena masalah performa.
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Action,Atur
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Body,"Kamu harus mengatur Verifikasi 2 Langkah untuk menyelesaikan tindakan ini. Verifikasi 2 Langkah akan membantu melindungi log in, pembelian kamu, dan lainnya."
+Feature.ForceTwoStepVerification.ForceTwoStepVerification.Header,Verifikasi 2 Langkah Diperlukan
+Feature.SettingsHub.Prompt.Subtitle.TemporarySuspensionAvatarChat,"Karena pelanggaran terhadap Standar Komunitas, untuk sementara akses ke chat dengan suara dan chat sebagai avatar kamu dihapus hingga"
+Feature.SettingsHub.Prompt.Subtitle.FutureViolations,Pelanggaran di masa mendatang dapat mengakibatkan tindakan tambahan terhadap akun.
+Feature.SettingsHub.Prompt.Subtitle.EffectiveUntil,Efektif hingga
+Feature.SettingsHub.Prompt.Subtitle.MicAndCamera,"Sistem kami telah mendeteksi perilaku yang mungkin melanggar Standar Komunitas kami. Sebagai tindakan pencegahan, untuk sementara kami menonaktifkan akses ke chat dengan suara dan chat sebagai avatar."
+Feature.SettingsHub.Prompt.Subtitle.Microphone,"Sistem kami telah mendeteksi perilaku yang mungkin melanggar Standar Komunitas kami. Sebagai tindakan pencegahan, untuk sementara kami menonaktifkan akses ke chat dengan suara."
+Feature.SettingsHub.Prompt.MicAndCameraUseSuspended,Penggunaan Mikrofon dan Kamera Ditangguhkan
+IAPExperience.BuyRobux.Banner.Text,"Dengan Robux, kamu dapat meng-upgrade avatar atau membeli kemampuan spesial di pengalaman virtual"
+IAPExperience.BuyRobux.Banner.Title,Buka Robux
+IAPExperience.BuyRobux.Text.MoreRobux,{robux} Robux Lebih Banyak
+InGame.ConnectionError.PlacelaunchHttpError,Terjadi eror Http. Tutup aplikasi lalu coba lagi.
+InGame.ConnectionError.PlacelaunchGameFull,Pengalaman virtual yang diminta sudah penuh
+InGame.ConnectionError.PlacelaunchGameEnded,Pengalaman virtual ini telah berakhir atau server tidak tersedia karena eror pada sistem
+InGame.ConnectionError.DisconnectOutOfMemoryKeepPlayingLeave,Memori perangkat kamu hampir habis. Keluar sekarang akan menyimpan status kamu dan mencegah Roblox crash.
+InGame.ConnectionError.Waiting,Menunggu server yang tersedia
+InGame.ConnectionError.Loading,"Server ditemukan, loading..."
+InGame.ConnectionError.Joining,Bergabung ke server
+NotificationScript2.UINavigation.FormattedText,Tekan {KEY_NAME} untuk mengaktifkan/menonaktifkan.
+Feature.FaceChat.Subtitle.UnsupportedDevice,Perangkat kamu tidak memenuhi syarat untuk menganimasi avatarmu dengan menggunakan kamera.
+Feature.AccountSettings.Heading.Communication,Komunikasi
+Feature.FaceChat.Heading.NotAvailable,Animasi Wajah Tidak Tersedia
+InGame.ConnectionError.DisconnectPrivateServerKickout,Koneksi terputus karena kamu tidak memiliki akses ke server privat ini.
+CoreScripts.PublishAssetPrompt.PackagesDefaultName,Paket oleh {RBX_NAME}
+Feature.FaceChat.Subtitle.PromptNoDynamicHeadEquipped,Avatar kamu memiliki kepala yang tidak mendukung animasi wajah. Kepala yang kompatibel tersedia di inventaris kamu dan di Toko Avatar.
+CoreScripts.EmoteThumbnailEditor.Action.Cancel,Batalkan
+CoreScripts.EmoteThumbnailEditor.Action.Update,Update
+CoreScripts.EmoteThumbnailEditor.Heading.EditThumbnail,Edit thumbnail
+CoreScripts.EmoteThumbnailEditor.Label.Rotation,Rotasi
+CoreScripts.EmoteThumbnailEditor.Label.Time,Waktu
+Notifications.ToastNotifications.Label.LeaveExperienceConfirmation,Kamu yakin ingin keluar lalu bergabung ke pengalaman virtual lain?
+Feature.SettingsHub.Prompt.SimpleNudge,Harap berbaik hati dan bersikap sopan
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge,Sistem kami telah mendeteksi perilaku yang mungkin melanggar Standar Komunitas kami. Ini adalah peringatan awal untuk menjaga kebaikan dan kesopanan di Roblox.
+Feature.SettingsHub.Prompt.Subtitle.SimpleNudge2,Pelanggaran di masa mendatang dapat mengakibatkan tindakan tambahan terhadap akun.
+Feature.SettingsHub.Prompt.ThankYouForFeedback,Terima kasih sudah memberi tahu kami
+Feature.SettingsHub.Prompt.Subtitle.ThankYouForFeedback,Kami akan terus meningkatkan sistem kami berdasarkan masukan kamu.
+Feature.SettingsHub.Chat.TranslationEnabled,Terjemahkan Chat secara Otomatis
+Notifications.ToastNotifications.Title.LeavingExperience,Meninggalkan Pengalaman Virtual
+CoreScripts.PublishAssetPrompt.PublishSuccessMessage,Kamu dapat menemukan item ini di inventaris kamu.
+CoreScripts.PublishAssetPrompt.PublishFailed,Terjadi kesalahan. Coba lagi.
+CoreScripts.PublishAssetPrompt.PermissionDenied,Terjadi kesalahan. Coba lagi.
+CoreScripts.PublishAssetPrompt.Timeout,Terjadi kesalahan. Coba lagi.
+CoreScripts.PublishAssetPrompt.NoUserInput,Terjadi kesalahan. Coba lagi.
+CoreScripts.PublishAssetPrompt.PublishSuccessTitle,Berhasil!
+CoreScripts.PublishAssetPrompt.PublishFailedTitle,Pengiriman Gagal
+Feature.SettingsHub.Chat.TranslationInformation,Chat teks akan diterjemahkan ke dalam bahasa kamu. Ketuk simbol di depan pesan untuk melihat pesan orisinal.
+CoreScripts.TextChat.Clear.Help.Description,/clear atau /cls: menghapus pesan di jendela chat 
+GameChat_ChatMain_ChatTranslationOnboarding,Chat teks akan diterjemahkan ke dalam bahasa kamu. Ketuk simbol di depan pesan untuk melihat pesan orisinal. Kamu dapat mematikan terjemahan di menu Pengaturan.
+CoreScripts.PublishAssetPrompt.TitleTextModel,Kirim Paket
+IAPExperience.BuyRobux.Text.MoreRobux2,{robux} Robux Lebih Banyak
+CoreScripts.PublishAssetPrompt.UndefinedError,Terjadi kesalahan. Coba lagi. Kode Eror: {RESULT_TYPE}
+InGame.CommonUI.Label.Off,Mati
+InGame.CommonUI.Label.On,Nyala
+CoreScripts.PublishAssetPrompt.DisclaimerModel,Item yang dibuat akan di-review dan kamu mungkin tidak menerima pengembalian dana untuk item yang ditolak karena tidak mematuhi Standar Komunitas.
+IAPExperience.BuyRobux.Alert.SuccessfulMessage,Kamu berhasil membeli Robux!
+CoreScripts.AssetPreviewView.Action.ResetView,Reset tampilan
+CoreScripts.AssetPreviewView.Label.LoadingFailed,Loading gagal
+CoreScripts.PublishAssetPrompt.ResultModalOk,OKE
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityModal,Kami telah mendeteksi kata yang mungkin telah melanggar Standar Komunitas Roblox.<br /><br />Kamu dapat kehilangan akses ke Chat dengan Suara setelah beberapa pelanggaran.
+Feature.SettingsHub.Prompt.Subtitle.VoiceToxicityToast,Kami telah mendeteksi kata yang mungkin telah melanggar Standar Komunitas Roblox. Kamu dapat kehilangan akses ke Chat dengan Suara setelah beberapa pelanggaran.
+Feature.SettingsHub.Prompt.GotIt,Oke
+CreatorDashboard.AssetTypes.Label.Body,Tubuh
+IAPExperience.InsufficientRobux.Title.InsufficientRobux,Robux Tidak Cukup
+IAPExperience.Loading.Text.PurchasingRobux,Membeli Robux...
+IAPExperience.Loading.Text.PurchasingItem,Membeli item...
+IAPExperience.Loading.WaitingForPurchase,Menunggu pembelian...
+IAPExperience.Loading.WaitingForRobux,Menunggu Robux untuk diberikan...
+IAPExperience.Loading.Text.WaitingForPurchase,Menunggu pembelian...
+IAPExperience.Loading.Text.WaitingForRobux,Menunggu Robux untuk diberikan...
+Notifications.NotificationStream.Title.ReportNotification,Notifikasi Laporan
+Notifications.NotificationStream.AbuseReason.Bullying,Perundungan (Bullying)
+Notifications.NotificationStream.AbuseReason.CheatingAndExploiting,Kecurangan dan Eksploitasi
+Notifications.NotificationStream.AbuseReason.Dating,Berkencan
+Notifications.NotificationStream.AbuseReason.DirectingOffPlatform,Tautan Keluar dari Roblox
+Notifications.NotificationStream.AbuseReason.Other,Lainnya
+Notifications.NotificationStream.AbuseReason.AskingPII,Pertanyaan Pribadi
+Notifications.NotificationStream.AbuseReason.Scamming,Scam
+Notifications.NotificationStream.AbuseReason.Profanity,Sumpah Serapah
+Feature.ReportAbuse.Message.ErrorSubmit,Terjadi eror saat mengirim laporan kamu.
+Feature.ReportAbuse.Action.ReportAbuse,Laporkan Penyalahgunaan
+Feature.ReportAbuse.Label.TellUsHowAsset,Beri tahukan kami mengapa kamu berpikir bahwa aset melanggar peraturan Roblox.
+Feature.ReportAbuse.Label.ReasonForFlag,Alasan Ditandai:
+Feature.ReportAbuse.Message.ThanksForFlagging,"Kami tidak dapat merespons setiap laporan, tetapi masukan kamu akan membantu Roblox menjadi lebih baik bagi semua kreator."
+Feature.ReportAbuse.Message.ErrorCommentCharacterLimit,Komentar kamu harus kurang dari {characterLimit} karakter.
+Feature.SettingsHub.Prompt.IncorrectNudge,Apakah kami melakukan kesalahan?<br /><u>Beri tahukan kami</u>
+Feature.SettingsHub.Prompt.RememberRules,Ingat kebijakan kami
+Feature.SettingsHub.Label.Captures,Media
+InGame.InspectMenu.Label.LimitedItems,Item Terbatas
+InGame.InspectMenu.Label.FromResale,{PRICE} dari Penjualan Kembali
+InGame.InspectMenu.Action.FromResale,{PRICE} dari Penjualan Kembali
+InGame.InspectMenu.Label.OwnedItem,Item yang Dimiliki ({QUANTITY})
+InGame.InspectMenu.Label.OwnedItems,Item yang Dimiliki ({QUANTITY})
+InGame.InspectMenu.Action.LimitReached,Batas Jumlah Item Tercapai
+Feature.FaceChat.Heading.UnableToAccessCamera,Tidak dapat mengakses Kamera
+Feature.FaceChat.Subtitle.UnableToAccessCamera,"Untuk menganimasi avatarmu, buka Pengaturan perangkat untuk memungkinkan Roblox menggunakan camera"
+Feature.SettingsHub.Prompt.MicrophonePermission,Tidak dapat mengakses Mikrofon
+Feature.SettingsHub.Prompt.Subtitle.MicrophonePermission,"Untuk chat dengan suara, buka Pengaturan perangkat untuk memungkinkan Roblox menggunakan mikrofon"
+Feature.SettingsHub.Prompt.VoiceUserAgency.Remember,Ingat untuk pengalaman virtual ini.
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinMuted,"Tidak, bisukan pengguna lain"
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted,"Ya, dengar pengguna lain"
+Feature.SettingsHub.VoiceUserAgency.JoinUnmuted.Description,"Kamu akan mendengar suara pengguna lain, tetapi mikrofonmu akan dimatikan hingga kamu siap untuk chat."
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Title,Bergabung dengan Suara Nyala?
+CoreScripts.PublishCommon.Creator,Kreator
+CoreScripts.PublishCommon.Leave,Ya
+CoreScripts.PublishCommon.MadeIn,Dibuat di
+CoreScripts.PublishCommon.Stay,Tidak
+CoreScripts.PublishCommon.Type,Tipe
+CoreScripts.PublishCommon.UnsavedWarning,Perubahan yang belum disimpan dapat hilang
+Feature.Accessibility.Description.PreferredTransparency,Tingkatkan kontras dengan menyesuaikan transparansi di beberapa latar belakang
+Feature.Accessibility.Description.ReducedMotion,Menghentikan atau mengurangi efek gerakan
+Feature.Accessibility.Description.UiNavigationKeyBind,Gunakan tombol {uiNavigationKey} untuk masuk dan keluar dari mode navigasi UI
+Feature.Accessibility.Heading.PreferredTransparency,Transparansi latar belakang
+Feature.Accessibility.Heading.ReducedMotion,Kurangi gerakan
+Feature.Accessibility.Heading.UiNavigationKeyBind,Tombol navigasi UI
+Feature.Accessibility.PreferredTransparency.Opaque,Buram
+Feature.Accessibility.PreferredTransparency.Transparent,Transparan
+Feature.Avatar.Heading.Clothing,Pakaian
+Feature.Avatar.Label.Accessory,Aksesori
+Feature.Avatar.Label.Back,Belakang
+Feature.Avatar.Label.ClassicPants,Celana Panjang Klasik
+Feature.Avatar.Label.ClassicShirts,Kemeja Klasik
+Feature.Avatar.Label.ClassicTShirts,Kaus Klasik
+Feature.Avatar.Label.Climb,Panjat
+Feature.Avatar.Label.DressesAndSkirts,Gaun & Rok
+Feature.Avatar.Label.DynamicHead,Kepala Dinamis
+Feature.Avatar.Label.Emote,Emote
+Feature.Avatar.Label.Face,Wajah
+Feature.Avatar.Label.Fall,Jatuh
+Feature.Avatar.Label.Gear,Perlengkapan
+Feature.Avatar.Label.Hair,Rambut
+Feature.Avatar.Label.Hat,Topi
+Feature.Avatar.Label.Head,Kepala
+Feature.Avatar.Label.Idle,Idle
+Feature.Avatar.Label.Jacket,Jaket
+Feature.Avatar.Label.Jump,Loncat
+Feature.Avatar.Label.LeftArm,Lengan Kiri
+Feature.Avatar.Label.LeftArms,Lengan Kiri
+Feature.Avatar.Label.LeftLeg,Kaki Kiri
+Feature.Avatar.Label.LeftLegs,Kaki Kiri
+Feature.Avatar.Label.LeftShoe,Sepatu Kiri
+Feature.Avatar.Label.Mood,Mood
+Feature.Avatar.Label.Neck,Leher
+Feature.Avatar.Label.Pants,Celana Panjang
+Feature.Avatar.Label.RightArm,Lengan Kanan
+Feature.Avatar.Label.RightArms,Lengan Kanan
+Feature.Avatar.Label.RightLeg,Kaki Kanan
+Feature.Avatar.Label.RightLegs,Kaki Kanan
+Feature.Avatar.Label.RightShoe,Sepatu Kanan
+Feature.Avatar.Label.Run,Lari
+Feature.Avatar.Label.Shirt,Kemeja
+Feature.Avatar.Label.Shorts,Celana Pendek
+Feature.Avatar.Label.Shoulder,Bahu
+Feature.Avatar.Label.Sweater,Sweater
+Feature.Avatar.Label.Swim,Renang
+Feature.Avatar.Label.Torso,Badan
+Feature.Avatar.Label.TShirt,Kaus
+Feature.Avatar.Label.Waist,Pinggang
+Feature.Avatar.Label.Walk,Jalan
+Feature.Catalog.Label.Animation,Animasi
+Feature.Catalog.Label.Attribution,Dibuat di
+Feature.Catalog.Label.Body,Tubuh
+Feature.Catalog.Label.CategoryType,Jenis
+Feature.Catalog.Label.Emotes,Emoji
+Feature.Catalog.Label.Eyebrow,Alis
+Feature.Catalog.Label.Eyelash,Bulu Mata
+Feature.Catalog.Label.Filter.Creator,Kreator
+Feature.GamepadDisconnect.Label.Message,Koneksi controller untuk pengguna %s terputus. Tekan %s di controller yang ingin kamu gunakan.
+Feature.GamepadDisconnect.Label.Title,Tidak ada controller
+InGame.InspectMenu.Action.SoldOut,Habis Terjual
+CoreScripts.PublishCommon.Disclaimer,Item yang dibuat akan di-review dan kamu mungkin tidak menerima pengembalian dana untuk item yang ditolak karena tidak mematuhi Standar Komunitas.
+Feature.ReportAbuse.Action.AttachScreenshot,Lampirkan Screenshot
+Feature.ReportAbuse.Action.BackToExperience,Kembali ke Pengalaman Virtual
+Feature.ReportAbuse.Action.HighlightScene,Highlight Adegan
+Feature.ReportAbuse.Action.Next,Lanjutkan
+Feature.ReportAbuse.Action.Retake,Ambil Ulang
+Feature.ReportAbuse.Action.RetakeScene,Mengambil Ulang Adegan
+Feature.ReportAbuse.Label.SelectPerson,Pilih Pengguna di Adegan
+Feature.ReportAbuse.Label.SelectProblem,Pilih Masalah di Adegan
+Feature.ReportAbuse.Message.ProblemNotInScene,"Jika masalahnya tidak ada di adegan ini, kamu dapat Ambil Ulang screenshot."
+Feature.ReportAbuse.Message.RetakeScene,"Bantu kami memahami apa yang terjadi. Kami akan mengambil adegan pada saat kamu memilih ""Laporkan""."
+Feature.SettingsHub.Action.CaptureScene,Ambil Adegan
+Feature.SettingsHub.Label.AttachScreenshot,Lampirkan Screenshot? (opsional)
+Feature.SettingsHub.Label.AttachScreenshotFormatted,Lampirkan Screenshot?{lineBreak}(opsional)
+Feature.SettingsHub.Label.SceneCaptured,Adegan Diambil
+CommonUI.Controls.Action.Cancel,Batalkan
+CommonUI.Controls.Action.Confirm,Konfirmasi
+CoreScripts.TopBar.ControlMessageMotion,Pelacakan Gerakan
+CoreScripts.TopBar.ControlMessageOff,Mati
+CoreScripts.TopBar.ControlMessageOn,Nyala
+CoreScripts.TopBar.ControlMessageSound,Pelacakan Suara
+CoreScripts.TopBar.DynamicAvatarMissingErrorBody,Avatar › Kustomisasi › Kepala & Tubuh
+CoreScripts.TopBar.DynamicAvatarMissingErrorHeader,Gunakan kepala dinamis untuk mengedipkan mata!
+CoreScripts.TopBar.RobloxPermissionErrorBody,Pengaturan Roblox › Privasi › Input Mikrofon dan Kamera
+CoreScripts.TopBar.RobloxPermissionErrorHeader,Izinkan Akses Kamera
+CoreScripts.TopBar.SelfViewLabel,Tampilan Diri
+CoreScripts.TopBar.SelfViewSecondaryAction,Buka
+InGame.CommonUI.Badge.Popup.DisclaimerText2,"Laporkan penyalahgunaan jika kamu menemukan pengguna yang melanggar Panduan Komunitas kami. Jika kamu telah mengaktifkan layanan suara, Roblox akan merekam audio suara di mana saja di platform untuk tujuan moderasi, keamanan, dan untuk meningkatkan layanan dan fitur kami. Dengan terus menggunakan layanan suara, kamu memberikan izin kepada Roblox untuk mengumpulkan, menggunakan, dan menyimpan rekaman suaramu untuk tujuan tersebut. Kamu dapat memilih untuk keluar dari fitur suara kapan saja."
+CoreScripts.TopBar.MenuToggle,Perluas/Ciutkan
+CoreScripts.TopBar.MoreMenu,Menu Lainnya
+CoreScripts.TopBar.OverflowMenu,Menu Tambahan
+CoreScripts.TopBar.Title.ExperienceControls,Kendali Pengalaman Virtual
+CoreScripts.TopBar.ToggleMic,Bisukan/Bunyikan Mikrofon Saya
+Feature.Catalog.Label.Bundle,Bundel
+Feature.SocialContextToast.Action.InviteBack,Undang Kembali
+Feature.SocialContextToast.Action.JoinFriend,Bergabung
+Feature.SocialContextToast.Message.FollowedFriendInOtherUniverse,{FRIEND_NAME} sudah keluar dan saat ini ada di {EXPERIENCE_NAME}
+Feature.SocialContextToast.Message.FollowedFriendNotInGame,{FRIEND_NAME} sudah keluar dari pengalaman virtual ini
+Feature.SocialContextToast.Message.FriendJoinedYou,{FRIEND_NAME} bergabung dengan kamu
+Feature.SocialContextToast.Message.InvitationConfirmation,Undangan terkirim
+Feature.SocialContextToast.Message.YouJoinedManyFriends,Kamu telah bergabung dengan {FRIEND_NAME} dan {FRIEND_COUNT} teman lainnya
+Feature.SocialContextToast.Message.YouJoinedOneFriend,Kamu telah bergabung dengan {FRIEND_NAME}
+Feature.SocialContextToast.Message.YouJoinedTwoFriends,Kamu telah bergabung dengan {FRIEND_NAME_ONE} dan {FRIEND_NAME_TWO}
+Feature.SettingsHub.MethodOfAbuse.AvatarSubtitle,Avatar pengguna ini memakai pakaian ofensif
+Feature.SettingsHub.MethodOfAbuse.AvatarTitle,Avatar
+Feature.SettingsHub.Prompt.VoiceUserAgency.JoinUnmuted.Description,"Kamu akan mendengar pengguna lain berbicara, tetapi mikrofonmu akan dimatikan hingga kamu siap untuk berbicara."
+Feature.Subscription.Text.DisclaimerMonthly,Diperpanjang setiap bulan. Batalkan kapan saja.
+Feature.Subscription.Text.PerMonth,/bulan
+Feature.SettingsHub.Action.EveryoneToggle,Semua orang
+Feature.SettingsHub.Action.NobodyToggle,Tidak seorang pun
+Feature.SettingsHub.Action.NonfriendsToggle,Bukan teman
+Feature.SettingsHub.Label.Mute,Bisukan
+Feature.SocialContextToast.Message.InvitationFailure,Terjadi masalah saat mengirim undangan
+Feature.SocialShare.Action.CopyLink,Salin Tautan
+InGame.Presence.Label.RobloxStudio,Roblox Studio
+Feature.Subscription.Text.DisclaimerTextMonthly,Diperpanjang setiap bulan. Batalkan kapan saja.
+Common.Presence.Label.RobloxStudio,Roblox Studio
+Feature.SocialContextToast.Feature.SocialContextToast.Message.FriendInNonRootPlace,"Kamu mengikuti {FRIEND_NAME}, tetapi dia sedang berada di tempat yang dibatasi"
+Feature.SocialContextToast.Message.FriendInNonRootPlace,{FRIEND_NAME} telah berpindah ke lokasi yang dibatasi di pengalaman virtual ini
+CoreScripts.TextChat.ChatTranslation.ChatWindow.SystemMessageNew,Roblox secara otomatis menerjemahkan bahasa yang didukung dalam chat
+CoreScripts.TextChat.ChatTranslation.FTUX.Body,Pesan yang kamu kirim dan terima akan diterjemahkan secara otomatis
+CoreScripts.TextChat.ChatTranslation.FTUX.TitleNew,Terjemahan chat aktif untuk bahasa yang didukung
+Feature.SettingsHub.Chat.TranslationSetting,Terjemahan Chat Otomatis
+Feature.SettingsHub.Chat.TranslationToggleSetting,Opsi untuk melihat Pesan yang Tidak Diterjemahkan
+Feature.Call.Description.NoFriendsFound,Tidak menemukan teman
+Feature.Call.Error.Description.AlreadyInCall,Kamu sudah berada dalam panggilan
+Feature.Call.Error.Description.CallEnabledVerificationFailed,Gagal memverifikasi kelayakan panggilan.
+Feature.Call.Error.Description.Generic,Terjadi eror. Coba lagi nanti.
+Feature.Call.Error.Description.SettingsNotCallEnabled,Kamu tidak dapat membuat panggilan dengan pengaturan kamu saat ini.
+Feature.Call.Error.Label.OhNo,Terjadi kesalahan!
+Feature.Call.Label.CallEnded,Panggilan Berakhir
+Feature.Call.Label.Calling,Memanggil...
+Feature.Call.Label.Incoming,Masuk
+Feature.Call.Label.Missed,Tak Terjawab
+Feature.Call.Label.Outgoing,Keluar
+Feature.Call.Label.RecentCalls,Panggilan Baru-Baru Ini
+Feature.Call.Label.RobloxCall,Panggilan Roblox
+Feature.Call.Label.StartNewCall,Mulai Panggilan Baru
+Feature.Call.Label.Teleporting,Berteleportasi...
+Feature.Call.Label.Yesterday,Kemarin
+Feature.Call.Prompt.AddFriends,Tambahkan teman di Roblox untuk melakukan panggilan
+Feature.Call.Prompt.FirstCall,Coba lakukan panggilan pertamamu
+Feature.Call.Prompt.SearchFriends,Cari teman
+Feature.Call.Prompt.StartCall,Mulai panggilan
+Feature.FaceChat.Heading.LowPerformanceDetected,Performa Rendah Terdeteksi
+Feature.FaceChat.Subtitle.LowPerformanceDetected,Mematikan kamera dapat meningkatkan performa perangkatmu
+Feature.SettingsHub.Label.FriendsListLoadErrorMessage,Gagal me-load teman. Coba lagi nanti.
+Feature.SettingsHub.Label.NoFriendsPageMessage,Tambahkan teman agar kamu dapat menjelajah bersama.
+CoreScripts.Feedback.EntryPoint.ButtonText,Beri Masukan
+CoreScripts.Feedback.EntryPoint.MenuLabel,Masukan
+CoreScripts.Feedback.EntryPoint.OptionText,Beri Masukan Terjemahan
+CoreScripts.Feedback.FeedbackBar.ExitFeedbackButton,Keluar
+CoreScripts.Feedback.FeedbackBar.HelpButton,Bantuan
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsHeader,Berikan komentar tambahan di bawah ini (opsional)
+CoreScripts.Feedback.FeedbackReportDialog.AdditionalCommentsPlaceholder,Masukkan komentar tambahan di sini
+CoreScripts.Feedback.FeedbackReportDialog.Cancel,Batalkan
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationHeader,Apa terjemahan yang benar? (opsional)
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationPlaceholder,Masukkan terjemahan yang benar di sini
+CoreScripts.Feedback.FeedbackReportDialog.MainHeader,Beri Masukan
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Decal,Gambar
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Generic,Objek Game
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.MeshPart,Mesh
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Model,Model
+CoreScripts.Feedback.FeedbackReportDialog.ObjectType.Video,Video
+CoreScripts.Feedback.FeedbackReportDialog.ProblemDropdownSelectionHeader,Apa yang bermasalah dengan terjemahan ini? (opsional)
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.AccuracyIssue,Tidak Tepat
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.InappropriateOrDerogatory,Tidak Pantas atau Merendahkan
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.NoSelection,Tidak ada pilihan
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.SpellingOrGrammarIssue,Masalah Ejaan atau Tata Bahasa
+CoreScripts.Feedback.FeedbackReportDialog.ProblemOption.Untranslated,Tidak Diterjemahkan
+CoreScripts.Feedback.FeedbackReportDialog.SelectionHeader,Objek yang Dipilih
+CoreScripts.Feedback.FeedbackReportDialog.SubmitFeedback,Kirim
+CoreScripts.Feedback.FeedbackReportDialog.TextSelectionHeader,Teks yang Dipilih
+CoreScripts.Feedback.Help.CloseInstructions,Tutup Instruksi
+CoreScripts.Feedback.Help.Instructions1,"Di mode masukan, layar akan dibekukan dan kamu tidak akan dapat menggerakkan avatar atau kameramu. Ketuk atau klik objek apa pun untuk memberi masukan tentang terjemahan yang salah atau tidak ada."
+CoreScripts.Feedback.Help.Instructions2,"Saat kamu memilih suatu objek, sebuah formulir akan ditampilkan untuk kamu memberikan informasi lebih lanjut. Terima kasih telah membantu kami meningkatkan terjemahan di Roblox."
+CoreScripts.Feedback.Help.MainHeader,Bantuan
+CoreScripts.Feedback.SubmissionToastBody,Roblox akan menggunakan informasi ini untuk membantu meningkatkan kualitas terjemahan pengalaman virtual ini
+CoreScripts.Feedback.SubmissionToastHeader,Terima kasih atas masukanmu.
+Feature.Call.Description.Friends,Teman yang mungkin memiliki atau tidak memiliki perangkat dan pengaturan untuk pengalaman panggilan yang optimal.
+Feature.Call.Description.SuggestedFriends,Teman dengan perangkat dan pengaturan yang ditetapkan untuk pengalaman panggilan yang optimal.
+Feature.Call.Error.Description.DeviceNotSupported,Saat ini panggilan tidak didukung di perangkatmu. Coba lagi nanti.
+Feature.Call.Error.Description.FriendBusy,{calleeCombinedName} sedang sibuk dan tidak dapat menerima panggilan. Coba lagi nanti.
+Feature.Call.Error.Title.CouldntMakeCall,Tidak dapat melakukan panggilan
+Feature.Call.Error.Title.FriendBusy,Teman sedang sibuk
+Feature.Call.Label.Friends,Teman
+Feature.Call.Label.Suggested,Disarankan
+Feature.Call.Modal.EnableChatVoiceBody,Aktifkan chat dengan suara di Pengaturan> Privasi untuk berbicara dengan pengguna lain di pengalaman virtual ini.
+Feature.Call.Modal.EnableChatVoiceTitle,Aktifkan chat dengan suara
+InGame.InspectMenu.Action.Go,Pergi
+InGame.InspectMenu.Attribution.GoToDescription,Kamu akan meninggalkan area ini dan dibawa ke {EXPERIENCE_NAME}.
+InGame.InspectMenu.Attribution.GoToExperience,Pergi ke Pengalaman Virtual?
+Common.Presence.Label.Online,Online
+Feature.Call.Label.Block,Blokir {combinedName}
+CoreScripts.Ads.Action.PortalPromptAccept,Berteleportasi Sekarang
+CoreScripts.Ads.Action.PortalPromptCancel,Batalkan
+CoreScripts.Ads.Label.PortalPromptDismissWalkAway,Jalan menjauh untuk menutup dialog.
+CoreScripts.Ads.Label.PortalPromptTeleportToWithName,Berteleportasi ke {RBX_NAME}?
+CoreScripts.Ads.Label.PortalPromptTeleportToWithoutName,Berteleportasi?
+Feature.Avatar.Message.FTUXSelfieViewClosedTooltip,Kamera dan kendali tampilan diri ada di sini
+Feature.Avatar.Message.FTUXSelfieViewOpenedTooltip,Gunakan kamera kamu untuk membuat avatarmu tersenyum dan bergerak seperti kamu
+Feature.Call.Description.ExperienceError,Chat dengan suara tidak didukung oleh pengalaman virtual ini.
+Feature.Call.Error.Title.ExperienceError,Pengalaman Virtual Bermasalah
+Feature.SettingsHub.Label.ReasonForAbuse,Alasan Penyalahgunaan?
+Notifications.NotificationStream.Bundle.ShowLess,Lebih sedikit
+Notifications.NotificationStream.Bundle.ShowMoreV2,{notificationCount} lainnya
+CommonUI.Controls.Input.Optional,{inputLabel} (opsional)
+Feature.SettingsHub.Description.ChatWithVoiceDisabledUntil,Akses kamu ke chat dengan suara telah dinonaktifkan hingga {dateTime} karena tindakan yang mungkin melanggar Standar Komunitas kami.
+Notifications.NotificationStream.Bundle.ExpandNotificationBundle,Buka bundel notifikasi
+Purchasing.RedeemGameCard.Response.RedeemGiftCardCurrencyCodeNotMatchV2,"Mata uang gift card harus sesuai dengan lokasi akunmu. Kamu dapat me-review lokasi akunmu di Pengaturan. Untuk masalah lainnya, hubungi {robloxSupportLinkStart}Roblox.com/support{robloxSupportLinkEnd}."
+Feature.Call.Label.Unfriend,Memutus pertemanan dengan {combinedName}
+Feature.GamepadDisconnect.Label.MessageGeneric,"Controller untuk pengguna ""%s"" telah terputus. Hubungkan kembali controller."
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan1,Kami menonaktifkan chat suara untuk sementara karena kamu mungkin menggunakan bahasa yang melanggar Standar Komunitas Roblox.
+Feature.SettingsHub.Prompt.Subtitle.TemporaryVoiceBan2,"Jika pelanggaran ini terjadi lagi, kamu dapat kehilangan akses ke akunmu."
+Feature.SettingsHub.Prompt.XMinuteSuspension,Penangguhan {banDurationInMinutes} menit
+Feature.ReportAbuse.DSAIllegal.ReportLink,Laporkan konten ilegal berdasarkan Undang-Undang Layanan Digital UE.
+Feature.ReportAbuse.DSAIllegal.ReportPageTitle,Laporkan Konten Ilegal
+Feature.SettingsHub.Chat.TranslationOnWithLanguage,Nyala ({LanguageName})
+CoreScripts.Ads.Label.InExperienceDisclosureStatic,"Roblox tidak menggunakan informasi perilaku untuk menayangkan iklan ini. Kamu melihat iklan ini berdasarkan informasi seperti tipe perangkat, lokasi, dan usia untuk menayangkan iklan yang sesuai dan relevan untukmu."
+Feature.DynamicUI.Translation.Reporting.IllegalContentEUBody,"Untuk melaporkan konten ilegal berdasarkan Undang-Undang Layanan Digital UE, kunjungi: https://www.roblox.com/illegal-content-reporting"
+Feature.SettingsHub.GameSettings.FramerateCapDefaultEntry,Default ({Frames} FPS)
+Feature.SettingsHub.GameSettings.MaximumFramerate,Frame Rate Maksimum
+CoreScripts.Ads.Action.Close,Tutup
+CoreScripts.Ads.Label.WhyThisAd,Kenapa Saya Melihat Iklan Ini?
+CoreScripts.FTUX.Mic.Body,Nyalakan Mikrofonmu
+CoreScripts.FTUX.Mic.Header,Chat dengan suaramu
+CoreScripts.FTUX.Onboard.Body,"Papan peringkat, chat, keamanan, dan banyak lagi"
+CoreScripts.FTUX.Onboard.Header,Buka kontrol favoritmu dengan cepat
+CoreScripts.FTUX.SelfView.Body,"Saat kameramu menyala, avatarmu akan mengikuti gerakanmu saat kamu tersenyum, berkedip, dan banyak lagi"
+CoreScripts.FTUX.SelfView.Header,Animasikan avatarmu
+CoreScripts.FTUX.Tools.Body,"Ikuti skor, laporkan masalah, gunakan emote"
+CoreScripts.FTUX.Tools.Header,Fitur & tindakan teratas
+CoreScripts.PublishAvatarPrompt.AvatarViewToolTip,"Cubit untuk Memperbesar, Gesek untuk Memutar, Gesek 2 Jari untuk Menggeser"
+CoreScripts.PublishAvatarPrompt.Body,Tubuh
+CoreScripts.PublishAvatarPrompt.BodyName,Nama Tubuh
+CoreScripts.PublishAvatarPrompt.Close,Tutup
+CoreScripts.PublishAvatarPrompt.CreatedBody,Tubuh {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedHead,Kepala {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftArm,Lengan Kiri {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedLeftLeg,Kaki Kiri {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightArm,Lengan Kanan {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedRightLeg,Kaki Kanan {DisplayName}
+CoreScripts.PublishAvatarPrompt.CreatedTorso,Badan {DisplayName}
+CoreScripts.PublishAvatarPrompt.Head,Kepala
+CoreScripts.PublishAvatarPrompt.LeaveCreationTitle,Tinggalkan Kreasi?
+CoreScripts.PublishAvatarPrompt.LeftArm,Lengan Kiri
+CoreScripts.PublishAvatarPrompt.LeftLeg,Kaki Kiri
+CoreScripts.PublishAvatarPrompt.Pan,Geser
+CoreScripts.PublishAvatarPrompt.ResetView,Reset Tampilan
+CoreScripts.PublishAvatarPrompt.RightArm,Lengan Kanan
+CoreScripts.PublishAvatarPrompt.RightLeg,Kaki Kanan
+CoreScripts.PublishAvatarPrompt.Rotate,Putar
+CoreScripts.PublishAvatarPrompt.SubmitCreation,Kirim Kreasi
+CoreScripts.PublishAvatarPrompt.Torso,Badan
+CoreScripts.PublishAvatarPrompt.Zoom,Perbesar/Perkecil
+Feature.SettingsHub.Chat.ChatLanguageSelectionLabel,Bahasa Terjemahan Chat
+CoreScripts.Feedback.FeedbackBar.MainLabel,Beri Masukan
+CoreScripts.Feedback.FeedbackReportDialog.CorrectTranslationObjectPlaceholder,Objek Pengalaman Virtual: {ObjectType}
+CoreScripts.Feedback.Help.Instructions,Pilih teks apa pun untuk memberi masukan tentang terjemahan yang salah atau tidak ada.
+CoreScripts.Feedback.MobileSelectionModal.Close,Tutup
+CoreScripts.Feedback.MobileSelectionModal.GiveFeedbackButton,Beri Masukan
+CoreScripts.Feedback.MobileSelectionModal.ObjectSelectedBody,Objek Pengalaman Virtual: {ObjectType}
+CoreScripts.Feedback.MobileSelectionModal.TextSelectionHeader,Teks yang Dipilih
+CoreScripts.Feedback.Onboarding.Cancel,Batalkan
+CoreScripts.Feedback.Onboarding.Instructions,Pilih teks apa pun untuk memberi masukan tentang terjemahan yang salah atau tidak ada.
+CoreScripts.Feedback.Onboarding.MainHeader,Beri Tahu Kami Masalahnya
+CoreScripts.Feedback.Onboarding.Start,Mulai
+CoreScripts.FTUX.Onboard.Complete,Oke
+CoreScripts.FTUX.Onboard.ShowMe,Tampilkan
+Feature.SettingsHub.Prompt.Subtitle.ThanksForLettingUsKnow,Masukanmu membantu kami meningkatkan sistem kami.
+Feature.SettingsHub.Prompt.ThanksForLettingUsKnow,Terima kasih sudah memberi tahu kami
+Feature.SettingsHub.GameSettings.GuiVisibility.Freecam,Freecam
+Feature.SettingsHub.GameSettings.GuiVisibility.ShowGuiType,Tampilkan GUI: '{GuiType}'
+CommonUI.Controls.Action.Yes,Ya
+Feature.Notifications.Heading.EnableNotifications,Nyalakan Notifikasi untuk pengalaman virtual ini
+Feature.Notifications.Heading.EnableNotificationsForExperience,Nyalakan Notifikasi untuk {experienceName}
+Feature.Notifications.Label.ReceiveActivityUpdates,Terima update saat aplikasi tidak terbuka
+Feature.Notifications.Response.NotificationsEnabled,Notifikasi dinyalakan untuk pengalaman virtual ini
+Feature.Notifications.Response.NotificationsEnabledForExperience,Notifikasi dinyalakan untuk {experienceName}
+Feature.SettingsHub.Action.LearnMore,Pelajari selengkapnya
+Feature.SettingsHub.Action.NotNow,Nanti
+Feature.SettingsHub.Action.TurnOn,Nyalakan
+Feature.SettingsHub.Prompt.ChangeYourMind,Jika kamu berubah pikiran
+Feature.SettingsHub.Prompt.JoinedVoiceChat,Kamu Telah Menyalakan Chat Suara
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMute,Kamu selalu dapat mematikan Chat Suara atau membisukan siapa pun kapan saja.
+Feature.SettingsHub.Prompt.Subtitle.JoinVoiceLater,Kamu selalu dapat menyalakan Chat Suara nanti dari Menu Roblox.
+Feature.SettingsHub.Prompt.Subtitle.SelectingTurnOn,"Dengan memilih nyalakan, saya memberikan izin kepada Roblox untuk mengumpulkan, menggunakan, dan menyimpan rekaman suara saya untuk mengaktifkan layanan suara dan untuk tujuan moderasi, keamanan, serta peningkatan layanan dan fitur kami."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamic,"Roblox tidak menggunakan informasi perilaku untuk menayangkan iklan ini. Kamu melihat iklan ini berdasarkan informasi seperti tipe perangkat, lokasi, dan usia untuk menayangkan iklan yang sesuai dan relevan untukmu. Pengiklannya adalah {AdvertiserName}."
+CoreScripts.Ads.Label.InExperienceDisclosureDynamicWithPayer,"Roblox tidak menggunakan informasi perilaku untuk menayangkan iklan ini. Kamu melihat iklan ini berdasarkan informasi seperti tipe perangkat, lokasi, dan usia untuk menayangkan iklan yang sesuai dan relevan untukmu. Pengiklannya adalah {AdvertiserName}. Iklan ini dibayar oleh {PayerName}."
+Feature.Notifications.Heading.TurnOnNotifications,Nyalakan Notifikasi
+Feature.Notifications.Label.GetUpdatesFromExperience,Menerima notifikasi dari {experienceName} saat aplikasi tidak terbuka?
+Feature.SettingsHub.Prompt.Subtitle.MuteAnyoneAnytime,Kamu dapat membisukan siapa pun kapan saja.
+Feature.SettingsHub.Prompt.Subtitle.TurnOnVoiceChat,"Nyalakan Chat Suara untuk berbicara dengan pengguna lain. Kamu harus memberi Roblox akses ke mikrofon perangkatmu. Kamu tetap memegang kendali — bisukan suaramu sendiri atau siapa pun, kapan saja."
+Verification.Identity.Heading.V2LetsChat,Ayo Chat
+Feature.Call.Label.Retry,Coba Lagi
+Feature.Friends.Action.Unfriend,Hapus Teman
+AuthorizeWebsite.PermissionRequest.Label.Subscription,Subscription
+AuthorizeWebsite.PermissionRequest.OperationDescription.SubscriptionAPIRead,Dapatkan informasi tentang subscription-mu.
+CreatorDashboard.ScopeSystem.Label.Subscription,
+Feature.ReportAbuse.Action.BuildAReport,Mode teks
+Feature.ReportAbuse.Action.EnterSceneReporting,Masuk ke mode sorotan
+Feature.ReportAbuse.Action.SelectInScene,Mode sorotan
+Feature.ReportAbuse.Heading.ReportUsingSelectInScene,Laporkan menggunakan mode sorotan
+Feature.ReportAbuse.Label.SelectInSceneDescription1,Gunakan hingga 5 lingkaran untuk menyorot masalah
+Feature.ReportAbuse.Label.SelectInSceneDescription2,Jelaskan masalahnya
+Feature.ReportAbuse.Label.SelectInSceneDescription3,Kirim laporanmu
+Feature.SettingsHub.Prompt.GetVoiceChat,Dapatkan Chat Suara
+Feature.SettingsHub.Prompt.MicPermissionPrime,Berikan izin kepada Roblox untuk mengakses mikrofonmu untuk berbicara.
+Feature.SettingsHub.Prompt.TalkWithOthers,Bicaralah dengan pengguna lain supaya lebih seru.
+Feature.SettingsHub.Prompt.VoiceChatWithOthers,Chat Suara dengan pengguna lain
+Feature.SettingsHub.Prompt.VoiceUserAgency,"Kamu memegang kendali — bisukan suaramu atau siapa pun, kapan saja."
+InGame.HelpMenu.Controls.ToggleGameMenu,Tombol Menu Game
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.DismissCTA,Oke
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorHeading,Pembelian Gagal
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonAlreadyOwned,Pembelian tidak dapat diselesaikan karena kamu sudah memiliki item ini.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonGeneric,Pembelian tidak dapat diselesaikan pada saat ini.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientMembership,Pembelian tidak dapat diselesaikan karena kamu harus memiliki Roblox Premium untuk membeli item ini.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonInsufficientRobux,Pembelian tidak dapat diselesaikan karena kamu tidak memiliki cukup Robux.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableForPurchaser,Pembelian tidak dapat diselesaikan karena kamu tidak dapat membeli tipe item ini.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotForSale,Pembelian tidak dapat diselesaikan karena item ini tidak untuk dijual.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPriceMismatch,Pembelian tidak dapat diselesaikan karena harga telah berubah.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonPurchaserIsSeller,Pembelian tidak dapat diselesaikan karena kamu tidak dapat membeli item kamu sendiri.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuantityLimitExceeded,Pembelian tidak dapat diselesaikan karena kamu telah mencapai batas kepemilikan maksimum untuk item ini.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonQuotaExceeded,Pembelian tidak dapat diselesaikan karena kamu telah mencapai batas 9 transaksi per menit.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonSoldOut,Pembelian tidak dapat diselesaikan karena item ini sudah habis terjual.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainLater,Robux kamu belum terpakai. Coba lagi nanti.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainMoreRobux,Robux kamu belum terpakai. Beli lebih banyak lalu coba lagi.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainNow,Robux kamu belum terpakai. Coba lagi.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainOtherItems,Robux kamu belum terpakai. Coba lagi nanti dengan item lain.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.TryAgainWait,Robux kamu belum terpakai. Tunggu lalu coba lagi.
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.SuccessHeading,Pembelian Selesai
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Heading,Pembelian sebagian selesai
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulCount,{itemCount} Item
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListSuccessfulHeading,Berhasil
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulCount,{itemCount} Item
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemListUnsuccessfulHeading,Gagal
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusAlreadyOwned,Sudah dimiliki
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusGeneric,Tidak tersedia
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientMembership,Premium diperlukan
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusInsufficientRobux,Tidak cukup Robux
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotAvailableForPurchaser,Tidak tersedia
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusNotForSale,Tidak untuk dijual
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPriceMismatch,Perubahan harga
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPurchaserIsSeller,Penjual adalah pembeli
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuantityLimitExceeded,Batas tercapai
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusQuotaExceeded,Batas jumlah transaksi tercapai
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSoldOut,Habis terjual
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusSuccess,Dibeli
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.Notice,Beberapa item tidak dapat dibeli saat ini. Coba lagi nanti.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.CurrentBalance,Saldo saat ini
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.DismissCTA,Selesai
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.PriceBox.RobuxSpent,Robux dibelanjakan
+CoreScripts.BulkPurchasePrompt.RequestPrompt.Heading,Ringkasan
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseCount,{itemCount} Item
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemListPurchaseHeading,Total pembelian item
+CoreScripts.BulkPurchasePrompt.RequestPrompt.ItemOwned,{ownedCount} Dimiliki
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.ConfirmCTA,Bayar
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.CurrentBalance,Saldo saat ini
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.NewBalance,Saldo setelah pembelian
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.TotalCost,Total order
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Body,Kamu telah berhasil membeli {itemCount} item. Temukan item ini di inventarismu.
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.DismissCTA,Selesai
+CoreScripts.BulkPurchasePrompt.SuccessPrompt.Heading,Pembelian selesai
+Feature.Accessibility.Description.MainVolume,"Kendalikan level suara keseluruhan Roblox, termasuk efek menu, suara pengalaman virtual, dan chat suara"
+Feature.Notifications.Webview.Title.PolicyUpdate,Update Kebijakan
+Feature.SettingsHub.Prompt.CameraUnavailable,Kamera Tidak Tersedia
+Feature.SettingsHub.Prompt.Subtitle.CameraUnavailable,Kami telah menonaktifkan kamera untuk meningkatkan performa pengalaman pada perangkat ini. Cobalah menggunakan perangkat lain. Ketuk untuk mempelajari lebih lanjut.
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell1,"Berbicaralah dengan pengguna lain. Kamu harus memberi Roblox akses ke mikrofon perangkatmu untuk berbicara. Kamu tetap memegang kendali — bisukan suaramu sendiri atau siapa pun, kapan saja."
+Feature.SettingsHub.Prompt.Subtitle.InExpVoiceUpsell2,"Berbicaralah dengan pengguna lain. Kamu tetap memegang kendali — bisukan suaramu sendiri atau siapa pun, kapan saja."
+Feature.SettingsHub.Label.MyCaptures,Media Saya
+Feature.ReportAbuse.Action.ErrorModalGoBack,Kembali
+Feature.ReportAbuse.Heading.SelectInSceneErrorTitle,Eror: Maksimal 5 lingkaran
+Feature.ReportAbuse.Label.SelectInSceneErrorDescription,Kamu dapat menggunakan hingga 5 lingkaran untuk menyorot masalah. Gunakan tombol Batalkan untuk menghapus lingkaran.
+Feature.SettingsHub.GameSettings.MaximumFramerate.Description,Sesuaikan frame rate untuk gameplay yang lebih lancar. Frame rate yang lebih tinggi menggunakan lebih banyak daya dan frame yang melebihi kecepatan refresh layar tidak akan ditampilkan.
+Feature.Subscription.Text.Subscribed,Subscribe berhasil
+Feature.ReportAbuse.Label.ChooseOne,Pilih satu
+Feature.ReportAbuse.Label.PleaseSelectOne,Pilih satu.
+Feature.ReportAbuse.Label.SelectInSceneComplete,Kami akan menggunakan laporanmu untuk memastikan Roblox menjadi tempat yang menyenangkan dan aman untuk semua pengguna.
+Feature.ReportAbuse.Label.TellUsWhatHappened,Jelaskan apa yang terjadi (Opsional)
+Feature.ReportAbuse.Label.WhatWasWrong,Apa masalahnya?
+Feature.ReportAbuse.Title.SelectInSceneFinishYourReport,Selesaikan laporanmu
+Feature.ReportAbuse.Title.SelectInSceneThankYou,Terima kasih atas laporannya
+Feature.SettingsHub.GameSettings.FramerateEntry,{Frames} FPS
+Feature.Squads.Action.Leave,Keluar
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.BuyRobuxCTA,Beli Robux
+CoreScripts.BulkPurchasePrompt.RequestPrompt.PriceBox.MissingRobux,Robux yang Diperlukan
+Feature.ReportAbuse.Action.Close,Tutup
+Feature.ReportAbuse.Action.Submit,Kirim
+Feature.Subscription.Message.MonthlySpendRestrictionsMonthlyLimitExceed,Kamu telah mencapai batas pembelian bulanan yang ditetapkan di Kendali Orang Tua. Kamu tidak akan dapat melakukan pembelian baru hingga bulan depan.
+Feature.ReportAbuse.Label.Avatar,Avatar
+Feature.ReportAbuse.Label.Bullying,Perundungan (Bullying)
+Feature.ReportAbuse.Label.Cheating,Kecurangan/Eksploitasi
+Feature.ReportAbuse.Label.Content,Konten Tidak Pantas
+Feature.ReportAbuse.Label.Dating,Berkencan
+Feature.ReportAbuse.Label.Links,Tautan Keluar dari Roblox
+Feature.ReportAbuse.Label.Personal,Pertanyaan Pribadi
+Feature.ReportAbuse.Label.Scamming,Scam
+Feature.ReportAbuse.Label.Swearing,Sumpah Serapah
+Feature.ReportAbuse.Label.TextChat,Chat Teks
+Feature.ReportAbuse.Label.Username,Nama Pengguna Tidak Pantas
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReason2SV,Verifikasi 2 Langkah diperlukan untuk melakukan transaksi ini. Buka Pengaturan > Keamanan untuk mengaktifkan Verifikasi 2 Langkah.
+CommonUI.Controls.Action.Refresh,Refresh
+CommonUI.Controls.NoResultsFound,Tidak ada hasil
+CoreScripts.BulkPurchasePrompt.CompletedPrompt.ErrorPrompt.ErrorReasonNotAvailableInExperience,Pembelian tidak dapat diselesaikan karena item ini tidak tersedia di pengalaman virtual ini.
+CoreScripts.BulkPurchasePrompt.PartialPurchaseCompletedPrompt.ItemStatusPlaceInvalid,Tidak tersedia di pengalaman virtual ini
+CoreScripts.PublishAvatarPrompt.Description,Deskripsi (Opsional)
+CoreScripts.PublishAvatarPrompt.DescriptionTitle,Deskripsikan item ini
+Feature.Accessibility.Description.Haptics,Mengendalikan getaran keseluruhan aplikasi Roblox
+Feature.Accessibility.Header.Haptics,Haptik
+Feature.AccountSettings.Label.CameraNotAvailable,Kamera tidak tersedia di perangkat tertentu.
+Feature.AccountSettings.Label.CameraNotSupported,Kamera tidak tersedia di perangkat tertentu. {linkStart}Pelajari selengkapnya{linkEnd}
+Feature.Notifications.Action.PushUpsellAllow,Izinkan
+Feature.Notifications.Action.PushUpsellNotNow,Nanti
+Feature.Notifications.Heading.PushUpsellGeneric,Jangan lewatkan
+Feature.Notifications.Label.PushUpsellGeneric,"Dapatkan aktivitas untuk aktivitas seperti pesan chat, undangan, permintaan teman, dan banyak lagi."
+Feature.Squads.Action.Join,Bergabung
+Feature.VerificationUpsell.Action.EditPhoneNumber,Edit Nomor Ponsel
+IAPExperience.LeaveRoblox.Action.Cancel,Batalkan
+IAPExperience.LeaveRoblox.Action.Continue,Lanjutkan
+IAPExperience.LeaveRoblox.Text.ExternalWebsiteWarning,"Dengan mengklik “Lanjutkan”, kamu akan diarahkan ke situs web yang tidak dimiliki atau dijalankan oleh Roblox. Situs web tersebut mungkin memiliki ketentuan dan kebijakan privasi yang berbeda."
+IAPExperience.LeaveRoblox.Title.LeavingRoblox,Keluar dari Roblox
+Feature.ReportAbuse.Label.HighlightProblem,Sorot masalah dengan lingkaran
+Feature.Toast.NetworkingError.SomethingIsWrong,Terjadi eror. Coba lagi nanti.
+Feature.Accessibility.Description.PreferredTextSize,Sesuaikan ukuran teks di seluruh Roblox sesuai dengan preferensimu
+Feature.Accessibility.Heading.PreferredTextSize,Ukuran teks
+Feature.Accessibility.PreferredTextSize.Default,Default
+Feature.Accessibility.PreferredTextSize.Largest,Terbesar
+Feature.Accessibility.Action.ScrollDown,Scroll ke Bawah
+Feature.Accessibility.Action.ScrollUp,Scroll ke Atas
+CoreScripts.PublishAvatarPrompt.BuyCreation,Beli Kreasi
+CoreScripts.CancelUserSubscriptionPrompt.Error.ButtonText,OKE
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Body,Terjadi eror. Perpanjangan subscription belum dibatalkan. Coba lagi.
+CoreScripts.CancelUserSubscriptionPrompt.ErrorCancellingPrompt.Heading,Eror
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Body,Subscription kamu berhasil dibatalkan. Tidak ada tindakan lebih lanjut yang diperlukan.
+CoreScripts.CancelUserSubscriptionPrompt.ExpiringPrompt.Heading,Sudah Dibatalkan
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Body,"Jika kamu membatalkan subscription sekarang, kamu masih dapat mengaksesnya hingga {date}."
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.DontCancelButton,Jangan Batalkan
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.Heading,Batalkan Subscription
+CoreScripts.CancelUserSubscriptionPrompt.RequestPrompt.YesCancelButton,"Ya, Batalkan"
+CoreScripts.CancelUserSubscriptionPrompt.SuccessPrompt.Heading,Subscription kamu berhasil dibatalkan
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Body,Saat ini kamu tidak subscribe.
+CoreScripts.CancelUserSubscriptionPrompt.UnsubscribedPrompt.Heading,Tidak Dapat Membatalkan
+Feature.Subscription.Error.GenericSubscribeError,Terjadi masalah saat subscribe. Coba lagi nanti.
+CoreScripts.PublishAvatarPrompt.PurchaseCompleteDescription,Kamu dapat menemukan item kamu di inventarismu setelah pembayaran diselesaikan.
+CoreScripts.TopBar.JoinVoice,Aktifkan Chat Suara
+Feature.ReportAbuse.Heading.ReportAbuse,Laporkan Penyalahgunaan
+Feature.ReportAbuse.Label.CategoryAgeGuidelines,"Kedewasaan Konten yang Tidak Akurat (mis. darah, kekerasan)"
+Feature.ReportAbuse.Label.CategoryBullyingV2,"Perundungan, Pelecehan, Diskriminasi"
+Feature.ReportAbuse.Label.CategoryContent,"Konten Tidak Pantas (Tempat, Gambar, Model)"
+Feature.ReportAbuse.Label.CategoryDating,Berkencan
+Feature.ReportAbuse.Label.CategoryInappropriate,Kata Tidak Pantas (Tidak Senonoh & Konten Dewasa)
+Feature.ReportAbuse.Label.CategoryOther,Pelanggaran lainnya
+Feature.ReportAbuse.Label.CategoryPrivateInfo,Meminta atau Memberikan Informasi Privat
+Feature.ReportAbuse.Label.CategoryScamming,"Eksploitasi, Kecurangan, Scamming"
+Feature.ReportAbuse.Label.CategoryTheft,"Pencurian Akun (Phishing, Peretasan, Trading)"
+Feature.ReportAbuse.Label.CategoryThreats,Ancaman ke Kehidupan Nyata & Ancaman Bunuh Diri
+Feature.ReportAbuse.Message.Success,Laporan kamu telah dikirim.
+CoreScripts.Ads.Label.ReportAd,Laporkan Iklan
+Feature.Chat.Label.ReplyingToOthers,{DISPLAY_NAME} mengatakan...
+Feature.SettingsHub.Prompt.JoinedVoiceChatV2,Kamu Telah Bergabung ke Chat Suara
+Feature.SettingsHub.Prompt.LeaveVoiceChat,Chat suara dinonaktifkan
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteAndAccessMic,Kamu selalu dapat mematikan chat suara atau membisukan siapa pun kapan saja.
+Feature.SettingsHub.Prompt.Subtitle.DisconnectOrMuteHere,Kamu selalu dapat menonaktifkan Chat Suara atau membisukan siapa pun kapan saja.
+Feature.SettingsHub.Action.Ok,Oke
+Feature.SettingsHub.Action.OpenSettings,Buka Pengaturan
+Feature.SettingsHub.Prompt.NeedMicrophoneAccess,Memerlukan Akses Mikrofon
+Feature.SettingsHub.Prompt.Subtitle.AllowMicrophoneAccess,"Untuk melakukan chat suara, izinkan Roblox untuk mengakses mikrofon perangkatmu."
+CoreScripts.Ads.Label.InappropriateAd,Iklan Tidak Pantas
+CoreScripts.TopBar.Party,Pesta
+Feature.SettingsHub.Prompt.AndroidWithDeeplink,<b>1. Pilih Izin<br />2. Pilih Mikrofon<br />3. Izinkan Roblox mengakses Mikrofon Anda</b>
+Feature.SettingsHub.Prompt.AndroidWithoutDeeplink,<b>1. Buka Pengaturan > Privasi > Izin<br />2. Pilih Mikrofon<br />3. Izinkan Roblox mengakses Mikrofon Anda</b>
+Feature.SettingsHub.Prompt.WindowsWithDeeplink,<b>1. Aktifkan Izinkan aplikasi mengakses mikrofon Anda<br />2. Izinkan Roblox mengakses Mikrofon Anda</b>
+Feature.SettingsHub.Prompt.WindowsWithoutDeeplink,<b>1. Buka Pengaturan > Privasi > Mikrofon<br />2. Aktifkan Izinkan aplikasi mengakses mikrofon Anda<br />3. Izinkan Roblox mengakses Mikrofon Anda</b>
+Feature.ReportAbuse.Action.ContinueReport,Lanjutkan melaporkan
+Feature.ReportAbuse.Action.EnterChatLineReporting,Laporkan penyalahgunaan
+Feature.ReportAbuse.Label.FinishChatReport,Selesaikan laporan chat
+Feature.ReportAbuse.Label.SelectChatLine,Pilih satu chat untuk dilaporkan
+CoreScripts.Ads.Label.IllegalContentReportingLink,Laporkan konten ilegal atau konten yang berbahaya bagi anak-anak
+Feature.ReportAbuse.Problem.Bullying,Bullying (Perundungan)
+Feature.ReportAbuse.Problem.Cheating,Kecurangan
+Feature.ReportAbuse.Problem.Dating,Berkencan/Seks
+Feature.ReportAbuse.Problem.Hate,Kebencian
+Feature.ReportAbuse.Problem.Links,Tautan di luar platform
+Feature.ReportAbuse.Problem.Personal,Informasi pribadi
+Feature.ReportAbuse.Problem.Scamming,Penipuan
+Feature.ReportAbuse.Problem.Spamming,Spam
+Feature.ReportAbuse.Problem.Swearing,Sumpah Serapah
+Feature.ReportAbuse.Problem.Violence,Kekerasan
+Feature.VerifiedParentalControls.Action.Cancel,Batalkan
+Feature.ReportAbuse.Action.ReturnToExperience,Kembali ke pengalaman virtual
+Feature.ReportAbuse.Label.ReportSubmitted,Laporan dikirim
+Feature.Chat.Label.Connect,
+Feature.Chat.Label.RobloxConnect,
+Feature.ReportAbuse.Label.AdditionalActions,Tindakan tambahan yang dapat kamu lakukan
+Feature.ReportAbuse.Label.SentInAnotherChat,Dikirim di chat lain
+Feature.ReportAbuse.Label.SentPrivately,Dikirim secara privat
+Feature.ReportAbuse.Message.ThankYouReport,Terima kasih. Kami akan menggunakan laporanmu untuk memastikan Roblox menjadi tempat yang menyenangkan dan aman untuk semua pengguna.
+Feature.VerifiedParentalControls.Action.Close,Tutup
+Feature.VerifiedParentalControls.Action.GoToSettings,Buka Pengaturan
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWIthoutSettings,"Karena pembatasan wilayah, kamu memerlukan izin orang tua untuk melakukan pembelian. Kunjungi web atau perangkat pendamping untuk meminta izin kepada orang tuamu di Pengaturan > Pengeluaran."
+Feature.VerifiedParentalControls.Description.SpendingRestrictionWithSettings,"Karena pembatasan wilayah, kamu memerlukan izin orang tua untuk melakukan pembelian. Minta izin kepada orang tuamu di Pengaturan > Pengeluaran."
+Feature.VerifiedParentalControls.Label.AskParent,Minta Izin Orang Tua
+Common.VerifiedParentalConsent.Action.Cancel,Batalkan
+Common.VerifiedParentalConsent.Action.Close,Tutup
+Common.VerifiedParentalConsent.Action.GoToSettings,Buka Pengaturan
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithoutSettings,"Karena pembatasan wilayah, kamu memerlukan izin orang tua untuk melakukan pembelian. Kunjungi web atau perangkat pendamping untuk meminta izin kepada orang tuamu di Pengaturan > Pemakaian Uang."
+Common.VerifiedParentalConsent.Description.SpendingRestrictionWithSettings,"Karena pembatasan wilayah, kamu memerlukan izin orang tua untuk melakukan pembelian. Minta izin kepada orang tuamu di Pengaturan > Pemakaian Uang."
+Common.VerifiedParentalConsent.Label.AskParent,Minta Izin Orang Tua
+Feature.ReportAbuse.Action.TextMute,Blokir obrolan dari {name}
+Feature.SettingsHub.Prompt.RestartOnMicAccessChange,Kamu perlu memulai ulang aplikasi agar perubahan akses mikrofon dapat diterapkan.
+CoreScripts.TextChat.MessageStatus.Warning.ModerationTimeout,Saat ini kamu tidak bisa mengirim chat. Pesanmu tidak akan dilihat siapa pun.
+Features.OnDemandAds.Reward_Notification,"Selamat, kamu mendapat {REWARD_NAME}!"
+Feature.Avatar.Label.Front,Depan
+Feature.PlayWithReward.Message.ErrorBanner.Body,Hadiah ini tidak tersedia saat ini. Coba lagi.
+CoreScripts.TextChat.Notification.Friend.Joined.FriendsRename,Teman kamu {RBX_NAME} telah bergabung ke pengalaman virtual ini.
+Feature.SettingsHub.Label.SearchForFriendsPlaceholder.FriendsRename,Cari Teman
+FriendPlayerPrompt.DoPromptRequestFriendPlayer.FriendsRename,Kamu ingin mengirim permintaan pertemanan kepada {RBX_NAME}?
+FriendPlayerPrompt.DoPromptUnfriendPlayer.FriendsRename,Kamu ingin menghapus {RBX_NAME} dari daftar teman?
+FriendPlayerPrompt.Label.Unfriend.FriendsRename,Hapus teman
+FriendPlayerPrompt.promptCompletedCallback.AtFriendLimit.FriendsRename,Kamu tidak bisa mengirim permintaan pertemanan kepada {RBX_NAME} karena pengguna ini sudah mencapai batas maksimal pertemanan.
+FriendPlayerPrompt.promptCompletedCallback.UnknownError.FriendsRename,Terjadi kesalahan saat mengirim permintaan pertemanan kepada {RBX_NAME}. Coba lagi nanti.
+FriendPlayerPrompt.Title.SendFriendRequest.FriendsRename,Kirim permintaan pertemanan?
+FriendPlayerPrompt.Title.UnfriendPlayer.FriendsRename,Hapus teman?
