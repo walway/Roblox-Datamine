@@ -10,12 +10,12 @@
             : "u" > typeof self
               ? self
               : {};
-    e.SENTRY_RELEASE = { id: "b4f477e09d86067df0b5c872af65a7a6b426f09b" };
+    e.SENTRY_RELEASE = { id: "b8f4a382e8aa847d19c8b2013f43b2dd51729f25" };
     var t = new e.Error().stack;
     t &&
       ((e._sentryDebugIds = e._sentryDebugIds || {}),
-      (e._sentryDebugIds[t] = "d2a86226-bcd9-4daf-8c72-5351fd70f9a2"),
-      (e._sentryDebugIdIdentifier = "sentry-dbid-d2a86226-bcd9-4daf-8c72-5351fd70f9a2"));
+      (e._sentryDebugIds[t] = "4fcc1b57-43e9-4e7e-aa4a-dcd297a67efd"),
+      (e._sentryDebugIdIdentifier = "sentry-dbid-4fcc1b57-43e9-4e7e-aa4a-dcd297a67efd"));
   } catch (e) {}
 })(),
   (function () {
@@ -6383,13 +6383,13 @@
           );
         }
         eh.ownsLoadingState = !0;
-        var ev = (((sp = {}).Fae = "FAE"), (sp.Idv = "IDV"), sp),
-          eb = (((sy = {}).StartFailed = "StartFailed"), (sy.VendorError = "VendorError"), sy),
+        var ev = (((ss = {}).Fae = "FAE"), (ss.Idv = "IDV"), ss),
+          eb = (((sf = {}).StartFailed = "StartFailed"), (sf.VendorError = "VendorError"), sf),
           eg =
-            (((sm = {}).Submitted = "Submitted"),
-            (sm.Cancelled = "Cancelled"),
-            (sm.Failed = "Failed"),
-            sm),
+            (((sd = {}).Submitted = "Submitted"),
+            (sd.Cancelled = "Cancelled"),
+            (sd.Failed = "Failed"),
+            sd),
           ew = r(2855),
           eS = r.n(ew),
           eO = window.Roblox["core-scripts"].intl.intl,
@@ -7317,7 +7317,7 @@
           );
         }
         var e5 =
-            (((sf = T.forwardRef(function (e, t) {
+            (((sc = T.forwardRef(function (e, t) {
               var r = e.children,
                 n = eQ(e, ["children"]);
               if ((e3(r) && "function" == typeof e2 && (r = e2(r._payload)), T.isValidElement(r))) {
@@ -7368,8 +7368,8 @@
               }
               return T.Children.count(r) > 1 ? T.Children.only(null) : null;
             })).displayName = "".concat("Slot", ".SlotClone")),
-            (sh = sf),
-            ((sv = T.forwardRef(function (e, t) {
+            (sp = sc),
+            ((sy = T.forwardRef(function (e, t) {
               var r = e.children,
                 n = eQ(e, ["children"]);
               e3(r) && "function" == typeof e2 && (r = e2(r._payload));
@@ -7387,16 +7387,16 @@
                           : null;
                   });
                 return (0, P.jsx)(
-                  sh,
+                  sp,
                   eX(eY({}, n), {
                     ref: t,
                     children: T.isValidElement(i) ? T.cloneElement(i, void 0, l) : null
                   })
                 );
               }
-              return (0, P.jsx)(sh, eX(eY({}, n), { ref: t, children: r }));
+              return (0, P.jsx)(sp, eX(eY({}, n), { ref: t, children: r }));
             })).displayName = "".concat("Slot", ".Slot")),
-            sv),
+            sy),
           e6 = Symbol("radix.slottable");
         function e8(e) {
           return (
@@ -8861,7 +8861,7 @@
                 }),
                 void 0 === I
                   ? null
-                  : (0, P.jsx)("p", {
+                  : (0, P.jsx)("div", {
                       id: m,
                       role: "alert",
                       className:
@@ -9357,7 +9357,7 @@
           return ((o.scopeName = n.scopeName), o);
         }
         var rd = window.RadixUI["react-dismissable-layer"],
-          rp = (null == (sA = globalThis) ? void 0 : sA.document)
+          rp = (null == (sj = globalThis) ? void 0 : sj.document)
             ? T.useLayoutEffect
             : function () {};
         function ry(e, t) {
@@ -15023,10 +15023,9 @@
           }
         }
         var a1 = "ParentConsent",
-          a2 = "ParentLink",
-          a3 = "Cancel",
-          a5 = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/,
-          a6 = {
+          a2 = "Cancel",
+          a3 = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/,
+          a5 = {
             translate: function (e, t, r) {
               return null != r ? r : e;
             },
@@ -15041,32 +15040,14 @@
               ];
             }
           };
-        function a8(e) {
-          if (Array.isArray(e)) {
-            var t = e.filter(function (e) {
-              return "string" == typeof e;
-            });
-            return t.length > 0 ? t : void 0;
-          }
-        }
-        function a4(e) {
-          if (!(
-            (void 0 === e ? "undefined" : aZ(e)) !== "object" ||
-            null === e ||
-            Array.isArray(e)
-          )) {
-            var t = Object.entries(e);
-            return t.length > 0 ? Object.fromEntries(t) : void 0;
-          }
-        }
-        function a7(e) {
+        function a6(e) {
           if ((void 0 === e ? "undefined" : aZ(e)) === "object" && null !== e && "data" in e) {
             var t = e.data;
             if ((void 0 === t ? "undefined" : aZ(t)) === "object" && null !== t && "code" in t)
               return "string" == typeof t.code ? t.code : void 0;
           }
         }
-        function a9(e) {
+        function a8(e) {
           switch (e) {
             case "ChildAtLinkLimit":
               return "Message.ExistAccountWithEmail";
@@ -15086,116 +15067,117 @@
               return "Message.SomethingWentWrong";
           }
         }
-        var ie = function (e) {
+        var a4 = function (e) {
           var t,
             r,
             n,
             o,
             a,
             i,
-            l,
-            c,
-            u,
-            s = e.props,
-            f = e.ctx,
-            d = e.report,
-            p = f.config.remoteParentRequest,
-            y =
-              (void 0 === p ? "undefined" : aZ(p)) === "object" &&
-              null !== p &&
-              "translate" in p &&
-              "function" == typeof p.translate &&
-              "useLegallySensitiveContent" in p &&
-              "function" == typeof p.useLegallySensitiveContent,
-            m = y ? p : a6,
-            h = m.translate,
-            v = m.useLegallySensitiveContent,
-            b = m.launchAction,
-            g = m.launchConsents,
-            w = m.launchRecourseData,
-            S = m.api,
-            O = void 0 === S ? a$ : S,
-            x = ((t = s.action), t === a1 || t === a2 ? t : b === a1 ? a1 : a2),
-            j = null != (r = a8(s.consents)) ? r : a8(g),
-            C = null == j ? void 0 : j[0],
-            E = null != (n = a4(s.recourseData)) ? n : a4(w),
-            A = aQ((0, T.useState)("loading"), 2),
-            I = A[0],
-            k = A[1],
-            D = aQ((0, T.useState)(""), 2),
-            N = D[0],
-            M = D[1],
-            R = aQ((0, T.useState)([]), 2),
-            L = R[0],
-            U = R[1],
-            F = aQ((0, T.useState)(), 2),
-            V = F[0],
-            W = F[1],
-            K = aQ((0, T.useState)(!1), 2),
-            _ = K[0],
-            B = K[1],
-            z = aQ((0, T.useState)("Message.SomethingWentWrong"), 2),
-            q = z[0],
-            H = z[1],
-            G = (0, T.useRef)(!1),
-            $ = (0, T.useRef)(!1),
-            J = aQ(
-              v(
-                void 0 === V
+            l = e.props,
+            c = e.ctx,
+            u = e.report,
+            s = c.config.remoteParentRequest,
+            f =
+              (void 0 === s ? "undefined" : aZ(s)) === "object" &&
+              null !== s &&
+              "translate" in s &&
+              "function" == typeof s.translate &&
+              "useLegallySensitiveContent" in s &&
+              "function" == typeof s.useLegallySensitiveContent,
+            d = f ? s : a5,
+            p = d.translate,
+            y = d.useLegallySensitiveContent,
+            m = d.api,
+            h = void 0 === m ? a$ : m,
+            v = l.action === a1 ? a1 : "ParentLink",
+            b =
+              "string" == typeof l.requestType && l.requestType.length > 0 ? l.requestType : void 0,
+            g = (function (e) {
+              if (!(
+                (void 0 === e ? "undefined" : aZ(e)) !== "object" ||
+                null === e ||
+                Array.isArray(e)
+              ))
+                return Object.fromEntries(Object.entries(e));
+            })(l.requestDetails),
+            w = aQ((0, T.useState)("loading"), 2),
+            S = w[0],
+            O = w[1],
+            x = aQ((0, T.useState)(""), 2),
+            j = x[0],
+            C = x[1],
+            E = aQ((0, T.useState)([]), 2),
+            A = E[0],
+            I = E[1],
+            k = aQ((0, T.useState)(), 2),
+            D = k[0],
+            N = k[1],
+            M = aQ((0, T.useState)(!1), 2),
+            R = M[0],
+            L = M[1],
+            U = aQ((0, T.useState)("Message.SomethingWentWrong"), 2),
+            F = U[0],
+            V = U[1],
+            W = (0, T.useRef)(!1),
+            K = (0, T.useRef)(!1),
+            _ = aQ(
+              y(
+                void 0 === D
                   ? "vpcRequestLinkDefault"
-                  : V
+                  : D
                     ? "vpcRequestLinkSubjectToPC"
                     : "vpcRequestLinkNotSubjectToPC",
                 "vpc-upsell-web"
               ),
               2
             ),
-            Y = J[0],
-            X = J[1],
-            Q = null != (o = Y.wordsOfConsent) ? o : {},
-            Z = (0, T.useCallback)(
+            B = _[0],
+            z = _[1],
+            q = null != (t = B.wordsOfConsent) ? t : {},
+            H = (0, T.useCallback)(
               function (e) {
-                $.current || (($.current = !0), d(e));
+                K.current || ((K.current = !0), u(e));
               },
-              [d]
+              [u]
             ),
-            ee = (0, T.useCallback)(
+            G = (0, T.useCallback)(
               function () {
                 return aX(function () {
                   var e;
                   return a0(this, function (t) {
                     switch (t.label) {
                       case 0:
-                        if (void 0 === C) return (Z(a3), [2]);
-                        (k("sending"), (t.label = 1));
+                        if (void 0 === b) return (H(a2), [2]);
+                        (O("sending"), (t.label = 1));
                       case 1:
                         return (
                           t.trys.push([1, 3, , 4]),
                           [
                             4,
                             Promise.all([
-                              O.getLinkedParentEmails().catch(function () {
+                              h.getLinkedParentEmails().catch(function () {
                                 return [];
                               }),
-                              O.sendToAllParents(C, E)
+                              h.sendToAllParents(b, g)
                             ])
                           ]
                         );
                       case 2:
-                        return (U(aQ.apply(void 0, [t.sent(), 1])[0]), k("confirmation"), [3, 4]);
+                        return (I(aQ.apply(void 0, [t.sent(), 1])[0]), O("confirmation"), [3, 4]);
                       case 3:
-                        if ("SenderFloodedRequestCreated" === a7((e = t.sent())))
-                          return (B(!0), k("confirmation"), [2]);
-                        return (H(a9(a7(e))), k("error"), [3, 4]);
+                        if ("SenderFloodedRequestCreated" === a6((e = t.sent())))
+                          return (L(!0), O("confirmation"), [2]);
+                        return (V(a8(a6(e))), O("error"), [3, 4]);
                       case 4:
                         return [2];
                     }
                   });
                 })();
               },
-              [O, Z, E, C]
+              [h, H, g, b]
             ),
-            et = (0, T.useCallback)(
+            $ = (0, T.useCallback)(
               function () {
                 return aX(function () {
                   return a0(this, function (e) {
@@ -15203,94 +15185,94 @@
                       case 0:
                         return (
                           e.trys.push([0, 2, , 3]),
-                          [4, O.isChildSubjectToParentalControls()]
+                          [4, h.isChildSubjectToParentalControls()]
                         );
                       case 1:
-                        return (W.apply(void 0, [e.sent()]), [3, 3]);
+                        return (N.apply(void 0, [e.sent()]), [3, 3]);
                       case 2:
                         return (e.sent(), [3, 3]);
                       case 3:
-                        return (k("email"), [2]);
+                        return (O("email"), [2]);
                     }
                   });
                 })();
               },
-              [O]
+              [h]
             );
           (0, T.useEffect)(
             function () {
-              if (!G.current) {
-                if (((G.current = !0), !y || void 0 === C)) return void Z(a3);
-                x === a1
-                  ? ee().catch(function () {
-                      k("error");
+              if (!W.current) {
+                if (((W.current = !0), !f || void 0 === b)) return void H(a2);
+                v === a1
+                  ? G().catch(function () {
+                      O("error");
                     })
-                  : et().catch(function () {
-                      k("error");
+                  : $().catch(function () {
+                      O("error");
                     });
               }
             },
-            [x, y, et, Z, C, ee]
+            [v, f, $, H, b, G]
           );
-          var er = (0, T.useMemo)(
+          var J = (0, T.useMemo)(
             function () {
-              return _
-                ? h("Message.RequestCreatedEmailNotSent")
-                : 1 === L.length
-                  ? h("Message.EmailSent", { parentEmail: L[0] })
-                  : h("Message.EmailSentPluralParent");
+              return R
+                ? p("Message.RequestCreatedEmailNotSent")
+                : 1 === A.length
+                  ? p("Message.EmailSent", { parentEmail: A[0] })
+                  : p("Message.EmailSentPluralParent");
             },
-            [L, _, h]
+            [A, R, p]
           );
-          if ("loading" === I || "sending" === I)
+          if ("loading" === S || "sending" === S)
             return (0, P.jsx)("div", {
               className: "flex justify-center",
               children: (0, P.jsx)(eo, {
-                ariaLabel: h("Label.Loading"),
+                ariaLabel: p("Label.Loading"),
                 variant: "Indeterminate",
                 size: "Medium"
               })
             });
-          if ("confirmation" === I)
+          if ("confirmation" === S)
             return (0, P.jsxs)("div", {
               className: "gap-large flex flex-col",
               "data-testid": "remote-parent-request-confirmation",
               children: [
                 (0, P.jsx)("h2", {
                   className: "text-heading-medium content-emphasis",
-                  children: h("Title.RequestSent")
+                  children: p("Title.RequestSent")
                 }),
-                1 !== L.length || _
-                  ? (0, P.jsx)("p", { className: "text-body-medium content-default", children: er })
+                1 !== A.length || R
+                  ? (0, P.jsx)("p", { className: "text-body-medium content-default", children: J })
                   : (0, P.jsx)("p", {
                       className: "text-body-medium content-default",
-                      dangerouslySetInnerHTML: { __html: er }
+                      dangerouslySetInnerHTML: { __html: J }
                     }),
                 (0, P.jsx)(tc, {
                   variant: "Emphasis",
                   size: "Medium",
                   className: "w-full",
                   onClick: function () {
-                    Z("Success");
+                    H("Success");
                   },
-                  children: h("Action.OK")
+                  children: p("Action.OK")
                 })
               ]
             });
-          if ("error" === I)
+          if ("error" === S)
             return (0, P.jsxs)("div", {
               className: "gap-large flex flex-col",
               "data-testid": "remote-parent-request-error",
               children: [
                 (0, P.jsx)("h2", {
                   className: "text-heading-medium content-emphasis",
-                  children: h("Message.SomethingWentWrong")
+                  children: p("Message.SomethingWentWrong")
                 }),
-                "Message.SomethingWentWrong" === q
+                "Message.SomethingWentWrong" === F
                   ? null
                   : (0, P.jsx)("p", {
                       className: "text-body-medium content-default",
-                      children: h(q)
+                      children: p(F)
                     }),
                 (0, P.jsxs)("div", {
                   className: "gap-small flex flex-col",
@@ -15300,28 +15282,28 @@
                       size: "Medium",
                       className: "w-full",
                       onClick: function () {
-                        x === a1
-                          ? ee().catch(function () {
-                              k("error");
+                        v === a1
+                          ? G().catch(function () {
+                              O("error");
                             })
-                          : k("email");
+                          : O("email");
                       },
-                      children: h("Action.Retry")
+                      children: p("Action.Retry")
                     }),
                     (0, P.jsx)(tc, {
                       variant: "Standard",
                       size: "Medium",
                       className: "w-full",
                       onClick: function () {
-                        Z(a3);
+                        H(a2);
                       },
-                      children: h("Action.Cancel")
+                      children: p("Action.Cancel")
                     })
                   ]
                 })
               ]
             });
-          var en = N.length > 0 && !a5.test(N) ? h("Message.InvalidEmail") : void 0;
+          var Y = j.length > 0 && !a3.test(j) ? p("Message.InvalidEmail") : void 0;
           return (0, P.jsxs)("div", {
             className: "gap-large flex flex-col",
             "data-testid": "remote-parent-request-email",
@@ -15331,29 +15313,29 @@
                 children: [
                   (0, P.jsx)("h2", {
                     className: "text-heading-medium content-emphasis",
-                    children: null != (a = Q.title) ? a : h("Title.EnterParentEmailV2")
+                    children: null != (r = q.title) ? r : p("Title.EnterParentEmailV2")
                   }),
                   (0, P.jsx)("p", {
                     className: "text-body-medium content-default",
-                    dangerouslySetInnerHTML: { __html: null != (i = Q.description) ? i : "" }
+                    dangerouslySetInnerHTML: { __html: null != (n = q.description) ? n : "" }
                   }),
                   (0, P.jsx)(aV, {
                     type: "email",
                     inputMode: "email",
                     autoComplete: "email",
-                    "aria-label": null != (l = Q.textboxLabel) ? l : h("Label.ParentEmail"),
-                    placeholder: null != (c = Q.placeholderText) ? c : h("Label.EmailCapitalized"),
-                    value: N,
+                    "aria-label": null != (o = q.textboxLabel) ? o : p("Label.ParentEmail"),
+                    placeholder: null != (a = q.placeholderText) ? a : p("Label.EmailCapitalized"),
+                    value: j,
                     onChange: function (e) {
-                      M(e.target.value);
+                      C(e.target.value);
                     },
-                    error: en,
-                    hasError: void 0 !== en
+                    error: Y,
+                    hasError: void 0 !== Y
                   }),
-                  Q.footer
+                  q.footer
                     ? (0, P.jsx)("p", {
                         className: "text-caption-body content-default",
-                        dangerouslySetInnerHTML: { __html: Q.footer }
+                        dangerouslySetInnerHTML: { __html: q.footer }
                       })
                     : null
                 ]
@@ -15365,51 +15347,51 @@
                     variant: "Emphasis",
                     size: "Medium",
                     className: "w-full",
-                    isDisabled: 0 === N.length || void 0 !== en,
+                    isDisabled: 0 === j.length || void 0 !== Y,
                     onClick: function () {
                       aX(function () {
                         var e;
                         return a0(this, function (t) {
                           switch (t.label) {
                             case 0:
-                              if (void 0 === C || !a5.test(N)) return [2];
-                              (k("sending"), (t.label = 1));
+                              if (void 0 === b || !a3.test(j)) return [2];
+                              (O("sending"), (t.label = 1));
                             case 1:
                               return (
                                 t.trys.push([1, 3, , 4]),
-                                [4, O.sendToNewParent(N, C, E, X.getBase64EncodedAuditHeader())]
+                                [4, h.sendToNewParent(j, b, g, z.getBase64EncodedAuditHeader())]
                               );
                             case 2:
-                              return (t.sent(), U([N]), k("confirmation"), [3, 4]);
+                              return (t.sent(), I([j]), O("confirmation"), [3, 4]);
                             case 3:
-                              if ("SenderFloodedRequestCreated" === a7((e = t.sent())))
-                                return (B(!0), k("confirmation"), [2]);
-                              return (M(""), H(a9(a7(e))), k("error"), [3, 4]);
+                              if ("SenderFloodedRequestCreated" === a6((e = t.sent())))
+                                return (L(!0), O("confirmation"), [2]);
+                              return (C(""), V(a8(a6(e))), O("error"), [3, 4]);
                             case 4:
                               return [2];
                           }
                         });
                       })().catch(function () {
-                        k("error");
+                        O("error");
                       });
                     },
-                    children: null != (u = Q.button) ? u : h("Action.SendEmail")
+                    children: null != (i = q.button) ? i : p("Action.SendEmail")
                   }),
                   (0, P.jsx)(tc, {
                     variant: "Standard",
                     size: "Medium",
                     className: "w-full",
                     onClick: function () {
-                      Z(a3);
+                      H(a2);
                     },
-                    children: h("Action.Cancel")
+                    children: p("Action.Cancel")
                   })
                 ]
               })
             ]
           });
         };
-        function it(e) {
+        function a7(e) {
           var t,
             r = e.props,
             n = e.report,
@@ -15437,20 +15419,20 @@
             })
           );
         }
-        function ir(e, t) {
+        function a9(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function io(e) {
+        function ie(e) {
           if (Array.isArray(e)) return e;
         }
-        function ia() {
+        function it() {
           throw TypeError(
             "Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
           );
         }
-        function ii(e) {
+        function ir(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -15475,9 +15457,9 @@
           }
           return e;
         }
-        function il(e, t) {
+        function io(e, t) {
           if (e) {
-            if ("string" == typeof e) return ir(e, t);
+            if ("string" == typeof e) return a9(e, t);
             var r = Object.prototype.toString.call(e).slice(8, -1);
             if (
               ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -15485,35 +15467,35 @@
             )
               return Array.from(r);
             if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-              return ir(e, t);
+              return a9(e, t);
           }
         }
-        ((ie.ownsLoadingState = !0), (it.ownsLoadingState = !0));
-        var ic = (0, T.createContext)(null),
-          iu = function () {
-            var e = (0, T.useContext)(ic);
+        ((a4.ownsLoadingState = !0), (a7.ownsLoadingState = !0));
+        var ia = (0, T.createContext)(null),
+          ii = function () {
+            var e = (0, T.useContext)(ia);
             if (!e) throw Error("useListItemProvider must be used within a ListItem");
             return e;
           },
-          is = {
+          il = {
             XSmall: "text-body-small",
             Small: "text-body-small",
             Medium: "text-body-medium",
             Large: "text-body-medium"
           },
-          id = {
+          ic = {
             XSmall: "text-title-small",
             Small: "text-title-small",
             Medium: "text-title-medium",
             Large: "text-title-large"
           },
-          ip = {
+          iu = {
             XSmall: "text-body-small",
             Small: "text-body-small",
             Medium: "text-body-medium",
             Large: "text-body-large"
           },
-          iy = (0, T.forwardRef)(function (e, t) {
+          is = (0, T.forwardRef)(function (e, t) {
             var r = e.isContained,
               n = e.size,
               o = e.divider,
@@ -15541,7 +15523,7 @@
             w && (S = "justify-start");
             var O = k().createElement(
                 g,
-                ii(
+                ir(
                   {
                     className: Q(
                       "bg-none width-full flex gap-medium stroke-none foundation-web-list-item padding-y-none",
@@ -15574,7 +15556,7 @@
                         {
                           className: Q(
                             "content-emphasis text-align-x-start",
-                            void 0 === l || l ? id[v] : ip[v]
+                            void 0 === l || l ? ic[v] : iu[v]
                           )
                         },
                         i
@@ -15586,7 +15568,7 @@
                         {
                           className: Q(
                             "content-default text-align-x-start",
-                            is[v],
+                            il[v],
                             !u && "text-truncate-split text-no-wrap"
                           )
                         },
@@ -15599,7 +15581,7 @@
                         {
                           className: Q(
                             "content-default text-align-x-start text-truncate-split text-no-wrap",
-                            is[v]
+                            il[v]
                           )
                         },
                         s
@@ -15611,7 +15593,7 @@
                         {
                           className: Q(
                             "content-default text-align-x-start padding-top-xsmall",
-                            is[v]
+                            il[v]
                           )
                         },
                         f
@@ -15633,20 +15615,20 @@
             return k().createElement(
               "li",
               { ref: t, style: { listStyle: "none" } },
-              k().createElement(ic.Provider, { value: x }, O)
+              k().createElement(ia.Provider, { value: x }, O)
             );
           });
-        iy.displayName = "ListItem";
-        var im = (0, T.forwardRef)(function (e, t) {
+        is.displayName = "ListItem";
+        var id = (0, T.forwardRef)(function (e, t) {
           var r,
             n =
-              io((r = [e, t])) ||
+              ie((r = [e, t])) ||
               (function (e) {
                 if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
                   return Array.from(e);
               })(r) ||
-              il(r) ||
-              ia(),
+              io(r) ||
+              it(),
             o = n[0],
             a = n.slice(1),
             i = o.children,
@@ -15689,7 +15671,7 @@
                       (a[n] = e[n]));
               return a;
             })(o, ["children", "className", "as"]),
-            s = (io(a) ||
+            s = (ie(a) ||
               (function (e) {
                 var t,
                   r,
@@ -15719,16 +15701,16 @@
                   return o;
                 }
               })(a) ||
-              il(a, 1) ||
-              ia())[0];
+              io(a, 1) ||
+              it())[0];
           return k().createElement(
             void 0 === c ? "ul" : c,
-            ii({ ref: s, className: Q("foundation-web-list", l) }, u),
+            ir({ ref: s, className: Q("foundation-web-list", l) }, u),
             i
           );
         });
-        function ih() {
-          return (ih =
+        function ip() {
+          return (ip =
             Object.assign ||
             function (e) {
               for (var t = 1; t < arguments.length; t++) {
@@ -15738,15 +15720,15 @@
               return e;
             }).apply(this, arguments);
         }
-        im.displayName = "List";
-        var iv = { XSmall: "Small", Small: "Medium", Medium: "Large", Large: "Large" },
-          ib = function (e) {
+        id.displayName = "List";
+        var iy = { XSmall: "Small", Small: "Medium", Medium: "Large", Large: "Large" },
+          im = function (e) {
             var t = e;
             if (null == t) throw TypeError("Cannot destructure " + t);
             var r,
               n,
-              o = ih({}, e),
-              a = iu().size;
+              o = ip({}, e),
+              a = ii().size;
             return k().createElement(
               ez,
               ((r = (function (e) {
@@ -15774,7 +15756,7 @@
                 }
                 return e;
               })({}, o)),
-              (n = n = { size: iv[a] }),
+              (n = n = { size: iy[a] }),
               Object.getOwnPropertyDescriptors
                 ? Object.defineProperties(r, Object.getOwnPropertyDescriptors(n))
                 : (function (e) {
@@ -15790,34 +15772,34 @@
               r)
             );
           },
-          ig = {
+          ih = {
             XSmall: "width-600",
             Small: "width-800",
             Medium: "width-1000",
             Large: "width-1400"
           },
-          iw = function (e) {
+          iv = function (e) {
             var t = e.children,
-              r = iu().size;
+              r = ii().size;
             return k().createElement(
               "div",
-              { className: Q("flex items-center justify-center", ig[r]) },
+              { className: Q("flex items-center justify-center", ih[r]) },
               t
             );
           };
-        function iS(e, t) {
+        function ib(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var iO = { Tilt: "icon-regular-tilt", ShieldCheck: "icon-regular-shield-check" },
-          ix = /<a\s+href=(?:"([^"]*)"|'([^']*)')\s*>(.*?)<\/a>/gi;
-        function iP(e) {
+        var ig = { Tilt: "icon-regular-tilt", ShieldCheck: "icon-regular-shield-check" },
+          iw = /<a\s+href=(?:"([^"]*)"|'([^']*)')\s*>(.*?)<\/a>/gi;
+        function iS(e) {
           if ("u" < typeof document) return e;
           var t = document.createElement("textarea");
           return ((t.innerHTML = e), t.value);
         }
-        function ij(e) {
+        function iO(e) {
           var t = e.text,
             r = [],
             n = 0,
@@ -15826,7 +15808,7 @@
             i = !1,
             l = void 0;
           try {
-            for (var c, u = t.matchAll(ix)[Symbol.iterator](); !(a = (c = u.next()).done); a = !0) {
+            for (var c, u = t.matchAll(iw)[Symbol.iterator](); !(a = (c = u.next()).done); a = !0) {
               var s,
                 f,
                 d,
@@ -15865,7 +15847,7 @@
                   })(p) ||
                   (function (e) {
                     if (e) {
-                      if ("string" == typeof e) return iS(e, 1);
+                      if ("string" == typeof e) return ib(e, 1);
                       var t = Object.prototype.toString.call(e).slice(8, -1);
                       if (
                         ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -15873,7 +15855,7 @@
                       )
                         return Array.from(t);
                       if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                        return iS(e, 1);
+                        return ib(e, 1);
                     }
                   })(p) ||
                   (function () {
@@ -15882,9 +15864,9 @@
                     );
                   })())[0],
                 m = p.index;
-              m > o && r.push(iP(t.slice(o, m)));
+              m > o && r.push(iS(t.slice(o, m)));
               var h = null != (s = null != (f = p.at(1)) ? f : p.at(2)) ? s : "",
-                v = iP(null != (d = p.at(3)) ? d : "");
+                v = iS(null != (d = p.at(3)) ? d : "");
               (r.push(
                 !(function (e) {
                   try {
@@ -15922,7 +15904,7 @@
             }
           }
           return (
-            o < t.length && r.push(iP(t.slice(o))),
+            o < t.length && r.push(iS(t.slice(o))),
             (0, P.jsx)("p", {
               className: "text-body-small content-default margin-none",
               "data-testid": "amp-v2-wizard-agreement-legal-text",
@@ -15930,15 +15912,15 @@
             })
           );
         }
-        function iC(e) {
+        function ix(e) {
           var t = e.bullet,
-            r = t.icon ? iO[t.icon] : void 0;
+            r = t.icon ? ig[t.icon] : void 0;
           return r
-            ? (0, P.jsx)(iw, {
-                children: (0, P.jsx)(ib, { name: r, className: "content-emphasis" })
+            ? (0, P.jsx)(iv, {
+                children: (0, P.jsx)(im, { name: r, className: "content-emphasis" })
               })
             : t.icon
-              ? (0, P.jsx)(iw, {
+              ? (0, P.jsx)(iv, {
                   children: (0, P.jsx)("img", {
                     src: t.icon,
                     alt: "",
@@ -15947,30 +15929,30 @@
                 })
               : null;
         }
-        function iE(e) {
+        function iP(e) {
           var t = e.bullet;
-          return (0, P.jsx)(iy, {
+          return (0, P.jsx)(is, {
             isContained: !0,
             size: "Large",
             divider: "None",
             title: t.title,
             description: t.description,
-            leading: (0, P.jsx)(iC, { bullet: t })
+            leading: (0, P.jsx)(ix, { bullet: t })
           });
         }
-        var iA = { XSmall: "size-400", Small: "size-500", Medium: "size-600" },
-          iI = { XSmall: "size-150", Small: "size-200", Medium: "size-250" },
-          iT = { XSmall: "size-1200", Small: "size-1400", Medium: "size-1600" },
-          ik = {
+        var ij = { XSmall: "size-400", Small: "size-500", Medium: "size-600" },
+          iC = { XSmall: "size-150", Small: "size-200", Medium: "size-250" },
+          iE = { XSmall: "size-1200", Small: "size-1400", Medium: "size-1600" },
+          iA = {
             XSmall: "text-title-small",
             Small: "text-title-small",
             Medium: "text-title-medium"
           },
-          iD = { XSmall: void 0, Small: "padding-top-xxsmall", Medium: "padding-y-xxsmall" },
-          iN = { XSmall: "text-body-small", Small: "text-body-small", Medium: "text-body-medium" },
-          iM = { XSmall: "padding-medium", Small: "padding-large", Medium: "padding-xlarge" },
-          iR = { XSmall: "Small", Small: "Medium", Medium: "Large" },
-          iL = (0, T.forwardRef)(function (e, t) {
+          iI = { XSmall: void 0, Small: "padding-top-xxsmall", Medium: "padding-y-xxsmall" },
+          iT = { XSmall: "text-body-small", Small: "text-body-small", Medium: "text-body-medium" },
+          ik = { XSmall: "padding-medium", Small: "padding-large", Medium: "padding-xlarge" },
+          iD = { XSmall: "Small", Small: "Medium", Medium: "Large" },
+          iN = (0, T.forwardRef)(function (e, t) {
             var r = e.layout,
               n = e.size,
               o = e.type,
@@ -15992,8 +15974,8 @@
                       "div",
                       {
                         className: Q(
-                          ik[n],
-                          iD[n],
+                          iA[n],
+                          iI[n],
                           "content-emphasis text-align-x-start",
                           "clip [display:-webkit-box] [-webkit-line-clamp:3] [-webkit-box-orient:vertical]"
                         )
@@ -16028,7 +16010,7 @@
                     l &&
                     k().createElement(
                       "div",
-                      { className: Q(iN[n], "content-default text-align-x-start") },
+                      { className: Q(iT[n], "content-default text-align-x-start") },
                       l
                     )
                   );
@@ -16037,7 +16019,7 @@
               ),
               b = (0, T.useMemo)(
                 function () {
-                  return u && k().createElement(ez, { name: u, size: iR[n] });
+                  return u && k().createElement(ez, { name: u, size: iD[n] });
                 },
                 [u, n]
               ),
@@ -16045,13 +16027,13 @@
                 function () {
                   switch (o) {
                     case "Checkmark":
-                      return f && k().createElement(ez, { name: "icon-filled-check", size: iR[n] });
+                      return f && k().createElement(ez, { name: "icon-filled-check", size: iD[n] });
                     case "Checkbox":
                       return k().createElement(
                         "div",
                         {
                           className: Q(
-                            iA[n],
+                            ij[n],
                             "flex items-center justify-center radius-small padding-none content-default",
                             f ? "stroke-none" : "stroke-standard stroke-emphasis",
                             f ? "bg-system-contrast" : "bg-none"
@@ -16059,7 +16041,7 @@
                         },
                         f &&
                           k().createElement("div", {
-                            className: Q(iA[n], "content-inverse-emphasis icon icon-filled-check")
+                            className: Q(ij[n], "content-inverse-emphasis icon icon-filled-check")
                           })
                       );
                     case "Radio":
@@ -16067,14 +16049,14 @@
                         "div",
                         {
                           className: Q(
-                            iA[n],
+                            ij[n],
                             "radius-circle flex items-center justify-center stroke-emphasis stroke-standard",
                             f ? "bg-system-contrast" : "bg-none"
                           )
                         },
                         f &&
                           k().createElement("div", {
-                            className: Q("radius-circle bg-inverse-action-sub-emphasis", iI[n])
+                            className: Q("radius-circle bg-inverse-action-sub-emphasis", iC[n])
                           })
                       );
                     default:
@@ -16089,7 +16071,7 @@
                     c &&
                     k().createElement(
                       "div",
-                      { className: Q(iT[n], "flex items-center justify-center clip shrink-0") },
+                      { className: Q(iE[n], "flex items-center justify-center clip shrink-0") },
                       c
                     )
                   );
@@ -16098,7 +16080,7 @@
               ),
               S = (0, T.useMemo)(
                 function () {
-                  var e = !y && k().createElement("div", { className: iA[n] }, g);
+                  var e = !y && k().createElement("div", { className: ij[n] }, g);
                   switch (r) {
                     case "Horizontal":
                       return k().createElement(
@@ -16164,7 +16146,7 @@
                   eR,
                   "focus:outline-focus bg-none width-full radius-medium stroke-standard",
                   f ? "stroke-system-contrast" : "stroke-contrast-alpha",
-                  iM[n],
+                  ik[n],
                   a && "opacity-[0.5]",
                   !a && "cursor-pointer"
                 ),
@@ -16178,24 +16160,24 @@
               S
             );
           });
-        iL.displayName = "OptionSelector";
-        var iU = window.Roblox["core-scripts"].eventStream,
-          iF = window.Roblox["core-scripts"].meta.user,
-          iV = "odpVerifyMethod";
-        function iW(e, t, r) {
-          var n = (0, iF.userId)();
+        iN.displayName = "OptionSelector";
+        var iM = window.Roblox["core-scripts"].eventStream,
+          iR = window.Roblox["core-scripts"].meta.user,
+          iL = "odpVerifyMethod";
+        function iU(e, t, r) {
+          var n = (0, iR.userId)();
           return [e, t, null == n ? void 0 : String(n), r]
             .filter(function (e) {
               return null != e && "" !== e;
             })
             .join(" ");
         }
-        function iK(e, t) {
+        function iF(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function i_(e, t) {
+        function iV(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -16229,7 +16211,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return iK(e, t);
+                if ("string" == typeof e) return iF(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -16237,7 +16219,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return iK(e, t);
+                  return iF(e, t);
               }
             })(e, t) ||
             (function () {
@@ -16247,12 +16229,12 @@
             })()
           );
         }
-        var iB = {
+        var iW = {
           FAE: "icon-regular-square-person",
           IDV: "icon-regular-rectangle-person-with-three-horizontal-lines",
           CCV: "icon-regular-credit-card"
         };
-        function iz(e) {
+        function iK(e) {
           var t,
             r,
             n,
@@ -16315,23 +16297,23 @@
                   (t = null == (e = c.analyticsStrings) ? void 0 : e.ageGroup),
                   {
                     verificationMethodSelectorShown: function (e, r) {
-                      (0, iU.sendEventWithTarget)("authModalShown", iV, {
-                        state: iW(e, t),
+                      (0, iM.sendEventWithTarget)("authModalShown", iL, {
+                        state: iU(e, t),
                         field: r,
                         associatedText: "Identity verification - Choose a verification method"
                       });
                     },
                     verificationMethodSelected: function (e, r) {
-                      (0, iU.sendEventWithTarget)("authFormInteraction", iV, {
+                      (0, iM.sendEventWithTarget)("authFormInteraction", iL, {
                         field: "verifyMethod",
-                        state: iW(e, t, r),
+                        state: iU(e, t, r),
                         associatedText: "Facial age estimation / Credit card / Government ID"
                       });
                     },
                     verificationMethodContinue: function (e, r) {
-                      (0, iU.sendEventWithTarget)("authButtonClick", iV, {
+                      (0, iM.sendEventWithTarget)("authButtonClick", iL, {
                         btn: "continue",
-                        state: iW(e, t, r),
+                        state: iU(e, t, r),
                         associatedText: "Continue"
                       });
                     }
@@ -16340,10 +16322,10 @@
               },
               [c.analyticsStrings]
             ),
-            g = i_((0, T.useState)(null == (i = h[0]) ? void 0 : i.id), 2),
+            g = iV((0, T.useState)(null == (i = h[0]) ? void 0 : i.id), 2),
             w = g[0],
             S = g[1],
-            O = i_((0, T.useState)(!1), 2),
+            O = iV((0, T.useState)(!1), 2),
             x = O[0],
             j = O[1];
           ((0, T.useEffect)(function () {
@@ -16397,14 +16379,14 @@
                           "aria-label": y,
                           children: h.map(function (e) {
                             return (0, P.jsx)(
-                              iL,
+                              iN,
                               {
                                 layout: "Horizontal",
                                 size: "Medium",
                                 type: "Checkmark",
                                 label: e.label,
                                 description: e.description,
-                                icon: iB[e.id],
+                                icon: iW[e.id],
                                 isSelected: w === e.id,
                                 onSelect: function () {
                                   (b.verificationMethodSelected(v, e.id), S(e.id));
@@ -16447,16 +16429,16 @@
             })
           });
         }
-        ((iz.ownsOverlay = !0), (iz.ownsLoadingState = !0));
-        var iq = {
+        ((iK.ownsOverlay = !0), (iK.ownsLoadingState = !0));
+        var i_ = {
             CreateOdpSession: eh,
             OdpAgeEstimation: eN,
             OdpGovernmentId: eM,
             OdpHandoff: tU,
             PinEntry: t5,
             Redirect: t4,
-            RemoteParentRequest: ie,
-            SessionPolling: it,
+            RemoteParentRequest: a4,
+            SessionPolling: a7,
             TextScreen: function (e) {
               var t,
                 r,
@@ -16636,12 +16618,12 @@
                         ]
                       }),
                       s.length > 0
-                        ? (0, P.jsx)(im, {
+                        ? (0, P.jsx)(id, {
                             className: "flex flex-col gap-large",
                             children: s.map(function (e) {
                               var t, r;
                               return (0, P.jsx)(
-                                iE,
+                                iP,
                                 { bullet: e },
                                 ""
                                   .concat(null != (t = e.icon) ? t : "", "-")
@@ -16663,16 +16645,16 @@
                         onClick: f,
                         children: c
                       }),
-                      u ? (0, P.jsx)(ij, { text: u }) : null
+                      u ? (0, P.jsx)(iO, { text: u }) : null
                     ]
                   })
                 ]
               });
             },
-            VerificationMethodSelection: iz
+            VerificationMethodSelection: iK
           },
-          iH = window.CoreUtilities;
-        function iG(e, t, r, n, o, a, i) {
+          iB = window.CoreUtilities;
+        function iz(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -16682,7 +16664,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function i$(e, t) {
+        function iq(e, t) {
           var r;
           return ((r = function () {
             return (function (e, t) {
@@ -16779,7 +16761,7 @@
             })(this, function (r) {
               switch (r.label) {
                 case 0:
-                  return [4, iH.httpService.post({ url: e, withCredentials: !0 }, t)];
+                  return [4, iB.httpService.post({ url: e, withCredentials: !0 }, t)];
                 case 1:
                   return [2, r.sent().data];
               }
@@ -16791,26 +16773,26 @@
             return new Promise(function (n, o) {
               var a = r.apply(e, t);
               function i(e) {
-                iG(a, n, o, i, l, "next", e);
+                iz(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                iG(a, n, o, i, l, "throw", e);
+                iz(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           })();
         }
-        var iJ = {
+        var iH = {
             entrypoint: function (e) {
-              return i$(el, e);
+              return iq(el, e);
             },
             continue: function (e) {
-              return i$(ec, e);
+              return iq(ec, e);
             }
           },
-          iY = { Small: "padding-xsmall", Medium: "padding-small", Large: "padding-medium" },
-          iX = { Utility: "bg-action-link", OverMedia: "bg-over-media-100" },
-          iQ = function (e) {
+          iG = { Small: "padding-xsmall", Medium: "padding-small", Large: "padding-medium" },
+          i$ = { Utility: "bg-action-link", OverMedia: "bg-over-media-100" },
+          iJ = function (e) {
             var t = e.variant,
               r = e.size,
               n = e.isCircular,
@@ -16884,8 +16866,8 @@
                   className: Q(
                     "foundation-web-close-affordance flex stroke-none bg-none cursor-pointer",
                     eR,
-                    iX[t],
-                    iY[r],
+                    i$[t],
+                    iG[r],
                     n && "radius-circle",
                     o
                   )
@@ -16896,7 +16878,7 @@
               k().createElement(ez, { name: "icon-regular-x", size: r })
             );
           };
-        function iZ(e, t) {
+        function iY(e, t) {
           var r = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : {},
             n = r.checkForDefaultPrevented,
             o = void 0 === n || n;
@@ -16905,12 +16887,12 @@
               return null == t ? void 0 : t(r);
           };
         }
-        function i0(e, t) {
+        function iX(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function i1(e, t, r) {
+        function iQ(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -16923,7 +16905,7 @@
             e
           );
         }
-        function i2(e) {
+        function iZ(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -16934,12 +16916,12 @@
                 })
               )),
               n.forEach(function (t) {
-                i1(e, t, r[t]);
+                iQ(e, t, r[t]);
               }));
           }
           return e;
         }
-        function i3(e, t) {
+        function i0(e, t) {
           if (null == e) return {};
           var r,
             n,
@@ -16976,10 +16958,10 @@
                   (a[n] = e[n]));
           return a;
         }
-        function i5(e) {
+        function i1(e) {
           return (
             (function (e) {
-              if (Array.isArray(e)) return i0(e);
+              if (Array.isArray(e)) return iX(e);
             })(e) ||
             (function (e) {
               if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
@@ -16987,7 +16969,7 @@
             })(e) ||
             (function (e) {
               if (e) {
-                if ("string" == typeof e) return i0(e, void 0);
+                if ("string" == typeof e) return iX(e, void 0);
                 var t = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -16995,7 +16977,7 @@
                 )
                   return Array.from(t);
                 if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                  return i0(e, void 0);
+                  return iX(e, void 0);
               }
             })(e) ||
             (function () {
@@ -17005,7 +16987,7 @@
             })()
           );
         }
-        function i6() {
+        function i2() {
           for (var e = arguments.length, t = Array(e), r = 0; r < e; r++) t[r] = arguments[r];
           var n = t[0];
           if (1 === t.length) return n;
@@ -17017,11 +16999,11 @@
               var r = e.reduce(function (e, r) {
                 var n = r.useScope,
                   o = r.scopeName;
-                return i2({}, e, n(t)["__scope".concat(o)]);
+                return iZ({}, e, n(t)["__scope".concat(o)]);
               }, {});
               return T.useMemo(
                 function () {
-                  return i1({}, "__scope".concat(n.scopeName), r);
+                  return iQ({}, "__scope".concat(n.scopeName), r);
                 },
                 [r]
               );
@@ -17029,22 +17011,22 @@
           };
           return ((o.scopeName = n.scopeName), o);
         }
-        var i8 = (null == (sI = globalThis) ? void 0 : sI.document)
+        var i3 = (null == (sC = globalThis) ? void 0 : sC.document)
           ? T.useLayoutEffect
           : function () {};
-        function i4(e, t) {
+        function i5(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var i7 = T[" useId ".trim().toString()] || function () {},
-          i9 = 0;
-        function le(e) {
+        var i6 = T[" useId ".trim().toString()] || function () {},
+          i8 = 0;
+        function i4(e) {
           var t,
             r =
               (function (e) {
                 if (Array.isArray(e)) return e;
-              })((t = T.useState(i7()))) ||
+              })((t = T.useState(i6()))) ||
               (function (e) {
                 var t,
                   r,
@@ -17076,7 +17058,7 @@
               })(t) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return i4(e, 2);
+                  if ("string" == typeof e) return i5(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -17084,7 +17066,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return i4(e, 2);
+                    return i5(e, 2);
                 }
               })(t) ||
               (function () {
@@ -17095,11 +17077,11 @@
             n = r[0],
             o = r[1];
           return (
-            i8(
+            i3(
               function () {
                 e ||
                   o(function (e) {
-                    return null != e ? e : String(i9++);
+                    return null != e ? e : String(i8++);
                   });
               },
               [e]
@@ -17107,12 +17089,12 @@
             e || (n ? "radix-".concat(n) : "")
           );
         }
-        function lt(e, t) {
+        function i7(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function lr(e) {
+        function i9(e) {
           var t = T.useRef(e);
           return (
             T.useEffect(function () {
@@ -17128,7 +17110,7 @@
                       e,
                       [t].concat(
                         (function (e) {
-                          if (Array.isArray(e)) return lt(e);
+                          if (Array.isArray(e)) return i7(e);
                         })(n) ||
                           (function (e) {
                             if (
@@ -17139,7 +17121,7 @@
                           })(n) ||
                           (function (e) {
                             if (e) {
-                              if ("string" == typeof e) return lt(e, void 0);
+                              if ("string" == typeof e) return i7(e, void 0);
                               var t = Object.prototype.toString.call(e).slice(8, -1);
                               if (
                                 ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -17150,7 +17132,7 @@
                                 "Arguments" === t ||
                                 /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
                               )
-                                return lt(e, void 0);
+                                return i7(e, void 0);
                             }
                           })(n) ||
                           (function () {
@@ -17164,12 +17146,12 @@
             }, [])
           );
         }
-        function ln(e, t) {
+        function le(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function lo(e, t) {
+        function lt(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -17203,7 +17185,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return ln(e, t);
+                if ("string" == typeof e) return le(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -17211,7 +17193,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return ln(e, t);
+                  return le(e, t);
               }
             })(e, t) ||
             (function () {
@@ -17221,12 +17203,12 @@
             })()
           );
         }
-        function la(e, t) {
+        function lr(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function li(e) {
+        function ln(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -17251,7 +17233,7 @@
           }
           return e;
         }
-        function ll(e, t) {
+        function lo(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -17269,7 +17251,7 @@
             e
           );
         }
-        function lc(e, t) {
+        function la(e, t) {
           if (null == e) return {};
           var r,
             n,
@@ -17306,10 +17288,10 @@
                   (a[n] = e[n]));
           return a;
         }
-        function lu(e) {
+        function li(e) {
           return (
             (function (e) {
-              if (Array.isArray(e)) return la(e);
+              if (Array.isArray(e)) return lr(e);
             })(e) ||
             (function (e) {
               if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
@@ -17317,7 +17299,7 @@
             })(e) ||
             (function (e) {
               if (e) {
-                if ("string" == typeof e) return la(e, void 0);
+                if ("string" == typeof e) return lr(e, void 0);
                 var t = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -17325,7 +17307,7 @@
                 )
                   return Array.from(t);
                 if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                  return la(e, void 0);
+                  return lr(e, void 0);
               }
             })(e) ||
             (function () {
@@ -17335,14 +17317,14 @@
             })()
           );
         }
-        function ls(e) {
+        function ll(e) {
           var t,
             r,
             n =
               ((t = e),
               ((r = T.forwardRef(function (e, t) {
                 var r = e.children,
-                  n = lc(e, ["children"]);
+                  n = la(e, ["children"]);
                 if (T.isValidElement(r)) {
                   var o,
                     a,
@@ -17367,7 +17349,7 @@
                         ? o.props.ref
                         : o.props.ref || o.ref,
                     s = (function (e, t) {
-                      var r = li({}, t);
+                      var r = ln({}, t);
                       for (var n in t)
                         !(function (n) {
                           var o = e[n],
@@ -17377,14 +17359,14 @@
                               ? (r[n] = function () {
                                   for (var e = arguments.length, t = Array(e), r = 0; r < e; r++)
                                     t[r] = arguments[r];
-                                  (a.apply(void 0, lu(t)), o.apply(void 0, lu(t)));
+                                  (a.apply(void 0, li(t)), o.apply(void 0, li(t)));
                                 })
                               : o && (r[n] = o)
                             : "style" === n
-                              ? (r[n] = li({}, o, a))
+                              ? (r[n] = ln({}, o, a))
                               : "className" === n && (r[n] = [o, a].filter(Boolean).join(" "));
                         })(n);
-                      return li({}, e, r);
+                      return ln({}, e, r);
                     })(n, r.props);
                   return (
                     r.type !== T.Fragment && (s.ref = t ? eG(t, u) : u),
@@ -17396,9 +17378,9 @@
               r),
             o = T.forwardRef(function (e, t) {
               var r = e.children,
-                o = lc(e, ["children"]),
+                o = la(e, ["children"]),
                 a = T.Children.toArray(r),
-                i = a.find(ld);
+                i = a.find(lu);
               if (i) {
                 var l = i.props.children,
                   c = a.map(function (e) {
@@ -17412,26 +17394,26 @@
                   });
                 return (0, P.jsx)(
                   n,
-                  ll(li({}, o), {
+                  lo(ln({}, o), {
                     ref: t,
                     children: T.isValidElement(l) ? T.cloneElement(l, void 0, c) : null
                   })
                 );
               }
-              return (0, P.jsx)(n, ll(li({}, o), { ref: t, children: r }));
+              return (0, P.jsx)(n, lo(ln({}, o), { ref: t, children: r }));
             });
           return ((o.displayName = "".concat(e, ".Slot")), o);
         }
-        var lf = Symbol("radix.slottable");
-        function ld(e) {
+        var lc = Symbol("radix.slottable");
+        function lu(e) {
           return (
             T.isValidElement(e) &&
             "function" == typeof e.type &&
             "__radixId" in e.type &&
-            e.type.__radixId === lf
+            e.type.__radixId === lc
           );
         }
-        function lp(e, t, r) {
+        function ls(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -17444,7 +17426,7 @@
             e
           );
         }
-        function ly(e) {
+        function lf(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -17455,12 +17437,12 @@
                 })
               )),
               n.forEach(function (t) {
-                lp(e, t, r[t]);
+                ls(e, t, r[t]);
               }));
           }
           return e;
         }
-        function lm(e, t) {
+        function ld(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -17478,7 +17460,7 @@
             e
           );
         }
-        var lh = [
+        var lp = [
           "a",
           "button",
           "div",
@@ -17496,7 +17478,7 @@
           "svg",
           "ul"
         ].reduce(function (e, t) {
-          var r = ls("Primitive.".concat(t)),
+          var r = ll("Primitive.".concat(t)),
             n = T.forwardRef(function (e, n) {
               var o = e.asChild,
                 a = (function (e, t) {
@@ -17539,17 +17521,17 @@
                 i = o ? r : t;
               return (
                 "u" > typeof window && (window[Symbol.for("radix-ui")] = !0),
-                (0, P.jsx)(i, lm(ly({}, a), { ref: n }))
+                (0, P.jsx)(i, ld(lf({}, a), { ref: n }))
               );
             });
-          return ((n.displayName = "Primitive.".concat(t)), lm(ly({}, e), lp({}, t, n)));
+          return ((n.displayName = "Primitive.".concat(t)), ld(lf({}, e), ls({}, t, n)));
         }, {});
-        function lv(e, t) {
+        function ly(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function lb(e, t) {
+        function lm(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -17581,7 +17563,7 @@
                 return a;
               }
             })(e, t) ||
-            lg(e, t) ||
+            lh(e, t) ||
             (function () {
               throw TypeError(
                 "Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
@@ -17589,9 +17571,9 @@
             })()
           );
         }
-        function lg(e, t) {
+        function lh(e, t) {
           if (e) {
-            if ("string" == typeof e) return lv(e, t);
+            if ("string" == typeof e) return ly(e, t);
             var r = Object.prototype.toString.call(e).slice(8, -1);
             if (
               ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -17599,13 +17581,13 @@
             )
               return Array.from(r);
             if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-              return lv(e, t);
+              return ly(e, t);
           }
         }
-        var lw = "focusScope.autoFocusOnMount",
-          lS = "focusScope.autoFocusOnUnmount",
-          lO = { bubbles: !1, cancelable: !0 },
-          lx = T.forwardRef(function (e, t) {
+        var lv = "focusScope.autoFocusOnMount",
+          lb = "focusScope.autoFocusOnUnmount",
+          lg = { bubbles: !1, cancelable: !0 },
+          lw = T.forwardRef(function (e, t) {
             var r,
               n,
               o = e.loop,
@@ -17651,11 +17633,11 @@
                         (a[n] = e[n]));
                 return a;
               })(e, ["loop", "trapped", "onMountAutoFocus", "onUnmountAutoFocus"]),
-              f = lb(T.useState(null), 2),
+              f = lm(T.useState(null), 2),
               d = f[0],
               p = f[1],
-              y = lr(c),
-              m = lr(u),
+              y = i9(c),
+              m = i9(u),
               h = T.useRef(null),
               v = e$(t, function (e) {
                 return p(e);
@@ -17675,13 +17657,13 @@
                   var e = function (e) {
                       if (!b.paused && d) {
                         var t = e.target;
-                        d.contains(t) ? (h.current = t) : lC(h.current, { select: !0 });
+                        d.contains(t) ? (h.current = t) : lx(h.current, { select: !0 });
                       }
                     },
                     t = function (e) {
                       if (!b.paused && d) {
                         var t = e.relatedTarget;
-                        null !== t && (d.contains(t) || lC(h.current, { select: !0 }));
+                        null !== t && (d.contains(t) || lx(h.current, { select: !0 }));
                       }
                     };
                   (document.addEventListener("focusin", e),
@@ -17693,7 +17675,7 @@
                         n = void 0;
                       try {
                         for (var o, a = e[Symbol.iterator](); !(t = (o = a.next()).done); t = !0)
-                          o.value.removedNodes.length > 0 && lC(d);
+                          o.value.removedNodes.length > 0 && lx(d);
                       } catch (e) {
                         ((r = !0), (n = e));
                       } finally {
@@ -17720,11 +17702,11 @@
               T.useEffect(
                 function () {
                   if (d) {
-                    lE.add(b);
+                    lP.add(b);
                     var e = document.activeElement;
                     if (!d.contains(e)) {
-                      var t = new CustomEvent(lw, lO);
-                      (d.addEventListener(lw, y),
+                      var t = new CustomEvent(lv, lg);
+                      (d.addEventListener(lv, y),
                         d.dispatchEvent(t),
                         t.defaultPrevented ||
                           ((function (e) {
@@ -17743,7 +17725,7 @@
                                 a = !0
                               ) {
                                 var s = c.value;
-                                if ((lC(s, { select: n }), document.activeElement !== o)) return;
+                                if ((lx(s, { select: n }), document.activeElement !== o)) return;
                               }
                             } catch (e) {
                               ((i = !0), (l = e));
@@ -17755,22 +17737,22 @@
                               }
                             }
                           })(
-                            lP(d).filter(function (e) {
+                            lS(d).filter(function (e) {
                               return "A" !== e.tagName;
                             }),
                             { select: !0 }
                           ),
-                          document.activeElement === e && lC(d)));
+                          document.activeElement === e && lx(d)));
                     }
                     return function () {
-                      (d.removeEventListener(lw, y),
+                      (d.removeEventListener(lv, y),
                         setTimeout(function () {
-                          var t = new CustomEvent(lS, lO);
-                          (d.addEventListener(lS, m),
+                          var t = new CustomEvent(lb, lg);
+                          (d.addEventListener(lb, m),
                             d.dispatchEvent(t),
-                            t.defaultPrevented || lC(null != e ? e : document.body, { select: !0 }),
-                            d.removeEventListener(lS, m),
-                            lE.remove(b));
+                            t.defaultPrevented || lx(null != e ? e : document.body, { select: !0 }),
+                            d.removeEventListener(lb, m),
+                            lP.remove(b));
                         }, 0));
                     };
                   }
@@ -17786,13 +17768,13 @@
                     var n,
                       o,
                       i = e.currentTarget,
-                      c = lb([lj((o = lP((n = i))), n), lj(o.reverse(), n)], 2),
+                      c = lm([lO((o = lS((n = i))), n), lO(o.reverse(), n)], 2),
                       u = c[0],
                       s = c[1];
                     u && s
                       ? e.shiftKey || r !== s
-                        ? e.shiftKey && r === u && (e.preventDefault(), a && lC(s, { select: !0 }))
-                        : (e.preventDefault(), a && lC(u, { select: !0 }))
+                        ? e.shiftKey && r === u && (e.preventDefault(), a && lx(s, { select: !0 }))
+                        : (e.preventDefault(), a && lx(u, { select: !0 }))
                       : r === i && e.preventDefault();
                   }
                 }
@@ -17800,7 +17782,7 @@
               [a, l, b.paused]
             );
             return (0, P.jsx)(
-              lh.div,
+              lp.div,
               ((r = (function (e) {
                 for (var t = 1; t < arguments.length; t++) {
                   var r = null != arguments[t] ? arguments[t] : {},
@@ -17842,7 +17824,7 @@
               r)
             );
           });
-        function lP(e) {
+        function lS(e) {
           for (
             var t = [],
               r = document.createTreeWalker(e, NodeFilter.SHOW_ELEMENT, {
@@ -17860,7 +17842,7 @@
             t.push(r.currentNode);
           return t;
         }
-        function lj(e, t) {
+        function lO(e, t) {
           var r = !0,
             n = !1,
             o = void 0;
@@ -17890,7 +17872,7 @@
             }
           }
         }
-        function lC(e) {
+        function lx(e) {
           var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {},
             r = t.select;
           if (e && e.focus) {
@@ -17910,29 +17892,29 @@
                 e.select());
           }
         }
-        lx.displayName = "FocusScope";
-        var lE =
-          ((sd = []),
+        lw.displayName = "FocusScope";
+        var lP =
+          ((su = []),
           {
             add: function (e) {
-              var t = sd[0];
-              (e !== t && (null == t || t.pause()), (sd = lA(sd, e)).unshift(e));
+              var t = su[0];
+              (e !== t && (null == t || t.pause()), (su = lj(su, e)).unshift(e));
             },
             remove: function (e) {
               var t;
-              null == (t = (sd = lA(sd, e))[0]) || t.resume();
+              null == (t = (su = lj(su, e))[0]) || t.resume();
             }
           });
-        function lA(e, t) {
+        function lj(e, t) {
           var r =
               (function (e) {
-                if (Array.isArray(e)) return lv(e);
+                if (Array.isArray(e)) return ly(e);
               })(e) ||
               (function (e) {
                 if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
                   return Array.from(e);
               })(e) ||
-              lg(e) ||
+              lh(e) ||
               (function () {
                 throw TypeError(
                   "Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
@@ -17941,12 +17923,12 @@
             n = r.indexOf(t);
           return (-1 !== n && r.splice(n, 1), r);
         }
-        function lI(e, t) {
+        function lC(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var lT = T.forwardRef(function (e, t) {
+        var lE = T.forwardRef(function (e, t) {
           var r,
             n,
             o,
@@ -18025,7 +18007,7 @@
               })(r) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return lI(e, 2);
+                  if ("string" == typeof e) return lC(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -18033,7 +18015,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return lI(e, 2);
+                    return lC(e, 2);
                 }
               })(r) ||
               (function () {
@@ -18043,7 +18025,7 @@
               })(),
             s = u[0],
             f = u[1];
-          i8(function () {
+          i3(function () {
             return f(!0);
           }, []);
           var d =
@@ -18051,7 +18033,7 @@
           return d
             ? L().createPortal(
                 (0, P.jsx)(
-                  lh.div,
+                  lp.div,
                   ((n = (function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                       var r = null != arguments[t] ? arguments[t] : {},
@@ -18096,12 +18078,12 @@
               )
             : null;
         });
-        function lk(e, t) {
+        function lA(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function lD(e, t) {
+        function lI(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -18135,7 +18117,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return lk(e, t);
+                if ("string" == typeof e) return lA(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -18143,7 +18125,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return lk(e, t);
+                  return lA(e, t);
               }
             })(e, t) ||
             (function () {
@@ -18153,8 +18135,8 @@
             })()
           );
         }
-        lT.displayName = "Portal";
-        var lN = function (e) {
+        lE.displayName = "Portal";
+        var lT = function (e) {
           var t,
             r,
             n,
@@ -18176,12 +18158,12 @@
             g = e.children,
             w =
               ((t = b),
-              (a = (o = lD(T.useState(), 2))[0]),
+              (a = (o = lI(T.useState(), 2))[0]),
               (i = o[1]),
               (l = T.useRef({})),
               (c = T.useRef(t)),
               (u = T.useRef("none")),
-              (f = (s = lD(
+              (f = (s = lI(
                 ((r = t ? "mounted" : "unmounted"),
                 (n = {
                   mounted: { UNMOUNT: "unmounted", ANIMATION_OUT: "unmountSuspended" },
@@ -18197,18 +18179,18 @@
               (d = s[1]),
               T.useEffect(
                 function () {
-                  var e = lM(l.current);
+                  var e = lk(l.current);
                   u.current = "mounted" === f ? e : "none";
                 },
                 [f]
               ),
-              i8(
+              i3(
                 function () {
                   var e = l.current,
                     r = c.current;
                   if (r !== t) {
                     var n = u.current,
-                      o = lM(e);
+                      o = lk(e);
                     (t
                       ? d("MOUNT")
                       : "none" === o || (null == e ? void 0 : e.display) === "none"
@@ -18221,14 +18203,14 @@
                 },
                 [t, d]
               ),
-              i8(
+              i3(
                 function () {
                   if (a) {
                     var e,
                       t,
                       r = null != (e = a.ownerDocument.defaultView) ? e : window,
                       n = function (e) {
-                        var n = lM(l.current).includes(e.animationName);
+                        var n = lk(l.current).includes(e.animationName);
                         if (e.target === a && n && (d("ANIMATION_END"), !c.current)) {
                           var o = a.style.animationFillMode;
                           ((a.style.animationFillMode = "forwards"),
@@ -18239,7 +18221,7 @@
                         }
                       },
                       o = function (e) {
-                        e.target === a && (u.current = lM(l.current));
+                        e.target === a && (u.current = lk(l.current));
                       };
                     return (
                       a.addEventListener("animationstart", o),
@@ -18284,13 +18266,13 @@
             );
           return "function" == typeof g || w.isPresent ? T.cloneElement(S, { ref: O }) : null;
         };
-        function lM(e) {
+        function lk(e) {
           return (null == e ? void 0 : e.animationName) || "none";
         }
-        lN.displayName = "Presence";
-        var lR = window.RadixUI["react-focus-guards"],
-          lL = function () {
-            return (lL =
+        lT.displayName = "Presence";
+        var lD = window.RadixUI["react-focus-guards"],
+          lN = function () {
+            return (lN =
               Object.assign ||
               function (e) {
                 for (var t, r = 1, n = arguments.length; r < n; r++)
@@ -18299,7 +18281,7 @@
                 return e;
               }).apply(this, arguments);
           };
-        function lU(e, t) {
+        function lM(e, t) {
           var r = {};
           for (var n in e)
             Object.prototype.hasOwnProperty.call(e, n) && 0 > t.indexOf(n) && (r[n] = e[n]);
@@ -18310,60 +18292,60 @@
                 (r[n[o]] = e[n[o]]);
           return r;
         }
-        var lF = "right-scroll-bar-position",
-          lV = "width-before-scroll-bar";
-        function lW(e, t) {
+        var lR = "right-scroll-bar-position",
+          lL = "width-before-scroll-bar";
+        function lU(e, t) {
           return ("function" == typeof e ? e(t) : e && (e.current = t), e);
         }
-        var lK = "u" > typeof window ? T.useLayoutEffect : T.useEffect,
-          l_ = new WeakMap(),
-          lB =
-            (void 0 === sb && (sb = {}),
-            ((void 0 === sg &&
-              (sg = function (e) {
+        var lF = "u" > typeof window ? T.useLayoutEffect : T.useEffect,
+          lV = new WeakMap(),
+          lW =
+            (void 0 === sm && (sm = {}),
+            ((void 0 === sh &&
+              (sh = function (e) {
                 return e;
               }),
-            (sw = []),
-            (sS = !1),
-            (sO = {
+            (sv = []),
+            (sb = !1),
+            (sg = {
               read: function () {
-                if (sS)
+                if (sb)
                   throw Error(
                     "Sidecar: could not `read` from an `assigned` medium. `read` could be used only with `useMedium`."
                   );
-                return sw.length ? sw[sw.length - 1] : null;
+                return sv.length ? sv[sv.length - 1] : null;
               },
               useMedium: function (e) {
-                var t = sg(e, sS);
+                var t = sh(e, sb);
                 return (
-                  sw.push(t),
+                  sv.push(t),
                   function () {
-                    sw = sw.filter(function (e) {
+                    sv = sv.filter(function (e) {
                       return e !== t;
                     });
                   }
                 );
               },
               assignSyncMedium: function (e) {
-                for (sS = !0; sw.length;) {
-                  var t = sw;
-                  ((sw = []), t.forEach(e));
+                for (sb = !0; sv.length;) {
+                  var t = sv;
+                  ((sv = []), t.forEach(e));
                 }
-                sw = {
+                sv = {
                   push: function (t) {
                     return e(t);
                   },
                   filter: function () {
-                    return sw;
+                    return sv;
                   }
                 };
               },
               assignMedium: function (e) {
-                sS = !0;
+                sb = !0;
                 var t = [];
-                if (sw.length) {
-                  var r = sw;
-                  ((sw = []), r.forEach(e), (t = sw));
+                if (sv.length) {
+                  var r = sv;
+                  ((sv = []), r.forEach(e), (t = sv));
                 }
                 var n = function () {
                     var r = t;
@@ -18373,25 +18355,25 @@
                     return Promise.resolve().then(n);
                   };
                 (o(),
-                  (sw = {
+                  (sv = {
                     push: function (e) {
                       (t.push(e), o());
                     },
                     filter: function (e) {
-                      return ((t = t.filter(e)), sw);
+                      return ((t = t.filter(e)), sv);
                     }
                   }));
               }
-            })).options = lL({ async: !0, ssr: !1 }, sb)),
-            sO),
-          lz = function () {},
-          lq = T.forwardRef(function (e, t) {
+            })).options = lN({ async: !0, ssr: !1 }, sm)),
+            sg),
+          lK = function () {},
+          l_ = T.forwardRef(function (e, t) {
             var r,
               n,
               o,
               a,
               i = T.useRef(null),
-              l = T.useState({ onScrollCapture: lz, onWheelCapture: lz, onTouchMoveCapture: lz }),
+              l = T.useState({ onScrollCapture: lK, onWheelCapture: lK, onTouchMoveCapture: lK }),
               c = l[0],
               u = l[1],
               s = e.forwardProps,
@@ -18407,7 +18389,7 @@
               w = e.allowPinchZoom,
               S = e.as,
               O = e.gapMode,
-              x = lU(e, [
+              x = lM(e, [
                 "forwardProps",
                 "children",
                 "className",
@@ -18426,7 +18408,7 @@
                 ((r = [i, t]),
                 (n = function (e) {
                   return r.forEach(function (t) {
-                    return lW(t, e);
+                    return lU(t, e);
                   });
                 }),
                 ((o = (0, T.useState)(function () {
@@ -18445,32 +18427,32 @@
                   };
                 })[0]).callback = n),
                 (a = o.facade),
-                lK(
+                lF(
                   function () {
-                    var e = l_.get(a);
+                    var e = lV.get(a);
                     if (e) {
                       var t = new Set(e),
                         n = new Set(r),
                         o = a.current;
                       (t.forEach(function (e) {
-                        n.has(e) || lW(e, null);
+                        n.has(e) || lU(e, null);
                       }),
                         n.forEach(function (e) {
-                          t.has(e) || lW(e, o);
+                          t.has(e) || lU(e, o);
                         }));
                     }
-                    l_.set(a, r);
+                    lV.set(a, r);
                   },
                   [r]
                 ),
                 a),
-              j = lL(lL({}, x), c);
+              j = lN(lN({}, x), c);
             return T.createElement(
               T.Fragment,
               null,
               y &&
                 T.createElement(h, {
-                  sideCar: lB,
+                  sideCar: lW,
                   removeScrollBar: p,
                   shards: m,
                   noRelative: v,
@@ -18482,22 +18464,22 @@
                   gapMode: O
                 }),
               s
-                ? T.cloneElement(T.Children.only(f), lL(lL({}, j), { ref: P }))
-                : T.createElement(void 0 === S ? "div" : S, lL({}, j, { className: d, ref: P }), f)
+                ? T.cloneElement(T.Children.only(f), lN(lN({}, j), { ref: P }))
+                : T.createElement(void 0 === S ? "div" : S, lN({}, j, { className: d, ref: P }), f)
             );
           });
-        ((lq.defaultProps = { enabled: !0, removeScrollBar: !0, inert: !1 }),
-          (lq.classNames = { fullWidth: lV, zeroRight: lF }));
-        var lH = function (e) {
+        ((l_.defaultProps = { enabled: !0, removeScrollBar: !0, inert: !1 }),
+          (l_.classNames = { fullWidth: lL, zeroRight: lR }));
+        var lB = function (e) {
           var t = e.sideCar,
-            r = lU(e, ["sideCar"]);
+            r = lM(e, ["sideCar"]);
           if (!t) throw Error("Sidecar: please provide `sideCar` property to import the right car");
           var n = t.read();
           if (!n) throw Error("Sidecar medium not found");
-          return T.createElement(n, lL({}, r));
+          return T.createElement(n, lN({}, r));
         };
-        lH.isSideCarExport = !0;
-        var lG = function () {
+        lB.isSideCarExport = !0;
+        var lz = function () {
             var e = 0,
               t = null;
             return {
@@ -18508,7 +18490,7 @@
                     if (!document) return null;
                     var e = document.createElement("style");
                     e.type = "text/css";
-                    var t = sT || r.nc;
+                    var t = sE || r.nc;
                     return (t && e.setAttribute("nonce", t), e);
                   })())
                 ) {
@@ -18526,8 +18508,8 @@
               }
             };
           },
-          l$ = function () {
-            var e = lG();
+          lq = function () {
+            var e = lz();
             return function (t, r) {
               T.useEffect(
                 function () {
@@ -18542,33 +18524,33 @@
               );
             };
           },
-          lJ = function () {
-            var e = l$();
+          lH = function () {
+            var e = lq();
             return function (t) {
               return (e(t.styles, t.dynamic), null);
             };
           },
-          lY = { left: 0, top: 0, right: 0, gap: 0 },
-          lX = function (e) {
+          lG = { left: 0, top: 0, right: 0, gap: 0 },
+          l$ = function (e) {
             return parseInt(e || "", 10) || 0;
           },
-          lQ = function (e) {
+          lJ = function (e) {
             var t = window.getComputedStyle(document.body),
               r = t["padding" === e ? "paddingLeft" : "marginLeft"],
               n = t["padding" === e ? "paddingTop" : "marginTop"],
               o = t["padding" === e ? "paddingRight" : "marginRight"];
-            return [lX(r), lX(n), lX(o)];
+            return [l$(r), l$(n), l$(o)];
           },
-          lZ = function (e) {
-            if ((void 0 === e && (e = "margin"), "u" < typeof window)) return lY;
-            var t = lQ(e),
+          lY = function (e) {
+            if ((void 0 === e && (e = "margin"), "u" < typeof window)) return lG;
+            var t = lJ(e),
               r = document.documentElement.clientWidth,
               n = window.innerWidth;
             return { left: t[0], top: t[1], right: t[2], gap: Math.max(0, n - r + t[2] - t[0]) };
           },
-          l0 = lJ(),
-          l1 = "data-scroll-locked",
-          l2 = function (e, t, r, n) {
+          lX = lH(),
+          lQ = "data-scroll-locked",
+          lZ = function (e, t, r, n) {
             var o = e.left,
               a = e.top,
               i = e.right,
@@ -18580,7 +18562,7 @@
                 .concat(n, ";\n   padding-right: ")
                 .concat(l, "px ")
                 .concat(n, ";\n  }\n  body[")
-                .concat(l1, "] {\n    overflow: hidden ")
+                .concat(lQ, "] {\n    overflow: hidden ")
                 .concat(n, ";\n    overscroll-behavior: contain;\n    ")
                 .concat(
                   [
@@ -18598,101 +18580,101 @@
                     .join(""),
                   "\n  }\n  \n  ."
                 )
-                .concat(lF, " {\n    right: ")
+                .concat(lR, " {\n    right: ")
                 .concat(l, "px ")
                 .concat(n, ";\n  }\n  \n  .")
-                .concat(lV, " {\n    margin-right: ")
+                .concat(lL, " {\n    margin-right: ")
                 .concat(l, "px ")
                 .concat(n, ";\n  }\n  \n  .")
-                .concat(lF, " .")
-                .concat(lF, " {\n    right: 0 ")
+                .concat(lR, " .")
+                .concat(lR, " {\n    right: 0 ")
                 .concat(n, ";\n  }\n  \n  .")
-                .concat(lV, " .")
-                .concat(lV, " {\n    margin-right: 0 ")
+                .concat(lL, " .")
+                .concat(lL, " {\n    margin-right: 0 ")
                 .concat(n, ";\n  }\n  \n  body[")
-                .concat(l1, "] {\n    ")
+                .concat(lQ, "] {\n    ")
                 .concat("--removed-body-scroll-bar-size", ": ")
                 .concat(l, "px;\n  }\n")
             );
           },
-          l3 = function () {
-            var e = parseInt(document.body.getAttribute(l1) || "0", 10);
+          l0 = function () {
+            var e = parseInt(document.body.getAttribute(lQ) || "0", 10);
             return isFinite(e) ? e : 0;
           },
-          l5 = function () {
+          l1 = function () {
             T.useEffect(function () {
               return (
-                document.body.setAttribute(l1, (l3() + 1).toString()),
+                document.body.setAttribute(lQ, (l0() + 1).toString()),
                 function () {
-                  var e = l3() - 1;
+                  var e = l0() - 1;
                   e <= 0
-                    ? document.body.removeAttribute(l1)
-                    : document.body.setAttribute(l1, e.toString());
+                    ? document.body.removeAttribute(lQ)
+                    : document.body.setAttribute(lQ, e.toString());
                 }
               );
             }, []);
           },
-          l6 = function (e) {
+          l2 = function (e) {
             var t = e.noRelative,
               r = e.noImportant,
               n = e.gapMode,
               o = void 0 === n ? "margin" : n;
-            l5();
+            l1();
             var a = T.useMemo(
               function () {
-                return lZ(o);
+                return lY(o);
               },
               [o]
             );
-            return T.createElement(l0, { styles: l2(a, !t, o, r ? "" : "!important") });
+            return T.createElement(lX, { styles: lZ(a, !t, o, r ? "" : "!important") });
           },
-          l8 = !1;
+          l3 = !1;
         if ("u" > typeof window)
           try {
-            var l4 = Object.defineProperty({}, "passive", {
+            var l5 = Object.defineProperty({}, "passive", {
               get: function () {
-                return ((l8 = !0), !0);
+                return ((l3 = !0), !0);
               }
             });
-            (window.addEventListener("test", l4, l4), window.removeEventListener("test", l4, l4));
+            (window.addEventListener("test", l5, l5), window.removeEventListener("test", l5, l5));
           } catch (e) {
-            l8 = !1;
+            l3 = !1;
           }
-        var l7 = !!l8 && { passive: !1 };
-        function l9(e, t) {
+        var l6 = !!l3 && { passive: !1 };
+        function l8(e, t) {
           return null != t && "u" > typeof Symbol && t[Symbol.hasInstance]
             ? !!t[Symbol.hasInstance](e)
             : e instanceof t;
         }
-        var ce = function (e, t) {
-            if (!l9(e, Element)) return !1;
+        var l4 = function (e, t) {
+            if (!l8(e, Element)) return !1;
             var r = window.getComputedStyle(e);
             return (
               "hidden" !== r[t] &&
               (r.overflowY !== r.overflowX || "TEXTAREA" === e.tagName || "visible" !== r[t])
             );
           },
-          ct = function (e, t) {
+          l7 = function (e, t) {
             var r = t.ownerDocument,
               n = t;
             do {
-              if (("u" > typeof ShadowRoot && l9(n, ShadowRoot) && (n = n.host), cr(e, n))) {
-                var o = cn(e, n);
+              if (("u" > typeof ShadowRoot && l8(n, ShadowRoot) && (n = n.host), l9(e, n))) {
+                var o = ce(e, n);
                 if (o[1] > o[2]) return !0;
               }
               n = n.parentNode;
             } while (n && n !== r.body);
             return !1;
           },
-          cr = function (e, t) {
-            return "v" === e ? ce(t, "overflowY") : ce(t, "overflowX");
+          l9 = function (e, t) {
+            return "v" === e ? l4(t, "overflowY") : l4(t, "overflowX");
           },
-          cn = function (e, t) {
+          ce = function (e, t) {
             return "v" === e
               ? [t.scrollTop, t.scrollHeight, t.clientHeight]
               : [t.scrollLeft, t.scrollWidth, t.clientWidth];
           },
-          co = function (e, t, r, n, o) {
+          ct = function (e, t, r, n, o) {
             var a,
               i = ((a = window.getComputedStyle(t).direction), "h" === e && "rtl" === a ? -1 : 1),
               l = i * n,
@@ -18704,10 +18686,10 @@
               p = 0;
             do {
               if (!c) break;
-              var y = cn(e, c),
+              var y = ce(e, c),
                 m = y[0],
                 h = y[1] - y[2] - i * m;
-              (m || h) && cr(e, c) && ((d += h), (p += m));
+              (m || h) && l9(e, c) && ((d += h), (p += m));
               var v = c.parentNode;
               c = v && v.nodeType === Node.DOCUMENT_FRAGMENT_NODE ? v.host : v;
             } while ((!u && c !== document.body) || (u && (t.contains(c) || t === c)));
@@ -18718,26 +18700,26 @@
               s
             );
           },
-          ca = function (e) {
+          cr = function (e) {
             return "changedTouches" in e
               ? [e.changedTouches[0].clientX, e.changedTouches[0].clientY]
               : [0, 0];
           },
-          ci = function (e) {
+          cn = function (e) {
             return [e.deltaX, e.deltaY];
           },
-          cl = function (e) {
+          co = function (e) {
             return e && "current" in e ? e.current : e;
           },
-          cc = 0,
-          cu = [],
-          cs =
-            ((sx = function (e) {
+          ca = 0,
+          ci = [],
+          cl =
+            ((sw = function (e) {
               var t = T.useRef([]),
                 r = T.useRef([0, 0]),
                 n = T.useRef(),
-                o = T.useState(cc++)[0],
-                a = T.useState(lJ)[0],
+                o = T.useState(ca++)[0],
+                a = T.useState(lH)[0],
                 i = T.useRef(e);
               (T.useEffect(
                 function () {
@@ -18755,7 +18737,7 @@
                             (!n && o in t) ||
                               (n || (n = Array.prototype.slice.call(t, 0, o)), (n[o] = t[o]));
                         return e.concat(n || Array.prototype.slice.call(t));
-                      })([e.lockRef.current], (e.shards || []).map(cl), !0).filter(Boolean);
+                      })([e.lockRef.current], (e.shards || []).map(co), !0).filter(Boolean);
                       return (
                         t.forEach(function (e) {
                           return e.classList.add("allow-interactivity-".concat(o));
@@ -18778,24 +18760,24 @@
                   )
                     return !i.current.allowPinchZoom;
                   var o,
-                    a = ca(e),
+                    a = cr(e),
                     l = r.current,
                     c = "deltaX" in e ? e.deltaX : l[0] - a[0],
                     u = "deltaY" in e ? e.deltaY : l[1] - a[1],
                     s = e.target,
                     f = Math.abs(c) > Math.abs(u) ? "h" : "v";
                   if ("touches" in e && "h" === f && "range" === s.type) return !1;
-                  var d = ct(f, s);
+                  var d = l7(f, s);
                   if (!d) return !0;
-                  if ((d ? (o = f) : ((o = "v" === f ? "h" : "v"), (d = ct(f, s))), !d)) return !1;
+                  if ((d ? (o = f) : ((o = "v" === f ? "h" : "v"), (d = l7(f, s))), !d)) return !1;
                   if ((!n.current && "changedTouches" in e && (c || u) && (n.current = o), !o))
                     return !0;
                   var p = n.current || o;
-                  return co(p, t, e, "h" === p ? c : u, !0);
+                  return ct(p, t, e, "h" === p ? c : u, !0);
                 }, []),
                 c = T.useCallback(function (e) {
-                  if (cu.length && cu[cu.length - 1] === a) {
-                    var r = "deltaY" in e ? ci(e) : ca(e),
+                  if (ci.length && ci[ci.length - 1] === a) {
+                    var r = "deltaY" in e ? cn(e) : cr(e),
                       n = t.current.filter(function (t) {
                         var n;
                         return (
@@ -18810,7 +18792,7 @@
                     }
                     if (!n) {
                       var o = (i.current.shards || [])
-                        .map(cl)
+                        .map(co)
                         .filter(Boolean)
                         .filter(function (t) {
                           return t.contains(e.target);
@@ -18845,28 +18827,28 @@
                     }, 1));
                 }, []),
                 s = T.useCallback(function (e) {
-                  ((r.current = ca(e)), (n.current = void 0));
+                  ((r.current = cr(e)), (n.current = void 0));
                 }, []),
                 f = T.useCallback(function (t) {
-                  u(t.type, ci(t), t.target, l(t, e.lockRef.current));
+                  u(t.type, cn(t), t.target, l(t, e.lockRef.current));
                 }, []),
                 d = T.useCallback(function (t) {
-                  u(t.type, ca(t), t.target, l(t, e.lockRef.current));
+                  u(t.type, cr(t), t.target, l(t, e.lockRef.current));
                 }, []);
               T.useEffect(function () {
                 return (
-                  cu.push(a),
+                  ci.push(a),
                   e.setCallbacks({ onScrollCapture: f, onWheelCapture: f, onTouchMoveCapture: d }),
-                  document.addEventListener("wheel", c, l7),
-                  document.addEventListener("touchmove", c, l7),
-                  document.addEventListener("touchstart", s, l7),
+                  document.addEventListener("wheel", c, l6),
+                  document.addEventListener("touchmove", c, l6),
+                  document.addEventListener("touchstart", s, l6),
                   function () {
-                    ((cu = cu.filter(function (e) {
+                    ((ci = ci.filter(function (e) {
                       return e !== a;
                     })),
-                      document.removeEventListener("wheel", c, l7),
-                      document.removeEventListener("touchmove", c, l7),
-                      document.removeEventListener("touchstart", s, l7));
+                      document.removeEventListener("wheel", c, l6),
+                      document.removeEventListener("touchmove", c, l6),
+                      document.removeEventListener("touchstart", s, l6));
                   }
                 );
               }, []);
@@ -18882,27 +18864,27 @@
                         .concat(o, " {pointer-events: all;}\n")
                     })
                   : null,
-                p ? T.createElement(l6, { noRelative: e.noRelative, gapMode: e.gapMode }) : null
+                p ? T.createElement(l2, { noRelative: e.noRelative, gapMode: e.gapMode }) : null
               );
             }),
-            lB.useMedium(sx),
-            lH),
-          cf = T.forwardRef(function (e, t) {
-            return T.createElement(lq, lL({}, e, { ref: t, sideCar: cs }));
+            lW.useMedium(sw),
+            lB),
+          cc = T.forwardRef(function (e, t) {
+            return T.createElement(l_, lN({}, e, { ref: t, sideCar: cl }));
           });
-        cf.classNames = lq.classNames;
-        var cd = new WeakMap(),
-          cp = new WeakMap(),
-          cy = {},
-          cm = 0,
-          ch = function (e) {
-            return e && (e.host || ch(e.parentNode));
+        cc.classNames = l_.classNames;
+        var cu = new WeakMap(),
+          cs = new WeakMap(),
+          cf = {},
+          cd = 0,
+          cp = function (e) {
+            return e && (e.host || cp(e.parentNode));
           },
-          cv = function (e, t, r, n) {
+          cy = function (e, t, r, n) {
             var o = (Array.isArray(e) ? e : [e])
               .map(function (e) {
                 if (t.contains(e)) return e;
-                var r = ch(e);
+                var r = cp(e);
                 return r && t.contains(r)
                   ? r
                   : (console.error(
@@ -18917,8 +18899,8 @@
               .filter(function (e) {
                 return !!e;
               });
-            cy[r] || (cy[r] = new WeakMap());
-            var a = cy[r],
+            cf[r] || (cf[r] = new WeakMap());
+            var a = cf[r],
               i = [],
               l = new Set(),
               c = new Set(o),
@@ -18935,12 +18917,12 @@
                     try {
                       var t = e.getAttribute(n),
                         o = null !== t && "false" !== t,
-                        c = (cd.get(e) || 0) + 1,
+                        c = (cu.get(e) || 0) + 1,
                         u = (a.get(e) || 0) + 1;
-                      (cd.set(e, c),
+                      (cu.set(e, c),
                         a.set(e, u),
                         i.push(e),
-                        1 === c && o && cp.set(e, !0),
+                        1 === c && o && cs.set(e, !0),
                         1 === u && e.setAttribute(r, "true"),
                         o || e.setAttribute(n, "true"));
                     } catch (t) {
@@ -18951,22 +18933,22 @@
             return (
               s(t),
               l.clear(),
-              cm++,
+              cd++,
               function () {
                 (i.forEach(function (e) {
-                  var t = cd.get(e) - 1,
+                  var t = cu.get(e) - 1,
                     o = a.get(e) - 1;
-                  (cd.set(e, t),
+                  (cu.set(e, t),
                     a.set(e, o),
-                    t || (cp.has(e) || e.removeAttribute(n), cp.delete(e)),
+                    t || (cs.has(e) || e.removeAttribute(n), cs.delete(e)),
                     o || e.removeAttribute(r));
                 }),
-                  --cm ||
-                    ((cd = new WeakMap()), (cd = new WeakMap()), (cp = new WeakMap()), (cy = {})));
+                  --cd ||
+                    ((cu = new WeakMap()), (cu = new WeakMap()), (cs = new WeakMap()), (cf = {})));
               }
             );
           },
-          cb = function (e, t, r) {
+          cm = function (e, t, r) {
             void 0 === r && (r = "data-aria-hidden");
             var n = Array.from(Array.isArray(e) ? e : [e]),
               o =
@@ -18974,17 +18956,17 @@
                 ("u" < typeof document ? null : (Array.isArray(e) ? e[0] : e).ownerDocument.body);
             return o
               ? (n.push.apply(n, Array.from(o.querySelectorAll("[aria-live], script"))),
-                cv(n, o, r, "aria-hidden"))
+                cy(n, o, r, "aria-hidden"))
               : function () {
                   return null;
                 };
           };
-        function cg(e, t) {
+        function ch(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function cw(e) {
+        function cv(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -19009,7 +18991,7 @@
           }
           return e;
         }
-        function cS(e, t) {
+        function cb(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -19027,7 +19009,7 @@
             e
           );
         }
-        function cO(e, t) {
+        function cg(e, t) {
           if (null == e) return {};
           var r,
             n,
@@ -19064,7 +19046,7 @@
                   (a[n] = e[n]));
           return a;
         }
-        function cx(e, t) {
+        function cw(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -19098,7 +19080,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return cg(e, t);
+                if ("string" == typeof e) return ch(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -19106,7 +19088,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return cg(e, t);
+                  return ch(e, t);
               }
             })(e, t) ||
             (function () {
@@ -19116,8 +19098,8 @@
             })()
           );
         }
-        var cP = "Dialog",
-          cj = cx(
+        var cS = "Dialog",
+          cO = cw(
             (function (e) {
               var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : [],
                 r = [],
@@ -19130,11 +19112,11 @@
                     return T.useMemo(
                       function () {
                         var t, o;
-                        return i1(
+                        return iQ(
                           {},
                           "__scope".concat(e),
-                          ((t = i2({}, r)),
-                          (o = null != (o = i1({}, e, n)) ? o : {}),
+                          ((t = iZ({}, r)),
+                          (o = null != (o = iQ({}, e, n)) ? o : {}),
                           Object.getOwnPropertyDescriptors
                             ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(o))
                             : (function (e) {
@@ -19160,12 +19142,12 @@
                   function (t, n) {
                     var o = T.createContext(n),
                       a = r.length;
-                    r = i5(r).concat([n]);
+                    r = i1(r).concat([n]);
                     var i = function (t) {
                       var r,
                         n = t.scope,
                         i = t.children,
-                        l = i3(t, ["scope", "children"]),
+                        l = i0(t, ["scope", "children"]),
                         c = (null == n || null == (r = n[e]) ? void 0 : r[a]) || o,
                         u = T.useMemo(function () {
                           return l;
@@ -19187,18 +19169,18 @@
                       ]
                     );
                   },
-                  i6.apply(void 0, [n].concat(i5(t)))
+                  i2.apply(void 0, [n].concat(i1(t)))
                 ]
               );
-            })(cP),
+            })(cS),
             2
           ),
-          cC = cj[0];
-        cj[1];
-        var cE = cx(cC(cP), 2),
-          cA = cE[0],
-          cI = cE[1],
-          cT = function (e) {
+          cx = cO[0];
+        cO[1];
+        var cP = cw(cx(cS), 2),
+          cj = cP[0],
+          cC = cP[1],
+          cE = function (e) {
             var t,
               r,
               n,
@@ -19224,17 +19206,17 @@
               x = e.modal,
               j = T.useRef(null),
               C = T.useRef(null),
-              E = cx(
+              E = cw(
                 ((u = (c = { prop: w, defaultProp: S, onChange: O }).prop),
-                (p = (d = lo(
+                (p = (d = lt(
                   ((r = (t = {
                     defaultProp: c.defaultProp,
                     onChange: (f = void 0 === (s = c.onChange) ? function () {} : s)
                   }).defaultProp),
                   (n = t.onChange),
-                  (a = lo((o = T.useState(r)), 1)[0]),
+                  (a = lt((o = T.useState(r)), 1)[0]),
                   (i = T.useRef(a)),
-                  (l = lr(n)),
+                  (l = i9(n)),
                   T.useEffect(
                     function () {
                       i.current !== a && (l(a), (i.current = a));
@@ -19246,7 +19228,7 @@
                 ))[0]),
                 (y = d[1]),
                 (h = (m = void 0 !== u) ? u : p),
-                (v = lr(f)),
+                (v = i9(f)),
                 [
                   h,
                   T.useCallback(
@@ -19263,13 +19245,13 @@
               ),
               A = E[0],
               I = E[1];
-            return (0, P.jsx)(cA, {
+            return (0, P.jsx)(cj, {
               scope: b,
               triggerRef: j,
               contentRef: C,
-              contentId: le(),
-              titleId: le(),
-              descriptionId: le(),
+              contentId: i4(),
+              titleId: i4(),
+              descriptionId: i4(),
               open: void 0 !== A && A,
               onOpenChange: I,
               onOpenToggle: T.useCallback(
@@ -19284,138 +19266,138 @@
               children: g
             });
           };
-        cT.displayName = cP;
-        var ck = "DialogTrigger";
+        cE.displayName = cS;
+        var cA = "DialogTrigger";
         T.forwardRef(function (e, t) {
           var r = e.__scopeDialog,
-            n = cO(e, ["__scopeDialog"]),
-            o = cI(ck, r),
+            n = cg(e, ["__scopeDialog"]),
+            o = cC(cA, r),
             a = e$(t, o.triggerRef);
           return (0, P.jsx)(
-            lh.button,
-            cS(
-              cw(
+            lp.button,
+            cb(
+              cv(
                 {
                   type: "button",
                   "aria-haspopup": "dialog",
                   "aria-expanded": o.open,
                   "aria-controls": o.contentId,
-                  "data-state": cX(o.open)
+                  "data-state": c$(o.open)
                 },
                 n
               ),
-              { ref: a, onClick: iZ(e.onClick, o.onOpenToggle) }
+              { ref: a, onClick: iY(e.onClick, o.onOpenToggle) }
             )
           );
-        }).displayName = ck;
-        var cD = "DialogPortal",
-          cN = cx(cC(cD, { forceMount: void 0 }), 2),
-          cM = cN[0],
-          cR = cN[1],
-          cL = function (e) {
+        }).displayName = cA;
+        var cI = "DialogPortal",
+          cT = cw(cx(cI, { forceMount: void 0 }), 2),
+          ck = cT[0],
+          cD = cT[1],
+          cN = function (e) {
             var t = e.__scopeDialog,
               r = e.forceMount,
               n = e.children,
               o = e.container,
-              a = cI(cD, t);
-            return (0, P.jsx)(cM, {
+              a = cC(cI, t);
+            return (0, P.jsx)(ck, {
               scope: t,
               forceMount: r,
               children: T.Children.map(n, function (e) {
-                return (0, P.jsx)(lN, {
+                return (0, P.jsx)(lT, {
                   present: r || a.open,
-                  children: (0, P.jsx)(lT, { asChild: !0, container: o, children: e })
+                  children: (0, P.jsx)(lE, { asChild: !0, container: o, children: e })
                 });
               })
             });
           };
-        cL.displayName = cD;
-        var cU = "DialogOverlay",
-          cF = T.forwardRef(function (e, t) {
-            var r = cR(cU, e.__scopeDialog),
+        cN.displayName = cI;
+        var cM = "DialogOverlay",
+          cR = T.forwardRef(function (e, t) {
+            var r = cD(cM, e.__scopeDialog),
               n = e.forceMount,
               o = void 0 === n ? r.forceMount : n,
-              a = cO(e, ["forceMount"]),
-              i = cI(cU, e.__scopeDialog);
+              a = cg(e, ["forceMount"]),
+              i = cC(cM, e.__scopeDialog);
             return i.modal
-              ? (0, P.jsx)(lN, {
+              ? (0, P.jsx)(lT, {
                   present: o || i.open,
-                  children: (0, P.jsx)(cW, cS(cw({}, a), { ref: t }))
+                  children: (0, P.jsx)(cU, cb(cv({}, a), { ref: t }))
                 })
               : null;
           });
-        cF.displayName = cU;
-        var cV = ls("DialogOverlay.RemoveScroll"),
-          cW = T.forwardRef(function (e, t) {
+        cR.displayName = cM;
+        var cL = ll("DialogOverlay.RemoveScroll"),
+          cU = T.forwardRef(function (e, t) {
             var r = e.__scopeDialog,
-              n = cO(e, ["__scopeDialog"]),
-              o = cI(cU, r);
-            return (0, P.jsx)(cf, {
-              as: cV,
+              n = cg(e, ["__scopeDialog"]),
+              o = cC(cM, r);
+            return (0, P.jsx)(cc, {
+              as: cL,
               allowPinchZoom: !0,
               shards: [o.contentRef],
               children: (0, P.jsx)(
-                lh.div,
-                cS(cw({ "data-state": cX(o.open) }, n), {
+                lp.div,
+                cb(cv({ "data-state": c$(o.open) }, n), {
                   ref: t,
-                  style: cw({ pointerEvents: "auto" }, n.style)
+                  style: cv({ pointerEvents: "auto" }, n.style)
                 })
               )
             });
           }),
-          cK = "DialogContent",
-          c_ = T.forwardRef(function (e, t) {
-            var r = cR(cK, e.__scopeDialog),
+          cF = "DialogContent",
+          cV = T.forwardRef(function (e, t) {
+            var r = cD(cF, e.__scopeDialog),
               n = e.forceMount,
               o = void 0 === n ? r.forceMount : n,
-              a = cO(e, ["forceMount"]),
-              i = cI(cK, e.__scopeDialog);
-            return (0, P.jsx)(lN, {
+              a = cg(e, ["forceMount"]),
+              i = cC(cF, e.__scopeDialog);
+            return (0, P.jsx)(lT, {
               present: o || i.open,
               children: i.modal
-                ? (0, P.jsx)(cB, cS(cw({}, a), { ref: t }))
-                : (0, P.jsx)(cz, cS(cw({}, a), { ref: t }))
+                ? (0, P.jsx)(cW, cb(cv({}, a), { ref: t }))
+                : (0, P.jsx)(cK, cb(cv({}, a), { ref: t }))
             });
           });
-        c_.displayName = cK;
-        var cB = T.forwardRef(function (e, t) {
-            var r = cI(cK, e.__scopeDialog),
+        cV.displayName = cF;
+        var cW = T.forwardRef(function (e, t) {
+            var r = cC(cF, e.__scopeDialog),
               n = T.useRef(null),
               o = e$(t, r.contentRef, n);
             return (
               T.useEffect(function () {
                 var e = n.current;
-                if (e) return cb(e);
+                if (e) return cm(e);
               }, []),
               (0, P.jsx)(
-                cq,
-                cS(cw({}, e), {
+                c_,
+                cb(cv({}, e), {
                   ref: o,
                   trapFocus: r.open,
                   disableOutsidePointerEvents: !0,
-                  onCloseAutoFocus: iZ(e.onCloseAutoFocus, function (e) {
+                  onCloseAutoFocus: iY(e.onCloseAutoFocus, function (e) {
                     var t;
                     (e.preventDefault(), null == (t = r.triggerRef.current) || t.focus());
                   }),
-                  onPointerDownOutside: iZ(e.onPointerDownOutside, function (e) {
+                  onPointerDownOutside: iY(e.onPointerDownOutside, function (e) {
                     var t = e.detail.originalEvent,
                       r = 0 === t.button && !0 === t.ctrlKey;
                     (2 === t.button || r) && e.preventDefault();
                   }),
-                  onFocusOutside: iZ(e.onFocusOutside, function (e) {
+                  onFocusOutside: iY(e.onFocusOutside, function (e) {
                     return e.preventDefault();
                   })
                 })
               )
             );
           }),
-          cz = T.forwardRef(function (e, t) {
-            var r = cI(cK, e.__scopeDialog),
+          cK = T.forwardRef(function (e, t) {
+            var r = cC(cF, e.__scopeDialog),
               n = T.useRef(!1),
               o = T.useRef(!1);
             return (0, P.jsx)(
-              cq,
-              cS(cw({}, e), {
+              c_,
+              cb(cv({}, e), {
                 ref: t,
                 trapFocus: !1,
                 disableOutsidePointerEvents: !1,
@@ -19443,20 +19425,20 @@
               })
             );
           }),
-          cq = T.forwardRef(function (e, t) {
+          c_ = T.forwardRef(function (e, t) {
             var r = e.__scopeDialog,
               n = e.trapFocus,
               o = e.onOpenAutoFocus,
               a = e.onCloseAutoFocus,
-              i = cO(e, ["__scopeDialog", "trapFocus", "onOpenAutoFocus", "onCloseAutoFocus"]),
-              l = cI(cK, r),
+              i = cg(e, ["__scopeDialog", "trapFocus", "onOpenAutoFocus", "onCloseAutoFocus"]),
+              l = cC(cF, r),
               c = T.useRef(null),
               u = e$(t, c);
             return (
-              (0, lR.useFocusGuards)(),
+              (0, lD.useFocusGuards)(),
               (0, P.jsxs)(P.Fragment, {
                 children: [
-                  (0, P.jsx)(lx, {
+                  (0, P.jsx)(lw, {
                     asChild: !0,
                     loop: !0,
                     trapped: n,
@@ -19464,14 +19446,14 @@
                     onUnmountAutoFocus: a,
                     children: (0, P.jsx)(
                       rd.DismissableLayer,
-                      cS(
-                        cw(
+                      cb(
+                        cv(
                           {
                             role: "dialog",
                             id: l.contentId,
                             "aria-describedby": l.descriptionId,
                             "aria-labelledby": l.titleId,
-                            "data-state": cX(l.open)
+                            "data-state": c$(l.open)
                           },
                           i
                         ),
@@ -19486,75 +19468,75 @@
                   }),
                   (0, P.jsxs)(P.Fragment, {
                     children: [
-                      (0, P.jsx)(c1, { titleId: l.titleId }),
-                      (0, P.jsx)(c2, { contentRef: c, descriptionId: l.descriptionId })
+                      (0, P.jsx)(cQ, { titleId: l.titleId }),
+                      (0, P.jsx)(cZ, { contentRef: c, descriptionId: l.descriptionId })
                     ]
                   })
                 ]
               })
             );
           }),
-          cH = "DialogTitle",
-          cG = T.forwardRef(function (e, t) {
+          cB = "DialogTitle",
+          cz = T.forwardRef(function (e, t) {
             var r = e.__scopeDialog,
-              n = cO(e, ["__scopeDialog"]),
-              o = cI(cH, r);
-            return (0, P.jsx)(lh.h2, cS(cw({ id: o.titleId }, n), { ref: t }));
+              n = cg(e, ["__scopeDialog"]),
+              o = cC(cB, r);
+            return (0, P.jsx)(lp.h2, cb(cv({ id: o.titleId }, n), { ref: t }));
           });
-        cG.displayName = cH;
-        var c$ = "DialogDescription";
+        cz.displayName = cB;
+        var cq = "DialogDescription";
         T.forwardRef(function (e, t) {
           var r = e.__scopeDialog,
-            n = cO(e, ["__scopeDialog"]),
-            o = cI(c$, r);
-          return (0, P.jsx)(lh.p, cS(cw({ id: o.descriptionId }, n), { ref: t }));
-        }).displayName = c$;
-        var cJ = "DialogClose",
-          cY = T.forwardRef(function (e, t) {
+            n = cg(e, ["__scopeDialog"]),
+            o = cC(cq, r);
+          return (0, P.jsx)(lp.p, cb(cv({ id: o.descriptionId }, n), { ref: t }));
+        }).displayName = cq;
+        var cH = "DialogClose",
+          cG = T.forwardRef(function (e, t) {
             var r = e.__scopeDialog,
-              n = cO(e, ["__scopeDialog"]),
-              o = cI(cJ, r);
+              n = cg(e, ["__scopeDialog"]),
+              o = cC(cH, r);
             return (0, P.jsx)(
-              lh.button,
-              cS(cw({ type: "button" }, n), {
+              lp.button,
+              cb(cv({ type: "button" }, n), {
                 ref: t,
-                onClick: iZ(e.onClick, function () {
+                onClick: iY(e.onClick, function () {
                   return o.onOpenChange(!1);
                 })
               })
             );
           });
-        function cX(e) {
+        function c$(e) {
           return e ? "open" : "closed";
         }
-        cY.displayName = cJ;
-        var cQ = "DialogTitleWarning",
-          cZ = cx(
-            ((sP = { contentName: cK, titleName: cH, docsSlug: "dialog" }),
-            (sj = T.createContext(sP)),
-            ((sC = function (e) {
+        cG.displayName = cH;
+        var cJ = "DialogTitleWarning",
+          cY = cw(
+            ((sS = { contentName: cF, titleName: cB, docsSlug: "dialog" }),
+            (sO = T.createContext(sS)),
+            ((sx = function (e) {
               var t = e.children,
-                r = i3(e, ["children"]),
+                r = i0(e, ["children"]),
                 n = T.useMemo(function () {
                   return r;
                 }, Object.values(r));
-              return (0, P.jsx)(sj.Provider, { value: n, children: t });
-            }).displayName = cQ + "Provider"),
+              return (0, P.jsx)(sO.Provider, { value: n, children: t });
+            }).displayName = cJ + "Provider"),
             [
-              sC,
+              sx,
               function (e) {
-                var t = T.useContext(sj);
+                var t = T.useContext(sO);
                 if (t) return t;
-                if (void 0 !== sP) return sP;
-                throw Error("`".concat(e, "` must be used within `").concat(cQ, "`"));
+                if (void 0 !== sS) return sS;
+                throw Error("`".concat(e, "` must be used within `").concat(cJ, "`"));
               }
             ]),
             2
           ),
-          c0 = (cZ[0], cZ[1]),
-          c1 = function (e) {
+          cX = (cY[0], cY[1]),
+          cQ = function (e) {
             var t = e.titleId,
-              r = c0(cQ),
+              r = cX(cJ),
               n = "`"
                 .concat(r.contentName, "` requires a `")
                 .concat(
@@ -19576,10 +19558,10 @@
               null
             );
           },
-          c2 = function (e) {
+          cZ = function (e) {
             var t = e.contentRef,
               r = e.descriptionId,
-              n = c0("DialogDescriptionWarning"),
+              n = cX("DialogDescriptionWarning"),
               o = "Warning: Missing `Description` or `aria-describedby={undefined}` for {".concat(
                 n.contentName,
                 "}."
@@ -19596,12 +19578,12 @@
               null
             );
           };
-        function c3(e, t) {
+        function c0(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function c5(e) {
+        function c1(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -19626,7 +19608,7 @@
           }
           return e;
         }
-        function c6(e, t) {
+        function c2(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -19644,7 +19626,7 @@
             e
           );
         }
-        function c8(e, t) {
+        function c3(e, t) {
           if (null == e) return {};
           var r,
             n,
@@ -19681,10 +19663,10 @@
                   (a[n] = e[n]));
           return a;
         }
-        function c4(e) {
+        function c5(e) {
           return (
             (function (e) {
-              if (Array.isArray(e)) return c3(e);
+              if (Array.isArray(e)) return c0(e);
             })(e) ||
             (function (e) {
               if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
@@ -19692,7 +19674,7 @@
             })(e) ||
             (function (e) {
               if (e) {
-                if ("string" == typeof e) return c3(e, void 0);
+                if ("string" == typeof e) return c0(e, void 0);
                 var t = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -19700,7 +19682,7 @@
                 )
                   return Array.from(t);
                 if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                  return c3(e, void 0);
+                  return c0(e, void 0);
               }
             })(e) ||
             (function () {
@@ -19710,16 +19692,16 @@
             })()
           );
         }
-        var c7 = Symbol("radix.slottable");
-        function c9(e) {
+        var c6 = Symbol("radix.slottable");
+        function c8(e) {
           return (
             T.isValidElement(e) &&
             "function" == typeof e.type &&
             "__radixId" in e.type &&
-            e.type.__radixId === c7
+            e.type.__radixId === c6
           );
         }
-        function ue(e, t, r) {
+        function c4(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -19732,7 +19714,7 @@
             e
           );
         }
-        function ut(e) {
+        function c7(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -19743,12 +19725,12 @@
                 })
               )),
               n.forEach(function (t) {
-                ue(e, t, r[t]);
+                c4(e, t, r[t]);
               }));
           }
           return e;
         }
-        function ur(e, t) {
+        function c9(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -19766,7 +19748,7 @@
             e
           );
         }
-        var un = [
+        var ue = [
           "a",
           "button",
           "div",
@@ -19794,7 +19776,7 @@
               ((r = o = "Primitive.".concat(t)),
               ((n = T.forwardRef(function (e, t) {
                 var r = e.children,
-                  n = c8(e, ["children"]);
+                  n = c3(e, ["children"]);
                 if (T.isValidElement(r)) {
                   var o,
                     a,
@@ -19819,7 +19801,7 @@
                         ? o.props.ref
                         : o.props.ref || o.ref,
                     s = (function (e, t) {
-                      var r = c5({}, t);
+                      var r = c1({}, t);
                       for (var n in t)
                         !(function (n) {
                           var o = e[n],
@@ -19829,15 +19811,15 @@
                               ? (r[n] = function () {
                                   for (var e = arguments.length, t = Array(e), r = 0; r < e; r++)
                                     t[r] = arguments[r];
-                                  var n = a.apply(void 0, c4(t));
-                                  return (o.apply(void 0, c4(t)), n);
+                                  var n = a.apply(void 0, c5(t));
+                                  return (o.apply(void 0, c5(t)), n);
                                 })
                               : o && (r[n] = o)
                             : "style" === n
-                              ? (r[n] = c5({}, o, a))
+                              ? (r[n] = c1({}, o, a))
                               : "className" === n && (r[n] = [o, a].filter(Boolean).join(" "));
                         })(n);
-                      return c5({}, e, r);
+                      return c1({}, e, r);
                     })(n, r.props);
                   return (
                     r.type !== T.Fragment && (s.ref = t ? eG(t, u) : u),
@@ -19849,9 +19831,9 @@
               (a = n),
               ((i = T.forwardRef(function (e, t) {
                 var r = e.children,
-                  n = c8(e, ["children"]),
+                  n = c3(e, ["children"]),
                   o = T.Children.toArray(r),
-                  i = o.find(c9);
+                  i = o.find(c8);
                 if (i) {
                   var l = i.props.children,
                     c = o.map(function (e) {
@@ -19865,13 +19847,13 @@
                     });
                   return (0, P.jsx)(
                     a,
-                    c6(c5({}, n), {
+                    c2(c1({}, n), {
                       ref: t,
                       children: T.isValidElement(l) ? T.cloneElement(l, void 0, c) : null
                     })
                   );
                 }
-                return (0, P.jsx)(a, c6(c5({}, n), { ref: t, children: r }));
+                return (0, P.jsx)(a, c2(c1({}, n), { ref: t, children: r }));
               })).displayName = "".concat(o, ".Slot")),
               i),
             c = T.forwardRef(function (e, r) {
@@ -19916,11 +19898,69 @@
                 a = n ? l : t;
               return (
                 "u" > typeof window && (window[Symbol.for("radix-ui")] = !0),
-                (0, P.jsx)(a, ur(ut({}, o), { ref: r }))
+                (0, P.jsx)(a, c9(c7({}, o), { ref: r }))
               );
             });
-          return ((c.displayName = "Primitive.".concat(t)), ur(ut({}, e), ue({}, t, c)));
+          return ((c.displayName = "Primitive.".concat(t)), c9(c7({}, e), c4({}, t, c)));
         }, {});
+        function ut(e) {
+          for (var t = 1; t < arguments.length; t++) {
+            var r = null != arguments[t] ? arguments[t] : {},
+              n = Object.keys(r);
+            ("function" == typeof Object.getOwnPropertySymbols &&
+              (n = n.concat(
+                Object.getOwnPropertySymbols(r).filter(function (e) {
+                  return Object.getOwnPropertyDescriptor(r, e).enumerable;
+                })
+              )),
+              n.forEach(function (t) {
+                var n;
+                ((n = r[t]),
+                  t in e
+                    ? Object.defineProperty(e, t, {
+                        value: n,
+                        enumerable: !0,
+                        configurable: !0,
+                        writable: !0
+                      })
+                    : (e[t] = n));
+              }));
+          }
+          return e;
+        }
+        var ur = Object.freeze({
+            position: "absolute",
+            border: 0,
+            width: 1,
+            height: 1,
+            padding: 0,
+            margin: -1,
+            overflow: "hidden",
+            clip: "rect(0, 0, 0, 0)",
+            whiteSpace: "nowrap",
+            wordWrap: "normal"
+          }),
+          un = T.forwardRef(function (e, t) {
+            var r, n;
+            return (0, P.jsx)(
+              ue.span,
+              ((r = ut({}, e)),
+              (n = n = { ref: t, style: ut({}, ur, e.style) }),
+              Object.getOwnPropertyDescriptors
+                ? Object.defineProperties(r, Object.getOwnPropertyDescriptors(n))
+                : (function (e) {
+                    var t = Object.keys(e);
+                    if (Object.getOwnPropertySymbols) {
+                      var r = Object.getOwnPropertySymbols(e);
+                      t.push.apply(t, r);
+                    }
+                    return t;
+                  })(Object(n)).forEach(function (e) {
+                    Object.defineProperty(r, e, Object.getOwnPropertyDescriptor(n, e));
+                  }),
+              r)
+            );
+          });
         function uo(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
@@ -19946,65 +19986,7 @@
           }
           return e;
         }
-        var ua = Object.freeze({
-            position: "absolute",
-            border: 0,
-            width: 1,
-            height: 1,
-            padding: 0,
-            margin: -1,
-            overflow: "hidden",
-            clip: "rect(0, 0, 0, 0)",
-            whiteSpace: "nowrap",
-            wordWrap: "normal"
-          }),
-          ui = T.forwardRef(function (e, t) {
-            var r, n;
-            return (0, P.jsx)(
-              un.span,
-              ((r = uo({}, e)),
-              (n = n = { ref: t, style: uo({}, ua, e.style) }),
-              Object.getOwnPropertyDescriptors
-                ? Object.defineProperties(r, Object.getOwnPropertyDescriptors(n))
-                : (function (e) {
-                    var t = Object.keys(e);
-                    if (Object.getOwnPropertySymbols) {
-                      var r = Object.getOwnPropertySymbols(e);
-                      t.push.apply(t, r);
-                    }
-                    return t;
-                  })(Object(n)).forEach(function (e) {
-                    Object.defineProperty(r, e, Object.getOwnPropertyDescriptor(n, e));
-                  }),
-              r)
-            );
-          });
-        function ul(e) {
-          for (var t = 1; t < arguments.length; t++) {
-            var r = null != arguments[t] ? arguments[t] : {},
-              n = Object.keys(r);
-            ("function" == typeof Object.getOwnPropertySymbols &&
-              (n = n.concat(
-                Object.getOwnPropertySymbols(r).filter(function (e) {
-                  return Object.getOwnPropertyDescriptor(r, e).enumerable;
-                })
-              )),
-              n.forEach(function (t) {
-                var n;
-                ((n = r[t]),
-                  t in e
-                    ? Object.defineProperty(e, t, {
-                        value: n,
-                        enumerable: !0,
-                        configurable: !0,
-                        writable: !0
-                      })
-                    : (e[t] = n));
-              }));
-          }
-          return e;
-        }
-        function uc(e, t) {
+        function ua(e, t) {
           if (null == e) return {};
           var r,
             n,
@@ -20041,8 +20023,8 @@
                   (a[n] = e[n]));
           return a;
         }
-        ui.displayName = "VisuallyHidden";
-        var uu = (0, T.createContext)({
+        un.displayName = "VisuallyHidden";
+        var ui = (0, T.createContext)({
             size: "Medium",
             isModal: !0,
             hasCloseAffordance: !1,
@@ -20051,23 +20033,23 @@
             hasDescription: !1,
             type: "Default"
           }),
-          us = function () {
-            var e = (0, T.useContext)(uu);
+          ul = function () {
+            var e = (0, T.useContext)(ui);
             if (!e) throw Error("Dialog components must be used within a Dialog");
             return e;
           },
-          uf = { Small: "padding-x-large", Medium: "padding-x-xlarge", Large: "padding-x-xlarge" },
-          ud = {
+          uc = { Small: "padding-x-large", Medium: "padding-x-xlarge", Large: "padding-x-xlarge" },
+          uu = {
             Small: "padding-top-large",
             Medium: "padding-top-xlarge",
             Large: "padding-top-xlarge"
           },
-          up = {
+          us = {
             Small: "padding-bottom-large",
             Medium: "padding-bottom-xlarge",
             Large: "padding-bottom-xlarge"
           },
-          uy = function (e) {
+          uf = function (e) {
             var t = e.open,
               r = e.onOpenChange,
               n = e.children,
@@ -20111,21 +20093,21 @@
                 [v, t]
               ),
               k().createElement(
-                uu.Provider,
+                ui.Provider,
                 { value: b },
-                k().createElement(cT, { open: t, onOpenChange: r }, n)
+                k().createElement(cE, { open: t, onOpenChange: r }, n)
               )
             );
           };
-        uy.displayName = "Dialog";
-        var um = function (e) {
+        uf.displayName = "Dialog";
+        var ud = function (e) {
           var t = e.children,
             r = e.className,
             n = e.style,
             o = e.overlayClassName,
             a = e.overlayStyle,
             i = e.onOpenAutoFocus,
-            l = uc(e, [
+            l = ua(e, [
               "children",
               "className",
               "style",
@@ -20133,7 +20115,7 @@
               "overlayStyle",
               "onOpenAutoFocus"
             ]),
-            c = us(),
+            c = ul(),
             u = c.size,
             s = c.isModal,
             f = c.hasCloseAffordance,
@@ -20149,14 +20131,14 @@
               r
             );
           return k().createElement(
-            cL,
+            cN,
             null,
             k().createElement(
-              cF,
+              cR,
               { className: y, style: a },
               k().createElement(
-                c_,
-                ul(
+                cV,
+                uo(
                   { className: m, "data-size": u, style: n, onOpenAutoFocus: i },
                   !p && { "aria-describedby": void 0 },
                   l
@@ -20166,9 +20148,9 @@
                     "div",
                     { className: "absolute foundation-web-dialog-close-container" },
                     k().createElement(
-                      cY,
+                      cG,
                       { asChild: !0 },
-                      k().createElement(iQ, {
+                      k().createElement(iJ, {
                         variant: "OverMedia",
                         size: u,
                         isCircular: !0,
@@ -20181,35 +20163,35 @@
             )
           );
         };
-        um.displayName = "DialogContent";
-        var uh = function (e) {
+        ud.displayName = "DialogContent";
+        var up = function (e) {
           var t = e.children,
             r = e.className,
-            n = uc(e, ["children", "className"]),
-            o = us(),
+            n = ua(e, ["children", "className"]),
+            o = ul(),
             a = o.size,
             i = o.hasMarginTop,
             l = o.hasMarginBottom,
-            c = Q(uf[a], i && ud[a], l && up[a], r);
-          return k().createElement("div", ul({ className: c }, n), t);
+            c = Q(uc[a], i && uu[a], l && us[a], r);
+          return k().createElement("div", uo({ className: c }, n), t);
         };
-        uh.displayName = "DialogBody";
-        var uv = function (e) {
+        up.displayName = "DialogBody";
+        var uy = function (e) {
           var t = e.children,
             r = e.className,
             n = e.hidden,
-            o = uc(e, ["children", "className", "hidden"]),
-            a = k().createElement(cG, ul({ className: r }, o), t);
-          return n ? k().createElement(ui, null, a) : a;
+            o = ua(e, ["children", "className", "hidden"]),
+            a = k().createElement(cz, uo({ className: r }, o), t);
+          return n ? k().createElement(un, null, a) : a;
         };
-        uv.displayName = "DialogTitle";
-        var ub = "Continue";
-        function ug(e, t) {
+        uy.displayName = "DialogTitle";
+        var um = "Continue";
+        function uh(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function uw(e) {
+        function uv(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -20234,7 +20216,7 @@
           }
           return e;
         }
-        function uS(e, t) {
+        function ub(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -20252,18 +20234,18 @@
             e
           );
         }
-        var uO = "ReportOutcome",
-          ux = "FragmentLoaded",
-          uP = "ContinueFailed";
-        function uj(e, t, r) {
-          return uS(uw({}, e), {
+        var ug = "ReportOutcome",
+          uw = "FragmentLoaded",
+          uS = "ContinueFailed";
+        function uO(e, t, r) {
+          return ub(uv({}, e), {
             history: t,
             isLoading: !1,
             exited: !0,
             exitResult: { reason: "Error", flowId: e.flowId, outcome: r }
           });
         }
-        function uC(e, t, r, n, o) {
+        function ux(e, t, r, n, o) {
           var a,
             i,
             l,
@@ -20285,19 +20267,19 @@
               flowInputs: null != (c = e.flowInputs) ? c : null == o ? void 0 : o.flowInputs,
               analyticsStrings:
                 ((a = null == o ? void 0 : o.analyticsStrings),
-                null == (i = e.analytics) ? a : null == a ? i : uw({}, a, i)),
+                null == (i = e.analytics) ? a : null == a ? i : uv({}, a, i)),
               isLoading: !1,
               exited: !f,
               exitResult: u
             }
           );
         }
-        function uE(e) {
-          return uC(e, [], e.flowId, e.chosenFlow);
+        function uP(e) {
+          return ux(e, [], e.flowId, e.chosenFlow);
         }
-        function uA(e, t) {
+        function uj(e, t) {
           switch (t.type) {
-            case uO:
+            case ug:
               return (function (e, t) {
                 var r,
                   n = e.currentNodeId;
@@ -20309,7 +20291,7 @@
                     ((r = e.history),
                     (
                       (function (e) {
-                        if (Array.isArray(e)) return ug(e);
+                        if (Array.isArray(e)) return uh(e);
                       })(r) ||
                       (function (e) {
                         if (
@@ -20320,7 +20302,7 @@
                       })(r) ||
                       (function (e) {
                         if (e) {
-                          if ("string" == typeof e) return ug(e, void 0);
+                          if ("string" == typeof e) return uh(e, void 0);
                           var t = Object.prototype.toString.call(e).slice(8, -1);
                           if (
                             ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -20331,7 +20313,7 @@
                             "Arguments" === t ||
                             /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
                           )
-                            return ug(e, void 0);
+                            return uh(e, void 0);
                         }
                       })(r) ||
                       (function () {
@@ -20340,27 +20322,27 @@
                         );
                       })()
                     ).concat([i]));
-                if (null == a) return uj(e, l, t.outcome);
+                if (null == a) return uO(e, l, t.outcome);
                 switch (a.kind) {
                   case "Goto":
                     var c = a.node;
-                    if (null == c || null == e.nodes[c]) return uj(e, l, t.outcome);
-                    return uS(uw({}, e), {
+                    if (null == c || null == e.nodes[c]) return uO(e, l, t.outcome);
+                    return ub(uv({}, e), {
                       currentNodeId: c,
                       history: l,
                       isLoading: !1,
                       exited: !1,
                       exitResult: void 0
                     });
-                  case ub:
-                    return uS(uw({}, e), {
+                  case um:
+                    return ub(uv({}, e), {
                       history: l,
                       isLoading: !0,
                       exited: !1,
                       exitResult: void 0
                     });
                   default:
-                    return uS(uw({}, e), {
+                    return ub(uv({}, e), {
                       history: l,
                       isLoading: !1,
                       exited: !0,
@@ -20368,15 +20350,15 @@
                     });
                 }
               })(e, t);
-            case ux:
+            case uw:
               var r, n, o;
               return (
                 (n = "" !== (r = t.response).flowId ? r.flowId : e.flowId),
                 (o = "" !== r.chosenFlow ? r.chosenFlow : e.chosenFlow),
-                uC(r, e.history, n, o, e)
+                ux(r, e.history, n, o, e)
               );
-            case uP:
-              return uS(uw({}, e), {
+            case uS:
+              return ub(uv({}, e), {
                 isLoading: !1,
                 exited: !0,
                 exitResult: { reason: "Error", flowId: e.flowId }
@@ -20385,16 +20367,16 @@
               return e;
           }
         }
-        function uI(e, t) {
+        function uC(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var uT =
-          ((sE = iU.sendEventWithTarget),
+        var uE =
+          ((sP = iM.sendEventWithTarget),
           function (e, t) {
             var r;
-            sE(
+            sP(
               e,
               "ampV2Wizard",
               ((r = {}),
@@ -20435,7 +20417,7 @@
                       })(e) ||
                       (function (e) {
                         if (e) {
-                          if ("string" == typeof e) return uI(e, 2);
+                          if ("string" == typeof e) return uC(e, 2);
                           var t = Object.prototype.toString.call(e).slice(8, -1);
                           if (
                             ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -20446,7 +20428,7 @@
                             "Arguments" === t ||
                             /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
                           )
-                            return uI(e, 2);
+                            return uC(e, 2);
                         }
                       })(e) ||
                       (function () {
@@ -20462,12 +20444,12 @@
               r)
             );
           });
-        function uk(e, t) {
+        function uA(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function uD(e) {
+        function uI(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -20492,7 +20474,7 @@
           }
           return e;
         }
-        function uN(e, t) {
+        function uT(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -20510,9 +20492,9 @@
             e
           );
         }
-        function uM(e, t) {
+        function uk(e, t) {
           if (e) {
-            if ("string" == typeof e) return uk(e, t);
+            if ("string" == typeof e) return uA(e, t);
             var r = Object.prototype.toString.call(e).slice(8, -1);
             if (
               ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -20520,10 +20502,10 @@
             )
               return Array.from(r);
             if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-              return uk(e, t);
+              return uA(e, t);
           }
         }
-        function uR(e, t, r) {
+        function uD(e, t, r) {
           var n = e.currentNodeId,
             o = null != n ? e.nodes[n] : void 0;
           return {
@@ -20535,20 +20517,20 @@
             nodeType: null == o ? void 0 : o.type
           };
         }
-        function uL(e) {
+        function uN(e) {
           var t = e.children;
-          return (0, P.jsx)(uy, {
+          return (0, P.jsx)(uf, {
             open: !0,
             isModal: !0,
             size: "Medium",
             type: "Default",
             hasCloseAffordance: !1,
-            children: (0, P.jsx)(um, {
-              children: (0, P.jsx)(uh, { className: "gap-large flex flex-col", children: t })
+            children: (0, P.jsx)(ud, {
+              children: (0, P.jsx)(up, { className: "gap-large flex flex-col", children: t })
             })
           });
         }
-        function uU(e) {
+        function uM(e) {
           var t,
             r,
             n,
@@ -20574,7 +20556,7 @@
             x,
             j,
             C,
-            E = null != (j = e.registry) ? j : iq,
+            E = null != (j = e.registry) ? j : i_,
             A = null != (C = e.config) ? C : {},
             I =
               ((n = (t = {
@@ -20591,11 +20573,11 @@
               (i = t.surface),
               (l = t.onExit),
               (c = t.onEvent),
-              (u = null != (r = t.sendEvent) ? r : uT),
+              (u = null != (r = t.sendEvent) ? r : uE),
               (d = (f =
                 (function (e) {
                   if (Array.isArray(e)) return e;
-                })((s = (0, T.useReducer)(uA, t.initialFragment, uE))) ||
+                })((s = (0, T.useReducer)(uj, t.initialFragment, uP))) ||
                 (function (e) {
                   var t,
                     r,
@@ -20625,7 +20607,7 @@
                     return o;
                   }
                 })(s) ||
-                uM(s, 2) ||
+                uk(s, 2) ||
                 (function () {
                   throw TypeError(
                     "Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
@@ -20635,10 +20617,10 @@
               ((y = (0, T.useRef)(d)).current = d),
               (m = (0, T.useRef)(!1)),
               (h = d.currentNodeId ? d.nodes[d.currentNodeId] : void 0),
-              (v = uR(d, i, a)),
+              (v = uD(d, i, a)),
               (b = (0, T.useCallback)(
                 function (e, t) {
-                  u(e, uD({}, uR(y.current, i, a), t));
+                  u(e, uI({}, uD(y.current, i, a), t));
                 },
                 [u, i, a]
               )),
@@ -20676,11 +20658,11 @@
                     s = l.currentNodeId;
                   if (null != s && !l.exited && !l.isLoading && !m.current) {
                     var f = null == (r = l.nodes[s]) ? void 0 : r.transitions[e],
-                      d = uR(l, i, a);
+                      d = uD(l, i, a);
                     if (
                       (u(
                         "ampWizardNodeOutcome",
-                        uN(uD({}, d), { outcome: e, transitionKind: null == f ? void 0 : f.kind })
+                        uT(uI({}, d), { outcome: e, transitionKind: null == f ? void 0 : f.kind })
                       ),
                       c &&
                         c({
@@ -20689,14 +20671,14 @@
                           outcome: e,
                           transitionKind: null == f ? void 0 : f.kind
                         }),
-                      p({ type: uO, outcome: e, data: t }),
-                      (null == f ? void 0 : f.kind) === ub)
+                      p({ type: ug, outcome: e, data: t }),
+                      (null == f ? void 0 : f.kind) === um)
                     ) {
                       m.current = !0;
                       var h,
                         v = (
                           (function (e) {
-                            if (Array.isArray(e)) return uk(e);
+                            if (Array.isArray(e)) return uA(e);
                           })((h = l.history)) ||
                           (function (e) {
                             if (
@@ -20705,7 +20687,7 @@
                             )
                               return Array.from(e);
                           })(h) ||
-                          uM(h) ||
+                          uk(h) ||
                           (function () {
                             throw TypeError(
                               "Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."
@@ -20722,15 +20704,15 @@
                         payload: t
                       })
                         .then(function (e) {
-                          ((m.current = !1), p({ type: ux, response: e }));
+                          ((m.current = !1), p({ type: uw, response: e }));
                         })
                         .catch(function (e) {
                           ((m.current = !1),
                             u(
                               "ampWizardContinueFailed",
-                              uN(uD({}, d), { errorMessage: String(e) })
+                              uT(uI({}, d), { errorMessage: String(e) })
                             ),
-                            p({ type: uP, message: String(e) }));
+                            p({ type: uS, message: String(e) }));
                         });
                     }
                   }
@@ -20768,7 +20750,7 @@
           )
             return null;
           if (null == D || null == L)
-            return (0, P.jsx)(uL, {
+            return (0, P.jsx)(uN, {
               children: (0, P.jsx)(eo, {
                 ariaLabel: "Loading",
                 variant: "Indeterminate",
@@ -20807,15 +20789,15 @@
                   : null
               ]
             });
-          return !0 === L.ownsOverlay ? F : (0, P.jsx)(uL, { children: F });
+          return !0 === L.ownsOverlay ? F : (0, P.jsx)(uN, { children: F });
         }
-        var uF = "AmpV2Wizard.StartWizard";
-        function uV(e, t) {
+        var uR = "AmpV2Wizard.StartWizard";
+        function uL(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function uW() {
+        function uU() {
           var e,
             t,
             r,
@@ -20854,7 +20836,7 @@
               })(t) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return uV(e, 2);
+                  if ("string" == typeof e) return uL(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -20862,7 +20844,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return uV(e, 2);
+                    return uL(e, 2);
                 }
               })(t) ||
               (function () {
@@ -20886,7 +20868,7 @@
               i.current
                 ? s.closeCallback({ reason: "Error", flowId: "" })
                 : ((i.current = !0),
-                  (null != (u = s.api) ? u : iJ)
+                  (null != (u = s.api) ? u : iH)
                     .entrypoint(
                       ((t = s.target),
                       (r = s.flow),
@@ -20900,7 +20882,7 @@
                         client: {
                           clientCapabilities: (function () {
                             var e =
-                              arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : iq;
+                              arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : i_;
                             return Object.keys(e).sort();
                           })(o)
                         },
@@ -20920,9 +20902,9 @@
                     }));
             };
             return (
-              window.addEventListener(uF, e),
+              window.addEventListener(uR, e),
               function () {
-                window.removeEventListener(uF, e);
+                window.removeEventListener(uR, e);
               }
             );
           }, []);
@@ -20938,28 +20920,28 @@
           if (null == o) return null;
           var u = o.detail,
             s = o.fragment;
-          return (0, P.jsx)(uU, {
+          return (0, P.jsx)(uM, {
             initialFragment: s,
             target: u.target,
             rootFlow: null != (e = u.flow) && "" !== e.name ? e.name : void 0,
             surface: u.surface,
-            api: null != (r = u.api) ? r : iJ,
+            api: null != (r = u.api) ? r : iH,
             config: u.config,
             registry: u.registry,
             onExit: c,
             onEvent: u.onEvent
           });
         }
-        var uK = window.ReactStyleGuide;
-        function u_(e, t) {
+        var uF = window.ReactStyleGuide;
+        function uV(e, t) {
           return null != t && "u" > typeof Symbol && t[Symbol.hasInstance]
             ? !!t[Symbol.hasInstance](e)
             : e instanceof t;
         }
-        function uB(e) {
+        function uW(e) {
           return e && "u" > typeof Symbol && e.constructor === Symbol ? "symbol" : typeof e;
         }
-        function uz(e) {
+        function uK(e) {
           for (var t = arguments.length, r = Array(t > 1 ? t - 1 : 0), n = 1; n < t; n++)
             r[n - 1] = arguments[n];
           throw Error(
@@ -20976,65 +20958,65 @@
               ". Find the full error at: https://bit.ly/3cXEKWf"
           );
         }
-        function uq(e) {
-          return !!e && !!e[sV];
+        function u_(e) {
+          return !!e && !!e[sL];
         }
-        function uH(e) {
+        function uB(e) {
           var t;
           return (
             !!e &&
             ((function (e) {
-              if (!e || "object" != (void 0 === e ? "undefined" : uB(e))) return !1;
+              if (!e || "object" != (void 0 === e ? "undefined" : uW(e))) return !1;
               var t = Object.getPrototypeOf(e);
               if (null === t) return !0;
               var r = Object.hasOwnProperty.call(t, "constructor") && t.constructor;
-              return r === Object || ("function" == typeof r && Function.toString.call(r) === sW);
+              return r === Object || ("function" == typeof r && Function.toString.call(r) === sU);
             })(e) ||
               Array.isArray(e) ||
-              !!e[sF] ||
-              !!(null == (t = e.constructor) ? void 0 : t[sF]) ||
-              uQ(e) ||
-              uZ(e))
+              !!e[sR] ||
+              !!(null == (t = e.constructor) ? void 0 : t[sR]) ||
+              uJ(e) ||
+              uY(e))
           );
         }
-        function uG(e, t, r) {
+        function uz(e, t, r) {
           (void 0 === r && (r = !1),
-            0 === u$(e)
-              ? (r ? Object.keys : sK)(e).forEach(function (n) {
-                  (r && "symbol" == (void 0 === n ? "undefined" : uB(n))) || t(n, e[n], e);
+            0 === uq(e)
+              ? (r ? Object.keys : sF)(e).forEach(function (n) {
+                  (r && "symbol" == (void 0 === n ? "undefined" : uW(n))) || t(n, e[n], e);
                 })
               : e.forEach(function (r, n) {
                   return t(n, r, e);
                 }));
         }
-        function u$(e) {
-          var t = e[sV];
-          return t ? (t.i > 3 ? t.i - 4 : t.i) : Array.isArray(e) ? 1 : uQ(e) ? 2 : 3 * !!uZ(e);
+        function uq(e) {
+          var t = e[sL];
+          return t ? (t.i > 3 ? t.i - 4 : t.i) : Array.isArray(e) ? 1 : uJ(e) ? 2 : 3 * !!uY(e);
         }
-        function uJ(e, t) {
-          return 2 === u$(e) ? e.has(t) : Object.prototype.hasOwnProperty.call(e, t);
+        function uH(e, t) {
+          return 2 === uq(e) ? e.has(t) : Object.prototype.hasOwnProperty.call(e, t);
         }
-        function uY(e, t, r) {
-          var n = u$(e);
+        function uG(e, t, r) {
+          var n = uq(e);
           2 === n ? e.set(t, r) : 3 === n ? e.add(r) : (e[t] = r);
         }
-        function uX(e, t) {
+        function u$(e, t) {
           return e === t ? 0 !== e || 1 / e == 1 / t : e != e && t != t;
         }
-        function uQ(e) {
-          return sM && u_(e, Map);
+        function uJ(e) {
+          return sk && uV(e, Map);
         }
-        function uZ(e) {
-          return sR && u_(e, Set);
+        function uY(e) {
+          return sD && uV(e, Set);
         }
-        function u0(e) {
+        function uX(e) {
           return e.o || e.t;
         }
-        function u1(e) {
+        function uQ(e) {
           if (Array.isArray(e)) return Array.prototype.slice.call(e);
-          var t = s_(e);
-          delete t[sV];
-          for (var r = sK(t), n = 0; n < r.length; n++) {
+          var t = sV(e);
+          delete t[sL];
+          for (var r = sF(t), n = 0; n < r.length; n++) {
             var o = r[n],
               a = t[o];
             (!1 === a.writable && ((a.writable = !0), (a.configurable = !0)),
@@ -21043,118 +21025,118 @@
           }
           return Object.create(Object.getPrototypeOf(e), t);
         }
-        function u2(e, t) {
+        function uZ(e, t) {
           return (
             void 0 === t && (t = !1),
-            u5(e) ||
-              uq(e) ||
-              !uH(e) ||
-              (u$(e) > 1 && (e.set = e.add = e.clear = e.delete = u3),
+            u1(e) ||
+              u_(e) ||
+              !uB(e) ||
+              (uq(e) > 1 && (e.set = e.add = e.clear = e.delete = u0),
               Object.freeze(e),
               t &&
-                uG(
+                uz(
                   e,
                   function (e, t) {
-                    return u2(t, !0);
+                    return uZ(t, !0);
                   },
                   !0
                 )),
             e
           );
         }
-        function u3() {
-          uz(2);
+        function u0() {
+          uK(2);
         }
-        function u5(e) {
+        function u1(e) {
           return (
-            null == e || "object" != (void 0 === e ? "undefined" : uB(e)) || Object.isFrozen(e)
+            null == e || "object" != (void 0 === e ? "undefined" : uW(e)) || Object.isFrozen(e)
           );
         }
-        function u6(e) {
-          var t = sB[e];
-          return (t || uz(18, e), t);
+        function u2(e) {
+          var t = sW[e];
+          return (t || uK(18, e), t);
         }
-        function u8(e, t) {
-          t && (u6("Patches"), (e.u = []), (e.s = []), (e.v = t));
+        function u3(e, t) {
+          t && (u2("Patches"), (e.u = []), (e.s = []), (e.v = t));
+        }
+        function u5(e) {
+          (u6(e), e.p.forEach(u4), (e.p = null));
+        }
+        function u6(e) {
+          e === sI && (sI = e.l);
+        }
+        function u8(e) {
+          return (sI = { p: [], l: sI, h: e, m: !0, _: 0 });
         }
         function u4(e) {
-          (u7(e), e.p.forEach(se), (e.p = null));
-        }
-        function u7(e) {
-          e === sD && (sD = e.l);
-        }
-        function u9(e) {
-          return (sD = { p: [], l: sD, h: e, m: !0, _: 0 });
-        }
-        function se(e) {
-          var t = e[sV];
+          var t = e[sL];
           0 === t.i || 1 === t.i ? t.j() : (t.g = !0);
         }
-        function st(e, t) {
+        function u7(e, t) {
           t._ = t.p.length;
           var r = t.p[0],
             n = void 0 !== e && e !== r;
           return (
-            t.h.O || u6("ES5").S(t, e, n),
+            t.h.O || u2("ES5").S(t, e, n),
             n
-              ? (r[sV].P && (u4(t), uz(4)),
-                uH(e) && ((e = sr(t, e)), t.l || so(t, e)),
-                t.u && u6("Patches").M(r[sV].t, e, t.u, t.s))
-              : (e = sr(t, r, [])),
-            u4(t),
+              ? (r[sL].P && (u5(t), uK(4)),
+                uB(e) && ((e = u9(t, e)), t.l || st(t, e)),
+                t.u && u2("Patches").M(r[sL].t, e, t.u, t.s))
+              : (e = u9(t, r, [])),
+            u5(t),
             t.u && t.v(t.u, t.s),
-            e !== sU ? e : void 0
+            e !== sM ? e : void 0
           );
         }
-        function sr(e, t, r) {
-          if (u5(t)) return t;
-          var n = t[sV];
+        function u9(e, t, r) {
+          if (u1(t)) return t;
+          var n = t[sL];
           if (!n)
             return (
-              uG(
+              uz(
                 t,
                 function (o, a) {
-                  return sn(e, n, t, o, a, r);
+                  return se(e, n, t, o, a, r);
                 },
                 !0
               ),
               t
             );
           if (n.A !== e) return t;
-          if (!n.P) return (so(e, n.t, !0), n.t);
+          if (!n.P) return (st(e, n.t, !0), n.t);
           if (!n.I) {
             ((n.I = !0), n.A._--);
-            var o = 4 === n.i || 5 === n.i ? (n.o = u1(n.k)) : n.o,
+            var o = 4 === n.i || 5 === n.i ? (n.o = uQ(n.k)) : n.o,
               a = o,
               i = !1;
             (3 === n.i && ((a = new Set(o)), o.clear(), (i = !0)),
-              uG(a, function (t, a) {
-                return sn(e, n, o, t, a, r, i);
+              uz(a, function (t, a) {
+                return se(e, n, o, t, a, r, i);
               }),
-              so(e, o, !1),
-              r && e.u && u6("Patches").N(n, r, e.u, e.s));
+              st(e, o, !1),
+              r && e.u && u2("Patches").N(n, r, e.u, e.s));
           }
           return n.o;
         }
-        function sn(e, t, r, n, o, a, i) {
-          if (uq(o)) {
-            var l = sr(e, o, a && t && 3 !== t.i && !uJ(t.R, n) ? a.concat(n) : void 0);
-            if ((uY(r, n, l), !uq(l))) return;
+        function se(e, t, r, n, o, a, i) {
+          if (u_(o)) {
+            var l = u9(e, o, a && t && 3 !== t.i && !uH(t.R, n) ? a.concat(n) : void 0);
+            if ((uG(r, n, l), !u_(l))) return;
             e.m = !1;
           } else i && r.add(o);
-          if (uH(o) && !u5(o)) {
+          if (uB(o) && !u1(o)) {
             if (!e.h.D && e._ < 1) return;
-            (sr(e, o), (t && t.A.l) || so(e, o));
+            (u9(e, o), (t && t.A.l) || st(e, o));
           }
         }
-        function so(e, t, r) {
-          (void 0 === r && (r = !1), !e.l && e.h.D && e.m && u2(t, r));
+        function st(e, t, r) {
+          (void 0 === r && (r = !1), !e.l && e.h.D && e.m && uZ(t, r));
         }
-        function sa(e, t) {
-          var r = e[sV];
-          return (r ? u0(r) : e)[t];
+        function sr(e, t) {
+          var r = e[sL];
+          return (r ? uX(r) : e)[t];
         }
-        function si(e, t) {
+        function sn(e, t) {
           if (t in e)
             for (var r = Object.getPrototypeOf(e); r;) {
               var n = Object.getOwnPropertyDescriptor(r, t);
@@ -21162,13 +21144,13 @@
               r = Object.getPrototypeOf(r);
             }
         }
-        function sl(e) {
-          e.P || ((e.P = !0), e.l && sl(e.l));
+        function so(e) {
+          e.P || ((e.P = !0), e.l && so(e.l));
         }
-        function sc(e) {
-          e.o || (e.o = u1(e.t));
+        function sa(e) {
+          e.o || (e.o = uQ(e.t));
         }
-        function su(e, t, r) {
+        function si(e, t, r) {
           var n,
             o,
             a,
@@ -21176,15 +21158,15 @@
             l,
             c,
             u,
-            s = uQ(t)
-              ? u6("MapSet").F(t, r)
-              : uZ(t)
-                ? u6("MapSet").T(t, r)
+            s = uJ(t)
+              ? u2("MapSet").F(t, r)
+              : uY(t)
+                ? u2("MapSet").T(t, r)
                 : e.O
                   ? ((a = o =
                       {
                         i: +!!(n = Array.isArray(t)),
-                        A: r ? r.A : sD,
+                        A: r ? r.A : sI,
                         P: !1,
                         I: !1,
                         R: {},
@@ -21195,25 +21177,28 @@
                         j: null,
                         C: !1
                       }),
-                    (i = sz),
-                    n && ((a = [o]), (i = sq)),
+                    (i = sK),
+                    n && ((a = [o]), (i = s_)),
                     (c = (l = Proxy.revocable(a, i)).revoke),
                     (o.k = u = l.proxy),
                     (o.j = c),
                     u)
-                  : u6("ES5").J(t, r);
-          return ((r ? r.A : sD).p.push(s), s);
+                  : u2("ES5").J(t, r);
+          return ((r ? r.A : sI).p.push(s), s);
         }
-        function ss(e, t) {
+        function sl(e, t) {
           switch (t) {
             case 2:
               return new Map(e);
             case 3:
               return Array.from(e);
           }
-          return u1(e);
+          return uQ(e);
         }
-        var sf,
+        var sc,
+          su,
+          ss,
+          sf,
           sd,
           sp,
           sy,
@@ -21232,18 +21217,15 @@
           sE,
           sA,
           sI,
-          sT,
-          sk,
-          sD,
-          sN = "u" > typeof Symbol && "symbol" == uB(Symbol("x")),
-          sM = "u" > typeof Map,
-          sR = "u" > typeof Set,
-          sL = "u" > typeof Proxy && void 0 !== Proxy.revocable && "u" > typeof Reflect,
-          sU = sN ? Symbol.for("immer-nothing") : (((sk = {})["immer-nothing"] = !0), sk),
-          sF = sN ? Symbol.for("immer-draftable") : "__$immer_draftable",
-          sV = sN ? Symbol.for("immer-state") : "__$immer_state",
-          sW = "" + Object.prototype.constructor,
-          sK =
+          sT = "u" > typeof Symbol && "symbol" == uW(Symbol("x")),
+          sk = "u" > typeof Map,
+          sD = "u" > typeof Set,
+          sN = "u" > typeof Proxy && void 0 !== Proxy.revocable && "u" > typeof Reflect,
+          sM = sT ? Symbol.for("immer-nothing") : (((sA = {})["immer-nothing"] = !0), sA),
+          sR = sT ? Symbol.for("immer-draftable") : "__$immer_draftable",
+          sL = sT ? Symbol.for("immer-state") : "__$immer_state",
+          sU = "" + Object.prototype.constructor,
+          sF =
             "u" > typeof Reflect && Reflect.ownKeys
               ? Reflect.ownKeys
               : void 0 !== Object.getOwnPropertySymbols
@@ -21251,26 +21233,26 @@
                     return Object.getOwnPropertyNames(e).concat(Object.getOwnPropertySymbols(e));
                   }
                 : Object.getOwnPropertyNames,
-          s_ =
+          sV =
             Object.getOwnPropertyDescriptors ||
             function (e) {
               var t = {};
               return (
-                sK(e).forEach(function (r) {
+                sF(e).forEach(function (r) {
                   t[r] = Object.getOwnPropertyDescriptor(e, r);
                 }),
                 t
               );
             },
-          sB = {},
-          sz = {
+          sW = {},
+          sK = {
             get: function (e, t) {
-              if (t === sV) return e;
+              if (t === sL) return e;
               var r,
                 n,
-                o = u0(e);
-              if (!uJ(o, t))
-                return (n = si(o, t))
+                o = uX(e);
+              if (!uH(o, t))
+                return (n = sn(o, t))
                   ? "value" in n
                     ? n.value
                     : null == (r = n.get)
@@ -21278,23 +21260,23 @@
                       : r.call(e.k)
                   : void 0;
               var a = o[t];
-              return e.I || !uH(a) ? a : a === sa(e.t, t) ? (sc(e), (e.o[t] = su(e.A.h, a, e))) : a;
+              return e.I || !uB(a) ? a : a === sr(e.t, t) ? (sa(e), (e.o[t] = si(e.A.h, a, e))) : a;
             },
             has: function (e, t) {
-              return t in u0(e);
+              return t in uX(e);
             },
             ownKeys: function (e) {
-              return Reflect.ownKeys(u0(e));
+              return Reflect.ownKeys(uX(e));
             },
             set: function (e, t, r) {
-              var n = si(u0(e), t);
+              var n = sn(uX(e), t);
               if (null == n ? void 0 : n.set) return (n.set.call(e.k, r), !0);
               if (!e.P) {
-                var o = sa(u0(e), t),
-                  a = null == o ? void 0 : o[sV];
+                var o = sr(uX(e), t),
+                  a = null == o ? void 0 : o[sL];
                 if (a && a.t === r) return ((e.o[t] = r), (e.R[t] = !1), !0);
-                if (uX(r, o) && (void 0 !== r || uJ(e.t, t))) return !0;
-                (sc(e), sl(e));
+                if (u$(r, o) && (void 0 !== r || uH(e.t, t))) return !0;
+                (sa(e), so(e));
               }
               return (
                 (e.o[t] === r && (void 0 !== r || t in e.o)) ||
@@ -21305,13 +21287,13 @@
             },
             deleteProperty: function (e, t) {
               return (
-                void 0 !== sa(e.t, t) || t in e.t ? ((e.R[t] = !1), sc(e), sl(e)) : delete e.R[t],
+                void 0 !== sr(e.t, t) || t in e.t ? ((e.R[t] = !1), sa(e), so(e)) : delete e.R[t],
                 e.o && delete e.o[t],
                 !0
               );
             },
             getOwnPropertyDescriptor: function (e, t) {
-              var r = u0(e),
+              var r = uX(e),
                 n = Reflect.getOwnPropertyDescriptor(r, t);
               return n
                 ? {
@@ -21323,31 +21305,31 @@
                 : n;
             },
             defineProperty: function () {
-              uz(11);
+              uK(11);
             },
             getPrototypeOf: function (e) {
               return Object.getPrototypeOf(e.t);
             },
             setPrototypeOf: function () {
-              uz(12);
+              uK(12);
             }
           },
-          sq = {};
-        (uG(sz, function (e, t) {
-          sq[e] = function () {
+          s_ = {};
+        (uz(sK, function (e, t) {
+          s_[e] = function () {
             return ((arguments[0] = arguments[0][0]), t.apply(this, arguments));
           };
         }),
-          (sq.deleteProperty = function (e, t) {
-            return sq.set.call(this, e, t, void 0);
+          (s_.deleteProperty = function (e, t) {
+            return s_.set.call(this, e, t, void 0);
           }),
-          (sq.set = function (e, t, r) {
-            return sz.set.call(this, e[0], t, r, e[0]);
+          (s_.set = function (e, t, r) {
+            return sK.set.call(this, e[0], t, r, e[0]);
           }));
-        var sH = new ((function () {
+        var sB = new ((function () {
             function e(e) {
               var t = this;
-              ((this.O = sL),
+              ((this.O = sN),
                 (this.D = !0),
                 (this.produce = function (e, r, n) {
                   if ("function" == typeof e && "function" != typeof r) {
@@ -21372,43 +21354,43 @@
                     );
                   }
                   if (
-                    ("function" != typeof r && uz(6),
-                    void 0 !== n && "function" != typeof n && uz(7),
-                    uH(e))
+                    ("function" != typeof r && uK(6),
+                    void 0 !== n && "function" != typeof n && uK(7),
+                    uB(e))
                   ) {
-                    var i = u9(t),
-                      l = su(t, e, void 0),
+                    var i = u8(t),
+                      l = si(t, e, void 0),
                       c = !0;
                     try {
                       ((o = r(l)), (c = !1));
                     } finally {
-                      c ? u4(i) : u7(i);
+                      c ? u5(i) : u6(i);
                     }
-                    return "u" > typeof Promise && u_(o, Promise)
+                    return "u" > typeof Promise && uV(o, Promise)
                       ? o.then(
                           function (e) {
-                            return (u8(i, n), st(e, i));
+                            return (u3(i, n), u7(e, i));
                           },
                           function (e) {
-                            throw (u4(i), e);
+                            throw (u5(i), e);
                           }
                         )
-                      : (u8(i, n), st(o, i));
+                      : (u3(i, n), u7(o, i));
                   }
-                  if (!e || "object" != (void 0 === e ? "undefined" : uB(e))) {
+                  if (!e || "object" != (void 0 === e ? "undefined" : uW(e))) {
                     if (
                       (void 0 === (o = r(e)) && (o = e),
-                      o === sU && (o = void 0),
-                      t.D && u2(o, !0),
+                      o === sM && (o = void 0),
+                      t.D && uZ(o, !0),
                       n)
                     ) {
                       var u = [],
                         s = [];
-                      (u6("Patches").M(e, o, u, s), n(u, s));
+                      (u2("Patches").M(e, o, u, s), n(u, s));
                     }
                     return o;
                   }
-                  uz(21, e);
+                  uK(21, e);
                 }),
                 (this.produceWithPatches = function (e, r) {
                   if ("function" == typeof e)
@@ -21428,7 +21410,7 @@
                     a = t.produce(e, r, function (e, t) {
                       ((n = e), (o = t));
                     });
-                  return "u" > typeof Promise && u_(a, Promise)
+                  return "u" > typeof Promise && uV(a, Promise)
                     ? a.then(function (e) {
                         return [e, n, o];
                       })
@@ -21442,41 +21424,41 @@
             var t = e.prototype;
             return (
               (t.createDraft = function (e) {
-                (uH(e) || uz(8),
-                  uq(e) &&
-                    (uq((t = e)) || uz(22, t),
+                (uB(e) || uK(8),
+                  u_(e) &&
+                    (u_((t = e)) || uK(22, t),
                     (e = (function e(t) {
-                      if (!uH(t)) return t;
+                      if (!uB(t)) return t;
                       var r,
-                        n = t[sV],
-                        o = u$(t);
+                        n = t[sL],
+                        o = uq(t);
                       if (n) {
-                        if (!n.P && (n.i < 4 || !u6("ES5").K(n))) return n.t;
-                        ((n.I = !0), (r = ss(t, o)), (n.I = !1));
-                      } else r = ss(t, o);
+                        if (!n.P && (n.i < 4 || !u2("ES5").K(n))) return n.t;
+                        ((n.I = !0), (r = sl(t, o)), (n.I = !1));
+                      } else r = sl(t, o);
                       return (
-                        uG(r, function (t, o) {
+                        uz(r, function (t, o) {
                           var a;
-                          (n && ((a = n.t), (2 === u$(a) ? a.get(t) : a[t]) === o)) ||
-                            uY(r, t, e(o));
+                          (n && ((a = n.t), (2 === uq(a) ? a.get(t) : a[t]) === o)) ||
+                            uG(r, t, e(o));
                         }),
                         3 === o ? new Set(r) : r
                       );
                     })(t))));
                 var t,
-                  r = u9(this),
-                  n = su(this, e, void 0);
-                return ((n[sV].C = !0), u7(r), n);
+                  r = u8(this),
+                  n = si(this, e, void 0);
+                return ((n[sL].C = !0), u6(r), n);
               }),
               (t.finishDraft = function (e, t) {
-                var r = (e && e[sV]).A;
-                return (u8(r, t), st(void 0, r));
+                var r = (e && e[sL]).A;
+                return (u3(r, t), u7(void 0, r));
               }),
               (t.setAutoFreeze = function (e) {
                 this.D = e;
               }),
               (t.setUseProxies = function (e) {
-                (e && !sL && uz(20), (this.O = e));
+                (e && !sN && uK(20), (this.O = e));
               }),
               (t.applyPatches = function (e, t) {
                 for (r = t.length - 1; r >= 0; r--) {
@@ -21488,8 +21470,8 @@
                   }
                 }
                 r > -1 && (t = t.slice(r + 1));
-                var o = u6("Patches").$;
-                return uq(e)
+                var o = u2("Patches").$;
+                return u_(e)
                   ? o(e, t)
                   : this.produce(e, function (e) {
                       return o(e, t);
@@ -21498,9 +21480,9 @@
               e
             );
           })())(),
-          sG = sH.produce;
-        function s$(e) {
-          return (s$ =
+          sz = sB.produce;
+        function sq(e) {
+          return (sq =
             "function" == typeof Symbol && "symbol" == typeof Symbol.iterator
               ? function (e) {
                   return typeof e;
@@ -21514,7 +21496,7 @@
                     : typeof e;
                 })(e);
         }
-        function sJ(e, t) {
+        function sH(e, t) {
           var r = Object.keys(e);
           if (Object.getOwnPropertySymbols) {
             var n = Object.getOwnPropertySymbols(e);
@@ -21526,24 +21508,24 @@
           }
           return r;
         }
-        function sY(e) {
+        function sG(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {};
             t % 2
-              ? sJ(Object(r), !0).forEach(function (t) {
+              ? sH(Object(r), !0).forEach(function (t) {
                   !(function (e, t, r) {
                     var n;
                     ((n = (function (e, t) {
-                      if ("object" != s$(e) || !e) return e;
+                      if ("object" != sq(e) || !e) return e;
                       var r = e[Symbol.toPrimitive];
                       if (void 0 !== r) {
                         var n = r.call(e, t || "default");
-                        if ("object" != s$(n)) return n;
+                        if ("object" != sq(n)) return n;
                         throw TypeError("@@toPrimitive must return a primitive value.");
                       }
                       return ("string" === t ? String : Number)(e);
                     })(t, "string")),
-                    (t = "symbol" == s$(n) ? n : n + "") in e)
+                    (t = "symbol" == sq(n) ? n : n + "") in e)
                       ? Object.defineProperty(e, t, {
                           value: r,
                           enumerable: !0,
@@ -21555,16 +21537,16 @@
                 })
               : Object.getOwnPropertyDescriptors
                 ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
-                : sJ(Object(r)).forEach(function (t) {
+                : sH(Object(r)).forEach(function (t) {
                     Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
                   });
           }
           return e;
         }
-        function sX(e) {
+        function s$(e) {
           return e && "u" > typeof Symbol && e.constructor === Symbol ? "symbol" : typeof e;
         }
-        function sQ(e) {
+        function sJ(e) {
           return (
             "Minified Redux error #" +
             e +
@@ -21573,24 +21555,24 @@
             " for the full message or use the non-minified dev environment for full errors. "
           );
         }
-        (sH.produceWithPatches.bind(sH),
-          sH.setAutoFreeze.bind(sH),
-          sH.setUseProxies.bind(sH),
-          sH.applyPatches.bind(sH),
-          sH.createDraft.bind(sH),
-          sH.finishDraft.bind(sH));
-        var sZ = ("function" == typeof Symbol && Symbol.observable) || "@@observable",
-          s0 = function () {
+        (sB.produceWithPatches.bind(sB),
+          sB.setAutoFreeze.bind(sB),
+          sB.setUseProxies.bind(sB),
+          sB.applyPatches.bind(sB),
+          sB.createDraft.bind(sB),
+          sB.finishDraft.bind(sB));
+        var sY = ("function" == typeof Symbol && Symbol.observable) || "@@observable",
+          sX = function () {
             return Math.random().toString(36).substring(7).split("").join(".");
           },
-          s1 = {
-            INIT: "@@redux/INIT" + s0(),
-            REPLACE: "@@redux/REPLACE" + s0(),
+          sQ = {
+            INIT: "@@redux/INIT" + sX(),
+            REPLACE: "@@redux/REPLACE" + sX(),
             PROBE_UNKNOWN_ACTION: function () {
-              return "@@redux/PROBE_UNKNOWN_ACTION" + s0();
+              return "@@redux/PROBE_UNKNOWN_ACTION" + sX();
             }
           };
-        function s2() {
+        function sZ() {
           for (var e = arguments.length, t = Array(e), r = 0; r < e; r++) t[r] = arguments[r];
           return 0 === t.length
             ? function (e) {
@@ -21604,13 +21586,13 @@
                   };
                 });
         }
-        function s3() {
+        function s0() {
           for (var e = arguments.length, t = Array(e), r = 0; r < e; r++) t[r] = arguments[r];
           return function (e) {
             return function () {
               var r = e.apply(void 0, arguments),
                 n = function () {
-                  throw Error(sQ(15));
+                  throw Error(sJ(15));
                 },
                 o = {
                   getState: r.getState,
@@ -21621,11 +21603,11 @@
                 a = t.map(function (e) {
                   return e(o);
                 });
-              return ((n = s2.apply(void 0, a)(r.dispatch)), sY(sY({}, r), {}, { dispatch: n }));
+              return ((n = sZ.apply(void 0, a)(r.dispatch)), sG(sG({}, r), {}, { dispatch: n }));
             };
           };
         }
-        function s5(e) {
+        function s1(e) {
           return function (t) {
             var r = t.dispatch,
               n = t.getState;
@@ -21636,21 +21618,21 @@
             };
           };
         }
-        var s6 = s5();
-        function s8(e, t) {
+        var s2 = s1();
+        function s3(e, t) {
           return null != t && "u" > typeof Symbol && t[Symbol.hasInstance]
             ? !!t[Symbol.hasInstance](e)
             : e instanceof t;
         }
-        function s4(e) {
+        function s5(e) {
           return e && "u" > typeof Symbol && e.constructor === Symbol ? "symbol" : typeof e;
         }
-        ((s6.withExtraArgument = s5), r(6773));
-        var s7 =
+        ((s2.withExtraArgument = s1), r(6773));
+        var s6 =
             ((e = function (t, r) {
               return (e =
                 Object.setPrototypeOf ||
-                (s8({ __proto__: [] }, Array) &&
+                (s3({ __proto__: [] }, Array) &&
                   function (e, t) {
                     e.__proto__ = t;
                   }) ||
@@ -21670,7 +21652,7 @@
                 (t.prototype =
                   null === r ? Object.create(r) : ((n.prototype = r.prototype), new n())));
             }),
-          s9 = function (e, t) {
+          s8 = function (e, t) {
             var r,
               n,
               o,
@@ -21757,48 +21739,48 @@
               };
             }
           },
-          fe = function (e, t) {
+          s4 = function (e, t) {
             for (var r = 0, n = t.length, o = e.length; r < n; r++, o++) e[o] = t[r];
             return e;
           },
-          ft = Object.defineProperty,
-          fr = Object.defineProperties,
-          fn = Object.getOwnPropertyDescriptors,
-          fo = Object.getOwnPropertySymbols,
-          fa = Object.prototype.hasOwnProperty,
-          fi = Object.prototype.propertyIsEnumerable,
-          fl = function (e, t, r) {
+          s7 = Object.defineProperty,
+          s9 = Object.defineProperties,
+          fe = Object.getOwnPropertyDescriptors,
+          ft = Object.getOwnPropertySymbols,
+          fr = Object.prototype.hasOwnProperty,
+          fn = Object.prototype.propertyIsEnumerable,
+          fo = function (e, t, r) {
             return t in e
-              ? ft(e, t, { enumerable: !0, configurable: !0, writable: !0, value: r })
+              ? s7(e, t, { enumerable: !0, configurable: !0, writable: !0, value: r })
               : (e[t] = r);
           },
-          fc = function (e, t) {
-            for (var r in t || (t = {})) fa.call(t, r) && fl(e, r, t[r]);
-            if (fo)
-              for (var n = 0, o = fo(t); n < o.length; n++) {
+          fa = function (e, t) {
+            for (var r in t || (t = {})) fr.call(t, r) && fo(e, r, t[r]);
+            if (ft)
+              for (var n = 0, o = ft(t); n < o.length; n++) {
                 var r = o[n];
-                fi.call(t, r) && fl(e, r, t[r]);
+                fn.call(t, r) && fo(e, r, t[r]);
               }
             return e;
           },
-          fu = function (e, t) {
-            return fr(e, fn(t));
+          fi = function (e, t) {
+            return s9(e, fe(t));
           },
-          fs =
+          fl =
             "u" > typeof window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
               ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
               : function () {
                   if (0 != arguments.length)
-                    return "object" === s4(arguments[0]) ? s2 : s2.apply(null, arguments);
+                    return "object" === s5(arguments[0]) ? sZ : sZ.apply(null, arguments);
                 };
-        function ff(e, t) {
+        function fc(e, t) {
           function r() {
             for (var r = [], n = 0; n < arguments.length; n++) r[n] = arguments[n];
             if (t) {
               var o = t.apply(void 0, r);
               if (!o) throw Error("prepareAction did not return an object");
-              return fc(
-                fc({ type: e, payload: o.payload }, "meta" in o && { meta: o.meta }),
+              return fa(
+                fa({ type: e, payload: o.payload }, "meta" in o && { meta: o.meta }),
                 "error" in o && { error: o.error }
               );
             }
@@ -21818,14 +21800,14 @@
         "u" > typeof window &&
           window.__REDUX_DEVTOOLS_EXTENSION__ &&
           window.__REDUX_DEVTOOLS_EXTENSION__;
-        var fd = (function (e) {
+        var fu = (function (e) {
             function t() {
               for (var r = [], n = 0; n < arguments.length; n++) r[n] = arguments[n];
               var o = e.apply(this, r) || this;
               return (Object.setPrototypeOf(o, t.prototype), o);
             }
             return (
-              s7(t, e),
+              s6(t, e),
               Object.defineProperty(t, Symbol.species, {
                 get: function () {
                   return t;
@@ -21840,20 +21822,20 @@
               (t.prototype.prepend = function () {
                 for (var e = [], r = 0; r < arguments.length; r++) e[r] = arguments[r];
                 return 1 === e.length && Array.isArray(e[0])
-                  ? new (t.bind.apply(t, fe([void 0], e[0].concat(this))))()
-                  : new (t.bind.apply(t, fe([void 0], e.concat(this))))();
+                  ? new (t.bind.apply(t, s4([void 0], e[0].concat(this))))()
+                  : new (t.bind.apply(t, s4([void 0], e.concat(this))))();
               }),
               t
             );
           })(Array),
-          fp = (function (e) {
+          fs = (function (e) {
             function t() {
               for (var r = [], n = 0; n < arguments.length; n++) r[n] = arguments[n];
               var o = e.apply(this, r) || this;
               return (Object.setPrototypeOf(o, t.prototype), o);
             }
             return (
-              s7(t, e),
+              s6(t, e),
               Object.defineProperty(t, Symbol.species, {
                 get: function () {
                   return t;
@@ -21868,16 +21850,16 @@
               (t.prototype.prepend = function () {
                 for (var e = [], r = 0; r < arguments.length; r++) e[r] = arguments[r];
                 return 1 === e.length && Array.isArray(e[0])
-                  ? new (t.bind.apply(t, fe([void 0], e[0].concat(this))))()
-                  : new (t.bind.apply(t, fe([void 0], e.concat(this))))();
+                  ? new (t.bind.apply(t, s4([void 0], e[0].concat(this))))()
+                  : new (t.bind.apply(t, s4([void 0], e.concat(this))))();
               }),
               t
             );
           })(Array);
-        function fy(e) {
-          return uH(e) ? sG(e, function () {}) : e;
+        function ff(e) {
+          return uB(e) ? sz(e, function () {}) : e;
         }
-        function fm(e) {
+        function fd(e) {
           var t,
             r = {},
             n = [],
@@ -21900,44 +21882,44 @@
             };
           return (e(o), [r, n, t]);
         }
-        function fh(e) {
+        function fp(e) {
           var t,
             r = e.name;
           if (!r) throw Error("`name` is a required option for createSlice");
-          var n = "function" == typeof e.initialState ? e.initialState : fy(e.initialState),
+          var n = "function" == typeof e.initialState ? e.initialState : ff(e.initialState),
             o = e.reducers || {},
             a = Object.keys(o),
             i = {},
             l = {},
             c = {};
           function u() {
-            var t = "function" == typeof e.extraReducers ? fm(e.extraReducers) : [e.extraReducers],
+            var t = "function" == typeof e.extraReducers ? fd(e.extraReducers) : [e.extraReducers],
               r = t[0],
               o = t[1],
               a = void 0 === o ? [] : o,
               i = t[2],
               c = void 0 === i ? void 0 : i,
-              u = fc(fc({}, void 0 === r ? {} : r), l);
+              u = fa(fa({}, void 0 === r ? {} : r), l);
             return (function (e, t, r) {
               void 0 === r && (r = []);
               var n,
-                o = "function" == typeof t ? fm(t) : [t, r, void 0],
+                o = "function" == typeof t ? fd(t) : [t, r, void 0],
                 a = o[0],
                 i = o[1],
                 l = o[2];
               if ("function" == typeof e)
                 n = function () {
-                  return fy(e());
+                  return ff(e());
                 };
               else {
-                var c = fy(e);
+                var c = ff(e);
                 n = function () {
                   return c;
                 };
               }
               function u(e, t) {
                 void 0 === e && (e = n());
-                var r = fe(
+                var r = s4(
                   [a[t.type]],
                   i
                     .filter(function (e) {
@@ -21954,12 +21936,12 @@
                     }).length && (r = [l]),
                   r.reduce(function (e, r) {
                     if (r)
-                      if (uq(e)) {
+                      if (u_(e)) {
                         var n = r(e, t);
                         return void 0 === n ? e : n;
                       } else {
-                        if (uH(e))
-                          return sG(e, function (e) {
+                        if (uB(e))
+                          return sz(e, function (e) {
                             return r(e, t);
                           });
                         var n = r(e, t);
@@ -21994,7 +21976,7 @@
               ("reducer" in a ? ((t = a.reducer), (n = a.prepare)) : (t = a),
                 (i[e] = t),
                 (l[u] = t),
-                (c[e] = n ? ff(u, n) : ff(u)));
+                (c[e] = n ? fc(u, n) : fc(u)));
             }),
             {
               name: r,
@@ -22009,7 +21991,7 @@
             }
           );
         }
-        var fv = function (e) {
+        var fy = function (e) {
             void 0 === e && (e = 21);
             for (var t = "", r = e; r--;)
               t += "ModuleSymbhasOwnPr-0123456789ABCDEFGHNRVfgctiUvz_KqYTJkLxpZXIjQW"[
@@ -22017,42 +21999,42 @@
               ];
             return t;
           },
-          fb = ["name", "message", "stack", "code"],
-          fg = function (e, t) {
+          fm = ["name", "message", "stack", "code"],
+          fh = function (e, t) {
             ((this.payload = e), (this.meta = t));
           },
-          fw = function (e, t) {
+          fv = function (e, t) {
             ((this.payload = e), (this.meta = t));
           },
-          fS = function (e) {
-            if ((void 0 === e ? "undefined" : s4(e)) === "object" && null !== e) {
-              for (var t = {}, r = 0; r < fb.length; r++) {
-                var n = fb[r];
+          fb = function (e) {
+            if ((void 0 === e ? "undefined" : s5(e)) === "object" && null !== e) {
+              for (var t = {}, r = 0; r < fm.length; r++) {
+                var n = fm[r];
                 "string" == typeof e[n] && (t[n] = e[n]);
               }
               return t;
             }
             return { message: String(e) };
           },
-          fO = (function () {
+          fg = (function () {
             function e(e, t, r) {
-              var n = ff(e + "/fulfilled", function (e, t, r, n) {
+              var n = fc(e + "/fulfilled", function (e, t, r, n) {
                   return {
                     payload: e,
-                    meta: fu(fc({}, n || {}), { arg: r, requestId: t, requestStatus: "fulfilled" })
+                    meta: fi(fa({}, n || {}), { arg: r, requestId: t, requestStatus: "fulfilled" })
                   };
                 }),
-                o = ff(e + "/pending", function (e, t, r) {
+                o = fc(e + "/pending", function (e, t, r) {
                   return {
                     payload: void 0,
-                    meta: fu(fc({}, r || {}), { arg: t, requestId: e, requestStatus: "pending" })
+                    meta: fi(fa({}, r || {}), { arg: t, requestId: e, requestStatus: "pending" })
                   };
                 }),
-                a = ff(e + "/rejected", function (e, t, n, o, a) {
+                a = fc(e + "/rejected", function (e, t, n, o, a) {
                   return {
                     payload: o,
-                    error: ((r && r.serializeError) || fS)(e || "Rejected"),
-                    meta: fu(fc({}, a || {}), {
+                    error: ((r && r.serializeError) || fb)(e || "Rejected"),
+                    meta: fi(fa({}, a || {}), {
                       arg: n,
                       requestId: t,
                       rejectedWithValue: !!o,
@@ -22085,7 +22067,7 @@
                 function (e) {
                   return function (l, c, u) {
                     var s,
-                      f = (null == r ? void 0 : r.idGenerator) ? r.idGenerator(e) : fv(),
+                      f = (null == r ? void 0 : r.idGenerator) ? r.idGenerator(e) : fy(),
                       d = new i();
                     function p(e) {
                       ((s = e), d.abort());
@@ -22096,7 +22078,7 @@
                         (i = this),
                         (y = function () {
                           var i, y, m, h, v, b;
-                          return s9(this, function (g) {
+                          return s8(this, function (g) {
                             switch (g.label) {
                               case 0:
                                 var w;
@@ -22107,7 +22089,7 @@
                                       null == (i = null == r ? void 0 : r.condition)
                                         ? void 0
                                         : i.call(r, e, { getState: c, extra: u })) ||
-                                    (void 0 === w ? "undefined" : s4(w)) !== "object" ||
+                                    (void 0 === w ? "undefined" : s5(w)) !== "object" ||
                                     "function" != typeof w.then)
                                 )
                                   return [3, 2];
@@ -22152,15 +22134,15 @@
                                           signal: d.signal,
                                           abort: p,
                                           rejectWithValue: function (e, t) {
-                                            return new fg(e, t);
+                                            return new fh(e, t);
                                           },
                                           fulfillWithValue: function (e, t) {
-                                            return new fw(e, t);
+                                            return new fv(e, t);
                                           }
                                         })
                                       ).then(function (t) {
-                                        if (s8(t, fg)) throw t;
-                                        return s8(t, fw) ? n(t.payload, f, e, t.meta) : n(t, f, e);
+                                        if (s3(t, fh)) throw t;
+                                        return s3(t, fv) ? n(t.payload, f, e, t.meta) : n(t, f, e);
                                       })
                                     ])
                                   ]
@@ -22169,7 +22151,7 @@
                                 return ((m = g.sent()), [3, 5]);
                               case 4:
                                 return (
-                                  (m = s8((b = g.sent()), fg)
+                                  (m = s3((b = g.sent()), fh)
                                     ? a(null, f, e, b.payload, b.meta)
                                     : a(b, f, e)),
                                   [3, 5]
@@ -22213,7 +22195,7 @@
                       requestId: f,
                       arg: e,
                       unwrap: function () {
-                        return y.then(fx);
+                        return y.then(fw);
                       }
                     });
                   };
@@ -22228,15 +22210,15 @@
               e
             );
           })();
-        function fx(e) {
+        function fw(e) {
           if (e.meta && e.meta.rejectedWithValue) throw e.payload;
           if (e.error) throw e.error;
           return e.payload;
         }
-        var fP = "listenerMiddleware";
-        (ff(fP + "/add"),
-          ff(fP + "/removeAll"),
-          ff(fP + "/remove"),
+        var fS = "listenerMiddleware";
+        (fc(fS + "/add"),
+          fc(fS + "/removeAll"),
+          fc(fS + "/remove"),
           "function" == typeof queueMicrotask &&
             queueMicrotask.bind("u" > typeof window ? window : void 0 !== r.g ? r.g : globalThis),
           "u" > typeof window && window.requestAnimationFrame && window.requestAnimationFrame,
@@ -22251,12 +22233,12 @@
                         configurable: !0,
                         enumerable: t,
                         get: function () {
-                          var t = this[sV];
-                          return sz.get(t, e);
+                          var t = this[sL];
+                          return sK.get(t, e);
                         },
                         set: function (t) {
-                          var r = this[sV];
-                          sz.set(r, e, t);
+                          var r = this[sL];
+                          sK.set(r, e, t);
                         }
                       }),
                 r
@@ -22264,30 +22246,30 @@
             }
             function t(e) {
               for (var t = e.length - 1; t >= 0; t--) {
-                var o = e[t][sV];
+                var o = e[t][sL];
                 if (!o.P)
                   switch (o.i) {
                     case 5:
-                      n(o) && sl(o);
+                      n(o) && so(o);
                       break;
                     case 4:
-                      r(o) && sl(o);
+                      r(o) && so(o);
                   }
               }
             }
             function r(e) {
-              for (var t = e.t, r = e.k, n = sK(r), o = n.length - 1; o >= 0; o--) {
+              for (var t = e.t, r = e.k, n = sF(r), o = n.length - 1; o >= 0; o--) {
                 var a = n[o];
-                if (a !== sV) {
+                if (a !== sL) {
                   var i = t[a];
-                  if (void 0 === i && !uJ(t, a)) return !0;
+                  if (void 0 === i && !uH(t, a)) return !0;
                   var l = r[a],
-                    c = l && l[sV];
-                  if (c ? c.t !== i : !uX(l, i)) return !0;
+                    c = l && l[sL];
+                  if (c ? c.t !== i : !u$(l, i)) return !0;
                 }
               }
-              var u = !!t[sV];
-              return n.length !== sK(t).length + +!u;
+              var u = !!t[sL];
+              return n.length !== sF(t).length + +!u;
             }
             function n(e) {
               var t = e.k;
@@ -22298,8 +22280,8 @@
               return !1;
             }
             var o = {};
-            sB.ES5 ||
-              (sB.ES5 = {
+            sW.ES5 ||
+              (sW.ES5 = {
                 J: function (t, r) {
                   var n = Array.isArray(t),
                     o = (function (t, r) {
@@ -22308,9 +22290,9 @@
                           Object.defineProperty(n, "" + o, e(o, !0));
                         return n;
                       }
-                      var a = s_(r);
-                      delete a[sV];
-                      for (var i = sK(a), l = 0; l < i.length; l++) {
+                      var a = sV(r);
+                      delete a[sL];
+                      for (var i = sF(a), l = 0; l < i.length; l++) {
                         var c = i[l];
                         a[c] = e(c, t || !!a[c].enumerable);
                       }
@@ -22318,7 +22300,7 @@
                     })(n, t),
                     a = {
                       i: n ? 5 : 4,
-                      A: r ? r.A : sD,
+                      A: r ? r.A : sI,
                       P: !1,
                       I: !1,
                       R: {},
@@ -22329,32 +22311,32 @@
                       g: !1,
                       C: !1
                     };
-                  return (Object.defineProperty(o, sV, { value: a, writable: !0 }), o);
+                  return (Object.defineProperty(o, sL, { value: a, writable: !0 }), o);
                 },
                 S: function (e, r, o) {
                   o
-                    ? uq(r) && r[sV].A === e && t(e.p)
+                    ? u_(r) && r[sL].A === e && t(e.p)
                     : (e.u &&
                         (function e(t) {
-                          if (t && "object" == (void 0 === t ? "undefined" : uB(t))) {
-                            var r = t[sV];
+                          if (t && "object" == (void 0 === t ? "undefined" : uW(t))) {
+                            var r = t[sL];
                             if (r) {
                               var o = r.t,
                                 a = r.k,
                                 i = r.R,
                                 l = r.i;
                               if (4 === l)
-                                (uG(a, function (t) {
-                                  t !== sV &&
-                                    (void 0 !== o[t] || uJ(o, t)
+                                (uz(a, function (t) {
+                                  t !== sL &&
+                                    (void 0 !== o[t] || uH(o, t)
                                       ? i[t] || e(a[t])
-                                      : ((i[t] = !0), sl(r)));
+                                      : ((i[t] = !0), so(r)));
                                 }),
-                                  uG(o, function (e) {
-                                    void 0 !== a[e] || uJ(a, e) || ((i[e] = !1), sl(r));
+                                  uz(o, function (e) {
+                                    void 0 !== a[e] || uH(a, e) || ((i[e] = !1), so(r));
                                   }));
                               else if (5 === l) {
-                                if ((n(r) && (sl(r), (i.length = !0)), a.length < o.length))
+                                if ((n(r) && (so(r), (i.length = !0)), a.length < o.length))
                                   for (var c = a.length; c < o.length; c++) i[c] = !1;
                                 else for (var u = o.length; u < a.length; u++) i[u] = !0;
                                 for (var s = Math.min(a.length, o.length), f = 0; f < s; f++)
@@ -22370,7 +22352,7 @@
                 }
               });
           })());
-        var fj =
+        var fO =
             (((t = {}).VerificationStarted = "VERIFICATION_STARTED"),
             (t.verificationInProgress = "VERIFICATION_IN_PROGRESS"),
             (t.VerificationPending = "VERIFICATION_PENDING"),
@@ -22379,17 +22361,17 @@
             (t.AMPCheckFailed = "AMP_CHECK_FAILED"),
             (t.EmailUpdateFailed = "EMAIL_UPDATE_FAILED"),
             t),
-          fC =
+          fx =
             (((n = {}).Granted = "Granted"),
             (n.Denied = "Denied"),
             (n.Actionable = "Actionable"),
             n),
-          fE = window.CoreRobloxUtilities,
-          fA = function (e, t, r) {
-            fE.eventStreamService.sendEventWithTarget(e, t, r);
+          fP = window.CoreRobloxUtilities,
+          fj = function (e, t, r) {
+            fP.eventStreamService.sendEventWithTarget(e, t, r);
           },
-          fI = ej.EnvironmentUrls.apiGatewayUrl,
-          fT = function (e, t, r, n) {
+          fC = ej.EnvironmentUrls.apiGatewayUrl,
+          fE = function (e, t, r, n) {
             var o,
               a = t ? btoa(JSON.stringify(t)) : null,
               i =
@@ -22398,14 +22380,14 @@
                   retryable: !0,
                   withCredentials: !0,
                   url: ""
-                    .concat(fI, "/access-management/v1/upsell-feature-access?featureName=")
+                    .concat(fC, "/access-management/v1/upsell-feature-access?featureName=")
                     .concat(e)
                     .concat(o ? "&extraParameters=".concat(o) : "")
                     .concat(r ? "&successfulActions=".concat(r) : "")
                     .concat(n ? "&namespace=".concat(encodeURIComponent(n)) : "")
                 });
             return new Promise(function (e) {
-              iH.httpService.get(i).then(
+              iB.httpService.get(i).then(
                 function (t) {
                   e(t.data);
                 },
@@ -22415,7 +22397,7 @@
               );
             });
           };
-        function fk(e, t, r, n, o, a, i) {
+        function fA(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -22425,7 +22407,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function fD(e) {
+        function fI(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -22450,7 +22432,7 @@
           }
           return e;
         }
-        function fN(e, t) {
+        function fT(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -22468,7 +22450,7 @@
             e
           );
         }
-        var fM = {
+        var fk = {
             featureName: null,
             ampFeatureCheckData: void 0,
             stage: null,
@@ -22480,7 +22462,7 @@
             prologueUsed: !1,
             namespace: null
           },
-          fR = fO("accessManagement/fetchFeatureAccess", function (e, t) {
+          fD = fg("accessManagement/fetchFeatureAccess", function (e, t) {
             var r;
             return ((r = function () {
               var r, n, o;
@@ -22582,14 +22564,14 @@
                       a.trys.push([0, 2, , 3]),
                       (r = e.featureName),
                       (n = e.ampFeatureCheckData),
-                      [4, fT(r, n, e.successfulAction, e.namespace)]
+                      [4, fE(r, n, e.successfulAction, e.namespace)]
                     );
                   case 1:
                     return [2, a.sent()];
                   case 2:
                     return (
                       (o = a.sent()),
-                      fA(fj.AMPCheckFailed, null, { error: JSON.stringify(o) }),
+                      fj(fO.AMPCheckFailed, null, { error: JSON.stringify(o) }),
                       [2, t.rejectWithValue("Failed to fetch AMP response")]
                     );
                   case 3:
@@ -22603,21 +22585,21 @@
               return new Promise(function (n, o) {
                 var a = r.apply(e, t);
                 function i(e) {
-                  fk(a, n, o, i, l, "next", e);
+                  fA(a, n, o, i, l, "next", e);
                 }
                 function l(e) {
-                  fk(a, n, o, i, l, "throw", e);
+                  fA(a, n, o, i, l, "throw", e);
                 }
                 i(void 0);
               });
             })();
           }),
-          fL = fh({
+          fN = fp({
             name: "accessManagement",
-            initialState: fM,
+            initialState: fk,
             reducers: {
               resetAccessManagementStore: function () {
-                return fM;
+                return fk;
               },
               setFeatureName: function (e, t) {
                 e.featureName = t.payload;
@@ -22651,63 +22633,63 @@
               }
             },
             extraReducers: function (e) {
-              e.addCase(fR.pending, function (e) {
+              e.addCase(fD.pending, function (e) {
                 e.featureAccess.loading = !0;
               })
-                .addCase(fR.fulfilled, function (e, t) {
+                .addCase(fD.fulfilled, function (e, t) {
                   var r,
                     n = t.payload;
-                  ((e.featureAccess = fN(fD({}, e.featureAccess), { loading: !1, data: n })),
+                  ((e.featureAccess = fT(fI({}, e.featureAccess), { loading: !1, data: n })),
                     (e.featureName = n.featureName),
-                    n.access !== fC.Granted && (e.showUpsell = !0),
-                    n.access === fC.Actionable &&
+                    n.access !== fx.Granted && (e.showUpsell = !0),
+                    n.access === fx.Actionable &&
                       (e.verificationStageRecourse = null != (r = n.recourses[0]) ? r : null));
                 })
-                .addCase(fR.rejected, function (e, t) {
-                  e.featureAccess = fN(fD({}, e.featureAccess), {
+                .addCase(fD.rejected, function (e, t) {
+                  e.featureAccess = fT(fI({}, e.featureAccess), {
                     loading: !1,
                     error: t.error.message || "Something went wrong"
                   });
                 });
             }
           }),
-          fU = fL.actions,
-          fF = fU.resetAccessManagementStore,
-          fV = (fU.setFeatureAccess, fU.setFeatureName, fU.setAmpFeatureCheckData),
-          fW = fU.setRedirectLink,
-          fK = fU.setVerificationStageRecourse,
-          f_ = (fU.showUpsell, fU.setStage),
-          fB = fU.setPrologueUsed,
-          fz = fU.setNamespace,
-          fq = function (e) {
+          fM = fN.actions,
+          fR = fM.resetAccessManagementStore,
+          fL = (fM.setFeatureAccess, fM.setFeatureName, fM.setAmpFeatureCheckData),
+          fU = fM.setRedirectLink,
+          fF = fM.setVerificationStageRecourse,
+          fV = (fM.showUpsell, fM.setStage),
+          fW = fM.setPrologueUsed,
+          fK = fM.setNamespace,
+          f_ = function (e) {
             return e.accessManagement;
           },
-          fH = function (e) {
+          fB = function (e) {
             return e.accessManagement.showUpsell;
           },
-          fG = function (e) {
+          fz = function (e) {
             return e.accessManagement.featureName;
           },
-          f$ = function (e) {
+          fq = function (e) {
             return e.accessManagement.ampFeatureCheckData;
           },
-          fJ = function (e) {
+          fH = function (e) {
             return e.accessManagement.featureAccess;
           },
-          fY = function (e) {
+          fG = function (e) {
             return e.accessManagement.stage;
           },
-          fX = function (e) {
+          f$ = function (e) {
             return e.accessManagement.verificationStageRecourse;
           },
-          fQ = function (e) {
+          fJ = function (e) {
             return e.accessManagement.prologueUsed;
           },
-          fZ = function (e) {
+          fY = function (e) {
             return e.accessManagement.namespace;
           },
-          f0 = fL.reducer,
-          f1 =
+          fX = fN.reducer,
+          fQ =
             (((o = {})[(o.Unknown = 0)] = "Unknown"),
             (o[(o.Success = 1)] = "Success"),
             (o[(o.Failure = 2)] = "Failure"),
@@ -22718,7 +22700,7 @@
             (o[(o.Stored = 7)] = "Stored"),
             (o[(o.Expired = 8)] = "Expired"),
             o),
-          f2 =
+          fZ =
             (((a = {})[(a.NoError = 0)] = "NoError"),
             (a[(a.UnknownError = 1)] = "UnknownError"),
             (a[(a.InvalidDocument = 2)] = "InvalidDocument"),
@@ -22727,7 +22709,7 @@
             (a[(a.LowQualityMedia = 5)] = "LowQualityMedia"),
             (a[(a.DocumentUnsupported = 6)] = "DocumentUnsupported"),
             a),
-          f3 =
+          f0 =
             (((i = {})[(i.LANDING = 0)] = "LANDING"),
             (i[(i.EMAIL = 1)] = "EMAIL"),
             (i[(i.MODAL = 2)] = "MODAL"),
@@ -22741,12 +22723,12 @@
             (i[(i.TEMP_BAN = 10)] = "TEMP_BAN"),
             (i[(i.VENDOR_LINK = 11)] = "VENDOR_LINK"),
             i);
-        function f5(e, t) {
+        function f1(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function f6(e) {
+        function f2(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -22771,7 +22753,7 @@
           }
           return e;
         }
-        function f8(e, t) {
+        function f3(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -22789,10 +22771,10 @@
             e
           );
         }
-        function f4(e) {
+        function f5(e) {
           return (
             (function (e) {
-              if (Array.isArray(e)) return f5(e);
+              if (Array.isArray(e)) return f1(e);
             })(e) ||
             (function (e) {
               if (("u" > typeof Symbol && null != e[Symbol.iterator]) || null != e["@@iterator"])
@@ -22800,7 +22782,7 @@
             })(e) ||
             (function (e) {
               if (e) {
-                if ("string" == typeof e) return f5(e, void 0);
+                if ("string" == typeof e) return f1(e, void 0);
                 var t = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -22808,7 +22790,7 @@
                 )
                   return Array.from(t);
                 if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                  return f5(e, void 0);
+                  return f1(e, void 0);
               }
             })(e) ||
             (function () {
@@ -22818,13 +22800,13 @@
             })()
           );
         }
-        var f7 = [
-            { label: "Label.ConnectingToMobile", statusCode: [f1.Unknown] },
-            { label: "Label.VerifyingYou", statusCode: [f1.Started] },
-            { label: "Label.VerificationWaitingForResults", statusCode: [f1.Submitted] },
-            { label: "Label.UpdatingRoblox", statusCode: [f1.Success, f1.Stored] }
+        var f6 = [
+            { label: "Label.ConnectingToMobile", statusCode: [fQ.Unknown] },
+            { label: "Label.VerifyingYou", statusCode: [fQ.Started] },
+            { label: "Label.VerificationWaitingForResults", statusCode: [fQ.Submitted] },
+            { label: "Label.UpdatingRoblox", statusCode: [fQ.Success, fQ.Stored] }
           ],
-          f9 = function (e) {
+          f8 = function (e) {
             var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : [],
               r = {
                 heading: "Heading.VerificationSuccessful",
@@ -22834,62 +22816,62 @@
                 footerText: null
               };
             switch (e) {
-              case f3.SUCCESS_GENERIC:
+              case f0.SUCCESS_GENERIC:
                 break;
-              case f3.FAILURE:
-                r = f8(f6({}, r), {
+              case f0.FAILURE:
+                r = f3(f2({}, r), {
                   heading: "Heading.VerificationFailed",
                   icon: "failure-icon",
                   bodyText: ["Label.FailedVerification"],
                   buttonText: "Action.Close"
                 });
                 break;
-              case f3.PENDING:
-                r = f8(f6({}, r), {
+              case f0.PENDING:
+                r = f3(f2({}, r), {
                   heading: "Heading.VerificationPending",
                   icon: "failure-icon",
                   bodyText: ["Label.PendingVerification"],
                   buttonText: "Action.Close"
                 });
                 break;
-              case f3.ERROR:
-                r = f8(f6({}, r), {
+              case f0.ERROR:
+                r = f3(f2({}, r), {
                   heading: "Heading.Error",
                   icon: "failure-icon",
                   bodyText: ["Modal.Failed.Text"]
                 });
                 break;
-              case f3.TEMP_BAN:
-                r = f8(f6({}, r), {
+              case f0.TEMP_BAN:
+                r = f3(f2({}, r), {
                   heading: "Heading.Error",
                   icon: "failure-icon",
                   bodyText: ["Label.VerificationDeclined"]
                 });
-              case f3.LANDING:
-              case f3.EMAIL:
-              case f3.MODAL:
-              case f3.POLLING:
-              case f3.EMAIL_CONTINUE:
-              case f3.EXTERNAL_EMAIL:
-              case f3.VENDOR_LINK:
+              case f0.LANDING:
+              case f0.EMAIL:
+              case f0.MODAL:
+              case f0.POLLING:
+              case f0.EMAIL_CONTINUE:
+              case f0.EXTERNAL_EMAIL:
+              case f0.VENDOR_LINK:
             }
-            return ((r.bodyText = f4(r.bodyText).concat(f4(t))), r);
+            return ((r.bodyText = f5(r.bodyText).concat(f5(t))), r);
           },
-          de = "Heading.CheckAgeOnMobileApp",
-          dt = "Label.ScanQRCodeToAgeCheck",
-          dr = "Label.DownloadAppFallback",
-          dn =
+          f4 = "Heading.CheckAgeOnMobileApp",
+          f7 = "Label.ScanQRCodeToAgeCheck",
+          f9 = "Label.DownloadAppFallback",
+          de =
             (((l = {}).Prologue = "PROLOGUE"),
             (l.Verification = "VERIFICATION"),
             (l.Epilogue = "EPILOGUE"),
             l),
-          da =
+          dt =
             (((c = {})[(c.VendorLink = 0)] = "VendorLink"),
             (c[(c.Checklist = 1)] = "Checklist"),
             (c[(c.Complete = 2)] = "Complete"),
             c),
-          di =
-            (((u = di || {}).GovernmentId = "GovernmentId"),
+          dr =
+            (((u = dr || {}).GovernmentId = "GovernmentId"),
             (u.Phone = "PHONE"),
             (u.Email = "EMAIL"),
             (u.AddedEmail = "AddedEmail"),
@@ -22898,8 +22880,8 @@
             (u.AgeEstimation = "AgeEstimation"),
             (u.UserSettings = "UserSettings"),
             u),
-          dl = ej.EnvironmentUrls.apiGatewayUrl,
-          dc = function (e, t, r) {
+          dn = ej.EnvironmentUrls.apiGatewayUrl,
+          da = function (e, t, r) {
             var n = (function (e) {
               for (var t = 1; t < arguments.length; t++) {
                 var r = null != arguments[t] ? arguments[t] : {},
@@ -22925,13 +22907,13 @@
               }
               return e;
             })({ generateLink: !0, ageEstimation: e, parentVerification: t }, r && { template: r });
-            return iH.httpService
+            return iB.httpService
               .post(
                 {
                   retryable: !0,
                   withCredentials: !0,
                   url: "".concat(
-                    dl,
+                    dn,
                     "/age-verification-service/v1/persona-id-verification/start-verification"
                   )
                 },
@@ -22941,11 +22923,11 @@
                 return e.data;
               })
               .catch(function (e) {
-                var t = iH.httpService.parseErrorCode(e);
+                var t = iB.httpService.parseErrorCode(e);
                 throw Error("Error to start ID verification: ".concat(t || "unknown"));
               });
           };
-        function du(e, t, r, n, o, a, i) {
+        function di(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -22955,23 +22937,23 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function ds(e) {
+        function dl(e) {
           return function () {
             var t = this,
               r = arguments;
             return new Promise(function (n, o) {
               var a = e.apply(t, r);
               function i(e) {
-                du(a, n, o, i, l, "next", e);
+                di(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                du(a, n, o, i, l, "throw", e);
+                di(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           };
         }
-        function df(e) {
+        function dc(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -22996,7 +22978,7 @@
           }
           return e;
         }
-        function dd(e, t) {
+        function du(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -23014,7 +22996,7 @@
             e
           );
         }
-        function dp(e, t) {
+        function ds(e, t) {
           var r,
             n,
             o,
@@ -23106,10 +23088,10 @@
             };
           }
         }
-        var dy = {
+        var df = {
             verified: null,
             IDVerificationState: {
-              page: da.VendorLink,
+              page: dt.VendorLink,
               vendorVerificationData: {
                 daysUntilNextVerification: 0,
                 sessionIdentifier: null,
@@ -23126,30 +23108,30 @@
             },
             loading: null
           },
-          dm = function (e) {
+          dd = function (e) {
             return e.verification.IDVerificationState;
           },
-          dh = function (e) {
+          dp = function (e) {
             return e.verification.loading;
           },
-          dv = fO("verification/startIDVerification", function (e, t) {
+          dy = fg("verification/startIDVerification", function (e, t) {
             var r = e.ageEstimation,
               n = e.parentVerification,
               o = void 0 !== n && n,
               a = e.template;
-            return ds(function () {
+            return dl(function () {
               var e, n;
-              return dp(this, function (i) {
+              return ds(this, function (i) {
                 switch (i.label) {
                   case 0:
-                    return (i.trys.push([0, 2, , 3]), [4, dc(r, o, a)]);
+                    return (i.trys.push([0, 2, , 3]), [4, da(r, o, a)]);
                   case 1:
                     return [2, i.sent()];
                   case 2:
                     return (
                       (e = i.sent()),
-                      (n = r ? di.AgeEstimation : di.GovernmentId),
-                      fA(fj.VerificationFailed, n, { error: JSON.stringify(e) }),
+                      (n = r ? dr.AgeEstimation : dr.GovernmentId),
+                      fj(fO.VerificationFailed, n, { error: JSON.stringify(e) }),
                       [2, t.rejectWithValue("Failed to start ID Verification")]
                     );
                   case 3:
@@ -23158,23 +23140,23 @@
               });
             })();
           }),
-          db = fO("verification/fetchIDVerificationStatus", function (e, t) {
-            return ds(function () {
+          dm = fg("verification/fetchIDVerificationStatus", function (e, t) {
+            return dl(function () {
               var r, n;
-              return dp(this, function (o) {
+              return ds(this, function (o) {
                 switch (o.label) {
                   case 0:
                     return (
                       o.trys.push([0, 2, , 3]),
                       [
                         4,
-                        iH.httpService
+                        iB.httpService
                           .get(
                             {
                               retryable: !0,
                               withCredentials: !0,
                               url: "".concat(
-                                dl,
+                                dn,
                                 "/age-verification-service/v1/persona-id-verification/verified-status"
                               )
                             },
@@ -23184,7 +23166,7 @@
                             return e.data;
                           })
                           .catch(function (e) {
-                            var t = iH.httpService.parseErrorCode(e);
+                            var t = iB.httpService.parseErrorCode(e);
                             throw Error(
                               "Error to get ID verification status: ".concat(t || "unknown")
                             );
@@ -23197,9 +23179,9 @@
                     return (
                       (r = o.sent()),
                       (n = t.getState().verification.IDVerificationState.isAgeEstimation
-                        ? di.AgeEstimation
-                        : di.GovernmentId),
-                      fA(fj.VerificationFailed, n, { error: JSON.stringify(r) }),
+                        ? dr.AgeEstimation
+                        : dr.GovernmentId),
+                      fj(fO.VerificationFailed, n, { error: JSON.stringify(r) }),
                       [2, t.rejectWithValue("Failed to fetch ID Verification status")]
                     );
                   case 3:
@@ -23208,18 +23190,18 @@
               });
             })();
           }),
-          dg = fh({
+          dh = fp({
             name: "verification",
-            initialState: dy,
+            initialState: df,
             reducers: {
               resetVerificationStore: function () {
-                return dy;
+                return df;
               },
               setVerified: function (e, t) {
                 e.verified = t.payload;
               },
               setIDVerificationState: function (e, t) {
-                e.IDVerificationState = df({}, t.payload);
+                e.IDVerificationState = dc({}, t.payload);
               },
               setIDVPage: function (e, t) {
                 e.IDVerificationState.page = t.payload;
@@ -23229,16 +23211,16 @@
               }
             },
             extraReducers: function (e) {
-              e.addCase(dv.pending, function (e, t) {
+              e.addCase(dy.pending, function (e, t) {
                 var r = e.IDVerificationState.vendorVerificationData;
                 ((r.loading = !0),
-                  (e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                  (e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                     vendorVerificationData: r,
                     loading: !0
                   })),
                   (e.loading = !0));
               })
-                .addCase(dv.fulfilled, function (e, t) {
+                .addCase(dy.fulfilled, function (e, t) {
                   var r = t.payload,
                     n = r.daysUntilNextVerification,
                     o = t.meta.arg.ageEstimation,
@@ -23247,8 +23229,8 @@
                   ((r.loading = !1),
                     null != n &&
                       n > 0 &&
-                      ((a = f9(f3.TEMP_BAN)), (i = da.Complete), (e.loading = !1)),
-                    (e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                      ((a = f8(f0.TEMP_BAN)), (i = dt.Complete), (e.loading = !1)),
+                    (e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                       vendorVerificationData: r,
                       completionPageState: a,
                       page: i,
@@ -23256,24 +23238,24 @@
                       isAgeEstimation: o
                     })));
                 })
-                .addCase(dv.rejected, function (e, t) {
+                .addCase(dy.rejected, function (e, t) {
                   var r = e.IDVerificationState.vendorVerificationData;
                   ((r.loading = !1),
-                    (e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                    (e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                       vendorVerificationData: r,
-                      completionPageState: f9(f3.ERROR),
+                      completionPageState: f8(f0.ERROR),
                       loading: !1,
                       error: t.error.message || "Something went wrong"
                     })),
                     (e.loading = !1));
                 })
-                .addCase(db.pending, function (e) {
-                  e.IDVerificationState = dd(df({}, e.IDVerificationState), { loading: !0 });
+                .addCase(dm.pending, function (e) {
+                  e.IDVerificationState = du(dc({}, e.IDVerificationState), { loading: !0 });
                 })
-                .addCase(db.fulfilled, function (e, t) {
+                .addCase(dm.fulfilled, function (e, t) {
                   if (e.IDVerificationState.isAgeEstimation) {
                     var r = t.payload;
-                    e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                    e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                       loading: !1,
                       status: r
                     });
@@ -23282,43 +23264,43 @@
                       o = t.payload,
                       a = e.IDVerificationState.page;
                     switch (o.sessionStatus) {
-                      case f1.RequiresRetry:
-                      case f1.Failure:
-                        switch (((a = da.Complete), o.sessionErrorCode)) {
-                          case f2.InvalidDocument:
-                          case f2.BelowMinimumAge:
-                            n = f9(f3.FAILURE, ["Label.FailedVerificationInvalidDocument"]);
+                      case fQ.RequiresRetry:
+                      case fQ.Failure:
+                        switch (((a = dt.Complete), o.sessionErrorCode)) {
+                          case fZ.InvalidDocument:
+                          case fZ.BelowMinimumAge:
+                            n = f8(f0.FAILURE, ["Label.FailedVerificationInvalidDocument"]);
                             break;
-                          case f2.LowQualityMedia:
-                          case f2.InvalidSelfie:
-                            n = f9(f3.FAILURE, ["Label.FailedVerificationLowQuality"]);
+                          case fZ.LowQualityMedia:
+                          case fZ.InvalidSelfie:
+                            n = f8(f0.FAILURE, ["Label.FailedVerificationLowQuality"]);
                             break;
-                          case f2.DocumentUnsupported:
-                            n = f9(f3.FAILURE, ["Label.FailedVerificationUnsupportedDocument"]);
+                          case fZ.DocumentUnsupported:
+                            n = f8(f0.FAILURE, ["Label.FailedVerificationUnsupportedDocument"]);
                             break;
                           default:
-                            n = f9(f3.FAILURE);
+                            n = f8(f0.FAILURE);
                         }
                         break;
-                      case f1.RequiresManualReview:
-                        ((a = da.Complete), (n = f9(f3.PENDING)));
+                      case fQ.RequiresManualReview:
+                        ((a = dt.Complete), (n = f8(f0.PENDING)));
                         break;
-                      case f1.Success:
-                      case f1.Stored:
-                        ((a = da.Complete), (n = f9(f3.SUCCESS_GENERIC)));
+                      case fQ.Success:
+                      case fQ.Stored:
+                        ((a = dt.Complete), (n = f8(f0.SUCCESS_GENERIC)));
                         break;
-                      case f1.Started:
-                        ((a = da.Checklist),
-                          fA(fj.VerificationStarted, di.GovernmentId, {
+                      case fQ.Started:
+                        ((a = dt.Checklist),
+                          fj(fO.VerificationStarted, dr.GovernmentId, {
                             session: e.IDVerificationState.vendorVerificationData.sessionIdentifier
                           }));
                         break;
-                      case f1.Submitted:
-                        fA(fj.verificationInProgress, di.GovernmentId, {
+                      case fQ.Submitted:
+                        fj(fO.verificationInProgress, dr.GovernmentId, {
                           session: e.IDVerificationState.vendorVerificationData.sessionIdentifier
                         });
                     }
-                    e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                    e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                       loading: !1,
                       status: o,
                       completionPageState: n,
@@ -23326,27 +23308,27 @@
                     });
                   }
                 })
-                .addCase(db.rejected, function (e, t) {
-                  e.IDVerificationState = dd(df({}, e.IDVerificationState), {
+                .addCase(dm.rejected, function (e, t) {
+                  e.IDVerificationState = du(dc({}, e.IDVerificationState), {
                     loading: !1,
                     error: t.error.message || "Something went wrong"
                   });
                 });
             }
           }),
-          dw = dg.actions,
-          dS = dw.resetVerificationStore,
-          dO = (dw.setVerified, dw.setIDVerificationState, dw.setIDVPage, dw.setLoading),
-          dx = dg.reducer;
+          dv = dh.actions,
+          db = dv.resetVerificationStore,
+          dg = (dv.setVerified, dv.setIDVerificationState, dv.setIDVPage, dv.setLoading),
+          dw = dh.reducer;
         ej.EnvironmentUrls.apiGatewayUrl;
-        var dP = ej.EnvironmentUrls.accountSettingsApi;
+        var dS = ej.EnvironmentUrls.accountSettingsApi;
         ej.EnvironmentUrls.voiceApi;
-        var dj = function () {
-            return { retryable: !0, withCredentials: !0, url: "".concat(dP, "/v1/email") };
+        var dO = function () {
+            return { retryable: !0, withCredentials: !0, url: "".concat(dS, "/v1/email") };
           },
-          dC = function (e) {
-            var t = dj();
-            return iH.httpService
+          dx = function (e) {
+            var t = dO();
+            return iB.httpService
               .post(t, e)
               .then(function () {
                 return !0;
@@ -23355,9 +23337,9 @@
                 throw Error("Error to update email address: ".concat(JSON.stringify(e)));
               });
           },
-          dE = function () {
-            var e = dj();
-            return iH.httpService
+          dP = function () {
+            var e = dO();
+            return iB.httpService
               .get(e)
               .then(function (e) {
                 return e.data;
@@ -23366,7 +23348,7 @@
                 throw Error("Error to get email address: ".concat(JSON.stringify(e)));
               });
           };
-        function dA(e, t, r, n, o, a, i) {
+        function dj(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -23376,23 +23358,23 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function dI(e) {
+        function dC(e) {
           return function () {
             var t = this,
               r = arguments;
             return new Promise(function (n, o) {
               var a = e.apply(t, r);
               function i(e) {
-                dA(a, n, o, i, l, "next", e);
+                dj(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                dA(a, n, o, i, l, "throw", e);
+                dj(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           };
         }
-        function dT(e, t) {
+        function dE(e, t) {
           var r,
             n,
             o,
@@ -23484,26 +23466,26 @@
             };
           }
         }
-        var dk = {
+        var dA = {
             emailAddress: null,
             isEmailVerified: !1,
             isEmailAdded: !1,
             loading: !1,
             error: !1
           },
-          dD = fO("emailVerification/updateUserEmail", function (e, t) {
-            return dI(function () {
+          dI = fg("emailVerification/updateUserEmail", function (e, t) {
+            return dC(function () {
               var r;
-              return dT(this, function (n) {
+              return dE(this, function (n) {
                 switch (n.label) {
                   case 0:
-                    return (n.trys.push([0, 2, , 3]), [4, dC({ emailAddress: e })]);
+                    return (n.trys.push([0, 2, , 3]), [4, dx({ emailAddress: e })]);
                   case 1:
                     return [2, n.sent()];
                   case 2:
                     return (
                       (r = n.sent()),
-                      fA(fj.EmailUpdateFailed, di.AddedEmail, { error: JSON.stringify(r) }),
+                      fj(fO.EmailUpdateFailed, dr.AddedEmail, { error: JSON.stringify(r) }),
                       [2, t.rejectWithValue("Failed to update email address")]
                     );
                   case 3:
@@ -23512,19 +23494,19 @@
               });
             })();
           }),
-          dN = fO("emailVerification/getUserEmailStatus", function (e, t) {
-            return dI(function () {
+          dT = fg("emailVerification/getUserEmailStatus", function (e, t) {
+            return dC(function () {
               var e;
-              return dT(this, function (r) {
+              return dE(this, function (r) {
                 switch (r.label) {
                   case 0:
-                    return (r.trys.push([0, 2, , 3]), [4, dE()]);
+                    return (r.trys.push([0, 2, , 3]), [4, dP()]);
                   case 1:
                     return [2, r.sent()];
                   case 2:
                     return (
                       (e = r.sent()),
-                      fA(fj.EmailUpdateFailed, di.AddedEmail, { error: JSON.stringify(e) }),
+                      fj(fO.EmailUpdateFailed, dr.AddedEmail, { error: JSON.stringify(e) }),
                       [2, t.rejectWithValue("Failed to fetch email address")]
                     );
                   case 3:
@@ -23533,59 +23515,59 @@
               });
             })();
           }),
-          dM = fh({
+          dk = fp({
             name: "emailVerification",
-            initialState: dk,
+            initialState: dA,
             reducers: {
               resetEmailVerificationStore: function () {
-                return dk;
+                return dA;
               },
               setUserEmailData: function (e, t) {
                 e.emailAddress = t.payload;
               }
             },
             extraReducers: function (e) {
-              e.addCase(dD.pending, function (e) {
+              e.addCase(dI.pending, function (e) {
                 e.loading = !0;
               })
-                .addCase(dD.fulfilled, function (e, t) {
+                .addCase(dI.fulfilled, function (e, t) {
                   ((e.isEmailAdded = !0), (e.loading = !1));
                 })
-                .addCase(dD.rejected, function (e, t) {
+                .addCase(dI.rejected, function (e, t) {
                   ((e.loading = !1), (e.error = !0));
                 })
-                .addCase(dN.pending, function (e) {
+                .addCase(dT.pending, function (e) {
                   e.loading = !0;
                 })
-                .addCase(dN.fulfilled, function (e, t) {
+                .addCase(dT.fulfilled, function (e, t) {
                   var r = t.payload;
                   ((e.emailAddress = r.emailAddress),
                     (e.isEmailVerified = r.isEmailVerified),
                     (e.loading = !1));
                 })
-                .addCase(dN.rejected, function (e) {
+                .addCase(dT.rejected, function (e) {
                   e.loading = !1;
                 });
             }
           }),
-          dR = dM.actions,
-          dL = dR.resetEmailVerificationStore;
-        dR.setUserEmailData;
-        var dU = function (e) {
+          dD = dk.actions,
+          dN = dD.resetEmailVerificationStore;
+        dD.setUserEmailData;
+        var dM = function (e) {
             return e.emailVerification;
           },
-          dF = (function (e) {
+          dR = (function (e) {
             var t,
               r = function (e) {
                 var t, r, n, o;
                 return (
                   void 0 === (t = e) && (t = {}),
                   (n = void 0 === (r = t.thunk) || r),
-                  (o = (t.immutableCheck, t.serializableCheck, t.actionCreatorCheck, new fd())),
+                  (o = (t.immutableCheck, t.serializableCheck, t.actionCreatorCheck, new fu())),
                   n &&
                     ("boolean" == typeof n
-                      ? o.push(s6)
-                      : o.push(s6.withExtraArgument(n.extraArgument))),
+                      ? o.push(s2)
+                      : o.push(s2.withExtraArgument(n.extraArgument))),
                   o
                 );
               },
@@ -23602,7 +23584,7 @@
             if ("function" == typeof a) t = a;
             else if (
               (function (e) {
-                if ((void 0 === e ? "undefined" : s4(e)) !== "object" || null === e) return !1;
+                if ((void 0 === e ? "undefined" : s5(e)) !== "object" || null === e) return !1;
                 var t = Object.getPrototypeOf(e);
                 if (null === t) return !0;
                 for (var r = t; null !== Object.getPrototypeOf(r);) r = Object.getPrototypeOf(r);
@@ -23618,9 +23600,9 @@
                 try {
                   Object.keys(n).forEach(function (e) {
                     var t = n[e];
-                    if (void 0 === t(void 0, { type: s1.INIT })) throw Error(sQ(12));
-                    if (void 0 === t(void 0, { type: s1.PROBE_UNKNOWN_ACTION() }))
-                      throw Error(sQ(13));
+                    if (void 0 === t(void 0, { type: sQ.INIT })) throw Error(sJ(12));
+                    if (void 0 === t(void 0, { type: sQ.PROBE_UNKNOWN_ACTION() }))
+                      throw Error(sJ(13));
                   });
                 } catch (e) {
                   t = e;
@@ -23632,7 +23614,7 @@
                       u = n[c],
                       s = e[c],
                       f = u(s, r);
-                    if (void 0 === f) throw (r && r.type, Error(sQ(14)));
+                    if (void 0 === f) throw (r && r.type, Error(sJ(14)));
                     ((a[c] = f), (o = o || f !== s));
                   }
                   return (o = o || i.length !== Object.keys(e).length) ? a : e;
@@ -23644,27 +23626,27 @@
               );
             var p = l;
             "function" == typeof p && (p = p(r));
-            var y = s3.apply(void 0, p),
-              m = s2;
+            var y = s0.apply(void 0, p),
+              m = sZ;
             u &&
-              (m = fs(fc({ trace: !1 }, (void 0 === u ? "undefined" : s4(u)) === "object" && u)));
-            var h = new fp(y),
+              (m = fl(fa({ trace: !1 }, (void 0 === u ? "undefined" : s5(u)) === "object" && u)));
+            var h = new fs(y),
               v = h;
             return (
-              Array.isArray(d) ? (v = fe([y], d)) : "function" == typeof d && (v = d(h)),
+              Array.isArray(d) ? (v = s4([y], d)) : "function" == typeof d && (v = d(h)),
               (function e(t, r, n) {
                 if (
                   ("function" == typeof r && "function" == typeof n) ||
                   ("function" == typeof n && "function" == typeof arguments[3])
                 )
-                  throw Error(sQ(0));
+                  throw Error(sJ(0));
                 if (
                   ("function" == typeof r && void 0 === n && ((n = r), (r = void 0)), void 0 !== n)
                 ) {
-                  if ("function" != typeof n) throw Error(sQ(1));
+                  if ("function" != typeof n) throw Error(sJ(1));
                   return n(e)(t, r);
                 }
-                if ("function" != typeof t) throw Error(sQ(2));
+                if ("function" != typeof t) throw Error(sJ(2));
                 var o,
                   a = t,
                   i = r,
@@ -23675,19 +23657,19 @@
                   c === l && (c = l.slice());
                 }
                 function f() {
-                  if (u) throw Error(sQ(3));
+                  if (u) throw Error(sJ(3));
                   return i;
                 }
                 function d(e) {
-                  if ("function" != typeof e) throw Error(sQ(4));
-                  if (u) throw Error(sQ(5));
+                  if ("function" != typeof e) throw Error(sJ(4));
+                  if (u) throw Error(sJ(5));
                   var t = !0;
                   return (
                     s(),
                     c.push(e),
                     function () {
                       if (t) {
-                        if (u) throw Error(sQ(6));
+                        if (u) throw Error(sJ(6));
                         ((t = !1), s());
                         var r = c.indexOf(e);
                         (c.splice(r, 1), (l = null));
@@ -23698,16 +23680,16 @@
                 function p(e) {
                   if (
                     !(function (e) {
-                      if ((void 0 === e ? "undefined" : sX(e)) !== "object" || null === e)
+                      if ((void 0 === e ? "undefined" : s$(e)) !== "object" || null === e)
                         return !1;
                       for (var t = e; null !== Object.getPrototypeOf(t);)
                         t = Object.getPrototypeOf(t);
                       return Object.getPrototypeOf(e) === t;
                     })(e)
                   )
-                    throw Error(sQ(7));
-                  if (void 0 === e.type) throw Error(sQ(8));
-                  if (u) throw Error(sQ(9));
+                    throw Error(sJ(7));
+                  if (void 0 === e.type) throw Error(sJ(8));
+                  if (u) throw Error(sJ(9));
                   try {
                     ((u = !0), (i = a(i, e)));
                   } finally {
@@ -23717,28 +23699,28 @@
                   return e;
                 }
                 return (
-                  p({ type: s1.INIT }),
+                  p({ type: sQ.INIT }),
                   ((o = {
                     dispatch: p,
                     subscribe: d,
                     getState: f,
                     replaceReducer: function (e) {
-                      if ("function" != typeof e) throw Error(sQ(10));
-                      ((a = e), p({ type: s1.REPLACE }));
+                      if ("function" != typeof e) throw Error(sJ(10));
+                      ((a = e), p({ type: sQ.REPLACE }));
                     }
-                  })[sZ] = function () {
+                  })[sY] = function () {
                     var e;
                     return (
                       ((e = {
                         subscribe: function (e) {
-                          if ((void 0 === e ? "undefined" : sX(e)) !== "object" || null === e)
-                            throw Error(sQ(11));
+                          if ((void 0 === e ? "undefined" : s$(e)) !== "object" || null === e)
+                            throw Error(sJ(11));
                           function t() {
                             e.next && e.next(f());
                           }
                           return (t(), { unsubscribe: d(t) });
                         }
-                      })[sZ] = function () {
+                      })[sY] = function () {
                         return this;
                       }),
                       e
@@ -23749,46 +23731,46 @@
               })(t, void 0 === s ? void 0 : s, m.apply(void 0, v))
             );
           })({
-            reducer: { accessManagement: f0, verification: dx, emailVerification: dM.reducer }
+            reducer: { accessManagement: fX, verification: dw, emailVerification: dk.reducer }
           }),
-          dV = function () {
+          dL = function () {
             return X();
           },
-          dW = "StartAccessManagementUpsell",
-          dK = "ShowDownloadAppModal",
-          d_ = "Action.Continue",
-          dB = "Action.Cancel",
-          dz = "Action.EmailMyParent",
-          dq = "Action.VerifyID",
-          dH = "Action.AskNowLowercase",
-          dG = "Title.AskYourParent",
-          d$ = "Title.VerifyYourAge",
-          dJ = "Title.CheckYourAge",
-          dY = "Label.AddFriendVPC",
-          dX = "Description.PrologueTextVpc",
-          dQ = "Description.PrologueTextIdv",
-          dZ = "Description.PrologueTextFae",
-          d0 = "Description.PrologueTextIdvAndVpc",
-          d1 = "Description.PrologueIdvAndVpcAgeCorrection",
-          d2 = "Description.PrologueEnablePurchase",
-          d3 = "Description.PrologueUnblockUser",
-          d5 = "Description.PrologueUnblockExperience",
-          d6 = "Description.CommsAgeCheck.VPCForFAEModal",
-          d8 = "Description.PrologueJoinExperience",
-          d4 = "Description.CommsAgeCheck.VPCForExperienceDirectChatModal",
-          d7 = "Description.CommsAgeCheck.VPCForExperienceChatModal",
-          d9 = "Description.CommsAgeCheck.VPCForStudioCollaborationModal",
-          pe = "Description.CommsAgeCheck.FaeForExperienceChatModal",
-          pt = "Description.CommsAgeCheck.FaeForExperienceWhisperChatModal",
-          pr = "Description.CommsAgeCheck.FaeForStudioCollaborationModal",
-          pn = "Description.PrologueFetchParentExperiment",
-          po = "Action.LearnMore",
-          pa = "Title.VerifyYourAge",
-          pi = "Description.PrologueTextVpcNotEligible",
-          pl = "access-management-upsell-container",
-          pc = fE.eventStreamService.eventTypes,
-          pu = "ageVerification",
-          ps = {
+          dU = "StartAccessManagementUpsell",
+          dF = "ShowDownloadAppModal",
+          dV = "Action.Continue",
+          dW = "Action.Cancel",
+          dK = "Action.EmailMyParent",
+          d_ = "Action.VerifyID",
+          dB = "Action.AskNowLowercase",
+          dz = "Title.AskYourParent",
+          dq = "Title.VerifyYourAge",
+          dH = "Title.CheckYourAge",
+          dG = "Label.AddFriendVPC",
+          d$ = "Description.PrologueTextVpc",
+          dJ = "Description.PrologueTextIdv",
+          dY = "Description.PrologueTextFae",
+          dX = "Description.PrologueTextIdvAndVpc",
+          dQ = "Description.PrologueIdvAndVpcAgeCorrection",
+          dZ = "Description.PrologueEnablePurchase",
+          d0 = "Description.PrologueUnblockUser",
+          d1 = "Description.PrologueUnblockExperience",
+          d2 = "Description.CommsAgeCheck.VPCForFAEModal",
+          d3 = "Description.PrologueJoinExperience",
+          d5 = "Description.CommsAgeCheck.VPCForExperienceDirectChatModal",
+          d6 = "Description.CommsAgeCheck.VPCForExperienceChatModal",
+          d8 = "Description.CommsAgeCheck.VPCForStudioCollaborationModal",
+          d4 = "Description.CommsAgeCheck.FaeForExperienceChatModal",
+          d7 = "Description.CommsAgeCheck.FaeForExperienceWhisperChatModal",
+          d9 = "Description.CommsAgeCheck.FaeForStudioCollaborationModal",
+          pe = "Description.PrologueFetchParentExperiment",
+          pt = "Action.LearnMore",
+          pr = "Title.VerifyYourAge",
+          pn = "Description.PrologueTextVpcNotEligible",
+          po = "access-management-upsell-container",
+          pa = fP.eventStreamService.eventTypes,
+          pi = "ageVerification",
+          pl = {
             emailRegex: "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$",
             translationKeys: {
               addEmailToAccountKeys: {
@@ -23808,30 +23790,30 @@
             events: {
               showAddEmailModal: {
                 name: "showAddEmailModal",
-                type: pc.modalAction,
-                context: pu,
+                type: pa.modalAction,
+                context: pi,
                 params: { aType: "shown", field: "addEmail" }
               },
               useAddEmailField: {
                 name: "useAddEmailField",
-                type: pc.formInteraction,
-                context: pu,
+                type: pa.formInteraction,
+                context: pi,
                 params: { btn: "emailAddress", field: "addEmail" }
               },
               addEmailConfirm: {
                 name: "addEmailConfirm",
-                type: pc.buttonClick,
-                context: pu,
+                type: pa.buttonClick,
+                context: pi,
                 params: { btn: "continue", field: "addEmail" }
               }
             }
           },
-          pf = ps.events,
-          pd = function (e) {
+          pc = pl.events,
+          pu = function (e) {
             var t,
               r,
-              n = pf.useAddEmailField;
-            fE.eventStreamService.sendEventWithTarget(
+              n = pc.useAddEmailField;
+            fP.eventStreamService.sendEventWithTarget(
               n.type,
               n.context,
               ((t = (function (e) {
@@ -23875,12 +23857,12 @@
               t)
             );
           };
-        function pp(e, t) {
+        function ps(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function py(e, t) {
+        function pf(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -23914,7 +23896,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return pp(e, t);
+                if ("string" == typeof e) return ps(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -23922,7 +23904,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return pp(e, t);
+                  return ps(e, t);
               }
             })(e, t) ||
             (function () {
@@ -23932,21 +23914,21 @@
             })()
           );
         }
-        var pm = function (e, t) {
-          var r = dV(),
-            n = py((0, T.useState)(!1), 2),
+        var pd = function (e, t) {
+          var r = dL(),
+            n = pf((0, T.useState)(!1), 2),
             o = n[0],
             a = n[1],
-            i = py((0, T.useState)(!1), 2),
+            i = pf((0, T.useState)(!1), 2),
             l = i[0];
           i[1];
-          var c = py((0, T.useState)(!0), 2),
+          var c = pf((0, T.useState)(!0), 2),
             u = c[0],
             s = c[1],
-            f = py((0, T.useState)(""), 2),
+            f = pf((0, T.useState)(""), 2),
             d = f[0],
             p = f[1],
-            y = py((0, T.useState)(""), 2),
+            y = pf((0, T.useState)(""), 2),
             m = y[0],
             h = y[1],
             v = (0, T.useMemo)(function () {
@@ -23955,21 +23937,21 @@
                   return a(!0);
                 },
                 close: function () {
-                  (r(dL()), a(!1));
+                  (r(dN()), a(!1));
                 }
               };
             }, []),
-            b = ps.emailRegex,
-            g = ps.translationKeys.addEmailToAccountKeys,
-            w = py((0, T.useState)(""), 2),
+            b = pl.emailRegex,
+            g = pl.translationKeys.addEmailToAccountKeys,
+            w = pf((0, T.useState)(""), 2),
             S = w[0],
             O = w[1],
             x = new RegExp(b),
             j = function () {
-              (r(dL()), a(!1), t());
+              (r(dN()), a(!1), t());
             },
             C = function () {
-              (O(""), r(dD(d)));
+              (O(""), r(dI(d)));
             },
             E = function (t) {
               (p(t), O(""));
@@ -23994,7 +23976,7 @@
                   placeholder: e(g.LabelEmailInputPlaceholderOver13),
                   value: d,
                   onFocus: function () {
-                    return pd("");
+                    return pu("");
                   },
                   onChange: function (e) {
                     return E(e.target.value);
@@ -24005,7 +23987,7 @@
               ]
             });
           return [
-            (0, P.jsxs)(uK.Modal, {
+            (0, P.jsxs)(uF.Modal, {
               show: o,
               onHide: j,
               backdrop: !0,
@@ -24015,7 +23997,7 @@
               scrollable: "true",
               centered: !0,
               children: [
-                (0, P.jsx)(uK.Modal.Header, {
+                (0, P.jsx)(uF.Modal.Header, {
                   useBaseBootstrapComponent: !0,
                   children: (0, P.jsxs)("div", {
                     className: "email-upsell-title-container",
@@ -24026,19 +24008,19 @@
                         onClick: j,
                         children: (0, P.jsx)("span", { className: "close icon-close" })
                       }),
-                      (0, P.jsx)(uK.Modal.Title, {
+                      (0, P.jsx)(uF.Modal.Title, {
                         id: "contained-modal-title-vcenter",
                         children: e(g.HeadingAddEmail)
                       })
                     ]
                   })
                 }),
-                (0, P.jsx)(uK.Modal.Body, { children: A }),
-                (0, P.jsx)(uK.Modal.Footer, {
-                  children: (0, P.jsx)(uK.Button, {
+                (0, P.jsx)(uF.Modal.Body, { children: A }),
+                (0, P.jsx)(uF.Modal.Footer, {
+                  children: (0, P.jsx)(uF.Button, {
                     className: "modal-button email-upsell-btn",
-                    variant: uK.Button.variants.cta,
-                    size: uK.Button.sizes.medium,
+                    variant: uF.Button.variants.cta,
+                    size: uF.Button.sizes.medium,
                     isDisabled: u,
                     onClick: function () {
                       C();
@@ -24051,24 +24033,24 @@
             v
           ];
         };
-        function ph(e, t) {
+        function pp(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var pv = (0, D.withTranslations)(
+        var py = (0, D.withTranslations)(
           function (e) {
             var t,
               r = e.translate,
               n = e.onHide,
-              o = dV(),
-              a = q(dU),
-              i = q(fG),
-              l = q(f$),
+              o = dL(),
+              a = q(dM),
+              i = q(fz),
+              l = q(fq),
               c =
                 (function (e) {
                   if (Array.isArray(e)) return e;
-                })((t = pm(r, n))) ||
+                })((t = pd(r, n))) ||
                 (function (e) {
                   var t,
                     r,
@@ -24100,7 +24082,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return ph(e, 2);
+                    if ("string" == typeof e) return pp(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -24108,7 +24090,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return ph(e, 2);
+                      return pp(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -24133,7 +24115,7 @@
                   a.isEmailAdded &&
                     (s.close(),
                     o(
-                      fR({ featureName: i, ampFeatureCheckData: l, successfulAction: "AddedEmail" })
+                      fD({ featureName: i, ampFeatureCheckData: l, successfulAction: "AddedEmail" })
                     ));
                 },
                 [a]
@@ -24143,7 +24125,7 @@
           },
           { common: ["CommonUI.Controls"], feature: "Feature.VerificationUpsell" }
         );
-        function pb(e, t) {
+        function pm(e, t) {
           if (e) {
             var r = new A.Intl().getLocale(),
               n = e;
@@ -24152,14 +24134,14 @@
               (window.location.href = n));
           }
         }
-        var pg = function () {
-            return (0, P.jsx)(uK.Loading, {});
+        var ph = function () {
+            return (0, P.jsx)(uF.Loading, {});
           },
-          pw = (((s = pw || {}).IdvAppeal = "IdvAppeal"), s),
-          pS = function (e) {
+          pv = (((s = pv || {}).IdvAppeal = "IdvAppeal"), s),
+          pb = function (e) {
             var t = e.translate,
               r = e.onHide,
-              n = q(dm),
+              n = q(dd),
               o = n.completionPageState,
               a = n.status,
               i = n.vendorVerificationData,
@@ -24170,10 +24152,10 @@
               f = o.icon,
               d = o.footerText,
               p = o.buttonText,
-              y = (null == a ? void 0 : a.sessionStatus) === f1.Failure || l;
+              y = (null == a ? void 0 : a.sessionStatus) === fQ.Failure || l;
             return (0, P.jsxs)(k().Fragment, {
               children: [
-                (0, P.jsx)(uK.Modal.Header, {
+                (0, P.jsx)(uF.Modal.Header, {
                   useBaseBootstrapComponent: !0,
                   children: (0, P.jsxs)("div", {
                     className: "email-upsell-title-container",
@@ -24184,14 +24166,14 @@
                         onClick: r,
                         children: (0, P.jsx)("span", { className: "close icon-close" })
                       }),
-                      (0, P.jsx)(uK.Modal.Title, {
+                      (0, P.jsx)(uF.Modal.Title, {
                         id: "contained-modal-title-vcenter",
                         children: t(u)
                       })
                     ]
                   })
                 }),
-                (0, P.jsxs)(uK.Modal.Body, {
+                (0, P.jsxs)(uF.Modal.Body, {
                   children: [
                     f && (0, P.jsx)("div", { className: f }),
                     (0, P.jsx)("ul", {
@@ -24202,7 +24184,7 @@
                     })
                   ]
                 }),
-                (0, P.jsxs)(uK.Modal.Footer, {
+                (0, P.jsxs)(uF.Modal.Footer, {
                   children: [
                     d &&
                       (0, P.jsx)("p", {
@@ -24212,10 +24194,10 @@
                     (0, P.jsx)(
                       "span",
                       {
-                        children: (0, P.jsx)(uK.Button, {
+                        children: (0, P.jsx)(uF.Button, {
                           className: "button-stack-button primary-link",
-                          variant: uK.Button.variants.primary,
-                          size: uK.Button.sizes.medium,
+                          variant: uF.Button.variants.primary,
+                          size: uF.Button.sizes.medium,
                           onClick: r,
                           children: t(p)
                         })
@@ -24227,19 +24209,19 @@
               ]
             });
           },
-          pO = function (e) {
+          pg = function (e) {
             var t = e.translate,
               r = e.onHide,
-              n = q(dm),
+              n = q(dd),
               o = n.status,
               a = n.vendorVerificationData,
               i = o.sessionStatus,
-              l = f7.findIndex(function (e) {
+              l = f6.findIndex(function (e) {
                 return e.statusCode.includes(i);
               });
             return (0, P.jsxs)(k().Fragment, {
               children: [
-                (0, P.jsx)(uK.Modal.Header, {
+                (0, P.jsx)(uF.Modal.Header, {
                   useBaseBootstrapComponent: !0,
                   children: (0, P.jsxs)("div", {
                     className: "email-upsell-title-container",
@@ -24250,27 +24232,27 @@
                         onClick: r,
                         children: (0, P.jsx)("span", { className: "close icon-close" })
                       }),
-                      (0, P.jsx)(uK.Modal.Title, {
+                      (0, P.jsx)(uF.Modal.Title, {
                         id: "contained-modal-title-vcenter",
                         children: t("Heading.IdentityVerification")
                       })
                     ]
                   })
                 }),
-                (0, P.jsxs)(uK.Modal.Body, {
+                (0, P.jsxs)(uF.Modal.Body, {
                   className: "verification-checklist-page-content",
                   children: [
                     (0, P.jsx)("div", {
                       className: "cta",
                       children: t(
-                        i === f1.Success || i === f1.Stored || i === f1.Submitted
+                        i === fQ.Success || i === fQ.Stored || i === fQ.Submitted
                           ? "Label.VerificationDataSubmitted"
                           : "Label.VerifyInBrowser"
                       )
                     }),
                     (0, P.jsx)("ul", {
                       className: "checklist-wrapper",
-                      children: f7.map(function (e, r) {
+                      children: f6.map(function (e, r) {
                         return r <= l
                           ? (0, P.jsxs)("li", {
                               className: "checklist-item",
@@ -24294,16 +24276,16 @@
                       href: a.verificationLink,
                       target: "_blank",
                       rel: "noreferrer",
-                      children: (0, P.jsx)(uK.Button, {
+                      children: (0, P.jsx)(uF.Button, {
                         onClick: function () {
-                          fA(fj.VerificationStarted, di.GovernmentId, {
+                          fj(fO.VerificationStarted, dr.GovernmentId, {
                             session: a.sessionIdentifier
                           });
                         },
                         className: "primary-link",
-                        variant: uK.Button.variants.primary,
-                        size: uK.Button.sizes.medium,
-                        width: uK.Button.widths.full,
+                        variant: uF.Button.variants.primary,
+                        size: uF.Button.sizes.medium,
+                        width: uF.Button.widths.full,
                         children: t("Action.RestartSession")
                       })
                     }),
@@ -24316,7 +24298,7 @@
               ]
             });
           },
-          px = function (e) {
+          pw = function (e) {
             var t,
               r,
               n = e.translate,
@@ -24326,14 +24308,14 @@
               l = e.featureSpecificParams,
               c = (0, T.useRef)(Number(new Date()) + 18e5),
               u = (null == l ? void 0 : l.source) === "parent",
-              s = dV(),
-              f = q(dm),
-              d = q(dh),
-              p = q(fG),
-              y = q(fZ),
-              m = q(f$),
-              h = q(fJ),
-              v = q(dm).page,
+              s = dL(),
+              f = q(dd),
+              d = q(dp),
+              p = q(fz),
+              y = q(fY),
+              m = q(fq),
+              h = q(fH),
+              v = q(dd).page,
               b = (0, T.useRef)(v),
               g = (0, T.useRef)(!1),
               w = (0, T.useRef)(!1),
@@ -24347,19 +24329,19 @@
               N = C.sessionIdentifier,
               M = C.sessionToken,
               R = C.verificationLink,
-              L = i === pw.IdvAppeal,
+              L = i === pv.IdvAppeal,
               U =
-                (null == I ? void 0 : I.sessionStatus) === f1.Success ||
-                (null == I ? void 0 : I.sessionStatus) === f1.Stored,
+                (null == I ? void 0 : I.sessionStatus) === fQ.Success ||
+                (null == I ? void 0 : I.sessionStatus) === fQ.Stored,
               F = (0, D.useTheme)();
             function V() {
               var e;
-              (s(dS()), clearTimeout(null != (e = S.current) ? e : void 0), o());
+              (s(db()), clearTimeout(null != (e = S.current) ? e : void 0), o());
             }
             (0, T.useEffect)(function () {
               return (
-                s(dO(!0)),
-                s(dv({ ageEstimation: a, parentVerification: u, template: i })),
+                s(dg(!0)),
+                s(dy({ ageEstimation: a, parentVerification: u, template: i })),
                 j && (c.current = Number(new Date()) + 18e5),
                 function () {
                   if (S.current) {
@@ -24371,23 +24353,23 @@
               );
             }, []);
             var W = null;
-            if (j || v === da.Complete)
+            if (j || v === dt.Complete)
               switch (v) {
-                case da.VendorLink:
-                  W = (0, P.jsx)(pg, {});
+                case dt.VendorLink:
+                  W = (0, P.jsx)(ph, {});
                   break;
-                case da.Checklist:
-                  W = (0, P.jsx)(pO, { translate: n, onHide: V });
+                case dt.Checklist:
+                  W = (0, P.jsx)(pg, { translate: n, onHide: V });
                   break;
-                case da.Complete:
-                  W = L && U ? (0, P.jsx)(pg, {}) : (0, P.jsx)(pS, { translate: n, onHide: V });
+                case dt.Complete:
+                  W = L && U ? (0, P.jsx)(ph, {}) : (0, P.jsx)(pb, { translate: n, onHide: V });
                   break;
                 default:
-                  W = (0, P.jsx)(pg, {});
+                  W = (0, P.jsx)(ph, {});
               }
             return ((0, T.useEffect)(
               function () {
-                j && N && null != R && !w.current && ((w.current = !0), pb(R));
+                j && N && null != R && !w.current && ((w.current = !0), pm(R));
               },
               [j, N, R]
             ),
@@ -24396,18 +24378,18 @@
                 j &&
                   !f.loading &&
                   null != C.verificationLink &&
-                  f.page !== da.Complete &&
+                  f.page !== dt.Complete &&
                   Number(new Date()) < c.current &&
                   setTimeout(function () {
-                    s(db(C.sessionIdentifier));
+                    s(dm(C.sessionIdentifier));
                   }, 1e4);
               },
               [f]
             ),
             (0, T.useEffect)(
               function () {
-                v === da.Complete &&
-                  s(fR({ featureName: p, ampFeatureCheckData: m, namespace: y }));
+                v === dt.Complete &&
+                  s(fD({ featureName: p, ampFeatureCheckData: m, namespace: y }));
               },
               [v]
             ),
@@ -24415,8 +24397,8 @@
               function () {
                 var e;
                 L &&
-                  v === da.Complete &&
-                  (null == h || null == (e = h.data) ? void 0 : e.access) === fC.Granted &&
+                  v === dt.Complete &&
+                  (null == h || null == (e = h.data) ? void 0 : e.access) === fx.Granted &&
                   !O.current &&
                   ((O.current = !0), V());
               },
@@ -24462,16 +24444,16 @@
                       {
                         onReady: function () {
                           var e;
-                          (null == (e = x.current) || e.open(), s(dO(!1)));
+                          (null == (e = x.current) || e.open(), s(dg(!1)));
                         },
                         onComplete: function (e) {
                           if ((e.inquiryId, e.status, e.fields, !g.current)) {
-                            (s(dO(!0)), (g.current = !0));
+                            (s(dg(!0)), (g.current = !0));
                             var t = setInterval(function () {
-                              b.current !== da.Complete && s(db(N));
+                              b.current !== dt.Complete && s(dm(N));
                             }, 5e3);
                             S.current = setTimeout(function () {
-                              (clearInterval(t), s(dO(!1)));
+                              (clearInterval(t), s(dg(!1)));
                             }, 3e4);
                           }
                         },
@@ -24479,7 +24461,7 @@
                           V();
                         },
                         onError: function (e) {
-                          (s(db(C.sessionIdentifier)), console.error(e));
+                          (s(dm(C.sessionIdentifier)), console.error(e));
                         }
                       }),
                     Object.getOwnPropertyDescriptors
@@ -24501,15 +24483,15 @@
               [N]
             ),
             E && !d)
-              ? (0, P.jsx)(pS, { translate: n, onHide: V })
+              ? (0, P.jsx)(pb, { translate: n, onHide: V })
               : (0, P.jsx)(k().Fragment, {
-                  children: j || v === da.Complete ? W : d && (0, P.jsx)(pg, {})
+                  children: j || v === dt.Complete ? W : d && (0, P.jsx)(ph, {})
                 });
           },
-          pP = r(5741),
-          pj = function (e) {
+          pS = r(5741),
+          pO = function (e) {
             for (
-              var t = (0, pP.create)(e, { errorCorrectionLevel: "H" }),
+              var t = (0, pS.create)(e, { errorCorrectionLevel: "H" }),
                 r = t.modules.size,
                 n = "",
                 o = 0;
@@ -24520,19 +24502,19 @@
                 t.modules.get(o, a) && (n += "M".concat(a, " ").concat(o, "h1v1h-1z"));
             return { pathData: n, moduleCount: r };
           };
-        function pC(e, t) {
+        function px(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var pE = function (e) {
+        var pP = function (e) {
             var t = Math.round(0.25 * e),
               r = Math.max(7, t % 2 == 0 ? t - 1 : t),
               n = Math.max(1, Math.min(Math.floor((r - 5) / 2), Math.round((5 * e) / 176))),
               o = r - 2 * n;
             return { outer: r, inner: o, glyph: o - 2 };
           },
-          pA = function (e) {
+          pj = function (e) {
             var t,
               r = e.open,
               n = e.onOpenChange,
@@ -24577,7 +24559,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return pC(e, 2);
+                    if ("string" == typeof e) return px(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -24585,7 +24567,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return pC(e, 2);
+                      return px(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -24599,7 +24581,7 @@
               ((0, T.useEffect)(
                 function () {
                   try {
-                    d(pj(o));
+                    d(pO(o));
                   } catch (e) {
                     (console.error("Failed to generate QRDeepLinkDialog QR code", e), d(null));
                   }
@@ -24609,8 +24591,8 @@
               null === f)
             )
               return null;
-            var p = pE(f.moduleCount);
-            return (0, P.jsx)(uy, {
+            var p = pP(f.moduleCount);
+            return (0, P.jsx)(uf, {
               open: r,
               onOpenChange: n,
               isModal: !0,
@@ -24618,11 +24600,11 @@
               type: "Default",
               hasCloseAffordance: !0,
               closeLabel: c,
-              children: (0, P.jsx)(um, {
-                children: (0, P.jsxs)(uh, {
+              children: (0, P.jsx)(ud, {
+                children: (0, P.jsxs)(up, {
                   className: "flex flex-col",
                   children: [
-                    (0, P.jsx)(uv, {
+                    (0, P.jsx)(uy, {
                       className: "text-heading-small padding-bottom-small",
                       children: a
                     }),
@@ -24681,46 +24663,46 @@
               })
             });
           },
-          pI = "authPageload",
-          pT = "authButtonClick",
-          pk = "authFormInteraction",
-          pD = "authMsgShown",
-          pN = "authModalShown",
-          pM = "webEmbededFaeStart",
-          pR = "webEmbededFaeError",
-          pL = "webEmbededFaeCancel",
-          pU = "webFaeStatus",
-          pF = "webHostedFaeStart",
-          pV = "webQrCodeFaeStart",
-          pW = "webQrCodeFaeComplete",
-          pK = "webQrCodeFaeTimeout",
-          p_ = "webQrCodeFaeClose",
-          pB = "cancelFae",
-          pz = function (e, t, r) {
+          pC = "authPageload",
+          pE = "authButtonClick",
+          pA = "authFormInteraction",
+          pI = "authMsgShown",
+          pT = "authModalShown",
+          pk = "webEmbededFaeStart",
+          pD = "webEmbededFaeError",
+          pN = "webEmbededFaeCancel",
+          pM = "webFaeStatus",
+          pR = "webHostedFaeStart",
+          pL = "webQrCodeFaeStart",
+          pU = "webQrCodeFaeComplete",
+          pF = "webQrCodeFaeTimeout",
+          pV = "webQrCodeFaeClose",
+          pW = "cancelFae",
+          pK = function (e, t, r) {
             try {
-              fE.eventStreamService.sendEventWithTarget(e, t, r);
+              fP.eventStreamService.sendEventWithTarget(e, t, r);
             } catch (e) {}
           },
-          pq = function (e, t, r) {
-            pz(pN, e, { state: t, field: r, os_time: Date.now() });
+          p_ = function (e, t, r) {
+            pK(pT, e, { state: t, field: r, os_time: Date.now() });
           },
-          pH = function (e, t, r, n) {
-            pz(pT, e, { btn: r, state: t, origin: n, os_time: Date.now() });
+          pB = function (e, t, r, n) {
+            pK(pE, e, { btn: r, state: t, origin: n, os_time: Date.now() });
           },
-          pG = function (e, t, r) {
-            pz(pk, e, { state: t, field: r });
+          pz = function (e, t, r) {
+            pK(pA, e, { state: t, field: r });
           },
-          p$ = function (e, t, r, n) {
-            pz(pD, e, { state: t, field: r, errorCode: n });
+          pq = function (e, t, r, n) {
+            pK(pI, e, { state: t, field: r, errorCode: n });
           },
-          pJ = function (e, t, r) {
-            pz(pI, e, { state: t, origin: r, os_time: Date.now() });
+          pH = function (e, t, r) {
+            pK(pC, e, { state: t, origin: r, os_time: Date.now() });
           },
-          pY = function (e) {
+          pG = function (e) {
             var t = e.qrDataUrl,
               r = e.translate,
               n = e.onHide;
-            return (0, P.jsx)(uy, {
+            return (0, P.jsx)(uf, {
               open: !0,
               onOpenChange: function (e) {
                 e || n();
@@ -24729,15 +24711,15 @@
               isModal: !0,
               hasCloseAffordance: !0,
               closeLabel: r("Action.Close") || "Close",
-              children: (0, P.jsx)(um, {
-                children: (0, P.jsxs)(uh, {
+              children: (0, P.jsx)(ud, {
+                children: (0, P.jsxs)(up, {
                   children: [
                     (0, P.jsxs)("div", {
                       className: "fae-qr-code-header",
                       children: [
                         (0, P.jsx)("h5", {
                           className: "fae-qr-code-heading",
-                          children: r(de) || "Let's check your age on the mobile app"
+                          children: r(f4) || "Let's check your age on the mobile app"
                         }),
                         (0, P.jsx)("p", {
                           className: "fae-qr-code-subheading",
@@ -24761,7 +24743,7 @@
                             (0, P.jsx)("p", {
                               className: "fae-qr-code-scan-instruction",
                               children:
-                                r(dt) ||
+                                r(f7) ||
                                 "Scan this QR code with your phone or tablet camera to complete an age check"
                             }),
                             (0, P.jsx)("div", { className: "fae-qr-code-divider" }),
@@ -24773,7 +24755,7 @@
                                   children: r("Label.NotScanning") || "Not scanning?"
                                 }),
                                 " ",
-                                r(dr) ||
+                                r(f9) ||
                                   "Download the Roblox app on your mobile device and go to Settings > Account Info"
                               ]
                             })
@@ -24786,12 +24768,12 @@
               })
             });
           };
-        function pX(e, t) {
+        function p$(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function pQ(e, t, r, n, o, a, i) {
+        function pJ(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -24801,7 +24783,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function pZ(e, t) {
+        function pY(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -24835,7 +24817,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return pX(e, t);
+                if ("string" == typeof e) return p$(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -24843,7 +24825,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return pX(e, t);
+                  return p$(e, t);
               }
             })(e, t) ||
             (function () {
@@ -24853,24 +24835,24 @@
             })()
           );
         }
-        var p0 = "AgeEstimation",
-          p1 = function (e) {
+        var pX = "AgeEstimation",
+          pQ = function (e) {
             var t = e.translate,
               r = e.onHidecallback,
               n = e.featureSpecificParams,
-              o = dV(),
-              a = q(fG),
-              i = q(fZ),
-              l = q(f$),
-              c = q(fJ),
+              o = dL(),
+              a = q(fz),
+              i = q(fY),
+              l = q(fq),
+              c = q(fH),
               u = (0, T.useRef)(c);
             u.current = c;
             var s = (0, T.useRef)(null),
               f = (0, T.useRef)(Date.now() + 18e5),
-              d = pZ((0, T.useState)(null), 2),
+              d = pY((0, T.useState)(null), 2),
               p = d[0],
               y = d[1],
-              m = pZ((0, T.useState)(!1), 2),
+              m = pY((0, T.useState)(!1), 2),
               h = m[0],
               v = m[1],
               b = (n || {}).context,
@@ -24982,7 +24964,7 @@
                           e.trys.push([0, 2, , 3]),
                           [
                             4,
-                            (0, pP.toDataURL)("https://ro.blox.com/Ebh5/fae", {
+                            (0, pS.toDataURL)("https://ro.blox.com/Ebh5/fae", {
                               errorCorrectionLevel: "H",
                               margin: 1,
                               width: 268
@@ -24990,7 +24972,7 @@
                           ]
                         );
                       case 1:
-                        return (y(e.sent()), pJ(g, "", pV), [3, 3]);
+                        return (y(e.sent()), pH(g, "", pL), [3, 3]);
                       case 2:
                         return (
                           console.error("Failed to generate FAE QR code:", e.sent()),
@@ -25008,10 +24990,10 @@
                   return new Promise(function (n, o) {
                     var a = e.apply(t, r);
                     function i(e) {
-                      pQ(a, n, o, i, l, "next", e);
+                      pJ(a, n, o, i, l, "next", e);
                     }
                     function l(e) {
-                      pQ(a, n, o, i, l, "throw", e);
+                      pJ(a, n, o, i, l, "throw", e);
                     }
                     i(void 0);
                   });
@@ -25027,18 +25009,18 @@
                   f.current = Date.now() + 18e5;
                   var e = function () {
                     o(
-                      fR({
+                      fD({
                         featureName: a,
                         ampFeatureCheckData: l,
                         namespace: i,
-                        successfulAction: p0
+                        successfulAction: pX
                       })
                     );
                   };
                   (e(),
                     (s.current = setInterval(function () {
                       if (Date.now() >= f.current) {
-                        (w(), pJ(g, "", pK), r());
+                        (w(), pH(g, "", pF), r());
                         return;
                       }
                       var t,
@@ -25046,14 +25028,14 @@
                         o,
                         a = u.current,
                         i =
-                          (null == a || null == (t = a.data) ? void 0 : t.access) === fC.Actionable;
+                          (null == a || null == (t = a.data) ? void 0 : t.access) === fx.Actionable;
                       (null == a || null == (o = a.data) || null == (n = o.recourses)
                         ? void 0
                         : n.find(function (e) {
-                            return e.action === p0;
+                            return e.action === pX;
                           })) && i
                         ? e()
-                        : (w(), pJ(g, "", pW), r());
+                        : (w(), pH(g, "", pU), r());
                     }, 5e3)));
                 }
               },
@@ -25068,21 +25050,21 @@
             h)
               ? null
               : p
-                ? (0, P.jsx)(pY, {
+                ? (0, P.jsx)(pG, {
                     qrDataUrl: p,
                     translate: t,
                     onHide: function () {
-                      (w(), pJ(g, "", p_), r());
+                      (w(), pH(g, "", pV), r());
                     }
                   })
-                : (0, P.jsx)(pg, {});
+                : (0, P.jsx)(ph, {});
           };
-        function p2(e, t) {
+        function pZ(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function p3(e, t, r, n, o, a, i) {
+        function p0(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -25092,7 +25074,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        var p5 = function (e) {
+        var p1 = function (e) {
             var t;
             return ((t = function () {
               return (function (e, t) {
@@ -25209,16 +25191,16 @@
               return new Promise(function (n, o) {
                 var a = t.apply(e, r);
                 function i(e) {
-                  p3(a, n, o, i, l, "next", e);
+                  p0(a, n, o, i, l, "next", e);
                 }
                 function l(e) {
-                  p3(a, n, o, i, l, "throw", e);
+                  p0(a, n, o, i, l, "throw", e);
                 }
                 i(void 0);
               });
             })();
           },
-          p6 = function (e) {
+          p2 = function (e) {
             var t,
               r =
                 (function (e) {
@@ -25255,7 +25237,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return p2(e, 2);
+                    if ("string" == typeof e) return pZ(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -25263,7 +25245,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return p2(e, 2);
+                      return pZ(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -25276,7 +25258,7 @@
             return (
               (0, T.useEffect)(
                 function () {
-                  p5(e).then(
+                  p1(e).then(
                     function (e) {
                       o(e);
                     },
@@ -25290,14 +25272,14 @@
               n
             );
           },
-          p8 = "Safety.Identity.FAEHandOff.V1",
-          p4 = (((f = p4 || {}).Embedded = "EMBEDDED"), (f.Hosted = "HOSTED"), f);
-        function p7(e, t) {
+          p3 = "Safety.Identity.FAEHandOff.V1",
+          p5 = (((f = p5 || {}).Embedded = "EMBEDDED"), (f.Hosted = "HOSTED"), f);
+        function p6(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function p9(e, t, r, n, o, a, i) {
+        function p8(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -25307,22 +25289,22 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        var ye = "dark",
-          yt = "AgeEstimation";
-        function yr(e) {
+        var p4 = "dark",
+          p7 = "AgeEstimation";
+        function p9(e) {
           var t,
             r,
             n = e.translate,
             o = e.onHidecallback,
             a = e.ageEstimation,
             i = e.featureSpecificParams,
-            l = dV(),
-            c = q(dm),
-            u = q(dh),
-            s = q(fG),
-            f = q(fZ),
-            d = q(f$),
-            p = q(fJ),
+            l = dL(),
+            c = q(dd),
+            u = q(dp),
+            s = q(fz),
+            f = q(fY),
+            d = q(fq),
+            p = q(fH),
             y = c.vendorVerificationData,
             m = c.status,
             h = c.error,
@@ -25347,8 +25329,8 @@
             F = (0, D.useTheme)(),
             V =
               null != (t = null == (r = (0, eP.getDeviceMeta)()) ? void 0 : r.isInApp) && t
-                ? p4.Hosted
-                : p4.Embedded,
+                ? p5.Hosted
+                : p5.Embedded,
             W = function () {
               O.current && (clearInterval(O.current), (O.current = null));
             },
@@ -25358,14 +25340,14 @@
           function _(e) {
             return (
               !!e &&
-              (e.sessionStatus === f1.Stored ||
-                e.sessionStatus === f1.RequiresRetry ||
-                e.sessionStatus === f1.Failure)
+              (e.sessionStatus === fQ.Stored ||
+                e.sessionStatus === fQ.RequiresRetry ||
+                e.sessionStatus === fQ.Failure)
             );
           }
           function B() {
             var e;
-            (W(), K(), l(dS()), clearTimeout(null != (e = x.current) ? e : void 0));
+            (W(), K(), l(db()), clearTimeout(null != (e = x.current) ? e : void 0));
           }
           function z() {
             (B(), o());
@@ -25373,15 +25355,15 @@
           return (
             (0, T.useEffect)(function () {
               return (
-                l(dO(!0)),
-                l(dv({ ageEstimation: a, parentVerification: w })),
-                V === p4.Embedded &&
+                l(dg(!0)),
+                l(dy({ ageEstimation: a, parentVerification: w })),
+                V === p5.Embedded &&
                   eS()
                     .Client.preload()
                     .catch(function (e) {
                       console.error("Failed to preload Persona client:", e);
                     }),
-                V === p4.Hosted && (I.current = Number(new Date()) + 18e5),
+                V === p5.Hosted && (I.current = Number(new Date()) + 18e5),
                 function () {
                   (B(), W(), R.current && (R.current.destroy(), (R.current = null)));
                 }
@@ -25390,7 +25372,7 @@
             (0, T.useEffect)(
               function () {
                 var e, t, r, n;
-                V === p4.Embedded && L
+                V === p5.Embedded && L
                   ? ((e = new A.Intl().getLocale()),
                     (R.current = new (eS().Client)(
                       ((t = (function (e) {
@@ -25417,30 +25399,30 @@
                             }));
                         }
                         return e;
-                      })({ inquiryId: L, styleVariant: F || ye }, e && { language: e })),
+                      })({ inquiryId: L, styleVariant: F || p4 }, e && { language: e })),
                       (r = r =
                         {
                           onReady: function () {
                             var e;
-                            (null == (e = R.current) || e.open(), pq(g, L, pM), l(dO(!1)));
+                            (null == (e = R.current) || e.open(), p_(g, L, pk), l(dg(!1)));
                           },
                           onComplete: function (e) {
                             if ((e.inquiryId, e.status, e.fields, !S.current)) {
-                              (l(dO(!0)), (S.current = !0));
+                              (l(dg(!0)), (S.current = !0));
                               var t = setInterval(function () {
-                                _(N.current) ? clearInterval(t) : l(db(L));
+                                _(N.current) ? clearInterval(t) : l(dm(L));
                               }, 200);
                               x.current = setTimeout(function () {
-                                (clearInterval(t), l(dS()), z());
+                                (clearInterval(t), l(db()), z());
                               }, 3e4);
                             }
                           },
                           onCancel: function (e) {
                             var t = e.inquiryId;
-                            (e.sessionToken, pH(g, t, pB, pL), z());
+                            (e.sessionToken, pB(g, t, pW, pN), z());
                           },
                           onError: function (e) {
-                            (l(db(y.sessionIdentifier)), pG(g, L, pR), console.error(e));
+                            (l(dm(y.sessionIdentifier)), pz(g, L, pD), console.error(e));
                           }
                         }),
                       Object.getOwnPropertyDescriptors
@@ -25457,16 +25439,16 @@
                           }),
                       t)
                     )))
-                  : V === p4.Hosted &&
+                  : V === p5.Hosted &&
                     L &&
                     null != U &&
                     ((O.current = n =
                       setInterval(function () {
                         Number(new Date()) < I.current
-                          ? l(db(y.sessionIdentifier))
+                          ? l(dm(y.sessionIdentifier))
                           : (clearInterval(n), o());
                       }, 1e4)),
-                    y.verificationLink && (pJ(g, L, pF), pb(y.verificationLink, F || ye)));
+                    y.verificationLink && (pH(g, L, pR), pm(y.verificationLink, F || p4)));
               },
               [L, U]
             ),
@@ -25477,15 +25459,15 @@
                     if (!E.current) {
                       ((E.current = !0),
                         (C.current = Number(new Date()) + 1e4),
-                        l(dO(!0)),
-                        p$(g, L, pU, f1[m.sessionStatus]));
+                        l(dg(!0)),
+                        pq(g, L, pM, fQ[m.sessionStatus]));
                       var e = function () {
                         l(
-                          fR({
+                          fD({
                             featureName: s,
                             ampFeatureCheckData: d,
                             namespace: f,
-                            successfulAction: yt
+                            successfulAction: p7
                           })
                         );
                       };
@@ -25497,19 +25479,19 @@
                           a = M.current,
                           i =
                             (null == a || null == (r = a.data) ? void 0 : r.access) ===
-                            fC.Actionable,
+                            fx.Actionable,
                           c =
                             null == a || null == (o = a.data) || null == (n = o.recourses)
                               ? void 0
                               : n.find(function (e) {
-                                  return e.action === yt;
+                                  return e.action === p7;
                                 }),
                           u = Number(new Date()) >= C.current;
                         c
                           ? !i || u
-                            ? (clearInterval(t), (j.current = null), l(dO(!1)), z())
+                            ? (clearInterval(t), (j.current = null), l(dg(!1)), z())
                             : e()
-                          : (clearInterval(t), (j.current = null), l(dO(!1)), B());
+                          : (clearInterval(t), (j.current = null), l(dg(!1)), B());
                       }, 1e3);
                       j.current = t;
                     }
@@ -25522,7 +25504,7 @@
                 if (E.current && (null == p || !p.loading)) {
                   var e,
                     t = null == p || null == (e = p.data) ? void 0 : e.access;
-                  j.current && t && t !== fC.Actionable && (K(), l(dO(!1)), z());
+                  j.current && t && t !== fx.Actionable && (K(), l(dg(!1)), z());
                 }
               },
               [p]
@@ -25530,14 +25512,14 @@
             (0, P.jsx)(k().Fragment, {
               children:
                 (y.daysUntilNextVerification > 0 && v) || (h && !u)
-                  ? (0, P.jsx)(pS, { translate: n, onHide: z })
+                  ? (0, P.jsx)(pb, { translate: n, onHide: z })
                   : u
-                    ? (0, P.jsx)(pg, {})
+                    ? (0, P.jsx)(ph, {})
                     : null
             })
           );
         }
-        var yn = function (e) {
+        var ye = function (e) {
             var t,
               r,
               n,
@@ -25545,13 +25527,13 @@
               a = e.onHidecallback,
               i = e.ageEstimation,
               l = e.featureSpecificParams,
-              c = dV(),
+              c = dL(),
               u = null != (r = null == (n = (0, eP.getDeviceMeta)()) ? void 0 : n.isInApp) && r,
-              s = q(fG),
-              f = q(fZ),
-              d = q(f$),
-              p = q(fJ),
-              y = p6(p8),
+              s = q(fz),
+              f = q(fY),
+              d = q(fq),
+              p = q(fH),
+              y = p2(p3),
               m = null !== y,
               h = !!(null == y ? void 0 : y.isFaeQrCodeEnabled),
               v = (null == l ? void 0 : l.source) === "accountInfo",
@@ -25590,7 +25572,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return p7(e, 2);
+                    if ("string" == typeof e) return p6(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -25598,7 +25580,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return p7(e, 2);
+                      return p6(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -25738,7 +25720,7 @@
                         [4, A.DeepLinkService.navigateToDeepLink(u)]
                       );
                     case 3:
-                      return (m.sent(), window.dispatchEvent(new Event(dK)), a(), [2]);
+                      return (m.sent(), window.dispatchEvent(new Event(dF)), a(), [2]);
                     case 4:
                       return (
                         (o || i) &&
@@ -25746,7 +25728,7 @@
                           ((d = new URLSearchParams({
                             feature_name: s,
                             entry_point: "web",
-                            user_id: String((0, iF.userId)())
+                            user_id: String((0, iR.userId)())
                           })),
                           f && d.set("namespace", f),
                           (y = new URLSearchParams({
@@ -25772,10 +25754,10 @@
                 return new Promise(function (n, o) {
                   var a = e.apply(t, r);
                   function i(e) {
-                    p9(a, n, o, i, l, "next", e);
+                    p8(a, n, o, i, l, "next", e);
                   }
                   function l(e) {
-                    p9(a, n, o, i, l, "throw", e);
+                    p8(a, n, o, i, l, "throw", e);
                   }
                   i(void 0);
                 });
@@ -25787,21 +25769,21 @@
                   (null === A.ExperimentationService || void 0 === A.ExperimentationService
                     ? void 0
                     : A.ExperimentationService.logLayerExposure) &&
-                  A.ExperimentationService.logLayerExposure(p8);
+                  A.ExperimentationService.logLayerExposure(p3);
               },
               [m]
             ),
             (0, T.useEffect)(
               function () {
                 if (g && !j.current) {
-                  (pJ(O, "", pV), (C.current = Date.now() + 18e5));
+                  (pH(O, "", pL), (C.current = Date.now() + 18e5));
                   var e = function () {
                     c(
-                      fR({
+                      fD({
                         featureName: s,
                         ampFeatureCheckData: d,
                         namespace: f,
-                        successfulAction: yt
+                        successfulAction: p7
                       })
                     );
                   };
@@ -25809,7 +25791,7 @@
                     e(),
                     (j.current = setInterval(function () {
                       if (Date.now() >= C.current) {
-                        (E(), pJ(O, "", pK), a());
+                        (E(), pH(O, "", pF), a());
                         return;
                       }
                       var t,
@@ -25817,14 +25799,14 @@
                         n,
                         o = x.current,
                         i =
-                          (null == o || null == (t = o.data) ? void 0 : t.access) === fC.Actionable;
+                          (null == o || null == (t = o.data) ? void 0 : t.access) === fx.Actionable;
                       (null == o || null == (n = o.data) || null == (r = n.recourses)
                         ? void 0
                         : r.find(function (e) {
-                            return e.action === yt;
+                            return e.action === p7;
                           })) && i
                         ? e()
-                        : (E(), pJ(O, "", pW), a());
+                        : (E(), pH(O, "", pU), a());
                     }, 5e3)),
                     function () {
                       return E();
@@ -25835,39 +25817,39 @@
               [g]
             ),
             g)
-              ? (0, P.jsx)(pA, {
+              ? (0, P.jsx)(pj, {
                   open: !0,
                   onOpenChange: function (e) {
-                    e || (E(), pJ(O, "", p_), a());
+                    e || (E(), pH(O, "", pV), a());
                   },
                   deeplink: g,
-                  title: o(de) || "Let's check your age on the mobile app",
+                  title: o(f4) || "Let's check your age on the mobile app",
                   description:
-                    o(dt) ||
+                    o(f7) ||
                     "Scan this QR code with your phone or tablet camera to complete an age check",
                   footer:
-                    o(dr) ||
+                    o(f9) ||
                     "Download the Roblox app on your mobile device and go to Settings > Account Info",
                   closeAffordance: o("Action.Close") || "Close"
                 })
               : m
                 ? !u && h && v
-                  ? (0, P.jsx)(p1, { translate: o, onHidecallback: a, featureSpecificParams: l })
-                  : (0, P.jsx)(yr, {
+                  ? (0, P.jsx)(pQ, { translate: o, onHidecallback: a, featureSpecificParams: l })
+                  : (0, P.jsx)(p9, {
                       translate: o,
                       onHidecallback: a,
                       ageEstimation: i,
                       featureSpecificParams: l
                     })
-                : (0, P.jsx)(pg, {});
+                : (0, P.jsx)(ph, {});
           },
-          yo = (((d = yo || {}).Appeals = "appeals"), d);
-        function ya(e, t) {
+          yt = (((d = yt || {}).Appeals = "appeals"), d);
+        function yr(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var yi = function (e) {
+        var yn = function (e) {
             var t,
               r = e.translate,
               n = e.title,
@@ -25919,7 +25901,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return ya(e, 2);
+                    if ("string" == typeof e) return yr(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -25927,7 +25909,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return ya(e, 2);
+                      return yr(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -25949,7 +25931,7 @@
               }, []),
               S = tY()({ "modal-half-width-button": l, "modal-full-width-button": !l });
             return [
-              (0, P.jsxs)(uK.Modal, {
+              (0, P.jsxs)(uF.Modal, {
                 show: b,
                 onHide: function () {
                   (w.close(), m());
@@ -25961,12 +25943,12 @@
                 scrollable: !0,
                 centered: !0,
                 children: [
-                  (0, P.jsxs)(uK.Modal.Header, {
+                  (0, P.jsxs)(uF.Modal.Header, {
                     useBaseBootstrapComponent: !0,
                     children: [
                       (0, P.jsx)("div", {
                         className: "access-management-upsell-inner-modal-title-container",
-                        children: (0, P.jsx)(uK.Modal.Title, {
+                        children: (0, P.jsx)(uF.Modal.Title, {
                           id: "access-management-upsell-inner-modal-title",
                           children: n
                         })
@@ -25981,14 +25963,14 @@
                       })
                     ]
                   }),
-                  (0, P.jsx)(uK.Modal.Body, { children: o }),
-                  (0, P.jsxs)(uK.Modal.Footer, {
+                  (0, P.jsx)(uF.Modal.Body, { children: o }),
+                  (0, P.jsxs)(uF.Modal.Footer, {
                     children: [
                       i &&
-                        (0, P.jsx)(uK.Button, {
+                        (0, P.jsx)(uF.Button, {
                           className: S,
-                          variant: uK.Button.variants.primary,
-                          size: uK.Button.sizes.medium,
+                          variant: uF.Button.variants.primary,
+                          size: uF.Button.sizes.medium,
                           isDisabled: f,
                           onClick: function () {
                             (null == s || s(), w.close());
@@ -25996,13 +25978,13 @@
                           children: r(i)
                         }),
                       l &&
-                        (0, P.jsx)(uK.Button, {
+                        (0, P.jsx)(uF.Button, {
                           className: S,
                           variant:
                             void 0 !== p && p
-                              ? uK.Button.variants.primary
-                              : uK.Button.variants.secondary,
-                          size: uK.Button.sizes.medium,
+                              ? uF.Button.variants.primary
+                              : uF.Button.variants.secondary,
+                          size: uF.Button.sizes.medium,
                           isDisabled: d,
                           onClick: function () {
                             (null == h || h(), w.close());
@@ -26022,206 +26004,206 @@
               w
             ];
           },
-          yl = "U13To18",
-          yc = "U13To1318",
-          yu = "U13ToU13",
-          ys = "U13ToU13NotEligible",
-          yf = "Verify Your Age/Parent Permission Needed",
-          yd = "Parent Permission Needed",
-          yp = "Parent Permission Not Eligible",
-          yy = "Ask Your Parent",
-          ym = "Verify ID",
-          yh = "Email My Parent",
-          yv = "Ask Now",
-          yb = 'X icon or "Cancel"',
-          yg = "We need to check your age",
-          yw = "verifyId",
-          yS = "emailParent",
-          yO = "verifyCancel",
-          yx = "vpcNotEligibleModalClose",
-          yP = "vpcNotEligibleLearnMore",
-          yj = "askParent",
-          yC = "cancel",
-          yE = "settingsAgeChangeVerify",
-          yA = "settingsAgeChangeVpcNotEligible",
-          yI = "parentalEntrySettings",
-          yT = "vpcPrologue",
-          yk = "faePrologue",
-          yD = "authPageload",
-          yN = "authButtonClick",
-          yM = function (e, t) {
+          yo = "U13To18",
+          ya = "U13To1318",
+          yi = "U13ToU13",
+          yl = "U13ToU13NotEligible",
+          yc = "Verify Your Age/Parent Permission Needed",
+          yu = "Parent Permission Needed",
+          ys = "Parent Permission Not Eligible",
+          yf = "Ask Your Parent",
+          yd = "Verify ID",
+          yp = "Email My Parent",
+          yy = "Ask Now",
+          ym = 'X icon or "Cancel"',
+          yh = "We need to check your age",
+          yv = "verifyId",
+          yb = "emailParent",
+          yg = "verifyCancel",
+          yw = "vpcNotEligibleModalClose",
+          yS = "vpcNotEligibleLearnMore",
+          yO = "askParent",
+          yx = "cancel",
+          yP = "settingsAgeChangeVerify",
+          yj = "settingsAgeChangeVpcNotEligible",
+          yC = "parentalEntrySettings",
+          yE = "vpcPrologue",
+          yA = "faePrologue",
+          yI = "authPageload",
+          yT = "authButtonClick",
+          yk = function (e, t) {
             return ""
               .concat(e ? "".concat(e, ", ") : "")
               .concat(t ? "settingName: ".concat(t, ", ") : "");
           };
-        function yR(e, t) {
+        function yD(e, t) {
           "CanCorrectAge" === e &&
-            fE.eventStreamService.sendEventWithTarget(yN, yE, {
-              btn: yw,
-              state: t ? yl : yc,
-              associatedText: ym
+            fP.eventStreamService.sendEventWithTarget(yT, yP, {
+              btn: yv,
+              state: t ? yo : ya,
+              associatedText: yd
             });
         }
-        function yL(e, t, r, n, o) {
+        function yN(e, t, r, n, o) {
           ("CanCorrectAge" === e
-            ? fE.eventStreamService.sendEventWithTarget(yN, yE, {
-                btn: yS,
-                state: t ? yu : yc,
-                associatedText: yh
+            ? fP.eventStreamService.sendEventWithTarget(yT, yP, {
+                btn: yb,
+                state: t ? yi : ya,
+                associatedText: yp
               })
             : "CanChangeSetting" === e
-              ? fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                  btn: yS,
-                  state: yM(void 0, r),
-                  associatedText: yh
+              ? fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                  btn: yb,
+                  state: yk(void 0, r),
+                  associatedText: yp
                 })
               : "CanRemoveParentManagedUserBlocks" === e
-                ? fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                    btn: yS,
+                ? fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                    btn: yb,
                     state: "unblockUser ".concat(null == n ? void 0 : n.friendUserId),
-                    associatedText: yv
+                    associatedText: yy
                   })
                 : "CanRemoveParentManagedExperienceBlocks" === e &&
-                  fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                    btn: yS,
+                  fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                    btn: yb,
                     state: "unblockExperience ".concat(null == n ? void 0 : n.universeId),
-                    associatedText: yv
+                    associatedText: yy
                   }),
             t &&
               r &&
-              fE.eventStreamService.sendEventWithTarget(yN, yT, {
-                btn: yj,
-                state: yM(o, r),
-                associatedText: yv
+              fP.eventStreamService.sendEventWithTarget(yT, yE, {
+                btn: yO,
+                state: yk(o, r),
+                associatedText: yy
               }));
         }
-        function yU(e) {
+        function yM(e) {
           var t;
           switch (e) {
             case "Idv":
-              t = yl;
+              t = yo;
               break;
             case "Vpc":
-              t = yu;
+              t = yi;
               break;
             case "IdvOrVpc":
-              t = yc;
+              t = ya;
               break;
             case "VpcNotEligible":
-              t = ys;
+              t = yl;
           }
           return t;
         }
-        function yF(e, t, r, n, o) {
+        function yR(e, t, r, n, o) {
           if ("CanCorrectAge" === e) {
             var a,
-              i = yU(t);
-            fE.eventStreamService.sendEventWithTarget(yN, yE, {
-              btn: yO,
+              i = yM(t);
+            fP.eventStreamService.sendEventWithTarget(yT, yP, {
+              btn: yg,
               state: i,
-              associatedText: yb
+              associatedText: ym
             });
           } else
             "CanChangeSetting" === e
-              ? fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                  btn: yO,
-                  state: yM(void 0, r),
-                  associatedText: yb
+              ? fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                  btn: yg,
+                  state: yk(void 0, r),
+                  associatedText: ym
                 })
               : "CanRemoveParentManagedUserBlocks" === e
-                ? fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                    btn: yO,
+                ? fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                    btn: yg,
                     state: "unblockUser ".concat(null == n ? void 0 : n.friendUserId),
-                    associatedText: yb
+                    associatedText: ym
                   })
                 : "CanRemoveParentManagedExperienceBlocks" === e &&
-                  fE.eventStreamService.sendEventWithTarget(yN, yI, {
-                    btn: yO,
+                  fP.eventStreamService.sendEventWithTarget(yT, yC, {
+                    btn: yg,
                     state: "unblockExperience ".concat(null == n ? void 0 : n.universeId),
-                    associatedText: yb
+                    associatedText: ym
                   });
           if (r) {
             switch (t) {
               case "Vpc":
-                a = yT;
+                a = yE;
                 break;
               case "Fae":
-                a = yk;
+                a = yA;
             }
             a &&
-              fE.eventStreamService.sendEventWithTarget(yN, a, {
-                btn: yC,
-                state: yM(o, r),
-                associatedText: yb
+              fP.eventStreamService.sendEventWithTarget(yT, a, {
+                btn: yx,
+                state: yk(o, r),
+                associatedText: ym
               });
           }
         }
-        function yV(e, t, r, n, o) {
+        function yL(e, t, r, n, o) {
           if ("CanCorrectAge" === e) {
             var a,
               i,
-              l = yU(t);
-            fE.eventStreamService.sendEventWithTarget(yD, yE, { state: l, associatedText: yf });
+              l = yM(t);
+            fP.eventStreamService.sendEventWithTarget(yI, yP, { state: l, associatedText: yc });
           } else
             "CanChangeSetting" === e
-              ? fE.eventStreamService.sendEventWithTarget(yD, yI, {
-                  state: yM(void 0, r),
-                  associatedText: yd
+              ? fP.eventStreamService.sendEventWithTarget(yI, yC, {
+                  state: yk(void 0, r),
+                  associatedText: yu
                 })
               : "CanRemoveParentManagedUserBlocks" === e
-                ? fE.eventStreamService.sendEventWithTarget(yD, yI, {
+                ? fP.eventStreamService.sendEventWithTarget(yI, yC, {
                     state: "unblockUser ".concat(null == n ? void 0 : n.friendUserId),
-                    associatedText: yy
+                    associatedText: yf
                   })
                 : "CanRemoveParentManagedExperienceBlocks" === e &&
-                  fE.eventStreamService.sendEventWithTarget(yD, yI, {
+                  fP.eventStreamService.sendEventWithTarget(yI, yC, {
                     state: "unblockExperience ".concat(null == n ? void 0 : n.experienceId),
-                    associatedText: yy
+                    associatedText: yf
                   });
           if (r) {
             switch (t) {
               case "Vpc":
-                ((a = yT), (i = yy));
+                ((a = yE), (i = yf));
                 break;
               case "Fae":
-                ((a = yk), (i = yg));
+                ((a = yA), (i = yh));
             }
             a &&
-              fE.eventStreamService.sendEventWithTarget(yD, a, {
-                state: yM(o, r),
+              fP.eventStreamService.sendEventWithTarget(yI, a, {
+                state: yk(o, r),
                 associatedText: i
               });
           }
         }
-        function yW(e, t) {
+        function yU(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var yK = function (e) {
+        var yF = function (e) {
           var t,
             r = e.translate,
             n = e.onHide,
-            o = q(fG),
-            a = r(pa),
+            o = q(fz),
+            a = r(pr),
             i = (0, P.jsx)("div", {
-              children: (0, P.jsx)("div", { className: "text-description", children: r(pi) })
+              children: (0, P.jsx)("div", { className: "text-description", children: r(pn) })
             }),
             l =
               (function (e) {
                 if (Array.isArray(e)) return e;
               })(
-                (t = yi({
+                (t = yn({
                   translate: r,
                   title: a,
                   body: i,
-                  actionButtonTranslateKey: po,
+                  actionButtonTranslateKey: pt,
                   onAction: function () {
                     ("CanCorrectAge" === o &&
-                      fE.eventStreamService.sendEventWithTarget(yN, yA, {
-                        btn: yP,
-                        state: yu,
-                        associatedText: yp
+                      fP.eventStreamService.sendEventWithTarget(yT, yj, {
+                        btn: yS,
+                        state: yi,
+                        associatedText: ys
                       }),
                       window.open("https://help.roblox.com/hc/articles/30428367965460", "_blank"));
                   },
@@ -26229,10 +26211,10 @@
                   onHide: function () {
                     (n(),
                       "CanCorrectAge" === o &&
-                        fE.eventStreamService.sendEventWithTarget(yN, yA, {
-                          btn: yx,
-                          state: yu,
-                          associatedText: yp
+                        fP.eventStreamService.sendEventWithTarget(yT, yj, {
+                          btn: yw,
+                          state: yi,
+                          associatedText: ys
                         }),
                       u.close());
                   }
@@ -26269,7 +26251,7 @@
               })(t) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return yW(e, 2);
+                  if ("string" == typeof e) return yU(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -26277,7 +26259,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return yW(e, 2);
+                    return yU(e, 2);
                 }
               })(t) ||
               (function () {
@@ -26290,19 +26272,19 @@
           return (
             (0, T.useEffect)(
               function () {
-                (u.open(), yV(o, "VpcNotEligible"));
+                (u.open(), yL(o, "VpcNotEligible"));
               },
               [o, u]
             ),
             [c, u]
           );
         };
-        function y_(e, t) {
+        function yV(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var yB = function (e) {
+        var yW = function (e) {
             var t,
               r,
               n,
@@ -26310,13 +26292,13 @@
               a = e.onHide,
               i = null,
               l = null,
-              c = q(fJ);
+              c = q(fH);
             return (
               (null == c || null == (r = c.data) ? void 0 : r.featureName) === "CanCorrectAge" &&
                 ((i = (n =
                   (function (e) {
                     if (Array.isArray(e)) return e;
-                  })((t = yK({ translate: o, onHide: a }))) ||
+                  })((t = yF({ translate: o, onHide: a }))) ||
                   (function (e) {
                     var t,
                       r,
@@ -26348,7 +26330,7 @@
                   })(t) ||
                   (function (e) {
                     if (e) {
-                      if ("string" == typeof e) return y_(e, 2);
+                      if ("string" == typeof e) return yV(e, 2);
                       var t = Object.prototype.toString.call(e).slice(8, -1);
                       if (
                         ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -26356,7 +26338,7 @@
                       )
                         return Array.from(t);
                       if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                        return y_(e, 2);
+                        return yV(e, 2);
                     }
                   })(t) ||
                   (function () {
@@ -26374,16 +26356,16 @@
               i
             );
           },
-          yz = "".concat(
+          yK = "".concat(
             ej.EnvironmentUrls.apiGatewayUrl,
             "/child-requests-api/v1/send-request-to-new-parent"
           ),
-          yq = "".concat(
+          y_ = "".concat(
             ej.EnvironmentUrls.apiGatewayUrl,
             "/child-requests-api/v1/send-request-to-all-parents"
           ),
-          yH = "".concat(ej.EnvironmentUrls.userSettingsApi, "/v1/account-insights/parent-emails");
-        function yG(e, t, r, n, o, a, i) {
+          yB = "".concat(ej.EnvironmentUrls.userSettingsApi, "/v1/account-insights/parent-emails");
+        function yz(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -26393,23 +26375,23 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function y$(e) {
+        function yq(e) {
           return function () {
             var t = this,
               r = arguments;
             return new Promise(function (n, o) {
               var a = e.apply(t, r);
               function i(e) {
-                yG(a, n, o, i, l, "next", e);
+                yz(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                yG(a, n, o, i, l, "throw", e);
+                yz(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           };
         }
-        function yJ(e, t) {
+        function yH(e, t) {
           var r,
             n,
             o,
@@ -26501,7 +26483,7 @@
             };
           }
         }
-        var yY = {
+        var yG = {
             privacyPolicyUrl: "".concat(ej.EnvironmentUrls.websiteUrl, "/info/privacy"),
             defaultCooldownTimeInMs: 9e5,
             emailRegex: "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$",
@@ -26597,8 +26579,8 @@
             },
             settingName: { enablePurchases: "enablePurchases" }
           },
-          yX =
-            (((p = yX || {}).Unknown = "Unknown"),
+          y$ =
+            (((p = y$ || {}).Unknown = "Unknown"),
             (p.InvalidUserID = "InvalidUserID"),
             (p.InvalidParameter = "InvalidParameter"),
             (p.ServiceUnavailable = "ServiceUnavailable"),
@@ -26621,30 +26603,30 @@
             (p.ChildTooOld = "ChildTooOld"),
             (p.UserForgotten = "UserForgotten"),
             p),
-          yQ = { data: { code: "UnknownError" } },
-          yZ = yY.translationKeys.gatherParentEmail,
-          y0 = function (e) {
+          yJ = { data: { code: "UnknownError" } },
+          yY = yG.translationKeys.gatherParentEmail,
+          yX = function (e) {
             switch (e) {
-              case yX.ChildAtLinkLimit:
-                return yZ.childTooManyParentsError;
-              case yX.ParentAtLinkLimit:
-                return yZ.emailTooManyChildrenError;
-              case yX.SenderFlooded:
-                return yZ.senderFlooded;
-              case yX.ReceiverFlooded:
-                return yZ.emailTooManyRequest;
-              case yX.ConsentAlreadyApplied:
-                return yZ.alreadyApplied;
-              case yX.AlreadyLinked:
-                return yZ.alreadyLinked;
-              case yX.InvalidEmailAddress:
-                return yZ.invalidEmailError;
+              case y$.ChildAtLinkLimit:
+                return yY.childTooManyParentsError;
+              case y$.ParentAtLinkLimit:
+                return yY.emailTooManyChildrenError;
+              case y$.SenderFlooded:
+                return yY.senderFlooded;
+              case y$.ReceiverFlooded:
+                return yY.emailTooManyRequest;
+              case y$.ConsentAlreadyApplied:
+                return yY.alreadyApplied;
+              case y$.AlreadyLinked:
+                return yY.alreadyLinked;
+              case y$.InvalidEmailAddress:
+                return yY.invalidEmailError;
               default:
-                return yZ.unknownError;
+                return yY.unknownError;
             }
           },
-          y1 =
-            (((y = y1 || {}).LiftPunishment = "LiftPunishment"),
+          yQ =
+            (((y = yQ || {}).LiftPunishment = "LiftPunishment"),
             (y.SavePaymentMethods = "SavePaymentMethods"),
             (y.UpdateUserSetting = "UpdateUserSetting"),
             (y.UpdateBirthdate = "UpdateBirthdate"),
@@ -26653,14 +26635,14 @@
             (y.LiftRestriction = "LiftRestriction"),
             (y.Unknown = "Unknown"),
             y),
-          y2 = (((m = y2 || {}).Chargeback = "Chargeback"), m);
-        function y3(e, t) {
+          yZ = (((m = yZ || {}).Chargeback = "Chargeback"), m);
+        function y0(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var y5 = yY.events,
-          y6 = function (e, t, r, n) {
+        var y1 = yG.events,
+          y2 = function (e, t, r, n) {
             var o = r ? "".concat(r, ", ") : "",
               a = t ? "sessionId: ".concat(t, ", ") : "",
               i = n ? "settingName: ".concat(Object.keys(n)[0], ", ") : "",
@@ -26702,7 +26684,7 @@
                           })(e) ||
                           (function (e) {
                             if (e) {
-                              if ("string" == typeof e) return y3(e, 2);
+                              if ("string" == typeof e) return y0(e, 2);
                               var t = Object.prototype.toString.call(e).slice(8, -1);
                               if (
                                 ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -26713,7 +26695,7 @@
                                 "Arguments" === t ||
                                 /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
                               )
-                                return y3(e, 2);
+                                return y0(e, 2);
                             }
                           })(e) ||
                           (function () {
@@ -26727,97 +26709,97 @@
                     })
                     .join(", ")
                 : "";
-            return e === y1.UpdateUserSetting
+            return e === yQ.UpdateUserSetting
               ? "".concat(o).concat(i).concat(a)
               : "".concat(o).concat(l).concat(a);
           },
-          y8 = function (e, t) {
+          y3 = function (e, t) {
             var r;
             switch (e) {
-              case y1.LiftPunishment:
-                (null == t ? void 0 : t.punishmentType) === y2.Chargeback &&
-                  (r = y5.chargebackContext);
+              case yQ.LiftPunishment:
+                (null == t ? void 0 : t.punishmentType) === yZ.Chargeback &&
+                  (r = y1.chargebackContext);
                 break;
-              case y1.SavePaymentMethods:
-                r = y5.savePaymentMethodsContext;
+              case yQ.SavePaymentMethods:
+                r = y1.savePaymentMethodsContext;
                 break;
-              case y1.UpdateBirthdate:
-                r = y5.changeBirthdayContext;
+              case yQ.UpdateBirthdate:
+                r = y1.changeBirthdayContext;
                 break;
-              case y1.UpdateUserSetting:
-                r = y5.updateUserSettingContext;
+              case yQ.UpdateUserSetting:
+                r = y1.updateUserSettingContext;
                 break;
-              case y1.AddTrustedConnection:
-                r = y5.addTrustedFriendVpcContext;
+              case yQ.AddTrustedConnection:
+                r = y1.addTrustedFriendVpcContext;
                 break;
               default:
-                r = y5.chargebackContext;
+                r = y1.chargebackContext;
             }
             return r;
           },
-          y4 = function (e, t, r) {
+          y5 = function (e, t, r) {
             try {
-              fE.eventStreamService.sendEventWithTarget(e, t, r);
+              fP.eventStreamService.sendEventWithTarget(e, t, r);
             } catch (e) {}
           },
-          y7 = function (e) {
+          y6 = function (e) {
             var t = e.requestType,
               r = e.sessionId,
               n = e.extraState,
               o = e.details,
-              a = y8(t, o);
-            y4(y5.eventName.authPageLoad, a.settingsRequestSent, {
-              state: y6(t, r, n, o),
-              associatedText: y5.text.requestSent
+              a = y3(t, o);
+            y5(y1.eventName.authPageLoad, a.settingsRequestSent, {
+              state: y2(t, r, n, o),
+              associatedText: y1.text.requestSent
             });
           },
-          y9 = function (e) {
+          y8 = function (e) {
             var t = e.requestType,
               r = e.sessionId,
               n = e.extraState,
               o = e.details,
-              a = y8(t, o);
-            y4(y5.eventName.authButtonClick, a.parentalEntry, {
-              btn: y5.btn.continue,
-              associatedText: y5.text.ok,
-              state: y6(t, r, n, o)
+              a = y3(t, o);
+            y5(y1.eventName.authButtonClick, a.parentalEntry, {
+              btn: y1.btn.continue,
+              associatedText: y1.text.ok,
+              state: y2(t, r, n, o)
             });
           },
-          me = function (e) {
+          y4 = function (e) {
             var t = e.requestType,
               r = e.extraState,
               n = e.sessionId,
               o = e.details,
-              a = y8(t, o);
-            y4(y5.eventName.authButtonClick, a.parentalEntry, {
-              btn: y5.btn.submit,
-              associatedText: y5.text.sendEmail,
-              state: y6(t, n, r, o)
+              a = y3(t, o);
+            y5(y1.eventName.authButtonClick, a.parentalEntry, {
+              btn: y1.btn.submit,
+              associatedText: y1.text.sendEmail,
+              state: y2(t, n, r, o)
             });
           },
-          mt = function (e) {
+          y7 = function (e) {
             var t = e.requestType,
               r = e.extraState,
               n = e.details,
-              o = y8(t, n);
-            y4(y5.eventName.authFormInteraction, o.parentalEntry, {
-              field: y5.field.email,
-              associatedText: y5.text.enterParentEmail,
-              state: y6(t, void 0, r, n)
+              o = y3(t, n);
+            y5(y1.eventName.authFormInteraction, o.parentalEntry, {
+              field: y1.field.email,
+              associatedText: y1.text.enterParentEmail,
+              state: y2(t, void 0, r, n)
             });
           },
-          mr = function (e) {
+          y9 = function (e) {
             var t = e.requestType,
               r = e.extraState,
               n = e.details,
-              o = y8(t, n);
-            y4(y5.eventName.authModalShown, o.parentalEntry, {
-              field: y5.field.emailModal,
-              associatedText: y5.text.enterParentEmail,
-              state: y6(t, void 0, r, n)
+              o = y3(t, n);
+            y5(y1.eventName.authModalShown, o.parentalEntry, {
+              field: y1.field.emailModal,
+              associatedText: y1.text.enterParentEmail,
+              state: y2(t, void 0, r, n)
             });
           },
-          mn = {
+          me = {
             dateInUTCToBirthdate: function (e) {
               var t = e.getUTCFullYear(),
                 r = e.getUTCMonth() + 1;
@@ -26826,7 +26808,7 @@
             calculateAge: function (e) {
               if (!(null == e ? void 0 : e.birthYear) || 0 === e.birthYear) return 0;
               var t = new Date(),
-                r = mn.dateInUTCToBirthdate(t);
+                r = me.dateInUTCToBirthdate(t);
               return (
                 r.birthDay - e.birthDay < 0 && (r.birthMonth -= 1),
                 r.birthMonth - e.birthMonth < 0 && (r.birthYear -= 1),
@@ -26834,17 +26816,17 @@
               );
             },
             getAgeRange: function (e) {
-              var t = yY.events.state.changeBirthday,
-                r = mn.dateInUTCToBirthdate(e);
-              return 13 > mn.calculateAge(r) ? t.U13ToU13 : t.U13To1318;
+              var t = yG.events.state.changeBirthday,
+                r = me.dateInUTCToBirthdate(e);
+              return 13 > me.calculateAge(r) ? t.U13ToU13 : t.U13To1318;
             }
           };
-        function mo(e, t) {
+        function mt(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function ma(e, t, r, n, o, a, i) {
+        function mr(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -26854,7 +26836,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function mi(e, t) {
+        function mn(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -26888,7 +26870,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return mo(e, t);
+                if ("string" == typeof e) return mt(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -26896,7 +26878,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return mo(e, t);
+                  return mt(e, t);
               }
             })(e, t) ||
             (function () {
@@ -26906,21 +26888,21 @@
             })()
           );
         }
-        var ml = function (e) {
+        var mo = function (e) {
           var t = e.translate,
             r = e.consentType,
             n = e.successCallBack,
             o = e.onHideCallback,
             a = e.value,
             i = void 0 === a ? null : a,
-            l = mi((0, T.useState)(yY.translationKeys.gatherParentEmail.unknownError), 2),
+            l = mn((0, T.useState)(yG.translationKeys.gatherParentEmail.unknownError), 2),
             c = l[0],
             u = l[1],
-            s = yY.translationKeys.emailSentConfirmation,
-            f = mi(
-              yi({
+            s = yG.translationKeys.emailSentConfirmation,
+            f = mn(
+              yn({
                 translate: t,
-                title: t(yY.translationKeys.gatherParentEmail.unknownError),
+                title: t(yG.translationKeys.gatherParentEmail.unknownError),
                 body: (0, P.jsx)("p", { children: t(c) }),
                 actionButtonTranslateKey: s.btnText,
                 onAction: function () {
@@ -27038,22 +27020,22 @@
                         [
                           4,
                           ((f = { requestType: r, requestDetails: null != i ? i : void 0 }),
-                          y$(function () {
+                          yq(function () {
                             var e, t, r, n;
-                            return yJ(this, function (o) {
+                            return yH(this, function (o) {
                               switch (o.label) {
                                 case 0:
                                   return (
-                                    (e = { url: yq, withCredentials: !0 }),
+                                    (e = { url: y_, withCredentials: !0 }),
                                     (t = f.requestDetails),
-                                    [4, iH.httpService.post(e, f)]
+                                    [4, iB.httpService.post(e, f)]
                                   );
                                 case 1:
                                   return (
                                     (r = o.sent()),
                                     t &&
                                       ((n = Object.keys(t)[0]),
-                                      fE.localStorageService.setLocalStorage(
+                                      fP.localStorageService.setLocalStorage(
                                         "Roblox.ParentalRequest.".concat(
                                           n,
                                           "CooldownExpirationTime"
@@ -27071,8 +27053,8 @@
                       return (
                         (e = s.sent()),
                         (t = new Date(null == i ? void 0 : i.newBirthdate)),
-                        (o = r === y1.UpdateBirthdate ? mn.getAgeRange(t) : void 0),
-                        y7({
+                        (o = r === yQ.UpdateBirthdate ? me.getAgeRange(t) : void 0),
+                        y6({
                           requestType: r,
                           extraState: o,
                           sessionId: e.sessionId,
@@ -27083,8 +27065,8 @@
                       );
                     case 2:
                       return (
-                        (c = y0((l = null != (a = s.sent()) ? a : yQ).data.code)) ===
-                        yX.SenderFloodedRequestCreated
+                        (c = yX((l = null != (a = s.sent()) ? a : yJ).data.code)) ===
+                        y$.SenderFloodedRequestCreated
                           ? n(l.data.sessionId, void 0, !0)
                           : (u(c), p.open()),
                         [3, 3]
@@ -27100,10 +27082,10 @@
                 return new Promise(function (n, o) {
                   var a = e.apply(t, r);
                   function i(e) {
-                    ma(a, n, o, i, l, "next", e);
+                    mr(a, n, o, i, l, "next", e);
                   }
                   function l(e) {
-                    ma(a, n, o, i, l, "throw", e);
+                    mr(a, n, o, i, l, "throw", e);
                   }
                   i(void 0);
                 });
@@ -27116,12 +27098,12 @@
             (0, P.jsx)("div", { children: d })
           );
         };
-        function mc(e, t) {
+        function ma(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function mu(e, t, r, n, o, a, i) {
+        function mi(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -27131,23 +27113,23 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function ms(e) {
+        function ml(e) {
           return function () {
             var t = this,
               r = arguments;
             return new Promise(function (n, o) {
               var a = e.apply(t, r);
               function i(e) {
-                mu(a, n, o, i, l, "next", e);
+                mi(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                mu(a, n, o, i, l, "throw", e);
+                mi(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           };
         }
-        function mf(e, t) {
+        function mc(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -27181,7 +27163,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return mc(e, t);
+                if ("string" == typeof e) return ma(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -27189,7 +27171,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return mc(e, t);
+                  return ma(e, t);
               }
             })(e, t) ||
             (function () {
@@ -27199,7 +27181,7 @@
             })()
           );
         }
-        function md(e, t) {
+        function mu(e, t) {
           var r,
             n,
             o,
@@ -27291,24 +27273,24 @@
             };
           }
         }
-        var mp = function (e, t, r, n, o, a) {
-          yY.privacyPolicyUrl;
+        var ms = function (e, t, r, n, o, a) {
+          yG.privacyPolicyUrl;
           var i,
-            l = yY.emailRegex,
-            c = yY.translationKeys.gatherParentEmail,
-            u = mf((0, T.useState)(!1), 2),
+            l = yG.emailRegex,
+            c = yG.translationKeys.gatherParentEmail,
+            u = mc((0, T.useState)(!1), 2),
             s = u[0],
             f = u[1],
-            d = mf((0, T.useState)(!1), 2),
+            d = mc((0, T.useState)(!1), 2),
             p = d[0],
             y = d[1],
-            m = mf((0, T.useState)("pending"), 2),
+            m = mc((0, T.useState)("pending"), 2),
             h = m[0],
             v = m[1],
-            b = mf((0, T.useState)(!1), 2),
+            b = mc((0, T.useState)(!1), 2),
             g = b[0],
             w = b[1],
-            S = mf((0, T.useState)(""), 2),
+            S = mc((0, T.useState)(""), 2),
             O = S[0],
             x = S[1],
             j = (0, T.useMemo)(function () {
@@ -27321,20 +27303,20 @@
                 }
               };
             }, []),
-            C = mf((0, T.useState)(""), 2),
+            C = mc((0, T.useState)(""), 2),
             E = C[0],
             I = C[1];
           ((0, T.useEffect)(function () {
-            mr({ requestType: t, details: null != o ? o : void 0, extraState: a });
+            y9({ requestType: t, details: null != o ? o : void 0, extraState: a });
           }, []),
             (0, T.useEffect)(function () {
-              ms(function () {
-                return md(this, function (e) {
+              ml(function () {
+                return mu(this, function (e) {
                   switch (e.label) {
                     case 0:
-                      return (e.trys.push([0, 2, , 3]), [4, fT(yY.isChildSubjectToPCFeatureName)]);
+                      return (e.trys.push([0, 2, , 3]), [4, fE(yG.isChildSubjectToPCFeatureName)]);
                     case 1:
-                      return (y(e.sent().access === fC.Granted), v("success"), [3, 3]);
+                      return (y(e.sent().access === fx.Granted), v("success"), [3, 3]);
                     case 2:
                       return (e.sent(), v("failed"), [3, 3]);
                     case 3:
@@ -27353,7 +27335,7 @@
               },
               [p, h]
             ),
-            N = mf(
+            N = mc(
               A.LegallySensitiveContentService.useLegallySensitiveContentAndActions(
                 D,
                 "vpc-upsell-web"
@@ -27403,7 +27385,7 @@
                             (x(e.target.value), I(""));
                           },
                           onFocus: function () {
-                            return mt({
+                            return y7({
                               requestType: t,
                               details: null != o ? o : void 0,
                               extraState: a
@@ -27439,7 +27421,7 @@
               ]
             });
           return [
-            (0, P.jsxs)(uK.Modal, {
+            (0, P.jsxs)(uF.Modal, {
               show: s,
               onHide: function () {
                 (j.close(), n());
@@ -27450,12 +27432,12 @@
               "aria-labelledby": "access-management-upsell-inner-modal-title",
               centered: !0,
               children: [
-                (0, P.jsxs)(uK.Modal.Header, {
+                (0, P.jsxs)(uF.Modal.Header, {
                   useBaseBootstrapComponent: !0,
                   children: [
                     (0, P.jsx)("div", {
                       className: "access-management-upsell-inner-modal-title-container",
-                      children: (0, P.jsx)(uK.Modal.Title, {
+                      children: (0, P.jsx)(uF.Modal.Title, {
                         id: "access-management-upsell-inner-modal-title",
                         children: L.title
                       })
@@ -27470,26 +27452,26 @@
                     })
                   ]
                 }),
-                (0, P.jsx)(uK.Modal.Body, { children: W }),
-                (0, P.jsx)(uK.Modal.Footer, {
-                  children: (0, P.jsx)(uK.Button, {
-                    variant: uK.Button.variants.primary,
-                    size: uK.Button.sizes.medium,
-                    width: uK.Button.widths.full,
+                (0, P.jsx)(uF.Modal.Body, { children: W }),
+                (0, P.jsx)(uF.Modal.Footer, {
+                  children: (0, P.jsx)(uF.Button, {
+                    variant: uF.Button.variants.primary,
+                    size: uF.Button.sizes.medium,
+                    width: uF.Button.widths.full,
                     isDisabled: "" === O || "" !== V(),
                     isLoading: g,
                     onClick: function () {
-                      return ms(function () {
-                        return md(this, function (e) {
+                      return ml(function () {
+                        return mu(this, function (e) {
                           switch (e.label) {
                             case 0:
                               return (
                                 w(!0),
                                 [
                                   4,
-                                  ms(function () {
+                                  ml(function () {
                                     var e, n, i, l;
-                                    return md(this, function (c) {
+                                    return mu(this, function (c) {
                                       switch (c.label) {
                                         case 0:
                                           (I(""), (c.label = 1));
@@ -27505,9 +27487,9 @@
                                                 requestDetails: null != o ? o : void 0,
                                                 auditData: R.getBase64EncodedAuditHeader()
                                               }),
-                                              y$(function () {
+                                              yq(function () {
                                                 var e, t, r, n, o, a;
-                                                return yJ(this, function (i) {
+                                                return yH(this, function (i) {
                                                   switch (i.label) {
                                                     case 0:
                                                       return (
@@ -27608,20 +27590,20 @@
                                                           }
                                                           return e;
                                                         })(
-                                                          { url: yz, withCredentials: !0 },
+                                                          { url: yK, withCredentials: !0 },
                                                           e
                                                             ? { headers: { "rbx-audit-data": e } }
                                                             : {}
                                                         )),
                                                         (n = t.requestDetails),
-                                                        [4, iH.httpService.post(r, t)]
+                                                        [4, iB.httpService.post(r, t)]
                                                       );
                                                     case 1:
                                                       return (
                                                         (o = i.sent()),
                                                         n &&
                                                           ((a = Object.keys(n)[0]),
-                                                          fE.localStorageService.setLocalStorage(
+                                                          fP.localStorageService.setLocalStorage(
                                                             "Roblox.ParentalRequest.".concat(
                                                               a,
                                                               "CooldownExpirationTime"
@@ -27637,7 +27619,7 @@
                                           );
                                         case 2:
                                           return (
-                                            me({
+                                            y4({
                                               requestType: t,
                                               sessionId: (e = c.sent()).sessionId,
                                               details: null != o ? o : void 0,
@@ -27653,8 +27635,8 @@
                                             (n = c.sent()),
                                             x(""),
                                             w(!1),
-                                            (l = y0((i = null != n ? n : yQ).data.code)) ===
-                                              yX.SenderFloodedRequestCreated &&
+                                            (l = yX((i = null != n ? n : yJ).data.code)) ===
+                                              y$.SenderFloodedRequestCreated &&
                                               r(i.data.sessionId, void 0, !0),
                                             I(l),
                                             [3, 4]
@@ -27680,12 +27662,12 @@
             j
           ];
         };
-        function my(e, t) {
+        function mf(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var mm = function (e) {
+        var md = function (e) {
           var t,
             r = e.translate,
             n = e.consentType,
@@ -27694,11 +27676,11 @@
             i = e.isPrologueUsed,
             l = e.value,
             c = e.source,
-            u = q(fG),
+            u = q(fz),
             s =
               (function (e) {
                 if (Array.isArray(e)) return e;
-              })((t = mp(r, n, o, a, l, c))) ||
+              })((t = ms(r, n, o, a, l, c))) ||
               (function (e) {
                 var t,
                   r,
@@ -27730,7 +27712,7 @@
               })(t) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return my(e, 2);
+                  if ("string" == typeof e) return mf(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -27738,7 +27720,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return my(e, 2);
+                    return mf(e, 2);
                 }
               })(t) ||
               (function () {
@@ -27752,14 +27734,14 @@
             (0, T.useEffect)(function () {
               if (!i) {
                 var e = Object.keys(null != l ? l : {})[0];
-                yV(u, yY.events.vpc, e, l);
+                yL(u, yG.events.vpc, e, l);
               }
               d.open();
             }, []),
             (0, P.jsx)(k().Fragment, { children: f })
           );
         };
-        function mh(e, t, r, n, o, a, i) {
+        function mp(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -27769,7 +27751,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        var mv = function () {
+        var my = function () {
           var e;
           return ((e = function () {
             var e;
@@ -27867,7 +27849,7 @@
             })(this, function (t) {
               switch (t.label) {
                 case 0:
-                  return ((e = { url: yH, withCredentials: !0 }), [4, iH.httpService.get(e)]);
+                  return ((e = { url: yB, withCredentials: !0 }), [4, iB.httpService.get(e)]);
                 case 1:
                   return [2, t.sent().data];
               }
@@ -27879,21 +27861,21 @@
             return new Promise(function (n, o) {
               var a = e.apply(t, r);
               function i(e) {
-                mh(a, n, o, i, l, "next", e);
+                mp(a, n, o, i, l, "next", e);
               }
               function l(e) {
-                mh(a, n, o, i, l, "throw", e);
+                mp(a, n, o, i, l, "throw", e);
               }
               i(void 0);
             });
           })();
         };
-        function mb(e, t) {
+        function mm(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function mg(e, t, r, n, o, a, i) {
+        function mh(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -27903,7 +27885,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function mw(e, t) {
+        function mv(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -27937,7 +27919,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return mb(e, t);
+                if ("string" == typeof e) return mm(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -27945,7 +27927,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return mb(e, t);
+                  return mm(e, t);
               }
             })(e, t) ||
             (function () {
@@ -27955,7 +27937,7 @@
             })()
           );
         }
-        var mS = (0, D.withTranslations)(
+        var mb = (0, D.withTranslations)(
             function (e) {
               var t = e.translate,
                 r = e.recourse,
@@ -27965,14 +27947,14 @@
                 i = e.value,
                 l = void 0 === i ? null : i,
                 c = e.source,
-                u = yY.translationKeys.emailSentConfirmation,
+                u = yG.translationKeys.emailSentConfirmation,
                 s = r.action,
                 f = r.parentConsentTypes,
                 d = null == f ? void 0 : f[0],
-                p = mw((0, T.useState)([]), 2),
+                p = mv((0, T.useState)([]), 2),
                 y = p[0],
                 m = p[1],
-                h = mw((0, T.useState)(!0), 2),
+                h = mv((0, T.useState)(!0), 2),
                 v = h[0],
                 b = h[1],
                 g = (0, T.useRef)(!1),
@@ -27993,8 +27975,8 @@
                   },
                   [v, y]
                 ),
-                E = mw(
-                  yi({
+                E = mv(
+                  yn({
                     translate: t,
                     title: t(u.title),
                     body: C,
@@ -28109,7 +28091,7 @@
                         case 0:
                           return [
                             4,
-                            mv().then(function (e) {
+                            my().then(function (e) {
                               m(e.parentEmails);
                             })
                           ];
@@ -28124,10 +28106,10 @@
                     return new Promise(function (n, o) {
                       var a = e.apply(t, r);
                       function i(e) {
-                        mg(a, n, o, i, l, "next", e);
+                        mh(a, n, o, i, l, "next", e);
                       }
                       function l(e) {
-                        mg(a, n, o, i, l, "throw", e);
+                        mh(a, n, o, i, l, "throw", e);
                       }
                       i(void 0);
                     });
@@ -28135,29 +28117,29 @@
                 };
               (0, T.useEffect)(
                 function () {
-                  s === di.ParentConsentRequest && k();
+                  s === dr.ParentConsentRequest && k();
                 },
                 [s]
               );
               var D = function (e, t, r) {
-                if ((w(!0), t && m([t]), r && b(!1), I.open(), d === y1.UpdateBirthdate)) {
+                if ((w(!0), t && m([t]), r && b(!1), I.open(), d === yQ.UpdateBirthdate)) {
                   var n = new Date(null == l ? void 0 : l.newBirthdate),
-                    o = mn.getAgeRange(n);
-                  y9({ requestType: y1.UpdateBirthdate, extraState: o, sessionId: e });
-                } else y9({ requestType: d, sessionId: e, details: null != l ? l : void 0 });
+                    o = me.getAgeRange(n);
+                  y8({ requestType: yQ.UpdateBirthdate, extraState: o, sessionId: e });
+                } else y8({ requestType: d, sessionId: e, details: null != l ? l : void 0 });
               };
               return (0, P.jsxs)("div", {
                 children: [
-                  s === di.ParentConsentRequest &&
-                    (0, P.jsx)(ml, {
+                  s === dr.ParentConsentRequest &&
+                    (0, P.jsx)(mo, {
                       translate: t,
                       consentType: d,
                       successCallBack: D,
                       onHideCallback: S,
                       value: l
                     }),
-                  s === di.ParentLinkRequest &&
-                    (0, P.jsx)(mm, {
+                  s === dr.ParentLinkRequest &&
+                    (0, P.jsx)(md, {
                       translate: t,
                       consentType: d,
                       successCallback: D,
@@ -28175,8 +28157,8 @@
               feature: "Feature.Parents"
             }
           ),
-          mO =
-            (((h = mO || {}).control = "control"),
+          mg =
+            (((h = mg || {}).control = "control"),
             (h.askYourParentTitle = "askYourParentTitle"),
             (h.permissionNeededTitle = "permissionNeededTitle"),
             (h.visualized = "visualized"),
@@ -28184,38 +28166,55 @@
             (h.newPrologueVisual = "newPrologueVisual"),
             (h.newOneScreenVisual = "newOneScreenVisual"),
             h),
-          mx = {};
-        function mP(e, t, r, n, o, a) {
+          mw = {};
+        function mS(e, t, r, n, o, a) {
           var i = r(t);
           if (
-            (n.includes(di.GovernmentId) &&
-              n.includes(di.ParentConsentRequest) &&
-              (i = r("CanCorrectAge" === e ? d1 : t)),
-            1 === n.length && n.includes(di.ParentConsentRequest))
+            (n.includes(dr.GovernmentId) &&
+              n.includes(dr.ParentConsentRequest) &&
+              (i = r("CanCorrectAge" === e ? dQ : t)),
+            1 === n.length && n.includes(dr.ParentConsentRequest))
           ) {
             switch (!0) {
               case "TriggerTrustedFriendVPCRecourse" === e:
-                i = r(dY);
+                i = r(dG);
                 break;
               case (null == o ? void 0 : o.enablePurchases) !== void 0:
-                i = r(d2);
+                i = r(dZ);
                 break;
               case (null == o ? void 0 : o.friendManagementAction) === "Unblock":
-                i = r(d3, { displayName: o.displayName });
+                i = r(d0, { displayName: o.displayName });
                 break;
               case (null == o ? void 0 : o.experienceManagementAction) === "Unblock":
-                i = r(d5, { experienceName: o.experienceName });
+                i = r(d1, { experienceName: o.experienceName });
                 break;
               case (null == o ? void 0 : o.allowFacialAgeEstimation) !== void 0:
-                i = r(d6);
+                i = r(d2);
                 break;
               case (null == o ? void 0 : o.contentAgeRestriction) !== void 0:
-                i = r(d8);
+                i = r(d3);
                 break;
               case (null == o ? void 0 : o.whoCanWhisperChatWithMeInExperiences) !== void 0:
-                i = r(d4);
+                i = r(d5);
                 break;
               case (null == o ? void 0 : o.whoCanChatWithMeInExperiences) !== void 0:
+                i = r(d6);
+                break;
+              case (null == o ? void 0 : o.allowCrossAgeGroupStudioCollaboration) !== void 0:
+                i = r(d8);
+                break;
+              default:
+                i = r(t);
+            }
+            if (a === mg.newPrologueNoVisual || a === mg.newPrologueVisual)
+              return "".concat(i, "<br /><br />").concat(r(pe));
+          }
+          if (1 === n.length && n.includes(dr.AgeEstimation))
+            switch (!0) {
+              case (null == o ? void 0 : o.whoCanChatWithMeInExperiences) !== void 0:
+                i = r(d4);
+                break;
+              case (null == o ? void 0 : o.whoCanWhisperChatWithMeInExperiences) !== void 0:
                 i = r(d7);
                 break;
               case (null == o ? void 0 : o.allowCrossAgeGroupStudioCollaboration) !== void 0:
@@ -28224,31 +28223,14 @@
               default:
                 i = r(t);
             }
-            if (a === mO.newPrologueNoVisual || a === mO.newPrologueVisual)
-              return "".concat(i, "<br /><br />").concat(r(pn));
-          }
-          if (1 === n.length && n.includes(di.AgeEstimation))
-            switch (!0) {
-              case (null == o ? void 0 : o.whoCanChatWithMeInExperiences) !== void 0:
-                i = r(pe);
-                break;
-              case (null == o ? void 0 : o.whoCanWhisperChatWithMeInExperiences) !== void 0:
-                i = r(pt);
-                break;
-              case (null == o ? void 0 : o.allowCrossAgeGroupStudioCollaboration) !== void 0:
-                i = r(pr);
-                break;
-              default:
-                i = r(t);
-            }
           return i;
         }
-        function mj(e, t) {
+        function mO(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var mC = function (e) {
+        var mx = function (e) {
           var t,
             r,
             n,
@@ -28258,14 +28240,14 @@
             l = e.expChildModalType,
             c = e.source,
             u = e.onProceed,
-            s = dV(),
-            f = q(fG),
-            d = q(fJ).data.recourses,
+            s = dL(),
+            f = q(fz),
+            d = q(fH).data.recourses,
             p = i ? Object.keys(i)[0] : void 0,
-            y = mP(f, dX, o, [di.ParentConsentRequest], i, l),
+            y = mS(f, d$, o, [dr.ParentConsentRequest], i, l),
             m = (0, P.jsxs)("div", {
               children: [
-                l === mO.newPrologueVisual &&
+                l === mg.newPrologueVisual &&
                   (0, P.jsx)("div", { className: "ask-your-parent-lock" }),
                 (0, P.jsx)("div", {
                   className: "text-description",
@@ -28273,27 +28255,27 @@
                 })
               ]
             }),
-            h = ((t = f), (r = dG), o(mx[t] || r)),
+            h = ((t = f), (r = dz), o(mw[t] || r)),
             v =
               (function (e) {
                 if (Array.isArray(e)) return e;
               })(
-                (n = yi({
+                (n = yn({
                   translate: o,
                   title: h,
                   body: m,
-                  actionButtonTranslateKey: dH,
-                  neutralButtonTranslateKey: dB,
+                  actionButtonTranslateKey: dB,
+                  neutralButtonTranslateKey: dW,
                   onAction: function () {
-                    (yL(f, !0, p, null != i ? i : void 0),
-                      u ? (g.close(), u()) : (s(fK(d[0])), s(f_(dn.Verification)), g.close()));
+                    (yN(f, !0, p, null != i ? i : void 0),
+                      u ? (g.close(), u()) : (s(fF(d[0])), s(fV(de.Verification)), g.close()));
                   },
                   size: "sm",
                   onHide: function () {
-                    (yF(f, "Vpc", p, null != i ? i : void 0, c), a());
+                    (yR(f, "Vpc", p, null != i ? i : void 0, c), a());
                   },
                   onNeutral: function () {
-                    (yF(f, "Vpc", p, null != i ? i : void 0, c), a());
+                    (yR(f, "Vpc", p, null != i ? i : void 0, c), a());
                   }
                 }))
               ) ||
@@ -28328,7 +28310,7 @@
               })(n) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return mj(e, 2);
+                  if ("string" == typeof e) return mO(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -28336,7 +28318,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return mj(e, 2);
+                    return mO(e, 2);
                 }
               })(n) ||
               (function () {
@@ -28348,70 +28330,70 @@
             g = v[1];
           return (
             (0, T.useEffect)(function () {
-              (g.open(), yV(f, "Vpc", p, null != i ? i : void 0, c));
+              (g.open(), yL(f, "Vpc", p, null != i ? i : void 0, c));
             }, []),
             [b, g]
           );
         };
-        function mE(e, t) {
+        function mP(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var mA = function (e) {
+        var mj = function (e) {
           var t,
             r,
             n,
             o = e.translate,
             a = e.onHide,
-            i = dV(),
-            l = q(fG),
-            c = q(fJ).data.recourses,
-            u = mP(l, d0, o, [di.GovernmentId, di.ParentConsentRequest]),
+            i = dL(),
+            l = q(fz),
+            c = q(fH).data.recourses,
+            u = mS(l, dX, o, [dr.GovernmentId, dr.ParentConsentRequest]),
             s = (0, P.jsx)("div", {
               children: (0, P.jsxs)("div", {
                 className: "text-description",
                 children: [" ", u, " "]
               })
             }),
-            f = ((t = l), (r = d$), o(mx[t] || r)),
+            f = ((t = l), (r = dq), o(mw[t] || r)),
             d =
               (function (e) {
                 if (Array.isArray(e)) return e;
               })(
-                (n = yi({
+                (n = yn({
                   translate: o,
                   title: f,
                   body: s,
                   dualActionButton: !0,
-                  actionButtonTranslateKey: dq,
-                  neutralButtonTranslateKey: dz,
+                  actionButtonTranslateKey: d_,
+                  neutralButtonTranslateKey: dK,
                   onAction: function () {
-                    (yR(l, !1),
+                    (yD(l, !1),
                       i(
-                        fK(
+                        fF(
                           c.find(function (e) {
-                            return e.action === di.GovernmentId;
+                            return e.action === dr.GovernmentId;
                           })
                         )
                       ),
-                      i(f_(dn.Verification)),
+                      i(fV(de.Verification)),
                       y.close());
                   },
                   size: "sm",
                   onHide: function () {
-                    (yF(l, "IdvOrVpc"), a());
+                    (yR(l, "IdvOrVpc"), a());
                   },
                   onNeutral: function () {
-                    (yL(l, !1),
+                    (yN(l, !1),
                       i(
-                        fK(
+                        fF(
                           c.find(function (e) {
-                            return e.action !== di.GovernmentId;
+                            return e.action !== dr.GovernmentId;
                           })
                         )
                       ),
-                      i(f_(dn.Verification)),
+                      i(fV(de.Verification)),
                       y.close());
                   }
                 }))
@@ -28447,7 +28429,7 @@
               })(n) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return mE(e, 2);
+                  if ("string" == typeof e) return mP(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -28455,7 +28437,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return mE(e, 2);
+                    return mP(e, 2);
                 }
               })(n) ||
               (function () {
@@ -28467,52 +28449,52 @@
             y = d[1];
           return (
             (0, T.useEffect)(function () {
-              (y.open(), yV(l, "IdvOrVpc"));
+              (y.open(), yL(l, "IdvOrVpc"));
             }, []),
             [p, y]
           );
         };
-        function mI(e, t) {
+        function mC(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var mT = function (e) {
+        var mE = function (e) {
           var t,
             r,
             n,
             o = e.translate,
             a = e.onHide,
-            i = dV(),
-            l = q(fG),
-            c = q(fJ).data.recourses,
-            u = mP(l, dQ, o, [di.GovernmentId]),
+            i = dL(),
+            l = q(fz),
+            c = q(fH).data.recourses,
+            u = mS(l, dJ, o, [dr.GovernmentId]),
             s = (0, P.jsx)("div", {
               children: (0, P.jsxs)("div", {
                 className: "text-description",
                 children: [" ", u, " "]
               })
             }),
-            f = ((t = l), (r = d$), o(mx[t] || r)),
+            f = ((t = l), (r = dq), o(mw[t] || r)),
             d =
               (function (e) {
                 if (Array.isArray(e)) return e;
               })(
-                (n = yi({
+                (n = yn({
                   translate: o,
                   title: f,
                   body: s,
-                  actionButtonTranslateKey: dq,
-                  neutralButtonTranslateKey: dB,
+                  actionButtonTranslateKey: d_,
+                  neutralButtonTranslateKey: dW,
                   onAction: function () {
-                    (yR(l, !0), i(fK(c[0])), i(f_(dn.Verification)), y.close());
+                    (yD(l, !0), i(fF(c[0])), i(fV(de.Verification)), y.close());
                   },
                   size: "sm",
                   onHide: function () {
-                    (yF(l, "Idv"), a());
+                    (yR(l, "Idv"), a());
                   },
                   onNeutral: function () {
-                    (yF(l, "Idv"), a());
+                    (yR(l, "Idv"), a());
                   }
                 }))
               ) ||
@@ -28547,7 +28529,7 @@
               })(n) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return mI(e, 2);
+                  if ("string" == typeof e) return mC(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -28555,7 +28537,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return mI(e, 2);
+                    return mC(e, 2);
                 }
               })(n) ||
               (function () {
@@ -28567,17 +28549,17 @@
             y = d[1];
           return (
             (0, T.useEffect)(function () {
-              (y.open(), yV(l, "Idv"));
+              (y.open(), yL(l, "Idv"));
             }, []),
             [p, y]
           );
         };
-        function mk(e, t) {
+        function mA(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var mD = function (e) {
+        var mI = function (e) {
           var t,
             r,
             n,
@@ -28585,35 +28567,35 @@
             a = e.onHide,
             i = e.recourseParameters,
             l = e.source,
-            c = dV(),
-            u = q(fG),
-            s = q(fJ).data.recourses,
+            c = dL(),
+            u = q(fz),
+            s = q(fH).data.recourses,
             f = i ? Object.keys(i)[0] : void 0,
-            d = mP(u, dZ, o, [di.AgeEstimation], i),
+            d = mS(u, dY, o, [dr.AgeEstimation], i),
             p = (0, P.jsx)("div", {
               className: "text-description",
               dangerouslySetInnerHTML: { __html: d }
             }),
-            y = ((t = u), (r = dJ), o(mx[t] || r)),
+            y = ((t = u), (r = dH), o(mw[t] || r)),
             m =
               (function (e) {
                 if (Array.isArray(e)) return e;
               })(
-                (n = yi({
+                (n = yn({
                   translate: o,
                   title: y,
                   body: p,
-                  actionButtonTranslateKey: d_,
-                  neutralButtonTranslateKey: dB,
+                  actionButtonTranslateKey: dV,
+                  neutralButtonTranslateKey: dW,
                   onAction: function () {
-                    (c(fK(s[0])), c(f_(dn.Verification)), v.close());
+                    (c(fF(s[0])), c(fV(de.Verification)), v.close());
                   },
                   size: "sm",
                   onHide: function () {
-                    (yF(u, "Fae", f, null != i ? i : void 0, l), a());
+                    (yR(u, "Fae", f, null != i ? i : void 0, l), a());
                   },
                   onNeutral: function () {
-                    (yF(u, "Fae", f, null != i ? i : void 0, l), a());
+                    (yR(u, "Fae", f, null != i ? i : void 0, l), a());
                   }
                 }))
               ) ||
@@ -28648,7 +28630,7 @@
               })(n) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return mk(e, 2);
+                  if ("string" == typeof e) return mA(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -28656,7 +28638,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return mk(e, 2);
+                    return mA(e, 2);
                 }
               })(n) ||
               (function () {
@@ -28668,17 +28650,17 @@
             v = m[1];
           return (
             (0, T.useEffect)(function () {
-              (v.open(), yV(u, "Fae", f, null != i ? i : void 0, l));
+              (v.open(), yL(u, "Fae", f, null != i ? i : void 0, l));
             }, []),
             [h, v]
           );
         };
-        function mN(e, t) {
+        function mT(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function mM(e, t) {
+        function mk(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -28712,7 +28694,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return mN(e, t);
+                if ("string" == typeof e) return mT(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -28720,7 +28702,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return mN(e, t);
+                  return mT(e, t);
               }
             })(e, t) ||
             (function () {
@@ -28730,7 +28712,7 @@
             })()
           );
         }
-        var mR = function (e) {
+        var mD = function (e) {
             var t,
               r,
               n,
@@ -28740,19 +28722,19 @@
               l = e.recourseParameters,
               c = e.expChildModalType,
               u = e.featureSpecificParams,
-              s = dV(),
+              s = dL(),
               f = null,
               d = null,
-              p = q(fJ).data.recourses,
+              p = q(fH).data.recourses,
               y = p.map(function (e) {
                 return e.action;
               });
             if (1 === y.length)
               switch (y[0]) {
-                case di.ParentConsentRequest:
-                case di.ParentLinkRequest:
-                  ((f = (t = mM(
-                    mC({
+                case dr.ParentConsentRequest:
+                case dr.ParentLinkRequest:
+                  ((f = (t = mk(
+                    mx({
                       translate: a,
                       onHide: i,
                       recourseParameters: null != l ? l : null,
@@ -28763,12 +28745,12 @@
                   ))[0]),
                     (d = t[1]));
                   break;
-                case di.GovernmentId:
-                  ((f = (r = mM(mT({ translate: a, onHide: i }), 2))[0]), (d = r[1]));
+                case dr.GovernmentId:
+                  ((f = (r = mk(mE({ translate: a, onHide: i }), 2))[0]), (d = r[1]));
                   break;
-                case di.AgeEstimation:
-                  ((f = (n = mM(
-                    mD({
+                case dr.AgeEstimation:
+                  ((f = (n = mk(
+                    mI({
                       translate: a,
                       onHide: i,
                       recourseParameters: null != l ? l : null,
@@ -28780,20 +28762,20 @@
               }
             return (
               2 === y.length &&
-                y.includes(di.GovernmentId) &&
-                (y.includes(di.ParentConsentRequest) || y.includes(di.ParentLinkRequest)) &&
-                ((f = (o = mM(mA({ translate: a, onHide: i }), 2))[0]), (d = o[1])),
+                y.includes(dr.GovernmentId) &&
+                (y.includes(dr.ParentConsentRequest) || y.includes(dr.ParentLinkRequest)) &&
+                ((f = (o = mk(mj({ translate: a, onHide: i }), 2))[0]), (d = o[1])),
               (0, T.useEffect)(
                 function () {
-                  f ? d.open() : s(f_(dn.Verification));
+                  f ? d.open() : s(fV(de.Verification));
                 },
                 [s, f, d, p]
               ),
               f
             );
           },
-          mL = (((v = {}).Checkbox = "checkbox"), (v.Toggle = "toggle"), (v.Notice = "notice"), v);
-        function mU(e, t, r) {
+          mN = (((v = {}).Checkbox = "checkbox"), (v.Toggle = "toggle"), (v.Notice = "notice"), v);
+        function mM(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -28806,7 +28788,7 @@
             e
           );
         }
-        var mF = function (e) {
+        var mR = function (e) {
           var t = e.isChecked,
             r = e.setIsChecked,
             n = e.wordsOfConsent;
@@ -28829,18 +28811,18 @@
             ]
           });
         };
-        mF.displayName = "CheckboxConsentForm";
-        var mV = function () {
+        mR.displayName = "CheckboxConsentForm";
+        var mL = function () {
           return null;
         };
-        mV.displayName = "ToggleConsentForm";
-        var mW = function (e) {
+        mL.displayName = "ToggleConsentForm";
+        var mU = function (e) {
           var t = e.wordsOfConsent;
           return (0, P.jsx)(k().Fragment, { children: t });
         };
-        mW.displayName = "NoticeConsentForm";
-        var mK = (mU((S = {}), mL.Checkbox, mF), mU(S, mL.Toggle, mV), mU(S, mL.Notice, mW), S),
-          m_ =
+        mU.displayName = "NoticeConsentForm";
+        var mF = (mM((S = {}), mN.Checkbox, mR), mM(S, mN.Toggle, mL), mM(S, mN.Notice, mU), S),
+          mV =
             (((b = {}).contentAgeRestriction = "contentAgeRestriction"),
             (b.phoneNumberDiscoverability = "phoneNumberDiscoverability"),
             (b.whoCanChatWithMe = "whoCanChatWithMe"),
@@ -28876,7 +28858,7 @@
             (b.whoCanUsePartyVoiceWithMe = "whoCanUsePartyVoiceWithMe"),
             (b.allowFacialAgeEstimation = "allowFacialAgeEstimation"),
             b),
-          mB =
+          mW =
             (((g = {}).phoneNumberDiscoverabilitySetting = "phoneNumberDiscoverabilitySetting"),
             (g.phoneNumberDiscoverabilitySettingParentSide =
               "phoneNumberDiscoverabilitySettingParentSide"),
@@ -28928,20 +28910,20 @@
             (g.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2 =
               "whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2"),
             g),
-          mz = { phoneNumberDiscoverabilityV2: mB.phoneNumberDiscoverabilityUpsell },
-          mq =
+          mK = { phoneNumberDiscoverabilityV2: mW.phoneNumberDiscoverabilityUpsell },
+          m_ =
             (((w = {}).ModalShown = "ModalShown"),
             (w.Confirm = "Confirm"),
             (w.Cancel = "Cancel"),
             (w.CloseModal = "CloseModal"),
             w),
-          mH = "authButtonClick";
-        function mG(e, t) {
+          mB = "authButtonClick";
+        function mz(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function m$(e, t, r) {
+        function mq(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -28954,14 +28936,14 @@
             e
           );
         }
-        var mJ = function (e) {
+        var mH = function (e) {
             return function () {
               for (var t = arguments.length, r = Array(t), n = 0; n < t; n++) r[n] = arguments[n];
               try {
                 e.apply(
                   void 0,
                   (function (e) {
-                    if (Array.isArray(e)) return mG(e);
+                    if (Array.isArray(e)) return mz(e);
                   })(r) ||
                     (function (e) {
                       if (
@@ -28972,7 +28954,7 @@
                     })(r) ||
                     (function (e) {
                       if (e) {
-                        if ("string" == typeof e) return mG(e, void 0);
+                        if ("string" == typeof e) return mz(e, void 0);
                         var t = Object.prototype.toString.call(e).slice(8, -1);
                         if (
                           ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -28980,7 +28962,7 @@
                         )
                           return Array.from(t);
                         if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                          return mG(e, void 0);
+                          return mz(e, void 0);
                       }
                     })(r) ||
                     (function () {
@@ -28992,49 +28974,49 @@
               } catch (e) {}
             };
           },
-          mY = mJ(function (e) {
+          mG = mH(function (e) {
             var t = "authModalShown",
               r = e,
               n = { field: "phoneDiscoverability", associatedText: "Turn on friend discovery" };
-            fE.eventStreamService.sendEventWithTarget(t, r, n);
+            fP.eventStreamService.sendEventWithTarget(t, r, n);
           }),
-          mX = mJ(function (e) {
-            var t = mH,
+          m$ = mH(function (e) {
+            var t = mB,
               r = e,
               n = { btn: "phoneDiscoverabilityConfirm", associatedText: "Turn on" };
-            fE.eventStreamService.sendEventWithTarget(t, r, n);
+            fP.eventStreamService.sendEventWithTarget(t, r, n);
           }),
-          mQ = mJ(function (e) {
-            var t = mH,
+          mJ = mH(function (e) {
+            var t = mB,
               r = e,
               n = { btn: "phoneDiscoverabilityNotNow", associatedText: "Not now" };
-            fE.eventStreamService.sendEventWithTarget(t, r, n);
+            fP.eventStreamService.sendEventWithTarget(t, r, n);
           }),
-          mZ = mJ(function (e) {
-            var t = mH,
+          mY = mH(function (e) {
+            var t = mB,
               r = e,
               n = { btn: "phoneDiscoverabilityClose", associatedText: "X" };
-            fE.eventStreamService.sendEventWithTarget(t, r, n);
+            fP.eventStreamService.sendEventWithTarget(t, r, n);
           }),
-          m0 = m$(
+          mX = mq(
             {},
-            m_.phoneNumberDiscoverabilityV2,
-            (m$((O = {}), mq.ModalShown, mY),
-            m$(O, mq.Confirm, mX),
-            m$(O, mq.Cancel, mQ),
-            m$(O, mq.CloseModal, mZ),
+            mV.phoneNumberDiscoverabilityV2,
+            (mq((O = {}), m_.ModalShown, mG),
+            mq(O, m_.Confirm, m$),
+            mq(O, m_.Cancel, mJ),
+            mq(O, m_.CloseModal, mY),
             O)
           ),
-          m1 = function (e, t, r) {
-            var n = m0[t];
+          mQ = function (e, t, r) {
+            var n = mX[t];
             return (n && n[e] && n[e](r), null);
           };
-        function m2(e, t) {
+        function mZ(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function m3(e, t) {
+        function m0(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -29068,7 +29050,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return m2(e, t);
+                if ("string" == typeof e) return mZ(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -29076,7 +29058,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return m2(e, t);
+                  return mZ(e, t);
               }
             })(e, t) ||
             (function () {
@@ -29086,7 +29068,7 @@
             })()
           );
         }
-        var m5 = function (e, t, r) {
+        var m1 = function (e, t, r) {
           var n,
             o = t.title,
             a = t.body,
@@ -29098,11 +29080,11 @@
             f = t.consentFormType,
             d = t.surface,
             p = t.context,
-            y = mz[r.settingName],
-            m = m3(A.LegallySensitiveContentService.useLegallySensitiveContentAndActions(y, d), 2),
+            y = mK[r.settingName],
+            m = m0(A.LegallySensitiveContentService.useLegallySensitiveContentAndActions(y, d), 2),
             h = m[0],
             v = m[1],
-            b = m3((0, T.useState)(!1), 2),
+            b = m0((0, T.useState)(!1), 2),
             g = b[0],
             w = b[1],
             S = (0, T.useMemo)(function () {
@@ -29115,18 +29097,18 @@
                 }
               };
             }, []),
-            O = m3((0, T.useState)(!1), 2),
+            O = m0((0, T.useState)(!1), 2),
             x = O[0],
             j = O[1];
           return (
             (0, T.useEffect)(
               function () {
-                f === mL.Notice && j(!0);
+                f === mN.Notice && j(!0);
               },
               [f]
             ),
             [
-              (0, P.jsxs)(uK.Modal, {
+              (0, P.jsxs)(uF.Modal, {
                 show: g,
                 onHide: function () {
                   (S.close(), null == u || u());
@@ -29138,12 +29120,12 @@
                 scrollable: !0,
                 centered: !0,
                 children: [
-                  (0, P.jsxs)(uK.Modal.Header, {
+                  (0, P.jsxs)(uF.Modal.Header, {
                     useBaseBootstrapComponent: !0,
                     children: [
                       (0, P.jsx)("div", {
                         className: "user-settings-modal-title-container",
-                        children: (0, P.jsx)(uK.Modal.Title, {
+                        children: (0, P.jsx)(uF.Modal.Title, {
                           id: "user-settings-modal-title",
                           children: h.wordsOfConsent.title || o
                         })
@@ -29155,7 +29137,7 @@
                         onClick: function () {
                           var e;
                           ((e = r.settingName),
-                            m1(mq.CloseModal, e, p),
+                            mQ(m_.CloseModal, e, p),
                             S.close(),
                             null == u || u());
                         },
@@ -29163,10 +29145,10 @@
                       })
                     ]
                   }),
-                  (0, P.jsxs)(uK.Modal.Body, {
+                  (0, P.jsxs)(uF.Modal.Body, {
                     children: [
                       a,
-                      (n = mK[f])
+                      (n = mF[f])
                         ? (0, P.jsx)("div", {
                             className: "consent-form",
                             children: (0, P.jsx)(n, {
@@ -29178,7 +29160,7 @@
                         : (0, P.jsx)(k().Fragment, {})
                     ]
                   }),
-                  (0, P.jsxs)(uK.Modal.Footer, {
+                  (0, P.jsxs)(uF.Modal.Footer, {
                     children: [
                       (0, P.jsx)(tc, {
                         className: "modal-half-width-button",
@@ -29187,7 +29169,7 @@
                         onClick: function () {
                           var e;
                           ((e = r.settingName),
-                            m1(mq.Cancel, e, p),
+                            mQ(m_.Cancel, e, p),
                             S.close(),
                             null == s || s(),
                             null == u || u());
@@ -29202,11 +29184,11 @@
                         onClick: function () {
                           var e, t;
                           ((e = r.settingName),
-                            m1(mq.Confirm, e, p),
+                            mQ(m_.Confirm, e, p),
                             S.close(),
                             v.updateSettingWithAuditing(
-                              (t = r.settingName) === m_.phoneNumberDiscoverabilityV2
-                                ? m_.phoneNumberDiscoverability
+                              (t = r.settingName) === mV.phoneNumberDiscoverabilityV2
+                                ? mV.phoneNumberDiscoverability
                                 : t,
                               r.settingValue
                             ),
@@ -29223,12 +29205,12 @@
             ]
           );
         };
-        function m6(e, t) {
+        function m2(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var m8 = (0, D.withTranslations)(
+        var m3 = (0, D.withTranslations)(
           function (e) {
             var t,
               r = e.translate,
@@ -29236,7 +29218,7 @@
               o =
                 (function (e) {
                   if (Array.isArray(e)) return e;
-                })((t = m5(r, e.updateSettingsModalProps, n.userSettings))) ||
+                })((t = m1(r, e.updateSettingsModalProps, n.userSettings))) ||
                 (function (e) {
                   var t,
                     r,
@@ -29268,7 +29250,7 @@
                 })(t) ||
                 (function (e) {
                   if (e) {
-                    if ("string" == typeof e) return m6(e, 2);
+                    if ("string" == typeof e) return m2(e, 2);
                     var t = Object.prototype.toString.call(e).slice(8, -1);
                     if (
                       ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -29276,7 +29258,7 @@
                     )
                       return Array.from(t);
                     if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                      return m6(e, 2);
+                      return m2(e, 2);
                   }
                 })(t) ||
                 (function () {
@@ -29291,7 +29273,7 @@
                 var e, t;
                 ((e = n.userSettings.settingName),
                   (t = n.userSettings.settingValue),
-                  m1(mq.ModalShown, e, t),
+                  mQ(m_.ModalShown, e, t),
                   i.open());
               }, []),
               (0, P.jsx)("div", { children: a })
@@ -29299,12 +29281,12 @@
           },
           { common: ["CommonUI.Controls"], feature: "Feature.LegallySensitiveContent" }
         );
-        function m4(e, t) {
+        function m5(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function m7(e, t) {
+        function m6(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -29338,7 +29320,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return m4(e, t);
+                if ("string" == typeof e) return m5(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -29346,7 +29328,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return m4(e, t);
+                  return m5(e, t);
               }
             })(e, t) ||
             (function () {
@@ -29356,9 +29338,9 @@
             })()
           );
         }
-        function m9(e) {
-          return m7(
-            mC({
+        function m8(e) {
+          return m6(
+            mx({
               translate: e.translate,
               onHide: e.onHide,
               recourseParameters: e.recourseParameters,
@@ -29368,39 +29350,39 @@
             1
           )[0];
         }
-        var he = function (e) {
+        var m4 = function (e) {
           var t,
             r,
             n = e.translate,
             o = e.onHidecallback,
             a = e.value,
             i = (e.isPrologueUsed, e.source),
-            l = m7((0, T.useState)(null), 2),
+            l = m6((0, T.useState)(null), 2),
             c = l[0],
             u = l[1],
-            s = m7((0, T.useState)(!1), 2),
+            s = m6((0, T.useState)(!1), 2),
             f = s[0],
             d = s[1];
           if (
             ((0, T.useEffect)(function () {
-              mv()
+              my()
                 .then(function (e) {
                   var t;
                   u({
                     action:
                       (null == (t = e.parentEmails) ? void 0 : t.length) > 0
-                        ? di.ParentConsentRequest
-                        : di.ParentLinkRequest,
-                    parentConsentTypes: [y1.UpdateUserSetting]
+                        ? dr.ParentConsentRequest
+                        : dr.ParentLinkRequest,
+                    parentConsentTypes: [yQ.UpdateUserSetting]
                   });
                 })
                 .catch(function () {
-                  u({ action: di.ParentLinkRequest, parentConsentTypes: [y1.UpdateUserSetting] });
+                  u({ action: dr.ParentLinkRequest, parentConsentTypes: [yQ.UpdateUserSetting] });
                 });
             }, []),
             !c)
           )
-            return (0, P.jsx)(pg, {});
+            return (0, P.jsx)(ph, {});
           var p =
             ((t = (function (e) {
               for (var t = 1; t < arguments.length; t++) {
@@ -29442,7 +29424,7 @@
                 }),
             t);
           return f
-            ? (0, P.jsx)(mS, {
+            ? (0, P.jsx)(mb, {
                 translate: n,
                 recourse: c,
                 onHidecallback: o,
@@ -29450,7 +29432,7 @@
                 isPrologueUsed: !0,
                 source: i
               })
-            : (0, P.jsx)(m9, {
+            : (0, P.jsx)(m8, {
                 translate: n,
                 onHide: o,
                 recourseParameters: p,
@@ -29460,12 +29442,12 @@
                 source: i
               });
         };
-        function ht(e, t) {
+        function m7(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        function hr(e, t, r, n, o, a, i) {
+        function m9(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -29475,7 +29457,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function hn(e, t) {
+        function he(e, t) {
           return (
             (function (e) {
               if (Array.isArray(e)) return e;
@@ -29509,7 +29491,7 @@
             })(e, t) ||
             (function (e, t) {
               if (e) {
-                if ("string" == typeof e) return ht(e, t);
+                if ("string" == typeof e) return m7(e, t);
                 var r = Object.prototype.toString.call(e).slice(8, -1);
                 if (
                   ("Object" === r && e.constructor && (r = e.constructor.name),
@@ -29517,7 +29499,7 @@
                 )
                   return Array.from(r);
                 if ("Arguments" === r || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r))
-                  return ht(e, t);
+                  return m7(e, t);
               }
             })(e, t) ||
             (function () {
@@ -29527,7 +29509,7 @@
             })()
           );
         }
-        var ho = function (e) {
+        var ht = function (e) {
           var t,
             r,
             n,
@@ -29537,18 +29519,18 @@
             l,
             c = e.translate,
             u = e.vpcV2Handoff,
-            s = dV(),
-            f = q(fY),
-            d = q(fJ),
-            p = q(fH),
-            y = q(fQ),
-            m = q(fq).loading,
-            h = q(fX),
-            v = q(fG),
-            b = hn((0, T.useState)(), 2),
+            s = dL(),
+            f = q(fG),
+            d = q(fH),
+            p = q(fB),
+            y = q(fJ),
+            m = q(f_).loading,
+            h = q(f$),
+            v = q(fz),
+            b = he((0, T.useState)(), 2),
             g = b[0],
             w = b[1],
-            S = hn(
+            S = he(
               (0, T.useState)(function (e) {
                 return e;
               }),
@@ -29556,33 +29538,33 @@
             ),
             O = S[0],
             x = S[1],
-            j = hn((0, T.useState)({}), 2),
+            j = he((0, T.useState)({}), 2),
             C = j[0],
             E = j[1],
-            A = hn((0, T.useState)(), 2),
+            A = he((0, T.useState)(), 2),
             I = A[0],
             k = A[1],
-            D = hn((0, T.useState)(!1), 2),
+            D = he((0, T.useState)(!1), 2),
             N = D[0],
             M = D[1],
-            R = hn((0, T.useState)(!1), 2),
+            R = he((0, T.useState)(!1), 2),
             L = R[0],
             U = R[1],
-            F = hn((0, T.useState)(void 0), 2),
+            F = he((0, T.useState)(void 0), 2),
             V = F[0],
             W = F[1],
-            K = hn((0, T.useState)(void 0), 2),
+            K = he((0, T.useState)(void 0), 2),
             _ = K[0],
             B = K[1],
             z = (0, T.useRef)(null),
             H =
               null !=
               (t =
-                null == (r = p6("AccountManagement.VerifiedParentalConsent.ChildExperience"))
+                null == (r = p2("AccountManagement.VerifiedParentalConsent.ChildExperience"))
                   ? void 0
                   : r.expNewChildModal)
                 ? t
-                : mO.control;
+                : mg.control;
           function G(e) {
             var t;
             return ((t = function () {
@@ -29702,31 +29684,31 @@
                   case 1:
                     return (
                       m.trys.push([1, 3, , 4]),
-                      [4, s(fR({ featureName: r, ampFeatureCheckData: o, namespace: f }))]
+                      [4, s(fD({ featureName: r, ampFeatureCheckData: o, namespace: f }))]
                     );
                   case 2:
                   case 3:
                     return (m.sent(), [3, 4]);
                   case 4:
                     return (
-                      s(fW(n)),
+                      s(fU(n)),
                       M(a),
-                      o && s(fV(o)),
-                      f && s(fz(f)),
+                      o && s(fL(o)),
+                      f && s(fK(f)),
                       l && E(l),
                       c && k(c),
                       d && w(d),
                       (p =
-                        H === mO.control ||
-                        H === mO.newPrologueNoVisual ||
-                        H === mO.newPrologueVisual),
+                        H === mg.control ||
+                        H === mg.newPrologueNoVisual ||
+                        H === mg.newPrologueVisual),
                       (z.current = {
                         isAsyncCall: a,
                         requestDetails: null != l ? l : {},
                         closeCallback: u,
                         usePrologue: (y = i && p)
                       }),
-                      y ? (s(fB(!0)), U(!0)) : s(f_(dn.Verification)),
+                      y ? (s(fW(!0)), U(!0)) : s(fV(de.Verification)),
                       [2]
                     );
                 }
@@ -29738,24 +29720,24 @@
               return new Promise(function (n, o) {
                 var a = t.apply(e, r);
                 function i(e) {
-                  hr(a, n, o, i, l, "next", e);
+                  m9(a, n, o, i, l, "next", e);
                 }
                 function l(e) {
-                  hr(a, n, o, i, l, "throw", e);
+                  m9(a, n, o, i, l, "throw", e);
                 }
                 i(void 0);
               });
             })();
           }
           function $() {
-            (O(d.data.access), s(fF()));
+            (O(d.data.access), s(fR()));
           }
           ((0, T.useEffect)(
             function () {
               return (
-                window.addEventListener(dW, G),
+                window.addEventListener(dU, G),
                 function () {
-                  return window.removeEventListener(dW, G);
+                  return window.removeEventListener(dU, G);
                 }
               );
             },
@@ -29763,14 +29745,14 @@
           ),
             (0, T.useEffect)(
               function () {
-                var e = [fC.Granted, fC.Denied];
+                var e = [fx.Granted, fx.Denied];
                 if (null == d || !d.loading) {
                   if (
                     ((null == d || null == (r = d.data) ? void 0 : r.access) &&
                       e.includes(d.data.access) &&
                       (null == d || null == (p = d.data) ? void 0 : p.featureName) !==
                         "CanCorrectAge" &&
-                      g !== yo.Appeals &&
+                      g !== yt.Appeals &&
                       O(d.data.access),
                     (null !=
                     (t =
@@ -29797,7 +29779,7 @@
                       v = null == (y = d.data.recourses[0]) ? void 0 : y.action,
                       b =
                         1 === d.data.recourses.length &&
-                        (v === di.ParentConsentRequest || v === di.ParentLinkRequest),
+                        (v === dr.ParentConsentRequest || v === dr.ParentLinkRequest),
                       w =
                         null == (h = d.data.recourses[0]) || null == (m = h.parentConsentTypes)
                           ? void 0
@@ -29805,22 +29787,22 @@
                       S = void 0 !== _ && void 0 !== w && _.includes(w);
                     if (b && (void 0 === V || void 0 === _)) return;
                     if (b && !0 === V && !S) {
-                      (U(!1), s(f_(dn.Verification)));
+                      (U(!1), s(fV(de.Verification)));
                       return;
                     }
-                    (s(f_(dn.Prologue)), U(!1));
+                    (s(fV(de.Prologue)), U(!1));
                   }
                   (null == d || null == (a = d.data) ? void 0 : a.featureName) ===
                     "CanCorrectAge" &&
-                  d.data.access === fC.Denied &&
+                  d.data.access === fx.Denied &&
                   ((null == d || null == (i = d.data) ? void 0 : i.recourses) === null ||
                     (null == d || null == (c = d.data) || null == (l = c.recourses)
                       ? void 0
                       : l.length) === 0)
-                    ? s(f_(dn.Epilogue))
+                    ? s(fV(de.Epilogue))
                     : (null == d || null == (u = d.data) ? void 0 : u.featureName) ===
                         "CanCorrectAge" &&
-                      (null == d || null == (f = d.data) ? void 0 : f.access) === fC.Granted &&
+                      (null == d || null == (f = d.data) ? void 0 : f.access) === fx.Granted &&
                       O(d.data.access);
                 }
               },
@@ -29828,15 +29810,15 @@
             ));
           var J = N
               ? function () {
-                  (s(fF()), O(fC.Denied));
+                  (s(fR()), O(fx.Denied));
                 }
               : $,
             Y =
               (null == d || null == (o = d.data) || null == (n = o.recourses)
                 ? void 0
                 : n.length) === 1 &&
-              ((null == h ? void 0 : h.action) === di.ParentConsentRequest ||
-                (null == h ? void 0 : h.action) === di.ParentLinkRequest),
+              ((null == h ? void 0 : h.action) === dr.ParentConsentRequest ||
+                (null == h ? void 0 : h.action) === dr.ParentLinkRequest),
             X = null == h || null == (a = h.parentConsentTypes) ? void 0 : a[0],
             Q = void 0 !== _ && void 0 !== X && _.includes(X),
             Z = Y && !0 === V && void 0 !== _ && !Q,
@@ -29844,26 +29826,26 @@
           function et() {
             if (h)
               switch (h.action) {
-                case di.AddedEmail:
-                  return (0, P.jsx)(pv, { translate: c, onHide: $ });
-                case di.AgeEstimation:
-                  return (0, P.jsx)(yn, {
+                case dr.AddedEmail:
+                  return (0, P.jsx)(py, { translate: c, onHide: $ });
+                case dr.AgeEstimation:
+                  return (0, P.jsx)(ye, {
                     translate: c,
                     onHidecallback: J,
                     featureSpecificParams: I,
                     ageEstimation: !0
                   });
-                case di.GovernmentId:
-                  return (0, P.jsx)(px, {
+                case dr.GovernmentId:
+                  return (0, P.jsx)(pw, {
                     translate: c,
                     onHidecallback: J,
                     ageEstimation: !1,
                     featureSpecificParams: I,
-                    template: g === yo.Appeals ? pw.IdvAppeal : void 0
+                    template: g === yt.Appeals ? pv.IdvAppeal : void 0
                   });
-                case di.ParentConsentRequest:
-                case di.ParentLinkRequest:
-                  return (0, P.jsx)(mS, {
+                case dr.ParentConsentRequest:
+                case dr.ParentLinkRequest:
+                  return (0, P.jsx)(mb, {
                     recourse: h,
                     translate: c,
                     onHidecallback: J,
@@ -29871,20 +29853,20 @@
                     isPrologueUsed: null != y && y,
                     source: null == I ? void 0 : I.source
                   });
-                case di.UserSettings:
+                case dr.UserSettings:
                   var e;
                   if (
                     (null == (e = h.userSettings) ? void 0 : e.settingName) ===
-                    m_.allowFacialAgeEstimation
+                    mV.allowFacialAgeEstimation
                   )
-                    return (0, P.jsx)(he, {
+                    return (0, P.jsx)(m4, {
                       translate: c,
                       onHidecallback: J,
                       value: C,
                       isPrologueUsed: null != y && y,
                       source: null == I ? void 0 : I.source
                     });
-                  return (0, P.jsx)(m8, {
+                  return (0, P.jsx)(m3, {
                     translate: c,
                     recourse: h,
                     updateSettingsModalProps: (function (e) {
@@ -29922,7 +29904,7 @@
                     )
                   });
               }
-            return (0, P.jsx)(yB, { translate: c });
+            return (0, P.jsx)(yW, { translate: c });
           }
           if (
             ((0, T.useEffect)(
@@ -29956,7 +29938,7 @@
                     a,
                     i,
                     l,
-                    f = t.isAsyncCall ? fC.Denied : d.data.access;
+                    f = t.isAsyncCall ? fx.Denied : d.data.access;
                   u.launch({
                     recourseAction: h.action,
                     parentConsentTypes: h.parentConsentTypes,
@@ -29971,16 +29953,16 @@
                           (o = t.requestDetails),
                           (a = H),
                           {
-                            title: ((i = r), (l = dG), n(mx[i] || l)),
-                            description: mP(r, dX, n, [di.ParentConsentRequest], o, a).replace(
+                            title: ((i = r), (l = dz), n(mw[i] || l)),
+                            description: mS(r, d$, n, [dr.ParentConsentRequest], o, a).replace(
                               /<br\s*\/?>/gi,
                               "\n\n"
                             ),
-                            confirmLabel: n(dH)
+                            confirmLabel: n(dB)
                           })
                         : void 0,
                     onClose: function () {
-                      (s(fF()), t.closeCallback(f));
+                      (s(fR()), t.closeCallback(f));
                     }
                   });
                 }
@@ -29996,12 +29978,12 @@
             Z)
           )
             return null;
-          if (m) l = (0, P.jsx)(pg, {});
+          if (m) l = (0, P.jsx)(ph, {});
           else
             switch (f) {
-              case dn.Prologue:
+              case de.Prologue:
                 null != d.data &&
-                  (l = (0, P.jsx)(mR, {
+                  (l = (0, P.jsx)(mD, {
                     translate: c,
                     onHide: J,
                     recourseParameters: C,
@@ -30009,16 +29991,16 @@
                     featureSpecificParams: I
                   }));
                 break;
-              case dn.Verification:
+              case de.Verification:
                 null != d.data && (l = et());
                 break;
-              case dn.Epilogue:
-                l = (0, P.jsx)(yB, { translate: c, onHide: J });
+              case de.Epilogue:
+                l = (0, P.jsx)(yW, { translate: c, onHide: J });
                 break;
               default:
-                l = (0, P.jsx)(pg, {});
+                l = (0, P.jsx)(ph, {});
             }
-          return (0, P.jsx)(uK.Modal, {
+          return (0, P.jsx)(uF.Modal, {
             backdrop: "static",
             keyboard: !1,
             show: p && !ee,
@@ -30031,12 +30013,12 @@
             children: l
           });
         };
-        function ha(e, t) {
+        function hr(e, t) {
           (null == t || t > e.length) && (t = e.length);
           for (var r = 0, n = Array(t); r < t; r++) n[r] = e[r];
           return n;
         }
-        var hi = function (e) {
+        var hn = function (e) {
           var t,
             r = e.translate,
             n =
@@ -30074,7 +30056,7 @@
               })(t) ||
               (function (e) {
                 if (e) {
-                  if ("string" == typeof e) return ha(e, 2);
+                  if ("string" == typeof e) return hr(e, 2);
                   var t = Object.prototype.toString.call(e).slice(8, -1);
                   if (
                     ("Object" === t && e.constructor && (t = e.constructor.name),
@@ -30082,7 +30064,7 @@
                   )
                     return Array.from(t);
                   if ("Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t))
-                    return ha(e, 2);
+                    return hr(e, 2);
                 }
               })(t) ||
               (function () {
@@ -30108,13 +30090,13 @@
                 a(!0);
               };
               return (
-                window.addEventListener(dK, e),
+                window.addEventListener(dF, e),
                 function () {
-                  return window.removeEventListener(dK, e);
+                  return window.removeEventListener(dF, e);
                 }
               );
             }, []),
-            (0, P.jsx)(uy, {
+            (0, P.jsx)(uf, {
               open: o,
               onOpenChange: function (e) {
                 e || a(!1);
@@ -30123,11 +30105,11 @@
               isModal: !0,
               hasCloseAffordance: !0,
               closeLabel: r("Action.Dialog.Close"),
-              children: (0, P.jsx)(um, {
-                children: (0, P.jsxs)(uh, {
+              children: (0, P.jsx)(ud, {
+                children: (0, P.jsxs)(up, {
                   className: "text-body-medium",
                   children: [
-                    (0, P.jsx)(uv, {
+                    (0, P.jsx)(uy, {
                       className: "text-heading-small",
                       children: r("Heading.CheckAgeOnMobileApp")
                     }),
@@ -30192,7 +30174,7 @@
             })
           );
         };
-        function hl(e, t, r) {
+        function ho(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -30205,7 +30187,7 @@
             e
           );
         }
-        function hc(e) {
+        function ha(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -30216,12 +30198,12 @@
                 })
               )),
               n.forEach(function (t) {
-                hl(e, t, r[t]);
+                ho(e, t, r[t]);
               }));
           }
           return e;
         }
-        function hu(e, t) {
+        function hi(e, t) {
           return (
             (t = null != t ? t : {}),
             Object.getOwnPropertyDescriptors
@@ -30239,7 +30221,7 @@
             e
           );
         }
-        var hs = {
+        var hl = {
             titleTranslationKey: "Title.EnterParentEmailV2",
             titleSourceContentId: "1400648",
             parentEmailLabelTranslationKey: "Label.ParentEmail",
@@ -30258,20 +30240,20 @@
             lineBreak: "<br /><br />",
             lineBreakParam: "{lineBreak}"
           },
-          hf =
-            (hl((x = {}), mB.phoneNumberDiscoverabilitySetting, {
+          hc =
+            (ho((x = {}), mW.phoneNumberDiscoverabilitySetting, {
               titleTranslationKey: "Heading.FriendDiscovery",
               titleSourceContentId: "4063304",
               consentTranslationKey: "Description.PhoneNumberDiscoverabilityConsent.FriendsRename",
               consentSourceContentId: "7216456"
             }),
-            hl(x, mB.phoneNumberDiscoverabilitySettingParentSide, {
+            ho(x, mW.phoneNumberDiscoverabilitySettingParentSide, {
               titleTranslationKey: "Heading.FriendDiscovery",
               titleSourceContentId: "4063304",
               consentTranslationKey: "Description.ParentSide.PhoneNumberDiscoverabilityConsent.TFR",
               consentSourceContentId: "7237448"
             }),
-            hl(x, mB.phoneNumberDiscoverabilityUpsell, {
+            ho(x, mW.phoneNumberDiscoverabilityUpsell, {
               titleTranslationKey: "Heading.TurnOnFriendDiscovery",
               titleSourceContentId: "4123720",
               consentTranslationKey: "Description.PhoneNumberDiscoverabilityUpsellConsent.FRnm",
@@ -30281,7 +30263,7 @@
               neutralButtonTextTranslationKey: "Action.FriendDiscovery.NotNow",
               neutralButtonTextSourceContentId: "4122952"
             }),
-            hl(x, mB.personalizedAdsSetting, {
+            ho(x, mW.personalizedAdsSetting, {
               titleTranslationKey: "Heading.PersonalizeYourAds",
               titleSourceContentId: "4190024",
               consentTranslationKey: "Description.PersonalizeAds",
@@ -30292,7 +30274,7 @@
               linkStartParam: "{linkStart}",
               linkEndParam: "{linkEnd}"
             }),
-            hl(x, mB.sellShareDataSetting, {
+            ho(x, mW.sellShareDataSetting, {
               titleTranslationKey: "Heading.DataSellingAndSharing",
               titleSourceContentId: "4190280",
               consentTranslationKey: "Description.DataSellingAndSharing",
@@ -30303,11 +30285,11 @@
               linkStartParam: "{linkStart}",
               linkEndParam: "{linkEnd}"
             }),
-            hl(x, mB.allowMarketingEmailCheckboxEmailVerification, {
+            ho(x, mW.allowMarketingEmailCheckboxEmailVerification, {
               consentTranslationKey: "Description.EmailNotificationsOptIn",
               consentSourceContentId: "4557640"
             }),
-            hl(x, mB.allowMarketingEmailNotifications, {
+            ho(x, mW.allowMarketingEmailNotifications, {
               pageHeadingTranslationKey: "Label.LSC.NewsAndAnnouncements",
               pageHeadingSourceContentId: "8125000",
               pageDescriptionTranslationKey: "Description.LSC.ChooseNotificationTypes",
@@ -30317,7 +30299,7 @@
               labelDescriptionTranslationKey: "Description.LSC.TurnOnEmail",
               labelDescriptionSourceContentId: "8125768"
             }),
-            hl(x, mB.voiceDataConsentSetting, {
+            ho(x, mW.voiceDataConsentSetting, {
               titleTranslationKey: "Heading.VoiceDataConsent",
               titleSourceContentId: "4565320",
               consentTranslationKey: "Description.VoiceDataConsent",
@@ -30328,7 +30310,7 @@
               linkStartParam: "{linkStart}",
               linkEndParam: "{linkEnd}"
             }),
-            hl(x, mB.voiceDataConsentSettingParentSide, {
+            ho(x, mW.voiceDataConsentSettingParentSide, {
               titleTranslationKey: "Heading.VoiceDataConsent",
               titleSourceContentId: "4565320",
               consentTranslationKey: "Description.ParentSide.VoiceDataConsent",
@@ -30339,7 +30321,7 @@
               linkStartParam: "{linkStart}",
               linkEndParam: "{linkEnd}"
             }),
-            hl(x, mB.whoCanPartyWithMe, {
+            ho(x, mW.whoCanPartyWithMe, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChat",
@@ -30349,7 +30331,7 @@
               consentTranslationKey: "Description.PlayGamesTogetherWithYourFriends",
               consentSourceContentId: "9550152"
             }),
-            hl(x, mB.whoCanPartyWithMeV2, {
+            ho(x, mW.whoCanPartyWithMeV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.ManagePartyAndCommunications",
@@ -30359,7 +30341,7 @@
               consentTranslationKey: "Description.JoinGamesAndChatWithFriends",
               consentSourceContentId: "9447241"
             }),
-            hl(x, mB.whoCanPartyWithMeParentSide, {
+            ho(x, mW.whoCanPartyWithMeParentSide, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30369,7 +30351,7 @@
               consentTranslationKey: "Description.ParentSide.AllowYourChildToJoinGameWithFriends",
               consentSourceContentId: "9535560"
             }),
-            hl(x, mB.whoCanPartyWithMeParentSideV2, {
+            ho(x, mW.whoCanPartyWithMeParentSideV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30379,7 +30361,7 @@
               consentTranslationKey: "Description.ParentSide.AllowYourChildGamesChatWithFriends",
               consentSourceContentId: "9620552"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMe, {
+            ho(x, mW.whoCanUsePartyChatWithMe, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChat",
@@ -30389,7 +30371,7 @@
               consentTranslationKey: "Description.PartyChat",
               consentSourceContentId: "7182152"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeV2, {
+            ho(x, mW.whoCanUsePartyChatWithMeV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.ManagePartyAndCommunications",
@@ -30399,7 +30381,7 @@
               consentTranslationKey: "Description.FriendsChat",
               consentSourceContentId: "9315400"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeParentSide, {
+            ho(x, mW.whoCanUsePartyChatWithMeParentSide, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30409,7 +30391,7 @@
               consentTranslationKey: "Description.PartyChatConsent",
               consentSourceContentId: "7194184"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeParentSideV2, {
+            ho(x, mW.whoCanUsePartyChatWithMeParentSideV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30419,7 +30401,7 @@
               consentTranslationKey: "Description.ParentSide.FriendsChat",
               consentSourceContentId: "9620808"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMe, {
+            ho(x, mW.whoCanUsePartyVoiceWithMe, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChat",
@@ -30429,7 +30411,7 @@
               consentTranslationKey: "Description.PartyVoiceChat",
               consentSourceContentId: "7182408"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeV2, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.ManagePartyAndCommunications",
@@ -30439,7 +30421,7 @@
               consentTranslationKey: "Description.VoiceChatWithFriends",
               consentSourceContentId: "9315912"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeParentSide, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeParentSide, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30449,7 +30431,7 @@
               consentTranslationKey: "Description.PartyVoiceChatConsent",
               consentSourceContentId: "7194440"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeParentSideV2, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeParentSideV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30459,7 +30441,7 @@
               consentTranslationKey: "Description.PartyVoiceChatConsent",
               consentSourceContentId: "7194440"
             }),
-            hl(x, mB.whoCanPartyWithMeTrustedFriends, {
+            ho(x, mW.whoCanPartyWithMeTrustedFriends, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartySetting.AddToParty",
@@ -30469,7 +30451,7 @@
               consentTranslationKey: "Description.PlayGamesTogetherWithYourFriends",
               consentSourceContentId: "9550152"
             }),
-            hl(x, mB.whoCanPartyWithMeTrustedFriendsV2, {
+            ho(x, mW.whoCanPartyWithMeTrustedFriendsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartySetting.AddToParty",
@@ -30479,7 +30461,7 @@
               consentTranslationKey: "Description.PlayGamesTogetherWithYourFriends",
               consentSourceContentId: "9550152"
             }),
-            hl(x, mB.whoCanPartyWithMeParentSideRemovedComms, {
+            ho(x, mW.whoCanPartyWithMeParentSideRemovedComms, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartySettingConsent.AddToParty",
@@ -30489,7 +30471,7 @@
               consentTranslationKey: "Description.PartySettingConsent.AddToParty",
               consentSourceContentId: "8316744"
             }),
-            hl(x, mB.whoCanPartyWithMeParentSideRemovedCommsV2, {
+            ho(x, mW.whoCanPartyWithMeParentSideRemovedCommsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartySettingConsent.AddToParty",
@@ -30499,7 +30481,7 @@
               consentTranslationKey: "Description.PartySettingConsent.AddToParty",
               consentSourceContentId: "8316744"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeTrustedFriends, {
+            ho(x, mW.whoCanUsePartyChatWithMeTrustedFriends, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChat",
@@ -30509,7 +30491,7 @@
               consentTranslationKey: "Description.PartyChat.TrustedFriendsOnly",
               consentSourceContentId: "8313416"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeTrustedFriendsV2, {
+            ho(x, mW.whoCanUsePartyChatWithMeTrustedFriendsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.ManagePartyAndCommunications",
@@ -30519,7 +30501,7 @@
               consentTranslationKey: "Description.PartyChat.TrustedFriendsOnly",
               consentSourceContentId: "8313416"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeParentSideTrustedFriends, {
+            ho(x, mW.whoCanUsePartyChatWithMeParentSideTrustedFriends, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30529,7 +30511,7 @@
               consentTranslationKey: "Description.PartyChatConsent.TrustedFriends",
               consentSourceContentId: "8314952"
             }),
-            hl(x, mB.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2, {
+            ho(x, mW.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30539,7 +30521,7 @@
               consentTranslationKey: "Description.PartyChatConsent.TrustedFriends",
               consentSourceContentId: "8314952"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeTrustedFriends, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeTrustedFriends, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChat",
@@ -30549,7 +30531,7 @@
               consentTranslationKey: "Description.PartyVoiceChat.TrustedFriendsOnly",
               consentSourceContentId: "8313672"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeTrustedFriendsV2, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeTrustedFriendsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.ManagePartyAndCommunications",
@@ -30559,7 +30541,7 @@
               consentTranslationKey: "Description.PartyVoiceChat.TrustedFriendsOnly",
               consentSourceContentId: "8313672"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriends, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriends, {
               pageTitleTranslationKey: "Heading.PartyAndPartyChat",
               pageTitleSourceContentId: "7180360",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30569,7 +30551,7 @@
               consentTranslationKey: "Description.PartyVoiceChatConsent",
               consentSourceContentId: "7194440"
             }),
-            hl(x, mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2, {
+            ho(x, mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2, {
               pageTitleTranslationKey: "Heading.ChatAndPartyWithFriends",
               pageTitleSourceContentId: "9225544",
               pageDescriptionTranslationKey: "Description.PartyAndPartyChatParentSide",
@@ -30579,7 +30561,7 @@
               consentTranslationKey: "Description.PartyVoiceChatConsent",
               consentSourceContentId: "7194440"
             }),
-            hl(x, mB.receiveRobuxTransferConsentCard, {
+            ho(x, mW.receiveRobuxTransferConsentCard, {
               titleTranslationKey: "Heading.ConversationalRequest.ReceiveTransfer.Robux",
               titleSourceContentId: "7140680",
               descriptionTranslationKey: "Description.ReceiveRobuxTransfer",
@@ -30588,7 +30570,7 @@
               amountParam: "{amount}",
               robuxAmountParam: "{robuxAmount}"
             }),
-            hl(x, mB.sendRobuxTransferConsentCard, {
+            ho(x, mW.sendRobuxTransferConsentCard, {
               titleTranslationKey: "Heading.ConversationalRequest.SendTransfer.Robux",
               titleSourceContentId: "7140424",
               descriptionTranslationKey: "Description.SendRobuxTransfer",
@@ -30597,41 +30579,41 @@
               amountParam: "{amount}",
               robuxAmountParam: "{robuxAmount}"
             }),
-            hl(
+            ho(
               x,
-              mB.vpcRequestLinkSubjectToPC,
-              hu(hc({}, hs), {
+              mW.vpcRequestLinkSubjectToPC,
+              hi(ha({}, hl), {
                 descriptionTranslationKey: "Description.EnterParentEmailV5",
                 descriptionSourceContentId: "3710792"
               })
             ),
-            hl(
+            ho(
               x,
-              mB.vpcRequestLinkNotSubjectToPC,
-              hu(hc({}, hs), {
+              mW.vpcRequestLinkNotSubjectToPC,
+              hi(ha({}, hl), {
                 descriptionTranslationKey: "Description.EnterParentEmailWithoutParentalControlV2",
                 descriptionSourceContentId: "3618888"
               })
             ),
-            hl(
+            ho(
               x,
-              mB.vpcRequestLinkDefault,
-              hu(hc({}, hs), {
+              mW.vpcRequestLinkDefault,
+              hi(ha({}, hl), {
                 descriptionTranslationKey: "Description.EnterParentEmailWithoutParentalControl",
                 descriptionSourceContentId: "2540872"
               })
             ),
-            hl(x, mB.consentCenterAllowAction, {
+            ho(x, mW.consentCenterAllowAction, {
               textTranslationKey: "Description.AllowYourChild",
               textSourceContentId: "1844552",
               actionNameParam: "{actionName}"
             }),
-            hl(x, mB.consentCenterUpdateSettingNoValue, {
+            ho(x, mW.consentCenterUpdateSettingNoValue, {
               textTranslationKey: "Description.UpdateChildSetting",
               textSourceContentId: "1566280",
               settingNameParam: "{settingName}"
             }),
-            hl(x, mB.consentCenterUpdateSettingWithValue, {
+            ho(x, mW.consentCenterUpdateSettingWithValue, {
               textTranslationKey: "Description.UpdateChildSettingFromTo",
               textSourceContentId: "1566536",
               settingNameParam: "{settingName}",
@@ -30639,8 +30621,8 @@
               proposedValueParam: "{proposedValue}"
             }),
             x),
-          hd = ej.EnvironmentUrls.userSettingsApi;
-        function hp(e, t, r, n, o, a, i) {
+          hu = ej.EnvironmentUrls.userSettingsApi;
+        function hs(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -30650,7 +30632,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        function hy(e, t, r) {
+        function hf(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -30663,7 +30645,7 @@
             e
           );
         }
-        var hm = function (e, t, r) {
+        var hd = function (e, t, r) {
           var n;
           return ((n = function () {
             var n;
@@ -30772,13 +30754,13 @@
                         })
                       )),
                       n.forEach(function (t) {
-                        hy(e, t, r[t]);
+                        hf(e, t, r[t]);
                       }));
                   }
                   return e;
                 })(
                   {},
-                  { retryable: !0, withCredentials: !0, url: "".concat(hd, "/v1/user-settings") }
+                  { retryable: !0, withCredentials: !0, url: "".concat(hu, "/v1/user-settings") }
                 )),
                 (i = i = { headers: { "rbx-audit-data": r } }),
                 Object.getOwnPropertyDescriptors
@@ -30794,7 +30776,7 @@
                       Object.defineProperty(a, e, Object.getOwnPropertyDescriptor(i, e));
                     }),
                 (n = a),
-                [2, iH.httpService.post(n, hy({}, e, t))]
+                [2, iB.httpService.post(n, hf({}, e, t))]
               );
             });
           }),
@@ -30804,16 +30786,16 @@
             return new Promise(function (r, o) {
               var a = n.apply(e, t);
               function i(e) {
-                hp(a, r, o, i, l, "next", e);
+                hs(a, r, o, i, l, "next", e);
               }
               function l(e) {
-                hp(a, r, o, i, l, "throw", e);
+                hs(a, r, o, i, l, "throw", e);
               }
               i(void 0);
             });
           })();
         };
-        function hh(e, t, r) {
+        function hp(e, t, r) {
           return (
             t in e
               ? Object.defineProperty(e, t, {
@@ -30826,7 +30808,7 @@
             e
           );
         }
-        function hv(e) {
+        function hy(e) {
           for (var t = 1; t < arguments.length; t++) {
             var r = null != arguments[t] ? arguments[t] : {},
               n = Object.keys(r);
@@ -30837,187 +30819,187 @@
                 })
               )),
               n.forEach(function (t) {
-                hh(e, t, r[t]);
+                hp(e, t, r[t]);
               }));
           }
           return e;
         }
-        var hb = function (e, t, r) {
+        var hm = function (e, t, r) {
             var n;
             switch (e) {
-              case mB.phoneNumberDiscoverabilitySetting:
+              case mW.phoneNumberDiscoverabilitySetting:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilitySetting.titleTranslationKey
+                      hc.phoneNumberDiscoverabilitySetting.titleTranslationKey
                     ),
-                    sourceContentId: hf.phoneNumberDiscoverabilitySetting.titleSourceContentId
+                    sourceContentId: hc.phoneNumberDiscoverabilitySetting.titleSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilitySetting.consentTranslationKey
+                      hc.phoneNumberDiscoverabilitySetting.consentTranslationKey
                     ),
-                    sourceContentId: hf.phoneNumberDiscoverabilitySetting.consentSourceContentId
+                    sourceContentId: hc.phoneNumberDiscoverabilitySetting.consentSourceContentId
                   }
                 ];
-              case mB.phoneNumberDiscoverabilitySettingParentSide:
+              case mW.phoneNumberDiscoverabilitySettingParentSide:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilitySettingParentSide.titleTranslationKey
+                      hc.phoneNumberDiscoverabilitySettingParentSide.titleTranslationKey
                     ),
                     sourceContentId:
-                      hf.phoneNumberDiscoverabilitySettingParentSide.titleSourceContentId
+                      hc.phoneNumberDiscoverabilitySettingParentSide.titleSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilitySettingParentSide.consentTranslationKey
+                      hc.phoneNumberDiscoverabilitySettingParentSide.consentTranslationKey
                     ),
                     sourceContentId:
-                      hf.phoneNumberDiscoverabilitySettingParentSide.consentSourceContentId
+                      hc.phoneNumberDiscoverabilitySettingParentSide.consentSourceContentId
                   }
                 ];
-              case mB.phoneNumberDiscoverabilityUpsell:
+              case mW.phoneNumberDiscoverabilityUpsell:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilityUpsell.titleTranslationKey
+                      hc.phoneNumberDiscoverabilityUpsell.titleTranslationKey
                     ),
-                    sourceContentId: hf.phoneNumberDiscoverabilityUpsell.titleSourceContentId
+                    sourceContentId: hc.phoneNumberDiscoverabilityUpsell.titleSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilityUpsell.consentTranslationKey
+                      hc.phoneNumberDiscoverabilityUpsell.consentTranslationKey
                     ),
-                    sourceContentId: hf.phoneNumberDiscoverabilityUpsell.consentSourceContentId
+                    sourceContentId: hc.phoneNumberDiscoverabilityUpsell.consentSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilityUpsell.actionButtonTextTranslationKey
+                      hc.phoneNumberDiscoverabilityUpsell.actionButtonTextTranslationKey
                     ),
                     sourceContentId:
-                      hf.phoneNumberDiscoverabilityUpsell.actionButtonTextSourceContentId
+                      hc.phoneNumberDiscoverabilityUpsell.actionButtonTextSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.phoneNumberDiscoverabilityUpsell.neutralButtonTextTranslationKey
+                      hc.phoneNumberDiscoverabilityUpsell.neutralButtonTextTranslationKey
                     ),
                     sourceContentId:
-                      hf.phoneNumberDiscoverabilityUpsell.neutralButtonTextSourceContentId
+                      hc.phoneNumberDiscoverabilityUpsell.neutralButtonTextSourceContentId
                   }
                 ];
-              case mB.personalizedAdsSetting:
+              case mW.personalizedAdsSetting:
                 return [
                   {
-                    consentStringTemplate: t(hf.personalizedAdsSetting.titleTranslationKey),
-                    sourceContentId: hf.personalizedAdsSetting.titleSourceContentId
+                    consentStringTemplate: t(hc.personalizedAdsSetting.titleTranslationKey),
+                    sourceContentId: hc.personalizedAdsSetting.titleSourceContentId
                   },
                   {
-                    consentStringTemplate: t(hf.personalizedAdsSetting.consentTranslationKey, {
-                      linkStart: hf.personalizedAdsSetting.linkStartParam,
-                      linkEnd: hf.personalizedAdsSetting.linkEndParam
+                    consentStringTemplate: t(hc.personalizedAdsSetting.consentTranslationKey, {
+                      linkStart: hc.personalizedAdsSetting.linkStartParam,
+                      linkEnd: hc.personalizedAdsSetting.linkEndParam
                     }),
-                    sourceContentId: hf.personalizedAdsSetting.consentSourceContentId,
+                    sourceContentId: hc.personalizedAdsSetting.consentSourceContentId,
                     vars: {
-                      linkStart: hf.personalizedAdsSetting.linkStart,
-                      linkEnd: hf.personalizedAdsSetting.linkEnd
+                      linkStart: hc.personalizedAdsSetting.linkStart,
+                      linkEnd: hc.personalizedAdsSetting.linkEnd
                     }
                   }
                 ];
-              case mB.sellShareDataSetting:
+              case mW.sellShareDataSetting:
                 return [
                   {
-                    consentStringTemplate: t(hf.sellShareDataSetting.titleTranslationKey),
-                    sourceContentId: hf.sellShareDataSetting.titleSourceContentId
+                    consentStringTemplate: t(hc.sellShareDataSetting.titleTranslationKey),
+                    sourceContentId: hc.sellShareDataSetting.titleSourceContentId
                   },
                   {
-                    consentStringTemplate: t(hf.sellShareDataSetting.consentTranslationKey, {
-                      linkStart: hf.sellShareDataSetting.linkStartParam,
-                      linkEnd: hf.sellShareDataSetting.linkEndParam
+                    consentStringTemplate: t(hc.sellShareDataSetting.consentTranslationKey, {
+                      linkStart: hc.sellShareDataSetting.linkStartParam,
+                      linkEnd: hc.sellShareDataSetting.linkEndParam
                     }),
-                    sourceContentId: hf.sellShareDataSetting.consentSourceContentId,
+                    sourceContentId: hc.sellShareDataSetting.consentSourceContentId,
                     vars: {
-                      linkStart: hf.sellShareDataSetting.linkStart,
-                      linkEnd: hf.sellShareDataSetting.linkEnd
+                      linkStart: hc.sellShareDataSetting.linkStart,
+                      linkEnd: hc.sellShareDataSetting.linkEnd
                     }
                   }
                 ];
-              case mB.allowMarketingEmailCheckboxEmailVerification:
+              case mW.allowMarketingEmailCheckboxEmailVerification:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.allowMarketingEmailCheckboxEmailVerification.consentTranslationKey
+                      hc.allowMarketingEmailCheckboxEmailVerification.consentTranslationKey
                     ),
                     sourceContentId:
-                      hf.allowMarketingEmailCheckboxEmailVerification.consentSourceContentId
+                      hc.allowMarketingEmailCheckboxEmailVerification.consentSourceContentId
                   }
                 ];
-              case mB.voiceDataConsentSetting:
+              case mW.voiceDataConsentSetting:
                 return [
                   {
-                    consentStringTemplate: t(hf.voiceDataConsentSetting.titleTranslationKey),
-                    sourceContentId: hf.voiceDataConsentSetting.titleSourceContentId
+                    consentStringTemplate: t(hc.voiceDataConsentSetting.titleTranslationKey),
+                    sourceContentId: hc.voiceDataConsentSetting.titleSourceContentId
                   },
                   {
-                    consentStringTemplate: t(hf.voiceDataConsentSetting.consentTranslationKey, {
-                      linkStart: hf.voiceDataConsentSetting.linkStartParam,
-                      linkEnd: hf.voiceDataConsentSetting.linkEndParam
+                    consentStringTemplate: t(hc.voiceDataConsentSetting.consentTranslationKey, {
+                      linkStart: hc.voiceDataConsentSetting.linkStartParam,
+                      linkEnd: hc.voiceDataConsentSetting.linkEndParam
                     }),
-                    sourceContentId: hf.voiceDataConsentSetting.consentSourceContentId,
+                    sourceContentId: hc.voiceDataConsentSetting.consentSourceContentId,
                     vars: {
-                      linkStart: hf.voiceDataConsentSetting.linkStart,
-                      linkEnd: hf.voiceDataConsentSetting.linkEnd
+                      linkStart: hc.voiceDataConsentSetting.linkStart,
+                      linkEnd: hc.voiceDataConsentSetting.linkEnd
                     }
                   }
                 ];
-              case mB.voiceDataConsentSettingParentSide:
+              case mW.voiceDataConsentSettingParentSide:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.voiceDataConsentSettingParentSide.titleTranslationKey
+                      hc.voiceDataConsentSettingParentSide.titleTranslationKey
                     ),
-                    sourceContentId: hf.voiceDataConsentSettingParentSide.titleSourceContentId
+                    sourceContentId: hc.voiceDataConsentSettingParentSide.titleSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.voiceDataConsentSettingParentSide.consentTranslationKey,
+                      hc.voiceDataConsentSettingParentSide.consentTranslationKey,
                       {
-                        linkStart: hf.voiceDataConsentSettingParentSide.linkStartParam,
-                        linkEnd: hf.voiceDataConsentSettingParentSide.linkEndParam
+                        linkStart: hc.voiceDataConsentSettingParentSide.linkStartParam,
+                        linkEnd: hc.voiceDataConsentSettingParentSide.linkEndParam
                       }
                     ),
-                    sourceContentId: hf.voiceDataConsentSettingParentSide.consentSourceContentId,
+                    sourceContentId: hc.voiceDataConsentSettingParentSide.consentSourceContentId,
                     vars: {
-                      linkStart: hf.voiceDataConsentSettingParentSide.linkStart,
-                      linkEnd: hf.voiceDataConsentSettingParentSide.linkEnd
+                      linkStart: hc.voiceDataConsentSettingParentSide.linkStart,
+                      linkEnd: hc.voiceDataConsentSettingParentSide.linkEnd
                     }
                   }
                 ];
-              case mB.whoCanPartyWithMe:
-              case mB.whoCanPartyWithMeV2:
-              case mB.whoCanPartyWithMeParentSide:
-              case mB.whoCanPartyWithMeParentSideV2:
-              case mB.whoCanPartyWithMeTrustedFriends:
-              case mB.whoCanPartyWithMeTrustedFriendsV2:
-              case mB.whoCanPartyWithMeParentSideRemovedComms:
-              case mB.whoCanPartyWithMeParentSideRemovedCommsV2:
-              case mB.whoCanUsePartyChatWithMe:
-              case mB.whoCanUsePartyChatWithMeV2:
-              case mB.whoCanUsePartyChatWithMeParentSide:
-              case mB.whoCanUsePartyChatWithMeParentSideV2:
-              case mB.whoCanUsePartyChatWithMeTrustedFriends:
-              case mB.whoCanUsePartyChatWithMeTrustedFriendsV2:
-              case mB.whoCanUsePartyChatWithMeParentSideTrustedFriends:
-              case mB.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2:
-              case mB.whoCanUsePartyVoiceWithMe:
-              case mB.whoCanUsePartyVoiceWithMeV2:
-              case mB.whoCanUsePartyVoiceWithMeParentSide:
-              case mB.whoCanUsePartyVoiceWithMeParentSideV2:
-              case mB.whoCanUsePartyVoiceWithMeTrustedFriends:
-              case mB.whoCanUsePartyVoiceWithMeTrustedFriendsV2:
-              case mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriends:
-              case mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2:
-                var o = hf[e];
+              case mW.whoCanPartyWithMe:
+              case mW.whoCanPartyWithMeV2:
+              case mW.whoCanPartyWithMeParentSide:
+              case mW.whoCanPartyWithMeParentSideV2:
+              case mW.whoCanPartyWithMeTrustedFriends:
+              case mW.whoCanPartyWithMeTrustedFriendsV2:
+              case mW.whoCanPartyWithMeParentSideRemovedComms:
+              case mW.whoCanPartyWithMeParentSideRemovedCommsV2:
+              case mW.whoCanUsePartyChatWithMe:
+              case mW.whoCanUsePartyChatWithMeV2:
+              case mW.whoCanUsePartyChatWithMeParentSide:
+              case mW.whoCanUsePartyChatWithMeParentSideV2:
+              case mW.whoCanUsePartyChatWithMeTrustedFriends:
+              case mW.whoCanUsePartyChatWithMeTrustedFriendsV2:
+              case mW.whoCanUsePartyChatWithMeParentSideTrustedFriends:
+              case mW.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2:
+              case mW.whoCanUsePartyVoiceWithMe:
+              case mW.whoCanUsePartyVoiceWithMeV2:
+              case mW.whoCanUsePartyVoiceWithMeParentSide:
+              case mW.whoCanUsePartyVoiceWithMeParentSideV2:
+              case mW.whoCanUsePartyVoiceWithMeTrustedFriends:
+              case mW.whoCanUsePartyVoiceWithMeTrustedFriendsV2:
+              case mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriends:
+              case mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2:
+                var o = hc[e];
                 return [
                   {
                     consentStringTemplate: t(o.pageTitleTranslationKey),
@@ -31036,17 +31018,17 @@
                     sourceContentId: o.consentSourceContentId
                   }
                 ];
-              case mB.receiveRobuxTransferConsentCard:
+              case mW.receiveRobuxTransferConsentCard:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.receiveRobuxTransferConsentCard.titleTranslationKey,
+                      hc.receiveRobuxTransferConsentCard.titleTranslationKey,
                       {
-                        username: hf.receiveRobuxTransferConsentCard.usernameParam,
-                        amount: hf.receiveRobuxTransferConsentCard.amountParam
+                        username: hc.receiveRobuxTransferConsentCard.usernameParam,
+                        amount: hc.receiveRobuxTransferConsentCard.amountParam
                       }
                     ),
-                    sourceContentId: hf.receiveRobuxTransferConsentCard.titleSourceContentId,
+                    sourceContentId: hc.receiveRobuxTransferConsentCard.titleSourceContentId,
                     vars: {
                       username: null == r ? void 0 : r.username,
                       amount: null == r ? void 0 : r.amount
@@ -31054,21 +31036,21 @@
                   },
                   {
                     consentStringTemplate: t(
-                      hf.receiveRobuxTransferConsentCard.descriptionTranslationKey,
-                      { robuxAmount: hf.receiveRobuxTransferConsentCard.robuxAmountParam }
+                      hc.receiveRobuxTransferConsentCard.descriptionTranslationKey,
+                      { robuxAmount: hc.receiveRobuxTransferConsentCard.robuxAmountParam }
                     ),
-                    sourceContentId: hf.receiveRobuxTransferConsentCard.descriptionSourceContentId,
+                    sourceContentId: hc.receiveRobuxTransferConsentCard.descriptionSourceContentId,
                     vars: { robuxAmount: null == r ? void 0 : r.amount }
                   }
                 ];
-              case mB.sendRobuxTransferConsentCard:
+              case mW.sendRobuxTransferConsentCard:
                 return [
                   {
-                    consentStringTemplate: t(hf.sendRobuxTransferConsentCard.titleTranslationKey, {
-                      username: hf.sendRobuxTransferConsentCard.usernameParam,
-                      amount: hf.sendRobuxTransferConsentCard.amountParam
+                    consentStringTemplate: t(hc.sendRobuxTransferConsentCard.titleTranslationKey, {
+                      username: hc.sendRobuxTransferConsentCard.usernameParam,
+                      amount: hc.sendRobuxTransferConsentCard.amountParam
                     }),
-                    sourceContentId: hf.sendRobuxTransferConsentCard.titleSourceContentId,
+                    sourceContentId: hc.sendRobuxTransferConsentCard.titleSourceContentId,
                     vars: {
                       username: null == r ? void 0 : r.username,
                       amount: null == r ? void 0 : r.amount
@@ -31076,22 +31058,22 @@
                   },
                   {
                     consentStringTemplate: t(
-                      hf.sendRobuxTransferConsentCard.descriptionTranslationKey,
-                      { robuxAmount: hf.sendRobuxTransferConsentCard.robuxAmountParam }
+                      hc.sendRobuxTransferConsentCard.descriptionTranslationKey,
+                      { robuxAmount: hc.sendRobuxTransferConsentCard.robuxAmountParam }
                     ),
-                    sourceContentId: hf.sendRobuxTransferConsentCard.descriptionSourceContentId,
+                    sourceContentId: hc.sendRobuxTransferConsentCard.descriptionSourceContentId,
                     vars: { robuxAmount: null == r ? void 0 : r.amount }
                   }
                 ];
-              case mB.vpcRequestLinkSubjectToPC:
-              case mB.vpcRequestLinkNotSubjectToPC:
-              case mB.vpcRequestLinkDefault:
+              case mW.vpcRequestLinkSubjectToPC:
+              case mW.vpcRequestLinkNotSubjectToPC:
+              case mW.vpcRequestLinkDefault:
                 return (
-                  (n = hf.vpcRequestLinkDefault),
-                  e === mB.vpcRequestLinkSubjectToPC
-                    ? (n = hf.vpcRequestLinkSubjectToPC)
-                    : e === mB.vpcRequestLinkNotSubjectToPC &&
-                      (n = hf.vpcRequestLinkNotSubjectToPC),
+                  (n = hc.vpcRequestLinkDefault),
+                  e === mW.vpcRequestLinkSubjectToPC
+                    ? (n = hc.vpcRequestLinkSubjectToPC)
+                    : e === mW.vpcRequestLinkNotSubjectToPC &&
+                      (n = hc.vpcRequestLinkNotSubjectToPC),
                   [
                     {
                       consentStringTemplate: t(n.titleTranslationKey),
@@ -31126,32 +31108,32 @@
                     }
                   ]
                 );
-              case mB.consentCenterAllowAction:
+              case mW.consentCenterAllowAction:
                 return [
                   {
-                    consentStringTemplate: t((n = hf.consentCenterAllowAction).textTranslationKey, {
+                    consentStringTemplate: t((n = hc.consentCenterAllowAction).textTranslationKey, {
                       actionName: n.actionNameParam
                     }),
                     sourceContentId: n.textSourceContentId,
                     vars: { actionName: null == r ? void 0 : r.actionName }
                   }
                 ];
-              case mB.consentCenterUpdateSettingNoValue:
+              case mW.consentCenterUpdateSettingNoValue:
                 return [
                   {
                     consentStringTemplate: t(
-                      (n = hf.consentCenterUpdateSettingNoValue).textTranslationKey,
+                      (n = hc.consentCenterUpdateSettingNoValue).textTranslationKey,
                       { settingName: n.settingNameParam }
                     ),
                     sourceContentId: n.textSourceContentId,
                     vars: { settingName: null == r ? void 0 : r.settingName }
                   }
                 ];
-              case mB.consentCenterUpdateSettingWithValue:
+              case mW.consentCenterUpdateSettingWithValue:
                 return [
                   {
                     consentStringTemplate: t(
-                      (n = hf.consentCenterUpdateSettingWithValue).textTranslationKey,
+                      (n = hc.consentCenterUpdateSettingWithValue).textTranslationKey,
                       {
                         settingName: n.settingNameParam,
                         currentValue: n.currentValueParam,
@@ -31166,54 +31148,54 @@
                     }
                   }
                 ];
-              case mB.allowMarketingEmailNotifications:
+              case mW.allowMarketingEmailNotifications:
                 return [
                   {
                     consentStringTemplate: t(
-                      hf.allowMarketingEmailNotifications.pageHeadingTranslationKey
+                      hc.allowMarketingEmailNotifications.pageHeadingTranslationKey
                     ),
-                    sourceContentId: hf.allowMarketingEmailNotifications.pageHeadingSourceContentId
+                    sourceContentId: hc.allowMarketingEmailNotifications.pageHeadingSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.allowMarketingEmailNotifications.pageDescriptionTranslationKey
+                      hc.allowMarketingEmailNotifications.pageDescriptionTranslationKey
                     ),
                     sourceContentId:
-                      hf.allowMarketingEmailNotifications.pageDescriptionSourceContentId
+                      hc.allowMarketingEmailNotifications.pageDescriptionSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.allowMarketingEmailNotifications.labelTranslationKey
+                      hc.allowMarketingEmailNotifications.labelTranslationKey
                     ),
-                    sourceContentId: hf.allowMarketingEmailNotifications.labelSourceContentId
+                    sourceContentId: hc.allowMarketingEmailNotifications.labelSourceContentId
                   },
                   {
                     consentStringTemplate: t(
-                      hf.allowMarketingEmailNotifications.labelDescriptionTranslationKey
+                      hc.allowMarketingEmailNotifications.labelDescriptionTranslationKey
                     ),
                     sourceContentId:
-                      hf.allowMarketingEmailNotifications.labelDescriptionSourceContentId
+                      hc.allowMarketingEmailNotifications.labelDescriptionSourceContentId
                   }
                 ];
               default:
                 return [];
             }
           },
-          hg = function (e, t, r) {
+          hh = function (e, t, r) {
             var n = JSON.stringify(
-              hv(
+              hy(
                 {
                   content: e.reduce(function (e, t) {
                     var r, n;
                     return (
-                      (r = hv({}, e)),
+                      (r = hy({}, e)),
                       (n =
                         null !=
-                        (n = hh(
+                        (n = hp(
                           {},
                           t.sourceContentId,
-                          hv(
-                            { hash: fE.cryptoUtil.hashStringWithFnv1a32(t.consentStringTemplate) },
+                          hy(
+                            { hash: fP.cryptoUtil.hashStringWithFnv1a32(t.consentStringTemplate) },
                             t.vars
                           )
                         ))
@@ -31239,9 +31221,9 @@
                 r
               )
             );
-            return fE.cryptoUtil.stringToUrlSafeBase64(n);
+            return fP.cryptoUtil.stringToUrlSafeBase64(n);
           };
-        function hw(e, t, r, n, o, a, i) {
+        function hv(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -31251,7 +31233,7 @@
           }
           l.done ? t(c) : Promise.resolve(c).then(n, o);
         }
-        var hS = (0, D.withTranslations)(
+        var hb = (0, D.withTranslations)(
             function (e) {
               var t = e.translate;
               return (
@@ -31269,31 +31251,31 @@
                             (function () {
                               var e;
                               switch (a) {
-                                case mB.phoneNumberDiscoverabilitySetting:
+                                case mW.phoneNumberDiscoverabilitySetting:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.phoneNumberDiscoverabilitySetting)
+                                        (e = hc.phoneNumberDiscoverabilitySetting)
                                           .titleTranslationKey
                                       ),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.phoneNumberDiscoverabilitySettingParentSide:
+                                case mW.phoneNumberDiscoverabilitySettingParentSide:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.phoneNumberDiscoverabilitySettingParentSide)
+                                        (e = hc.phoneNumberDiscoverabilitySettingParentSide)
                                           .titleTranslationKey
                                       ),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.phoneNumberDiscoverabilityUpsell:
+                                case mW.phoneNumberDiscoverabilityUpsell:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.phoneNumberDiscoverabilityUpsell)
+                                        (e = hc.phoneNumberDiscoverabilityUpsell)
                                           .titleTranslationKey
                                       ),
                                       consent: o(e.consentTranslationKey),
@@ -31301,40 +31283,40 @@
                                       neutralButtonText: o(e.neutralButtonTextTranslationKey)
                                     }
                                   };
-                                case mB.personalizedAdsSetting:
+                                case mW.personalizedAdsSetting:
                                   return {
                                     wordsOfConsent: {
-                                      title: o((e = hf.personalizedAdsSetting).titleTranslationKey),
+                                      title: o((e = hc.personalizedAdsSetting).titleTranslationKey),
                                       consent: o(e.consentTranslationKey, {
                                         linkStart: e.linkStart,
                                         linkEnd: e.linkEnd
                                       })
                                     }
                                   };
-                                case mB.sellShareDataSetting:
+                                case mW.sellShareDataSetting:
                                   return {
                                     wordsOfConsent: {
-                                      title: o((e = hf.sellShareDataSetting).titleTranslationKey),
+                                      title: o((e = hc.sellShareDataSetting).titleTranslationKey),
                                       consent: o(e.consentTranslationKey, {
                                         linkStart: e.linkStart,
                                         linkEnd: e.linkEnd
                                       })
                                     }
                                   };
-                                case mB.allowMarketingEmailCheckboxEmailVerification:
+                                case mW.allowMarketingEmailCheckboxEmailVerification:
                                   return {
                                     wordsOfConsent: {
                                       consent: o(
-                                        (e = hf.allowMarketingEmailCheckboxEmailVerification)
+                                        (e = hc.allowMarketingEmailCheckboxEmailVerification)
                                           .consentTranslationKey
                                       )
                                     }
                                   };
-                                case mB.voiceDataConsentSetting:
+                                case mW.voiceDataConsentSetting:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.voiceDataConsentSetting).titleTranslationKey
+                                        (e = hc.voiceDataConsentSetting).titleTranslationKey
                                       ),
                                       consent: o(e.consentTranslationKey, {
                                         linkStart: e.linkStart,
@@ -31342,11 +31324,11 @@
                                       })
                                     }
                                   };
-                                case mB.voiceDataConsentSettingParentSide:
+                                case mW.voiceDataConsentSettingParentSide:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.voiceDataConsentSettingParentSide)
+                                        (e = hc.voiceDataConsentSettingParentSide)
                                           .titleTranslationKey
                                       ),
                                       consent: o(e.consentTranslationKey, {
@@ -31355,44 +31337,44 @@
                                       })
                                     }
                                   };
-                                case mB.whoCanPartyWithMe:
+                                case mW.whoCanPartyWithMe:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMe).pageTitleTranslationKey
+                                        (e = hc.whoCanPartyWithMe).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeV2:
+                                case mW.whoCanPartyWithMeV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeV2).pageTitleTranslationKey
+                                        (e = hc.whoCanPartyWithMeV2).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeParentSide:
+                                case mW.whoCanPartyWithMeParentSide:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeParentSide).pageTitleTranslationKey
+                                        (e = hc.whoCanPartyWithMeParentSide).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeParentSideV2:
+                                case mW.whoCanPartyWithMeParentSideV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeParentSideV2)
+                                        (e = hc.whoCanPartyWithMeParentSideV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31400,33 +31382,33 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMe:
+                                case mW.whoCanUsePartyChatWithMe:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMe).pageTitleTranslationKey
+                                        (e = hc.whoCanUsePartyChatWithMe).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeV2:
+                                case mW.whoCanUsePartyChatWithMeV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeV2).pageTitleTranslationKey
+                                        (e = hc.whoCanUsePartyChatWithMeV2).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeParentSide:
+                                case mW.whoCanUsePartyChatWithMeParentSide:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeParentSide)
+                                        (e = hc.whoCanUsePartyChatWithMeParentSide)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31434,11 +31416,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeParentSideV2:
+                                case mW.whoCanUsePartyChatWithMeParentSideV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeParentSideV2)
+                                        (e = hc.whoCanUsePartyChatWithMeParentSideV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31446,33 +31428,33 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMe:
+                                case mW.whoCanUsePartyVoiceWithMe:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMe).pageTitleTranslationKey
+                                        (e = hc.whoCanUsePartyVoiceWithMe).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeV2:
+                                case mW.whoCanUsePartyVoiceWithMeV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeV2).pageTitleTranslationKey
+                                        (e = hc.whoCanUsePartyVoiceWithMeV2).pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
                                       title: o(e.titleTranslationKey),
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeParentSide:
+                                case mW.whoCanUsePartyVoiceWithMeParentSide:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeParentSide)
+                                        (e = hc.whoCanUsePartyVoiceWithMeParentSide)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31480,11 +31462,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeParentSideV2:
+                                case mW.whoCanUsePartyVoiceWithMeParentSideV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeParentSideV2)
+                                        (e = hc.whoCanUsePartyVoiceWithMeParentSideV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31492,11 +31474,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeTrustedFriends:
+                                case mW.whoCanPartyWithMeTrustedFriends:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeTrustedFriends)
+                                        (e = hc.whoCanPartyWithMeTrustedFriends)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31504,11 +31486,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeTrustedFriendsV2:
+                                case mW.whoCanPartyWithMeTrustedFriendsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeTrustedFriendsV2)
+                                        (e = hc.whoCanPartyWithMeTrustedFriendsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31516,11 +31498,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeParentSideRemovedComms:
+                                case mW.whoCanPartyWithMeParentSideRemovedComms:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeParentSideRemovedComms)
+                                        (e = hc.whoCanPartyWithMeParentSideRemovedComms)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31528,11 +31510,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanPartyWithMeParentSideRemovedCommsV2:
+                                case mW.whoCanPartyWithMeParentSideRemovedCommsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanPartyWithMeParentSideRemovedCommsV2)
+                                        (e = hc.whoCanPartyWithMeParentSideRemovedCommsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31540,11 +31522,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeTrustedFriends:
+                                case mW.whoCanUsePartyChatWithMeTrustedFriends:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeTrustedFriends)
+                                        (e = hc.whoCanUsePartyChatWithMeTrustedFriends)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31552,11 +31534,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeTrustedFriendsV2:
+                                case mW.whoCanUsePartyChatWithMeTrustedFriendsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeTrustedFriendsV2)
+                                        (e = hc.whoCanUsePartyChatWithMeTrustedFriendsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31564,11 +31546,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeParentSideTrustedFriends:
+                                case mW.whoCanUsePartyChatWithMeParentSideTrustedFriends:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeParentSideTrustedFriends)
+                                        (e = hc.whoCanUsePartyChatWithMeParentSideTrustedFriends)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31576,11 +31558,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2:
+                                case mW.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2)
+                                        (e = hc.whoCanUsePartyChatWithMeParentSideTrustedFriendsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31588,11 +31570,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeTrustedFriends:
+                                case mW.whoCanUsePartyVoiceWithMeTrustedFriends:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeTrustedFriends)
+                                        (e = hc.whoCanUsePartyVoiceWithMeTrustedFriends)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31600,11 +31582,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeTrustedFriendsV2:
+                                case mW.whoCanUsePartyVoiceWithMeTrustedFriendsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeTrustedFriendsV2)
+                                        (e = hc.whoCanUsePartyVoiceWithMeTrustedFriendsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31612,11 +31594,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriends:
+                                case mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriends:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeParentSideTrustedFriends)
+                                        (e = hc.whoCanUsePartyVoiceWithMeParentSideTrustedFriends)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31624,11 +31606,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2:
+                                case mW.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2)
+                                        (e = hc.whoCanUsePartyVoiceWithMeParentSideTrustedFriendsV2)
                                           .pageTitleTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31636,11 +31618,11 @@
                                       consent: o(e.consentTranslationKey)
                                     }
                                   };
-                                case mB.receiveRobuxTransferConsentCard:
+                                case mW.receiveRobuxTransferConsentCard:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.receiveRobuxTransferConsentCard)
+                                        (e = hc.receiveRobuxTransferConsentCard)
                                           .titleTranslationKey,
                                         {
                                           username: null == l ? void 0 : l.username,
@@ -31652,11 +31634,11 @@
                                       })
                                     }
                                   };
-                                case mB.sendRobuxTransferConsentCard:
+                                case mW.sendRobuxTransferConsentCard:
                                   return {
                                     wordsOfConsent: {
                                       title: o(
-                                        (e = hf.sendRobuxTransferConsentCard).titleTranslationKey,
+                                        (e = hc.sendRobuxTransferConsentCard).titleTranslationKey,
                                         {
                                           username: null == l ? void 0 : l.username,
                                           amount: null == l ? void 0 : l.amount
@@ -31667,15 +31649,15 @@
                                       })
                                     }
                                   };
-                                case mB.vpcRequestLinkSubjectToPC:
-                                case mB.vpcRequestLinkNotSubjectToPC:
-                                case mB.vpcRequestLinkDefault:
+                                case mW.vpcRequestLinkSubjectToPC:
+                                case mW.vpcRequestLinkNotSubjectToPC:
+                                case mW.vpcRequestLinkDefault:
                                   return (
-                                    (e = hf.vpcRequestLinkDefault),
-                                    a === mB.vpcRequestLinkSubjectToPC
-                                      ? (e = hf.vpcRequestLinkSubjectToPC)
-                                      : a === mB.vpcRequestLinkNotSubjectToPC &&
-                                        (e = hf.vpcRequestLinkNotSubjectToPC),
+                                    (e = hc.vpcRequestLinkDefault),
+                                    a === mW.vpcRequestLinkSubjectToPC
+                                      ? (e = hc.vpcRequestLinkSubjectToPC)
+                                      : a === mW.vpcRequestLinkNotSubjectToPC &&
+                                        (e = hc.vpcRequestLinkNotSubjectToPC),
                                     {
                                       wordsOfConsent: {
                                         title: o(e.titleTranslationKey),
@@ -31692,30 +31674,30 @@
                                       }
                                     }
                                   );
-                                case mB.consentCenterAllowAction:
+                                case mW.consentCenterAllowAction:
                                   return {
                                     wordsOfConsent: {
                                       text: o(
-                                        (e = hf.consentCenterAllowAction).textTranslationKey,
+                                        (e = hc.consentCenterAllowAction).textTranslationKey,
                                         { actionName: null == l ? void 0 : l.actionName }
                                       )
                                     }
                                   };
-                                case mB.consentCenterUpdateSettingNoValue:
+                                case mW.consentCenterUpdateSettingNoValue:
                                   return {
                                     wordsOfConsent: {
                                       text: o(
-                                        (e = hf.consentCenterUpdateSettingNoValue)
+                                        (e = hc.consentCenterUpdateSettingNoValue)
                                           .textTranslationKey,
                                         { settingName: null == l ? void 0 : l.settingName }
                                       )
                                     }
                                   };
-                                case mB.consentCenterUpdateSettingWithValue:
+                                case mW.consentCenterUpdateSettingWithValue:
                                   return {
                                     wordsOfConsent: {
                                       text: o(
-                                        (e = hf.consentCenterUpdateSettingWithValue)
+                                        (e = hc.consentCenterUpdateSettingWithValue)
                                           .textTranslationKey,
                                         {
                                           settingName: null == l ? void 0 : l.settingName,
@@ -31725,11 +31707,11 @@
                                       )
                                     }
                                   };
-                                case mB.allowMarketingEmailNotifications:
+                                case mW.allowMarketingEmailNotifications:
                                   return {
                                     wordsOfConsent: {
                                       pageTitle: o(
-                                        (e = hf.allowMarketingEmailNotifications)
+                                        (e = hc.allowMarketingEmailNotifications)
                                           .pageHeadingTranslationKey
                                       ),
                                       pageDescription: o(e.pageDescriptionTranslationKey),
@@ -31849,9 +31831,9 @@
                                   })(this, function (c) {
                                     switch (c.label) {
                                       case 0:
-                                        ((n = hg(hb(a, o, l), i, r)), (c.label = 1));
+                                        ((n = hh(hm(a, o, l), i, r)), (c.label = 1));
                                       case 1:
-                                        return (c.trys.push([1, 3, , 4]), [4, hm(e, t, n)]);
+                                        return (c.trys.push([1, 3, , 4]), [4, hd(e, t, n)]);
                                       case 2:
                                       case 3:
                                         return (c.sent(), [3, 4]);
@@ -31866,17 +31848,17 @@
                                   return new Promise(function (r, o) {
                                     var a = n.apply(e, t);
                                     function i(e) {
-                                      hw(a, r, o, i, l, "next", e);
+                                      hv(a, r, o, i, l, "next", e);
                                     }
                                     function l(e) {
-                                      hw(a, r, o, i, l, "throw", e);
+                                      hv(a, r, o, i, l, "throw", e);
                                     }
                                     i(void 0);
                                   });
                                 })();
                               },
                               getBase64EncodedAuditHeader: function (e) {
-                                return hg(hb(a, o, l), i, e);
+                                return hh(hm(a, o, l), i, e);
                               }
                             }
                           ]
@@ -31894,26 +31876,26 @@
               feature: "Feature.LegallySensitiveContent"
             }
           ),
-          hO = null,
-          hx = null,
-          hP = {
+          hg = null,
+          hw = null,
+          hS = {
             isEnabled: function () {
               return (
-                null === hO &&
-                  (hO = A.Guac.callBehaviour("app-policy")
+                null === hg &&
+                  (hg = A.Guac.callBehaviour("app-policy")
                     .then(function (e) {
                       return (null == e ? void 0 : e.UseAmpV2WizardForVpc) === !0;
                     })
                     .catch(function () {
                       return !1;
                     })),
-                hO
+                hg
               );
             },
             getExcludedRequestTypes: function () {
               return (
-                null === hx &&
-                  (hx = A.Guac.callBehaviour("app-policy")
+                null === hw &&
+                  (hw = A.Guac.callBehaviour("app-policy")
                     .then(function (e) {
                       var t;
                       return null != (t = null == e ? void 0 : e.AmpV2VpcExcludedRequestTypes)
@@ -31923,19 +31905,18 @@
                     .catch(function () {
                       return [];
                     })),
-                hx
+                hw
               );
             },
             launch: function (e) {
               var t,
                 r = e.recourseAction,
-                n = e.parentConsentTypes,
-                o = e.translate,
-                a = e.requestType,
-                i = e.requestDetails,
-                l = e.onClose;
+                n = e.translate,
+                o = e.requestType,
+                a = e.requestDetails,
+                i = e.onClose;
               ((t = {
-                flow: { name: "VPC", props: { requestType: a, requestDetails: i } },
+                flow: { name: "VPC", props: { requestType: o, requestDetails: a } },
                 surface: "AccessManagementUpsell",
                 extraProps: (function (e, t) {
                   var r = { usePrologue: e };
@@ -31950,12 +31931,9 @@
                 })(e.usePrologue, e.prologueCopy),
                 config: {
                   remoteParentRequest: {
-                    translate: o,
+                    translate: n,
                     useLegallySensitiveContent:
-                      A.LegallySensitiveContentService.useLegallySensitiveContentAndActions,
-                    launchAction: r,
-                    launchConsents: n,
-                    launchRecourseData: i
+                      A.LegallySensitiveContentService.useLegallySensitiveContentAndActions
                   }
                 }
               }),
@@ -32007,30 +31985,30 @@
                           Object.defineProperty(r, e, Object.getOwnPropertyDescriptor(n, e));
                         }),
                     r);
-                window.dispatchEvent(new CustomEvent(uF, { detail: o }));
+                window.dispatchEvent(new CustomEvent(uR, { detail: o }));
               })).then(function (e) {
                 var t;
                 (void 0 !== e.reason &&
                   "Completed" !== e.reason &&
                   "Cancelled" !== e.reason &&
-                  fA(fj.VerificationFailed, r, {
+                  fj(fO.VerificationFailed, r, {
                     error: "amp-v2-wizard ".concat("VPC", " flow exited as ").concat(e.reason),
                     flowId: null != (t = e.flowId) ? t : ""
                   }),
-                  l());
-              }, l);
+                  i());
+              }, i);
             }
           },
-          hj = (0, D.withTranslations)(
+          hO = (0, D.withTranslations)(
             function (e) {
               var t = e.translate;
               return (0, P.jsxs)($, {
-                store: dF,
+                store: dR,
                 children: [
-                  (0, P.jsx)(ho, { translate: t, vpcV2Handoff: hP }),
-                  (0, P.jsx)(hi, { translate: t }),
-                  (0, P.jsx)(hS, { translate: t }),
-                  (0, P.jsx)(uW, {})
+                  (0, P.jsx)(ht, { translate: t, vpcV2Handoff: hS }),
+                  (0, P.jsx)(hn, { translate: t }),
+                  (0, P.jsx)(hb, { translate: t }),
+                  (0, P.jsx)(uU, {})
                 ]
               });
             },
@@ -32047,7 +32025,7 @@
               feature: "Verification.Identity"
             }
           );
-        function hC(e, t, r, n, o, a, i) {
+        function hx(e, t, r, n, o, a, i) {
           try {
             var l = e[a](i),
               c = l.value;
@@ -32173,7 +32151,7 @@
                 return [
                   2,
                   new Promise(function (e) {
-                    var t = new CustomEvent(dW, {
+                    var t = new CustomEvent(dU, {
                       detail: {
                         featureName: r,
                         redirectLink: o,
@@ -32185,7 +32163,7 @@
                         namespace: h,
                         wizardIntent: b,
                         closeCallback: function (t) {
-                          e(t === fC.Granted);
+                          e(t === fx.Granted);
                         }
                       }
                     });
@@ -32200,10 +32178,10 @@
               return new Promise(function (n, o) {
                 var a = t.apply(e, r);
                 function i(e) {
-                  hC(a, n, o, i, l, "next", e);
+                  hx(a, n, o, i, l, "next", e);
                 }
                 function l(e) {
-                  hC(a, n, o, i, l, "throw", e);
+                  hx(a, n, o, i, l, "throw", e);
                 }
                 i(void 0);
               });
@@ -32211,11 +32189,11 @@
           }
         }),
           C()(function () {
-            pl &&
+            po &&
               (function e() {
-                var t = document.getElementById(pl);
+                var t = document.getElementById(po);
                 t
-                  ? (0, E.renderWithErrorBoundary)((0, P.jsx)(hj, {}), t)
+                  ? (0, E.renderWithErrorBoundary)((0, P.jsx)(hO, {}), t)
                   : window.requestAnimationFrame(e);
               })();
           }));
@@ -32224,4 +32202,4 @@
   window.Roblox &&
     window.Roblox.BundleDetector &&
     window.Roblox.BundleDetector.bundleDetected("AccessManagementUpsellV2"));
-//# sourceMappingURL=https://sourcemaps.rbxcdn.com/accessManagementUpsellV2-a50b6dcf9408f8ec.js.map
+//# sourceMappingURL=https://sourcemaps.rbxcdn.com/accessManagementUpsellV2-7f2a65b7bacaad88.js.map
