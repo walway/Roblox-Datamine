@@ -1,5 +1,5 @@
-// bundle: pageEnd___de1574761a5cf709148f8173d44ebbb9_m
-// files: ~/Generated/js/Roblox_TranslationResources_Common_PresenceResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_LoginResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_OneTimePasscodeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_CaptchaResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ForceAuthenticatorResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ForceTwoStepVerificationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ProofOfWorkChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ReauthenticationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_RostileChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_SecurityQuestionsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_PrivateAccessTokenChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_DeviceIntegrityChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_VerificationUpsellResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_AccountSettingsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_AccountSwitchResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_ControlsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_RecommendationsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_FeaturesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ProfileBadgesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_MessagesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Common_AlertsAndOptionsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Common_VisitGameResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_DownloadLandingResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ShopDialogResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Purchasing_RedeemGameCardResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_NotApprovedResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_PasskeyResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_TrackingResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_IdVerificationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_AgeVerificationUpsellResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ParentsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_FriendsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Verification_IdentityResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_SignUpResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Common_CaptchaResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_LandingResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Purchasing_PurchaseDialogResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_PremiumResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ItemResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ItemModelResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_GameLaunchGuestModeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_UserAgreementsResources_en_us_standard.js
+// bundle: pageEnd___6e2b47eaf74edfd4e887599d3e0fe2af_m
+// files: ~/Generated/js/Roblox_TranslationResources_Common_PresenceResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_LoginResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_OneTimePasscodeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_CaptchaResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ForceAuthenticatorResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ForceTwoStepVerificationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ProofOfWorkChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ReauthenticationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_RostileChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_SecurityQuestionsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_PrivateAccessTokenChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_DeviceIntegrityChallengeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_VerificationUpsellResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_AccountSettingsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_AccountSwitchResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_ControlsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_RecommendationsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_FeaturesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ProfileBadgesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_MessagesResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Common_AlertsAndOptionsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Common_VisitGameResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_DownloadLandingResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ShopDialogResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Purchasing_RedeemGameCardResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_NotApprovedResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Authentication_PasskeyResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_TrackingResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_IdVerificationResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_AgeVerificationUpsellResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ParentsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_FriendsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Verification_IdentityResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_PlayerSearchResultsResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Search_GlobalSearchResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Purchasing_PurchaseDialogResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_PremiumResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ItemResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_ItemModelResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_Feature_GameLaunchGuestModeResources_en_us_standard.js, ~/Generated/js/Roblox_TranslationResources_CommonUI_UserAgreementsResources_en_us_standard.js
 
 // ~/Generated/js/Roblox_TranslationResources_Common_PresenceResources_en_us_standard.js
 var Roblox = Roblox || {};
@@ -2195,248 +2195,42 @@ Roblox.Lang["Verification.Identity"] = {
   "Title.CameraUpsell2": "Bring Your Avatar To Life",
   "Title.ProcessingVerification": "Processing Verification"
 };
-Roblox.Lang["IdentityResources"] = Roblox.Lang["Verification.Identity"]; // ~/Generated/js/Roblox_TranslationResources_Authentication_SignUpResources_en_us_standard.js
+Roblox.Lang["IdentityResources"] = Roblox.Lang["Verification.Identity"]; // ~/Generated/js/Roblox_TranslationResources_Feature_PlayerSearchResultsResources_en_us_standard.js
 
 var Roblox = Roblox || {};
 Roblox.Lang = Roblox.Lang || {};
-Roblox.Lang["Authentication.SignUp"] = {
-  "Action.CodeResent": "Code Resent",
-  "Action.Continue": "Continue",
-  "Action.CreateAccount": "Create Account",
-  "Action.CreateAPasskey": "Create a passkey",
-  "Action.ExitSetup": "Exit Setup",
-  "Action.IUnderstand": "I Understand",
-  "Action.LinkAccount": "Link Account",
-  "Action.LogInCapitalized": "Log In",
-  "Action.Logout": "Log Out",
-  "Action.ReturnHome": "Return Home",
-  "Action.SignUp": "Sign up",
-  "Action.SignupAndSync": "Sign Up & Sync",
-  "Action.Submit": "Submit",
-  "Action.UseEmail": "Use email address",
-  "Action.UsePhoneNumber": "Use phone number",
-  "Action.VerifiedParentalConsentModal.ResendCode": "Resend Code ({time})",
-  "Description.AccountLinkingWarning":
-    "To link to an existing Roblox account, sign in and link them on the account settings page.",
-  "Description.AccountSwitchSignupLogoutOtherAccounts":
-    "By clicking Sign Up, you are acknowledging to log out of {startStylingTag}all your logged-in accounts{endStylingTag}.",
-  "Description.ChangeLater": "You can always change this later",
-  "Description.ContinueChildRequest": "Continue to complete your child's request. ",
-  "Description.EnterParentEmail":
-    "Enter your parent's email address to receive a verification code.",
-  "Description.LoginWithEmail": "You can sign into your account anytime with your email address.",
-  "Description.LogoutConfirmation":
-    "You’ll need to log out of your other Roblox accounts on this device before adding a new account\t",
-  "Description.NoRealName": "Do not use your real name.",
-  "Description.Or": "OR",
-  "Description.ParentLogoutConfirmation":
-    "You’ll need to log out of your other Roblox accounts on this device before adding a new account with parent privileges",
-  "Description.PrivacyPolicy": "Privacy Policy",
-  "Description.SelectBirthdate":
-    "Start by entering your birthday. This helps confirm you're an adult. Later, you'll add parent privileges and link to your child's account. ",
-  "Description.SignUpAgreement":
-    "By clicking {spanStart}Sign Up{spanEnd}, you are agreeing to the {termsOfUseLink} including the arbitration clause and you are acknowledging the {privacyPolicyLink}",
-  "Description.SignupCompliance.PrivacyPolicyAck": "Acknowledge the {privacyPolicyLink}",
-  "Description.SignupCompliance.TermsOfUse": "I have reviewed and agreed to the {termsOfUseLink}",
-  "Description.SignupOtpModal.LegalCheckboxLabel":
-    "By checking the box and clicking continue, you are giving consent to your child to access Roblox.",
-  "Description.SignUpPage":
-    "Sign up to make your Roblox account and enjoy millions of free experiences.",
-  "Description.TermsOfService": "Terms of Service",
-  "Description.Try": "Try",
-  "Description.UnderAgeAlert": "You do not meet the minimum age requirement to play Roblox.",
-  "Description.VerificationPageMultiStep":
-    "By clicking Continue, you are agreeing to the Terms of Use including the arbitration clause and you are acknowledging the Privacy Policy.",
-  "Description.VerifiedParentalConsentEmail.Body":
-    "{paragraphStart}Your child is requesting to create the account {emphasisStart}{userName}{emphasisEnd} on Roblox, an online entertainment platform that enables kids to imagine, create, and play together in immersive, user-generated 3D worlds.{paragraphEnd}{paragraphStart}Your child has provided us with a username, date of birth, and a parent's email address to create an account. In order for your child to complete the account creation process, you must consent to your child’s use of Roblox. You must enter the code below to complete the sign up flow and consent to your child’s use of Roblox. By entering the code, you and your child agree to the Roblox {aTagStartWithHref}{termsLink}{hrefEnd}Terms{aTagEnd}, including arbitration, and (b) You will supervise and be solely responsible for your child’s use of Roblox.{paragraphEnd}{paragraphStart}{emphasisStart}Verification Code: {code}{emphasisEnd}{paragraphEnd}{lineBreak}{paragraphStart}{emphasisStart}Parent's Guide To Roblox{emphasisEnd}{paragraphEnd}{paragraphStart}We recommend that you visit our {aTagStartWithHref}{parentsLink}{hrefEnd}Parent’s Guide{aTagEnd} to help yourself get acquainted with our platform and find helpful tips for creating a positive experience for your kids on Roblox.{paragraphEnd}{paragraphStart}{emphasisStart}Privacy{emphasisEnd}{paragraphEnd}{paragraphStart}You may remove your child's account anytime by contacting customer service at {aTagStartWithHref}{supportLink}{hrefEnd}https://www.roblox.com/support{aTagEnd}. Your email will not be used for any other purpose, disclosed to third parties, or combined with any other personal information collected from your child. Please review our {aTagStartWithHref}{privacyPolicyLink}{hrefEnd}Privacy Policy{aTagEnd} for more information.{paragraphEnd}",
-  "Description.VerifiedParentalConsentEmail.Footer":
-    "Do not reply to this email directly. You are receiving this email because there has been an attempt to sign up for a Roblox account with your email. If you did not make this request, please disregard this email.",
-  "Description.VerifiedParentalConsentEmail.Links":
-    "{aTagStartWithHref}{TwoStepVerificationArticleLink}{hrefEnd}Learn More{aTagEnd} | {aTagStartWithHref}{AccountSafetyArticleLink}{hrefEnd}Account Safety{aTagEnd} | {aTagStartWithHref}{supportPageLink}{hrefEnd}Support{aTagEnd}",
-  "Description.VerifiedParentalConsentEmail.Subject": "Approval Request To Sign Up For Roblox",
-  "Description.VerifiedParentalConsentModal.EnterCode": "Enter the code we just sent to {email}",
-  "Description.VerifiedParentalConsentModal.EnterCodeNoEmailReveal":
-    "Enter the code we just sent to your parent's email.",
-  "Description.VerifiedParentalConsentModal.EnterContinue":
-    "By entering the code and clicking Continue, you are giving consent to your child to access Roblox.",
-  "Description.VerifiedParentalConsentModal.EnterEmail":
-    "Enter your parent's email address to receive a verification code. ",
-  "Description.VerifiedParentalConsentModal.LegalCheckboxLabel":
-    "By checking this box and clicking continue, you are giving consent to your child to access Roblox.",
-  "GuestSignUpAB.Action.SignUp": "Sign Up",
-  "Header.ConfirmSignUp": "Confirm Sign Up",
-  "Header.LogOutOfOtherAccounts": "Log Out of Other Accounts",
-  "Heading.CannotSignUp": "Can't Sign Up",
-  "Heading.ConnectFacebook": "Connect to Facebook",
-  "Heading.CreateAnAccount": "CREATE AN ACCOUNT",
-  "Heading.CreateANewAccount": "Create A New Account",
-  "Heading.CustomizeYourCharacter": "Customize Your Character",
-  "Heading.FacebookSignupAlmostDone": "{firstname}, YOU'RE ALMOST DONE",
-  "Heading.FinishAccountCreation": "Create Your Roblox Account",
-  "Heading.LoginHaveFun": "Log in and start having fun!",
-  "Heading.SelectStartingAvatar": "Select a Starting Character",
-  "Heading.SignupHaveFun": "Sign up and start having fun!",
-  "Heading.UserGreetingWithName": "Hi {username}",
-  "Heading.VerifiedParentalConsentModal.AddHeader": "Add Parent's Email",
-  "Heading.VerifiedParentalConsentModal.VerifyHeader": "Verify Your Parent's Email",
-  "Label.About": "About",
-  "Label.AlreadyHaveRobloxAccount": "Already have a Roblox account?",
-  "Label.AlreadyRegistered": "Already registered?",
-  "Label.Birthday": "Birthday",
-  "Label.BirthdayRequired": "Birthday (Required)",
-  "Label.BirthdayWithColumn": "Birthday:",
-  "Label.ConfirmPassword": "Confirm password",
-  "Label.ContinueOrExit": "Continue or Exit",
-  "Label.Day": "Day",
-  "Label.DesiredUsername": "Desired Username:",
-  "Label.Email": "Email",
-  "Label.EmailAddress": "Email Address",
-  "Label.EmailOptional": "Email Address (Optional)",
-  "Label.EmailRequirementsUnder13": "Parent's Email",
-  "Label.EmailRequirementsUnder13Optional": "Parent's Email (Optional)",
-  "Label.ErrorAcceptTermsToContinue":
-    "You must agree to the Terms of Use and acknowledge the Privacy Policy to continue",
-  "Label.FacebookNotLinked":
-    "Your Facebook account is not linked to any Roblox account. Please sign up for a Roblox account.",
-  "Label.FacebookSignupUsername": "Create Roblox username:",
-  "Label.Female": "Female",
-  "Label.Gender": "Gender",
-  "Label.GenderRequired": "Gender is required.",
-  "Label.GenderWithColumn": "Gender:",
-  "Label.Male": "Male",
-  "Label.Month": "Month",
-  "Label.OptionalGender": "Gender (optional)",
-  "Label.OrCreateAPasskey": "Or create a passkey",
-  "Label.ParentEmailAddress": "Parent's Email Address",
-  "Label.Password": "Password",
-  "Label.PasswordPlaceholder": "At least 8 characters",
-  "Label.PasswordRequirements": "Password (min length 8)",
-  "Label.PhoneNumber": "Phone Number",
-  "Label.Platforms": "Platforms",
-  "Label.Play": "Play",
-  "Label.PleaseAgreeToTerms": "Please agree to our Terms of Use and Privacy Policy.",
-  "Label.Required": "Required",
-  "Label.RetypePassword": "Confirm Password",
-  "Label.RetypePasswordPlaceholder": "Enter your password again",
-  "Label.SignupButtonText": "Sign Up and Play!",
-  "Label.SignUpWith": "or sign up with",
-  "Label.TermsOfUse": "Terms of Use",
-  "Label.Username": "Username",
-  "Label.UsernameCharacterLimit": "3-20 alphanumeric characters, no spaces.",
-  "Label.UsernameHint": "Username (don't use your real name)",
-  "Label.UsernameRequirements": "Username (length 3-20, _ is allowed)",
-  "Label.VerificationCode": "Verification Code",
-  "Label.VerifiedParentalConsentModal.ChangeEmail": "Change Email Address",
-  "Label.VerifiedParentalConsentModal.ExampleEmail": "example@email.com",
-  "Label.Year": "Year",
-  "Message.Password.MinLength": "Min length 8",
-  "Message.Username.NoRealNameUse": "Don't use your real name",
-  "Reponse.PasswordKISAComplexity":
-    "A password containing a combination of uppercase and lowercase letter and number are required.",
-  "Response.BadUsername": "Username not appropriate for Roblox.",
-  "Response.BadUsernameForWeChat": "Username is not appropriate",
-  "Response.BirthdayInvalid": "This birthday is invalid.",
-  "Response.BirthdayMustBeSetFirst": "Birthday must be set first.",
-  "Response.CaptchaMismatchError": "Words do not match.",
-  "Response.CaptchaNotEnteredError": "Please fill out the Captcha",
-  "Response.DifferentPasswordRequired":
-    "Please use a different password. Use any special characters or numbers.",
-  "Response.ErrorTryAgain": "Something went wrong. Please try again later.",
-  "Response.FacebookConnectionError": "Error while retrieving values from Facebook.",
-  "Response.FacebookLoginAge": "Facebook login can only be used by users above 13.",
-  "Response.GlobalAppAccessError": "The account is unable to log in.",
-  "Response.InvalidBirthday": "Invalid birthday.",
-  "Response.InvalidEmail": "Invalid email address.",
-  "Response.InvalidPassword": "Invalid password.",
-  "Response.InvalidPhoneNumber": "Invalid phone number.",
-  "Response.JavaScriptRequired": "JavaScript is required to submit this form.",
-  "Response.PasswordBadLength": "Passwords must be between 8 and 200 characters long.",
-  "Response.PasswordComplexity": "Please create a more complex password.",
-  "Response.PasswordConfirmation": "Please enter a password confirmation.",
-  "Response.PasswordContainsUsernameError": "Password shouldn't match username.",
-  "Response.PasswordKISAComplexity":
-    "A password containing a combination of uppercase and lowercase letter and number are required.",
-  "Response.PasswordMismatch": "Passwords do not match.",
-  "Response.PasswordWrongShort": "Passwords must be at least 8 characters long.",
-  "Response.PhoneNumberAlreadyLinked": "Number is already associated with another account.",
-  "Response.PleaseEnterPassword": "Please enter a password.",
-  "Response.PleaseEnterUsername": "Please enter a username.",
-  "Response.SocialAccountCreationFailed": "Account creation failed",
-  "Response.SpaceOrSpecialCharaterError": "Spaces and special characters are not allowed.",
-  "Response.TooManyAccountsWithSameEmailError": "Too many accounts use this email.",
-  "Response.UnknownError": "Sorry! An unknown error occurred. Please try again later.",
-  "Response.UserAccountCreatedButLoginFailed":
-    "Account was successfully created but cannot be logged in at this time. Please try again later.",
-  "Response.UsernameAllowedCharactersError": "Usernames may only contain letters, numbers, and _.",
-  "Response.UsernameAlreadyInUse": "This username is already in use.",
-  "Response.UsernameExplicit": "This username is not allowed, please try another.",
-  "Response.UsernameInvalid": "Please enter a valid username.",
-  "Response.UsernameInvalidCharacters": "Only a-z, A-Z, 0-9 and _ are allowed.",
-  "Response.UsernameInvalidLength": "Usernames can be 3 to 20 characters long.",
-  "Response.UsernameInvalidUnderscore": "Usernames cannot start or end with _.",
-  "Response.UsernameNotAvailable": "Username not available. Please try again.",
-  "Response.UsernameOrPasswordIncorrect": "Your username or password is incorrect.",
-  "Response.UsernamePasswordRequired": "Username and Password are required.",
-  "Response.UsernamePrivateInfo": "Username might contain private information.",
-  "Response.UsernameRequired": "Username is required.",
-  "Response.UsernameTakenTryAgain": "This username is already taken! Please try a different one.",
-  "Response.UsernameTooManyUnderscores": "Usernames can have at most one _.",
-  "Title.SignUpPage": "Sign Up - Roblox"
+Roblox.Lang["Feature.PlayerSearchResults"] = {
+  "Action.AcceptRequest": "Accept Request",
+  "Action.AddFriend": "Add friend",
+  "Action.Chat": "Chat",
+  "Action.JoinGame": "Join",
+  "Action.RequestSent": "Request Sent",
+  "Heading.PlayerResultsFor": "People Results for {startSpan}{keyword}{endSpan}",
+  "Label.AlsoKnownAsAbbreviation": "Previous username",
+  "Label.EnterMinCharacters": "Please enter at least {keywordMinLength} characters.",
+  "Label.NoMatchesAvailable": 'There are no matches available for "{keyword}"',
+  "Label.NoResultsFound": "No results found",
+  "Label.Offline": "Offline",
+  "Label.Online": "Online",
+  "Label.Previously": "Previously",
+  "Label.PrimaryGroup": "Primary Community",
+  "Label.Search": "Search",
+  "Label.ShowingCountOfResults":
+    "{countStartSpan}{resultsStart} - {resultsInPage} of {countEndSpan}{totalStartSpan}{totalResults}{totalEndSpan}",
+  "Label.ThisIsYou": "This is you",
+  "Label.UnsafeInput": "You have entered unsafe input. Please try your search again.",
+  "Label.YouAreFollowing": "You are following",
+  "Label.YouAreFriends": "You are friends"
 };
-Roblox.Lang["SignUpResources"] = Roblox.Lang["Authentication.SignUp"]; // ~/Generated/js/Roblox_TranslationResources_Common_CaptchaResources_en_us_standard.js
+Roblox.Lang["PlayerSearchResultsResources"] = Roblox.Lang["Feature.PlayerSearchResults"]; // ~/Generated/js/Roblox_TranslationResources_Search_GlobalSearchResources_en_us_standard.js
 
 var Roblox = Roblox || {};
 Roblox.Lang = Roblox.Lang || {};
-Roblox.Lang["Common.Captcha"] = {
-  "Response.CaptchaErrorFailedToLoad":
-    "We need to verify that you are human. Please disable your browser blocker and refresh the page, or try a different browser.",
-  "Response.CaptchaErrorFailedToVerify": "Temporary error. Please try again in a few minutes.",
-  "Response.CaptchaErrorVerifyFailed": "Temporary error. Please try again in a few minutes"
+Roblox.Lang["Search.GlobalSearch"] = {
+  "Response.NoExactSearchResults": "No results found for <b>{query}</b>.",
+  "Response.ShowingNormalSearchResults": "Showing results for <b>{query}</b> (without quotes):"
 };
-Roblox.Lang["CaptchaResources"] = Roblox.Lang["Common.Captcha"]; // ~/Generated/js/Roblox_TranslationResources_Feature_LandingResources_en_us_standard.js
-
-var Roblox = Roblox || {};
-Roblox.Lang = Roblox.Lang || {};
-Roblox.Lang["Feature.Landing"] = {
-  "Action.Cancel": "Cancel",
-  "Action.Continue": "Continue",
-  "Action.LogIn": "Log In",
-  "Description.ExternalWebsiteRedirect":
-    "Heads up, Robloxian – by clicking “continue,” you will be redirected to an external website that is not owned nor operated by Roblox. They may have different terms and privacy policies.",
-  "Description.RobloxOnDeviceParagraphOne":
-    "You can access Roblox on all modern smartphones, desktops, Xbox One, Oculus Rift, and soon on Daydream and Cardboard. Roblox adventures are accessible from any device, so players can imagine with their friends regardless of where they are.",
-  "Description.RobloxOnDeviceParagraphTwo":
-    "You can access Roblox on PC, Mac, iOS, Android, Amazon Devices, and Xbox One. Roblox adventures are accessible from any device, so players can imagine with their friends regardless of where they are.",
-  "Description.WhatIsRobloxParagraphOne":
-    "Roblox helps power the imagination of people around the world. As the largest growing social experience platform, over 44 million people come to Roblox every month to create adventures, play games, roleplay, and learn with friends. We call it the ‘Imagination Platform’.",
-  "Heading.LeavingRoblox": "You are leaving Roblox",
-  "Heading.RobloxOnDevice": "Roblox on your device",
-  "Heading.WhatIsRoblox": "What is Roblox?",
-  "Heading.WhatIsRobloxParagraphTwo":
-    "Roblox is the best place to Imagine with Friends. With the largest online user-generated experience platform, and over 15 million experiences created by users, Roblox is the #1 site for kids and teens (comScore). Every day, virtual explorers come to Roblox to create adventures, play games, role play, and learn with their friends in a family-friendly, immersive, 3D environment.",
-  "Label.About": "About",
-  "Label.BrazilContentRatingLogoSubtitle": "Online purchases",
-  "Label.BrazilContentRatingLogoTitle": "ADVISORY RATING: 12 YEARS OLD",
-  "Label.GetOnGooglePlay": "Get it on Google Play",
-  "Label.ItalyContentRatingLogoTitle": "In-Experience Purchases (Includes Random Items)",
-  "Label.MetaQuestStoreRobloxApp": "Roblox on Meta Quest",
-  "Label.Platforms": "Platforms",
-  "Label.Play": "Play",
-  "Label.PlayStationStoreRobloxApp": "Roblox on PlayStation",
-  "Label.RobloxAmazonStore": "Roblox on Amazon Store",
-  "Label.RobloxAppStore": "Roblox on App Store",
-  "Label.RobloxOnXbox": "Roblox on Xbox Store",
-  "Label.RobloxWindowsStore": "Roblox on Windows Store",
-  "Link.AmazonStoreRobloxApp": "https://www.amazon.com/Roblox-Corporation/dp/B00NUF4YOA",
-  "Link.AppleAppStoreRobloxApp": "https://itunes.apple.com/us/app/roblox-mobile/id431946152",
-  "Link.GooglePlayStoreRobloxApp":
-    "https://play.google.com/store/apps/details?id=com.roblox.client&hl=en&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1",
-  "Link.MetaQuestStoreRobloxApp": "https://www.meta.com/experiences/5804350719675181/",
-  "Link.PlayStationStoreRobloxAppV2": "https://www.playstation.com/en-us/games/roblox/",
-  "Link.WindowsStoreRobloxApp": "https://www.xbox.com/en-us/games/store/roblox/9nblgggzm6wm",
-  "Link.XboxStoreRobloxApp": "https://www.xbox.com/en-us/games/store/roblox/bq1tn1t79v9k"
-};
-Roblox.Lang["LandingResources"] = Roblox.Lang["Feature.Landing"]; // ~/Generated/js/Roblox_TranslationResources_Purchasing_PurchaseDialogResources_en_us_standard.js
+Roblox.Lang["GlobalSearchResources"] = Roblox.Lang["Search.GlobalSearch"]; // ~/Generated/js/Roblox_TranslationResources_Purchasing_PurchaseDialogResources_en_us_standard.js
 
 var Roblox = Roblox || {};
 Roblox.Lang = Roblox.Lang || {};
