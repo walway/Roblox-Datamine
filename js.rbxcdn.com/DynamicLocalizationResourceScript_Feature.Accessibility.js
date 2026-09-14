@@ -58,7 +58,8 @@ Roblox.LangDynamic["Feature.Accessibility"] = {
   "Heading.ExclusiveThemes": "Exclusive themes",
   "Description.DeviceAppThemeExclusive":
     "Explore Plus exclusive themes to customize your experience. Try them now and subscribe to save your selection.",
-  "AppTheme.Classic": "Classic"
+  "AppTheme.Classic": "Classic",
+  "AppTheme.CategorySpecial": "Special"
 };
 window.Roblox &&
   window.Roblox.BundleDetector &&
