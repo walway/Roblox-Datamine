@@ -71,7 +71,8 @@ Roblox.LangDynamic["Feature.ExperienceDetails"] = {
   "Label.MadeByCreator": "Made by {creatorName}",
   "Label.MadeByCreatorWithBuild": "Made by {creatorName} with Build",
   "Description.MadeWithBuild": "Build games are AI generated",
-  "Label.MadeByVerifiedCreatorWithBuild": "Made by {creatorName} with Build"
+  "Label.MadeByVerifiedCreatorWithBuild": "Made by {creatorName} with Build",
+  "PlayButtonText.Playtest": "Preview"
 };
 window.Roblox &&
   window.Roblox.BundleDetector &&
